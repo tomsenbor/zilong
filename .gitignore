@@ -36,3 +36,5 @@ design-qa.md
 design-reference/
 server-app-fix.js
 deploy-docker.cmd
+
+.edge-qa-profile/
