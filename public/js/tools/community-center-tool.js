@@ -38,15 +38,21 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
     <section class="${uiClass("card community-dashboard")}">
       <div class="community-percent-wrap"><strong id="community-percent">0%</strong><span>总进度</span></div>
       <div class="community-controls">
-        <label><input type="radio" name="community-filter" value="all" checked> 全部</label>
-        <label><input type="radio" name="community-filter" value="incomplete"> 未完成</label>
-        <label><input type="radio" name="community-filter" value="season"> 当前季节</label>
-        <label for="community-season">季节</label>
-        <select class="${uiClass("select")}" id="community-season">${Object.keys(seasonNames).map((season) => `<option>${season}</option>`).join("")}</select>
-        <button class="${uiClass("btn secondary")}" id="community-export" type="button">导出进度</button>
-        <label class="${uiClass("btn secondary file-button")}" for="community-import">导入进度</label>
-        <input id="community-import" type="file" accept="application/json" hidden>
-        <button class="${uiClass("btn secondary")}" id="community-reset" type="button">重置</button>
+        <div class="community-filter-group">
+          <label><input type="radio" name="community-filter" value="all" checked> 全部</label>
+          <label><input type="radio" name="community-filter" value="incomplete"> 未完成</label>
+          <label><input type="radio" name="community-filter" value="season"> 当前季节</label>
+        </div>
+        <div class="community-season-group">
+          <label for="community-season">季节</label>
+          <select class="${uiClass("select")}" id="community-season">${Object.keys(seasonNames).map((season) => `<option>${season}</option>`).join("")}</select>
+        </div>
+        <div class="community-action-group">
+          <button class="${uiClass("btn secondary")}" id="community-export" type="button">导出进度</button>
+          <label class="${uiClass("btn secondary file-button")}" for="community-import">导入进度</label>
+          <input id="community-import" type="file" accept="application/json" hidden>
+          <button class="${uiClass("btn secondary")}" id="community-reset" type="button">重置</button>
+        </div>
       </div>
     </section>
     <section id="community-content" class="tool-content">${loading("正在读取收集包…")}</section>

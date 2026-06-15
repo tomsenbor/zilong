@@ -1106,6 +1106,24 @@ textarea {
   gap: 10px;
 }
 
+.community-filter-group,
+.community-season-group,
+.community-action-group {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.community-season-group {
+  flex-wrap: nowrap;
+}
+
+.community-season-group .select {
+  min-width: 112px;
+}
+
 .community-room {
   margin-bottom: 24px;
 }
@@ -1588,6 +1606,23 @@ textarea {
     text-align: left;
   }
 
+  .crop-ranking-row > .crop-ranking-value {
+    display: flex;
+    min-width: 0;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: right;
+  }
+
+  .crop-ranking-value::before {
+    content: attr(data-mobile-label) "：";
+    flex: 0 0 auto;
+    color: var(--color-muted);
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
   .crop-name {
     align-items: flex-start;
   }
@@ -1602,6 +1637,38 @@ textarea {
 
   .community-dashboard {
     display: grid;
+  }
+
+  .community-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .community-filter-group {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .community-filter-group label {
+    min-width: 0;
+  }
+
+  .community-season-group {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .community-action-group {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .community-action-group .btn,
+  .community-action-group .file-button {
+    width: 100%;
   }
 }
 
@@ -1619,10 +1686,38 @@ textarea {
   }
 
   .home-hero-copy h1 {
-    font-size: clamp(1.85rem, 10vw, 2.25rem);
+    font-size: clamp(1.62rem, 8.5vw, 2rem);
   }
 
   .home-search-card {
     padding: 8px;
+  }
+
+  .home-quick-actions {
+    gap: 8px;
+  }
+
+  .home-quick-actions .btn {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .home-quick-actions .btn.ghost,
+  .home-quick-actions .btn.btn-ghost {
+    border-color: var(--border-light);
+    background: var(--color-surface);
+    color: var(--color-primary);
+  }
+
+  .community-filter-group {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .community-season-group {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .community-action-group {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

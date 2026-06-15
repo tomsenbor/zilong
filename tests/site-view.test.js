@@ -274,6 +274,9 @@ describe("UI Kit v4 refinement public views", () => {
     expect(components).not.toContain(".item-dialog-image");
     expect(components).not.toContain(".item-dialog-visual");
     expect(components).toContain("@media (max-width: 480px)");
+    expect(components).toContain("font-size: clamp(1.62rem, 8.5vw, 2rem)");
+    expect(components).toContain(".home-quick-actions .btn.ghost");
+    expect(components).toContain(".home-quick-actions .btn.btn-ghost");
     expect(components).toMatch(/\.nav-admin\s*\{[\s\S]*display:\s*none/);
     expect(components).toMatch(/\.page-header__media\s*\{[\s\S]*display:\s*none/);
     expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-ranking-row\s*\{[\s\S]*grid-template-columns:\s*1fr/);

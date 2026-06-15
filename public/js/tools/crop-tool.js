@@ -11,7 +11,7 @@ const metric = (label, value, note) =>
 function resultRow(item) {
   return `<article class="crop-ranking-row">
     <div class="crop-name">${toolImage(item.image, item.name)}<div class="crop-name-copy"><strong class="crop-name-main">${escapeHtml(item.name)}</strong><small class="crop-harvest-note">收获：${item.harvestDays.join("、")} 日</small></div></div>
-    <span>${item.harvests} 次</span><span>${formatGold(item.cost)}</span><span>${formatGold(item.profit)}</span><span>${formatGold(item.dailyProfit)}</span>
+    <span class="crop-ranking-value" data-mobile-label="收获次数">${item.harvests} 次</span><span class="crop-ranking-value" data-mobile-label="启动成本">${formatGold(item.cost)}</span><span class="crop-ranking-value" data-mobile-label="净利润">${formatGold(item.profit)}</span><span class="crop-ranking-value" data-mobile-label="日均利润">${formatGold(item.dailyProfit)}</span>
     <details><summary>计算过程</summary>${item.steps.map((step) => `<p>${escapeHtml(step)}</p>`).join("")}</details>
   </article>`;
 }
