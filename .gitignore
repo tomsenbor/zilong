@@ -8,3 +8,31 @@ test-results/
 .superpowers/
 npm-debug.log*
 .npm-cache/
+
+# local/private env
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# local logs
+*.log
+.codex-*.log
+
+# local browser/test profile
+edge-qa-profile/
+
+# local archives/backups
+*.tar.gz
+*.zip
+
+# local screenshots/check images
+tmp-*.png
+hot-guide-card-height-*.png
+stardew-ui-final-*.png
+
+# local design/reference drafts
+design-qa.md
+design-reference/
+server-app-fix.js
+deploy-docker.cmd
