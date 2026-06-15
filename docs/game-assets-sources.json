@@ -1,0 +1,672 @@
+{
+  "generatedAt": "2026-06-12T15:32:10.672Z",
+  "source": "https://stardewvalleywiki.com/",
+  "downloaded": [
+    {
+      "dataset": "cooking",
+      "name": "生鱼片",
+      "filename": "36px-Sashimi.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png",
+      "bytes": 281
+    },
+    {
+      "dataset": "cooking",
+      "name": "南瓜汤",
+      "filename": "36px-Pumpkin_Soup.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/59/Pumpkin_Soup.png",
+      "bytes": 343
+    },
+    {
+      "dataset": "cooking",
+      "name": "三倍浓缩咖啡",
+      "filename": "36px-Triple_Shot_Espresso.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png",
+      "bytes": 316
+    },
+    {
+      "dataset": "cooking",
+      "name": "姜汁汽水",
+      "filename": "36px-Ginger_Ale.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Ginger_Ale.png",
+      "bytes": 283
+    },
+    {
+      "dataset": "cooking",
+      "name": "粉红蛋糕",
+      "filename": "36px-Pink_Cake.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png",
+      "bytes": 309
+    },
+    {
+      "dataset": "cooking",
+      "name": "水果沙拉",
+      "filename": "36px-Fruit_Salad.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Fruit_Salad.png",
+      "bytes": 353
+    },
+    {
+      "dataset": "items",
+      "name": "铱锭",
+      "filename": "36px-Iridium_Bar.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png",
+      "bytes": 309
+    },
+    {
+      "dataset": "items",
+      "name": "电池组",
+      "filename": "36px-Battery_Pack.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/25/Battery_Pack.png",
+      "bytes": 346
+    },
+    {
+      "dataset": "items",
+      "name": "恐龙蛋",
+      "filename": "36px-Dinosaur_Egg.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/a1/Dinosaur_Egg.png",
+      "bytes": 346
+    },
+    {
+      "dataset": "items",
+      "name": "兔子的脚",
+      "filename": "36px-Rabbit's_Foot.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+      "bytes": 324
+    },
+    {
+      "dataset": "items",
+      "name": "松露",
+      "filename": "36px-Truffle.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png",
+      "bytes": 355
+    },
+    {
+      "dataset": "items",
+      "name": "上古水果酒",
+      "filename": "36px-Wine.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png",
+      "bytes": 341
+    },
+    {
+      "dataset": "items",
+      "name": "鱼子酱",
+      "filename": "36px-Caviar.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/8/89/Caviar.png",
+      "bytes": 294
+    },
+    {
+      "dataset": "items",
+      "name": "自动抚摸机",
+      "filename": "36px-Auto-Petter.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/9/9c/Auto-Petter.png",
+      "bytes": 478
+    },
+    {
+      "dataset": "items",
+      "name": "祝福雕像",
+      "filename": "36px-Statue_Of_Blessings.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Statue_Of_Blessings.png",
+      "bytes": 881
+    },
+    {
+      "dataset": "items",
+      "name": "矮人王雕像",
+      "filename": "36px-Statue_Of_The_Dwarf_King.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Statue_Of_The_Dwarf_King.png",
+      "bytes": 876
+    },
+    {
+      "dataset": "items",
+      "name": "铱镰刀",
+      "filename": "36px-Iridium_Scythe.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Iridium_Scythe.png",
+      "bytes": 378
+    },
+    {
+      "dataset": "skills",
+      "name": "采集",
+      "filename": "36px-Foraging_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Foraging_Skill_Icon.png",
+      "bytes": 358
+    },
+    {
+      "dataset": "skills",
+      "name": "战斗",
+      "filename": "36px-Combat_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Combat_Skill_Icon.png",
+      "bytes": 364
+    },
+    {
+      "dataset": "skills",
+      "name": "精通系统",
+      "filename": "36px-Mastery_Cave.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/eb/Mastery_Cave.png",
+      "bytes": 13745
+    },
+    {
+      "dataset": "quests",
+      "name": "Joja 发展申请书",
+      "filename": "36px-Joja_Cola.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Joja_Cola.png",
+      "bytes": 239
+    },
+    {
+      "dataset": "quests",
+      "name": "哥布林问题",
+      "filename": "36px-Void_Mayonnaise.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Void_Mayonnaise.png",
+      "bytes": 285
+    },
+    {
+      "dataset": "quests",
+      "name": "海盗的妻子",
+      "filename": "36px-War_Memento.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/a7/War_Memento.png",
+      "bytes": 240
+    },
+    {
+      "dataset": "quests",
+      "name": "齐先生的五彩农场",
+      "filename": "36px-Qi_Gem.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/78/Qi_Gem.png",
+      "bytes": 280
+    },
+    {
+      "dataset": "festivals",
+      "name": "月光水母起舞",
+      "filename": "36px-Moonlight_Jellies_Banner.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Moonlight_Jellies_Banner.png",
+      "bytes": 603
+    },
+    {
+      "dataset": "festivals",
+      "name": "万灵节",
+      "filename": "36px-Golden_Pumpkin.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+      "bytes": 402
+    },
+    {
+      "dataset": "festivals",
+      "name": "夜市",
+      "filename": "36px-Pearl.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+      "bytes": 257
+    },
+    {
+      "dataset": "locations",
+      "name": "秘密森林",
+      "filename": "36px-Hardwood.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Hardwood.png",
+      "bytes": 322
+    },
+    {
+      "dataset": "quests",
+      "name": "社区中心",
+      "filename": "36px-Junimo.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Junimo_Bundle.png",
+      "bytes": 2236
+    },
+    {
+      "dataset": "quests",
+      "name": "深处的危险",
+      "filename": "36px-Danger_In_The_Deep.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/cb/MinesEntrance.png",
+      "bytes": 15911
+    },
+    {
+      "dataset": "festivals",
+      "name": "夏威夷宴会",
+      "filename": "36px-Soup.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/af/Luau.png",
+      "bytes": 15593
+    },
+    {
+      "dataset": "festivals",
+      "name": "星露谷展览会",
+      "filename": "36px-Star_Token.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/29/Token.png",
+      "bytes": 188
+    },
+    {
+      "dataset": "festivals",
+      "name": "冬日星盛宴",
+      "filename": "36px-Secret_Gift.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/d8/Gift_Icon.png",
+      "bytes": 271
+    },
+    {
+      "dataset": "locations",
+      "name": "农场",
+      "filename": "36px-Farmhouse.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e5/Farm_Map_Selection.png",
+      "bytes": 11391
+    },
+    {
+      "dataset": "locations",
+      "name": "鹈鹕镇",
+      "filename": "36px-Town.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/25/Pelican_Town.png",
+      "bytes": 24437
+    },
+    {
+      "dataset": "locations",
+      "name": "海滩",
+      "filename": "36px-Beach.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/d7/BeachForageLocations.png",
+      "bytes": 10099
+    },
+    {
+      "dataset": "locations",
+      "name": "山区",
+      "filename": "36px-Mountain.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/28/MountainForageLocations.png",
+      "bytes": 8070
+    },
+    {
+      "dataset": "locations",
+      "name": "沙漠",
+      "filename": "36px-Desert.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/a3/DesertForageLocations.png",
+      "bytes": 18870
+    },
+    {
+      "dataset": "locations",
+      "name": "火山地牢",
+      "filename": "36px-Volcano_Dungeon.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/d3/VolcanoDungeon_Entryway.png",
+      "bytes": 8741
+    },
+    {
+      "dataset": "community-center/spring-foraging-bundle",
+      "name": "野山葵",
+      "filename": "36px-Wild_Horseradish.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/9/90/Wild_Horseradish.png",
+      "bytes": 400
+    },
+    {
+      "dataset": "community-center/spring-foraging-bundle",
+      "name": "黄水仙",
+      "filename": "36px-Daffodil.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png",
+      "bytes": 427
+    },
+    {
+      "dataset": "community-center/spring-foraging-bundle",
+      "name": "韭葱",
+      "filename": "36px-Leek.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/57/Leek.png",
+      "bytes": 374
+    },
+    {
+      "dataset": "community-center/spring-foraging-bundle",
+      "name": "蒲公英",
+      "filename": "36px-Dandelion.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Dandelion.png",
+      "bytes": 367
+    },
+    {
+      "dataset": "community-center/summer-foraging-bundle",
+      "name": "香味浆果",
+      "filename": "36px-Spice_Berry.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png",
+      "bytes": 390
+    },
+    {
+      "dataset": "community-center/summer-foraging-bundle",
+      "name": "甜豌豆",
+      "filename": "36px-Sweet_Pea.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Sweet_Pea.png",
+      "bytes": 422
+    },
+    {
+      "dataset": "community-center/fall-foraging-bundle",
+      "name": "普通蘑菇",
+      "filename": "36px-Common_Mushroom.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Common_Mushroom.png",
+      "bytes": 223
+    },
+    {
+      "dataset": "community-center/fall-foraging-bundle",
+      "name": "野梅",
+      "filename": "36px-Wild_Plum.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Wild_Plum.png",
+      "bytes": 251
+    },
+    {
+      "dataset": "community-center/fall-foraging-bundle",
+      "name": "榛子",
+      "filename": "36px-Hazelnut.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/31/Hazelnut.png",
+      "bytes": 261
+    },
+    {
+      "dataset": "community-center/fall-foraging-bundle",
+      "name": "黑莓",
+      "filename": "36px-Blackberry.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png",
+      "bytes": 293
+    },
+    {
+      "dataset": "community-center/winter-foraging-bundle",
+      "name": "冬根",
+      "filename": "36px-Winter_Root.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/11/Winter_Root.png",
+      "bytes": 242
+    },
+    {
+      "dataset": "community-center/winter-foraging-bundle",
+      "name": "水晶果",
+      "filename": "36px-Crystal_Fruit.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/16/Crystal_Fruit.png",
+      "bytes": 339
+    },
+    {
+      "dataset": "community-center/winter-foraging-bundle",
+      "name": "雪山药",
+      "filename": "36px-Snow_Yam.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Snow_Yam.png",
+      "bytes": 324
+    },
+    {
+      "dataset": "community-center/winter-foraging-bundle",
+      "name": "番红花",
+      "filename": "36px-Crocus.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Crocus.png",
+      "bytes": 299
+    },
+    {
+      "dataset": "community-center/construction-bundle",
+      "name": "木材",
+      "filename": "36px-Wood.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/d/df/Wood.png",
+      "bytes": 266
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "椰子",
+      "filename": "36px-Coconut.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png",
+      "bytes": 251
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "山洞萝卜",
+      "filename": "36px-Cave_Carrot.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/34/Cave_Carrot.png",
+      "bytes": 272
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "红蘑菇",
+      "filename": "36px-Red_Mushroom.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Red_Mushroom.png",
+      "bytes": 263
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "紫蘑菇",
+      "filename": "36px-Purple_Mushroom.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png",
+      "bytes": 310
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "橡树树脂",
+      "filename": "36px-Oak_Resin.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/40/Oak_Resin.png",
+      "bytes": 271
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "松焦油",
+      "filename": "36px-Pine_Tar.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/ce/Pine_Tar.png",
+      "bytes": 316
+    },
+    {
+      "dataset": "community-center/exotic-foraging-bundle",
+      "name": "羊肚菌",
+      "filename": "36px-Morel.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Morel.png",
+      "bytes": 258
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "大壶牛奶",
+      "filename": "36px-Large_Milk.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/6/67/Large_Milk.png",
+      "bytes": 362
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "大棕色鸡蛋",
+      "filename": "36px-Large_Brown_Egg.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/9/91/Large_Brown_Egg.png",
+      "bytes": 279
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "大壶羊奶",
+      "filename": "36px-Large_Goat_Milk.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Large_Goat_Milk.png",
+      "bytes": 361
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "动物毛",
+      "filename": "36px-Wool.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png",
+      "bytes": 333
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "鸭蛋",
+      "filename": "36px-Duck_Egg.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/31/Duck_Egg.png",
+      "bytes": 252
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "松露油",
+      "filename": "36px-Truffle_Oil.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Truffle_Oil.png",
+      "bytes": 286
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "布料",
+      "filename": "36px-Cloth.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/51/Cloth.png",
+      "bytes": 287
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "山羊奶酪",
+      "filename": "36px-Goat_Cheese.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Goat_Cheese.png",
+      "bytes": 288
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "奶酪",
+      "filename": "36px-Cheese.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Cheese.png",
+      "bytes": 229
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "蜂蜜",
+      "filename": "36px-Honey.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Honey.png",
+      "bytes": 307
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "果酱",
+      "filename": "36px-Jelly.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/0/05/Jelly.png",
+      "bytes": 293
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "苹果",
+      "filename": "36px-Apple.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Apple.png",
+      "bytes": 209
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "杏子",
+      "filename": "36px-Apricot.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Apricot.png",
+      "bytes": 181
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "橙子",
+      "filename": "36px-Orange.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/43/Orange.png",
+      "bytes": 326
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "桃子",
+      "filename": "36px-Peach.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Peach.png",
+      "bytes": 276
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "石榴",
+      "filename": "36px-Pomegranate.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Pomegranate.png",
+      "bytes": 237
+    },
+    {
+      "dataset": "community-center/artisan-bundle",
+      "name": "樱桃",
+      "filename": "36px-Cherry.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/2/20/Cherry.png",
+      "bytes": 270
+    },
+    {
+      "dataset": "community-center/blacksmith-bundle",
+      "name": "铜锭",
+      "filename": "36px-Copper_Bar.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png",
+      "bytes": 240
+    },
+    {
+      "dataset": "community-center/geologist-bundle",
+      "name": "石英",
+      "filename": "36px-Quartz.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Quartz.png",
+      "bytes": 258
+    },
+    {
+      "dataset": "community-center/geologist-bundle",
+      "name": "地晶",
+      "filename": "36px-Earth_Crystal.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png",
+      "bytes": 244
+    },
+    {
+      "dataset": "community-center/geologist-bundle",
+      "name": "泪晶",
+      "filename": "36px-Frozen_Tear.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Frozen_Tear.png",
+      "bytes": 214
+    },
+    {
+      "dataset": "community-center/geologist-bundle",
+      "name": "火水晶",
+      "filename": "36px-Fire_Quartz.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/5b/Fire_Quartz.png",
+      "bytes": 276
+    },
+    {
+      "dataset": "community-center/adventurer-bundle",
+      "name": "史莱姆泥",
+      "filename": "36px-Slime.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/38/Slime.png",
+      "bytes": 256
+    },
+    {
+      "dataset": "community-center/adventurer-bundle",
+      "name": "蝙蝠翅膀",
+      "filename": "36px-Bat_Wing.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/35/Bat_Wing.png",
+      "bytes": 211
+    },
+    {
+      "dataset": "community-center/adventurer-bundle",
+      "name": "太阳精华",
+      "filename": "36px-Solar_Essence.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png",
+      "bytes": 290
+    },
+    {
+      "dataset": "community-center/adventurer-bundle",
+      "name": "虚空精华",
+      "filename": "36px-Void_Essence.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png",
+      "bytes": 325
+    },
+    {
+      "dataset": "community-center/chef-bundle",
+      "name": "蕨菜",
+      "filename": "36px-Fiddlehead_Fern.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png",
+      "bytes": 335
+    },
+    {
+      "dataset": "community-center/chef-bundle",
+      "name": "煎蛋",
+      "filename": "36px-Fried_Egg.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png",
+      "bytes": 333
+    },
+    {
+      "dataset": "community-center/dye-bundle",
+      "name": "海胆",
+      "filename": "36px-Sea_Urchin.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Sea_Urchin.png",
+      "bytes": 308
+    },
+    {
+      "dataset": "community-center/dye-bundle",
+      "name": "鸭毛",
+      "filename": "36px-Duck_Feather.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png",
+      "bytes": 410
+    },
+    {
+      "dataset": "community-center/field-research-bundle",
+      "name": "鹦鹉螺",
+      "filename": "36px-Nautilus_Shell.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Nautilus_Shell.png",
+      "bytes": 344
+    },
+    {
+      "dataset": "community-center/fodder-bundle",
+      "name": "干草",
+      "filename": "36px-Hay.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Hay.png",
+      "bytes": 350
+    },
+    {
+      "dataset": "community-center/missing-bundle-items",
+      "name": "恐龙蛋黄酱",
+      "filename": "36px-Dinosaur_Mayonnaise.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Dinosaur_Mayonnaise.png",
+      "bytes": 319
+    },
+    {
+      "dataset": "community-center/animal-bundle",
+      "name": "大白色鸡蛋",
+      "filename": "36px-Large_White_Egg.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Large_Egg.png",
+      "bytes": 262
+    }
+  ],
+  "unresolved": []
+}

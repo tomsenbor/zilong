@@ -1,0 +1,39 @@
+name: stardew-guide
+
+services:
+  stardew-guide:
+    build:
+      context: .
+      args:
+        BASE_IMAGE: ${BASE_IMAGE:-public.ecr.aws/docker/library/node:24-alpine}
+    container_name: stardew-guide
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${APP_PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      SESSION_SECRET: ${SESSION_SECRET:?请在生产环境变量文件中配置 SESSION_SECRET}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?请在生产环境变量文件中配置 ADMIN_PASSWORD}
+      TRUST_PROXY: ${TRUST_PROXY:-1}
+      COOKIE_SECURE: ${COOKIE_SECURE:-true}
+      DATABASE_PATH: /app/data/stardew.db
+      UPLOAD_DIR: /app/uploads
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-5}
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - stardew-data:/app/data
+      - stardew-uploads:/app/uploads
+
+volumes:
+  stardew-data:
+    name: stardew-guide-data
+  stardew-uploads:
+    name: stardew-guide-uploads
