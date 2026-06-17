@@ -250,6 +250,30 @@ describe("application shell", () => {
     expect(admin.headers["x-robots-tag"]).toContain("noindex");
   });
 
+  test("serves v5.3 content-building guides through real URLs and sitemap", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePaths = new Map([
+      ["第一年春季赚钱路线", "/guides/year-one-spring-money-route"],
+      ["新手钓鱼入门与鱼类查询使用指南", "/guides/beginner-fishing-guide-and-fish-search"],
+      ["社区中心前期优先完成路线", "/guides/early-community-center-priority-route"],
+      ["矿洞前 40 层准备与收益路线", "/guides/mines-floor-40-preparation-route"],
+      ["作物收益计算器使用指南", "/guides/crop-profit-calculator-guide"]
+    ]);
+    const sitemap = await request(app).get("/sitemap.xml");
+
+    for (const [title, path] of guidePaths) {
+      const page = await request(app).get(path);
+      expect(page.status, title).toBe(200);
+      expect(page.text, title).toContain(`<h1>${title}</h1>`);
+      expect(page.text, title).toMatch(/href="\/(?:tools|wiki)\//);
+      expect(sitemap.text, title).toContain(`https://pixelharvestwiki.com${path}`);
+      expect(sitemap.text, title).not.toContain(`/guides/${encodeURIComponent(title)}`);
+    }
+  });
+
   test("renders internal links and noindexed friendly 404 pages for real URLs", async () => {
     context = createTestContext();
     context.config.siteUrl = "https://pixelharvestwiki.com";

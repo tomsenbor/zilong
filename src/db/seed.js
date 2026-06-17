@@ -99,9 +99,20 @@ export function seedDatabase(db) {
         cover_image=excluded.cover_image, featured=excluded.featured
     `);
     const relationInsert = db.prepare("INSERT OR IGNORE INTO article_categories(article_id, category_id) VALUES (?, ?)");
+    const articleByTitle = db.prepare("SELECT id, slug FROM articles WHERE title = ?");
+    const articleBySlug = db.prepare("SELECT id FROM articles WHERE slug = ?");
+    const updateArticleSlug = db.prepare("UPDATE articles SET slug = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?");
+    const deleteArticle = db.prepare("DELETE FROM articles WHERE id = ?");
     articles.forEach((item) => {
-      articleInsert.run(item.title, slug(item.title), item.summary, item.body, item.coverImage, item.featured);
-      const articleId = db.prepare("SELECT id FROM articles WHERE slug = ?").get(slug(item.title)).id;
+      const articleSlug = item.slug || slug(item.title);
+      const existing = articleByTitle.get(item.title);
+      if (existing && existing.slug !== articleSlug) {
+        const target = articleBySlug.get(articleSlug);
+        if (target && target.id !== existing.id) deleteArticle.run(existing.id);
+        else updateArticleSlug.run(articleSlug, existing.id);
+      }
+      articleInsert.run(item.title, articleSlug, item.summary, item.body, item.coverImage, item.featured);
+      const articleId = db.prepare("SELECT id FROM articles WHERE slug = ?").get(articleSlug).id;
       item.categories.forEach((category) => {
         const categoryId = db.prepare("SELECT id FROM categories WHERE name = ?").get(category)?.id;
         if (categoryId) relationInsert.run(articleId, categoryId);
