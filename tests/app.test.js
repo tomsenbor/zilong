@@ -274,6 +274,43 @@ describe("application shell", () => {
     }
   });
 
+  test("serves v5.3.3 guide batch through English URLs and sitemap", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePaths = [
+      "/guides/year-one-summer-money-route",
+      "/guides/sprinkler-unlock-and-ore-route",
+      "/guides/community-center-fish-tank-route",
+      "/guides/seasonal-items-to-keep",
+      "/guides/beginner-backpack-and-energy-route"
+    ];
+    const sitemap = await request(app).get("/sitemap.xml");
+    const rows = context.db.prepare(`
+      SELECT slug, body
+      FROM articles
+      WHERE slug IN (${guidePaths.map(() => "?").join(",")})
+      ORDER BY slug
+    `).all(...guidePaths.map((path) => path.replace("/guides/", "")));
+
+    expect(rows).toHaveLength(guidePaths.length);
+
+    for (const path of guidePaths) {
+      const slug = path.replace("/guides/", "");
+      const row = rows.find((item) => item.slug === slug);
+      const page = await request(app).get(path);
+      const internalLinks = [...page.text.matchAll(/href="(\/(?:tools|wiki|guides)\/[^"#]+)"/g)]
+        .map((match) => match[1]);
+
+      expect(page.status, path).toBe(200);
+      expect(page.text, path).toContain("<h1>");
+      expect(row.slug, path).not.toMatch(/[\u3400-\u9fff]/);
+      expect(new Set(internalLinks).size, path).toBeGreaterThanOrEqual(2);
+      expect(sitemap.text, path).toContain(`https://pixelharvestwiki.com${path}`);
+    }
+  });
+
   test("does not render a duplicate article title when markdown starts with the same H1", async () => {
     context = createTestContext();
     await initialize(context);

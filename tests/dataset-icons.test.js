@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(11);
+    expect(articles).toHaveLength(16);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -49,6 +49,25 @@ describe("dataset icons", () => {
       expect(article.summary.length, title).toBeGreaterThan(18);
       expect(article.body, title).toMatch(/\]\(\/(?:tools|wiki)\//);
       expect(article.body, title).toContain("### 本节执行清单");
+    }
+  });
+
+  test("ships the v5.3.3 second guide batch with English slugs and internal links", () => {
+    const expectedSlugs = [
+      "year-one-summer-money-route",
+      "sprinkler-unlock-and-ore-route",
+      "community-center-fish-tank-route",
+      "seasonal-items-to-keep",
+      "beginner-backpack-and-energy-route"
+    ];
+
+    for (const expectedSlug of expectedSlugs) {
+      const article = articles.find((item) => item.slug === expectedSlug);
+      expect(article, expectedSlug).toBeTruthy();
+      expect(article.slug, expectedSlug).not.toMatch(/[\u3400-\u9fff]/);
+      expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
+      expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
+      expect(article.body, expectedSlug).toContain("### 本节执行清单");
     }
   });
 });
