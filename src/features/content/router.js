@@ -3,6 +3,7 @@ import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { AppError } from "../../middleware/errors.js";
 import { makeEntrySlug } from "../../utils/entry-slug.js";
+import { stripDuplicateArticleTitleHeading } from "../../utils/article-markdown.js";
 
 const integer = (value, fallback, max = 100) => Math.min(Math.max(Number.parseInt(value, 10) || fallback, 1), max);
 const parse = (value, fallback) => {
@@ -92,7 +93,7 @@ export function createContentRouter({ db }) {
   router.get("/articles/:slug", (req, res, next) => {
     const item = mapArticle(db.prepare("SELECT * FROM articles WHERE slug = ? AND status = 'published'").get(req.params.slug) || {});
     if (!item.id) return next(new AppError(404, "ARTICLE_NOT_FOUND", "攻略不存在"));
-    item.html = sanitizeHtml(marked.parse(item.body), articleHtmlOptions);
+    item.html = sanitizeHtml(marked.parse(stripDuplicateArticleTitleHeading(item.body, item.title)), articleHtmlOptions);
     item.categories = db.prepare(`
       SELECT c.* FROM categories c JOIN article_categories ac ON ac.category_id=c.id WHERE ac.article_id=?
     `).all(item.id);

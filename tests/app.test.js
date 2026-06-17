@@ -274,6 +274,32 @@ describe("application shell", () => {
     }
   });
 
+  test("does not render a duplicate article title when markdown starts with the same H1", async () => {
+    context = createTestContext();
+    await initialize(context);
+    context.db.prepare(`
+      INSERT INTO articles(title, slug, summary, body, status, featured)
+      VALUES (?, ?, ?, ?, 'published', 0)
+    `).run(
+      "Duplicate H1 Test Guide",
+      "duplicate-h1-test-guide",
+      "Regression fixture for article title rendering.",
+      "# Duplicate H1 Test Guide\n\n## Real section\n\nUseful guide body."
+    );
+    const app = createApp(context);
+
+    const page = await request(app).get("/guides/duplicate-h1-test-guide");
+    const titleH1Count = [...page.text.matchAll(/<h1>Duplicate H1 Test Guide<\/h1>/g)].length;
+    expect(page.status).toBe(200);
+    expect(titleH1Count).toBe(1);
+    expect(page.text).toContain("<h2>Real section</h2>");
+
+    const apiResponse = await request(app).get("/api/articles/duplicate-h1-test-guide");
+    expect(apiResponse.status).toBe(200);
+    expect(apiResponse.body.item.html).not.toContain("<h1>Duplicate H1 Test Guide</h1>");
+    expect(apiResponse.body.item.html).toContain("<h2>Real section</h2>");
+  });
+
   test("renders internal links and noindexed friendly 404 pages for real URLs", async () => {
     context = createTestContext();
     context.config.siteUrl = "https://pixelharvestwiki.com";

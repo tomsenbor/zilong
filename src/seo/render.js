@@ -2,6 +2,7 @@ import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { routePath, parseAppRoute, canonicalPathForRoute } from "../../public/js/routes.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
+import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
@@ -65,8 +66,8 @@ function scriptJson(data) {
   return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
-function articleHtml(body = "") {
-  return sanitizeHtml(marked.parse(body || ""), markdownOptions);
+function articleHtml(body = "", title = "") {
+  return sanitizeHtml(marked.parse(stripDuplicateArticleTitleHeading(body, title)), markdownOptions);
 }
 
 function articleLink(article) {
@@ -287,7 +288,7 @@ function buildGuidePage(db, slug, req, context) {
           <h1>${escapeHtml(article.title)}</h1>
           <p>${escapeHtml(article.summary || "")}</p>
         </header>
-        ${articleHtml(article.body)}
+        ${articleHtml(article.body, article.title)}
         ${relatedHtml}
       </div>
     </article>`
