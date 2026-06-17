@@ -300,6 +300,64 @@ describe("application shell", () => {
     expect(apiResponse.body.item.html).toContain("<h2>Real section</h2>");
   });
 
+  test("renders crawlable v5.3.2 tool guidance and enhanced wiki entry guidance", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+
+    const cropTool = await request(app).get("/tools/crops");
+    expect(cropTool.status).toBe(200);
+    expect(cropTool.text).toContain("作物收益不能只看售价");
+    expect(cropTool.text).toContain('href="/guides/crop-profit-calculator-guide"');
+    expect(cropTool.text).toContain('href="/guides/year-one-spring-money-route"');
+    expect(cropTool.text).toContain('href="/wiki/crops"');
+
+    const fishTool = await request(app).get("/tools/fish");
+    expect(fishTool.status).toBe(200);
+    expect(fishTool.text).toContain("鱼类条件受季节、天气、时间、地点");
+    expect(fishTool.text).toContain('href="/guides/beginner-fishing-guide-and-fish-search"');
+    expect(fishTool.text).toContain('href="/wiki/fish"');
+    expect(fishTool.text).toContain('href="/guides/early-community-center-priority-route"');
+
+    const communityTool = await request(app).get("/tools/community-center");
+    expect(communityTool.status).toBe(200);
+    expect(communityTool.text).toContain("不要乱卖季节限定物品");
+    expect(communityTool.text).toContain('href="/guides/early-community-center-priority-route"');
+    expect(communityTool.text).toContain('href="/tools/fish"');
+    expect(communityTool.text).toContain('href="/wiki/crops"');
+    expect(communityTool.text).toContain('href="/wiki/fish"');
+
+    const enhancedEntries = [
+      ["/wiki/crops/ancient-fruit", "温室和姜岛"],
+      ["/wiki/crops/strawberry", "复活节"],
+      ["/wiki/crops/parsnip", "社区中心"],
+      ["/wiki/crops/potato", "现金周转"],
+      ["/wiki/crops/coffee-bean", "三倍浓缩咖啡"],
+      ["/wiki/fish/catfish", "雨天"],
+      ["/wiki/fish/eel", "雨夜"],
+      ["/wiki/fish/sturgeon", "鱼塘"],
+      ["/wiki/items/iridium-bar", "工具升级"],
+      ["/wiki/items/prismatic-shard", "第一块不要急着送礼"]
+    ];
+
+    for (const [url, phrase] of enhancedEntries) {
+      const page = await request(app).get(url);
+      expect(page.status, url).toBe(200);
+      expect(page.text, url).toContain("实用说明");
+      expect(page.text, url).toContain(phrase);
+      expect(url, url).not.toMatch(/[\u3400-\u9fff]/);
+    }
+
+    const ancientFruit = await request(app).get("/wiki/crops/ancient-fruit");
+    expect(ancientFruit.text).toContain('href="/tools/crop-profit"');
+    expect(ancientFruit.text).toContain('href="/guides/crop-profit-calculator-guide"');
+    const catfish = await request(app).get("/wiki/fish/catfish");
+    expect(catfish.text).toContain('href="/tools/fish"');
+    const iridiumBar = await request(app).get("/wiki/items/iridium-bar");
+    expect(iridiumBar.text).toContain('href="/guides/mines-floor-40-preparation-route"');
+  });
+
   test("renders internal links and noindexed friendly 404 pages for real URLs", async () => {
     context = createTestContext();
     context.config.siteUrl = "https://pixelharvestwiki.com";

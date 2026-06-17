@@ -31,14 +31,14 @@ export const datasets = [
 
 export const entries = [
   ...rows("crops", `
-防风草;春季基础作物，成熟快;36px-Parsnip.png;season=春季,days=4,sellPrice=35金,source=皮埃尔杂货店
-土豆;有概率一次收获多个;36px-Potato.png;season=春季,days=6,sellPrice=80金,source=皮埃尔杂货店
+防风草;防风草是春季最稳的基础作物，成熟快且成本低，适合第一周练耕种等级、完成社区中心春季作物收集包，并为品质作物包准备金星样本。新手建议至少保留普通品质和高品质各一批，不要第一天全部卖掉。;36px-Parsnip.png;season=春季,days=4,sellPrice=35金,source=皮埃尔杂货店,获取方式=春季从皮埃尔杂货店购买种子后种植,主要用途=社区中心春季作物收集包，品质作物包，潘姆喜欢的礼物，前期耕种经验,新手建议=建议保留普通防风草用于社区中心献祭，高品质防风草用于品质作物包或送礼,关联规划=适合用来低成本铺开农田并测试洒水器覆盖范围,links=/tools/crop-profit|/guides/year-one-spring-money-route|/wiki/crops
+土豆;土豆是第一年春季现金周转作物，成熟时间适中且有额外产出概率。它不如草莓爆发高，但更早可种、风险更低，适合在复活节前补充背包、矿洞和草莓本金。;36px-Potato.png;season=春季,days=6,sellPrice=80金,source=皮埃尔杂货店,获取方式=春季从皮埃尔杂货店购买种子后种植,主要用途=春季作物收集包，前期现金周转，耕种经验积累,新手建议=建议第一周种少量土豆并保留一份用于社区中心，剩余可出售换草莓本金,关联规划=适合和防风草、花椰菜、草莓一起用收益计算器比较播种日期,links=/tools/crop-profit|/guides/year-one-spring-money-route|/wiki/crops
 花椰菜;春季高价值作物，可形成巨大作物;36px-Cauliflower.png;season=春季,days=12,sellPrice=175金,source=皮埃尔杂货店
-草莓;复活节购买的多次收获作物;36px-Strawberry.png;season=春季,days=8,sellPrice=120金,source=复活节
+草莓;草莓是复活节后最常见的春季爆发作物，种子购买窗口短，越早种越能发挥重复收获优势。第一年不必盲目满田，优先保证每天能浇完，并把第一批收入转化为背包、工具和夏季启动资金。;36px-Strawberry.png;season=春季,days=8,sellPrice=120金,source=复活节,获取方式=春季13日复活节商店购买草莓种子后种植,主要用途=春季现金流，部分村民礼物，后续种子生产器扩种,新手建议=建议节日前一天先翻地和准备稻草人，草莓数量以能稳定浇完为上限,关联规划=需要按实际播种日期计算收获次数，尤其适合作物收益计算器比较投资规模,links=/tools/crop-profit|/guides/year-one-spring-money-route|/guides/crop-profit-calculator-guide
 大黄;沙漠商店出售的高价值春季作物;36px-Rhubarb.png;season=春季,days=13,sellPrice=220金,source=绿洲
 青豆;藤架作物，可重复收获;36px-Green_Bean.png;season=春季,days=10,sellPrice=40金,source=皮埃尔杂货店
 甘蓝菜;短周期高收益蔬菜;36px-Kale.png;season=春季,days=6,sellPrice=110金,source=皮埃尔杂货店
-咖啡豆;春夏两季生长并可重复收获;36px-Coffee_Bean.png;season=春季|夏季,days=10,sellPrice=15金,source=旅行货车
+咖啡豆;咖啡豆春夏两季可种植并重复收获，单个售价不高，但适合长期积累咖啡和三倍浓缩咖啡。它的价值更多体现在移动速度和日程效率，不适合只按单次出售价格判断。;36px-Coffee_Bean.png;season=春季|夏季,days=10,sellPrice=15金,source=旅行货车,获取方式=旅行货车或怪物掉落等途径取得后种植,主要用途=制作咖啡和三倍浓缩咖啡，提升跑图效率，温室过渡种植,新手建议=前期拿到咖啡豆可以留种扩种，不建议只为了出售而大面积种植,关联规划=适合在收益计算时把速度收益和重复收获一起考虑,links=/tools/crop-profit|/guides/crop-profit-calculator-guide|/wiki/crops
 蓝莓;夏季经典高收益多次收获作物;36px-Blueberry.png;season=夏季,days=13,sellPrice=50金,source=皮埃尔杂货店
 甜瓜;高价值夏季作物，可形成巨大作物;36px-Melon.png;season=夏季,days=12,sellPrice=250金,source=皮埃尔杂货店
 啤酒花;每日重复收获，适合酿酒;36px-Hops.png;season=夏季,days=11,sellPrice=25金,source=皮埃尔杂货店
@@ -56,7 +56,7 @@ export const entries = [
 朝鲜蓟;第二年解锁的秋季蔬菜;36px-Artichoke.png;season=秋季,days=8,sellPrice=160金,source=皮埃尔杂货店
 甜菜;沙漠种子，可用于制糖;36px-Beet.png;season=秋季,days=6,sellPrice=100金,source=绿洲
 小麦;夏秋两季快速成熟;36px-Wheat.png;season=夏季|秋季,days=4,sellPrice=25金,source=皮埃尔杂货店
-远古水果;温室与姜岛的长期收益核心;36px-Ancient_Fruit.png;season=春季|夏季|秋季,days=28,sellPrice=550金,source=远古种子
+远古水果;远古水果是温室和姜岛长期种植的核心作物，成熟慢但维护频率低，适合配合小桶形成稳定现金流。新手拿到第一批远古种子后，建议先扩种，不要急着全部出售。;36px-Ancient_Fruit.png;season=春季|夏季|秋季,days=28,sellPrice=550金,source=远古种子,获取方式=远古种子种植后收获，后续可用种子生产器扩种,主要用途=温室和姜岛长期种植，小桶酿酒，后期稳定收益核心,新手建议=建议保留第一批产物用于扩种，产量稳定后再出售或加工,关联规划=适合用作物收益计算器比较地块数量、季节剩余天数和加工设备容量,links=/tools/crop-profit|/guides/crop-profit-calculator-guide|/wiki/crops
 菠萝;姜岛可重复收获作物;36px-Pineapple.png;season=夏季,days=14,sellPrice=300金,source=姜岛
 芋头;靠近水源时成长更快;36px-Taro_Root.png;season=夏季,days=10,sellPrice=100金,source=姜岛
 齐瓜;齐先生特别订单限时作物;36px-Qi_Fruit.png;season=全部,days=4,sellPrice=1金,source=齐先生任务
@@ -67,13 +67,13 @@ export const entries = [
 `),
   ...rows("fish", `
 河豚;晴天中午出没的夏季鱼;36px-Pufferfish.png;season=夏季,location=海洋,weather=晴天,time=12:00-16:00
-鲶鱼;雨天高难度河流鱼;36px-Catfish.png;season=春季|秋季,location=河流,weather=雨天,time=06:00-24:00
-鲟鱼;鱼籽可制成鱼子酱;36px-Sturgeon.png;season=夏季|冬季,location=山区湖泊,weather=任意,time=06:00-19:00
+鲶鱼;鲶鱼是春秋雨天河流里的高难度鱼，也是社区中心鱼缸前期容易漏掉的目标。新手如果钓不上来，可以先练级、准备食物和浮标，再在雨天集中补。;36px-Catfish.png;season=春季|秋季,location=河流,weather=雨天,time=06:00-24:00,获取方式=春季或秋季雨天在河流钓鱼获得,主要用途=社区中心河鱼收集包，威利喜欢的礼物，前期高价值鱼出售,新手建议=第一条建议优先保留用于献祭，钓鱼等级低时不要在体力不足时硬追,关联规划=适合用鱼类查询器按雨天和河流筛选，再放入社区中心路线规划,links=/tools/fish|/guides/beginner-fishing-guide-and-fish-search|/guides/early-community-center-priority-route|/wiki/fish
+鲟鱼;鲟鱼出现在山区湖泊，是鱼缸收集包和鱼塘路线的重要鱼。它的长期价值来自鱼塘产出的鱼籽，后续可加工为鱼子酱，因此不建议第一条直接卖掉。;36px-Sturgeon.png;season=夏季|冬季,location=山区湖泊,weather=任意,time=06:00-19:00,获取方式=夏季或冬季在山区湖泊钓鱼获得,主要用途=社区中心湖鱼收集包，鱼塘养殖，鱼籽和鱼子酱路线,新手建议=建议至少保留一条用于献祭或鱼塘，钓鱼等级不足时搭配陷阱浮标,关联规划=适合用鱼类查询器确认季节窗口，并在社区中心清单中标记鱼缸进度,links=/tools/fish|/tools/community-center|/guides/early-community-center-priority-route|/wiki/fish
 大嘴鲈鱼;山区湖泊常见鱼;36px-Largemouth_Bass.png;season=全部,location=山区湖泊,weather=任意,time=06:00-19:00
 沙丁鱼;海洋常见鱼;36px-Sardine.png;season=春季|秋季|冬季,location=海洋,weather=任意,time=06:00-19:00
 金枪鱼;夏冬两季海鱼;36px-Tuna.png;season=夏季|冬季,location=海洋,weather=任意,time=06:00-19:00
 红鲷鱼;雨天海鱼;36px-Red_Snapper.png;season=夏季|秋季,location=海洋,weather=雨天,time=06:00-19:00
-鳗鱼;雨夜海鱼，料理常用;36px-Eel.png;season=春季|秋季,location=海洋,weather=雨天,time=16:00-02:00
+鳗鱼;鳗鱼是春秋雨夜海洋鱼，窗口比普通鱼更容易错过。它既用于鱼缸夜间钓鱼收集包，也能制作香辣鳗鱼，后期对矿洞和骷髅洞穴很实用。;36px-Eel.png;season=春季|秋季,location=海洋,weather=雨天,time=16:00-02:00,获取方式=春季或秋季雨夜在海洋钓鱼获得,主要用途=社区中心夜间钓鱼收集包，香辣鳗鱼料理，任务和鱼塘储备,新手建议=第一条建议保留，不要忽略雨夜时间窗口，低等级时先用普通鱼练手,关联规划=适合用鱼类查询器按雨天、夜间和海洋筛选，避免错过季节,links=/tools/fish|/guides/beginner-fishing-guide-and-fish-search|/guides/early-community-center-priority-route|/wiki/fish
 章鱼;高难度夏季海鱼;36px-Octopus.png;season=夏季,location=海洋,weather=任意,time=06:00-13:00
 大海参;夜间高价值海鱼;36px-Super_Cucumber.png;season=夏季|秋季,location=海洋,weather=任意,time=18:00-02:00
 幽灵鱼;矿井水域鱼类;36px-Ghostfish.png;season=全部,location=矿井,weather=任意,time=全天
@@ -142,9 +142,9 @@ export const entries = [
 水果沙拉;高能量水果料理;36px-Fruit_Salad.png;source=酱料女皇,ingredients=蓝莓|甜瓜|杏子,energy=263
 `),
   ...rows("items", `
-铱锭;高级工具和设备材料;36px-Iridium_Bar.png;type=矿物,source=熔炉|完美雕像,sellPrice=1000金
+铱锭;铱锭是后期工具升级、设备制作和姜岛解锁的重要材料。它的出售价格不低，但前中期更建议保留，用在洒水器、工具升级、船只修复和高级设备上，避免后续卡进度。;36px-Iridium_Bar.png;type=矿物,source=熔炉|完美雕像,sellPrice=1000金,获取方式=铱矿石熔炼，完美雕像，骷髅洞穴和后期资源循环,主要用途=工具升级，铱制洒水器，姜岛船只修复，高级设备制作,新手建议=不建议前期出售，优先保留给工具、洒水器和姜岛路线,关联规划=适合结合矿洞路线规划铱矿、煤炭和电池组储备,links=/guides/mines-floor-40-preparation-route|/guides/early-community-center-priority-route|/wiki/items
 电池组;避雷针和太阳能板产物;36px-Battery_Pack.png;type=资源,source=避雷针|太阳能板,sellPrice=500金
-五彩碎片;稀有矿物和万能最爱礼物;36px-Prismatic_Shard.png;type=矿物,source=神秘石|铱矿点,sellPrice=2000金
+五彩碎片;五彩碎片是极稀有矿物，第一块不要急着送礼或出售。它可用于关键解锁、博物馆捐赠和部分后期内容，虽然多数村民喜欢，但前期更适合先保留到明确用途。;36px-Prismatic_Shard.png;type=矿物,source=神秘石|铱矿点,sellPrice=2000金,获取方式=神秘石、铱矿点、矿洞和骷髅洞穴等稀有来源,主要用途=关键解锁，博物馆捐赠，后期任务和高价值礼物,新手建议=第一块不要急着送礼或出售，优先确认是否需要用于解锁和收藏,关联规划=适合配合矿洞收益路线决定是否深挖骷髅洞穴,links=/guides/mines-floor-40-preparation-route|/guides/early-community-center-priority-route|/wiki/items
 恐龙蛋;可孵化恐龙或捐赠;36px-Dinosaur_Egg.png;type=文物,source=山区挖掘|霸王喷火龙,sellPrice=350金
 兔子的脚;稀有畜产品;36px-Rabbit's_Foot.png;type=畜产品,source=兔子|飞蛇,sellPrice=565金
 松露;猪在户外发现的产品;36px-Truffle.png;type=采集,source=猪,sellPrice=625金

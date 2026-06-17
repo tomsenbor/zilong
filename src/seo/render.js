@@ -110,6 +110,81 @@ function relatedSection(kind, title, items) {
   </section>`;
 }
 
+const internalLinkLabels = new Map([
+  ["/tools/crop-profit", "作物收益计算器"],
+  ["/tools/crops", "作物收益计算器"],
+  ["/tools/fish", "鱼类查询器"],
+  ["/tools/community-center", "社区中心进度清单"],
+  ["/guides/year-one-spring-money-route", "第一年春季赚钱路线"],
+  ["/guides/beginner-fishing-guide-and-fish-search", "新手钓鱼入门与鱼类查询使用指南"],
+  ["/guides/early-community-center-priority-route", "社区中心前期优先完成路线"],
+  ["/guides/mines-floor-40-preparation-route", "矿洞前 40 层准备与收益路线"],
+  ["/guides/crop-profit-calculator-guide", "作物收益计算器使用指南"],
+  ["/wiki/crops", "作物与种子"],
+  ["/wiki/fish", "鱼类图鉴"],
+  ["/wiki/items", "物品百科"]
+]);
+
+function normalizeAttributeText(value) {
+  return Array.isArray(value) ? value.join("、") : String(value || "");
+}
+
+function normalizeInternalLinks(value) {
+  const rawLinks = Array.isArray(value) ? value : [value];
+  return rawLinks
+    .flatMap((item) => String(item || "").split("|"))
+    .map((href) => href.trim())
+    .filter((href) => href.startsWith("/"));
+}
+
+function internalLinkLabel(href) {
+  return internalLinkLabels.get(href) || href.replace(/^\//, "");
+}
+
+function buildEntryGuidanceSections(attributes, fields) {
+  const fieldSet = new Set(fields);
+  const guidanceItems = Object.entries(attributes)
+    .filter(([key, value]) => key !== "links" && !fieldSet.has(key) && normalizeAttributeText(value))
+    .map(([key, value]) => `<li><strong>${escapeHtml(key)}</strong>：${escapeHtml(normalizeAttributeText(value))}</li>`);
+  const links = normalizeInternalLinks(attributes.links);
+  const sections = [];
+  if (guidanceItems.length) {
+    sections.push(`<section><h2>实用说明</h2><ul>${guidanceItems.join("")}</ul></section>`);
+  }
+  if (links.length) {
+    sections.push(listSection("相关工具与攻略", links.map((href) => (
+      `<a href="${escapeHtml(href)}">${escapeHtml(internalLinkLabel(href))}</a>`
+    ))));
+  }
+  return sections;
+}
+
+function buildToolGuidanceSections(tool) {
+  const cropLinks = [
+    `<a href="${routePath("guide", { slug: "crop-profit-calculator-guide" })}">作物收益计算器使用指南</a>`,
+    `<a href="${routePath("guide", { slug: "year-one-spring-money-route" })}">第一年春季赚钱路线</a>`,
+    `<a href="${routePath("wikiDataset", { datasetSlug: "crops" })}">作物与种子资料库</a>`
+  ];
+  const fishLinks = [
+    `<a href="${routePath("guide", { slug: "beginner-fishing-guide-and-fish-search" })}">新手钓鱼入门与鱼类查询使用指南</a>`,
+    `<a href="${routePath("wikiDataset", { datasetSlug: "fish" })}">鱼类图鉴</a>`,
+    `<a href="${routePath("guide", { slug: "early-community-center-priority-route" })}">社区中心前期优先完成路线</a>`
+  ];
+  const communityLinks = [
+    `<a href="${routePath("guide", { slug: "early-community-center-priority-route" })}">社区中心前期优先完成路线</a>`,
+    `<a href="${routePath("tool", { tool: "fish" })}">鱼类查询器</a>`,
+    `<a href="${routePath("wikiDataset", { datasetSlug: "crops" })}">作物与种子资料库</a>`,
+    `<a href="${routePath("wikiDataset", { datasetSlug: "fish" })}">鱼类图鉴</a>`
+  ];
+  const sections = {
+    "crop-profit": `<section><h2>使用说明</h2><p>作物收益不能只看售价，还要同时考虑种子成本、生长天数、重复收获次数、季节剩余天数、洒水器覆盖和加工设备容量。这个工具适合在播种前比较候选作物，尤其是春季草莓、夏季蓝莓、秋季蔓越莓、温室远古水果这类投入差异较大的路线。新手可以先输入当前季节、剩余天数和可种地块，再用结果决定是否扩大农田，避免把体力和本金都压在来不及成熟的作物上。常见误区是只看单次售价，忽略晚播导致少收一次，或忽略小桶不足造成作物堆仓。建议先读 ${cropLinks[0]}，再结合 ${cropLinks[1]} 和 ${cropLinks[2]} 核对成熟时间。</p></section>`,
+    fish: `<section><h2>使用说明</h2><p>鱼类条件受季节、天气、时间、地点和钓鱼等级共同影响，很多鱼错过窗口后要等到下一个季节。这个工具适合查社区中心鱼缸、雨天限定鱼、夜间鱼、矿井鱼和姜岛鱼。新手使用时先选季节，再按天气和时间缩小范围；如果为了献祭，建议优先筛出当前季节能钓到的鱼，背包里先保留普通品质，不要把第一条直接卖掉。常见误区是忽略雨天和跨午夜时间，例如鳗鱼只在雨夜出现，鲶鱼需要雨天河流。钓鱼练级路线可参考 ${fishLinks[0]}，具体条目可查 ${fishLinks[1]}，献祭优先级可配合 ${fishLinks[2]}。</p></section>`,
+    "community-center": `<section><h2>使用说明</h2><p>社区中心进度清单适合按房间、季节和当前可获取物品安排献祭，核心原则是不要乱卖季节限定物品。新手建议先记录春季采集、春季作物、雨天鱼和锅炉房矿物，再按当前季节筛选能立刻补齐的项目。常见误区是只盯着一个收集包，结果错过鱼缸天气窗口或把金星防风草、鲶鱼、鳗鱼、鲟鱼等关键物品卖掉。推荐在每个季节第一天打开清单，标记当季缺口；雨天先配合 ${communityLinks[1]} 查鱼，播种前用 ${communityLinks[2]} 核对作物，鱼缸项目可对照 ${communityLinks[3]}。完整路线可参考 ${communityLinks[0]}。</p></section>`
+  };
+  const canonicalTool = tool === "crops" ? "crop-profit" : tool;
+  return [sections[canonicalTool] || sections.fish];
+}
+
 function mergeUniqueById(primary, fallback, limit) {
   const seen = new Set();
   return [...primary, ...fallback].filter((item) => {
@@ -352,6 +427,7 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
       const text = Array.isArray(value) ? value.join("、") : value;
       return `<li><strong>${escapeHtml(key)}</strong>：${escapeHtml(text)}</li>`;
     });
+  const guidanceSections = buildEntryGuidanceSections(attributes, fields);
   const relatedEntries = getRelatedEntries(db, entry.dataset_id, entry.id, 8);
   const relatedHtml = relatedSection("entries", "相关资料", relatedEntries.map((related) => (
     `<a href="${entryLink(datasetSlug, related)}">${escapeHtml(related.name)}</a>：${escapeHtml(related.summary || "")}`
@@ -378,6 +454,7 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
       sections: [
         `<section><h2>分类</h2><p>${escapeHtml(entry.dataset_name)}</p></section>`,
         `<section><h2>基础信息</h2><ul>${fieldItems.join("")}</ul></section>`,
+        ...guidanceSections,
         relatedHtml
       ]
     })
@@ -484,9 +561,7 @@ function buildToolDetailPage(tool) {
     html: pageShell({
       h1: page.h1,
       lead: page.description,
-      sections: [
-        "<section><h2>主要功能</h2><p>页面加载后可继续使用筛选器、表单和本地保存等交互功能。</p></section>"
-      ]
+      sections: buildToolGuidanceSections(tool)
     })
   };
 }
