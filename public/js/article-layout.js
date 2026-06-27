@@ -6,6 +6,13 @@ export function createArticleOutline(titles = []) {
   }));
 }
 
+export function formatArticleSectionLabel(section = {}) {
+  return [section.number, section.title]
+    .map((part) => String(part || "").trim())
+    .filter(Boolean)
+    .join(" ");
+}
+
 export function estimateReadingMinutes(text = "") {
   const characterCount = String(text).replace(/\s+/g, "").length;
   return Math.max(1, Math.ceil(characterCount / 350));

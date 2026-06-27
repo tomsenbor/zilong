@@ -1,5 +1,5 @@
 import { api, escapeHtml, imageFallback } from "./api.js";
-import { createArticleOutline, estimateReadingMinutes } from "./article-layout.js";
+import { createArticleOutline, estimateReadingMinutes, formatArticleSectionLabel } from "./article-layout.js";
 import { renderFishTool } from "./tools/fish-tool.js";
 import { renderCropTool } from "./tools/crop-tool.js";
 import { renderCommunityCenterTool } from "./tools/community-center-tool.js";
@@ -15,6 +15,7 @@ import {
 import {
   renderCategoryOverview,
   renderHomeView,
+  renderItemCard,
   renderItemDialog,
   renderLibrarySidebar
 } from "./site-view.js";
@@ -320,7 +321,7 @@ function tableView(items, fields) {
   return `<div class="data-table-wrap"><table class="data-table"><thead><tr><th>名称</th>${fields.slice(0,4).map((f)=>`<th>${fieldLabels[f]||f}</th>`).join("")}</tr></thead><tbody>${items.map((item)=>`<tr><td><a class="item-name" href="${routePath("wikiEntry", { datasetSlug: state.dataset, entrySlug: item.slug })}">${img(item.image,item.name)}${escapeHtml(item.name)}</a></td>${fields.slice(0,4).map((f)=>`<td>${escapeHtml(Array.isArray(item.attributes[f])?item.attributes[f].join("、"):item.attributes[f]||"-")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
 function cardView(items) {
-  return `<div class="item-grid">${items.map((item) => `<a class="${uiClass("item-card card")}" href="${routePath("wikiEntry", { datasetSlug: state.dataset, entrySlug: item.slug })}">${img(item.image,item.name)}<strong>${escapeHtml(item.name)}</strong><small>${escapeHtml(item.summary)}</small></a>`).join("")}</div>`;
+  return `<div class="item-grid">${items.map((item) => renderItemCard(item, state.dataset)).join("")}</div>`;
 }
 function pagination(info) { if(info.pages<=1)return""; return `<div class="pagination">${Array.from({length:info.pages},(_,i)=>i+1).slice(Math.max(0,info.page-3),info.page+2).map((page)=>`<button data-page="${page}" class="${uiClass("btn ghost small", { active: page===info.page })}">${page}</button>`).join("")}</div>`; }
 
@@ -378,11 +379,12 @@ function enhanceArticleDetail() {
   headings.forEach((heading, index) => {
     const section = outline[index];
     heading.id = section.id;
-    heading.innerHTML = `<span aria-hidden="true">${section.number}</span>${escapeHtml(section.title)}`;
+    heading.setAttribute("aria-label", formatArticleSectionLabel(section));
+    heading.innerHTML = `<span aria-hidden="true">${section.number}</span> ${escapeHtml(section.title)}`;
   });
 
   const links = outline.map((section) =>
-    `<a href="#${section.id}" data-guide-section="${section.id}"><span>${section.number}</span>${escapeHtml(section.title)}</a>`
+    `<a href="#${section.id}" data-guide-section="${section.id}" aria-label="${escapeHtml(formatArticleSectionLabel(section))}"><span>${section.number}</span> ${escapeHtml(section.title)}</a>`
   ).join("");
   document.querySelector("#guide-toc").innerHTML = links;
   document.querySelector("#guide-toc-mobile").innerHTML = links;

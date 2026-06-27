@@ -23,6 +23,244 @@ function attributeText(value, fallback = "资料整理中") {
   return value || fallback;
 }
 
+function normalizeAttributeValue(value) {
+  if (Array.isArray(value)) return value.filter(Boolean).join("、");
+  if (value === null || value === undefined) return "";
+  return String(value).trim();
+}
+
+function pickAttribute(attributes = {}, keys = []) {
+  for (const key of keys) {
+    const value = normalizeAttributeValue(attributes[key]);
+    if (value) return value;
+  }
+  return "";
+}
+
+function uniqueParts(parts) {
+  return [...new Set(parts.map((part) => normalizeAttributeValue(part)).filter(Boolean))];
+}
+
+function datasetText(item, datasetSlug) {
+  return `${item.dataset_slug || datasetSlug || ""} ${item.dataset_name || ""}`;
+}
+
+function isFishEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("fish") || text.includes("鱼");
+}
+
+function isCropEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("crops") || text.includes("作物") || text.includes("种子");
+}
+
+function isCookingEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("cooking") || text.includes("料理") || text.includes("配方");
+}
+
+function isItemEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("items") || text.includes("物品百科") || text.includes("资源") || text.includes("矿物");
+}
+
+function isVillagerEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("villagers") || text.includes("村民") || text.includes("关系");
+}
+
+function isLocationEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("locations") || text.includes("地点") || text.includes("地图");
+}
+
+function isQuestEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("quests") || text.includes("任务");
+}
+
+function isFestivalEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("festivals") || text.includes("节日") || text.includes("活动");
+}
+
+function isSkillEntry(item, datasetSlug) {
+  const text = datasetText(item, datasetSlug);
+  return text.includes("skills") || text.includes("技能") || text.includes("职业");
+}
+
+function conditionText(attributes = {}) {
+  const parts = uniqueParts([
+    pickAttribute(attributes, ["season", "季节"]),
+    pickAttribute(attributes, ["location", "地点"]),
+    pickAttribute(attributes, ["weather", "天气"]),
+    pickAttribute(attributes, ["time", "时间"]),
+    pickAttribute(attributes, ["days", "成熟时间"]),
+    pickAttribute(attributes, ["source", "来源"])
+  ]);
+  return parts.join("、");
+}
+
+function fieldLine(label, value) {
+  const normalized = normalizeAttributeValue(value);
+  return normalized ? `${label}：${normalized}` : "";
+}
+
+function buildItemSourceText(item) {
+  const attributes = item.attributes || {};
+  const specificSource = pickAttribute(attributes, ["获取方式"]);
+  const source = pickAttribute(attributes, ["source", "来源"]);
+  const explicit = specificSource || source;
+
+  if (isFishEntry(item)) {
+    const conditionLines = uniqueParts([
+      fieldLine("季节", pickAttribute(attributes, ["season", "季节"])),
+      fieldLine("地点", pickAttribute(attributes, ["location", "地点"])),
+      fieldLine("天气", pickAttribute(attributes, ["weather", "天气"])),
+      fieldLine("时间", pickAttribute(attributes, ["time", "时间"])),
+      fieldLine("方式", pickAttribute(attributes, ["sourceType", "方式", "source", "来源"]))
+    ]);
+    const lines = [
+      explicit ? `主要来源：${explicit}。` : `${item.name}需要按鱼类出现条件确认获取窗口。`,
+      conditionLines.length ? `鱼类条件：${conditionLines.join("；")}。` : "",
+      "建议先核对季节、天气、时间和地点，再安排当天行程；雨天鱼、夜间鱼和季节限定鱼不要拖到月末再补。"
+    ];
+    return uniqueParts(lines).join("\n");
+  }
+
+  if (isCropEntry(item)) {
+    const season = pickAttribute(attributes, ["season", "季节"]);
+    const days = pickAttribute(attributes, ["days", "成熟时间"]);
+    const lines = [
+      specificSource || (source ? `${item.name}主要通过${source}获得。` : `${item.name}通常通过购买种子、活动、采集或解锁后的种植流程获得。`),
+      uniqueParts([fieldLine("适用季节", season), fieldLine("成熟周期", days)]).join("；") + (season || days ? "。" : ""),
+      "规划时建议先核对种子成本、播种日期、季节剩余天数和浇水能力，避免买到来不及成熟的种子。"
+    ];
+    return uniqueParts(lines).join("\n");
+  }
+
+  if (isCookingEntry(item)) {
+    const lines = [
+      source ? `配方来源：${source}。` : `${item.name}通常需要先解锁配方，再准备对应食材制作。`,
+      fieldLine("常用材料", pickAttribute(attributes, ["ingredients", "材料"])),
+      "制作前建议确认食材是否还要用于社区中心、任务或送礼，稀缺食材不要一次性全部消耗。"
+    ];
+    return uniqueParts(lines).join("\n");
+  }
+
+  const lines = [
+    explicit ? `主要来源：${explicit}。` : `${item.name}可通过采集、加工、商店、怪物掉落、任务奖励或解锁内容等方式取得。`,
+    fieldLine("类型", pickAttribute(attributes, ["type", "类型", "area", "区域", "skill", "技能", "date", "日期", "birthday", "生日"])),
+    "获取前先确认建筑、商店、怪物掉落或加工设备是否已经解锁；如果是稀有材料，建议先保留第一份再决定出售或消耗。"
+  ];
+  return uniqueParts(lines).join("\n");
+}
+
+function buildItemUseText(item) {
+  const attributes = item.attributes || {};
+  const primary = pickAttribute(attributes, ["主要用途", "use", "用途", "features", "effect", "ingredients", "reward", "loves"]);
+  let fallback = "可用于资料查询、路线规划、收集检查或任务优先级判断。";
+  let advice = "第一份建议先保留，确认没有献祭、任务、制作、送礼或解锁需求后再出售。";
+
+  if (isFishEntry(item)) {
+    fallback = "主要用于图鉴收集、社区中心鱼缸、料理、鱼塘、任务或出售。";
+    advice = "第一条建议先查献祭和鱼塘用途；雨天、夜间或季节限定鱼尤其不要随手卖掉。";
+  } else if (isCropEntry(item)) {
+    fallback = "可用于收益规划、社区中心、料理、送礼或加工。";
+    advice = "新手至少保留一份普通品质样本；高价值作物再结合种子成本、播种日期、季节剩余天数和加工设备决定是否出售。";
+  } else if (isCookingEntry(item)) {
+    fallback = "主要用于恢复体力、提供增益、送礼或完成特定任务。";
+    advice = "制作前先确认食材是否稀缺；带增益的料理适合下矿、钓鱼或长距离跑图前准备。";
+  } else if (isItemEntry(item)) {
+    fallback = "常用于设备制作、任务、送礼、收集或后续解锁。";
+    advice = "第一份建议先保留；出售前先确认是否会影响建筑、工具、社区中心、博物馆或后期解锁。";
+  } else if (isVillagerEntry(item)) {
+    fallback = "主要用于生日、送礼、行程查询和好感度规划。";
+    advice = "送礼前先确认最爱与讨厌物品，生日当天优先送高品质最爱礼物。";
+  } else if (isLocationEntry(item)) {
+    fallback = "主要用于确认开放条件、营业时间、可触发事件和资源获取路线。";
+    advice = "出门前先核对时间和解锁条件，避免白跑或错过商店营业窗口。";
+  } else if (isQuestEntry(item)) {
+    fallback = "主要用于确认触发条件、提交物品、奖励和任务优先级。";
+    advice = "接任务前先确认物品是否季节限定，避免为了低收益任务消耗关键样本。";
+  } else if (isFestivalEntry(item)) {
+    fallback = "主要用于确认日期、地点、活动奖励、商店物品和当天行程安排。";
+    advice = "节日前一天整理背包和金币，避免错过限定商店、比赛奖励或关键种子。";
+  } else if (isSkillEntry(item)) {
+    fallback = "主要用于确认升级效果、职业路线、配方解锁和后期精通规划。";
+    advice = "选择职业前先看自己的主要玩法，种地、钓鱼、下矿和加工路线对收益影响不同。";
+  }
+
+  const notes = uniqueParts([
+    item.summary,
+    primary || fallback,
+    pickAttribute(attributes, ["新手建议"]),
+    pickAttribute(attributes, ["关联规划"]),
+    advice
+  ]);
+  return notes.join("\n");
+}
+
+function buildItemSellPriceText(item) {
+  const attributes = item.attributes || {};
+  const price = pickAttribute(attributes, ["sellPrice", "售价", "基础售价", "basePrice"]);
+  if (!price) {
+    return "暂无售价数据，建议以游戏内实际品质、职业和加工状态为准。\n没有售价或不可出售的物品，通常更应该先看解锁、献祭、制作、任务或收藏用途。";
+  }
+  if (isCropEntry(item)) {
+    return `${price}。\n实际收益会受到品质、职业加成、加工方式、种子成本和季节剩余天数影响；做种植规划时不要只看单个售价。`;
+  }
+  if (isFishEntry(item)) {
+    return `${price}。\n鱼类售价还会受品质、钓鱼职业、料理用途和鱼塘规划影响；稀有鱼建议先确认献祭或收集需求。`;
+  }
+  return `${price}。\n出售前先确认它是否会卡住建筑、工具、收集或任务进度；稀有材料、解锁材料和任务物品通常优先保留。`;
+}
+
+function renderParagraphs(text) {
+  return normalizeAttributeValue(text)
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => `<p>${escapeHtml(line)}</p>`)
+    .join("");
+}
+
+function renderLabeledParagraphs(label, text) {
+  const lines = normalizeAttributeValue(text)
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  return lines
+    .map((line, index) => `<p>${index === 0 ? `<b>${escapeHtml(label)}：</b>` : ""}${escapeHtml(line)}</p>`)
+    .join("");
+}
+
+function buildCardMeta(item, datasetSlug) {
+  const attributes = item.attributes || {};
+  const parts = uniqueParts([
+    pickAttribute(attributes, ["season", "季节"]),
+    pickAttribute(attributes, ["location", "地点"]),
+    pickAttribute(attributes, ["days", "成熟时间"]),
+    pickAttribute(attributes, ["source", "来源"]),
+    pickAttribute(attributes, ["type", "类型"]),
+    pickAttribute(attributes, ["date", "日期"])
+  ]).slice(0, 2);
+
+  if (parts.length) return parts.join(" · ");
+  if (isFishEntry(item, datasetSlug)) return "查看鱼类条件";
+  if (isCropEntry(item, datasetSlug)) return "查看作物资料";
+  return item.dataset_name || "查看详情";
+}
+
+export function renderItemCard(item, datasetSlug) {
+  return `<a class="${uiClass("item-card card")}" href="${routePath("wikiEntry", { datasetSlug, entrySlug: item.slug })}">
+    ${image(item.image, item.name)}
+    <strong>${escapeHtml(item.name)}</strong>
+    <small>${escapeHtml(buildCardMeta(item, datasetSlug))}</small>
+  </a>`;
+}
+
 export function renderFeaturedGuideCard(article) {
   return `<a class="${uiClass("featured-guide-card card")}" href="${routePath("guide", { slug: article.slug })}">
     <span class="featured-guide-icon">${image(article.cover_image, article.title)}</span>
@@ -70,15 +308,9 @@ export function renderLibrarySidebar(datasets, activeSlug) {
 }
 
 export function renderItemDialog(item) {
-  const source = attributeText(item.attributes?.source, "请查看对应分类的获取条件");
-  const use = attributeText(
-    item.attributes?.use
-      || item.attributes?.features
-      || item.attributes?.effect
-      || item.attributes?.ingredients,
-    item.summary
-  );
-  const sellPrice = attributeText(item.attributes?.sellPrice, "不可出售或暂无售价");
+  const source = buildItemSourceText(item);
+  const use = buildItemUseText(item);
+  const sellPrice = buildItemSellPriceText(item);
 
   return `<div class="item-dialog-backdrop" data-dialog-backdrop>
     <section class="${uiClass("item-dialog card")}" role="dialog" aria-modal="true" aria-labelledby="item-dialog-title">
@@ -105,16 +337,16 @@ export function renderItemDialog(item) {
           </div>
           <section class="item-tab-content" data-item-section="source">
             <h3>基本信息</h3>
-            <p><b>获取方式：</b>${escapeHtml(source)}</p>
-            <p>${escapeHtml(item.summary)}</p>
+            ${renderLabeledParagraphs("获取方式", source)}
+            ${item.summary ? renderLabeledParagraphs("详情说明", item.summary) : ""}
           </section>
           <section class="item-tab-content" data-item-section="use" hidden>
             <h3>主要用途</h3>
-            <p>${escapeHtml(use)}</p>
+            ${renderParagraphs(use)}
           </section>
           <section class="item-tab-content" data-item-section="sellPrice" hidden>
             <h3>售价信息</h3>
-            <p><b>基础售价：</b>${escapeHtml(sellPrice)}</p>
+            ${renderLabeledParagraphs("基础售价", sellPrice)}
           </section>
         </div>
       </div>
@@ -133,9 +365,9 @@ export function renderHomeView({ stats, datasets, articles }) {
     { title: "作物收益计算器", href: routePath("tool", { tool: "crops" }), icon: "/assets/game/36px-Farming_Skill_Icon.png", description: "按季节、天数、肥料和加工方式估算净收益。", action: "开始计算" },
     { title: "鱼类查询器", href: routePath("tool", { tool: "fish" }), icon: "/assets/game/36px-Fishing_Skill_Icon.png", description: "用时间、天气、地点和季节快速定位可钓鱼类。", action: "查询鱼类" },
     { title: "社区中心进度", href: routePath("tool", { tool: "community-center" }), icon: "/assets/game/36px-Bundle_Green.png", description: "跟踪收集包、缺失物品和当前季节待办。", action: "管理清单" },
-    { title: "礼物推荐", href: datasetLink("villagers", "NPC 礼物"), icon: "/assets/game/32px-HeartIconLarge.png", description: "查村民生日、住址和最爱礼物，减少试错。", action: "查看 NPC" },
-    { title: "矿洞掉落", href: routePath("search", { q: "矿洞 掉落" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "整理矿石、怪物、楼层和常用材料来源。", action: "查找掉落" },
-    { title: "新手路线", href: articleLink(["第一年", "新手", "春季"], "新手路线"), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天规划、背包升级到社区中心初期路线。", action: "阅读路线" }
+    { title: "礼物推荐", href: datasetLink("villagers", "NPC 礼物"), icon: "/assets/game/32px-HeartIconLarge.png", description: "按生日、住址、最爱礼物查村民，送礼前先避开讨厌物。", action: "查看礼物" },
+    { title: "矿洞掉落", href: routePath("guide", { slug: "mines-floor-40-preparation-route" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "按矿石、怪物、楼层和常用材料规划前 40 层下矿路线。", action: "查看矿洞路线" },
+    { title: "新手路线", href: routePath("guide", { slug: "year-one-spring-money-route" }), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天开局、背包升级、钓鱼下矿到社区中心前期目标。", action: "阅读路线" }
   ];
   const categoryCards = [
     { title: "作物", slug: "crops", icon: "/assets/game/36px-Farming_Skill_Icon.png", query: "作物" },

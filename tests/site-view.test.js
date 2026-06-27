@@ -5,6 +5,7 @@ import {
   renderCategoryOverview,
   renderFeaturedGuideCard,
   renderHomeView,
+  renderItemCard,
   renderItemDialog,
   renderLibrarySidebar
 } from "../public/js/site-view.js";
@@ -71,6 +72,34 @@ describe("UI Kit v4 refinement public views", () => {
     for (const token of forbiddenRuntimeTokens) expect(html).not.toContain(token);
   });
 
+  test("homepage secondary tool cards point to concrete content areas", () => {
+    const html = renderHomeView({
+      stats: { entries: 441, datasets: 10, articles: 6, version: "1.6.15" },
+      datasets: [
+        ...datasets,
+        {
+          id: 99,
+          name: "村民关系",
+          slug: "villagers",
+          icon: "/assets/game/32px-HeartIconLarge.png",
+          description: "生日、住址与礼物喜好",
+          entry_count: 33
+        }
+      ],
+      articles
+    });
+
+    expect(html).toContain("礼物推荐");
+    expect(html).toContain("/wiki/villagers");
+    expect(html).toContain("生日、住址、最爱礼物");
+    expect(html).toContain("矿洞掉落");
+    expect(html).toContain("/guides/mines-floor-40-preparation-route");
+    expect(html).toContain("矿石、怪物、楼层");
+    expect(html).toContain("新手路线");
+    expect(html).toContain("/guides/year-one-spring-money-route");
+    expect(html).toContain("第一天开局");
+  });
+
   test("uses shared cards for featured guides, categories, sidebar, and dialog", () => {
     expect(renderFeaturedGuideCard(articles[0])).toContain('class="featured-guide-card card"');
     expect(renderCategoryOverview(datasets).match(/class="category-overview-card card"/g)).toHaveLength(9);
@@ -97,6 +126,113 @@ describe("UI Kit v4 refinement public views", () => {
     expect(dialog).not.toContain("item-dialog-visual");
     expect(dialog).toContain('data-item-section="source"');
     for (const token of forbiddenRuntimeTokens) expect(dialog).not.toContain(token);
+  });
+
+  test("item dialogs prioritize complete source, use, and sell price fields", () => {
+    const dialog = renderItemDialog({
+      name: "草莓",
+      image: "/assets/game/24px-Strawberry.png",
+      summary: "草莓是春季复活节后最常见的高价值作物。",
+      dataset_name: "作物与种子",
+      attributes: {
+        source: "复活节商店",
+        "获取方式": "春季 13 日复活节商店购买草莓种子后种植，成熟后可重复收获。",
+        "主要用途": "适合春季现金流、送礼和后续种子规划。",
+        "新手建议": "第一年不要盲目满田，优先保证浇水体力和背包空间。",
+        sellPrice: "120 金"
+      }
+    });
+
+    expect(dialog).toContain("春季 13 日复活节商店购买草莓种子后种植");
+    expect(dialog).toContain("草莓是春季复活节后最常见的高价值作物。");
+    expect(dialog).toContain("详情说明");
+    expect(dialog).toContain("适合春季现金流、送礼和后续种子规划");
+    expect(dialog).toContain("第一年不要盲目满田");
+    expect(dialog).toContain("120 金");
+    expect(dialog).not.toContain("请查看对应分类的获取条件");
+  });
+
+  test("item dialogs build useful fallback details for sparse fish entries", () => {
+    const dialog = renderItemDialog({
+      name: "鮟鱇鱼",
+      image: "/assets/game/24px-Angler.png",
+      summary: "秋季传奇鱼。",
+      dataset_name: "鱼类图鉴",
+      attributes: {
+        season: "秋季",
+        location: "木板桥北侧",
+        weather: "任意",
+        time: "全天"
+      }
+    });
+
+    expect(dialog).toContain("秋季");
+    expect(dialog).toContain("木板桥北侧");
+    expect(dialog).toContain("图鉴收集");
+    expect(dialog).toContain("暂无售价数据");
+    expect(dialog).not.toContain("请查看对应分类的获取条件");
+  });
+
+  test("item dialogs expand sparse crop entries into complete detail sections", () => {
+    const dialog = renderItemDialog({
+      name: "大黄",
+      image: "/assets/game/24px-Rhubarb.png",
+      summary: "沙漠商店出售的高价值春季作物",
+      dataset_name: "作物与种子",
+      attributes: {
+        season: "春季",
+        days: "13 天",
+        source: "绿洲",
+        sellPrice: "220 金"
+      }
+    });
+
+    expect(dialog).toContain("适用季节：春季");
+    expect(dialog).toContain("成熟周期：13 天");
+    expect(dialog).toContain("种子成本、播种日期、季节剩余天数");
+    expect(dialog).toContain("社区中心、料理、送礼或加工");
+    expect(dialog).toContain("实际收益会受到品质、职业加成、加工方式");
+  });
+
+  test("item dialogs expand sparse item entries into complete detail sections", () => {
+    const dialog = renderItemDialog({
+      name: "电池组",
+      image: "/assets/game/24px-Battery_Pack.png",
+      summary: "避雷针和太阳能板产物",
+      dataset_name: "物品百科",
+      attributes: {
+        type: "资源",
+        source: "避雷针|太阳能板",
+        sellPrice: "500 金"
+      }
+    });
+
+    expect(dialog).toContain("主要来源：避雷针|太阳能板");
+    expect(dialog).toContain("设备制作、任务、送礼、收集或后续解锁");
+    expect(dialog).toContain("第一份建议先保留");
+    expect(dialog).toContain("出售前先确认它是否会卡住建筑、工具、收集或任务进度");
+  });
+
+  test("item cards keep long detail text out of the grid card body", () => {
+    const longSummary = "防风草是春季最稳的基础作物，成熟快且成本低，适合第一周练耕种等级、完成社区中心春季作物收集包，并为品质作物包准备金星样本。新手建议至少保留普通品质和高品质各一批。";
+    const card = renderItemCard({
+      name: "防风草",
+      slug: "parsnip",
+      image: "/assets/game/24px-Parsnip.png",
+      summary: longSummary,
+      dataset_name: "作物与种子",
+      attributes: {
+        season: "春季",
+        days: "4 天",
+        source: "皮埃尔杂货店"
+      }
+    }, "crops");
+
+    expect(card).toContain("/wiki/crops/parsnip");
+    expect(card).toContain("防风草");
+    expect(card).toContain("春季");
+    expect(card).toContain("4 天");
+    expect(card).not.toContain(longSummary);
   });
 
   test("loads only the v3 design-system entrypoints", () => {
