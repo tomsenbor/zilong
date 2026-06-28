@@ -37,6 +37,22 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#39;");
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function searchTerms(q = "") {
+  return [...new Set(String(q).trim().split(/\s+/).filter(Boolean))].slice(0, 5);
+}
+
+function highlightSearchText(value = "", q = "") {
+  const escaped = escapeHtml(value);
+  const terms = searchTerms(q);
+  if (!terms.length) return escaped;
+  const pattern = new RegExp(`(${terms.map(escapeRegExp).join("|")})`, "gi");
+  return escaped.replace(pattern, '<mark class="search-highlight">$1</mark>');
+}
+
 function stripMarkdown(value = "") {
   return String(value)
     .replace(/```[\s\S]*?```/g, " ")
@@ -107,6 +123,50 @@ function relatedSection(kind, title, items) {
     <ul>
       ${items.map((item) => `<li>${item}</li>`).join("")}
     </ul>
+  </section>`;
+}
+
+function searchResultTypeLabel(type) {
+  if (type === "article") return "攻略";
+  if (type === "entry") return "图鉴";
+  if (type === "tool") return "工具";
+  return "";
+}
+
+function searchSuggestionLinks() {
+  return `<div class="search-suggestions">
+    <a class="btn btn-secondary" href="${routePath("wiki")}">浏览资料库</a>
+    <a class="btn btn-secondary" href="${routePath("guides")}">阅读攻略</a>
+    <a class="btn btn-secondary" href="${routePath("tools")}">使用工具</a>
+  </div>`;
+}
+
+function searchResultsSection(q, results) {
+  if (!q) {
+    return `<section class="search-results-copy">
+      <h2>搜索建议</h2>
+      <p>输入关键词开始搜索，可以查找作物、鱼类、NPC、攻略和工具。</p>
+      ${searchSuggestionLinks()}
+    </section>`;
+  }
+  if (!results.length) {
+    return `<section class="search-results-copy">
+      <h2>搜索结果</h2>
+      <p>没有找到与“${escapeHtml(q)}”相关的结果，建议换一个关键词，或先从资料库、攻略和工具入口浏览。</p>
+      ${searchSuggestionLinks()}
+    </section>`;
+  }
+  return `<section class="search-results-copy">
+    <div class="search-results-heading">
+      <h2>搜索结果</h2>
+      <p class="search-summary">找到 ${results.length} 条与“${escapeHtml(q)}”相关内容</p>
+    </div>
+    <div class="card search-results">
+      ${results.map((item) => {
+        const label = searchResultTypeLabel(item.type);
+        return `<a class="row-result" href="${escapeHtml(item.href)}">${label ? `<span class="row-result-type">${escapeHtml(label)}</span>` : ""}<h3>${highlightSearchText(item.title, q)}</h3><p>${highlightSearchText(item.snippet || "", q)}</p></a>`;
+      }).join("<hr>")}
+    </div>
   </section>`;
 }
 
@@ -474,11 +534,7 @@ function buildSearchPage(db, searchParams) {
       h1: q ? `搜索：${q}` : "搜索",
       lead: description,
       sections: [
-        results.length
-          ? listSection("搜索结果", results.map((item) => (
-            `<a href="${item.href}">${escapeHtml(item.title)}</a>：${escapeHtml(item.snippet || "")}`
-          )))
-          : "<section><h2>搜索结果</h2><p>没有找到相关结果。</p></section>"
+        searchResultsSection(q, results)
       ]
     })
   };
@@ -493,6 +549,7 @@ function searchContent(db, q) {
     ORDER BY featured DESC, updated_at DESC
     LIMIT 20
   `).all(pattern, pattern, pattern).map((item) => ({
+    type: item.type,
     title: item.title,
     snippet: item.snippet,
     href: articleLink(item)
@@ -503,6 +560,7 @@ function searchContent(db, q) {
     WHERE e.published=1 AND (e.name LIKE ? OR e.aliases LIKE ? OR e.summary LIKE ? OR e.attributes_json LIKE ?)
     LIMIT 30
   `).all(pattern, pattern, pattern, pattern).map((item) => ({
+    type: item.type,
     title: item.title,
     snippet: item.snippet,
     href: entryLink(item.dataset_slug, item)

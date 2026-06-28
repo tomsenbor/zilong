@@ -195,9 +195,23 @@ describe("application shell", () => {
     const search = await request(app).get(`/search?q=${encodeURIComponent("鱼类")}`);
     expect(search.text).toContain("<title>鱼类 搜索结果");
     expect(search.text).toContain("<h1>搜索：鱼类</h1>");
-    expect(search.text).toContain("全鱼类季节与天气速查");
+    expect(search.text).toContain('全<mark class="search-highlight">鱼类</mark>季节与天气速查');
+    expect(search.text).toContain("找到");
+    expect(search.text).toContain('<mark class="search-highlight">鱼类</mark>');
+    expect(search.text).toContain('<span class="row-result-type">攻略</span>');
+    expect(search.text).toContain('<span class="row-result-type">图鉴</span>');
     expect(search.text).toContain("/guides/");
     expect(search.text).not.toContain("#article");
+
+    const searchLanding = await request(app).get("/search");
+    expect(searchLanding.text).toContain("输入关键词开始搜索");
+    expect(searchLanding.text).toContain('href="/wiki"');
+    expect(searchLanding.text).toContain('href="/tools"');
+
+    const noResults = await request(app).get(`/search?q=${encodeURIComponent("不存在的星露谷搜索词")}`);
+    expect(noResults.text).toContain("没有找到与");
+    expect(noResults.text).toContain("建议换一个关键词");
+    expect(noResults.text).toContain('href="/guides"');
 
     for (const url of ["/tools", "/tools/fish", "/tools/crop-profit", "/tools/community-center"]) {
       const response = await request(app).get(url);
@@ -378,6 +392,45 @@ describe("application shell", () => {
       expect(page.status, path).toBe(200);
       expect(page.text, path).toContain("<h1>");
       expect(row.slug, path).not.toMatch(/[\u3400-\u9fff]/);
+      expect(new Set(internalLinks).size, path).toBeGreaterThanOrEqual(2);
+      expect(sitemap.text, path).toContain(`https://pixelharvestwiki.com${path}`);
+    }
+  });
+
+  test("serves tool and wiki workflow guides through English URLs and sitemap", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePaths = [
+      "/guides/crop-wiki-and-profit-tool-planning",
+      "/guides/fish-wiki-and-query-tool-route",
+      "/guides/community-center-checklist-and-wiki-route",
+      "/guides/wiki-item-detail-reading-guide",
+      "/guides/tool-first-new-player-workflow"
+    ];
+    const sitemap = await request(app).get("/sitemap.xml");
+    const rows = context.db.prepare(`
+      SELECT slug, body
+      FROM articles
+      WHERE slug IN (${guidePaths.map(() => "?").join(",")})
+      ORDER BY slug
+    `).all(...guidePaths.map((path) => path.replace("/guides/", "")));
+
+    expect(rows).toHaveLength(guidePaths.length);
+
+    for (const path of guidePaths) {
+      const slug = path.replace("/guides/", "");
+      const row = rows.find((item) => item.slug === slug);
+      const page = await request(app).get(path);
+      const internalLinks = [...page.text.matchAll(/href="(\/(?:tools|wiki|guides)\/?[^"#]*)"/g)]
+        .map((match) => match[1]);
+
+      expect(page.status, path).toBe(200);
+      expect(page.text, path).toContain("<h1>");
+      expect(row.slug, path).not.toMatch(/[\u3400-\u9fff]/);
+      expect(row.body, path).toMatch(/\]\(\/tools\//);
+      expect(row.body, path).toMatch(/\]\(\/wiki(?:\/|\))/);
       expect(new Set(internalLinks).size, path).toBeGreaterThanOrEqual(2);
       expect(sitemap.text, path).toContain(`https://pixelharvestwiki.com${path}`);
     }

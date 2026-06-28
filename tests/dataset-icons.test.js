@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(24);
+    expect(articles).toHaveLength(29);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -102,6 +102,27 @@ describe("dataset icons", () => {
       expect(article, expectedSlug).toBeTruthy();
       expect(article.slug, expectedSlug).not.toMatch(/[\u3400-\u9fff]/);
       expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
+      expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
+      expect(article.body, expectedSlug).toContain("### 本节执行清单");
+    }
+  });
+
+  test("ships tool and wiki workflow guides with English slugs and internal links", () => {
+    const expectedSlugs = [
+      "crop-wiki-and-profit-tool-planning",
+      "fish-wiki-and-query-tool-route",
+      "community-center-checklist-and-wiki-route",
+      "wiki-item-detail-reading-guide",
+      "tool-first-new-player-workflow"
+    ];
+
+    for (const expectedSlug of expectedSlugs) {
+      const article = articles.find((item) => item.slug === expectedSlug);
+      expect(article, expectedSlug).toBeTruthy();
+      expect(article.slug, expectedSlug).not.toMatch(/[\u3400-\u9fff]/);
+      expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
+      expect((article.body.match(/\]\(\/tools\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(1);
+      expect((article.body.match(/\]\(\/wiki(?:\/|\))/g) || []).length, expectedSlug).toBeGreaterThanOrEqual(1);
       expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
       expect(article.body, expectedSlug).toContain("### 本节执行清单");
     }

@@ -659,6 +659,24 @@ textarea {
   padding: 8px;
 }
 
+.search-results-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.search-results-heading h2 {
+  margin: 0;
+}
+
+.search-summary {
+  margin: 0;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
 .search-results hr {
   border: 0;
   border-top: 1px solid var(--border-light);
@@ -702,6 +720,26 @@ textarea {
   margin: 0;
   color: var(--color-muted);
   line-height: 1.65;
+}
+
+.search-highlight {
+  border-radius: 4px;
+  background: rgba(217, 179, 92, 0.28);
+  color: var(--color-text);
+  padding: 0 2px;
+}
+
+.search-empty h2 {
+  margin: 0 0 10px;
+  color: var(--color-text);
+}
+
+.search-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
 }
 
 .guide-toc-mobile {

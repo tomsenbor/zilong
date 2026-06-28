@@ -461,15 +461,50 @@ function searchResultTypeLabel(type) {
   return "";
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function searchTerms(q = "") {
+  return [...new Set(String(q).trim().split(/\s+/).filter(Boolean))].slice(0, 5);
+}
+
+function highlightSearchText(value = "", q = "") {
+  const escaped = escapeHtml(value);
+  const terms = searchTerms(q);
+  if (!terms.length) return escaped;
+  const pattern = new RegExp(`(${terms.map(escapeRegExp).join("|")})`, "gi");
+  return escaped.replace(pattern, '<mark class="search-highlight">$1</mark>');
+}
+
+function searchSuggestionLinks() {
+  return `<div class="search-suggestions">
+    <a class="btn btn-secondary" href="${routePath("wiki")}">浏览资料库</a>
+    <a class="btn btn-secondary" href="${routePath("guides")}">阅读攻略</a>
+    <a class="btn btn-secondary" href="${routePath("tools")}">使用工具</a>
+  </div>`;
+}
+
+function searchResultsMarkup(q, data) {
+  if (!q) {
+    return `<div class="${uiClass("card empty search-empty")}"><h2>搜索建议</h2><p>输入关键词开始搜索，可以查找作物、鱼类、NPC、攻略和工具。</p>${searchSuggestionLinks()}</div>`;
+  }
+  if (!data.items.length) {
+    return `<div class="${uiClass("card empty search-empty")}"><h2>搜索结果</h2><p>没有找到与“${escapeHtml(q)}”相关的结果，建议换一个关键词，或先从资料库、攻略和工具入口浏览。</p>${searchSuggestionLinks()}</div>`;
+  }
+  return `<div class="search-results-heading"><h2>搜索结果</h2><p class="search-summary">找到 ${data.pagination.total} 条与“${escapeHtml(q)}”相关内容</p></div><div class="${uiClass("card search-results")}">${data.items.map((item)=>{ const label = searchResultTypeLabel(item.type); const href = item.type === "article" ? routePath("guide", { slug: item.slug }) : item.type === "tool" ? routePath("tools") : routePath("wikiEntry", { datasetSlug: item.dataset_slug, entrySlug: item.slug }); return `<a class="row-result" href="${href}" aria-label="查看${escapeHtml(item.title)}">${label ? `<span class="row-result-type">${escapeHtml(label)}</span>` : ""}<h3>${highlightSearchText(item.title, q)}</h3><p>${highlightSearchText(item.snippet, q)}</p></a>`; }).join("<hr>")}</div>`;
+}
+
 async function searchPage(params) {
   await loadDatasets();
-  const q=params.get("q")||""; const data=await api(`/api/search?q=${encodeURIComponent(q)}&pageSize=50`);
+  const q=String(params.get("q")||"").trim();
+  const data=q ? await api(`/api/search?q=${encodeURIComponent(q)}&pageSize=50`) : { items: [], pagination: { total: 0 } };
   app.innerHTML = `${PageHero({
     eyebrow: "全站搜索",
     title: "搜索结果",
-    description: `关键词“${q}”找到 ${data.pagination.total} 条结果。`,
+    description: q ? `关键词“${q}”找到 ${data.pagination.total} 条结果。` : "输入关键词搜索作物、鱼类、NPC、攻略和实用工具。",
     className: "search-page-header"
-  })}<section class="section search-results-section"><div class="shell">${data.items.length?`<div class="${uiClass("card search-results")}">${data.items.map((item)=>{ const label = searchResultTypeLabel(item.type); const href = item.type === "article" ? routePath("guide", { slug: item.slug }) : item.type === "tool" ? routePath("tools") : routePath("wikiEntry", { datasetSlug: item.dataset_slug, entrySlug: item.slug }); return `<a class="row-result" href="${href}">${label ? `<span class="row-result-type">${escapeHtml(label)}</span>` : ""}<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.snippet)}</p></a>`; }).join("<hr>")}</div>`:`<div class="${uiClass("card empty")}">没有找到相关结果。</div>`}</div></section>`;
+  })}<section class="section search-results-section"><div class="shell">${searchResultsMarkup(q, data)}</div></section>`;
 }
 
 async function toolsPage() {
