@@ -90,13 +90,13 @@ describe("UI Kit v4 refinement public views", () => {
     });
 
     expect(html).toContain("礼物推荐");
-    expect(html).toContain("/wiki/villagers");
+    expect(html).toContain("/guides/villager-gift-birthday-recommendation");
     expect(html).toContain("生日、住址、最爱礼物");
     expect(html).toContain("矿洞掉落");
-    expect(html).toContain("/guides/mines-floor-40-preparation-route");
+    expect(html).toContain("/guides/mines-drops-and-floor-resource-route");
     expect(html).toContain("矿石、怪物、楼层");
     expect(html).toContain("新手路线");
-    expect(html).toContain("/guides/year-one-spring-money-route");
+    expect(html).toContain("/guides/beginner-year-one-route-overview");
     expect(html).toContain("第一天开局");
   });
 
@@ -150,6 +150,23 @@ describe("UI Kit v4 refinement public views", () => {
     expect(dialog).toContain("第一年不要盲目满田");
     expect(dialog).toContain("120 金");
     expect(dialog).not.toContain("请查看对应分类的获取条件");
+  });
+
+  test("item dialogs label beginner advice and planning guidance", () => {
+    const dialog = renderItemDialog({
+      name: "测试作物",
+      image: "/assets/game/24px-Parsnip.png",
+      summary: "测试说明",
+      dataset_name: "作物与种子",
+      attributes: {
+        "主要用途": "用于验证详情页用途展示。",
+        "新手建议": "建议先保留第一份，不要急着出售。",
+        "关联规划": "配合作物收益计算器和社区中心清单一起规划。"
+      }
+    });
+
+    expect(dialog).toContain("新手建议：建议先保留第一份，不要急着出售。");
+    expect(dialog).toContain("关联规划：配合作物收益计算器和社区中心清单一起规划。");
   });
 
   test("item dialogs build useful fallback details for sparse fish entries", () => {

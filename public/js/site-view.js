@@ -192,11 +192,13 @@ function buildItemUseText(item) {
     advice = "选择职业前先看自己的主要玩法，种地、钓鱼、下矿和加工路线对收益影响不同。";
   }
 
+  const beginnerAdvice = pickAttribute(attributes, ["新手建议"]);
+  const planningAdvice = pickAttribute(attributes, ["关联规划"]);
   const notes = uniqueParts([
     item.summary,
     primary || fallback,
-    pickAttribute(attributes, ["新手建议"]),
-    pickAttribute(attributes, ["关联规划"]),
+    beginnerAdvice ? `新手建议：${beginnerAdvice}` : "",
+    planningAdvice ? `关联规划：${planningAdvice}` : "",
     advice
   ]);
   return notes.join("\n");
@@ -365,9 +367,9 @@ export function renderHomeView({ stats, datasets, articles }) {
     { title: "作物收益计算器", href: routePath("tool", { tool: "crops" }), icon: "/assets/game/36px-Farming_Skill_Icon.png", description: "按季节、天数、肥料和加工方式估算净收益。", action: "开始计算" },
     { title: "鱼类查询器", href: routePath("tool", { tool: "fish" }), icon: "/assets/game/36px-Fishing_Skill_Icon.png", description: "用时间、天气、地点和季节快速定位可钓鱼类。", action: "查询鱼类" },
     { title: "社区中心进度", href: routePath("tool", { tool: "community-center" }), icon: "/assets/game/36px-Bundle_Green.png", description: "跟踪收集包、缺失物品和当前季节待办。", action: "管理清单" },
-    { title: "礼物推荐", href: datasetLink("villagers", "NPC 礼物"), icon: "/assets/game/32px-HeartIconLarge.png", description: "按生日、住址、最爱礼物查村民，送礼前先避开讨厌物。", action: "查看礼物" },
-    { title: "矿洞掉落", href: routePath("guide", { slug: "mines-floor-40-preparation-route" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "按矿石、怪物、楼层和常用材料规划前 40 层下矿路线。", action: "查看矿洞路线" },
-    { title: "新手路线", href: routePath("guide", { slug: "year-one-spring-money-route" }), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天开局、背包升级、钓鱼下矿到社区中心前期目标。", action: "阅读路线" }
+    { title: "礼物推荐", href: routePath("guide", { slug: "villager-gift-birthday-recommendation" }), icon: "/assets/game/32px-HeartIconLarge.png", description: "按生日、住址、最爱礼物查村民，送礼前先避开讨厌物。", action: "查看礼物" },
+    { title: "矿洞掉落", href: routePath("guide", { slug: "mines-drops-and-floor-resource-route" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "按矿石、怪物、楼层和常用材料规划前 40 层下矿路线。", action: "查看矿洞路线" },
+    { title: "新手路线", href: routePath("guide", { slug: "beginner-year-one-route-overview" }), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天开局、背包升级、钓鱼下矿到社区中心前期目标。", action: "阅读路线" }
   ];
   const categoryCards = [
     { title: "作物", slug: "crops", icon: "/assets/game/36px-Farming_Skill_Icon.png", query: "作物" },

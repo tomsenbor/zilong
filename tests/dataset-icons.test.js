@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(21);
+    expect(articles).toHaveLength(24);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -78,6 +78,23 @@ describe("dataset icons", () => {
       "greenhouse-crops-processing-route",
       "quest-board-special-orders-route",
       "winter-prep-year-two-route"
+    ];
+
+    for (const expectedSlug of expectedSlugs) {
+      const article = articles.find((item) => item.slug === expectedSlug);
+      expect(article, expectedSlug).toBeTruthy();
+      expect(article.slug, expectedSlug).not.toMatch(/[\u3400-\u9fff]/);
+      expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
+      expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
+      expect(article.body, expectedSlug).toContain("### 本节执行清单");
+    }
+  });
+
+  test("ships homepage entrance guides with English slugs and internal links", () => {
+    const expectedSlugs = [
+      "villager-gift-birthday-recommendation",
+      "mines-drops-and-floor-resource-route",
+      "beginner-year-one-route-overview"
     ];
 
     for (const expectedSlug of expectedSlugs) {

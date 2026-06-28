@@ -71,7 +71,7 @@ describe("public API", () => {
     expect(legacy.status).toBe(200);
     expect(legacy.body.item).toMatchObject({ name: "草莓", slug: "strawberry" });
 
-    const search = await request(app).get("/api/search").query({ q: "草莓" });
+    const search = await request(app).get("/api/search").query({ q: "草莓", pageSize: 50 });
     expect(search.body.items.find((item) => item.type === "entry" && item.title === "草莓")).toMatchObject({
       dataset_slug: "crops",
       slug: "strawberry"
