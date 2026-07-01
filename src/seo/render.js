@@ -303,6 +303,18 @@ function findArticle(db, slug) {
   return db.prepare("SELECT * FROM articles WHERE slug = ? AND status = 'published'").get(slug);
 }
 
+function findArticleBySlugOrTitle(db, slug) {
+  const article = findArticle(db, slug);
+  if (article) return { article, legacyTitleMatch: false };
+
+  const legacyArticle = db.prepare("SELECT * FROM articles WHERE title = ? AND status = 'published'").get(slug);
+  if (legacyArticle?.slug && legacyArticle.slug !== slug) {
+    return { article: legacyArticle, legacyTitleMatch: true };
+  }
+
+  return { article: null, legacyTitleMatch: false };
+}
+
 function findDataset(db, slug) {
   return db.prepare("SELECT * FROM datasets WHERE slug = ?").get(slug);
 }
@@ -392,8 +404,19 @@ function buildGuidesPage(db) {
 }
 
 function buildGuidePage(db, slug, req, context) {
-  const article = findArticle(db, slug);
+  const { article, legacyTitleMatch } = findArticleBySlugOrTitle(db, slug);
   if (!article) return buildNotFoundPage("攻略不存在", routePath("guides"));
+  if (legacyTitleMatch) {
+    return {
+      status: 301,
+      redirectPath: articleLink(article),
+      title: article.title,
+      description: truncate(article.summary || article.body || defaultDescription),
+      canonicalPath: articleLink(article),
+      h1: article.title,
+      html: ""
+    };
+  }
   const description = truncate(article.summary || article.body || defaultDescription);
   const canonicalPath = articleLink(article);
   const canonical = absoluteUrl(canonicalPath, req, context);
@@ -711,7 +734,8 @@ export function renderPublicPage({ req, context }) {
   return {
     html: renderDocument(page, canonical),
     status: page.status || 200,
-    noindex: Boolean(page.noindex)
+    noindex: Boolean(page.noindex),
+    redirectPath: page.redirectPath
   };
 }
 

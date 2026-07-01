@@ -91,7 +91,9 @@ export function createContentRouter({ db }) {
   });
 
   router.get("/articles/:slug", (req, res, next) => {
-    const item = mapArticle(db.prepare("SELECT * FROM articles WHERE slug = ? AND status = 'published'").get(req.params.slug) || {});
+    const row = db.prepare("SELECT * FROM articles WHERE slug = ? AND status = 'published'").get(req.params.slug)
+      || db.prepare("SELECT * FROM articles WHERE title = ? AND status = 'published'").get(req.params.slug);
+    const item = mapArticle(row || {});
     if (!item.id) return next(new AppError(404, "ARTICLE_NOT_FOUND", "攻略不存在"));
     item.html = sanitizeHtml(marked.parse(stripDuplicateArticleTitleHeading(item.body, item.title)), articleHtmlOptions);
     item.categories = db.prepare(`

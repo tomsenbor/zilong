@@ -82,7 +82,7 @@ describe("application shell", () => {
 
     for (const url of [
       "/guides",
-      "/guides/%E7%AC%AC%E4%B8%80%E5%B9%B4%E6%98%A5%E5%AD%A3%E5%AE%8C%E6%95%B4%E5%8F%91%E5%B1%95%E8%B7%AF%E7%BA%BF",
+      "/guides/year-one-spring-complete-route",
       "/wiki",
       "/wiki/crops",
       "/wiki/crops/%E8%8D%89%E8%8E%93",
@@ -170,7 +170,7 @@ describe("application shell", () => {
     expect(guides.text).toContain("<h1>星露谷攻略文章</h1>");
     expect(guides.text).toContain("第一年春季完整发展路线");
 
-    const guide = await request(app).get(`/guides/${encodeURIComponent("第一年春季完整发展路线")}`);
+    const guide = await request(app).get("/guides/year-one-spring-complete-route");
     expect(guide.text).toContain("<h1>第一年春季完整发展路线</h1>");
     expect(guide.text).toContain("从防风草到草莓");
     expect(guide.text).toContain("复活节与草莓");
@@ -283,6 +283,38 @@ describe("application shell", () => {
       expect(page.status, title).toBe(200);
       expect(page.text, title).toContain(`<h1>${title}</h1>`);
       expect(page.text, title).toMatch(/href="\/(?:tools|wiki)\//);
+      expect(sitemap.text, title).toContain(`https://pixelharvestwiki.com${path}`);
+      expect(sitemap.text, title).not.toContain(`/guides/${encodeURIComponent(title)}`);
+    }
+  });
+
+  test("serves original built-in guides through English slugs and redirects legacy Chinese URLs", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePaths = new Map([
+      ["第一年春季完整发展路线", "/guides/year-one-spring-complete-route"],
+      ["温室解锁与全年种植布局", "/guides/greenhouse-unlock-year-round-layout"],
+      ["全鱼类季节与天气速查", "/guides/all-fish-season-weather-reference"],
+      ["村民送礼与生日指南", "/guides/villager-gifts-and-birthdays-guide"],
+      ["1.6 精通系统详解", "/guides/mastery-system-guide-1-6"],
+      ["姜岛解锁与金色核桃收集路线", "/guides/ginger-island-golden-walnut-route"]
+    ]);
+    const sitemap = await request(app).get("/sitemap.xml");
+
+    for (const [title, path] of guidePaths) {
+      const slug = path.replace("/guides/", "");
+      const row = context.db.prepare("SELECT title, slug FROM articles WHERE title = ?").get(title);
+      const page = await request(app).get(path);
+      const legacy = await request(app).get(`/guides/${encodeURIComponent(title)}`);
+
+      expect(row.slug, title).toBe(slug);
+      expect(row.slug, title).not.toMatch(/[\u3400-\u9fff]/);
+      expect(page.status, path).toBe(200);
+      expect(page.text, path).toContain(`<h1>${title}</h1>`);
+      expect(legacy.status, title).toBe(301);
+      expect(legacy.headers.location, title).toBe(path);
       expect(sitemap.text, title).toContain(`https://pixelharvestwiki.com${path}`);
       expect(sitemap.text, title).not.toContain(`/guides/${encodeURIComponent(title)}`);
     }

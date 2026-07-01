@@ -97,14 +97,23 @@ describe("public API", () => {
   });
 
   test("returns every complete chapter for a built-in guide", async () => {
+    const response = await request(app).get("/api/articles/ginger-island-golden-walnut-route");
+
+    expect(response.status).toBe(200);
+    expect(response.body.item.slug).toBe("ginger-island-golden-walnut-route");
+    expect(response.body.item.html.match(/<h2>/g)?.length).toBeGreaterThanOrEqual(6);
+    expect(response.body.item.html).toContain("登岛背包清单");
+    expect(response.body.item.html).toContain("姜岛也会真正成为稳定的第二生产基地");
+  });
+
+  test("keeps legacy Chinese guide API URLs compatible while returning stable slugs", async () => {
     const response = await request(app).get(
       `/api/articles/${encodeURIComponent("姜岛解锁与金色核桃收集路线")}`
     );
 
     expect(response.status).toBe(200);
-    expect(response.body.item.html.match(/<h2>/g)?.length).toBeGreaterThanOrEqual(6);
-    expect(response.body.item.html).toContain("登岛背包清单");
-    expect(response.body.item.html).toContain("姜岛也会真正成为稳定的第二生产基地");
+    expect(response.body.item.slug).toBe("ginger-island-golden-walnut-route");
+    expect(response.body.item.title).toBe("姜岛解锁与金色核桃收集路线");
   });
 
   test("keeps local uploaded images in sanitized article markdown", async () => {

@@ -33,6 +33,24 @@ describe("dataset icons", () => {
     }
   });
 
+  test("ships original built-in guides with stable English slugs", () => {
+    const expectedGuides = new Map([
+      ["第一年春季完整发展路线", "year-one-spring-complete-route"],
+      ["温室解锁与全年种植布局", "greenhouse-unlock-year-round-layout"],
+      ["全鱼类季节与天气速查", "all-fish-season-weather-reference"],
+      ["村民送礼与生日指南", "villager-gifts-and-birthdays-guide"],
+      ["1.6 精通系统详解", "mastery-system-guide-1-6"],
+      ["姜岛解锁与金色核桃收集路线", "ginger-island-golden-walnut-route"]
+    ]);
+
+    for (const [title, expectedSlug] of expectedGuides) {
+      const article = articles.find((item) => item.title === title);
+      expect(article, title).toBeTruthy();
+      expect(article.slug, title).toBe(expectedSlug);
+      expect(article.slug, title).not.toMatch(/[\u3400-\u9fff]/);
+    }
+  });
+
   test("ships the v5.3 content-building guide set with internal links", () => {
     const expectedGuides = new Map([
       ["第一年春季赚钱路线", "year-one-spring-money-route"],

@@ -35,13 +35,14 @@ export function createApp(context) {
   app.use("/api", createRouter(context));
   app.get("*splat", (req, res, next) => {
     if (req.path.startsWith("/api/")) return next();
-    if (path.extname(req.path)) return next();
+    if (path.extname(req.path) && !req.path.startsWith("/guides/")) return next();
     if (req.path.startsWith("/admin")) {
       res.set("X-Robots-Tag", "noindex, nofollow");
       return res.sendFile(path.join(root, "public", "admin.html"));
     }
     try {
       const page = renderPublicPage({ req, context });
+      if (page.redirectPath) return res.redirect(page.status || 301, page.redirectPath);
       if (page.noindex) res.set("X-Robots-Tag", "noindex, nofollow");
       return res.status(page.status).type("html").send(page.html);
     } catch (error) {
