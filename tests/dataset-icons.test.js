@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, test } from "vitest";
-import { articles, datasets } from "../src/db/seeds.js";
+import { articles, datasets, entries } from "../src/db/seeds.js";
 
 describe("dataset icons", () => {
   test("uses an existing and unique icon for every category", () => {
@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(29);
+    expect(articles).toHaveLength(30);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -143,6 +143,63 @@ describe("dataset icons", () => {
       expect((article.body.match(/\]\(\/wiki(?:\/|\))/g) || []).length, expectedSlug).toBeGreaterThanOrEqual(1);
       expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
       expect(article.body, expectedSlug).toContain("### 本节执行清单");
+    }
+  });
+
+  test("ships greenhouse fruit tree planning guide with English slug and internal links", () => {
+    const article = articles.find((item) => item.slug === "greenhouse-fruit-tree-planning");
+
+    expect(article).toBeTruthy();
+    expect(article.title).toBe("温室果树收益与边缘规划");
+    expect(article.slug).not.toMatch(/[\u3400-\u9fff]/);
+    expect(article.summary.length).toBeGreaterThan(18);
+    expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length).toBeGreaterThanOrEqual(5);
+    expect(article.body).toContain("### 本节执行清单");
+  });
+
+  test("ships detailed fruit tree item entries with stable local icons", () => {
+    const expectedFruitEntries = new Map([
+      ["苹果", "36px-Apple.png"],
+      ["杏子", "36px-Apricot.png"],
+      ["樱桃", "36px-Cherry.png"],
+      ["橙子", "36px-Orange.png"],
+      ["桃子", "36px-Peach.png"],
+      ["石榴", "36px-Pomegranate.png"],
+      ["香蕉", "36px-Banana.png"]
+    ]);
+
+    for (const [name, image] of expectedFruitEntries) {
+      const entry = entries.find((item) => item.dataset === "items" && item.name === name);
+
+      expect(entry, name).toBeTruthy();
+      expect(entry.image, name).toBe(`/assets/game/${image}`);
+      expect(entry.attributes["获取方式"], name).toBeTruthy();
+      expect(entry.attributes["主要用途"], name).toBeTruthy();
+      expect(entry.attributes["新手建议"], name).toBeTruthy();
+      expect(entry.attributes["关联规划"], name).toBeTruthy();
+      expect(entry.attributes.links, name).toContain("/guides/greenhouse-fruit-tree-planning");
+      expect(fs.existsSync(path.resolve("public/assets/game", image)), image).toBe(true);
+    }
+  });
+
+  test("ships complete detail guidance for every public wiki entry", () => {
+    const detailFields = [
+      "\u83b7\u53d6\u65b9\u5f0f",
+      "\u4e3b\u8981\u7528\u9014",
+      "\u65b0\u624b\u5efa\u8bae",
+      "\u5173\u8054\u89c4\u5212"
+    ];
+
+    for (const entry of entries) {
+      if (entry.dataset === "catalog") continue;
+
+      for (const field of detailFields) {
+        expect(String(entry.attributes[field] || "").length, `${entry.dataset}:${entry.name}:${field}`).toBeGreaterThan(18);
+      }
+
+      expect(Array.isArray(entry.attributes.links), `${entry.dataset}:${entry.name}:links`).toBe(true);
+      expect(entry.attributes.links.length, `${entry.dataset}:${entry.name}:links`).toBeGreaterThanOrEqual(2);
+      expect(entry.attributes.links.every((link) => link.startsWith("/")), `${entry.dataset}:${entry.name}:links`).toBe(true);
     }
   });
 });

@@ -468,6 +468,57 @@ describe("application shell", () => {
     }
   });
 
+  test("serves greenhouse fruit tree guide and fruit item details through real URLs", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePath = "/guides/greenhouse-fruit-tree-planning";
+    const fruitPaths = [
+      "/wiki/items/apple",
+      "/wiki/items/apricot",
+      "/wiki/items/cherry",
+      "/wiki/items/orange",
+      "/wiki/items/peach",
+      "/wiki/items/pomegranate",
+      "/wiki/items/banana"
+    ];
+
+    const guide = await request(app).get(guidePath);
+    const sitemap = await request(app).get("/sitemap.xml");
+    const guideLinks = [...guide.text.matchAll(/href="(\/(?:tools|wiki|guides)\/[^"#]+)"/g)]
+      .map((match) => match[1]);
+    const fruitRows = context.db.prepare(`
+      SELECT e.slug, e.attributes_json
+      FROM dataset_entries e
+      JOIN datasets d ON d.id = e.dataset_id
+      WHERE d.slug = 'items'
+        AND e.slug IN (${fruitPaths.map(() => "?").join(",")})
+      ORDER BY e.slug
+    `).all(...fruitPaths.map((path) => path.replace("/wiki/items/", "")));
+
+    expect(guide.status).toBe(200);
+    expect(guide.text).toContain("<h1>");
+    expect(new Set(guideLinks).size).toBeGreaterThanOrEqual(5);
+    expect(sitemap.text).toContain(`https://pixelharvestwiki.com${guidePath}`);
+    expect(fruitRows).toHaveLength(fruitPaths.length);
+
+    for (const path of fruitPaths) {
+      const slug = path.replace("/wiki/items/", "");
+      const row = fruitRows.find((item) => item.slug === slug);
+      const attributes = JSON.parse(row.attributes_json);
+      const page = await request(app).get(path);
+
+      expect(page.status, path).toBe(200);
+      expect(sitemap.text, path).toContain(`https://pixelharvestwiki.com${path}`);
+      expect(attributes["获取方式"], path).toBeTruthy();
+      expect(attributes["主要用途"], path).toBeTruthy();
+      expect(attributes["新手建议"], path).toBeTruthy();
+      expect(attributes["关联规划"], path).toBeTruthy();
+      expect(attributes.links, path).toContain(guidePath);
+    }
+  });
+
   test("does not render a duplicate article title when markdown starts with the same H1", async () => {
     context = createTestContext();
     await initialize(context);
