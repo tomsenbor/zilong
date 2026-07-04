@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(30);
+    expect(articles).toHaveLength(43);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -105,6 +105,34 @@ describe("dataset icons", () => {
       expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
       expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
       expect(article.body, expectedSlug).toContain("### 本节执行清单");
+    }
+  });
+
+  test("ships priority guides and topic hubs with English slugs and internal links", () => {
+    const expectedSlugs = [
+      "year-one-first-week-complete-route",
+      "all-villager-birthdays-and-gifts",
+      "mines-floor-120-resource-monster-route",
+      "community-center-seasonal-items-checklist",
+      "beginner-common-mistakes",
+      "spring-season-topic-guide",
+      "summer-season-topic-guide",
+      "fall-season-topic-guide",
+      "winter-season-topic-guide",
+      "community-center-topic-guide",
+      "fishing-topic-guide",
+      "mines-topic-guide",
+      "villager-gift-topic-guide"
+    ];
+
+    for (const expectedSlug of expectedSlugs) {
+      const article = articles.find((item) => item.slug === expectedSlug);
+      expect(article, expectedSlug).toBeTruthy();
+      expect(article.slug, expectedSlug).not.toMatch(/[\u3400-\u9fff]/);
+      expect(article.summary.length, expectedSlug).toBeGreaterThan(18);
+      expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
+      expect(article.body.split("\n## ").length, expectedSlug).toBeGreaterThanOrEqual(4);
+      expect(article.body, expectedSlug).toMatch(/### /);
     }
   });
 

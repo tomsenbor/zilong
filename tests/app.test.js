@@ -394,6 +394,52 @@ describe("application shell", () => {
     }
   });
 
+  test("serves priority guide and topic hub content through English URLs and sitemap", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+    const guidePaths = [
+      "/guides/year-one-first-week-complete-route",
+      "/guides/all-villager-birthdays-and-gifts",
+      "/guides/mines-floor-120-resource-monster-route",
+      "/guides/community-center-seasonal-items-checklist",
+      "/guides/beginner-common-mistakes",
+      "/guides/spring-season-topic-guide",
+      "/guides/summer-season-topic-guide",
+      "/guides/fall-season-topic-guide",
+      "/guides/winter-season-topic-guide",
+      "/guides/community-center-topic-guide",
+      "/guides/fishing-topic-guide",
+      "/guides/mines-topic-guide",
+      "/guides/villager-gift-topic-guide"
+    ];
+    const sitemap = await request(app).get("/sitemap.xml");
+    const rows = context.db.prepare(`
+      SELECT slug, body
+      FROM articles
+      WHERE slug IN (${guidePaths.map(() => "?").join(",")})
+      ORDER BY slug
+    `).all(...guidePaths.map((path) => path.replace("/guides/", "")));
+
+    expect(rows).toHaveLength(guidePaths.length);
+
+    for (const path of guidePaths) {
+      const slug = path.replace("/guides/", "");
+      const row = rows.find((item) => item.slug === slug);
+      const page = await request(app).get(path);
+      const internalLinks = [...page.text.matchAll(/href="(\/(?:tools|wiki|guides)\/[^"#]+)"/g)]
+        .map((match) => match[1]);
+
+      expect(page.status, path).toBe(200);
+      expect(page.text, path).toContain("<h1>");
+      expect(row.slug, path).not.toMatch(/[\u3400-\u9fff]/);
+      expect(row.body, path).toMatch(/\]\(\/(?:tools|wiki|guides)\//);
+      expect(new Set(internalLinks).size, path).toBeGreaterThanOrEqual(2);
+      expect(sitemap.text, path).toContain(`https://pixelharvestwiki.com${path}`);
+    }
+  });
+
   test("serves homepage entrance guides through English URLs and sitemap", async () => {
     context = createTestContext();
     context.config.siteUrl = "https://pixelharvestwiki.com";
@@ -601,6 +647,21 @@ describe("application shell", () => {
     expect(catfish.text).toContain('href="/tools/fish"');
     const iridiumBar = await request(app).get("/wiki/items/iridium-bar");
     expect(iridiumBar.text).toContain('href="/guides/mines-floor-40-preparation-route"');
+
+    const blueberry = await request(app).get("/wiki/crops/blueberry");
+    expect(blueberry.status).toBe(200);
+    expect(blueberry.text).toContain('href="/guides/year-one-summer-money-route"');
+    expect(blueberry.text).not.toContain(">guides/year-one-summer-money-route</a>");
+
+    const apple = await request(app).get("/wiki/items/apple");
+    expect(apple.status).toBe(200);
+    expect(apple.text).toContain('href="/guides/greenhouse-fruit-tree-planning"');
+    expect(apple.text).not.toContain(">guides/greenhouse-fruit-tree-planning</a>");
+
+    const volcano = await request(app).get("/wiki/locations/volcano-dungeon");
+    expect(volcano.status).toBe(200);
+    expect(volcano.text).toContain('href="/guides/mastery-system-guide-1-6"');
+    expect(volcano.text).not.toContain(">guides/mastery-system-guide-1-6</a>");
   });
 
   test("renders internal links and noindexed friendly 404 pages for real URLs", async () => {
