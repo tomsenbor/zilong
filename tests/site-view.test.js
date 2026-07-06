@@ -318,6 +318,8 @@ describe("UI Kit v4 refinement public views", () => {
     expect(logo).toContain('class="brand site-logo-link"');
     expect(logo).toContain('class="site-logo"');
     expect(footer).toContain('class="site-footer"');
+    expect(footer).toContain("蜀ICP备2026032678号");
+    expect(footer).toContain("https://beian.miit.gov.cn/");
     expect(pageHeader).toContain('class="page-header"');
     expect(hero).toContain('class="page-header"');
     expect(hero).not.toContain("page-hero");

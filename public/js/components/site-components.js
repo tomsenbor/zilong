@@ -92,6 +92,7 @@ export function SiteFooter() {
       <section>
         <b>星露谷物语中文资料库</b>
         <p class="footer-note">非官方中文资料与工具站，聚合作物、鱼类、NPC、任务和社区中心查询。游戏素材版权归 ConcernedApe 所有。</p>
+        <p class="footer-note"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">蜀ICP备2026032678号</a></p>
       </section>
       <section>
         <b>快速导航</b>
