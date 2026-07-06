@@ -1,6 +1,7 @@
 import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { routePath, parseAppRoute, canonicalPathForRoute } from "../../public/js/routes.js";
+import { SiteFooter } from "../../public/js/components/site-components.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
 
@@ -773,7 +774,7 @@ function renderDocument(page, canonical) {
   <div class="site-frame">
     <div id="site-header-root"></div>
     <main id="app">${page.html}</main>
-    <div id="site-footer-root"></div>
+    <div id="site-footer-root">${SiteFooter()}</div>
   </div>
   <script type="module" src="/js/app.js"></script>
 </body>

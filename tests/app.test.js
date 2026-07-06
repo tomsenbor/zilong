@@ -134,6 +134,8 @@ describe("application shell", () => {
       expect(response.text).toContain("/design-system/layout.css");
       expect(response.text).toContain("/design-system/components.css");
       expect(response.text).toContain("/js/app.js");
+      expect(response.text).toContain("蜀ICP备2026032678号");
+      expect(response.text).toContain("https://beian.miit.gov.cn/");
       expect(response.text).toContain("<h1>");
       expect(response.text).not.toContain("pixel-site-frame");
       expect(response.text).not.toContain("pixel-frame");
