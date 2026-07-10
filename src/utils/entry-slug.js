@@ -4,7 +4,11 @@ const stableSlugByChineseName = new Map([
   ["草莓", "strawberry"],
   ["上古水果", "ancient-fruit"],
   ["远古水果", "ancient-fruit"],
-  ["青花鱼", "albacore"]
+  ["青花鱼", "albacore"],
+  ["公告板求助", "help-wanted-board"],
+  ["特别订单板", "special-orders-board"],
+  ["头骨钥匙", "skull-key"],
+  ["黑暗护符", "dark-talisman"]
 ]);
 
 function hasCjk(value = "") {

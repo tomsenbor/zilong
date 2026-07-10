@@ -98,17 +98,43 @@ describe("public API", () => {
     const datasets = await request(app).get("/api/datasets");
 
     for (const dataset of datasets.body.items) {
+      const allSlugs = [];
       const firstPage = await request(app)
         .get(`/api/datasets/${dataset.slug}/entries`)
         .query({ pageSize: 100 });
       expect(firstPage.body.items.every((item) => item.slug && !/[\u3400-\u9fff]/.test(item.slug))).toBe(true);
+      allSlugs.push(...firstPage.body.items.map((item) => item.slug));
 
       for (let page = 2; page <= firstPage.body.pagination.pages; page += 1) {
         const entries = await request(app)
           .get(`/api/datasets/${dataset.slug}/entries`)
           .query({ page, pageSize: 100 });
         expect(entries.body.items.every((item) => item.slug && !/[\u3400-\u9fff]/.test(item.slug))).toBe(true);
+        allSlugs.push(...entries.body.items.map((item) => item.slug));
       }
+
+      expect(new Set(allSlugs).size).toBe(allSlugs.length);
+    }
+  });
+
+  test("keeps quest entries with shared icons on unique stable slugs", async () => {
+    const response = await request(app).get("/api/datasets/quests/entries").query({ pageSize: 100 });
+    expect(response.status).toBe(200);
+
+    const expectedSlugs = new Map([
+      ["公告板求助", "help-wanted-board"],
+      ["特别订单板", "special-orders-board"],
+      ["头骨钥匙", "skull-key"],
+      ["黑暗护符", "dark-talisman"]
+    ]);
+    const slugs = response.body.items.map((item) => item.slug);
+
+    expect(new Set(slugs).size).toBe(slugs.length);
+    for (const [name, slug] of expectedSlugs) {
+      expect(response.body.items.find((item) => item.name === name)).toMatchObject({ slug });
+      const detail = await request(app).get(`/api/datasets/quests/entries/${slug}`);
+      expect(detail.status).toBe(200);
+      expect(detail.body.item).toMatchObject({ name, slug });
     }
   });
 
