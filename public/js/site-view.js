@@ -255,11 +255,76 @@ function buildCardMeta(item, datasetSlug) {
   return item.dataset_name || "查看详情";
 }
 
+function shortCardValue(value, max = 18) {
+  const text = normalizeAttributeValue(value).replace(/\s+/g, " ");
+  return text.length > max ? `${text.slice(0, max - 1)}…` : text;
+}
+
+function buildCardFacts(item, datasetSlug) {
+  const attributes = item.attributes || {};
+  const rows = [];
+  const add = (label, keys, max) => {
+    const value = pickAttribute(attributes, keys);
+    if (value) rows.push([label, shortCardValue(value, max)]);
+  };
+
+  if (isCropEntry(item, datasetSlug)) {
+    add("季节", ["season", "季节"], 14);
+    add("成熟", ["days", "成熟时间"], 12);
+    add("售价", ["sellPrice", "售价", "基础售价"], 12);
+  } else if (isFishEntry(item, datasetSlug)) {
+    add("季节", ["season", "季节"], 14);
+    add("地点", ["location", "地点"], 14);
+    add("天气", ["weather", "天气"], 12);
+    add("时间", ["time", "时间"], 14);
+  } else if (isVillagerEntry(item, datasetSlug)) {
+    add("生日", ["birthday", "生日"], 16);
+    add("住址", ["address", "住址"], 16);
+    add("最爱", ["loves", "最爱礼物"], 18);
+  } else if (isCookingEntry(item, datasetSlug)) {
+    add("来源", ["source", "来源"], 16);
+    add("材料", ["ingredients", "材料"], 18);
+    add("效果", ["energy", "增益", "effect"], 16);
+  } else if (isItemEntry(item, datasetSlug)) {
+    add("类型", ["type", "类型"], 14);
+    add("来源", ["source", "来源"], 16);
+    add("售价", ["sellPrice", "售价", "基础售价"], 12);
+  } else if (isLocationEntry(item, datasetSlug)) {
+    add("区域", ["area", "区域"], 16);
+    add("开放", ["open", "开放时间"], 16);
+    add("功能", ["features", "用途"], 18);
+  } else if (isQuestEntry(item, datasetSlug)) {
+    add("类型", ["type", "类型"], 14);
+    add("触发", ["trigger", "触发条件"], 18);
+    add("奖励", ["reward", "奖励"], 16);
+  } else if (isFestivalEntry(item, datasetSlug)) {
+    add("季节", ["season", "季节"], 14);
+    add("日期", ["date", "日期"], 14);
+    add("地点", ["location", "地点"], 14);
+  } else if (isSkillEntry(item, datasetSlug)) {
+    add("技能", ["skill", "技能"], 14);
+    add("等级", ["level", "等级"], 12);
+    add("效果", ["effect", "效果"], 18);
+  }
+
+  return rows.slice(0, 3);
+}
+
+function renderCardFacts(item, datasetSlug) {
+  const facts = buildCardFacts(item, datasetSlug);
+  if (!facts.length) return "";
+
+  return `<span class="item-card-facts">
+    ${facts.map(([label, value]) => `<span><b>${escapeHtml(label)}</b>${escapeHtml(value)}</span>`).join("")}
+  </span>`;
+}
+
 export function renderItemCard(item, datasetSlug) {
   return `<a class="${uiClass("item-card card")}" href="${routePath("wikiEntry", { datasetSlug, entrySlug: item.slug })}">
     ${image(item.image, item.name)}
     <strong>${escapeHtml(item.name)}</strong>
     <small>${escapeHtml(buildCardMeta(item, datasetSlug))}</small>
+    ${renderCardFacts(item, datasetSlug)}
   </a>`;
 }
 
@@ -367,9 +432,9 @@ export function renderHomeView({ stats, datasets, articles }) {
     { title: "作物收益计算器", href: routePath("tool", { tool: "crops" }), icon: "/assets/game/36px-Farming_Skill_Icon.png", description: "按季节、天数、肥料和加工方式估算净收益。", action: "开始计算" },
     { title: "鱼类查询器", href: routePath("tool", { tool: "fish" }), icon: "/assets/game/36px-Fishing_Skill_Icon.png", description: "用时间、天气、地点和季节快速定位可钓鱼类。", action: "查询鱼类" },
     { title: "社区中心进度", href: routePath("tool", { tool: "community-center" }), icon: "/assets/game/36px-Bundle_Green.png", description: "跟踪收集包、缺失物品和当前季节待办。", action: "管理清单" },
-    { title: "礼物推荐", href: routePath("guide", { slug: "villager-gift-birthday-recommendation" }), icon: "/assets/game/32px-HeartIconLarge.png", description: "按生日、住址、最爱礼物查村民，送礼前先避开讨厌物。", action: "查看礼物" },
-    { title: "矿洞掉落", href: routePath("guide", { slug: "mines-drops-and-floor-resource-route" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "按矿石、怪物、楼层和常用材料规划前 40 层下矿路线。", action: "查看矿洞路线" },
-    { title: "新手路线", href: routePath("guide", { slug: "beginner-year-one-route-overview" }), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天开局、背包升级、钓鱼下矿到社区中心前期目标。", action: "阅读路线" }
+    { title: "礼物推荐", href: routePath("guide", { slug: "villager-gift-birthday-recommendation" }), icon: "/assets/game/32px-HeartIconLarge.png", description: "按生日、住址、最爱礼物查村民，送礼前先避开讨厌物。", points: ["生日优先", "最爱礼物", "避开讨厌物"], action: "查看礼物" },
+    { title: "矿洞掉落", href: routePath("guide", { slug: "mines-drops-and-floor-resource-route" }), icon: "/assets/game/36px-Mining_Skill_Icon.png", description: "按矿石、怪物、楼层和常用材料规划前 40 层下矿路线。", points: ["楼层资源", "怪物掉落", "材料保留"], action: "查看矿洞路线" },
+    { title: "新手路线", href: routePath("guide", { slug: "beginner-year-one-route-overview" }), icon: "/assets/game/28px-Quests_Icon.png", description: "从第一天开局、背包升级、钓鱼下矿到社区中心前期目标。", points: ["第一周", "背包体力", "社区中心"], action: "阅读路线" }
   ];
   const categoryCards = [
     { title: "作物", slug: "crops", icon: "/assets/game/36px-Farming_Skill_Icon.png", query: "作物" },
@@ -425,7 +490,7 @@ export function renderHomeView({ stats, datasets, articles }) {
         <div class="home-tools-grid">
           ${toolCards.map((card) => `<a class="${uiClass("home-tool-card card")}" href="${escapeHtml(card.href)}">
             ${image(card.icon, card.title)}
-            <span class="home-tool-card-copy"><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.description)}</p><span class="card-action">${escapeHtml(card.action)} →</span></span>
+            <span class="home-tool-card-copy"><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.description)}</p>${card.points ? `<span class="home-tool-card-points">${card.points.map((point) => `<span>${escapeHtml(point)}</span>`).join("")}</span>` : ""}<span class="card-action">${escapeHtml(card.action)} →</span></span>
           </a>`).join("")}
         </div>
       </div>

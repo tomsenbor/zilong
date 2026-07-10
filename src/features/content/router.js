@@ -4,6 +4,7 @@ import sanitizeHtml from "sanitize-html";
 import { AppError } from "../../middleware/errors.js";
 import { makeEntrySlug } from "../../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../../utils/article-markdown.js";
+import { searchToolResults } from "../../utils/tool-search.js";
 
 const integer = (value, fallback, max = 100) => Math.min(Math.max(Number.parseInt(value, 10) || fallback, 1), max);
 const parse = (value, fallback) => {
@@ -174,7 +175,14 @@ export function createContentRouter({ db }) {
       locale: contentLocale,
       translationGroupId: `entry:${item.dataset_slug}:${makeEntrySlug(item)}`
     }));
-    const all = [...articles, ...entries];
+    const tools = searchToolResults(q).map((item) => ({
+      ...item,
+      id: item.slug,
+      dataset_slug: "",
+      locale: contentLocale,
+      translationGroupId: `tool:${item.slug}`
+    }));
+    const all = [...tools, ...articles, ...entries];
     res.json(pageResult(all.slice((page - 1) * pageSize, page * pageSize), page, pageSize, all.length));
   });
 

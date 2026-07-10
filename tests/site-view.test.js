@@ -92,12 +92,15 @@ describe("UI Kit v4 refinement public views", () => {
     expect(html).toContain("礼物推荐");
     expect(html).toContain("/guides/villager-gift-birthday-recommendation");
     expect(html).toContain("生日、住址、最爱礼物");
+    expect(html).toContain("生日优先");
     expect(html).toContain("矿洞掉落");
     expect(html).toContain("/guides/mines-drops-and-floor-resource-route");
     expect(html).toContain("矿石、怪物、楼层");
+    expect(html).toContain("怪物掉落");
     expect(html).toContain("新手路线");
     expect(html).toContain("/guides/beginner-year-one-route-overview");
     expect(html).toContain("第一天开局");
+    expect(html).toContain("背包体力");
   });
 
   test("uses shared cards for featured guides, categories, sidebar, and dialog", () => {
@@ -249,6 +252,9 @@ describe("UI Kit v4 refinement public views", () => {
     expect(card).toContain("防风草");
     expect(card).toContain("春季");
     expect(card).toContain("4 天");
+    expect(card).toContain('class="item-card-facts"');
+    expect(card).toContain("<b>季节</b>");
+    expect(card).toContain("<b>成熟</b>");
     expect(card).not.toContain(longSummary);
   });
 

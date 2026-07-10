@@ -202,6 +202,8 @@ describe("application shell", () => {
     expect(search.text).toContain('<mark class="search-highlight">鱼类</mark>');
     expect(search.text).toContain('<span class="row-result-type">攻略</span>');
     expect(search.text).toContain('<span class="row-result-type">图鉴</span>');
+    expect(search.text).toContain('<span class="row-result-type">工具</span>');
+    expect(search.text).toContain('href="/tools/fish"');
     expect(search.text).toContain("/guides/");
     expect(search.text).not.toContain("#article");
 

@@ -4,6 +4,7 @@ import { routePath, parseAppRoute, canonicalPathForRoute } from "../../public/js
 import { SiteFooter } from "../../public/js/components/site-components.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
+import { searchToolResults } from "../utils/tool-search.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
@@ -422,6 +423,11 @@ function buildHomePage(db) {
       `${Number(stats.datasets) || 0} 个资料分类`,
       `${Number(stats.articles) || 0} 篇攻略文章`
     ]),
+    listSection("重点入口", [
+      `<a href="${routePath("guide", { slug: "villager-gift-birthday-recommendation" })}">礼物推荐</a>：按生日、住址、最爱礼物和讨厌物规划送礼，适合减少试错。`,
+      `<a href="${routePath("guide", { slug: "mines-drops-and-floor-resource-route" })}">矿洞掉落</a>：按楼层资源、怪物掉落和材料保留安排下矿目标。`,
+      `<a href="${routePath("guide", { slug: "beginner-year-one-route-overview" })}">新手路线</a>：从第一周、背包体力、钓鱼下矿到社区中心前期目标串起来。`
+    ]),
     listSection("攻略资料分类", datasets.map((dataset) => (
       `<a href="${routePath("wikiDataset", { datasetSlug: dataset.slug })}">${escapeHtml(dataset.name)}</a>：${escapeHtml(dataset.description || "")}`
     ))),
@@ -642,7 +648,8 @@ function searchContent(db, q) {
     snippet: item.snippet,
     href: entryLink(item.dataset_slug, item)
   }));
-  return [...articles, ...entries].slice(0, 40);
+  const tools = searchToolResults(q);
+  return [...tools, ...articles, ...entries].slice(0, 40);
 }
 
 function buildToolsPage() {

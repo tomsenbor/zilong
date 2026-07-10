@@ -210,6 +210,51 @@ describe("dataset icons", () => {
     }
   });
 
+  test("ships strengthened cooking, quest, and location entries with complete guidance", () => {
+    const detailFields = [
+      "\u83b7\u53d6\u65b9\u5f0f",
+      "\u4e3b\u8981\u7528\u9014",
+      "\u65b0\u624b\u5efa\u8bae",
+      "\u5173\u8054\u89c4\u5212"
+    ];
+    const expectedEntries = new Map([
+      ["cooking", [
+        "\u7092\u9cd7\u9c7c",
+        "\u70b8\u9c7f\u9c7c",
+        "\u5bff\u53f8\u5377",
+        "\u714e\u86cb",
+        "\u6d77\u6ce1\u5e03\u4e01"
+      ]],
+      ["quests", [
+        "\u516c\u544a\u677f\u6c42\u52a9",
+        "\u7279\u522b\u8ba2\u5355\u677f",
+        "\u5934\u9aa8\u94a5\u5319",
+        "\u9ed1\u6697\u62a4\u7b26"
+      ]],
+      ["locations", [
+        "\u76ae\u57c3\u5c14\u6742\u8d27\u5e97",
+        "\u94c1\u5320\u94fa",
+        "\u739b\u59ae\u7267\u573a",
+        "\u535a\u7269\u9986"
+      ]]
+    ]);
+
+    for (const [dataset, names] of expectedEntries) {
+      for (const name of names) {
+        const entry = entries.find((item) => item.dataset === dataset && item.name === name);
+        expect(entry, `${dataset}:${name}`).toBeTruthy();
+        expect(entry.summary.length, `${dataset}:${name}:summary`).toBeGreaterThan(18);
+        expect(fs.existsSync(path.resolve("public", entry.image.replace(/^\//, ""))), entry.image).toBe(true);
+
+        for (const field of detailFields) {
+          expect(String(entry.attributes[field] || "").length, `${dataset}:${name}:${field}`).toBeGreaterThan(18);
+        }
+
+        expect(entry.attributes.links.length, `${dataset}:${name}:links`).toBeGreaterThanOrEqual(2);
+      }
+    }
+  });
+
   test("ships complete detail guidance for every public wiki entry", () => {
     const detailFields = [
       "\u83b7\u53d6\u65b9\u5f0f",

@@ -38,6 +38,22 @@ describe("public API", () => {
     expect(response.body.items[0].translationGroupId).toBeTruthy();
   });
 
+  test("searches utility tools with real URL targets", async () => {
+    const response = await request(app).get("/api/search").query({
+      q: "\u4f5c\u7269\u6536\u76ca",
+      pageSize: 20
+    });
+
+    expect(response.status).toBe(200);
+    const tool = response.body.items.find((item) => item.type === "tool" && item.slug === "crops");
+    expect(tool).toMatchObject({
+      title: "\u4f5c\u7269\u6536\u76ca\u8ba1\u7b97\u5668",
+      href: "/tools/crops",
+      locale: "zh-CN",
+      translationGroupId: "tool:crops"
+    });
+  });
+
   test("prepares public content payloads for future localization", async () => {
     const articles = await request(app).get("/api/articles?pageSize=1");
     const article = await request(app).get(

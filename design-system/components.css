@@ -330,6 +330,21 @@ textarea {
   gap: 6px;
 }
 
+.home-tool-card-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.home-tool-card-points span {
+  border-radius: 999px;
+  background: rgba(47, 107, 63, 0.08);
+  color: var(--color-primary);
+  padding: 2px 7px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
 .home-tool-card img,
 .home-category-card img,
 .home-guide-card img,
@@ -521,6 +536,28 @@ textarea {
   width: 44px;
   height: 44px;
   object-fit: contain;
+}
+
+.item-card-facts {
+  display: grid;
+  width: 100%;
+  gap: 4px;
+  margin-top: 2px;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.item-card-facts span {
+  display: flex;
+  min-width: 0;
+  justify-content: center;
+  gap: 4px;
+}
+
+.item-card-facts b {
+  color: var(--color-primary);
+  white-space: nowrap;
 }
 
 .article-grid,
