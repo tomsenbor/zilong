@@ -557,6 +557,7 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
   const entry = findEntry(db, datasetSlug, entrySlug);
   if (!entry) return buildNotFoundPage("资料条目不存在", routePath("wikiDataset", { datasetSlug }));
   const slug = makeEntrySlug(entry);
+  const isCatalogDetail = datasetSlug === "catalog";
   const attributes = parseJson(entry.attributes_json, {});
   const fields = parseJson(entry.fields_json, []);
   const canonicalPath = routePath("wikiEntry", { datasetSlug, entrySlug: slug });
@@ -589,6 +590,8 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
     title: `${entry.name} - ${entry.dataset_name} - 星露谷资料库`,
     description: entry.summary || `${entry.name}属于${entry.dataset_name}，查看基础信息、获取方式和用途。`,
     canonicalPath,
+    noindex: isCatalogDetail,
+    robotsContent: isCatalogDetail ? "noindex,follow" : undefined,
     h1: entry.name,
     jsonLd,
     html: pageShell({
@@ -754,8 +757,9 @@ function renderDocument(page, canonical) {
   const title = page.title || siteName;
   const description = page.description || defaultDescription;
   const ogType = page.ogType || "website";
+  const robotsContent = page.robotsContent || (page.noindex ? "noindex, nofollow" : "");
   const extra = [
-    ...(page.noindex ? ['<meta name="robots" content="noindex, nofollow">'] : []),
+    ...(robotsContent ? [`<meta name="robots" content="${escapeHtml(robotsContent)}">`] : []),
     `<link rel="canonical" href="${escapeHtml(canonical)}">`,
     `<meta property="og:title" content="${escapeHtml(title)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
@@ -796,6 +800,7 @@ export function renderPublicPage({ req, context }) {
     html: renderDocument(page, canonical),
     status: page.status || 200,
     noindex: Boolean(page.noindex),
+    robotsContent: page.robotsContent || (page.noindex ? "noindex, nofollow" : ""),
     redirectPath: page.redirectPath
   };
 }

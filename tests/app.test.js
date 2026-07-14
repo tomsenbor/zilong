@@ -246,10 +246,12 @@ describe("application shell", () => {
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/wiki</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/wiki/crops</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/wiki/crops/strawberry</loc>");
+    expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/wiki/catalog</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/tools</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/tools/fish</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/tools/crop-profit</loc>");
     expect(sitemap.text).toContain("<loc>https://pixelharvestwiki.com/tools/community-center</loc>");
+    expect(sitemap.text).not.toContain("/wiki/catalog/");
     expect(sitemap.text).not.toContain("/admin");
     expect(sitemap.text).not.toContain("/search");
     expect(sitemap.text).not.toContain("#article");
@@ -266,6 +268,52 @@ describe("application shell", () => {
     const admin = await request(app).get("/admin");
     expect(admin.status).toBe(200);
     expect(admin.headers["x-robots-tag"]).toContain("noindex");
+  });
+
+  test("noindexes low-value catalog detail pages without affecting curated wiki entries", async () => {
+    context = createTestContext();
+    context.config.siteUrl = "https://pixelharvestwiki.com";
+    await initialize(context);
+    const app = createApp(context);
+
+    const catalogDetail = await request(app).get("/wiki/catalog/abigail-icon");
+    expect(catalogDetail.status).toBe(200);
+    expect(catalogDetail.text).toContain('rel="canonical" href="https://pixelharvestwiki.com/wiki/catalog/abigail-icon"');
+    expect(catalogDetail.text).toContain('<meta name="robots" content="noindex,follow">');
+    expect(catalogDetail.headers["x-robots-tag"]).toBe("noindex,follow");
+
+    for (const url of ["/wiki/crops/strawberry", "/wiki/fish/catfish", "/wiki/items/iridium-bar"]) {
+      const response = await request(app).get(url);
+      expect(response.status, url).toBe(200);
+      expect(response.text, url).not.toContain('name="robots" content="noindex');
+      expect(response.headers["x-robots-tag"], url).toBeUndefined();
+    }
+  });
+
+  test("keeps all published guides and public tools reachable during catalog index cleanup", async () => {
+    context = createTestContext();
+    await initialize(context);
+    const app = createApp(context);
+    const guides = context.db.prepare(`
+      SELECT slug
+      FROM articles
+      WHERE status='published'
+      ORDER BY slug
+    `).all();
+
+    expect(guides).toHaveLength(43);
+
+    for (const guide of guides) {
+      const response = await request(app).get(`/guides/${guide.slug}`);
+      expect(response.status, guide.slug).toBe(200);
+      expect(response.text, guide.slug).toContain("<h1>");
+    }
+
+    for (const url of ["/tools", "/tools/fish", "/tools/crop-profit", "/tools/community-center"]) {
+      const response = await request(app).get(url);
+      expect(response.status, url).toBe(200);
+      expect(response.text, url).toContain("<h1>");
+    }
   });
 
   test("serves v5.3 content-building guides through real URLs and sitemap", async () => {

@@ -43,7 +43,7 @@ export function createApp(context) {
     try {
       const page = renderPublicPage({ req, context });
       if (page.redirectPath) return res.redirect(page.status || 301, page.redirectPath);
-      if (page.noindex) res.set("X-Robots-Tag", "noindex, nofollow");
+      if (page.noindex) res.set("X-Robots-Tag", page.robotsContent || "noindex, nofollow");
       return res.status(page.status).type("html").send(page.html);
     } catch (error) {
       return next(error);

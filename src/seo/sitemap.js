@@ -88,6 +88,7 @@ export function renderSitemapXml({ req, context }) {
     ORDER BY d.sort_order ASC, d.name ASC, e.name ASC
   `).all();
   for (const entry of entries) {
+    if (entry.dataset_slug === "catalog") continue;
     addUrl(items, seen, routePath("wikiEntry", {
       datasetSlug: entry.dataset_slug,
       entrySlug: makeEntrySlug(entry)
