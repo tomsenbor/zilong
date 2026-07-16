@@ -4,6 +4,7 @@ import fs from "node:fs";
 import { createApp } from "../src/app.js";
 import { initialize } from "../src/db/initialize.js";
 import { createTestContext } from "./helpers/context.js";
+import { discoverIndexNowKey } from "../scripts/submit-indexnow.js";
 
 let context;
 
@@ -162,13 +163,17 @@ describe("application shell", () => {
 
     const home = await request(app).get("/");
     expect(home.status).toBe(200);
-    expect(home.text).toContain("<title>");
+    expect(home.text).toContain("<title>星露谷物语中文资料库｜作物、鱼类、村民、任务与新手攻略</title>");
+    expect(home.text).toContain('meta name="description" content="星露谷物语 1.6.15 中文资料库，提供作物收益计算、鱼类季节与天气查询、村民生日和送礼、任务、社区中心、矿洞资源、料理配方、技能职业及新手发展攻略，帮助玩家快速查找资料并规划第一年农场、钓鱼、下矿与献祭进度。"');
     expect(home.text).toContain('rel="canonical" href="https://pixelharvestwiki.com/"');
     expect(home.text).toContain('property="og:title"');
+    expect(home.text).toContain('property="og:description" content="星露谷物语 1.6.15 中文资料库，提供作物收益计算、鱼类季节与天气查询、村民生日和送礼、任务、社区中心、矿洞资源、料理配方、技能职业及新手发展攻略，帮助玩家快速查找资料并规划第一年农场、钓鱼、下矿与献祭进度。"');
     expect(home.text).toContain("<h1>星露谷物语中文资料库</h1>");
-    expect(home.text).toContain("作物 / 鱼类 / NPC / 任务 / 社区中心一站查询");
+    expect(home.text).toContain("作物收益计算");
 
     const guides = await request(app).get("/guides");
+    expect(guides.text).toContain("<title>星露谷攻略文章 - 星露谷物语中文资料库</title>");
+    expect(guides.text).toContain('meta name="description" content="整理星露谷物语新手路线、赚钱路线、社区中心、鱼类、作物与进阶玩法攻略。"');
     expect(guides.text).toContain("<h1>星露谷攻略文章</h1>");
     expect(guides.text).toContain("第一年春季完整发展路线");
 
@@ -229,6 +234,17 @@ describe("application shell", () => {
     expect(admin.text).toContain("admin-app");
     expect(admin.text).not.toContain('rel="canonical"');
     expect(admin.text).not.toContain('property="og:title"');
+  });
+
+  test("serves the IndexNow root verification file", async () => {
+    context = createTestContext();
+    const app = createApp(context);
+    const keyFile = discoverIndexNowKey();
+    const response = await request(app).get(`/${keyFile.fileName}`);
+
+    expect(response.status).toBe(200);
+    expect(response.type).toMatch(/text\/plain/);
+    expect(response.text.trim()).toBe(keyFile.key);
   });
 
   test("serves sitemap, robots, and noindex for admin", async () => {

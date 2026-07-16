@@ -8,6 +8,8 @@ import { searchToolResults } from "../utils/tool-search.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
+const homeTitle = "星露谷物语中文资料库｜作物、鱼类、村民、任务与新手攻略";
+const homeDescription = "星露谷物语 1.6.15 中文资料库，提供作物收益计算、鱼类季节与天气查询、村民生日和送礼、任务、社区中心、矿洞资源、料理配方、技能职业及新手发展攻略，帮助玩家快速查找资料并规划第一年农场、钓鱼、下矿与献祭进度。";
 const authorName = "星露谷物语中文资料库";
 const markdownOptions = {
   allowedTags: [...sanitizeHtml.defaults.allowedTags, "img"],
@@ -436,8 +438,8 @@ function buildHomePage(db) {
     )))
   ];
   return {
-    title: siteName,
-    description: defaultDescription,
+    title: homeTitle,
+    description: homeDescription,
     canonicalPath: routePath("home"),
     h1: siteName,
     html: pageShell({ h1: siteName, lead: defaultDescription, sections })
