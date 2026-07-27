@@ -24,7 +24,7 @@ describe("dataset icons", () => {
   });
 
   test("ships substantial built-in guides", () => {
-    expect(articles).toHaveLength(43);
+    expect(articles).toHaveLength(48);
     for (const article of articles) {
       expect(article.body.length, article.title).toBeGreaterThan(1500);
       expect(article.body.split("\n## ").length, article.title).toBeGreaterThanOrEqual(4);
@@ -133,6 +133,40 @@ describe("dataset icons", () => {
       expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(2);
       expect(article.body.split("\n## ").length, expectedSlug).toBeGreaterThanOrEqual(4);
       expect(article.body, expectedSlug).toMatch(/### /);
+    }
+  });
+
+  test("ships the v5.4.2 growth guide system with stable paths and internal links", () => {
+    const expectedGuides = new Map([
+      ["星露谷物语新手完整指南", "beginner-guide"],
+      ["新手成长路线", "beginner"],
+      ["赚钱攻略", "money-making"],
+      ["社区中心攻略", "community-center"],
+      ["资源获取攻略", "resources"]
+    ]);
+
+    for (const [title, expectedSlug] of expectedGuides) {
+      const article = articles.find((item) => item.slug === expectedSlug);
+      expect(article, expectedSlug).toBeTruthy();
+      expect(article.title).toBe(title);
+      expect(article.slug).not.toMatch(/[\u3400-\u9fff]/);
+      expect((article.body.match(/\]\(\/(?:tools|wiki|guides)\//g) || []).length, expectedSlug).toBeGreaterThanOrEqual(5);
+      expect(article.body, expectedSlug).toContain("### 本节执行清单");
+    }
+
+    const beginnerGuide = articles.find((item) => item.slug === "beginner-guide");
+    for (const heading of [
+      "游戏第一天",
+      "第一周规划",
+      "春季赚钱路线",
+      "工具升级顺序",
+      "矿洞探索",
+      "社区中心路线",
+      "温室解锁",
+      "姜岛开启",
+      "后期发展"
+    ]) {
+      expect(beginnerGuide.body).toContain(`## ${heading}`);
     }
   });
 

@@ -1,6 +1,7 @@
 import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { routePath, parseAppRoute, canonicalPathForRoute } from "../../public/js/routes.js";
+import { selectRelatedGuides } from "../../public/js/related-guides.js";
 import { SiteFooter } from "../../public/js/components/site-components.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
@@ -200,7 +201,7 @@ const internalLinkLabels = new Map([
   ["/guides/crop-wiki-and-profit-tool-planning", "作物图鉴与收益计算器联动规划"],
   ["/guides/fish-wiki-and-query-tool-route", "鱼类图鉴与查询器联动路线"],
   ["/guides/community-center-checklist-and-wiki-route", "社区中心清单与图鉴联动路线"],
-  ["/guides/wiki-detail-usage-guide", "图鉴详情页阅读指南"],
+  ["/guides/wiki-item-detail-reading-guide", "图鉴详情页阅读与保留判断指南"],
   ["/guides/tool-first-new-player-workflow", "新手工具优先使用流程"],
   ["/guides/greenhouse-fruit-tree-planning", "温室果树收益与边缘规划"],
   ["/guides/year-one-first-week-complete-route", "\u7b2c\u4e00\u5468\u5b8c\u6574\u53d1\u5c55\u8def\u7ebf"],
@@ -218,6 +219,11 @@ const internalLinkLabels = new Map([
   ["/guides/villager-gift-topic-guide", "\u6751\u6c11\u9001\u793c\u4e13\u9898"],
   ["/guides/ginger-island-golden-walnut-route", "姜岛解锁与金色核桃收集路线"],
   ["/guides/mastery-system-guide-1-6", "1.6 精通系统详解"],
+  ["/guides/beginner-guide", "星露谷物语新手完整指南"],
+  ["/guides/beginner", "新手成长路线"],
+  ["/guides/money-making", "赚钱攻略"],
+  ["/guides/community-center", "社区中心攻略"],
+  ["/guides/resources", "资源获取攻略"],
   ["/wiki", "完整图鉴索引"],
   ["/wiki/crops", "作物与种子"],
   ["/wiki/fish", "鱼类图鉴"],
@@ -237,8 +243,8 @@ const internalLinkLabels = new Map([
   ["/wiki/locations/beach", "海滩"],
   ["/wiki/locations/desert", "沙漠"],
   ["/wiki/locations/mastery-cave", "精通洞穴"],
-  ["/wiki/locations/secret-woods", "秘密森林"],
-  ["/wiki/locations/sewer", "下水道"],
+  ["/wiki/locations/hardwood", "秘密森林资料"],
+  ["/wiki/locations/krobus-icon", "下水道资料"],
   ["/wiki/locations/volcano-dungeon", "火山地牢"]
 ]);
 
@@ -302,15 +308,6 @@ function buildToolGuidanceSections(tool) {
   return [sections[canonicalTool] || sections.fish];
 }
 
-function mergeUniqueById(primary, fallback, limit) {
-  const seen = new Set();
-  return [...primary, ...fallback].filter((item) => {
-    if (!item?.id || seen.has(item.id)) return false;
-    seen.add(item.id);
-    return true;
-  }).slice(0, limit);
-}
-
 function getDatasets(db) {
   return db.prepare(`
     SELECT d.*, COUNT(e.id) entry_count FROM datasets d
@@ -327,33 +324,6 @@ function getArticles(db, limit = 12) {
     ORDER BY featured DESC, updated_at DESC
     LIMIT ?
   `).all(limit);
-}
-
-function getRelatedArticles(db, article, limit = 6) {
-  const sameCategory = db.prepare(`
-    SELECT DISTINCT a.id,a.title,a.slug,a.summary,a.body,a.game_version,a.featured,a.updated_at,a.created_at
-    FROM articles a
-    JOIN article_categories ac ON ac.article_id = a.id
-    WHERE a.status='published'
-      AND a.id != ?
-      AND ac.category_id IN (
-        SELECT category_id FROM article_categories WHERE article_id = ?
-      )
-    ORDER BY a.featured DESC, a.updated_at DESC
-    LIMIT ?
-  `).all(article.id, article.id, limit);
-
-  if (sameCategory.length >= limit) return sameCategory.slice(0, limit);
-
-  const fallback = db.prepare(`
-    SELECT id,title,slug,summary,body,game_version,featured,updated_at,created_at
-    FROM articles
-    WHERE status='published' AND id != ?
-    ORDER BY featured DESC, updated_at DESC
-    LIMIT ?
-  `).all(article.id, limit * 2);
-
-  return mergeUniqueById(sameCategory, fallback, limit);
 }
 
 function findArticle(db, slug) {
@@ -426,9 +396,10 @@ function buildHomePage(db) {
       `${Number(stats.articles) || 0} 篇攻略文章`
     ]),
     listSection("重点入口", [
-      `<a href="${routePath("guide", { slug: "villager-gift-birthday-recommendation" })}">礼物推荐</a>：按生日、住址、最爱礼物和讨厌物规划送礼，适合减少试错。`,
-      `<a href="${routePath("guide", { slug: "mines-drops-and-floor-resource-route" })}">矿洞掉落</a>：按楼层资源、怪物掉落和材料保留安排下矿目标。`,
-      `<a href="${routePath("guide", { slug: "beginner-year-one-route-overview" })}">新手路线</a>：从第一周、背包体力、钓鱼下矿到社区中心前期目标串起来。`
+      `<a href="${routePath("guide", { slug: "beginner" })}">新手必看</a>：从第一天、第一周到四季发展的完整成长入口。`,
+      `<a href="${routePath("guide", { slug: "money-making" })}">赚钱路线</a>：按季节选择作物、钓鱼与加工现金流。`,
+      `<a href="${routePath("guide", { slug: "community-center" })}">解锁路线</a>：社区中心、温室与关键区域的推进顺序。`,
+      `<a href="${routePath("guide", { slug: "resources" })}">后期玩法</a>：稀有资源、姜岛、加工链与长期补给规划。`
     ]),
     listSection("攻略资料分类", datasets.map((dataset) => (
       `<a href="${routePath("wikiDataset", { datasetSlug: dataset.slug })}">${escapeHtml(dataset.name)}</a>：${escapeHtml(dataset.description || "")}`
@@ -482,7 +453,7 @@ function buildGuidePage(db, slug, req, context) {
   const description = truncate(article.summary || article.body || defaultDescription);
   const canonicalPath = articleLink(article);
   const canonical = absoluteUrl(canonicalPath, req, context);
-  const relatedArticles = getRelatedArticles(db, article, 6);
+  const relatedArticles = selectRelatedGuides(article, getArticles(db, 50), 4);
   const relatedHtml = relatedSection("guides", "相关文章", relatedArticles.map((related) => (
     `<a href="${articleLink(related)}">${escapeHtml(related.title)}</a>：${escapeHtml(related.summary || "")}`
   )));

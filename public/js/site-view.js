@@ -3,6 +3,34 @@ import { routePath } from "./routes.js";
 import { uiClass } from "./ui-class.js";
 
 const fallbackImage = "/assets/game/36px-Prismatic_Shard.png";
+const relatedLinkLabels = new Map([
+  ["/guides/beginner", "新手成长路线"],
+  ["/guides/beginner-guide", "新手完整指南"],
+  ["/guides/money-making", "赚钱攻略"],
+  ["/guides/community-center", "社区中心攻略"],
+  ["/guides/resources", "资源获取攻略"],
+  ["/guides/year-one-spring-money-route", "第一年春季赚钱路线"],
+  ["/guides/year-one-summer-money-route", "第一年夏季赚钱路线"],
+  ["/guides/year-one-fall-money-route", "第一年秋季赚钱路线"],
+  ["/guides/crop-profit-calculator-guide", "作物收益计算器使用指南"],
+  ["/guides/greenhouse-crops-processing-route", "温室作物与加工路线"],
+  ["/guides/community-center-fish-tank-route", "社区中心鱼缸路线"],
+  ["/guides/fishing-topic-guide", "钓鱼专题"],
+  ["/guides/all-fish-season-weather-reference", "全鱼类条件速查"],
+  ["/guides/ginger-island-golden-walnut-route", "姜岛解锁路线"],
+  ["/guides/spring-season-topic-guide", "春季专题"],
+  ["/guides/summer-season-topic-guide", "夏季专题"],
+  ["/guides/fall-season-topic-guide", "秋季专题"],
+  ["/guides/winter-season-topic-guide", "冬季专题"],
+  ["/guides/wiki-item-detail-reading-guide", "图鉴详情页阅读与保留判断指南"],
+  ["/tools/crop-profit", "作物收益计算器"],
+  ["/tools/fish", "鱼类查询器"],
+  ["/tools/community-center", "社区中心进度清单"],
+  ["/wiki/crops", "作物图鉴"],
+  ["/wiki/fish", "鱼类图鉴"],
+  ["/wiki/locations/krobus-icon", "下水道资料"],
+  ["/wiki/locations/hardwood", "秘密森林资料"]
+]);
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (character) => ({
@@ -238,6 +266,18 @@ function renderLabeledParagraphs(label, text) {
     .join("");
 }
 
+function renderItemRelatedLinks(item) {
+  const rawLinks = Array.isArray(item.attributes?.links)
+    ? item.attributes.links
+    : String(item.attributes?.links || "").split("|");
+  const links = [...new Set(rawLinks.map((href) => String(href).trim()).filter((href) => href.startsWith("/")))].slice(0, 5);
+  if (!links.length) return "";
+
+  return `<div class="item-related-links">
+    ${links.map((href) => `<a href="${escapeHtml(href)}">${escapeHtml(relatedLinkLabels.get(href) || href.replace(/^\//, ""))}</a>`).join("")}
+  </div>`;
+}
+
 function buildCardMeta(item, datasetSlug) {
   const attributes = item.attributes || {};
   const parts = uniqueParts([
@@ -378,6 +418,8 @@ export function renderItemDialog(item) {
   const source = buildItemSourceText(item);
   const use = buildItemUseText(item);
   const sellPrice = buildItemSellPriceText(item);
+  const beginnerAdvice = pickAttribute(item.attributes, ["新手建议"])
+    || "第一份建议先保留，确认献祭、任务、制作和收藏用途后再决定是否出售。";
 
   return `<div class="item-dialog-backdrop" data-dialog-backdrop>
     <section class="${uiClass("item-dialog card")}" role="dialog" aria-modal="true" aria-labelledby="item-dialog-title">
@@ -396,7 +438,7 @@ export function renderItemDialog(item) {
           </div>
           <div class="item-tabs" role="tablist" aria-label="物品信息">
             <button type="button" class="${uiClass("btn ghost small active")}" data-item-tab="source" role="tab" aria-selected="true">获取方式</button>
-            <button type="button" class="${uiClass("btn ghost small")}" data-item-tab="use" role="tab" aria-selected="false">用途</button>
+            <button type="button" class="${uiClass("btn ghost small")}" data-item-tab="use" role="tab" aria-selected="false">推荐用途</button>
             <button type="button" class="${uiClass("btn ghost small")}" data-item-tab="sellPrice" role="tab" aria-selected="false">售价</button>
           </div>
           <div class="item-identity">
@@ -408,13 +450,19 @@ export function renderItemDialog(item) {
             ${item.summary ? renderLabeledParagraphs("详情说明", item.summary) : ""}
           </section>
           <section class="item-tab-content" data-item-section="use" hidden>
-            <h3>主要用途</h3>
+            <h3>推荐用途（主要用途）</h3>
             ${renderParagraphs(use)}
           </section>
           <section class="item-tab-content" data-item-section="sellPrice" hidden>
             <h3>售价信息</h3>
             ${renderLabeledParagraphs("基础售价", sellPrice)}
           </section>
+          <aside class="item-detail-guidance" aria-label="新手建议与相关攻略">
+            <h3>新手建议</h3>
+            ${renderParagraphs(beginnerAdvice)}
+            <h3>相关攻略入口</h3>
+            ${renderItemRelatedLinks(item)}
+          </aside>
         </div>
       </div>
     </section>
@@ -445,10 +493,10 @@ export function renderHomeView({ stats, datasets, articles }) {
     { title: "模组", slug: "mods", icon: "/assets/game/36px-Prismatic_Shard.png", query: "模组" }
   ];
   const guideCards = [
-    { title: "新手指南", label: "入门", query: "新手指南", keywords: ["新手", "第一年"], description: "基础路线、每日优先级和早期资源分配。" },
-    { title: "第一年的赚钱路线", label: "收益", query: "第一年 赚钱", keywords: ["赚钱", "第一年", "收益"], description: "春夏秋冬的作物、钓鱼和加工收益节奏。" },
-    { title: "常见问题", label: "FAQ", query: "常见问题", keywords: ["常见", "问题", "FAQ"], description: "新档最容易卡住的系统、任务和解锁问题。" },
-    { title: "避坑指南", label: "进阶", query: "避坑", keywords: ["避坑", "建议", "路线"], description: "避免浪费天数、金币、礼物和稀有材料。" }
+    { title: "新手必看", label: "入门", href: routePath("guide", { slug: "beginner" }), description: "从第一天、第一周到四季发展的完整成长入口。" },
+    { title: "赚钱路线", label: "收益", href: routePath("guide", { slug: "money-making" }), description: "按季节选择作物、钓鱼与加工现金流。" },
+    { title: "解锁路线", label: "进度", href: routePath("guide", { slug: "community-center" }), description: "社区中心、温室与关键区域的推进顺序。" },
+    { title: "后期玩法", label: "进阶", href: routePath("guide", { slug: "resources" }), description: "稀有资源、姜岛、加工链与长期补给规划。" }
   ];
 
   return `<div class="home">
@@ -522,7 +570,7 @@ export function renderHomeView({ stats, datasets, articles }) {
           <a class="${uiClass("btn ghost")}" href="${routePath("guides")}">全部攻略</a>
         </div>
         <div class="home-guides-grid">
-          ${guideCards.map((card) => `<a class="${uiClass("home-guide-card card")}" href="${escapeHtml(articleLink(card.keywords, card.query))}">
+          ${guideCards.map((card) => `<a class="${uiClass("home-guide-card card")}" href="${escapeHtml(card.href)}">
             <span class="guide-label">${escapeHtml(card.label)}</span>
             <h3>${escapeHtml(card.title)}</h3>
             <p>${escapeHtml(card.description)}</p>

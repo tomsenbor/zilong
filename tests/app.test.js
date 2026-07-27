@@ -317,7 +317,7 @@ describe("application shell", () => {
       ORDER BY slug
     `).all();
 
-    expect(guides).toHaveLength(43);
+    expect(guides).toHaveLength(48);
 
     for (const guide of guides) {
       const response = await request(app).get(`/guides/${guide.slug}`);

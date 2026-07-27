@@ -12,6 +12,7 @@ import {
   parseAppRoute,
   routePath
 } from "./routes.js";
+import { selectRelatedGuides } from "./related-guides.js";
 import {
   renderCategoryOverview,
   renderHomeView,
@@ -235,6 +236,18 @@ function articleCard(item) {
   </a>`;
 }
 
+function renderRelatedGuides(current, articles) {
+  const related = selectRelatedGuides(current, articles);
+  if (!related.length) return "";
+  return `<section class="guide-related" aria-labelledby="guide-related-title">
+    <div class="guide-related-heading">
+      <div><span>继续阅读</span><h2 id="guide-related-title">相关推荐</h2></div>
+      <a href="${routePath("guides")}">查看全部攻略 →</a>
+    </div>
+    <div class="guide-related-grid">${related.map(articleCard).join("")}</div>
+  </section>`;
+}
+
 async function library(params, options = {}) {
   await loadDatasets();
   const requestedDataset = params.get("dataset");
@@ -338,7 +351,10 @@ async function articlesPage() {
   })}<section class="section"><div class="shell article-grid">${data.items.map(articleCard).join("")}</div></section>`;
 }
 async function articleDetail(slug) {
-  const {item}=await api(`/api/articles/${encodeURIComponent(slug)}`);
+  const [{ item }, articleData] = await Promise.all([
+    api(`/api/articles/${encodeURIComponent(slug)}`),
+    api("/api/articles?pageSize=50")
+  ]);
   const categories = item.categories?.map((category) => category.name).join(" · ") || "深度攻略";
   app.innerHTML=`
     <section class="guide-detail-shell">
@@ -358,6 +374,7 @@ async function articleDetail(slug) {
           </details>
           <aside class="ad-slot" hidden aria-label="攻略广告位"></aside>
           <article class="${uiClass("card detail prose guide-article")}" id="guide-article">${item.html}</article>
+          ${renderRelatedGuides(item, articleData.items)}
         </section>
         <aside class="${uiClass("guide-toc card")}" aria-label="文章目录">
           <div class="guide-toc-title"><span>目录</span><b>章节导航</b></div>
