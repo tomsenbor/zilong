@@ -2,6 +2,10 @@ import { marked } from "marked";
 import sanitizeHtml from "sanitize-html";
 import { routePath, parseAppRoute, canonicalPathForRoute } from "../../public/js/routes.js";
 import { selectRelatedGuides } from "../../public/js/related-guides.js";
+import {
+  GUIDE_CENTER_TOPICS,
+  groupGuideArticles
+} from "../../public/js/guide-center.js";
 import { SiteFooter } from "../../public/js/components/site-components.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
@@ -119,6 +123,24 @@ function listSection(title, items) {
       ${items.map((item) => `<li>${item}</li>`).join("")}
     </ul>
   </section>`;
+}
+
+function guideCenterTopicSection() {
+  return `<section data-guide-center-topics>
+    <h2>核心专题</h2>
+    <ul>
+      ${GUIDE_CENTER_TOPICS.map((topic) => `<li><a href="${routePath("guide", { slug: topic.slug })}">${escapeHtml(topic.title)}</a>：${escapeHtml(topic.description)}</li>`).join("")}
+    </ul>
+  </section>`;
+}
+
+function guideCenterCategorySections(groups) {
+  return groups.map((group) => `<section data-guide-category="${escapeHtml(group.title)}">
+    <h2>${escapeHtml(group.title)}</h2>
+    <ul>
+      ${group.articles.map((article) => `<li><a href="${articleLink(article)}">${escapeHtml(article.title)}</a>：${escapeHtml(article.summary || "")}</li>`).join("")}
+    </ul>
+  </section>`);
 }
 
 function relatedSection(kind, title, items) {
@@ -326,6 +348,15 @@ function getArticles(db, limit = 12) {
   `).all(limit);
 }
 
+function getAllArticles(db) {
+  return db.prepare(`
+    SELECT id,title,slug,summary,body,game_version,featured,updated_at,created_at
+    FROM articles
+    WHERE status='published'
+    ORDER BY slug
+  `).all();
+}
+
 function findArticle(db, slug) {
   return db.prepare("SELECT * FROM articles WHERE slug = ? AND status = 'published'").get(slug);
 }
@@ -418,7 +449,8 @@ function buildHomePage(db) {
 }
 
 function buildGuidesPage(db) {
-  const articles = getArticles(db, 30);
+  const articles = getAllArticles(db);
+  const groups = groupGuideArticles(articles);
   return {
     title: "星露谷攻略文章 - 星露谷物语中文资料库",
     description: "整理星露谷物语新手路线、赚钱路线、社区中心、鱼类、作物与进阶玩法攻略。",
@@ -428,9 +460,8 @@ function buildGuidesPage(db) {
       h1: "星露谷攻略文章",
       lead: "从第一年发展路线到专题速查，按主题阅读完整中文攻略。",
       sections: [
-        listSection("攻略列表", articles.map((article) => (
-          `<a href="${articleLink(article)}">${escapeHtml(article.title)}</a>：${escapeHtml(article.summary || "")}`
-        )))
+        guideCenterTopicSection(),
+        ...guideCenterCategorySections(groups)
       ]
     })
   };

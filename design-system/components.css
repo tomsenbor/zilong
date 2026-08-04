@@ -567,6 +567,45 @@ textarea {
   gap: 18px;
 }
 
+.guide-center-stack,
+.guide-category-list {
+  display: grid;
+  gap: clamp(28px, 4vw, 44px);
+}
+
+.guide-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.guide-topic-card {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+  padding: 16px;
+  overflow-wrap: anywhere;
+}
+
+.guide-topic-card strong {
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.guide-topic-card span {
+  color: var(--color-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.guide-category {
+  min-width: 0;
+}
+
+.guide-category .page-section-heading {
+  margin-bottom: 14px;
+}
+
 .article-card {
   display: flex;
   min-height: 268px;
@@ -1665,6 +1704,7 @@ textarea {
 
   .article-grid,
   .tools-grid,
+  .guide-topic-grid,
   .category-overview-grid,
   .fish-results,
   .bundle-grid,
@@ -1706,6 +1746,7 @@ textarea {
   .search-bar,
   .article-grid,
   .tools-grid,
+  .guide-topic-grid,
   .category-overview-grid,
   .fish-results,
   .guide-related-grid,

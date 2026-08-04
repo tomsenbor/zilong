@@ -14,6 +14,10 @@ import {
 } from "./routes.js";
 import { selectRelatedGuides } from "./related-guides.js";
 import {
+  GUIDE_CENTER_TOPICS,
+  groupGuideArticles
+} from "./guide-center.js";
+import {
   renderCategoryOverview,
   renderHomeView,
   renderItemCard,
@@ -248,6 +252,31 @@ function renderRelatedGuides(current, articles) {
   </section>`;
 }
 
+function renderGuideCenterTopics() {
+  return `<section class="guide-topic-section" data-guide-center-topics aria-labelledby="guide-topic-title">
+    <div class="page-section-heading">
+      <div><h2 id="guide-topic-title">核心专题</h2><p>从完整路线或当前目标开始阅读。</p></div>
+    </div>
+    <div class="guide-topic-grid">
+      ${GUIDE_CENTER_TOPICS.map((topic) => `<a class="${uiClass("guide-topic-card card")}" href="${routePath("guide", { slug: topic.slug })}">
+        <strong>${escapeHtml(topic.title)}</strong>
+        <span>${escapeHtml(topic.description)}</span>
+      </a>`).join("")}
+    </div>
+  </section>`;
+}
+
+function renderGuideCenterGroups(groups) {
+  return `<div class="guide-category-list" data-guide-center-groups>
+    ${groups.map((group) => `<section class="guide-category" data-guide-category="${escapeHtml(group.title)}" aria-labelledby="guide-category-${escapeHtml(group.title)}">
+      <div class="page-section-heading">
+        <div><h2 id="guide-category-${escapeHtml(group.title)}">${escapeHtml(group.title)}</h2><p>${group.articles.length} 篇攻略</p></div>
+      </div>
+      <div class="article-grid">${group.articles.map(articleCard).join("")}</div>
+    </section>`).join("")}
+  </div>`;
+}
+
 async function library(params, options = {}) {
   await loadDatasets();
   const requestedDataset = params.get("dataset");
@@ -340,6 +369,7 @@ function pagination(info) { if(info.pages<=1)return""; return `<div class="pagin
 
 async function articlesPage() {
   const data = await api("/api/articles?pageSize=50");
+  const groups = groupGuideArticles(data.items);
   app.innerHTML = `${PageHero({
     eyebrow: "攻略资料",
     title: "星露谷攻略文章",
@@ -348,7 +378,10 @@ async function articlesPage() {
       { label: "浏览图鉴大全", href: routePath("wiki"), variant: "secondary" },
       { label: "查看实用工具", href: routePath("tools"), variant: "primary" }
     ]
-  })}<section class="section"><div class="shell article-grid">${data.items.map(articleCard).join("")}</div></section>`;
+  })}<section class="section guide-center"><div class="shell guide-center-stack">
+    ${renderGuideCenterTopics()}
+    ${renderGuideCenterGroups(groups)}
+  </div></section>`;
 }
 async function articleDetail(slug) {
   const [{ item }, articleData] = await Promise.all([
