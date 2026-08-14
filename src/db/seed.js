@@ -63,8 +63,13 @@ export function seedDatabase(db) {
     const entryInsert = db.prepare(`
       INSERT INTO dataset_entries(dataset_id, name, slug, summary, image, attributes_json)
       VALUES (?, ?, ?, ?, ?, ?)
-      ON CONFLICT(dataset_id, slug) DO UPDATE SET summary=excluded.summary,
-        image=excluded.image, attributes_json=excluded.attributes_json, updated_at=CURRENT_TIMESTAMP
+      ON CONFLICT(dataset_id, slug) DO UPDATE SET name=excluded.name,
+        summary=excluded.summary, image=excluded.image,
+        attributes_json=excluded.attributes_json, updated_at=CURRENT_TIMESTAMP
+      WHERE dataset_entries.name IS NOT excluded.name
+        OR dataset_entries.summary IS NOT excluded.summary
+        OR dataset_entries.image IS NOT excluded.image
+        OR dataset_entries.attributes_json IS NOT excluded.attributes_json
     `);
     const entryByName = db.prepare("SELECT id, slug FROM dataset_entries WHERE dataset_id = ? AND name = ?");
     const entryBySlug = db.prepare("SELECT id FROM dataset_entries WHERE dataset_id = ? AND slug = ?");
@@ -95,8 +100,15 @@ export function seedDatabase(db) {
     const articleInsert = db.prepare(`
       INSERT INTO articles(title, slug, summary, body, cover_image, status, featured)
       VALUES (?, ?, ?, ?, ?, 'published', ?)
-      ON CONFLICT(slug) DO UPDATE SET summary=excluded.summary, body=excluded.body,
-        cover_image=excluded.cover_image, featured=excluded.featured
+      ON CONFLICT(slug) DO UPDATE SET title=excluded.title,
+        summary=excluded.summary, body=excluded.body,
+        cover_image=excluded.cover_image, featured=excluded.featured,
+        updated_at=CURRENT_TIMESTAMP
+      WHERE articles.title IS NOT excluded.title
+        OR articles.summary IS NOT excluded.summary
+        OR articles.body IS NOT excluded.body
+        OR articles.cover_image IS NOT excluded.cover_image
+        OR articles.featured IS NOT excluded.featured
     `);
     const relationInsert = db.prepare("INSERT OR IGNORE INTO article_categories(article_id, category_id) VALUES (?, ?)");
     const articleByTitle = db.prepare("SELECT id, slug FROM articles WHERE title = ?");
