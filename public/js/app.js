@@ -38,7 +38,6 @@ function ensurePublicBodyClass() {
 function mountSiteChrome() {
   document.querySelector("#site-header-root").innerHTML = SiteHeader();
   document.querySelector("#site-footer-root").innerHTML = SiteFooter();
-  syncPublicAdminEntry();
 
   const siteHeader = document.querySelector("#site-header");
   const menuButton = document.querySelector("#menu-button");
@@ -62,30 +61,6 @@ function mountSiteChrome() {
   });
 
   return { siteHeader, menuButton, searchToggle, globalSearch };
-}
-
-function isDevelopmentHost(hostname = location.hostname) {
-  return hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1" || hostname.endsWith(".local");
-}
-
-async function syncPublicAdminEntry() {
-  const entries = [...document.querySelectorAll("[data-dev-only-admin]")];
-  if (!entries.length) return;
-  const isDev = isDevelopmentHost();
-  entries.forEach((entry) => {
-    entry.hidden = !isDev;
-  });
-  if (isDev) return;
-  try {
-    await api("/api/admin/auth/session");
-    entries.forEach((entry) => {
-      entry.hidden = false;
-    });
-  } catch {
-    entries.forEach((entry) => {
-      entry.hidden = true;
-    });
-  }
 }
 
 ensurePublicBodyClass();
@@ -136,6 +111,15 @@ function updateSeo(route) {
     document.head.append(canonical);
   }
   canonical.href = canonicalHref;
+  const robotsContent = route.name === "search" ? "noindex,follow" : "";
+  let robots = document.querySelector('meta[name="robots"]');
+  if (robotsContent && !robots) {
+    robots = document.createElement("meta");
+    robots.name = "robots";
+    document.head.append(robots);
+  }
+  if (robotsContent) robots.content = robotsContent;
+  else robots?.remove();
   document.querySelectorAll('link[data-hreflang-route]').forEach((element) => element.remove());
   hreflangCandidates(route)
     .filter((candidate) => candidate.available)

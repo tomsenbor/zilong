@@ -45,12 +45,36 @@ function addUrl(items, seen, path, req, context, options = {}) {
   });
 }
 
+function newestDate(...values) {
+  return values.filter(Boolean).sort().at(-1) || "";
+}
+
 export function renderSitemapXml({ req, context }) {
   const items = [];
   const seen = new Set();
 
-  addUrl(items, seen, routePath("home"), req, context, { changefreq: "daily", priority: "1.0" });
-  addUrl(items, seen, routePath("guides"), req, context, { changefreq: "weekly", priority: "0.8" });
+  const latestArticleUpdate = context.db.prepare(`
+    SELECT MAX(updated_at) latest
+    FROM articles
+    WHERE status = 'published'
+  `).get()?.latest || "";
+  const latestEntryUpdate = context.db.prepare(`
+    SELECT MAX(e.updated_at) latest
+    FROM dataset_entries e
+    JOIN datasets d ON d.id = e.dataset_id
+    WHERE e.published = 1 AND d.slug != 'catalog'
+  `).get()?.latest || "";
+
+  addUrl(items, seen, routePath("home"), req, context, {
+    lastmod: newestDate(latestArticleUpdate, latestEntryUpdate),
+    changefreq: "daily",
+    priority: "1.0"
+  });
+  addUrl(items, seen, routePath("guides"), req, context, {
+    lastmod: latestArticleUpdate,
+    changefreq: "weekly",
+    priority: "0.8"
+  });
 
   const articles = context.db.prepare(`
     SELECT slug, updated_at
@@ -66,15 +90,22 @@ export function renderSitemapXml({ req, context }) {
     });
   }
 
-  addUrl(items, seen, routePath("wiki"), req, context, { changefreq: "weekly", priority: "0.8" });
+  addUrl(items, seen, routePath("wiki"), req, context, {
+    lastmod: latestEntryUpdate,
+    changefreq: "weekly",
+    priority: "0.8"
+  });
 
   const datasets = context.db.prepare(`
-    SELECT id, slug
-    FROM datasets
-    ORDER BY sort_order ASC, name ASC
+    SELECT d.id, d.slug, MAX(e.updated_at) latest_entry_update
+    FROM datasets d
+    LEFT JOIN dataset_entries e ON e.dataset_id = d.id AND e.published = 1
+    GROUP BY d.id, d.slug
+    ORDER BY d.sort_order ASC, d.name ASC
   `).all();
   for (const dataset of datasets) {
     addUrl(items, seen, routePath("wikiDataset", { datasetSlug: dataset.slug }), req, context, {
+      lastmod: dataset.latest_entry_update,
       changefreq: "weekly",
       priority: "0.7"
     });
@@ -121,6 +152,7 @@ export function renderRobotsTxt({ req, context }) {
     "User-agent: *",
     "Allow: /",
     "Disallow: /admin",
+    "Disallow: /api/admin/",
     "",
     `Sitemap: ${absoluteUrl("/sitemap.xml", req, context)}`,
     ""

@@ -72,7 +72,6 @@ export function SiteHeader({ active = "home" } = {}) {
       </nav>
       <div class="nav-actions">
         <button class="${uiClass("nav-search-toggle btn secondary small")}" id="search-toggle" type="button" aria-label="展开搜索" aria-expanded="false">搜索</button>
-        <a class="${uiClass("btn secondary small nav-admin")}" href="/admin" data-dev-only-admin>后台管理</a>
         <button class="${uiClass("menu-button btn secondary small")}" id="menu-button" type="button" aria-label="展开菜单" aria-expanded="false">菜单</button>
       </div>
     </div>
@@ -105,10 +104,6 @@ export function SiteFooter() {
         <a href="${routePath("tool", { tool: "crops" })}">作物收益计算器</a>
         <a href="${routePath("tool", { tool: "fish" })}">鱼类查询器</a>
         <a href="${routePath("tool", { tool: "community-center" })}">社区中心清单</a>
-      </section>
-      <section>
-        <b>管理入口</b>
-        <a href="/admin">后台管理</a>
       </section>
     </div>
   </footer>`;

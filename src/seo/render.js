@@ -619,6 +619,8 @@ function buildSearchPage(db, searchParams) {
     title: q ? `${q} 搜索结果 - 星露谷物语中文资料库` : "搜索 - 星露谷物语中文资料库",
     description,
     canonicalPath: routePath("search", { q }),
+    noindex: true,
+    robotsContent: "noindex,follow",
     h1: q ? `搜索：${q}` : "搜索",
     html: pageShell({
       h1: q ? `搜索：${q}` : "搜索",
