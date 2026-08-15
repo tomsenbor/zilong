@@ -20,7 +20,12 @@ import {
   SiteLogo,
   stardewUiAsset
 } from "../public/js/components/site-components.js";
-import { hreflangCandidates, parseAppRoute, routePath } from "../public/js/routes.js";
+import {
+  hreflangCandidates,
+  parseAppRoute,
+  robotsContentForRoute,
+  routePath
+} from "../public/js/routes.js";
 
 const datasets = Array.from({ length: 10 }, (_, index) => ({
   id: index + 1,
@@ -373,6 +378,44 @@ describe("UI Kit v4 refinement public views", () => {
     });
   });
 
+  test("keeps the client robots policy aligned with route indexability", () => {
+    const catalogRoute = {
+      name: "wikiEntry",
+      params: { datasetSlug: "catalog", entrySlug: "strawberry" }
+    };
+    const catalogSnapshot = structuredClone(catalogRoute);
+
+    expect(robotsContentForRoute({ name: "search", params: {} })).toBe("noindex,follow");
+    expect(robotsContentForRoute(catalogRoute)).toBe("noindex,follow");
+    expect(robotsContentForRoute({ name: "notFound", params: {} })).toBe("noindex,nofollow");
+
+    for (const route of [
+      { name: "home", params: {} },
+      { name: "guide", params: { slug: "spring" } },
+      { name: "tool", params: { tool: "fish" } },
+      { name: "wikiDataset", params: { datasetSlug: "crops" } },
+      { name: "wikiEntry", params: { datasetSlug: "crops", entrySlug: "strawberry" } }
+    ]) {
+      expect(robotsContentForRoute(route)).toBe("");
+    }
+
+    expect(robotsContentForRoute()).toBe("");
+    expect(robotsContentForRoute({ name: "wikiEntry" })).toBe("");
+    expect(catalogRoute).toEqual(catalogSnapshot);
+  });
+
+  test("hydrates robots metadata from the shared route policy", () => {
+    const appSource = fs.readFileSync(path.resolve("public/js/app.js"), "utf8");
+
+    expect(appSource).toContain("robotsContentForRoute,");
+    expect(appSource).toContain("const robotsContent = robotsContentForRoute(route);");
+    expect(appSource).not.toContain('route.name === "search" ? "noindex,follow" : ""');
+    expect(appSource).toContain('robots = document.createElement("meta")');
+    expect(appSource).toContain('robots.name = "robots"');
+    expect(appSource).toContain("if (robotsContent) robots.content = robotsContent;");
+    expect(appSource).toContain("else robots?.remove();");
+  });
+
   test("runtime JS no longer emits old UI classes", () => {
     const files = [
       "public/js/app.js",
@@ -408,7 +451,7 @@ describe("UI Kit v4 refinement public views", () => {
     expect(appSource).not.toContain("function syncPublicAdminEntry");
     expect(appSource).not.toContain("isDevelopmentHost");
     expect(appSource).not.toContain("/api/admin/auth/session");
-    expect(appSource).toContain('route.name === "search" ? "noindex,follow" : ""');
+    expect(appSource).toContain("const robotsContent = robotsContentForRoute(route);");
     expect(appSource).toContain('robots.name = "robots"');
     expect(appSource).not.toContain('image: stardewUiAsset("hero-articles.png")');
     expect(appSource).not.toContain('image: stardewUiAsset("hero-tools.png")');
@@ -447,6 +490,89 @@ describe("UI Kit v4 refinement public views", () => {
     expect(components).toMatch(/\.page-header__media\s*\{[\s\S]*display:\s*none/);
     expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-ranking-row\s*\{[\s\S]*grid-template-columns:\s*1fr/);
     expect(layout).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.home-hero-grid,[\s\S]*\.home-tools-grid,[\s\S]*\.home-categories-grid,[\s\S]*\.home-guides-grid\s*\{[\s\S]*grid-template-columns:\s*1fr/);
+  });
+
+  test("stage two crop decision styles remain page-scoped and mobile-safe", () => {
+    const components = fs.readFileSync(path.resolve("design-system/components.css"), "utf8");
+
+    for (const selector of [
+      ".crop-tool-page .crop-basic-grid",
+      ".crop-tool-page .crop-advanced-grid",
+      ".crop-tool-page .crop-comparison",
+      ".crop-tool-page .crop-ranking-actions"
+    ]) {
+      expect(components).toContain(selector);
+    }
+
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-tool-page \.crop-basic-grid[\s\S]*grid-template-columns:\s*1fr/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-tool-page \.tool-actions \.btn[\s\S]*min-height:\s*44px/);
+    expect(components).toContain(".crop-tool-page .crop-ranking-row {\n    grid-template-columns: repeat(2, minmax(0, 1fr));");
+    expect(components).toMatch(/\.crop-tool-page \.crop-comparison-select[\s\S]*min-width:\s*0/);
+    expect(components).toMatch(/\.crop-tool-page \.field\[hidden\]\s*\{[\s\S]*display:\s*none\s*!important/);
+    expect(components).toMatch(/\.crop-tool-page \.crop-advanced-conditions:not\(\[open\]\)\s*>\s*:not\(summary\)\s*\{[\s\S]*display:\s*none\s*!important/);
+  });
+
+  test("crop ranking keeps its minimum grid width inside the 768px tablet content area", () => {
+    const components = fs.readFileSync(path.resolve("design-system/components.css"), "utf8");
+    const tabletRule = components.match(
+      /@media \(min-width:\s*721px\) and \(max-width:\s*980px\)\s*\{([\s\S]*?)\n\}/
+    )?.[1] || "";
+    const grid = tabletRule.match(
+      /\.crop-tool-page \.crop-ranking-head,\s*\.crop-tool-page \.crop-ranking-row\s*\{[\s\S]*?grid-template-columns:\s*minmax\((\d+)px,[^)]+\)\s*repeat\(4,\s*minmax\((\d+)px,[^)]+\)\)\s*minmax\((\d+)px,[^)]+\);[\s\S]*?gap:\s*(\d+)px/
+    );
+
+    expect(grid).not.toBeNull();
+    const [, cropColumn, metricColumn, detailColumn, gap] = grid.map(Number);
+    const minimumRowWidth = cropColumn + (metricColumn * 4) + detailColumn + (gap * 5) + 20;
+    expect(minimumRowWidth).toBeLessThanOrEqual(680);
+    expect(tabletRule).toMatch(/\.crop-tool-page \.crop-harvest-note\s*\{[\s\S]*white-space:\s*normal/);
+  });
+
+  test("stage four fish styles remain page-scoped and mobile-safe", () => {
+    const components = fs.readFileSync(path.resolve("design-system/components.css"), "utf8");
+
+    for (const selector of [
+      ".fish-tool-page .fish-basic-filters",
+      ".fish-tool-page .fish-advanced-filters",
+      ".fish-tool-page .fish-active-filter-list",
+      ".fish-tool-page .fish-load-more"
+    ]) {
+      expect(components).toContain(selector);
+    }
+
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.fish-tool-page \.tool-layout[\s\S]*grid-template-columns:\s*1fr/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.fish-tool-page \.condition-list[\s\S]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/);
+    expect(components).toMatch(/\.fish-tool-page \.fish-advanced-filters\s*>\s*summary[\s\S]*min-height:\s*44px/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.fish-tool-page \.tool-actions \.btn[\s\S]*min-height:\s*44px/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.fish-tool-page \.fish-load-more[\s\S]*min-height:\s*44px/);
+    expect(components).toMatch(/\.fish-tool-page \.fish-active-filter-list[\s\S]*flex-wrap:\s*wrap/);
+    expect(components).toMatch(/\.fish-tool-page \.condition-list dd[\s\S]*overflow-wrap:\s*anywhere/);
+    expect(components).toContain(".crop-tool-page .crop-basic-grid");
+    expect(components).toContain(".community-controls");
+
+    const fishRuleBlocks = components.match(/\.fish-tool-page[^{}]*\{[^{}]*\}/g) ?? [];
+    expect(fishRuleBlocks.length).toBeGreaterThan(10);
+    for (const block of fishRuleBlocks) expect(block.trimStart()).toMatch(/^\.fish-tool-page/);
+  });
+
+  test("stage six community styles remain page-scoped and mobile-safe", () => {
+    const components = fs.readFileSync(path.resolve("design-system/components.css"), "utf8");
+
+    for (const selector of [
+      ".community-tool-page .community-dashboard",
+      ".community-tool-page .community-scope-switch",
+      ".community-tool-page .community-room-selector",
+      ".community-tool-page .community-item-toggle",
+      ".community-tool-page .community-cross-link"
+    ]) {
+      expect(components).toContain(selector);
+    }
+
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.community-tool-page \.community-dashboard[\s\S]*grid-template-columns:\s*1fr/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.community-tool-page \.bundle-grid[\s\S]*grid-template-columns:\s*1fr/);
+    expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.community-tool-page \.community-action-group[\s\S]*grid-template-columns:\s*repeat\(2,\s*minmax\(0,\s*1fr\)\)/);
+    expect(components).toMatch(/\.community-tool-page \.community-item-copy[\s\S]*min-width:\s*0[\s\S]*overflow-wrap:\s*anywhere/);
+    expect(components).toMatch(/\.community-tool-page[^{}]*:focus-visible/);
   });
 
   test("entry detail route replaces legacy Chinese slugs with stable canonical slugs", () => {

@@ -5,7 +5,7 @@ import { fish } from "./data/fish.js";
 import { crops } from "./data/crops.js";
 import { communityCenter } from "./data/community-center.js";
 import { rankCropProfits } from "./crops.js";
-import { getCommunitySlotIds, getCommunityTotals } from "./community-center.js";
+import { getCommunitySlotIds, getCommunityTotalsByScope } from "./community-center.js";
 import { filterFish, getFishFilterOptions } from "./fish.js";
 import { cropCalculationSchema, fishQuerySchema } from "./schemas.js";
 
@@ -35,7 +35,8 @@ export function createToolsRouter() {
     const filters = parseOrThrow(fishQuerySchema, req.query);
     const items = filterFish(fish, {
       ...filters,
-      bundleOnly: filters.bundleOnly === "true"
+      bundleOnly: filters.bundleOnly === "true",
+      magicBait: filters.magicBait === "true"
     });
     res.json(envelope({
       items,
@@ -56,18 +57,23 @@ export function createToolsRouter() {
 
   router.post("/crops/calculate", (req, res) => {
     const input = parseOrThrow(cropCalculationSchema, req.body);
-    const planningDays = input.locationMode === "seasonal"
-      ? 28
-      : input.startDay + input.planningDays - 1;
-    const result = rankCropProfits(crops, { ...input, planningDays });
+    const calculationInput = {
+      ...input,
+      planningDays: input.locationMode === "seasonal" ? 28 : input.startDay + input.planningDays - 1
+    };
+    const result = rankCropProfits(crops, calculationInput);
     res.json(envelope({ input, ...result }));
   });
 
   router.get("/community-center", (req, res) => {
+    const scopedTotals = getCommunityTotalsByScope(communityCenter);
     res.json(envelope({
       rooms: communityCenter,
       knownSlotIds: getCommunitySlotIds(communityCenter),
-      totals: getCommunityTotals(communityCenter)
+      totals: {
+        ...scopedTotals.all,
+        ...scopedTotals
+      }
     }));
   });
 

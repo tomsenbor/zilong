@@ -1,3 +1,5 @@
+import { fish } from "./fish.js";
+
 const icons = {
   forage: "/assets/game/36px-Bundle_Green.png",
   farming: "/assets/game/36px-Farming_Skill_Icon.png",
@@ -79,20 +81,21 @@ const itemAssetNames = {
 function item(id, name, {
   quantity = 1,
   quality = null,
+  minimumQuality = null,
   image = null,
   seasons = [],
   source
 } = {}) {
   const itemImage = itemAssetNames[id] ? asset(itemAssetNames[id]) : image;
   if (!itemImage) throw new Error(`Missing community-center icon mapping: ${id}`);
-  return { id, name, quantity, quality, image: itemImage, seasons, source };
+  return { id, name, quantity, quality, minimumQuality, image: itemImage, seasons, source };
 }
 
 function bundle(id, name, reward, items, requiredCount = items.length) {
   return { id, name, reward, requiredCount, items };
 }
 
-export const communityCenter = [
+const communityCenterData = [
   {
     id: "crafts-room",
     name: "工艺室",
@@ -166,10 +169,10 @@ export const communityCenter = [
         item("yam", "山药", { image: asset("Yam"), seasons: ["秋季"], source: "种植" })
       ]),
       bundle("quality-crops-bundle", "品质作物收集包", "1 个罐头瓶", [
-        item("gold-parsnip", "防风草", { quantity: 5, quality: "金星", image: asset("Parsnip"), seasons: ["春季"], source: "种植" }),
-        item("gold-melon", "甜瓜", { quantity: 5, quality: "金星", image: asset("Melon"), seasons: ["夏季"], source: "种植" }),
-        item("gold-pumpkin", "南瓜", { quantity: 5, quality: "金星", image: asset("Pumpkin"), seasons: ["秋季"], source: "种植" }),
-        item("gold-corn", "玉米", { quantity: 5, quality: "金星", image: asset("Corn"), seasons: ["夏季", "秋季"], source: "种植" })
+        item("gold-parsnip", "防风草", { quantity: 5, quality: "金星以上", minimumQuality: "gold", image: asset("Parsnip"), seasons: ["春季"], source: "种植" }),
+        item("gold-melon", "甜瓜", { quantity: 5, quality: "金星以上", minimumQuality: "gold", image: asset("Melon"), seasons: ["夏季"], source: "种植" }),
+        item("gold-pumpkin", "南瓜", { quantity: 5, quality: "金星以上", minimumQuality: "gold", image: asset("Pumpkin"), seasons: ["秋季"], source: "种植" }),
+        item("gold-corn", "玉米", { quantity: 5, quality: "金星以上", minimumQuality: "gold", image: asset("Corn"), seasons: ["夏季", "秋季"], source: "种植" })
       ], 3),
       bundle("animal-bundle", "动物制品收集包", "1 个奶酪机", [
         item("large-milk", "大壶牛奶", { source: "高好感奶牛", image: icons.farming }),
@@ -219,7 +222,7 @@ export const communityCenter = [
         item("red-snapper", "红鲷鱼", { image: asset("Red_Snapper"), seasons: ["夏季", "秋季"], source: "海洋，雨天06:00-19:00" }),
         item("tilapia", "罗非鱼", { image: asset("Tilapia"), seasons: ["夏季", "秋季"], source: "海洋06:00-14:00" })
       ]),
-      bundle("night-fishing-bundle", "夜间垂钓收集包", "1 个小型光辉戒指", [
+      bundle("night-fishing-bundle", "夜间垂钓收集包", "1 个光辉戒指", [
         item("walleye", "大眼鱼", { image: asset("Walleye"), seasons: ["秋季"], source: "雨天12:00-02:00" }),
         item("bream", "鲷鱼", { image: asset("Bream"), seasons: ["春季", "夏季", "秋季", "冬季"], source: "河流18:00-02:00" }),
         item("eel", "鳗鱼", { image: asset("Eel"), seasons: ["春季", "秋季"], source: "海洋，雨天16:00-02:00" })
@@ -273,7 +276,7 @@ export const communityCenter = [
     id: "bulletin-board",
     name: "公告栏",
     image: asset("Bundle_Purple"),
-    reward: "所有非单身村民提升两心好感",
+    reward: "仅对已见面的非可恋爱村民增加两心好感",
     bundles: [
       bundle("chef-bundle", "厨师收集包", "3 个粉红蛋糕", [
         item("maple-syrup", "枫糖浆", { image: asset("Maple_Syrup"), source: "枫树树液采集器" }),
@@ -337,13 +340,70 @@ export const communityCenter = [
     reward: "将废弃 Joja 超市改建为电影院",
     bundles: [
       bundle("missing-bundle-items", "遗失的收集包", "电影院", [
-        item("silver-wine", "果酒", { quality: "银星", source: "小桶与木桶陈酿", image: icons.missing }),
+        item("silver-wine", "果酒", { quality: "银星以上", minimumQuality: "silver", source: "小桶与木桶陈酿", image: icons.missing }),
         item("dinosaur-mayonnaise", "恐龙蛋黄酱", { source: "恐龙蛋放入蛋黄酱机", image: icons.missing }),
         item("prismatic-shard", "五彩碎片", { image: asset("Prismatic_Shard"), source: "矿洞、骷髅洞穴等" }),
-        item("gold-ancient-fruit", "远古水果", { quantity: 5, quality: "金星", image: asset("Ancient_Fruit"), source: "种植" }),
-        item("gold-void-salmon", "虚空鲑鱼", { quality: "金星", image: asset("Void_Salmon"), source: "女巫沼泽" }),
+        item("gold-ancient-fruit", "远古水果", { quantity: 5, quality: "金星以上", minimumQuality: "gold", image: asset("Ancient_Fruit"), source: "种植" }),
+        item("gold-void-salmon", "虚空鲑鱼", { quality: "金星以上", minimumQuality: "gold", image: asset("Void_Salmon"), source: "女巫沼泽" }),
         item("caviar", "鱼子酱", { source: "鲟鱼鱼籽放入罐头瓶", image: icons.missing })
       ], 5)
     ]
   }
 ];
+
+const fishById = new Map(fish.map((entry) => [entry.id, entry]));
+const cropIdsByItemId = {
+  parsnip: "parsnip",
+  "green-bean": "green-bean",
+  cauliflower: "cauliflower",
+  potato: "potato",
+  tomato: "tomato",
+  "hot-pepper": "hot-pepper",
+  blueberry: "blueberry",
+  melon: "melon",
+  corn: "corn",
+  eggplant: "eggplant",
+  pumpkin: "pumpkin",
+  yam: "yam",
+  "gold-parsnip": "parsnip",
+  "gold-melon": "melon",
+  "gold-pumpkin": "pumpkin",
+  "gold-corn": "corn",
+  poppy: "poppy",
+  sunflower: "sunflower",
+  "red-cabbage": "red-cabbage",
+  wheat: "wheat",
+  "gold-ancient-fruit": "ancient-fruit"
+};
+
+function addCrossToolReferences(bundle, itemEntry) {
+  const fishId = itemEntry.id === "gold-void-salmon"
+    ? "void-salmon"
+    : fishById.get(itemEntry.id)?.bundleIds.includes(bundle.id)
+      ? itemEntry.id
+      : null;
+  const canonicalFish = fishId ? fishById.get(fishId) : null;
+  const cropId = cropIdsByItemId[itemEntry.id];
+
+  return {
+    ...itemEntry,
+    ...(canonicalFish ? {
+      name: canonicalFish.name,
+      image: canonicalFish.image,
+      seasons: [...canonicalFish.seasons],
+      fishId: canonicalFish.id,
+      fishCategory: canonicalFish.category
+    } : {}),
+    ...(cropId ? { cropId } : {})
+  };
+}
+
+export const communityCenter = communityCenterData.map((room) => ({
+  ...room,
+  progressScope: room.id === "missing-bundle" ? "missing" : "standard",
+  ...(room.id === "missing-bundle" ? { contentType: "abandoned-joja-mart" } : {}),
+  bundles: room.bundles.map((bundleEntry) => ({
+    ...bundleEntry,
+    items: bundleEntry.items.map((itemEntry) => addCrossToolReferences(bundleEntry, itemEntry))
+  }))
+}));

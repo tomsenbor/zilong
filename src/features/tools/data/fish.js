@@ -3,6 +3,44 @@ import { GAME_VERSION } from "../constants.js";
 const allSeasons = ["春季", "夏季", "秋季", "冬季"];
 const allDay = [{ start: 600, end: 2600 }];
 
+const uniqueValues = (values) => [...new Set(values)];
+
+function createAvailabilityRule({
+  locations,
+  seasons = allSeasons,
+  weather = ["任意"],
+  timeRanges = allDay,
+  conditionType = "standard",
+  requirements = []
+}) {
+  return {
+    locations: [...locations],
+    seasons: [...seasons],
+    weather: [...weather],
+    timeRanges: timeRanges.map(({ start, end }) => ({ start, end })),
+    conditionType,
+    requirements: [...requirements]
+  };
+}
+
+function uniqueTimeRanges(rules) {
+  const ranges = new Map();
+  for (const { start, end } of rules.flatMap((rule) => rule.timeRanges)) {
+    const key = `${start}-${end}`;
+    if (!ranges.has(key)) ranges.set(key, { start, end });
+  }
+  return [...ranges.values()];
+}
+
+function deriveLegacyAvailability(availabilityRules) {
+  return {
+    locations: uniqueValues(availabilityRules.flatMap((rule) => rule.locations)),
+    seasons: uniqueValues(availabilityRules.flatMap((rule) => rule.seasons)),
+    weather: uniqueValues(availabilityRules.flatMap((rule) => rule.weather)),
+    timeRanges: uniqueTimeRanges(availabilityRules)
+  };
+}
+
 function rod({
   id,
   name,
@@ -17,17 +55,21 @@ function rod({
   bundleIds = [],
   category = "普通",
   notes = "",
-  aliases = []
+  aliases = [],
+  availabilityRules,
+  conditionType = "standard",
+  requirements = [],
+  alternateSources = []
 }) {
+  const rules = (availabilityRules ?? [{ locations, seasons, weather, timeRanges, conditionType, requirements }])
+    .map(createAvailabilityRule);
+  const legacyAvailability = deriveLegacyAvailability(rules);
   return {
     id,
     name,
     aliases,
     image: `/assets/game/36px-${image}.png`,
-    seasons,
-    locations,
-    weather,
-    timeRanges,
+    ...legacyAvailability,
     sourceType: "钓竿",
     category,
     difficulty,
@@ -35,13 +77,15 @@ function rod({
     basePrice,
     bundleIds,
     notes,
+    availabilityRules: rules,
+    alternateSources: [...alternateSources],
     gameVersion: GAME_VERSION
   };
 }
 
 function special(options) {
   return {
-    ...rod(options),
+    ...rod({ ...options, conditionType: "fixed-event" }),
     sourceType: "特殊活动",
     category: "特殊"
   };
@@ -55,25 +99,28 @@ function crab({
   basePrice,
   bundleIds = ["crab-pot-bundle"],
   notes = "",
-  aliases = []
+  aliases = [],
+  alternateSources = []
 }) {
   return {
-    id,
-    name,
-    aliases,
-    image: `/assets/game/36px-${image}.png`,
-    seasons: allSeasons,
-    locations,
-    weather: ["任意"],
-    timeRanges: allDay,
-    sourceType: "蟹笼",
-    category: "特殊",
-    difficulty: 0,
-    behavior: "蟹笼",
-    basePrice,
-    bundleIds,
-    notes,
-    gameVersion: GAME_VERSION
+    ...rod({
+      id,
+      name,
+      image,
+      seasons: allSeasons,
+      locations,
+      weather: ["任意"],
+      timeRanges: allDay,
+      difficulty: 0,
+      behavior: "蟹笼",
+      basePrice,
+      bundleIds,
+      category: "特殊",
+      notes,
+      aliases,
+      alternateSources
+    }),
+    sourceType: "蟹笼"
   };
 }
 
@@ -84,12 +131,18 @@ export const fish = [
   rod({ id: "bream", name: "鲷鱼", image: "Bream", aliases: ["Bream"], locations: ["小镇河流", "森林河流"], timeRanges: [{ start: 1800, end: 2600 }], difficulty: 35, behavior: "平滑型", basePrice: 45, bundleIds: ["night-fishing-bundle"] }),
   rod({ id: "bullhead", name: "大头鱼", image: "Bullhead", aliases: ["Bullhead"], locations: ["山区湖泊"], difficulty: 46, behavior: "平滑型", basePrice: 75, bundleIds: ["lake-fish-bundle"] }),
   rod({ id: "carp", name: "鲤鱼", image: "Carp", aliases: ["Carp"], locations: ["山区湖泊", "秘密森林池塘", "下水道", "突变虫穴"], difficulty: 15, basePrice: 30, bundleIds: ["lake-fish-bundle"] }),
-  rod({ id: "catfish", name: "鲶鱼", image: "Catfish", aliases: ["Catfish"], seasons: ["春季", "秋季"], locations: ["小镇河流", "森林河流", "秘密森林池塘"], weather: ["雨天"], timeRanges: [{ start: 600, end: 2400 }], difficulty: 75, basePrice: 200, bundleIds: ["river-fish-bundle"], notes: "秘密森林池塘在夏季雨天也可捕获。" }),
+  rod({ id: "catfish", name: "鲶鱼", image: "Catfish", aliases: ["Catfish"], difficulty: 75, basePrice: 200, bundleIds: ["river-fish-bundle"], notes: "小镇与森林河流仅春秋雨天可钓；秘密森林池塘和女巫沼泽在春夏秋雨天可钓。", availabilityRules: [
+    { locations: ["小镇河流", "森林河流"], seasons: ["春季", "秋季"], weather: ["雨天"], timeRanges: [{ start: 600, end: 2400 }], conditionType: "standard", requirements: [] },
+    { locations: ["秘密森林池塘", "女巫沼泽"], seasons: ["春季", "夏季", "秋季"], weather: ["雨天"], timeRanges: [{ start: 600, end: 2400 }], conditionType: "standard", requirements: [] }
+  ] }),
   rod({ id: "chub", name: "鲢鱼", image: "Chub", aliases: ["Chub"], locations: ["森林河流", "山区湖泊"], difficulty: 35, behavior: "急冲型", basePrice: 50, bundleIds: ["field-research-bundle"] }),
   rod({ id: "dace", name: "鲮鱼", image: "Fish", aliases: ["Dace"], seasons: ["夏季", "秋季", "冬季"], locations: ["森林河流"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 35, behavior: "急冲型", basePrice: 30 }),
   rod({ id: "dorado", name: "麻哈脂鲤", image: "Dorado", aliases: ["Dorado"], seasons: ["夏季"], locations: ["森林河流"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 78, basePrice: 100 }),
   rod({ id: "eel", name: "鳗鱼", image: "Eel", aliases: ["Eel"], seasons: ["春季", "秋季"], locations: ["海洋"], weather: ["雨天"], timeRanges: [{ start: 1600, end: 2600 }], difficulty: 70, behavior: "平滑型", basePrice: 85, bundleIds: ["night-fishing-bundle"] }),
-  rod({ id: "flounder", name: "比目鱼", image: "Flounder", aliases: ["Flounder"], seasons: ["春季", "夏季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 2000 }], difficulty: 50, behavior: "下沉型", basePrice: 100 }),
+  rod({ id: "flounder", name: "比目鱼", image: "Flounder", aliases: ["Flounder"], difficulty: 50, behavior: "下沉型", basePrice: 100, availabilityRules: [
+    { locations: ["海洋"], seasons: ["春季", "夏季"], weather: ["任意"], timeRanges: [{ start: 600, end: 2000 }] },
+    { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 600, end: 2000 }] }
+  ] }),
   rod({ id: "ghostfish", name: "幽灵鱼", image: "Ghostfish", aliases: ["Ghostfish"], locations: ["矿井20层", "矿井60层"], difficulty: 50, basePrice: 45, bundleIds: ["specialty-fish-bundle"] }),
   rod({ id: "goby", name: "虾虎鱼", image: "Goby", aliases: ["Goby"], locations: ["煤矿森林瀑布"], difficulty: 55, behavior: "急冲型", basePrice: 150, notes: "1.6 新增鱼类，需要在瀑布水域抛竿。" }),
   rod({ id: "halibut", name: "大比目鱼", image: "Halibut", aliases: ["Halibut"], seasons: ["春季", "夏季", "冬季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 1100 }, { start: 1900, end: 2600 }], difficulty: 50, behavior: "下沉型", basePrice: 80 }),
@@ -99,11 +152,20 @@ export const fish = [
   rod({ id: "lava-eel", name: "岩浆鳗鱼", image: "Lava_Eel", aliases: ["Lava Eel"], locations: ["矿井100层", "火山口"], difficulty: 90, basePrice: 700 }),
   rod({ id: "lingcod", name: "蛇齿单线鱼", image: "Lingcod", aliases: ["Lingcod"], seasons: ["冬季"], locations: ["小镇河流", "森林河流", "山区湖泊"], difficulty: 85, basePrice: 120 }),
   rod({ id: "lionfish", name: "狮子鱼", image: "Lionfish", aliases: ["Lionfish"], locations: ["姜岛海洋"], difficulty: 50, behavior: "平滑型", basePrice: 100 }),
-  rod({ id: "midnight-carp", name: "午夜鲤鱼", image: "Midnight_Carp", aliases: ["Midnight Carp"], seasons: ["秋季", "冬季"], locations: ["山区湖泊", "煤矿森林池塘", "姜岛河流"], timeRanges: [{ start: 2200, end: 2600 }], difficulty: 55, basePrice: 150 }),
-  rod({ id: "octopus", name: "章鱼", image: "Octopus", aliases: ["Octopus"], seasons: ["夏季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 1300 }], difficulty: 95, behavior: "下沉型", basePrice: 150 }),
+  rod({ id: "midnight-carp", name: "午夜鲤鱼", image: "Midnight_Carp", aliases: ["Midnight Carp"], difficulty: 55, basePrice: 150, availabilityRules: [
+    { locations: ["山区湖泊", "煤矿森林池塘"], seasons: ["秋季", "冬季"], weather: ["任意"], timeRanges: [{ start: 2200, end: 2600 }] },
+    { locations: ["姜岛河流"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 2200, end: 2600 }] }
+  ] }),
+  rod({ id: "octopus", name: "章鱼", image: "Octopus", aliases: ["Octopus"], difficulty: 95, behavior: "下沉型", basePrice: 150, availabilityRules: [
+    { locations: ["海洋"], seasons: ["夏季"], weather: ["任意"], timeRanges: [{ start: 600, end: 1300 }] },
+    { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 600, end: 1300 }] }
+  ] }),
   rod({ id: "perch", name: "河鲈", image: "Perch", aliases: ["Perch"], seasons: ["冬季"], locations: ["小镇河流", "森林河流", "山区湖泊", "煤矿森林池塘"], difficulty: 35, basePrice: 55 }),
   rod({ id: "pike", name: "狗鱼", image: "Pike", aliases: ["Pike"], seasons: ["夏季", "冬季"], locations: ["小镇河流", "森林河流", "煤矿森林池塘"], difficulty: 60, behavior: "急冲型", basePrice: 100 }),
-  rod({ id: "pufferfish", name: "河豚", image: "Pufferfish", aliases: ["Pufferfish"], seasons: ["夏季"], locations: ["海洋", "姜岛海洋"], weather: ["晴天"], timeRanges: [{ start: 1200, end: 1600 }], difficulty: 80, behavior: "上浮型", basePrice: 200, bundleIds: ["specialty-fish-bundle"] }),
+  rod({ id: "pufferfish", name: "河豚", image: "Pufferfish", aliases: ["Pufferfish"], difficulty: 80, behavior: "上浮型", basePrice: 200, bundleIds: ["specialty-fish-bundle"], availabilityRules: [
+    { locations: ["海洋"], seasons: ["夏季"], weather: ["晴天"], timeRanges: [{ start: 1200, end: 1600 }] },
+    { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["晴天"], timeRanges: [{ start: 1200, end: 1600 }] }
+  ] }),
   rod({ id: "rainbow-trout", name: "虹鳟鱼", image: "Rainbow_Trout", aliases: ["Rainbow Trout"], seasons: ["夏季"], locations: ["小镇河流", "森林河流", "山区湖泊"], weather: ["晴天"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 45, basePrice: 65 }),
   rod({ id: "red-mullet", name: "红鲻鱼", image: "Red_Mullet", aliases: ["Red Mullet"], seasons: ["夏季", "冬季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 55, behavior: "平滑型", basePrice: 75 }),
   rod({ id: "red-snapper", name: "红鲷鱼", image: "Red_Snapper", aliases: ["Red Snapper"], seasons: ["夏季", "秋季"], locations: ["海洋"], weather: ["雨天"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 40, basePrice: 50, bundleIds: ["ocean-fish-bundle"] }),
@@ -120,10 +182,19 @@ export const fish = [
   rod({ id: "stonefish", name: "石鱼", image: "Stonefish", aliases: ["Stonefish"], locations: ["矿井20层"], difficulty: 65, behavior: "下沉型", basePrice: 300 }),
   rod({ id: "sturgeon", name: "鲟鱼", image: "Sturgeon", aliases: ["Sturgeon"], seasons: ["夏季", "冬季"], locations: ["山区湖泊"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 78, basePrice: 200, bundleIds: ["lake-fish-bundle"] }),
   rod({ id: "sunfish", name: "太阳鱼", image: "Sunfish", aliases: ["Sunfish"], seasons: ["春季", "夏季"], locations: ["小镇河流", "森林河流"], weather: ["晴天"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 30, basePrice: 30, bundleIds: ["river-fish-bundle"] }),
-  rod({ id: "super-cucumber", name: "大海参", image: "Super_Cucumber", aliases: ["Super Cucumber"], seasons: ["夏季", "秋季"], locations: ["海洋", "姜岛海洋"], timeRanges: [{ start: 1800, end: 2600 }], difficulty: 80, behavior: "下沉型", basePrice: 250 }),
+  rod({ id: "super-cucumber", name: "大海参", image: "Super_Cucumber", aliases: ["Super Cucumber"], difficulty: 80, behavior: "下沉型", basePrice: 250, availabilityRules: [
+    { locations: ["海洋"], seasons: ["夏季", "秋季"], weather: ["任意"], timeRanges: [{ start: 1800, end: 2600 }] },
+    { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 1800, end: 2600 }] }
+  ] }),
   rod({ id: "tiger-trout", name: "虎纹鳟鱼", image: "Tiger_Trout", aliases: ["Tiger Trout"], seasons: ["秋季", "冬季"], locations: ["小镇河流", "森林河流"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 60, behavior: "急冲型", basePrice: 150, bundleIds: ["river-fish-bundle"] }),
-  rod({ id: "tilapia", name: "罗非鱼", image: "Tilapia", aliases: ["Tilapia"], seasons: ["夏季", "秋季"], locations: ["海洋", "姜岛河流"], timeRanges: [{ start: 600, end: 1400 }], difficulty: 52, basePrice: 75, bundleIds: ["ocean-fish-bundle"] }),
-  rod({ id: "tuna", name: "金枪鱼", image: "Tuna", aliases: ["Tuna"], seasons: ["夏季", "冬季"], locations: ["海洋", "姜岛海洋"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 70, behavior: "平滑型", basePrice: 100, bundleIds: ["ocean-fish-bundle"] }),
+  rod({ id: "tilapia", name: "罗非鱼", image: "Tilapia", aliases: ["Tilapia"], difficulty: 50, basePrice: 75, bundleIds: ["ocean-fish-bundle"], availabilityRules: [
+    { locations: ["海洋"], seasons: ["夏季", "秋季"], weather: ["任意"], timeRanges: [{ start: 600, end: 1400 }] },
+    { locations: ["姜岛河流"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 600, end: 1400 }] }
+  ] }),
+  rod({ id: "tuna", name: "金枪鱼", image: "Tuna", aliases: ["Tuna"], difficulty: 70, behavior: "平滑型", basePrice: 100, bundleIds: ["ocean-fish-bundle"], availabilityRules: [
+    { locations: ["海洋"], seasons: ["夏季", "冬季"], weather: ["任意"], timeRanges: [{ start: 600, end: 1900 }] },
+    { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 600, end: 1900 }] }
+  ] }),
   rod({ id: "void-salmon", name: "虚空鲑鱼", image: "Void_Salmon", aliases: ["Void Salmon"], locations: ["女巫沼泽"], difficulty: 80, basePrice: 150 }),
   rod({ id: "walleye", name: "大眼鱼", image: "Walleye", aliases: ["Walleye"], seasons: ["秋季"], locations: ["小镇河流", "森林河流", "山区湖泊", "煤矿森林池塘"], weather: ["雨天"], timeRanges: [{ start: 1200, end: 2600 }], difficulty: 45, behavior: "平滑型", basePrice: 105, bundleIds: ["night-fishing-bundle"] }),
   rod({ id: "woodskip", name: "木跃鱼", image: "Woodskip", aliases: ["Woodskip"], locations: ["秘密森林池塘", "森林农场池塘"], difficulty: 50, basePrice: 75, bundleIds: ["specialty-fish-bundle"] }),
@@ -133,18 +204,18 @@ export const fish = [
   rod({ id: "glacierfish", name: "冰川鱼", image: "Glacierfish", aliases: ["Glacierfish"], seasons: ["冬季"], locations: ["箭头岛"], difficulty: 100, basePrice: 1000, category: "传奇" }),
   rod({ id: "legend", name: "传说之鱼", image: "Legend", aliases: ["Legend"], seasons: ["春季"], locations: ["山区湖泊原木旁"], weather: ["雨天"], difficulty: 110, basePrice: 5000, category: "传奇" }),
   rod({ id: "mutant-carp", name: "变种鲤鱼", image: "Mutant_Carp", aliases: ["Mutant Carp"], locations: ["下水道"], difficulty: 80, behavior: "急冲型", basePrice: 1000, category: "传奇" }),
-  rod({ id: "ms-angler", name: "雌鮟鱇鱼", image: "Ms._Angler", aliases: ["Ms. Angler"], locations: ["小镇河流木板桥"], difficulty: 85, behavior: "平滑型", basePrice: 900, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。" }),
-  rod({ id: "son-of-crimsonfish", name: "绯红鱼之子", image: "Son_of_Crimsonfish", aliases: ["Son of Crimsonfish"], locations: ["东码头"], difficulty: 95, basePrice: 1500, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。" }),
-  rod({ id: "glacierfish-jr", name: "小冰川鱼", image: "Glacierfish_Jr.", aliases: ["Glacierfish Jr."], locations: ["箭头岛"], difficulty: 100, basePrice: 1000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。" }),
-  rod({ id: "legend-ii", name: "传说之鱼二代", image: "Legend_II", aliases: ["Legend II"], locations: ["山区湖泊原木旁"], difficulty: 110, basePrice: 5000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。" }),
-  rod({ id: "radioactive-carp", name: "放射性鲤鱼", image: "Radioactive_Carp", aliases: ["Radioactive Carp"], locations: ["下水道"], difficulty: 80, behavior: "急冲型", basePrice: 1000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。" }),
+  rod({ id: "ms-angler", name: "雌鮟鱇鱼", image: "Ms._Angler", aliases: ["Ms. Angler"], locations: ["小镇河流木板桥"], difficulty: 85, behavior: "平滑型", basePrice: 900, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。", conditionType: "fixed-event", requirements: ["仅在齐先生特别订单“大家族”任务进行期间可钓。"] }),
+  rod({ id: "son-of-crimsonfish", name: "绯红鱼之子", image: "Son_of_Crimsonfish", aliases: ["Son of Crimsonfish"], locations: ["东码头"], difficulty: 95, basePrice: 1500, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。", conditionType: "fixed-event", requirements: ["仅在齐先生特别订单“大家族”任务进行期间可钓。"] }),
+  rod({ id: "glacierfish-jr", name: "小冰川鱼", image: "Glacierfish_Jr.", aliases: ["Glacierfish Jr."], locations: ["箭头岛"], difficulty: 100, basePrice: 1000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。", conditionType: "fixed-event", requirements: ["仅在齐先生特别订单“大家族”任务进行期间可钓。"] }),
+  rod({ id: "legend-ii", name: "传说之鱼二代", image: "Legend_II", aliases: ["Legend II"], locations: ["山区湖泊原木旁"], difficulty: 110, basePrice: 5000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。", conditionType: "fixed-event", requirements: ["仅在齐先生特别订单“大家族”任务进行期间可钓。"] }),
+  rod({ id: "radioactive-carp", name: "放射性鲤鱼", image: "Radioactive_Carp", aliases: ["Radioactive Carp"], locations: ["下水道"], difficulty: 80, behavior: "急冲型", basePrice: 1000, category: "传奇", notes: "仅在齐先生“大家族”任务期间出现。", conditionType: "fixed-event", requirements: ["仅在齐先生特别订单“大家族”任务进行期间可钓。"] }),
 
-  special({ id: "blobfish", name: "水滴鱼", image: "Blobfish", aliases: ["Blobfish"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 75, behavior: "上浮型", basePrice: 500 }),
-  special({ id: "midnight-squid", name: "午夜鱿鱼", image: "Midnight_Squid", aliases: ["Midnight Squid"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 55, behavior: "下沉型", basePrice: 100 }),
-  special({ id: "spook-fish", name: "幽灵鱼", image: "Spook_Fish", aliases: ["Spook Fish"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 60, behavior: "急冲型", basePrice: 220 }),
+  special({ id: "blobfish", name: "水滴鱼", image: "Blobfish", aliases: ["Blobfish"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 75, behavior: "上浮型", basePrice: 500, requirements: ["仅限冬季15日至17日夜市开放期间；需乘坐夜市潜水艇。"] }),
+  special({ id: "midnight-squid", name: "午夜鱿鱼", image: "Midnight_Squid", aliases: ["Midnight Squid"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 55, behavior: "下沉型", basePrice: 100, requirements: ["仅限冬季15日至17日夜市开放期间；需乘坐夜市潜水艇。"] }),
+  special({ id: "spook-fish", name: "幽灵鱼", image: "Spook_Fish", aliases: ["Spook Fish"], seasons: ["冬季"], locations: ["夜市潜水艇"], timeRanges: [{ start: 1700, end: 2600 }], difficulty: 60, behavior: "急冲型", basePrice: 220, requirements: ["仅限冬季15日至17日夜市开放期间；需乘坐夜市潜水艇。"] }),
 
   crab({ id: "lobster", name: "龙虾", image: "Lobster", aliases: ["Lobster"], locations: ["海水"], basePrice: 120 }),
-  crab({ id: "crab", name: "螃蟹", image: "Crab", aliases: ["Crab"], locations: ["海水", "矿井岩石蟹"], basePrice: 100 }),
+  crab({ id: "crab", name: "螃蟹", image: "Crab", aliases: ["Crab"], locations: ["海水"], basePrice: 100, alternateSources: ["岩石蟹掉落"] }),
   crab({ id: "cockle", name: "鸟蛤", image: "Cockle", aliases: ["Cockle"], locations: ["海水"], basePrice: 50 }),
   crab({ id: "mussel", name: "蚌", image: "Mussel", aliases: ["Mussel"], locations: ["海水"], basePrice: 30 }),
   crab({ id: "shrimp", name: "虾", image: "Shrimp", aliases: ["Shrimp"], locations: ["海水"], basePrice: 60 }),

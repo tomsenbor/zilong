@@ -10,6 +10,7 @@ import {
   hreflangCandidates,
   navigateTo,
   parseAppRoute,
+  robotsContentForRoute,
   routePath
 } from "./routes.js";
 import { selectRelatedGuides } from "./related-guides.js";
@@ -111,7 +112,7 @@ function updateSeo(route) {
     document.head.append(canonical);
   }
   canonical.href = canonicalHref;
-  const robotsContent = route.name === "search" ? "noindex,follow" : "";
+  const robotsContent = robotsContentForRoute(route);
   let robots = document.querySelector('meta[name="robots"]');
   if (robotsContent && !robots) {
     robots = document.createElement("meta");

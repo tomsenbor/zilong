@@ -99,6 +99,15 @@ export function parseAppRoute(locationLike = globalThis.location) {
   return route("notFound", { pathname });
 }
 
+export function robotsContentForRoute(route) {
+  if (route?.name === "search") return "noindex,follow";
+  if (route?.name === "notFound") return "noindex,nofollow";
+  if (route?.name === "wikiEntry" && route.params?.datasetSlug === "catalog") {
+    return "noindex,follow";
+  }
+  return "";
+}
+
 function pathForRoute(route, locale = DEFAULT_LOCALE) {
   const query = route.searchParams || new URLSearchParams();
   switch (route.name) {
