@@ -5,6 +5,7 @@ import { AppError } from "../../middleware/errors.js";
 import { makeEntrySlug } from "../../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../../utils/article-markdown.js";
 import { searchToolResults } from "../../utils/tool-search.js";
+import { formatCropDays } from "../../../public/js/wiki-days.js";
 
 const integer = (value, fallback, max = 100) => Math.min(Math.max(Number.parseInt(value, 10) || fallback, 1), max);
 const parse = (value, fallback) => {
@@ -124,6 +125,7 @@ export function createContentRouter({ db }) {
       return Object.entries(req.query).every(([key, value]) => {
         if (["q", "page", "pageSize", "sort", "order"].includes(key) || !value) return true;
         const actual = item.attributes[key];
+        if (dataset.slug === "crops" && key === "days") return formatCropDays(actual) === formatCropDays(value);
         return Array.isArray(actual) ? actual.includes(value) : String(actual || "").includes(String(value));
       });
     });

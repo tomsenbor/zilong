@@ -1,0 +1,17 @@
+[
+  {
+    "nativeId": "742",
+    "file": "public/assets/game/Eventprop_742.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 352,
+      "top": 480,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "4c1d1deda7c2de12701018f2efe14f6ee9e6e43f3af17225964ac5eddb048c71",
+    "width": 48,
+    "height": 48
+  }
+]

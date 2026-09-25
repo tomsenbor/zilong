@@ -79,7 +79,7 @@ describe("fish view state", () => {
 
   test("formats active game time as HH:MM", () => {
     expect(formatGameTime(600)).toBe("06:00");
-    expect(formatGameTime(2400)).toBe("00:00");
+    expect(formatGameTime(2400)).toBe("次日00:00");
     expect(getActiveFishFilters(new URLSearchParams({ time: "1830" }))).toEqual([
       { key: "time", label: "时间", value: "18:30" }
     ]);

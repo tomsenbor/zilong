@@ -1,0 +1,78 @@
+[
+  {
+    "file": "public/assets/game/NPC_secret-woods-bear.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Portraits/Bear.xnb",
+    "sourceSha256": "a1c451eb4996449962148285d96115e10b48d6e7c6509627a23de71f0a9f4864",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 64,
+      "height": 64
+    },
+    "caption": "原版秘密森林熊的对话肖像。",
+    "width": 96,
+    "height": 96,
+    "sha256": "e5b0fa890039be2b44de1e5fe6b58725646ea6b5c847899e084efe667a8faaf0"
+  },
+  {
+    "file": "public/assets/game/NPC_trash-bear.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Characters/TrashBear.xnb",
+    "sourceSha256": "58a3b86acc3f26b0a965788ab9dbfcf8a1d187e7f0763f6eabe1f428e72eb424",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 32,
+      "height": 32
+    },
+    "caption": "原版垃圾熊的角色动画代表帧。",
+    "width": 96,
+    "height": 96,
+    "sha256": "a222a1ba9d98fd7ace7762a3bf29c3eeac644b5ea88363684d2f87c6a7e0d7fa"
+  },
+  {
+    "file": "public/assets/game/NPC_raccoon.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Characters/raccoon.xnb",
+    "sourceSha256": "5a6213cd6c9f409908ce7033a6acc788d091cc530c3219ba039db25b32bc48c3",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 32,
+      "height": 32
+    },
+    "caption": "原版浣熊角色初始动画帧。",
+    "width": 96,
+    "height": 96,
+    "sha256": "7f876f5bff100148f67a18a6ca75e097746d01294ed6202c45cbe3d785af4af8"
+  },
+  {
+    "file": "public/assets/game/NPC_raccoon-wife.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Characters/raccoon.xnb",
+    "sourceSha256": "5a6213cd6c9f409908ce7033a6acc788d091cc530c3219ba039db25b32bc48c3",
+    "rectangle": {
+      "left": 0,
+      "top": 160,
+      "width": 32,
+      "height": 32
+    },
+    "caption": "原版Raccoon构造函数中太太使用的第40帧，不以未引用纹理替代。",
+    "width": 96,
+    "height": 96,
+    "sha256": "65336a150a4d5d48157d2366f149c8e105e759bb4d0d20cb915b6f2b8a14a8dd"
+  },
+  {
+    "file": "public/assets/game/NPC_marcello.png",
+    "source": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Bookseller.png",
+    "caption": "书摊与书摊老板所在场景的原版画面，非独立人物肖像。",
+    "width": 330,
+    "height": 237,
+    "sha256": "d5187fa235f5b827248c2999a7ed02356b2d764187e581f3ee70ecd2d3d7d669"
+  },
+  {
+    "file": "public/assets/game/NPC_welwick.png",
+    "source": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Fortune_Teller.png",
+    "caption": "电视占卜节目实际画面，明确为节目截图而非镇民肖像。",
+    "width": 168,
+    "height": 112,
+    "sha256": "1fb51fd5d499c135be3d5384f255f5260cd15f7c8fe6d6bfe77fa779be622901"
+  }
+]

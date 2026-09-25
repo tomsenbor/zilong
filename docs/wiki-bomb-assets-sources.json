@@ -1,0 +1,30 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-23T11:17:38.181Z",
+  "images": [
+    {
+      "file": "public/assets/game/Bomb.png",
+      "source": "https://stardewvalleywiki.com/File:Bomb.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Bomb.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "3b7993490fc55d4d058e4d804998054f0de15ce6594e21ce887fafaee346bb74"
+    },
+    {
+      "file": "public/assets/game/Cherry_Bomb.png",
+      "source": "https://stardewvalleywiki.com/File:Cherry_Bomb.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Cherry_Bomb.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "d9dfe2aa8f4d4a4c71a1497397ec5a8c52747bae99d32249f98d5a8bafb8ce24"
+    },
+    {
+      "file": "public/assets/game/Mega_Bomb.png",
+      "source": "https://stardewvalleywiki.com/File:Mega_Bomb.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4f/Mega_Bomb.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "23a39c8fe310e98a7798ca74e52977d37d942730f0892fb2263d251e8b618f3c"
+    }
+  ]
+}

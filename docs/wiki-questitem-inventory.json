@@ -1,0 +1,99 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "191",
+      "name": "华丽的项链",
+      "slug": "questitem-191",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ornate_Necklace",
+        "revision": 148992,
+        "sha256": "ebd89ad5393ee331684b016b906e8200c531efb0a120885e1157e6dc6eead502"
+      }
+    },
+    {
+      "nativeId": "788",
+      "name": "丢失的斧子",
+      "slug": "questitem-788",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 194192,
+        "sha256": "ab05b5f44bbe386fdd35634b677077c5c6bc514f28bd69d409af0cf5a73d9d01"
+      }
+    },
+    {
+      "nativeId": "789",
+      "name": "幸运紫色短裤",
+      "slug": "questitem-789",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Secrets",
+        "revision": 193973,
+        "sha256": "532dd47c7599ea258c62e0219da3813933dba793472d71b4c323835d4ba78af8"
+      }
+    },
+    {
+      "nativeId": "790",
+      "name": "浆果篮",
+      "slug": "questitem-790",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 194192,
+        "sha256": "ab05b5f44bbe386fdd35634b677077c5c6bc514f28bd69d409af0cf5a73d9d01"
+      }
+    },
+    {
+      "nativeId": "FarAwayStone",
+      "name": "异界晶石",
+      "slug": "questitem-farawaystone",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Far_Away_Stone",
+        "revision": 183966,
+        "sha256": "3e8db6c955b5740f3cd902ad65332a2955c5e9a317fe69dd82dfe4106909fc61"
+      }
+    },
+    {
+      "nativeId": "GoldenBobber",
+      "name": "黄金浮漂",
+      "slug": "questitem-goldenbobber",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Bobber",
+        "revision": 188243,
+        "sha256": "6f9702b9290772a88dddbe0bba94e262239879b40143dbaaf3de6c5851773424"
+      }
+    },
+    {
+      "nativeId": "TroutDerbyTag",
+      "name": "黄金标签",
+      "slug": "questitem-troutderbytag",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Tag",
+        "revision": 179802,
+        "sha256": "0511776c4ad677f958504aceec3dee7f3b1b0e55c04caa71240dc586e351e10b"
+      }
+    },
+    {
+      "nativeId": "326",
+      "name": "矮人语教程",
+      "slug": "questitem-326",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dwarvish_Translation_Guide",
+        "revision": 192864,
+        "sha256": "5f694e7dc81cd00943ae13da661d2b9faae7a40c9c461ccf4b6974f936e466de"
+      }
+    },
+    {
+      "nativeId": "341",
+      "name": "茶具",
+      "slug": "questitem-341",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Tea_Set",
+        "revision": 180832,
+        "sha256": "e1cad197b57e5aedb80ba358f8e520f57944d5ead606d138539fb1c657d8df17"
+      }
+    }
+  ]
+}

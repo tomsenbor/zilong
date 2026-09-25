@@ -1,0 +1,931 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-24",
+  "scope": "71 fish/crab-pot identities,7 base bait types,10 tackles,5 rods,1 Crab Pot,3 jellies,2 fishing-festival collectible tokens. Targeted bait species and fish quality/length do not introduce new base identities. Buff foods, recycling catches and production facilities retain their single identity in other groups.",
+  "expectedCount": 99,
+  "collections": [
+    {
+      "title": "Fish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "revision": 194048,
+      "status": "pending-review",
+      "candidates": [
+        {
+          "table": 0,
+          "row": 1,
+          "sourceName": "Pufferfish",
+          "linkedTitles": [
+            "Pufferfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 2,
+          "sourceName": "Anchovy",
+          "linkedTitles": [
+            "Anchovy"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 3,
+          "sourceName": "Tuna",
+          "linkedTitles": [
+            "Tuna"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 4,
+          "sourceName": "Sardine",
+          "linkedTitles": [
+            "Sardine"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 5,
+          "sourceName": "Bream",
+          "linkedTitles": [
+            "Bream"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 6,
+          "sourceName": "Largemouth Bass",
+          "linkedTitles": [
+            "Largemouth Bass"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 7,
+          "sourceName": "Smallmouth Bass",
+          "linkedTitles": [
+            "Smallmouth Bass"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 8,
+          "sourceName": "Rainbow Trout",
+          "linkedTitles": [
+            "Rainbow Trout"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 9,
+          "sourceName": "Salmon",
+          "linkedTitles": [
+            "Salmon"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 10,
+          "sourceName": "Walleye",
+          "linkedTitles": [
+            "Walleye"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 11,
+          "sourceName": "Perch",
+          "linkedTitles": [
+            "Perch"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 12,
+          "sourceName": "Carp",
+          "linkedTitles": [
+            "Carp"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 13,
+          "sourceName": "Catfish",
+          "linkedTitles": [
+            "Catfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 14,
+          "sourceName": "Pike",
+          "linkedTitles": [
+            "Pike"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 15,
+          "sourceName": "Sunfish",
+          "linkedTitles": [
+            "Sunfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 16,
+          "sourceName": "Red Mullet",
+          "linkedTitles": [
+            "Red Mullet"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 17,
+          "sourceName": "Herring",
+          "linkedTitles": [
+            "Herring"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 18,
+          "sourceName": "Eel",
+          "linkedTitles": [
+            "Eel"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 19,
+          "sourceName": "Octopus",
+          "linkedTitles": [
+            "Octopus"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 20,
+          "sourceName": "Red Snapper",
+          "linkedTitles": [
+            "Red Snapper"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 21,
+          "sourceName": "Squid",
+          "linkedTitles": [
+            "Squid"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 22,
+          "sourceName": "Sea Cucumber",
+          "linkedTitles": [
+            "Sea Cucumber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 23,
+          "sourceName": "Super Cucumber",
+          "linkedTitles": [
+            "Super Cucumber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 24,
+          "sourceName": "Ghostfish",
+          "linkedTitles": [
+            "Ghostfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 25,
+          "sourceName": "Stonefish",
+          "linkedTitles": [
+            "Stonefish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 26,
+          "sourceName": "Ice Pip",
+          "linkedTitles": [
+            "Ice Pip"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 27,
+          "sourceName": "Lava Eel",
+          "linkedTitles": [
+            "Lava Eel"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 28,
+          "sourceName": "Sandfish",
+          "linkedTitles": [
+            "Sandfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 29,
+          "sourceName": "Scorpion Carp",
+          "linkedTitles": [
+            "Scorpion Carp"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 30,
+          "sourceName": "Flounder",
+          "linkedTitles": [
+            "Flounder"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 31,
+          "sourceName": "Midnight Carp",
+          "linkedTitles": [
+            "Midnight Carp"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 32,
+          "sourceName": "Sturgeon",
+          "linkedTitles": [
+            "Sturgeon"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 33,
+          "sourceName": "Tiger Trout",
+          "linkedTitles": [
+            "Tiger Trout"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 34,
+          "sourceName": "Bullhead",
+          "linkedTitles": [
+            "Bullhead"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 35,
+          "sourceName": "Tilapia",
+          "linkedTitles": [
+            "Tilapia"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 36,
+          "sourceName": "Chub",
+          "linkedTitles": [
+            "Chub"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 37,
+          "sourceName": "Dorado",
+          "linkedTitles": [
+            "Dorado"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 38,
+          "sourceName": "Albacore",
+          "linkedTitles": [
+            "Albacore"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 39,
+          "sourceName": "Shad",
+          "linkedTitles": [
+            "Shad"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 40,
+          "sourceName": "Lingcod",
+          "linkedTitles": [
+            "Lingcod"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 41,
+          "sourceName": "Halibut",
+          "linkedTitles": [
+            "Halibut"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 42,
+          "sourceName": "Woodskip",
+          "linkedTitles": [
+            "Woodskip"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 43,
+          "sourceName": "Void Salmon",
+          "linkedTitles": [
+            "Void Salmon"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 44,
+          "sourceName": "Slimejack",
+          "linkedTitles": [
+            "Slimejack"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 45,
+          "sourceName": "Stingray",
+          "linkedTitles": [
+            "Stingray"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 46,
+          "sourceName": "Lionfish",
+          "linkedTitles": [
+            "Lionfish"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 47,
+          "sourceName": "Blue Discus",
+          "linkedTitles": [
+            "Blue Discus"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 48,
+          "sourceName": "Goby",
+          "linkedTitles": [
+            "Goby"
+          ]
+        },
+        {
+          "table": 1,
+          "row": 1,
+          "sourceName": "Midnight Squid",
+          "linkedTitles": [
+            "Midnight Squid"
+          ]
+        },
+        {
+          "table": 1,
+          "row": 2,
+          "sourceName": "Spook Fish",
+          "linkedTitles": [
+            "Spook Fish"
+          ]
+        },
+        {
+          "table": 1,
+          "row": 3,
+          "sourceName": "Blobfish",
+          "linkedTitles": [
+            "Blobfish"
+          ]
+        },
+        {
+          "table": 2,
+          "row": 1,
+          "sourceName": "Crimsonfish",
+          "linkedTitles": [
+            "Crimsonfish"
+          ]
+        },
+        {
+          "table": 2,
+          "row": 2,
+          "sourceName": "Angler",
+          "linkedTitles": [
+            "Angler"
+          ]
+        },
+        {
+          "table": 2,
+          "row": 3,
+          "sourceName": "Legend",
+          "linkedTitles": [
+            "Legend"
+          ]
+        },
+        {
+          "table": 2,
+          "row": 4,
+          "sourceName": "Glacierfish",
+          "linkedTitles": [
+            "Glacierfish"
+          ]
+        },
+        {
+          "table": 2,
+          "row": 5,
+          "sourceName": "Mutant Carp",
+          "linkedTitles": [
+            "Mutant Carp"
+          ]
+        },
+        {
+          "table": 3,
+          "row": 1,
+          "sourceName": "Son of Crimsonfish",
+          "linkedTitles": [
+            "Son of Crimsonfish"
+          ]
+        },
+        {
+          "table": 3,
+          "row": 2,
+          "sourceName": "Ms. Angler",
+          "linkedTitles": [
+            "Ms. Angler"
+          ]
+        },
+        {
+          "table": 3,
+          "row": 3,
+          "sourceName": "Legend II",
+          "linkedTitles": [
+            "Legend II"
+          ]
+        },
+        {
+          "table": 3,
+          "row": 4,
+          "sourceName": "Glacierfish Jr.",
+          "linkedTitles": [
+            "Glacierfish Jr."
+          ]
+        },
+        {
+          "table": 3,
+          "row": 5,
+          "sourceName": "Radioactive Carp",
+          "linkedTitles": [
+            "Radioactive Carp"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 2,
+          "sourceName": "Clam",
+          "linkedTitles": [
+            "Clam"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 3,
+          "sourceName": "Lobster",
+          "linkedTitles": [
+            "Lobster"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 4,
+          "sourceName": "Crayfish",
+          "linkedTitles": [
+            "Crayfish"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 5,
+          "sourceName": "Crab",
+          "linkedTitles": [
+            "Crab"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 6,
+          "sourceName": "Cockle",
+          "linkedTitles": [
+            "Cockle"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 7,
+          "sourceName": "Mussel",
+          "linkedTitles": [
+            "Mussel"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 8,
+          "sourceName": "Shrimp",
+          "linkedTitles": [
+            "Shrimp"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 9,
+          "sourceName": "Snail",
+          "linkedTitles": [
+            "Snail"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 10,
+          "sourceName": "Periwinkle",
+          "linkedTitles": [
+            "Periwinkle"
+          ]
+        },
+        {
+          "table": 4,
+          "row": 11,
+          "sourceName": "Oyster",
+          "linkedTitles": [
+            "Oyster"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bait",
+      "sourceUrl": "https://stardewvalleywiki.com/Bait",
+      "revision": 187707,
+      "status": "pending-review",
+      "candidates": [
+        {
+          "table": 0,
+          "row": 1,
+          "sourceName": "Bait",
+          "linkedTitles": [
+            "Bait (item)"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 2,
+          "sourceName": "Magnet",
+          "linkedTitles": [
+            "Magnet"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 3,
+          "sourceName": "Wild Bait",
+          "linkedTitles": [
+            "Wild Bait"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 4,
+          "sourceName": "Magic Bait",
+          "linkedTitles": [
+            "Magic Bait"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 5,
+          "sourceName": "Deluxe Bait",
+          "linkedTitles": [
+            "Deluxe Bait"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 6,
+          "sourceName": "Challenge Bait",
+          "linkedTitles": [
+            "Challenge Bait"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 7,
+          "sourceName": "Targeted Bait",
+          "linkedTitles": [
+            "Targeted Bait"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tackle",
+      "sourceUrl": "https://stardewvalleywiki.com/Tackle",
+      "revision": 192721,
+      "status": "pending-review",
+      "candidates": [
+        {
+          "table": 0,
+          "row": 1,
+          "sourceName": "Spinner",
+          "linkedTitles": [
+            "Spinner"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 2,
+          "sourceName": "Dressed Spinner",
+          "linkedTitles": [
+            "Dressed Spinner"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 3,
+          "sourceName": "Trap Bobber",
+          "linkedTitles": [
+            "Trap Bobber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 4,
+          "sourceName": "Cork Bobber",
+          "linkedTitles": [
+            "Cork Bobber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 5,
+          "sourceName": "Lead Bobber",
+          "linkedTitles": [
+            "Lead Bobber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 6,
+          "sourceName": "Treasure Hunter",
+          "linkedTitles": [
+            "Treasure Hunter"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 7,
+          "sourceName": "Barbed Hook",
+          "linkedTitles": [
+            "Barbed Hook"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 8,
+          "sourceName": "Curiosity Lure",
+          "linkedTitles": [
+            "Curiosity Lure"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 9,
+          "sourceName": "Quality Bobber",
+          "linkedTitles": [
+            "Quality Bobber"
+          ]
+        },
+        {
+          "table": 0,
+          "row": 10,
+          "sourceName": "Sonar Bobber",
+          "linkedTitles": [
+            "Sonar Bobber"
+          ]
+        }
+      ]
+    }
+  ],
+  "rodSource": {
+    "url": "https://stardewvalleywiki.com/Fishing",
+    "revision": 193904,
+    "sha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+    "section": "Fishing Poles",
+    "names": [
+      "Training Rod",
+      "Bamboo Pole",
+      "Fiberglass Rod",
+      "Iridium Rod",
+      "Advanced Iridium Rod"
+    ]
+  },
+  "otherIdentities": [
+    {
+      "key": "questitem:GoldenBobber",
+      "group": "fishing",
+      "originalName": "Golden Bobber",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Bobber",
+      "sourceRevision": 188243,
+      "versionEvidence": "Original1.6.15 identity and Chinese name; individual page acquisition, price exceptions and version history reviewed.",
+      "disposition": "include",
+      "reason": "Distinct original item; no arbitrary quality variants.",
+      "dataset": "items",
+      "slug": "questitem-goldenbobber",
+      "displayName": "黄金浮漂"
+    },
+    {
+      "key": "questitem:TroutDerbyTag",
+      "group": "fishing",
+      "originalName": "Golden Tag",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Tag",
+      "sourceRevision": 179802,
+      "versionEvidence": "Original1.6.15 identity and Chinese name; individual page acquisition, price exceptions and version history reviewed.",
+      "disposition": "include",
+      "reason": "Distinct original item; no arbitrary quality variants.",
+      "dataset": "items",
+      "slug": "questitem-troutderbytag",
+      "displayName": "黄金标签"
+    },
+    {
+      "key": "material:SeaJelly",
+      "group": "fishing",
+      "originalName": "Sea Jelly",
+      "sourceUrl": "https://stardewvalleywiki.com/Sea_Jelly",
+      "sourceRevision": 190510,
+      "versionEvidence": "Original1.6.15 identity and Chinese name; individual page acquisition, price exceptions and version history reviewed.",
+      "disposition": "include",
+      "reason": "Distinct original item; no arbitrary quality variants.",
+      "dataset": "items",
+      "slug": "material-seajelly",
+      "displayName": "海凝胶"
+    },
+    {
+      "key": "material:CaveJelly",
+      "group": "fishing",
+      "originalName": "Cave Jelly",
+      "sourceUrl": "https://stardewvalleywiki.com/Cave_Jelly",
+      "sourceRevision": 180863,
+      "versionEvidence": "Original1.6.15 identity and Chinese name; individual page acquisition, price exceptions and version history reviewed.",
+      "disposition": "include",
+      "reason": "Distinct original item; no arbitrary quality variants.",
+      "dataset": "items",
+      "slug": "material-cavejelly",
+      "displayName": "洞穴凝胶"
+    },
+    {
+      "key": "material:RiverJelly",
+      "group": "fishing",
+      "originalName": "River Jelly",
+      "sourceUrl": "https://stardewvalleywiki.com/River_Jelly",
+      "sourceRevision": 190963,
+      "versionEvidence": "Original1.6.15 identity and Chinese name; individual page acquisition, price exceptions and version history reviewed.",
+      "disposition": "include",
+      "reason": "Distinct original item; no arbitrary quality variants.",
+      "dataset": "items",
+      "slug": "material-riverjelly",
+      "displayName": "河凝胶"
+    },
+    {
+      "key": "equipment:crab-pot",
+      "group": "fishing",
+      "collection": "husbandry-equipment",
+      "sourceUrl": "https://stardewvalleywiki.com/Crab_Pot",
+      "sourceRevision": 193995,
+      "versionEvidence": "Reviewed individual page and history: base-game facility/tool; Ostrich Incubator introduced 1.5, crab pot changes through 1.6.9 and Incubator full-coop retrieval added 1.6.4 apply to 1.6.15.",
+      "disposition": "include",
+      "reason": "原版可获取的独立工具或设施。",
+      "dataset": "items",
+      "slug": "crab-pot",
+      "displayName": "蟹笼",
+      "originalName": "Crab Pot"
+    }
+  ],
+  "crossReferences": [
+    {
+      "originalName": "Seaweed",
+      "key": "material:152",
+      "group": "food",
+      "dataset": "items",
+      "slug": "material-152"
+    },
+    {
+      "originalName": "Green Algae",
+      "key": "material:153",
+      "group": "food",
+      "dataset": "items",
+      "slug": "material-153"
+    },
+    {
+      "originalName": "White Algae",
+      "key": "material:157",
+      "group": "food",
+      "dataset": "items",
+      "slug": "material-157"
+    },
+    {
+      "originalName": "Trash",
+      "key": "material:168",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "material-168"
+    },
+    {
+      "originalName": "Driftwood",
+      "key": "material:169",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "material-169"
+    },
+    {
+      "originalName": "Broken Glasses",
+      "key": "material:170",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "material-170"
+    },
+    {
+      "originalName": "Broken CD",
+      "key": "material:171",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "material-171"
+    },
+    {
+      "originalName": "Soggy Newspaper",
+      "key": "material:172",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "material-172"
+    },
+    {
+      "originalName": "Fish Pond",
+      "key": "building:Fish Pond",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "building-fish-pond"
+    },
+    {
+      "originalName": "Bait Maker",
+      "key": "refining:bait-maker",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "bait-maker"
+    },
+    {
+      "originalName": "Worm Bin",
+      "key": "refining:worm-bin",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "worm-bin"
+    },
+    {
+      "originalName": "Deluxe Worm Bin",
+      "key": "refining:deluxe-worm-bin",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "deluxe-worm-bin"
+    },
+    {
+      "originalName": "Fish Smoker",
+      "key": "legacy-secondary:items:fish-smoker",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "fish-smoker"
+    },
+    {
+      "originalName": "Recycling Machine",
+      "key": "refining:recycling-machine",
+      "group": "machines",
+      "dataset": "items",
+      "slug": "recycling-machine"
+    }
+  ],
+  "limitations": "Identity inventory closure only. Does not declare all fifteen groups, full regression, browser acceptance or deployment complete."
+}

@@ -1,0 +1,446 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Achievement_greenhorn.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Achievement_Greenhorn.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "3d5f19fc3532d165336df183c456d794171caed11154ab0fb61121f43fd9aff3",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_cowpoke.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Achievement_Cowpoke.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b3e156dcc9fc81f4af13f7639c2204dead2bfa0939006d3419f1cbbdbbda961c",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_homesteader.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Achievement_Homesteader.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "bda1bf1f24c681af17b7c66ea981268bee54107f9ce29676c44fa610e2f7fa3a",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_millionaire.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Achievement_Millionaire.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "61e4e9abc1cf9ff1231240736e6110dadb63cf2760a9c247ccd34ddf474f5527",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_legend.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Achievement_Legend.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "ef8178ddb1f74ecb681c0aa315cd67f7419c268f55f7d522a679ae60cd6beb95",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_a-complete-collection.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Achievement_A_Complete_Collection.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "e6b3c9d927f6e547786405aa8a9984563d55987c11f71f07ce80c47b16c2e7ec",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_a-new-friend.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cd/Achievement_A_New_Friend.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "0bfa79673938b15036154a5b9806bb06a4a947d799c40dca588853ae469c035a",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_best-friends.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e8/Achievement_Best_Friends.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "c8e696726d53a97ead8b5bdb3e25b1afbaf156add46886d9c5c92b674ef2aeef",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_the-beloved-farmer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Achievement_The_Beloved_Farmer.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "49418683b72ded9b3b940899d46839c21bbc47c11fd4b00f40523dbc98a2cdc8",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_cliques.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Achievement_Cliques.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b70f49d646aa9562f49eb4d376fa476dc57916bc849a2509edb963a5eac07ba7",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_networking.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5e/Achievement_Networking.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b8b83ab63c65bf917c1f66194fbcf0be003c8ce654c2c1ee6a168b20a3c946c7",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_popular.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Achievement_Popular.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "c01a918ddb5554d68c606ba61936fb027439bc823e58a5fc5e078b1f45d3e268",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_cook.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Achievement_Cook.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "9275783639036d0eeb85bf3aa052530d946eb561b2f5c1d979a5e99c315f3db2",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_sous-chef.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/44/Achievement_Sous_Chef.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "1607711890dc1b750a3c8f831cb6e918eb1b8fc466d6eb226ac699602d85ae20",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_gourmet-chef.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Achievement_Gourmet_Chef.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "8e79dbe5c7f25b1073207e1496fedaf9bd44c0d9f049690b8ea8f9bdb821c225",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_moving-up.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Achievement_Moving_Up.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "12323b8fdb383e0897ffa531cdc8023bf2e0413a760f85b5a4e095db8e169269",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_living-large.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Achievement_Living_Large.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "212c683586f9fecf57ce4e0a9fd087636be358702b186256fe68b7b97f2951f1",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_d-i-y.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Achievement_DIY.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "6f9aede19a1ff5bea5529268abff5159cd25f132bceadaeb2277b85cfe37f6c9",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_artisan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/20/Achievement_Artisan.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "5a3697ed06626c391f81120d2504ee7f3cfd1c6991932596f2a01a48e50aaa5f",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_craft-master.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/60/Achievement_Master_Craft.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "88bad31aa0d5d096dd0e9ec282467ab70fa2ba3e34e2ffa0bcf85775660f4237",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_fisherman.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/00/Achievement_Fisherman.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "de3fe6a6c36b3677387be0fb847a81aa6d708e1f20fb5b05a6fc37211f2231bf",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_ol-mariner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Achievement_Ol_Mariner.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "3a16996f15d2125c390b9ce93dc950b1f0b6e4b675cdad3cd48d722bcab7fbf5",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_master-angler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Achievement_Master_Angler.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "7da214d4695fd4841a30f85c70c68b47402c1fafeef30936b2e122de243e8fbd",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_mother-catch.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0f/Achievement_Mother_Catch.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b9c72931c1eba389ea81368e5cb03c710950390ccf627f08f325a59cc2024451",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_treasure-trove.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Achievement_Treasure_Trove.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "9c03d525ba43194f5cc865a7e77f8225ba4c482d77c5f5a4f7b7cb69be47d44d",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_gofer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/27/Achievement_Gofer.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "0c9b2fe383dd062f58aba0c0ff4228c71828220ddbfbb7be9b07357f9b4bc609",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_a-big-help.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/37/Achievement_A_Big_Help.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "a2999f94d14e056dac7e3de7f730817130b1336a5797885342169a0504364c6c",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_polyculture.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7f/Achievement_Polyculture.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "8bcc0e765cad76e8efee07142c3d2ee70d9b3d1038bf98bb234ff928a1f943dd",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_monoculture.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Achievement_Monoculture.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b192679e3495ea0dcd36aefca930e3226ec4f5dabf688702bb99fb2238179081",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_full-shipment.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b8/Achievement_Full_Shipment.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "f7b03fd749e5e218c4dadbd9f362a8522ce9f471e9365ce8e5344abd8acea655",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_prairie-king.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Achievement_Prarie_King.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "04604c86f474c9db5ffbc273d0ab9803da2009c42e6eb3a9c4b636201764d98c",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_the-bottom.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Achievement_The_Bottom.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "84215b792acfaf2c42a9b19ea5fe895215a6e03f336a239810f1727d22e64786",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_local-legend.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Achievement_Local_Legend.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "c7e94780ded8ea98fc346ea0be99b6f93d28f0d5bdc1f9769b7915044fb39144",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_joja-co-member-of-the-year.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Achievement_Joja_Co._Member_Of_The_Year.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "f296b7a33fb9c518dff904aa55dc1e49926393f3734d264027f9785787d27b23",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_mystery-of-the-stardrops.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Achievement_Mystery_Of_The_Stardrops.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b2481138b5b8e37413c2f30f9b2a53fdd2f3ce8080b2a0fd32472ac57506c46a",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_full-house.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Achievement_Full_House.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "fad1e36b09ac43a9dc0dc5f9a5a4530768da691076f23b87bb6391ffcd822436",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_singular-talent.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Achievement_Singular_Talent.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "1d2cb7d6ab73fb2aa5d739ac5880b04c612fad256a86ac06538abd961e6a103e",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_master-of-the-five-ways.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Achievement_Master_Of_The_Five_Ways.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "b8e3b925df00f10656bc6a33bf85475e2ff965938adb715668d25df342b50bbf",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_protector-of-the-valley.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Achievement_Protector_Of_The_Valley.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "397e242492b7e93dd6ce324c33492412b221a6995d708a54336e5de2b2ca211f",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_fectors-challenge.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Achievement_Fector%27s_Challenge.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "891d919a54c34da6713a70698c7082553d5f063c9716cd9cb07d9fc3754e29c4",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_a-distant-shore.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Achievement_A_Distant_Shore.jpg/64px-Achievement_A_Distant_Shore.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "911831ad4d8c59f023eda73628191fb8d1836ce2707ffca9c80e26f793d70ad2",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_well-read.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Achievement_Well-Read.jpg/64px-Achievement_Well-Read.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "55fedaaf5b140b64bfa44a55d177c2f2d4c0d216c1a9a6d09c0d58a0705bb2eb",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_two-thumbs-up.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ca/Achievement_Two_Thumbs_Up.jpg/64px-Achievement_Two_Thumbs_Up.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "e36ff469aba256eae4dcb987dfb66b2bd80a85dd77b4db43a97eea2e247426c9",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_blue-ribbon.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7a/Achievement_Blue_Ribbon.jpg/64px-Achievement_Blue_Ribbon.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "1b298f316bd6407d8b5dc1cb7f846853aa3f4d4d78f3e4ce24e1f8cd8af54876",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_an-unforgettable-soup.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c8/Achievement_An_Unforgettable_Soup.jpg/64px-Achievement_An_Unforgettable_Soup.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "f276c8a9141b3175c0a31ee490b23c0a5f2ca308b1e996f68933c254e9b19e02",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_good-neighbors.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/00/Achievement_Good_Neighbors.jpg/64px-Achievement_Good_Neighbors.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "3c912a56a2acdbe222aa979dced58da7704b192136ec8044987cc6951a956b2e",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_danger-in-the-deep.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Achievement_Danger_In_The_Deep.jpg/64px-Achievement_Danger_In_The_Deep.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "c1fe55ee5516ffbdc96c414f43dc7dfb27633fca6558d88d46c4d59187ec7196",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_infinite-power.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0c/Achievement_Infinite_Power.jpg/64px-Achievement_Infinite_Power.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "85c9b7c7779a04137aa4a5dc970d323ab423636257f5e6741890827b88d75efb",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    },
+    {
+      "file": "public/assets/game/Achievement_perfection.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8b/Achievement_Perfection.jpg/64px-Achievement_Perfection.jpg",
+      "source": "https://stardewvalleywiki.com/Achievements",
+      "width": 64,
+      "height": 64,
+      "sha256": "6c4d51ece8bd283944cbc515b0959ae10c811f59d7656b7190c6037f1a704b6d",
+      "transform": "Original platform achievement image converted losslessly to PNG; no invented artwork."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-25",
+  "baseline": "docs/wiki-practical-unresolved-review.json",
+  "scope": "11个室内/节日地图的正常游玩关键机制补入9个已有页；不是全量资料或全部页面事实复核完成。",
+  "releaseReady": false,
+  "newEntries": 0,
+  "existingPagesUpdated": 9,
+  "remaining": {
+    "mechanismReview": 101,
+    "researchNeeded": 76,
+    "total": 177
+  },
+  "limitations": [
+    "保留原226条历史审计及其状态；本报告与34条已闭合报告按identity合并阅读，不覆盖历史快照。",
+    "原始地图记录仅证明身份，玩家条件另据列出的资料页面逐项核对；没有把其他地图或未知记录视为已排除。",
+    "浏览器与全量发布闸门另行验证，releaseReady不得因本组测试通过而改为true。"
+  ],
+  "records": [
+    {
+      "identity": "Data/Locations:HarveyRoom",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "harveys-clinic",
+      "note": "哈维卧室位置与2心门槛，不混同诊所柜台。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Harvey%27s_Clinic",
+        "https://stardewvalleywiki.com/Harvey",
+        "https://stardewvalleywiki.com/Friendship"
+      ]
+    },
+    {
+      "identity": "Data/Locations:BeachNightMarket",
+      "resolution": "covered-in-existing-page",
+      "dataset": "festivals",
+      "slug": "pearl",
+      "note": "夜市场景与冬18日恢复原海滩，商店每日货物不全相同。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Night_Market"
+      ]
+    },
+    {
+      "identity": "Data/Locations:SebastianRoom",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "carpenters-shop",
+      "note": "地下室卧室以塞巴斯蒂安2心为门槛，不以罗宾好感代替。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Carpenter%27s_Shop",
+        "https://stardewvalleywiki.com/Sebastian",
+        "https://stardewvalleywiki.com/Friendship"
+      ]
+    },
+    {
+      "identity": "Data/Locations:Cellar",
+      "resolution": "covered-in-existing-page",
+      "dataset": "items",
+      "slug": "building-farmhouse",
+      "note": "第三次农舍升级费用、厨房入口与初始33木桶。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Farmhouse"
+      ]
+    },
+    {
+      "identity": "Data/Locations:MermaidHouse",
+      "resolution": "covered-in-existing-page",
+      "dataset": "festivals",
+      "slug": "pearl",
+      "note": "开放时段、演出后贝壳顺序与每玩家每存档一次珍珠。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Night_Market"
+      ]
+    },
+    {
+      "identity": "Data/Locations:Submarine",
+      "resolution": "covered-in-existing-page",
+      "dataset": "festivals",
+      "slug": "pearl",
+      "note": "进入时段、费用、上下浮时间及三种特殊鱼。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Night_Market"
+      ]
+    },
+    {
+      "identity": "Data/Locations:Sunroom",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "pierre-icon",
+      "note": "卡罗琳事件门槛、次日配方和室内冬季茶叶采收。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Caroline"
+      ]
+    },
+    {
+      "identity": "Data/Locations:BoatTunnel",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "fish-shop",
+      "note": "完工来信、三项修船材料、夜间过场与船票；不改柜台营业时间。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Fish_Shop"
+      ]
+    },
+    {
+      "identity": "Data/Locations:IslandHut",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "island-east",
+      "note": "小屋内斧头敲树核桃一次性，与鹦鹉提示区分。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Ginger_Island",
+        "https://stardewvalleywiki.com/Golden_Walnut"
+      ]
+    },
+    {
+      "identity": "Data/Locations:CaptainRoom",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "island-west",
+      "note": "沉船西侧隐藏通道与船舱一次性核桃，不增加重复地点页。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Ginger_Island",
+        "https://stardewvalleywiki.com/Golden_Walnut"
+      ]
+    },
+    {
+      "identity": "Data/Locations:LewisBasement",
+      "resolution": "covered-in-existing-page",
+      "dataset": "locations",
+      "slug": "mayors-manor",
+      "note": "卧室2心、楼梯入口、短裤与免疫攻击追击者、可重复进入。",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "sources": [
+        "https://stardewvalleywiki.com/Mayor%27s_Manor"
+      ]
+    }
+  ]
+}

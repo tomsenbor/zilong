@@ -1,0 +1,197 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Pet_pet-cat-0.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 160,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "4943A47C4D1C176E859ADBDEFFD051149FC44AF3D3218DA666558F53A107C785"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-cat-1.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 176,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "AFDC408880F7E1DFF19E8C292326F54E93C151EB9ABA3DE3D14FCA5EB4EAEA8D"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-cat-2.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 192,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "5B5FE50972700CA0AEA27F8ACE56714F9421D3F8D0E590ED888931F26BE41DA6"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-cat-3.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 256,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "55C84AD81AFAD9E5658AEEA813B6A8462C0ADFE43AF786A90EC0A7CE802151EF"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-cat-4.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 256,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "8F3185D5ECC0D747B4E546B32729829FCA794987E313F002148B9C2591454462"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-dog-0.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 208,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "AF0895EE0576F7E1ED2E3B7BD934F5E6DB03A91672126AAEAA539B0B65EA38ED"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-dog-1.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 224,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "5CFB7B2FF7E4E522AF358F1156AF416FBE0375F85B6EAD4044ABA794F95335FF"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-dog-2.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 240,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "1BF29068C86CC24F88AFE2827543155AFFB37B00CCB04C958AC000A70C76ACCD",
+      "width": 16,
+      "height": 16,
+      "sha256": "770151F9F3D83F71C222BC79BA5D40B49163C3B95D7FAAF39BA19A584E2F3CFA"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-dog-3.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 272,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "E758D0F5F8AD1120878AD8F3FF3A48D0B58538F2C155B9F698C496900EC762A3"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-dog-4.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 272,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "BA1798A251860DF927DD717A7347DA47A03C4B497A7419902C6AF12A1C76FEA3"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-turtle-0.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 288,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "A5742785A0E088D7B4102A7580D2D5A682521EC42AD5E8E3BD0A2ABE3764483F"
+    },
+    {
+      "file": "public/assets/game/Pet_pet-turtle-1.png",
+      "source": "https://stardewvalleywiki.com/Animals",
+      "gameVersion": "1.6.15.24356",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 288,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+      "width": 16,
+      "height": 16,
+      "sha256": "A9510E6589183330935E3FA5D76AB98C4F3D75240076942A8B95348DCAAC9DF1"
+    }
+  ]
+}

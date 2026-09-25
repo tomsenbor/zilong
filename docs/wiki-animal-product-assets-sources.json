@@ -1,0 +1,142 @@
+[
+  {
+    "nativeId": "176",
+    "file": "public/assets/game/AnimalProduct_176.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Egg.png",
+    "source": "https://stardewvalleywiki.com/Egg",
+    "revision": 182342,
+    "sha256": "dc6e1f986e32446f3ad8eaef62e852d9308ec0ace0dfcfd231f4e53e61d78110",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "180",
+    "file": "public/assets/game/AnimalProduct_180.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/01/Brown_Egg.png",
+    "source": "https://stardewvalleywiki.com/Egg",
+    "revision": 182342,
+    "sha256": "d94d5df95a7a80c429f968a1eb2dff02cb0292347b319908105e7126b80d4307",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "174",
+    "file": "public/assets/game/AnimalProduct_174.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Large_Egg.png",
+    "source": "https://stardewvalleywiki.com/Large_Egg",
+    "revision": 190366,
+    "sha256": "f711d8a933c2b18dbcecdb83511e240b7e6c85c5b7824f9e9c23bf86bbedbb28",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "182",
+    "file": "public/assets/game/AnimalProduct_182.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Large_Brown_Egg.png",
+    "source": "https://stardewvalleywiki.com/Large_Egg",
+    "revision": 190366,
+    "sha256": "ecc50838dd76d6ea838128fb7b7c32809efcef7f0e3ca7ce6bd9178e029459d4",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "184",
+    "file": "public/assets/game/AnimalProduct_184.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/92/Milk.png",
+    "source": "https://stardewvalleywiki.com/Milk",
+    "revision": 190620,
+    "sha256": "4eda2896efaade62e1ca4612ded0eac9aa35ba21866795612dde23eae1088ae8",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "186",
+    "file": "public/assets/game/AnimalProduct_186.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/67/Large_Milk.png",
+    "source": "https://stardewvalleywiki.com/Large_Milk",
+    "revision": 193186,
+    "sha256": "78d9483920a40d754012709ad1990bfd12b2550a6f1fe31d551d6fc306d73eb4",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "436",
+    "file": "public/assets/game/AnimalProduct_436.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/45/Goat_Milk.png",
+    "source": "https://stardewvalleywiki.com/Goat_Milk",
+    "revision": 190400,
+    "sha256": "1a1557cf7afb4d65960d3f31d2f78850cda521966027bed8c3a1097b02422840",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "438",
+    "file": "public/assets/game/AnimalProduct_438.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Large_Goat_Milk.png",
+    "source": "https://stardewvalleywiki.com/Large_Goat_Milk",
+    "revision": 193191,
+    "sha256": "ec4da28b85cbe83e89646bfe60263e3f28570430fafdad71f417346eedd687f3",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "289",
+    "file": "public/assets/game/AnimalProduct_289.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Ostrich_Egg.png",
+    "source": "https://stardewvalleywiki.com/Ostrich_Egg",
+    "revision": 190643,
+    "sha256": "a905d35bf868ff2cd7acbd9d26c865f1249261af852d06356f11c25a0690ab83",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "305",
+    "file": "public/assets/game/AnimalProduct_305.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png",
+    "source": "https://stardewvalleywiki.com/Void_Egg",
+    "revision": 192608,
+    "sha256": "8e7903385eaa1805cda5d9bf36802fac293e79c7804457dc97970d27f4f7a22c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "928",
+    "file": "public/assets/game/AnimalProduct_928.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/97/Golden_Egg.png",
+    "source": "https://stardewvalleywiki.com/Golden_Egg",
+    "revision": 191965,
+    "sha256": "10131342b4ffcc12fb44acd85fe32b79f939ef5b46f2d5b46ad3bf8a8cf5e90f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "440",
+    "file": "public/assets/game/AnimalProduct_440.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png",
+    "source": "https://stardewvalleywiki.com/Wool",
+    "revision": 182268,
+    "sha256": "c02a01088ef9871a4fde784bebcae4b8644279c4eff98a9d2cf97af4be351580",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "442",
+    "file": "public/assets/game/AnimalProduct_442.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/31/Duck_Egg.png",
+    "source": "https://stardewvalleywiki.com/Duck_Egg",
+    "revision": 193152,
+    "sha256": "2b244e3e581b5a34c847b9e2d88f3d723272219687b55fea5b088372b974d4c0",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "444",
+    "file": "public/assets/game/AnimalProduct_444.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png",
+    "source": "https://stardewvalleywiki.com/Duck_Feather",
+    "revision": 194419,
+    "sha256": "5d61c6c863101b10decf220af130b1126de9746e7849b58fb35ea24e909a5f28",
+    "width": 48,
+    "height": 48
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "version": "1.6.15",
+  "records": [
+    {
+      "nativeId": "(BC)110",
+      "title": "Rarecrow 1",
+      "name": "珍奇乌鸦（1/8）",
+      "slug": "rarecrow-1",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)113",
+      "title": "Rarecrow 2",
+      "name": "珍奇乌鸦（2/8）",
+      "slug": "rarecrow-2",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)126",
+      "title": "Rarecrow 3",
+      "name": "珍奇乌鸦（3/8）",
+      "slug": "rarecrow-3",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)136",
+      "title": "Rarecrow 4",
+      "name": "珍奇乌鸦（4/8）",
+      "slug": "rarecrow-4",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)137",
+      "title": "Rarecrow 5",
+      "name": "珍奇乌鸦（5/8）",
+      "slug": "rarecrow-5",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)138",
+      "title": "Rarecrow 6",
+      "name": "珍奇乌鸦（6/8）",
+      "slug": "rarecrow-6",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)139",
+      "title": "Rarecrow 7",
+      "name": "珍奇乌鸦（7/8）",
+      "slug": "rarecrow-7",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(BC)140",
+      "title": "Rarecrow 8",
+      "name": "珍奇乌鸦（8/8）",
+      "slug": "rarecrow-8",
+      "source": "https://stardewvalleywiki.com/Scarecrow",
+      "revision": 191907
+    },
+    {
+      "nativeId": "(O)297",
+      "title": "Grass Starter",
+      "name": "草籽",
+      "slug": "grass-starter",
+      "source": "https://stardewvalleywiki.com/Grass_Starter",
+      "revision": 192865
+    },
+    {
+      "nativeId": "(O)BlueGrassStarter",
+      "title": "Blue Grass Starter",
+      "name": "蓝色草籽",
+      "slug": "blue-grass-starter",
+      "source": "https://stardewvalleywiki.com/Blue_Grass_Starter",
+      "revision": 179996
+    }
+  ]
+}

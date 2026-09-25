@@ -1,0 +1,180 @@
+{
+  "version": "1.6.15",
+  "status": "reviewed-subset",
+  "records": [
+    {
+      "key": "special-equipment:Coffee Maker",
+      "originalName": "Coffee Maker",
+      "name": "咖啡机",
+      "slug": "coffee-maker",
+      "acquisition": "完成艾芙琳的特别任务“给乔治的礼物”后收取邮件。",
+      "effect": "每天早晨自动生成一杯咖啡，无须投入咖啡豆。",
+      "limitation": "不能当成小桶批量投入原料；遗失后可在秘密森林遗失物品商店花10000金补购。",
+      "duration": "每天早晨",
+      "sourceUrl": "https://stardewvalleywiki.com/Coffee_Maker",
+      "sourceRevision": 180475,
+      "sourceSha256": "49870efd372c3f5df83f1f3a7ce233d0b56f6f61cfd0603c5d89e733c118dd16",
+      "zhSource": "https://zh.stardewvalleywiki.com/咖啡机",
+      "zhRevision": 50482,
+      "versionEvidence": "1.5: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "gameId": "(BC)246",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/5/5a/Coffee_Maker.png",
+        "alt": "Coffee Maker.png"
+      }
+    },
+    {
+      "key": "special-equipment:Deconstructor",
+      "originalName": "Deconstructor",
+      "name": "分解机",
+      "slug": "deconstructor",
+      "acquisition": "在齐先生的核桃房花20颗齐钻购买成品，不是学习打造配方。",
+      "effect": "拆解适用打造物，返还其配方中最有价值的一类原料。",
+      "limitation": "不是返还全部材料；投入的成品会被销毁，只有机器接受的物品才能拆解。",
+      "duration": "60游戏分钟",
+      "sourceUrl": "https://stardewvalleywiki.com/Deconstructor",
+      "sourceRevision": 190993,
+      "sourceSha256": "4e061a0fd33b4e3311b678b1e0e0c45a2f1a14dd30bc9472d8986fec8cf8f136",
+      "zhSource": "https://zh.stardewvalleywiki.com/分解机",
+      "zhRevision": 53920,
+      "versionEvidence": "1.5: Introduced. 1.6: Drum Block now produces stone and Flute Block now produces wood rather than fiber.",
+      "gameId": "(BC)265",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/2/22/Deconstructor.png",
+        "alt": "Deconstructor.png"
+      }
+    },
+    {
+      "key": "special-equipment:Sewing Machine",
+      "originalName": "Sewing Machine",
+      "name": "缝纫机",
+      "slug": "sewing-machine",
+      "acquisition": "完成艾米丽的特别任务“宝石能量”后收取邮件。",
+      "effect": "在家中缝制服饰或给可染色服饰染色，功能与柳巷2号的缝纫机相同。",
+      "limitation": "不是织布机，不能把羊毛加工成布料；遗失后可在秘密森林遗失物品商店花10000金补购。",
+      "duration": "按缝纫操作完成",
+      "sourceUrl": "https://stardewvalleywiki.com/Sewing_Machine",
+      "sourceRevision": 189887,
+      "sourceSha256": "0f89776fc52d72355514f6eff9c5738beddb4e0fa17bcff78f98a9bb0d62cf88",
+      "zhSource": "https://zh.stardewvalleywiki.com/缝纫机",
+      "zhRevision": 53311,
+      "versionEvidence": "1.5: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "gameId": "(BC)247",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/e/e0/Sewing_Machine.png",
+        "alt": "Sewing Machine.png"
+      }
+    },
+    {
+      "key": "special-equipment:Telephone",
+      "originalName": "Telephone",
+      "name": "电话",
+      "slug": "telephone",
+      "acquisition": "在木匠的商店花2000金直接购买成品，不需要另行学习打造配方。",
+      "effect": "查询商店当日营业情况、部分库存和升级费用，减少跑空的次数。",
+      "limitation": "绿雨当天不能使用；打电话不算当日聊天，也不增加村民好感度。",
+      "duration": "不适用",
+      "sourceUrl": "https://stardewvalleywiki.com/Telephone",
+      "sourceRevision": 185773,
+      "sourceSha256": "53f446b21f492076849bf6b784ed32ea60dd1d18f6f487daa91cf1e3d4aeba29",
+      "zhSource": "https://zh.stardewvalleywiki.com/电话",
+      "zhRevision": 54018,
+      "versionEvidence": "1.5: Introduced. 1.6: The Telephone cannot be used during a Green Rain day.",
+      "gameId": "(BC)214",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/9/9e/Telephone.png",
+        "alt": "Telephone.png"
+      }
+    },
+    {
+      "key": "special-equipment:Mini-Shipping Bin",
+      "originalName": "Mini-Shipping Bin",
+      "name": "迷你出货箱",
+      "slug": "mini-shipping-bin",
+      "acquisition": "完成“农作物订单”或“皮埃尔优选”特别任务获得，也可在齐先生的核桃房花60颗齐钻购买。",
+      "effect": "存入可出售物品，在当日结束时随出货统一结算，可放在农场内外。",
+      "limitation": "最多9格，每格可堆叠；结算前可以取回任意格物品，箱内仍有待售物品时不能收起箱子。",
+      "duration": "日末结算",
+      "sourceUrl": "https://stardewvalleywiki.com/Mini-Shipping_Bin",
+      "sourceRevision": 193824,
+      "sourceSha256": "0390b2996ad6ddcb9d2b2109e3ec474d2c5482454eae86c1a05a43db0c456682",
+      "zhSource": "https://zh.stardewvalleywiki.com/迷你出货箱",
+      "zhRevision": 55287,
+      "versionEvidence": "1.5: Introduced. 1.6.4: Can now be purchased from Qi's Walnut Room.",
+      "gameId": "(BC)248",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/1/1c/Mini-Shipping_Bin.png",
+        "alt": "Mini-Shipping Bin.png"
+      }
+    },
+    {
+      "key": "special-equipment:Workbench",
+      "originalName": "Workbench",
+      "name": "工作台",
+      "slug": "workbench",
+      "acquisition": "在木匠的商店花2000金直接购买成品，不需要另行学习打造配方。",
+      "effect": "打造时直接调用周围邻接宝箱及大箱子里的材料，可合并多个箱子的库存。",
+      "limitation": "可读取相邻8格（包括斜角），不读取祝尼魔宝箱；至少留一个可接近工作台的空位。",
+      "duration": "按打造操作完成",
+      "sourceUrl": "https://stardewvalleywiki.com/Workbench",
+      "sourceRevision": 179558,
+      "sourceSha256": "ee348643f020c0692d42a5c5d880d4dde984d93cedeeb16adabed62d9c207365",
+      "zhSource": "https://zh.stardewvalleywiki.com/工作台",
+      "zhRevision": 49657,
+      "versionEvidence": "1.4: Introduced. 1.4.2: Fixed a bug where the Workbench would not pull items from chests that were on rugs. 1.5: Price reduced from data-sort-value=\"3000\">3,000g to data-sort-value=\"2000\">2,000g. 1.6: Items used for crafting can also be taken from Big Chests.",
+      "gameId": "(BC)208",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/e/ea/Workbench.png",
+        "alt": "Workbench.png"
+      }
+    },
+    {
+      "key": "special-equipment:Statue Of Endless Fortune",
+      "originalName": "Statue Of Endless Fortune",
+      "name": "无尽财富之雕像",
+      "slug": "statue-of-endless-fortune",
+      "acquisition": "进入赌场后，向店内出售雕像的男子支付1000000金购买，数量不限。",
+      "effect": "每天生成一件物品；非生日时等概率生成钻石、铱锭、万能晶球或金锭，村民生日时生成其指定最爱。",
+      "limitation": "当天未收取的产物次日会被替换，不会无限堆积；高额购入成本不适合当作短期回本方案。",
+      "duration": "每天一次",
+      "sourceUrl": "https://stardewvalleywiki.com/Statue_Of_Endless_Fortune",
+      "sourceRevision": 192646,
+      "sourceSha256": "e40b2874e672f28152de627706c878250d3c6355c5c51dd39325441dba8b0e6c",
+      "zhSource": "https://zh.stardewvalleywiki.com/无尽财富之雕像",
+      "zhRevision": 54155,
+      "versionEvidence": "1.4.4: The Statue now produces Lemon Stone on Dwarf's birthday instead of Emerald. 1.5: The Statue now produces Duck Feather on Leo's birthday.",
+      "gameId": "(BC)127",
+      "nativeSourceSha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "image": {
+        "src": "/mediawiki/images/0/00/Statue_Of_Endless_Fortune.png",
+        "alt": "Statue Of Endless Fortune.png"
+      }
+    },
+    {
+      "key": "special-equipment:Return Scepter",
+      "originalName": "Return Scepter",
+      "name": "回程魔杖",
+      "slug": "return-scepter",
+      "acquisition": "下水道科罗布斯处花2000000金购买。",
+      "effect": "将玩家传送到自己的农舍门口；联机农场工人回到自己的小屋门口。",
+      "limitation": "重复使用不消耗，不落在农场图腾传送点；不同于一次性的农场传送图腾。",
+      "duration": "即时传送",
+      "sourceUrl": "https://stardewvalleywiki.com/Return_Scepter",
+      "sourceRevision": 193944,
+      "sourceSha256": "759e10811f54878484cafed51df48159648e94682394e112ca2d0c3594d2e530",
+      "zhSource": "https://zh.stardewvalleywiki.com/回程魔杖",
+      "zhRevision": 48889,
+      "versionEvidence": "1.1: Introduced. 1.4: Fixed bug causing the game to freeze when using the Return Scepter while wearing a bathing suit inside the Spa. 1.5: Farmhands using the Return Scepter are now returned to their own cabins instead of outside the host's farmhouse.",
+      "image": {
+        "src": "/mediawiki/images/f/f3/Return_Scepter.png",
+        "alt": "Return Scepter.png"
+      }
+    }
+  ]
+}

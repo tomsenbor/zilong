@@ -1,0 +1,230 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Building_Junimo_Hut.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Junimo_Hut.png",
+      "source": "https://stardewvalleywiki.com/Junimo_Hut",
+      "width": 144,
+      "height": 192,
+      "conversion": "none",
+      "sha256": "05db3c890ec9682b6b3df26b625cf14447d676b44dc940d8397a58ce183b0218"
+    },
+    {
+      "file": "public/assets/game/Building_Earth_Obelisk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3c/Earth_Obelisk.png/100px-Earth_Obelisk.png",
+      "source": "https://stardewvalleywiki.com/Earth_Obelisk",
+      "width": 100,
+      "height": 267,
+      "conversion": "none",
+      "sha256": "9459794b541550a2a8f040f82b7b6461c59c17793212e22f053b73de6a61151d"
+    },
+    {
+      "file": "public/assets/game/Building_Water_Obelisk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b7/Water_Obelisk.png/100px-Water_Obelisk.png",
+      "source": "https://stardewvalleywiki.com/Water_Obelisk",
+      "width": 100,
+      "height": 267,
+      "conversion": "none",
+      "sha256": "f248cba1d79f9ae1d51a3c2a9efeafb4d6e8d4346a4f4bce8933c42fc108738d"
+    },
+    {
+      "file": "public/assets/game/Building_Desert_Obelisk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/60/Desert_Obelisk.png/100px-Desert_Obelisk.png",
+      "source": "https://stardewvalleywiki.com/Desert_Obelisk",
+      "width": 100,
+      "height": 267,
+      "conversion": "none",
+      "sha256": "7e020e798ea6d4d7fe7241f3e83ff3413e36013904e3c8f551fab6b4c5b5e318"
+    },
+    {
+      "file": "public/assets/game/Building_Island_Obelisk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/18/Island_Obelisk.png/100px-Island_Obelisk.png",
+      "source": "https://stardewvalleywiki.com/Island_Obelisk",
+      "width": 100,
+      "height": 267,
+      "conversion": "none",
+      "sha256": "eb94d6abae34461fcc59a372e767517899824d920c42099765bf8e0518eb3e6b"
+    },
+    {
+      "file": "public/assets/game/Building_Gold_Clock.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b5/Gold_Clock.png/100px-Gold_Clock.png",
+      "source": "https://stardewvalleywiki.com/Gold_Clock",
+      "width": 100,
+      "height": 167,
+      "conversion": "none",
+      "sha256": "98ff799242c82e1de52e93ff0132d674e2f1a4e9f6e41bfed6f4610779e05c68"
+    },
+    {
+      "file": "public/assets/game/Building_Coop.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/48/Coop.png/96px-Coop.png",
+      "source": "https://stardewvalleywiki.com/Coop",
+      "width": 96,
+      "height": 109,
+      "conversion": "none",
+      "sha256": "a354996d8f4cbe3c7b1740ed989628395c89ca97e9a265f7b394c83f8b51f398"
+    },
+    {
+      "file": "public/assets/game/Building_Barn.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Barn.png/96px-Barn.png",
+      "source": "https://stardewvalleywiki.com/Barn",
+      "width": 96,
+      "height": 96,
+      "conversion": "none",
+      "sha256": "c41888e8843abc3b5c19223c6b080ae6061aff0c9d20c236a4cc65b9ec798840"
+    },
+    {
+      "file": "public/assets/game/Building_Well.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/41/Well.png/100px-Well.png",
+      "source": "https://stardewvalleywiki.com/Well",
+      "width": 100,
+      "height": 156,
+      "conversion": "none",
+      "sha256": "89e4bbc305739fcac981c8856d712a6ed5b5e8d38dc613b95e09796a85358854"
+    },
+    {
+      "file": "public/assets/game/Building_Silo.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5f/Silo.png/100px-Silo.png",
+      "source": "https://stardewvalleywiki.com/Silo",
+      "width": 100,
+      "height": 267,
+      "conversion": "none",
+      "sha256": "08920d26c70cc73d327427fe20e35bc0fcdcf0e4d36eed1705575bc21ebd7a62"
+    },
+    {
+      "file": "public/assets/game/Building_Mill.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/90/Mill.png/150px-Mill.png",
+      "source": "https://stardewvalleywiki.com/Mill",
+      "width": 150,
+      "height": 302,
+      "conversion": "none",
+      "sha256": "3eb3b08a6e1ea98a8339104cb02d29cd1e6d506564d1b31f0ce578ac728db4bc"
+    },
+    {
+      "file": "public/assets/game/Building_Shed.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/15/Shed.png/96px-Shed.png",
+      "source": "https://stardewvalleywiki.com/Shed",
+      "width": 96,
+      "height": 110,
+      "conversion": "none",
+      "sha256": "95c16214c7cd91cef661c79368c70d55ad37ffc84255360898381c5e4e6d1ae8"
+    },
+    {
+      "file": "public/assets/game/Building_Fish_Pond.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/65/Fish_Pond.png/200px-Fish_Pond.png",
+      "source": "https://stardewvalleywiki.com/Fish_Pond",
+      "width": 200,
+      "height": 261,
+      "conversion": "none",
+      "sha256": "2a31392118bceae94eb9ac3bc2bc8574126c55c1cb7cb2ca4f7af5dcf1d54a19"
+    },
+    {
+      "file": "public/assets/game/Building_Cabin.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Plank_Cabin_Stage_1.png/200px-Plank_Cabin_Stage_1.png",
+      "source": "https://stardewvalleywiki.com/Cabin",
+      "width": 200,
+      "height": 280,
+      "conversion": "none",
+      "sha256": "ca4497492984fea7de512973792906a9ca563e4679e09254eb631b00f9d03513"
+    },
+    {
+      "file": "public/assets/game/Building_Pet_Bowl.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Pet_Bowl_Wood.png",
+      "source": "https://stardewvalleywiki.com/Pet_Bowl",
+      "width": 96,
+      "height": 96,
+      "conversion": "none",
+      "sha256": "cc9e145d124ba6532f19853d856e0c027e763db43de438db9b3a1e70bf0408af"
+    },
+    {
+      "file": "public/assets/game/Building_Stable.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Horse_Stable.png",
+      "source": "https://stardewvalleywiki.com/Stable",
+      "width": 128,
+      "height": 192,
+      "conversion": "none",
+      "sha256": "6cede50598dcbf4577b14c05584d7c27f1f881520dac714178c54070bd5017a5"
+    },
+    {
+      "file": "public/assets/game/Building_Slime_Hutch.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/22/Slime_Hutch.png",
+      "source": "https://stardewvalleywiki.com/Slime_Hutch",
+      "width": 336,
+      "height": 336,
+      "conversion": "none",
+      "sha256": "6dc8889ea0b4b55e86e203d8c40e4725705cdf312a9e2e0f56b005fab1914737"
+    },
+    {
+      "file": "public/assets/game/Building_Big_Coop.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d5/Big_Coop.png/96px-Big_Coop.png",
+      "source": "https://stardewvalleywiki.com/Coop",
+      "width": 96,
+      "height": 111,
+      "conversion": "none",
+      "sha256": "0d2510b0fcb211f376f9aed12b3485eb28837fdeaf879852f4e3a08e3e3e65bd"
+    },
+    {
+      "file": "public/assets/game/Building_Deluxe_Coop.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/51/Deluxe_Coop.png/96px-Deluxe_Coop.png",
+      "source": "https://stardewvalleywiki.com/Coop",
+      "width": 96,
+      "height": 111,
+      "conversion": "none",
+      "sha256": "3cff59a7625fc97a00bcb17ce1be1993e443e85bfc0ece3dfc2cf56e255bb50f"
+    },
+    {
+      "file": "public/assets/game/Building_Big_Barn.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Big_Barn.png/96px-Big_Barn.png",
+      "source": "https://stardewvalleywiki.com/Barn",
+      "width": 96,
+      "height": 96,
+      "conversion": "none",
+      "sha256": "85f7655c4e739a6be2743a000abda504e0d36c39cccc499954712fe7cbc40968"
+    },
+    {
+      "file": "public/assets/game/Building_Deluxe_Barn.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3d/Deluxe_Barn.png/96px-Deluxe_Barn.png",
+      "source": "https://stardewvalleywiki.com/Barn",
+      "width": 96,
+      "height": 96,
+      "conversion": "none",
+      "sha256": "6cb2adcaa660a3131d8fb301522631e57f525a1e1b01ef9a628e0f58b7af6f0e"
+    },
+    {
+      "file": "public/assets/game/Building_Big_Shed.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d0/Big_Shed.png/96px-Big_Shed.png",
+      "source": "https://stardewvalleywiki.com/Shed",
+      "width": 96,
+      "height": 110,
+      "conversion": "none",
+      "sha256": "b227c1e4ed5d129238c97a65659af44ac7c0b916094a16ea8525eb72245d4e8c"
+    },
+    {
+      "file": "public/assets/game/Building_Shipping_Bin.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shipping_Bin_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shipping",
+      "width": 136,
+      "height": 152,
+      "conversion": "first animation frame to PNG",
+      "sha256": "d1d7f616bf34cc6412cd18d6804fe9e8ca8b7b3b287650b6ebf3dcec1c155def"
+    },
+    {
+      "file": "public/assets/game/Building_Farmhouse.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/House_%28tier_1%29.png",
+      "source": "https://stardewvalleywiki.com/Farmhouse",
+      "width": 432,
+      "height": 432,
+      "conversion": "none",
+      "sha256": "8bff180943bd50f528fa8083b8705520131f1e2e0d4de9fa6f650478d5d425ee"
+    },
+    {
+      "file": "public/assets/game/Building_Greenhouse.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/93/Greenhouse.png/170px-Greenhouse.png",
+      "source": "https://stardewvalleywiki.com/Greenhouse",
+      "width": 170,
+      "height": 243,
+      "conversion": "none",
+      "sha256": "0c3d21958ae05abc479d8e8cb75f6f153fc0a2427fc308e45e6552f85f4c6a73"
+    }
+  ]
+}

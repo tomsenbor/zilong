@@ -1,0 +1,519 @@
+{
+  "version": "1.6.15",
+  "id": "resources",
+  "name": "资源、矿物与古物",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 154,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "count": 124,
+      "records": [
+        {
+          "nativeId": "60",
+          "nativeName": "Emerald"
+        },
+        {
+          "nativeId": "62",
+          "nativeName": "Aquamarine"
+        },
+        {
+          "nativeId": "64",
+          "nativeName": "Ruby"
+        },
+        {
+          "nativeId": "66",
+          "nativeName": "Amethyst"
+        },
+        {
+          "nativeId": "68",
+          "nativeName": "Topaz"
+        },
+        {
+          "nativeId": "70",
+          "nativeName": "Jade"
+        },
+        {
+          "nativeId": "72",
+          "nativeName": "Diamond"
+        },
+        {
+          "nativeId": "74",
+          "nativeName": "Prismatic Shard"
+        },
+        {
+          "nativeId": "80",
+          "nativeName": "Quartz"
+        },
+        {
+          "nativeId": "82",
+          "nativeName": "Fire Quartz"
+        },
+        {
+          "nativeId": "84",
+          "nativeName": "Frozen Tear"
+        },
+        {
+          "nativeId": "86",
+          "nativeName": "Earth Crystal"
+        },
+        {
+          "nativeId": "96",
+          "nativeName": "Dwarf Scroll I"
+        },
+        {
+          "nativeId": "97",
+          "nativeName": "Dwarf Scroll II"
+        },
+        {
+          "nativeId": "98",
+          "nativeName": "Dwarf Scroll III"
+        },
+        {
+          "nativeId": "99",
+          "nativeName": "Dwarf Scroll IV"
+        },
+        {
+          "nativeId": "100",
+          "nativeName": "Chipped Amphora"
+        },
+        {
+          "nativeId": "101",
+          "nativeName": "Arrowhead"
+        },
+        {
+          "nativeId": "103",
+          "nativeName": "Ancient Doll"
+        },
+        {
+          "nativeId": "104",
+          "nativeName": "Elvish Jewelry"
+        },
+        {
+          "nativeId": "105",
+          "nativeName": "Chewing Stick"
+        },
+        {
+          "nativeId": "106",
+          "nativeName": "Ornamental Fan"
+        },
+        {
+          "nativeId": "107",
+          "nativeName": "Dinosaur Egg"
+        },
+        {
+          "nativeId": "108",
+          "nativeName": "Rare Disc"
+        },
+        {
+          "nativeId": "109",
+          "nativeName": "Ancient Sword"
+        },
+        {
+          "nativeId": "110",
+          "nativeName": "Rusty Spoon"
+        },
+        {
+          "nativeId": "111",
+          "nativeName": "Rusty Spur"
+        },
+        {
+          "nativeId": "112",
+          "nativeName": "Rusty Cog"
+        },
+        {
+          "nativeId": "113",
+          "nativeName": "Chicken Statue"
+        },
+        {
+          "nativeId": "114",
+          "nativeName": "Ancient Seed"
+        },
+        {
+          "nativeId": "115",
+          "nativeName": "Prehistoric Tool"
+        },
+        {
+          "nativeId": "116",
+          "nativeName": "Dried Starfish"
+        },
+        {
+          "nativeId": "117",
+          "nativeName": "Anchor"
+        },
+        {
+          "nativeId": "118",
+          "nativeName": "Glass Shards"
+        },
+        {
+          "nativeId": "119",
+          "nativeName": "Bone Flute"
+        },
+        {
+          "nativeId": "120",
+          "nativeName": "Prehistoric Handaxe"
+        },
+        {
+          "nativeId": "121",
+          "nativeName": "Dwarvish Helm"
+        },
+        {
+          "nativeId": "122",
+          "nativeName": "Dwarf Gadget"
+        },
+        {
+          "nativeId": "123",
+          "nativeName": "Ancient Drum"
+        },
+        {
+          "nativeId": "124",
+          "nativeName": "Golden Mask"
+        },
+        {
+          "nativeId": "125",
+          "nativeName": "Golden Relic"
+        },
+        {
+          "nativeId": "126",
+          "nativeName": "Strange Doll"
+        },
+        {
+          "nativeId": "127",
+          "nativeName": "Strange Doll"
+        },
+        {
+          "nativeId": "167",
+          "nativeName": "Joja Cola"
+        },
+        {
+          "nativeId": "168",
+          "nativeName": "Trash"
+        },
+        {
+          "nativeId": "169",
+          "nativeName": "Driftwood"
+        },
+        {
+          "nativeId": "170",
+          "nativeName": "Broken Glasses"
+        },
+        {
+          "nativeId": "171",
+          "nativeName": "Broken CD"
+        },
+        {
+          "nativeId": "172",
+          "nativeName": "Soggy Newspaper"
+        },
+        {
+          "nativeId": "330",
+          "nativeName": "Clay"
+        },
+        {
+          "nativeId": "334",
+          "nativeName": "Copper Bar"
+        },
+        {
+          "nativeId": "335",
+          "nativeName": "Iron Bar"
+        },
+        {
+          "nativeId": "336",
+          "nativeName": "Gold Bar"
+        },
+        {
+          "nativeId": "337",
+          "nativeName": "Iridium Bar"
+        },
+        {
+          "nativeId": "338",
+          "nativeName": "Refined Quartz"
+        },
+        {
+          "nativeId": "378",
+          "nativeName": "Copper Ore"
+        },
+        {
+          "nativeId": "380",
+          "nativeName": "Iron Ore"
+        },
+        {
+          "nativeId": "382",
+          "nativeName": "Coal"
+        },
+        {
+          "nativeId": "384",
+          "nativeName": "Gold Ore"
+        },
+        {
+          "nativeId": "386",
+          "nativeName": "Iridium Ore"
+        },
+        {
+          "nativeId": "388",
+          "nativeName": "Wood"
+        },
+        {
+          "nativeId": "390",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "538",
+          "nativeName": "Alamite"
+        },
+        {
+          "nativeId": "539",
+          "nativeName": "Bixite"
+        },
+        {
+          "nativeId": "540",
+          "nativeName": "Baryte"
+        },
+        {
+          "nativeId": "541",
+          "nativeName": "Aerinite"
+        },
+        {
+          "nativeId": "542",
+          "nativeName": "Calcite"
+        },
+        {
+          "nativeId": "543",
+          "nativeName": "Dolomite"
+        },
+        {
+          "nativeId": "544",
+          "nativeName": "Esperite"
+        },
+        {
+          "nativeId": "545",
+          "nativeName": "Fluorapatite"
+        },
+        {
+          "nativeId": "546",
+          "nativeName": "Geminite"
+        },
+        {
+          "nativeId": "547",
+          "nativeName": "Helvite"
+        },
+        {
+          "nativeId": "548",
+          "nativeName": "Jamborite"
+        },
+        {
+          "nativeId": "549",
+          "nativeName": "Jagoite"
+        },
+        {
+          "nativeId": "550",
+          "nativeName": "Kyanite"
+        },
+        {
+          "nativeId": "551",
+          "nativeName": "Lunarite"
+        },
+        {
+          "nativeId": "552",
+          "nativeName": "Malachite"
+        },
+        {
+          "nativeId": "553",
+          "nativeName": "Neptunite"
+        },
+        {
+          "nativeId": "554",
+          "nativeName": "Lemon Stone"
+        },
+        {
+          "nativeId": "555",
+          "nativeName": "Nekoite"
+        },
+        {
+          "nativeId": "556",
+          "nativeName": "Orpiment"
+        },
+        {
+          "nativeId": "557",
+          "nativeName": "Petrified Slime"
+        },
+        {
+          "nativeId": "558",
+          "nativeName": "Thunder Egg"
+        },
+        {
+          "nativeId": "559",
+          "nativeName": "Pyrite"
+        },
+        {
+          "nativeId": "560",
+          "nativeName": "Ocean Stone"
+        },
+        {
+          "nativeId": "561",
+          "nativeName": "Ghost Crystal"
+        },
+        {
+          "nativeId": "562",
+          "nativeName": "Tigerseye"
+        },
+        {
+          "nativeId": "563",
+          "nativeName": "Jasper"
+        },
+        {
+          "nativeId": "564",
+          "nativeName": "Opal"
+        },
+        {
+          "nativeId": "565",
+          "nativeName": "Fire Opal"
+        },
+        {
+          "nativeId": "566",
+          "nativeName": "Celestine"
+        },
+        {
+          "nativeId": "567",
+          "nativeName": "Marble"
+        },
+        {
+          "nativeId": "568",
+          "nativeName": "Sandstone"
+        },
+        {
+          "nativeId": "569",
+          "nativeName": "Granite"
+        },
+        {
+          "nativeId": "570",
+          "nativeName": "Basalt"
+        },
+        {
+          "nativeId": "571",
+          "nativeName": "Limestone"
+        },
+        {
+          "nativeId": "572",
+          "nativeName": "Soapstone"
+        },
+        {
+          "nativeId": "573",
+          "nativeName": "Hematite"
+        },
+        {
+          "nativeId": "574",
+          "nativeName": "Mudstone"
+        },
+        {
+          "nativeId": "575",
+          "nativeName": "Obsidian"
+        },
+        {
+          "nativeId": "576",
+          "nativeName": "Slate"
+        },
+        {
+          "nativeId": "577",
+          "nativeName": "Fairy Stone"
+        },
+        {
+          "nativeId": "578",
+          "nativeName": "Star Shards"
+        },
+        {
+          "nativeId": "579",
+          "nativeName": "Prehistoric Scapula"
+        },
+        {
+          "nativeId": "580",
+          "nativeName": "Prehistoric Tibia"
+        },
+        {
+          "nativeId": "581",
+          "nativeName": "Prehistoric Skull"
+        },
+        {
+          "nativeId": "582",
+          "nativeName": "Skeletal Hand"
+        },
+        {
+          "nativeId": "583",
+          "nativeName": "Prehistoric Rib"
+        },
+        {
+          "nativeId": "584",
+          "nativeName": "Prehistoric Vertebra"
+        },
+        {
+          "nativeId": "585",
+          "nativeName": "Skeletal Tail"
+        },
+        {
+          "nativeId": "586",
+          "nativeName": "Nautilus Fossil"
+        },
+        {
+          "nativeId": "587",
+          "nativeName": "Amphibian Fossil"
+        },
+        {
+          "nativeId": "588",
+          "nativeName": "Palm Fossil"
+        },
+        {
+          "nativeId": "589",
+          "nativeName": "Trilobite"
+        },
+        {
+          "nativeId": "709",
+          "nativeName": "Hardwood"
+        },
+        {
+          "nativeId": "747",
+          "nativeName": "Rotten Plant"
+        },
+        {
+          "nativeId": "748",
+          "nativeName": "Rotten Plant"
+        },
+        {
+          "nativeId": "771",
+          "nativeName": "Fiber"
+        },
+        {
+          "nativeId": "787",
+          "nativeName": "Battery Pack"
+        },
+        {
+          "nativeId": "848",
+          "nativeName": "Cinder Shard"
+        },
+        {
+          "nativeId": "881",
+          "nativeName": "Bone Fragment"
+        },
+        {
+          "nativeId": "909",
+          "nativeName": "Radioactive Ore"
+        },
+        {
+          "nativeId": "910",
+          "nativeName": "Radioactive Bar"
+        },
+        {
+          "nativeId": "Moss",
+          "nativeName": "Moss"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-legacy-collection-inventory.json",
+    "wiki-material-inventory.json",
+    "wiki-environment-inventory.json"
+  ],
+  "remainingReview": "矿物与古物集合已对齐，固定资源节点、杂草/石头等原版地形形态仍需完整枚举。"
+}

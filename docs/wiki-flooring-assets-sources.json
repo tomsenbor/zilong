@@ -1,0 +1,1654 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "key": "(FL)0",
+      "file": "public/assets/game/Flooring_0.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "d68c9e1189974a8c6697f3a5a857d89f82298cfc0098022b428a67a5e796d719",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)1",
+      "file": "public/assets/game/Flooring_1.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "16ef34c91f175bce936e3d03b3c7a4c29b77fab8502164c7977bddd02dee4bcf",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)2",
+      "file": "public/assets/game/Flooring_2.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "5273a07030939e406ab35ccc165e23661e50675135592177e249c0c0ad3f2243",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)3",
+      "file": "public/assets/game/Flooring_3.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "045f964e4763fa62f3f0006442186e77ba472b7511762136ebe0a736d224d0c6",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)4",
+      "file": "public/assets/game/Flooring_4.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0d8c74e78047084918ec9dc8a865155189ed849cea228c081cc8ab66d7f62065",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)5",
+      "file": "public/assets/game/Flooring_5.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "acd48d1a6de54b9f465e87098b8767d8b107622547c1725439d471783734ec18",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)6",
+      "file": "public/assets/game/Flooring_6.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3ef51dacb7fc37d8d819efd1ec6810dd4b2526803382059d605e73d04ba6a346",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)7",
+      "file": "public/assets/game/Flooring_7.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "286ea787248c83da9a5f92453e6da3d3074906365ac018a915779220bcd98c3a",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)8",
+      "file": "public/assets/game/Flooring_8.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "ec37cb65bd800922c58ff276428d5e7c9d8ab8ddeb99fa7b03e29fafce9c744e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)9",
+      "file": "public/assets/game/Flooring_9.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b8f134a3d807850730964865f8a05e40fedfab94c1658fd9cf2ca50e101b6f41",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)10",
+      "file": "public/assets/game/Flooring_10.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "bfe77cb8ccd16bd749132cd69255fc9308914a7be957528a88cebf501a2ddcf1",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)11",
+      "file": "public/assets/game/Flooring_11.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "412d9ca77c8ca085586941d20d08e61b6adcd6afd7e43d19b162b947fca97ed2",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)12",
+      "file": "public/assets/game/Flooring_12.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e7620a7f1fd1368e428954c6677e57b846e54f9f5663196ec665b14822147536",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)13",
+      "file": "public/assets/game/Flooring_13.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "dc3143a13c323ebb69e2d945be3d4be7c2ee80bc06703ec6e003ecd4992443d7",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)14",
+      "file": "public/assets/game/Flooring_14.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0f87822321705634d7ea36c2b54c9d00e8e58ed08d9963c315001200c9879ca8",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)15",
+      "file": "public/assets/game/Flooring_15.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1d847416ab87a8cf35c5b582e5be9da43e0c677ac1863309698cd7634fdbe207",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)16",
+      "file": "public/assets/game/Flooring_16.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "5c2378b3766d1725e7b51ffeb92c8b2ec8d439a1e045d01fe99839408414427e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)17",
+      "file": "public/assets/game/Flooring_17.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "ef35339d2a28e706465d3a522b23fa89d0a8953faabdca948b115a0c90d1f445",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)18",
+      "file": "public/assets/game/Flooring_18.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "d86ddb08ada29a9732cd3d1d92974817df9eb85d5957ccf9a17565961573da57",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)19",
+      "file": "public/assets/game/Flooring_19.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9a75fa643a755369167fb87cc02c7fcd91338ff1821aae54a9fea311024542c2",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)20",
+      "file": "public/assets/game/Flooring_20.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "be9164a699f79976c114977b5249b6a93d2e495268a73fb90bb629a660e5849b",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)21",
+      "file": "public/assets/game/Flooring_21.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "de297fc7c11dc0bf0b60040c62ab736324e5b3c9ad98ea0ceaa7d87a0a8e7303",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)22",
+      "file": "public/assets/game/Flooring_22.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a101128b533306ccb8c59df96c081b3fbdcc67d0370307fe0dc8477bf598eb28",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)23",
+      "file": "public/assets/game/Flooring_23.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "37ae8316935441dbcf8d9dffceb53722810f241357b076b1003d52823ecfee7a",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)24",
+      "file": "public/assets/game/Flooring_24.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c88e6c321fb32e5375e12d873e2552e66f737e60e9d87723596aa22d46f6c3a2",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)25",
+      "file": "public/assets/game/Flooring_25.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "404ff21e5071ab254bde93b7c6d0d72a06400a9159f5466fa8513b9cfa2ee52e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)26",
+      "file": "public/assets/game/Flooring_26.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "72750ebc80f55ca21ab93b55465f7b118d90a2a3a63f0411e7b72d18047f221f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)27",
+      "file": "public/assets/game/Flooring_27.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "8b933df2eeed3b0ba3bda1d82c529e2321f391db7b9e3e819e3e54579ce447aa",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)28",
+      "file": "public/assets/game/Flooring_28.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "13b3809a873354d47cb97cc7c0796e612d41f004232ffdf5f578ee3dbcf27bae",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)29",
+      "file": "public/assets/game/Flooring_29.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "62314a05e9c975488a9c784e05acafba208fc0540e8c40f22608299b408b2eac",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)30",
+      "file": "public/assets/game/Flooring_30.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "955eeb2c52ee1c8fb1507707b784090eed24f9eef86d52b0b3fd74e4cd2a810f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)31",
+      "file": "public/assets/game/Flooring_31.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a3231703be2ccbea5469b9822754acee08ac795f3a182c12744e9984656f39c7",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)32",
+      "file": "public/assets/game/Flooring_32.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9042f25a222dfc9ea89182997c5b1fdf8049d70967c9d0da04c5c97ab0cc4f6f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)33",
+      "file": "public/assets/game/Flooring_33.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a58f9aca95d1fe8821e48a02d956edb61b1654f34210be53e362268d38c429eb",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)34",
+      "file": "public/assets/game/Flooring_34.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c87f275af76124f31d11a99ee440d770dbf76cff0f58da0f0a8270f0cc4db498",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)35",
+      "file": "public/assets/game/Flooring_35.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1490631f69c43305049392e4429a1c946f2739fee0337dd2531c23f7fef27cf6",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)36",
+      "file": "public/assets/game/Flooring_36.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "8408ed2d225b9f72863bd6da993cdca062923c3d0156e1563ea48ca483384962",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)37",
+      "file": "public/assets/game/Flooring_37.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "d2629ffff117bbb2516df50277a2e3c7f4a440a349f94981384f7800def6cd51",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)38",
+      "file": "public/assets/game/Flooring_38.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "dc27cc2b2c1976ea173d2abf44e5c1dec940ee5fbde48af87e13ffef32a80379",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)39",
+      "file": "public/assets/game/Flooring_39.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0091fe21efada2085a19c8cf54283501b6834533a721c2e140e76db756f9b821",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)40",
+      "file": "public/assets/game/Flooring_40.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "11f92bcb7ac783776432846500e60fe18c95c1168f52b5030cac0a3ffb42696f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)41",
+      "file": "public/assets/game/Flooring_41.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "bba9199812a35144ad5e1132418225416783a25ed72af47a8a4a7ff513ab5fc4",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)42",
+      "file": "public/assets/game/Flooring_42.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "099d0c35434a7a7a5d56a655d93f4ec08f0ae53e13390c69d3fb9217c48ae26f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)43",
+      "file": "public/assets/game/Flooring_43.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b6f4da48d5e96e96e2df11ff6c4d0392dc6006c3b9c1eb6ff340f80f88495fb7",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)44",
+      "file": "public/assets/game/Flooring_44.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3bd0c18bb189c7d56d4cd673209e8256da7144470af97a3af9c61130f915adc8",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)45",
+      "file": "public/assets/game/Flooring_45.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2b44c81bf68c6d62ab3f2ec4dd28eef68e4d105c5a2d083c896e33d98b48e2f2",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)46",
+      "file": "public/assets/game/Flooring_46.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "49925474f17b11865a6d62755d52a1c630943a39f6649b363690c4e0fa80288d",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)47",
+      "file": "public/assets/game/Flooring_47.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "41a46838bf6f7953baacc71c4e69c4622d0cdc49ee7f16f3aa4377caf8e7b249",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)48",
+      "file": "public/assets/game/Flooring_48.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "33341f654b1235c770fa9f51889102a1b0511fe975e9ed4f502832cf1e34ea96",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)49",
+      "file": "public/assets/game/Flooring_49.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "ca90d199f3dcc073fa2a7ff77b3cbe83e9f7e36685cdfef59d9643323101224d",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)50",
+      "file": "public/assets/game/Flooring_50.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "38433ace1f83c0d0bb14201f7acc11d037c0d779951c51823bb6a06e9836d5fb",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)51",
+      "file": "public/assets/game/Flooring_51.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "18a01986045d6cbee5de7b267b76fd1093e513307ef27349a75b3c9edd4d0303",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)52",
+      "file": "public/assets/game/Flooring_52.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "03b9cd0c9a0308e01e8aaf622a46ebe2f9bd2854cd38cd71e7660fd7e7d97f10",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)53",
+      "file": "public/assets/game/Flooring_53.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6ceaf0da9f48096901c12dae262a0c2c8b0c05c93f9c892755a3660ea170c30a",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)54",
+      "file": "public/assets/game/Flooring_54.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f82b96bc5d80bffe537b33cbe1dbef44f372067ca542efa47d6e9dc181ea1120",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)55",
+      "file": "public/assets/game/Flooring_55.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "cd3ffa0f4d2af395c66286a64ab1e5148e413588d10775d8f5bed76c329397fe",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)56",
+      "file": "public/assets/game/Flooring_56.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3b4e3d8ef1547ab7ffc526a1e3760ca6f831e31108ca623825a872830ba2e16a",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)57",
+      "file": "public/assets/game/Flooring_57.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3c976b17f36aa5f240ec3e49fdb1f10d84e932681d4a2f2c9304611b4f32dd1a",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)58",
+      "file": "public/assets/game/Flooring_58.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "34f2bfae79b15cb95e1f8c399a394947e6947ae5578ea2ce457461d5aa410572",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)59",
+      "file": "public/assets/game/Flooring_59.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3775accc1b4091d066d2e4569355da7ced3750bad0370b55706c290259a9c116",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)60",
+      "file": "public/assets/game/Flooring_60.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "023325fb471ebbc620df44a7eb260888cda88c04243ebeac3afd3c0db7db34c6",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)61",
+      "file": "public/assets/game/Flooring_61.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "8409b1aacce5ea0bb501d2c685351c71dd76abf62670e257c8b96c35e6153625",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)62",
+      "file": "public/assets/game/Flooring_62.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2f89699013c2d2173a9d6c69f19d9903d588f34933db268ae863370d654187c6",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)63",
+      "file": "public/assets/game/Flooring_63.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "24c4ec167cd9ee99f6d02f0e2edceefcfbc8e8db236ba03b9aff8039970b379c",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)64",
+      "file": "public/assets/game/Flooring_64.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6e6c25848d0c09e3dcdeb59f808e329d78927a28adb55c7965155b9b03df30a1",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)65",
+      "file": "public/assets/game/Flooring_65.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "8d586dc276fa527a3382b4675081fdf6767f74eee3a97e078154c31ddc440749",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)66",
+      "file": "public/assets/game/Flooring_66.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6f15cc7b2a5c04fff33bcb92742c77120dc0c229e015243bdae7b8fb2da2384e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)67",
+      "file": "public/assets/game/Flooring_67.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b88b6ff89ea0e846d922e8c9d60e7e5070ccc62cd56e129220f1b2bd5e20d0f5",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)68",
+      "file": "public/assets/game/Flooring_68.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b15805953f23604379fc1ccd775efc63e0d8cf7148c54332fef9d2edfc71fcc4",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)69",
+      "file": "public/assets/game/Flooring_69.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6f16bcaa56c5014022c54afb69b36835825c8e308bd1bc3a26f46edeb8c67a55",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)70",
+      "file": "public/assets/game/Flooring_70.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3a8679d39bf119088a08df26bbdfb2c76994f21b97670616b39a075f5204d618",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)71",
+      "file": "public/assets/game/Flooring_71.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9392b9f8064d180e468ca32a6b4b6a83bf7fa7d34d6e8f0d2254c88887711702",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)72",
+      "file": "public/assets/game/Flooring_72.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b58c2dce6dd9a78d7d7eb0b0fdfbf9f5b7109cbfa3d5ff523b94eb3eaabf0017",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)73",
+      "file": "public/assets/game/Flooring_73.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1ceea17d24fa6c670123c5c00ad9fce6c1a8ef09facd0ec78d1954e39c0f5eaf",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)74",
+      "file": "public/assets/game/Flooring_74.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "32925c713d97c30918efe9dd3dbc031a12439f88d789cfc28028519e101c3742",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)75",
+      "file": "public/assets/game/Flooring_75.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "7e2678029f690e4fa2a25a424f272e1cd9a16db77b8c10aa249c6e356a6f8c45",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)76",
+      "file": "public/assets/game/Flooring_76.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9b28cdba62fb7bc2a4c076b739dd5f813ba59c4e974abf2037b1750e314002d2",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)77",
+      "file": "public/assets/game/Flooring_77.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f482b670ad37c2ee18e4952997915aff76aaf6ee9d965ed1dcaa97c67c4f4266",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)78",
+      "file": "public/assets/game/Flooring_78.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3e6d9b7527edf0a3e3680d23197976928bfed2f390f666d8442375c85504d720",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)79",
+      "file": "public/assets/game/Flooring_79.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "750ca837873e40889c77f761f7d834914b8c2417cb69b06b9cece176ce313e8d",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)80",
+      "file": "public/assets/game/Flooring_80.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "707d948a7423d58b821078da37f62543864d7fbd3fa8f5d5fa51654c7315ff23",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)81",
+      "file": "public/assets/game/Flooring_81.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "029a4b068cde8b8c28686f390a10f6e91c1e077cd3b92746dd04e13704ebe664",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)82",
+      "file": "public/assets/game/Flooring_82.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "fe8c984f4595fcdb9d425c7cc0338d69b2aa526868bb0e7caee760618b923991",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)83",
+      "file": "public/assets/game/Flooring_83.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "348bbe11fe11e23b355332d11d606f868953e431ec5ed4ca5af36ca02ad7f45e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)84",
+      "file": "public/assets/game/Flooring_84.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "469592a5abd65f564589bde8b20501cf775361441f6c2a5cddc670c6e5be2f1f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)85",
+      "file": "public/assets/game/Flooring_85.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "3511cac8f8dda1fdc2b90642a552c843e741f4f12517a1cdc024d26c49bfa7da",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)86",
+      "file": "public/assets/game/Flooring_86.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c89bba9220c4c9c173f68f901e6df4f13e6c39feb73f8cb94cea2966e71bde44",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)87",
+      "file": "public/assets/game/Flooring_87.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "75142b4fbd2264fc971122e8be6b25ef2fbce74e1feea7c95ab76df4e561a453",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:0",
+      "file": "public/assets/game/Flooring_MoreFloors_0.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "1fd889bef075f1120fa64284bfa640c481d0fc473dfa6a2f8b611aeaf34a3dd9",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:1",
+      "file": "public/assets/game/Flooring_MoreFloors_1.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "47a9d4fb18c821504ef989f8e7eb75f3f9b05a0b81396ba6eb3e23df247cb870",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:2",
+      "file": "public/assets/game/Flooring_MoreFloors_2.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "f91baa5952a33aba0d88ef033b583c2b12d27df7686fe27455a37ea9bb059663",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:3",
+      "file": "public/assets/game/Flooring_MoreFloors_3.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "c0ca74bfb0e4e8b39d1292f6278dcb0d49e2c65a4992609c57620b2a546ccd20",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:4",
+      "file": "public/assets/game/Flooring_MoreFloors_4.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 128,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "3e95a5520f99e8c9220452f3aae45fd10cc2559a87f95a6175d067357872ff5f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:5",
+      "file": "public/assets/game/Flooring_MoreFloors_5.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "e0cc7c82918d914f62adf487d3efab700a17b67d7ed719a9e6342c57519973b0",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:6",
+      "file": "public/assets/game/Flooring_MoreFloors_6.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "a4ae92d417c68655c4785a81e7cd016b60e220fae8d94b9908252eee107b4fba",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:7",
+      "file": "public/assets/game/Flooring_MoreFloors_7.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "9bbd1a9fa909bae689a45bc96456012a60033f5d5998dbb2c9a8445dc025776e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "key": "(FL)MoreFloors:8",
+      "file": "public/assets/game/Flooring_MoreFloors_8.png",
+      "source": "https://stardewvalleywiki.com/Flooring",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 0,
+        "top": 32,
+        "width": 32,
+        "height": 32
+      },
+      "sourceSha256": "9703457E79D036322897F9FF94775718DA34954118EAEC5E1F5E9BA8291576F1",
+      "sha256": "35619cda749fa6e1cfd0813affe37a46fff19cccbf48012f47625e6f12da91d5",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

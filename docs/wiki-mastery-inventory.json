@@ -1,0 +1,105 @@
+{
+  "version": "1.6.15",
+  "records": [
+    {
+      "id": "Farming",
+      "name": "耕种精通",
+      "slug": "mastery-farming",
+      "item": "铱镰刀",
+      "recipe": "祝福雕像配方",
+      "effect": "能够找到金色动物饼干，使适用动物产量永久翻倍，对猪无效。",
+      "note": "获得配方后仍要准备材料制作雕像；解锁饼干掉落不等于当场获得饼干。",
+      "image": "/mediawiki/images/8/82/Farming_Skill_Icon.png",
+      "file": "public/assets/game/Mastery_Farming.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mastery_Cave",
+      "sourceRevision": 191046,
+      "sourceSha256": "f741b165cd089d0706cecbd467973d1d4e2f1704d7d2e5f309eb6037f4a2ff62",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/精通山洞",
+        "revision": 54619,
+        "sha256": "017c13e1b6a39a53cd9d35c81920c603599a7abb72ad3ed690297831d6fd516c"
+      },
+      "versionEvidence": "Mastery_Cave English/Chinese rewards and history reviewed: introduced1.6;1.6.6 limits half-rate experience to Farming. No later-version mechanics included."
+    },
+    {
+      "id": "Mining",
+      "name": "采矿精通",
+      "slug": "mastery-mining",
+      "item": "无直接实物奖励",
+      "recipe": "矮人之王雕像配方、重型熔炉配方",
+      "effect": "宝石矿脉的宝石产量翻倍；不是所有矿石、石头和晶球产物统一翻倍。",
+      "note": "重型熔炉每次需要25个矿石和3块煤炭；获得配方并不免除建造或运作成本。",
+      "image": "/mediawiki/images/2/2f/Mining_Skill_Icon.png",
+      "file": "public/assets/game/Mastery_Mining.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mastery_Cave",
+      "sourceRevision": 191046,
+      "sourceSha256": "f741b165cd089d0706cecbd467973d1d4e2f1704d7d2e5f309eb6037f4a2ff62",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/精通山洞",
+        "revision": 54619,
+        "sha256": "017c13e1b6a39a53cd9d35c81920c603599a7abb72ad3ed690297831d6fd516c"
+      },
+      "versionEvidence": "Mastery_Cave English/Chinese rewards and history reviewed: introduced1.6;1.6.6 limits half-rate experience to Farming. No later-version mechanics included."
+    },
+    {
+      "id": "Foraging",
+      "name": "采集精通",
+      "slug": "mastery-foraging",
+      "item": "无直接实物奖励",
+      "recipe": "神秘树种配方、宝藏图腾配方",
+      "effect": "能够找到金色谜之盒，开出其对应物品；不是直接送出所有盒内奖励。",
+      "note": "宝藏图腾仍需在可挖掘地形使用；解锁神秘树种配方后还要收集制作材料。",
+      "image": "/mediawiki/images/f/f1/Foraging_Skill_Icon.png",
+      "file": "public/assets/game/Mastery_Foraging.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mastery_Cave",
+      "sourceRevision": 191046,
+      "sourceSha256": "f741b165cd089d0706cecbd467973d1d4e2f1704d7d2e5f309eb6037f4a2ff62",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/精通山洞",
+        "revision": 54619,
+        "sha256": "017c13e1b6a39a53cd9d35c81920c603599a7abb72ad3ed690297831d6fd516c"
+      },
+      "versionEvidence": "Mastery_Cave English/Chinese rewards and history reviewed: introduced1.6;1.6.6 limits half-rate experience to Farming. No later-version mechanics included."
+    },
+    {
+      "id": "Fishing",
+      "name": "钓鱼精通",
+      "slug": "mastery-fishing",
+      "item": "高级铱金鱼竿",
+      "recipe": "挑战鱼饵配方",
+      "effect": "能够遇到金色钓鱼宝箱；高级鱼竿可同时安装两个浮漂。",
+      "note": "挑战鱼饵完美钓鱼可得到三条鱼，但鱼逃离钓鱼条会降低数量，不是每次固定三条。",
+      "image": "/mediawiki/images/e/e7/Fishing_Skill_Icon.png",
+      "file": "public/assets/game/Mastery_Fishing.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mastery_Cave",
+      "sourceRevision": 191046,
+      "sourceSha256": "f741b165cd089d0706cecbd467973d1d4e2f1704d7d2e5f309eb6037f4a2ff62",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/精通山洞",
+        "revision": 54619,
+        "sha256": "017c13e1b6a39a53cd9d35c81920c603599a7abb72ad3ed690297831d6fd516c"
+      },
+      "versionEvidence": "Mastery_Cave English/Chinese rewards and history reviewed: introduced1.6;1.6.6 limits half-rate experience to Farming. No later-version mechanics included."
+    },
+    {
+      "id": "Combat",
+      "name": "战斗精通",
+      "slug": "mastery-combat",
+      "item": "无直接实物奖励",
+      "recipe": "铁砧配方、迷你锻造台配方",
+      "effect": "解锁饰品装备栏，并可在探险中找到具有特殊能力的饰品。",
+      "note": "铁砧每次重铸需3块铱锭；解锁饰品栏不代表立即获得全部饰品或可无限免费重铸。",
+      "image": "/mediawiki/images/c/cf/Combat_Skill_Icon.png",
+      "file": "public/assets/game/Mastery_Combat.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mastery_Cave",
+      "sourceRevision": 191046,
+      "sourceSha256": "f741b165cd089d0706cecbd467973d1d4e2f1704d7d2e5f309eb6037f4a2ff62",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/精通山洞",
+        "revision": 54619,
+        "sha256": "017c13e1b6a39a53cd9d35c81920c603599a7abb72ad3ed690297831d6fd516c"
+      },
+      "versionEvidence": "Mastery_Cave English/Chinese rewards and history reviewed: introduced1.6;1.6.6 limits half-rate experience to Farming. No later-version mechanics included."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.6.15",
+  "scope": "Individually verified omissions, not full category closure.",
+  "records": [
+    {
+      "key": "roster-gap:tea-bush",
+      "group": "agriculture",
+      "originalName": "Tea Bush",
+      "sourceUrl": "https://stardewvalleywiki.com/Tea_Bush",
+      "sourceRevision": 192708,
+      "versionEvidence": "Present before and in original 1.6.15. Tea Bush History verifies 1.6 sapling return; InventoryPage constructor and draw identify starter trash can separately from upgrade tools.",
+      "disposition": "include",
+      "reason": "Distinct mature plant or starting interface tool absent from seed and upgrade-only rosters.",
+      "dataset": "items",
+      "slug": "tea-bush",
+      "displayName": "茶树"
+    },
+    {
+      "key": "roster-gap:basic-trash-can",
+      "group": "equipment",
+      "originalName": "Trash Can",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "versionEvidence": "Present before and in original 1.6.15. Tea Bush History verifies 1.6 sapling return; InventoryPage constructor and draw identify starter trash can separately from upgrade tools.",
+      "disposition": "include",
+      "reason": "Distinct mature plant or starting interface tool absent from seed and upgrade-only rosters.",
+      "dataset": "items",
+      "slug": "basic-trash-can",
+      "displayName": "初始垃圾桶"
+    }
+  ]
+}

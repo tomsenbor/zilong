@@ -517,6 +517,21 @@ textarea {
   gap: 6px;
 }
 
+.library-layout .library-results {
+  min-width: 0;
+}
+
+.library-layout .filter-row label {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.library-layout .filter-row select {
+  min-width: 0;
+  max-width: 100%;
+  flex: 1 1 0;
+}
+
 .item-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
@@ -596,6 +611,17 @@ textarea {
   color: var(--color-muted);
   font-size: 0.88rem;
   line-height: 1.55;
+}
+
+/* Keep every topic and summary available without five full-width rows on phones. */
+@media (max-width: 480px) {
+  .guide-center .guide-topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .guide-center .guide-topic-card { padding: 10px; gap: 4px; }
+  .guide-center .guide-topic-card span { font-size: 0.8rem; line-height: 1.4; }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .library-results .item-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .guide-category {
@@ -697,12 +723,49 @@ textarea {
 }
 
 .guide-article {
+  min-width: 0;
   padding: clamp(20px, 4vw, 36px);
 }
+
+.guide-detail-grid > .guide-reading { min-width: 0; }
 
 .guide-article h2 {
   margin-top: 32px;
   color: var(--color-primary);
+}
+
+.guide-article table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-block: 20px;
+}
+
+.guide-article th,
+.guide-article td {
+  padding: 10px 14px;
+  border: 1px solid var(--border-light);
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.guide-article th {
+  background: var(--color-bg);
+}
+
+.guide-article table:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .library-layout .library-sidebar { padding: 4px 12px; }
+  .library-layout .library-sidebar nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .guide-related {
@@ -2376,6 +2439,27 @@ textarea {
   }
 }
 
+@media (min-width: 721px) and (max-width: 1200px) {
+  .community-tool-page .community-dashboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 14px;
+  }
+
+  .community-tool-page .community-dashboard-section:nth-child(odd) {
+    border-left: 0;
+    padding-left: 2px;
+  }
+
+  .community-tool-page .community-dashboard-section:nth-child(n + 3) {
+    border-top: 1px solid var(--border-light);
+    padding-top: 14px;
+  }
+
+  .community-tool-page .community-filter-group {
+    grid-template-columns: auto auto minmax(0, 1fr);
+  }
+}
+
 @media (min-width: 721px) and (max-width: 980px) {
   .crop-tool-page .crop-ranking-head,
   .crop-tool-page .crop-ranking-row {
@@ -2887,4 +2971,46 @@ textarea {
   .fish-tool-page .condition-list dd {
     font-size: 0.9rem;
   }
+}
+.library-layout .library-category-menu summary {
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 700;
+  padding-block: 10px;
+}
+.library-layout .library-category-menu summary:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+@media (max-width: 720px) {
+  .library-layout .library-sidebar { padding: 4px 12px; }
+  .page-header:has(+ .library-layout) { margin-block: 10px; }
+  .page-header:has(+ .library-layout) .page-header__inner { padding-block: 12px; }
+  .page-header:has(+ .library-layout) h1 { margin-block: 4px; }
+  .page-header:has(+ .library-layout) p { margin-block: 4px; }
+  .library-layout { gap: 10px; padding-block: 10px; }
+  .library-layout .library-results { gap: 10px; }
+  .library-layout .library-sidebar nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .library-layout .library-toolbar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 10px; }
+  .library-layout #library-q,
+  .library-layout .library-toolbar .tool-actions { grid-column: 1 / -1; }
+  .library-layout .filter-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 10px; }
+  .library-layout .filter-row label { min-width: 0; display: grid; gap: 4px; }
+  .library-layout select { width: 100%; min-width: 0; }
+  .library-layout button,
+  .library-layout select { min-height: 44px; }
+  .library-layout[data-library-dataset="villagers"] .item-grid { grid-template-columns: minmax(0, 1fr); }
+  .library-layout[data-library-dataset="villagers"] .item-card { min-width: 0; padding: 12px; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 4px 10px; text-align: left; }
+  .library-layout[data-library-dataset="villagers"] .item-card > img { grid-row: 1 / 4; width: 36px; height: 36px; margin: 0; }
+  .library-layout[data-library-dataset="villagers"] .item-card > strong,
+  .library-layout[data-library-dataset="villagers"] .item-card > small,
+  .library-layout[data-library-dataset="villagers"] .item-card-facts { grid-column: 2; min-width: 0; margin: 0; }
+  .library-layout .item-card,
+  .library-layout .item-card-facts { overflow-wrap: anywhere; }
+  .fish-tool-page .tool-header .page-header__inner,
+  .crop-tool-page .tool-header .page-header__inner,
+  .community-tool-page .tool-header .page-header__inner { padding-block: 12px; gap: 8px; }
+  .fish-tool-page .tool-header p,
+  .crop-tool-page .tool-header p,
+  .community-tool-page .tool-header p { margin-block: 6px; }
 }

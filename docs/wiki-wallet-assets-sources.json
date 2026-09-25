@@ -1,0 +1,101 @@
+[
+  {
+    "file": "public/assets/game/Power_power-forest-magic.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Forest_Magic.png",
+    "source": "https://stardewvalleywiki.com/Forest_Magic",
+    "revision": 190972,
+    "sha256": "8bc4e5d927eb0955f4af95f795cec67897399bee7c829ff8ceb086165d172d23",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-rusty-key.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Rusty_Key.png",
+    "source": "https://stardewvalleywiki.com/Rusty_Key",
+    "revision": 188184,
+    "sha256": "9ae3216938c4c1acf5d1050d00e56d35d71e2b734d62bcfc55aa6ad546b019e2",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-club-card.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/0d/Club_Card.png",
+    "source": "https://stardewvalleywiki.com/Club_Card",
+    "revision": 170815,
+    "sha256": "11b0b31e95df0c7eeb663a209ea417de250f1bb6f95778f03dac96bb228713fd",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-special-charm.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/50/Special_Charm.png",
+    "source": "https://stardewvalleywiki.com/Special_Charm",
+    "revision": 170816,
+    "sha256": "2574595b59590015b6bbd6dc3c72201ea431ed87029df18ac7dd493d0af10894",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-skull-key.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Skull_Key.png",
+    "source": "https://stardewvalleywiki.com/Skull_Key",
+    "revision": 192560,
+    "sha256": "36fcd1a35b7ad0103502f7fcc282bc2ffaed84e832dea165b8284f748b11da3c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-magnifying-glass.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/5f/Magnifying_Glass.png",
+    "source": "https://stardewvalleywiki.com/Magnifying_Glass",
+    "revision": 164468,
+    "sha256": "dd25babb269523f741867bc4664fb32661f089f95dbea269a20ce3db8f74a24b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-dark-talisman.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Dark_Talisman.png",
+    "source": "https://stardewvalleywiki.com/Dark_Talisman",
+    "revision": 170819,
+    "sha256": "18e35f4c66d73e7cdaf516f49b262ea4d49dacad7c2513662d4806d3f38a25a4",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-magic-ink.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Magic_Ink.png",
+    "source": "https://stardewvalleywiki.com/Magic_Ink",
+    "revision": 170820,
+    "sha256": "8b6ede6431cb7f395471b7f94041024de3acb5d041fbde4e392299201a169814",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-bears-knowledge.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Bear%27s_Knowledge.png",
+    "source": "https://stardewvalleywiki.com/Bear's_Knowledge",
+    "revision": 188588,
+    "sha256": "b5deb4aff40551ee67ae66d5b3dbfafac087b960fba744d41c6fd4e641f240be",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-spring-onion-mastery.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3e/Spring_Onion_Mastery.png",
+    "source": "https://stardewvalleywiki.com/Spring_Onion_Mastery",
+    "revision": 188587,
+    "sha256": "9c763e98e33ddb0153927f65054fbd9b030ae44d32e56aff92669195148c76eb",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "file": "public/assets/game/Power_power-key-to-the-town.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Key_To_The_Town.png",
+    "source": "https://stardewvalleywiki.com/Key_To_The_Town",
+    "revision": 176345,
+    "sha256": "833b013a0ce83c5d405b291f53de45af5eb56c0de35122a6e4a6e7aecba63b02",
+    "width": 48,
+    "height": 48
+  }
+]

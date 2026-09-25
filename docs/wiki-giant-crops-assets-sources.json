@@ -1,0 +1,67 @@
+[
+  {
+    "id": "Cauliflower",
+    "file": "public/assets/game/GiantCrop_Cauliflower.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Crops.xnb",
+    "sourceSha256": "FAF5DBE50AEABD1496B3DA5C936C54A88CA12C73E0B7E473937702FA8D75D095",
+    "rectangle": {
+      "left": 112,
+      "top": 512,
+      "width": 48,
+      "height": 64
+    },
+    "sha256": "f8aced9fcb0bb12e30e7ec28a1ba16475f8895858b585d8212a1942699ceee06"
+  },
+  {
+    "id": "Melon",
+    "file": "public/assets/game/GiantCrop_Melon.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Crops.xnb",
+    "sourceSha256": "FAF5DBE50AEABD1496B3DA5C936C54A88CA12C73E0B7E473937702FA8D75D095",
+    "rectangle": {
+      "left": 160,
+      "top": 512,
+      "width": 48,
+      "height": 64
+    },
+    "sha256": "27bdd39d828bc23397c10b70d8776759d9a213671883757b5db18fae5e6ca24c"
+  },
+  {
+    "id": "Pumpkin",
+    "file": "public/assets/game/GiantCrop_Pumpkin.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Crops.xnb",
+    "sourceSha256": "FAF5DBE50AEABD1496B3DA5C936C54A88CA12C73E0B7E473937702FA8D75D095",
+    "rectangle": {
+      "left": 208,
+      "top": 512,
+      "width": 48,
+      "height": 64
+    },
+    "sha256": "f118335f85d67447344141224b040f344ddaa1e50be29df7ade84d5ca263e06c"
+  },
+  {
+    "id": "Powdermelon",
+    "file": "public/assets/game/GiantCrop_Powdermelon.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/LooseSprites/Cursors_1_6.xnb",
+    "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+    "rectangle": {
+      "left": 320,
+      "top": 448,
+      "width": 48,
+      "height": 64
+    },
+    "sha256": "94707e6377b345fede68b47642536bdbd6c302b782a9228981277ff327466d35"
+  },
+  {
+    "id": "QiFruit",
+    "file": "public/assets/game/GiantCrop_QiFruit.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/LooseSprites/Cursors_1_6.xnb",
+    "sourceSha256": "76FF24F79B35056C74E8F5A938BC8A4532614CA630A2D03CEA187CFE757A6EA7",
+    "rectangle": {
+      "left": 368,
+      "top": 448,
+      "width": 48,
+      "height": 64
+    },
+    "sha256": "3774d2ac0053d649b5d3b0a6601827a1005586a294640cdc7b05bae5107a14ae"
+  }
+]

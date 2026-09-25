@@ -20,12 +20,14 @@ import {
 } from "./guide-center.js";
 import {
   renderCategoryOverview,
+  loadLibraryFilterOptions,
   renderHomeView,
   renderItemCard,
   renderItemDialog,
   renderLibrarySidebar
 } from "./site-view.js";
 import { uiClass } from "./ui-class.js";
+import { formatCropDays } from "./wiki-days.js";
 
 const app = document.querySelector("#app");
 const fieldLabels = { season: "季节", days: "成熟", sellPrice: "售价", source: "来源", location: "地点", weather: "天气", time: "时间", birthday: "生日", address: "住址", loves: "最爱礼物", ingredients: "材料", energy: "能量", type: "类型", skill: "技能", level: "等级", effect: "效果", reward: "奖励", date: "日期", area: "区域", open: "开放", features: "特色" };
@@ -48,11 +50,19 @@ function mountSiteChrome() {
   menuButton.addEventListener("click", () => {
     const isOpen = siteHeader.classList.toggle("open");
     menuButton.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) {
+      globalSearch.hidden = true;
+      searchToggle.setAttribute("aria-expanded", "false");
+    }
   });
   searchToggle.addEventListener("click", () => {
     globalSearch.hidden = !globalSearch.hidden;
     searchToggle.setAttribute("aria-expanded", String(!globalSearch.hidden));
-    if (!globalSearch.hidden) document.querySelector("#global-search-input").focus();
+    if (!globalSearch.hidden) {
+      siteHeader.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+      document.querySelector("#global-search-input").focus();
+    }
   });
   globalSearch.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -273,22 +283,18 @@ async function library(params, options = {}) {
   state.dataset = requestedDataset || options.datasetSlug || state.dataset;
   state.page = Number(params.get("page") || 1);
   state.filters = Object.fromEntries([...params.entries()].filter(([key]) => !["dataset", "page", "pageSize"].includes(key)));
+  if (state.dataset === "crops" && state.filters.days) state.filters.days = formatCropDays(state.filters.days);
   const query = new URLSearchParams({ page: state.page, pageSize: state.pageSize, ...state.filters });
   const data = await api(`/api/datasets/${state.dataset}/entries?${query}`);
   const fields = data.dataset.fields;
-  const filterOptions = {};
-  data.items.forEach((item) => fields.forEach((field) => {
-    const values = Array.isArray(item.attributes[field]) ? item.attributes[field] : [item.attributes[field]];
-    filterOptions[field] ||= new Set();
-    values.filter(Boolean).forEach((value) => filterOptions[field].add(value));
-  }));
+  const filterOptions = await loadLibraryFilterOptions(api, state.dataset);
 
   app.innerHTML = `${PageHeader({
     eyebrow: "图鉴大全",
     title: data.dataset.name,
     description: data.dataset.description || "组合筛选、排序并查看每一条游戏数据。"
   })}
-    <div class="shell library-layout">
+    <div class="shell library-layout" data-library-dataset="${escapeHtml(state.dataset)}">
       ${renderLibrarySidebar(state.datasets, state.dataset)}
       <section class="library-results">
         <div class="${uiClass("library-toolbar card search-bar")}">
@@ -315,6 +321,8 @@ async function library(params, options = {}) {
     </div>
     ${options.modalItem ? renderItemDialog(options.modalItem) : ""}`;
 
+  const categoryMenu = app.querySelector(".library-category-menu");
+  if (categoryMenu) categoryMenu.open = !window.matchMedia("(max-width: 768px)").matches;
   document.querySelector("#apply-filters").addEventListener("click", () => {
     const nextFilters = {
       q: document.querySelector("#library-q").value,
@@ -345,7 +353,12 @@ async function library(params, options = {}) {
 }
 
 function tableView(items, fields) {
-  return `<div class="data-table-wrap"><table class="data-table"><thead><tr><th>名称</th>${fields.slice(0,4).map((f)=>`<th>${fieldLabels[f]||f}</th>`).join("")}</tr></thead><tbody>${items.map((item)=>`<tr><td><a class="item-name" href="${routePath("wikiEntry", { datasetSlug: state.dataset, entrySlug: item.slug })}">${img(item.image,item.name)}${escapeHtml(item.name)}</a></td>${fields.slice(0,4).map((f)=>`<td>${escapeHtml(Array.isArray(item.attributes[f])?item.attributes[f].join("、"):item.attributes[f]||"-")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  const displayValue = (item, field) => {
+    const value = item.attributes[field];
+    if (state.dataset === "crops" && field === "days") return formatCropDays(value) || "-";
+    return Array.isArray(value) ? value.join("、") : value || "-";
+  };
+  return `<div class="data-table-wrap"><table class="data-table"><thead><tr><th>名称</th>${fields.slice(0,4).map((f)=>`<th>${fieldLabels[f]||f}</th>`).join("")}</tr></thead><tbody>${items.map((item)=>`<tr><td><a class="item-name" href="${routePath("wikiEntry", { datasetSlug: state.dataset, entrySlug: item.slug })}">${img(item.image,item.name)}${escapeHtml(item.name)}</a></td>${fields.slice(0,4).map((f)=>`<td>${escapeHtml(displayValue(item, f))}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
 }
 function cardView(items) {
   return `<div class="item-grid">${items.map((item) => renderItemCard(item, state.dataset)).join("")}</div>`;

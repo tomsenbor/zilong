@@ -1,0 +1,214 @@
+{
+  "version": "1.6.15",
+  "id": "characters",
+  "name": "人物",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 53,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Characters",
+      "sha256": "3B9519BF4887B557FB73C68834871C16755616A7EF26D84DC0BDBD95447F64A8",
+      "count": 48,
+      "records": [
+        {
+          "nativeId": "Abigail",
+          "nativeName": "Abigail"
+        },
+        {
+          "nativeId": "Caroline",
+          "nativeName": "Caroline"
+        },
+        {
+          "nativeId": "Clint",
+          "nativeName": "Clint"
+        },
+        {
+          "nativeId": "Demetrius",
+          "nativeName": "Demetrius"
+        },
+        {
+          "nativeId": "Willy",
+          "nativeName": "Willy"
+        },
+        {
+          "nativeId": "Elliott",
+          "nativeName": "Elliott"
+        },
+        {
+          "nativeId": "Emily",
+          "nativeName": "Emily"
+        },
+        {
+          "nativeId": "Evelyn",
+          "nativeName": "Evelyn"
+        },
+        {
+          "nativeId": "George",
+          "nativeName": "George"
+        },
+        {
+          "nativeId": "Gus",
+          "nativeName": "Gus"
+        },
+        {
+          "nativeId": "Haley",
+          "nativeName": "Haley"
+        },
+        {
+          "nativeId": "Harvey",
+          "nativeName": "Harvey"
+        },
+        {
+          "nativeId": "Jas",
+          "nativeName": "Jas"
+        },
+        {
+          "nativeId": "Jodi",
+          "nativeName": "Jodi"
+        },
+        {
+          "nativeId": "Alex",
+          "nativeName": "Alex"
+        },
+        {
+          "nativeId": "Kent",
+          "nativeName": "Kent"
+        },
+        {
+          "nativeId": "Leah",
+          "nativeName": "Leah"
+        },
+        {
+          "nativeId": "Lewis",
+          "nativeName": "Lewis"
+        },
+        {
+          "nativeId": "Linus",
+          "nativeName": "Linus"
+        },
+        {
+          "nativeId": "Marlon",
+          "nativeName": "Marlon"
+        },
+        {
+          "nativeId": "Marnie",
+          "nativeName": "Marnie"
+        },
+        {
+          "nativeId": "Maru",
+          "nativeName": "Maru"
+        },
+        {
+          "nativeId": "Pam",
+          "nativeName": "Pam"
+        },
+        {
+          "nativeId": "Penny",
+          "nativeName": "Penny"
+        },
+        {
+          "nativeId": "Pierre",
+          "nativeName": "Pierre"
+        },
+        {
+          "nativeId": "Robin",
+          "nativeName": "Robin"
+        },
+        {
+          "nativeId": "Sam",
+          "nativeName": "Sam"
+        },
+        {
+          "nativeId": "Sebastian",
+          "nativeName": "Sebastian"
+        },
+        {
+          "nativeId": "Shane",
+          "nativeName": "Shane"
+        },
+        {
+          "nativeId": "Vincent",
+          "nativeName": "Vincent"
+        },
+        {
+          "nativeId": "Wizard",
+          "nativeName": "Wizard"
+        },
+        {
+          "nativeId": "Dwarf",
+          "nativeName": "Dwarf"
+        },
+        {
+          "nativeId": "Sandy",
+          "nativeName": "Sandy"
+        },
+        {
+          "nativeId": "Krobus",
+          "nativeName": "Krobus"
+        },
+        {
+          "nativeId": "Leo",
+          "nativeName": "Leo"
+        },
+        {
+          "nativeId": "???",
+          "nativeName": "???"
+        },
+        {
+          "nativeId": "Bear",
+          "nativeName": "Bear"
+        },
+        {
+          "nativeId": "Birdie",
+          "nativeName": "Birdie"
+        },
+        {
+          "nativeId": "Bouncer",
+          "nativeName": "Bouncer"
+        },
+        {
+          "nativeId": "Gil",
+          "nativeName": "Gil"
+        },
+        {
+          "nativeId": "Governor",
+          "nativeName": "Governor"
+        },
+        {
+          "nativeId": "Grandpa",
+          "nativeName": "Grandpa"
+        },
+        {
+          "nativeId": "Gunther",
+          "nativeName": "Gunther"
+        },
+        {
+          "nativeId": "Henchman",
+          "nativeName": "Henchman"
+        },
+        {
+          "nativeId": "Mister Qi",
+          "nativeName": "Mister Qi"
+        },
+        {
+          "nativeId": "Morris",
+          "nativeName": "Morris"
+        },
+        {
+          "nativeId": "Old Mariner",
+          "nativeName": "Old Mariner"
+        },
+        {
+          "nativeId": "Welwick",
+          "nativeName": "Welwick"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-additional-character-inventory.json",
+    "wiki-special-character-inventory.json"
+  ],
+  "remainingReview": "原版48条角色记录之外还存在地图内商人和剧情角色；???不能直接当作科罗布斯。"
+}

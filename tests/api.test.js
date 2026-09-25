@@ -16,6 +16,22 @@ beforeEach(async () => {
 afterEach(() => context.close());
 
 describe("public API", () => {
+  test("crop days matches equivalent units exactly, not 4 inside 14", async () => {
+    const cropId = context.db.prepare("SELECT id FROM datasets WHERE slug='crops'").get().id;
+    const rows = context.db.prepare("SELECT id, attributes_json FROM dataset_entries WHERE dataset_id=? LIMIT 4").all(cropId);
+    [4, "4天", "14天", "20天后每季最后一周"].forEach((days, i) => {
+      const attributes = JSON.parse(rows[i].attributes_json);
+      context.db.prepare("UPDATE dataset_entries SET attributes_json=? WHERE id=?").run(JSON.stringify({ ...attributes, days }), rows[i].id);
+    });
+    for (const days of ["4", "4天"]) {
+      const response = await request(app).get("/api/datasets/crops/entries").query({ days, pageSize: 100 });
+      const ids = response.body.items.map(item => item.id);
+      expect(ids).toContain(rows[0].id);
+      expect(ids).toContain(rows[1].id);
+      expect(ids).not.toContain(rows[2].id);
+      expect(ids).not.toContain(rows[3].id);
+    }
+  });
   test("paginates and filters dataset entries", async () => {
     const response = await request(app)
       .get("/api/datasets/crops/entries")
@@ -115,11 +131,19 @@ describe("public API", () => {
 
       expect(new Set(allSlugs).size).toBe(allSlugs.length);
     }
-  });
+  }, 30000); // Whole-catalog pagination, not a single-request latency check.
 
   test("keeps quest entries with shared icons on unique stable slugs", async () => {
     const response = await request(app).get("/api/datasets/quests/entries").query({ pageSize: 100 });
     expect(response.status).toBe(200);
+    const items = [...response.body.items];
+    for (let page = 2; page <= response.body.pagination.pages; page += 1) {
+      const next = await request(app).get("/api/datasets/quests/entries").query({ page, pageSize: 100 });
+      expect(next.status).toBe(200);
+      expect(next.body.items.length).toBeGreaterThan(0);
+      items.push(...next.body.items);
+    }
+    expect(items).toHaveLength(response.body.pagination.total);
 
     const expectedSlugs = new Map([
       ["公告板求助", "help-wanted-board"],
@@ -127,11 +151,11 @@ describe("public API", () => {
       ["头骨钥匙", "skull-key"],
       ["黑暗护符", "dark-talisman"]
     ]);
-    const slugs = response.body.items.map((item) => item.slug);
+    const slugs = items.map((item) => item.slug);
 
     expect(new Set(slugs).size).toBe(slugs.length);
     for (const [name, slug] of expectedSlugs) {
-      expect(response.body.items.find((item) => item.name === name)).toMatchObject({ slug });
+      expect(items.find((item) => item.name === name)).toMatchObject({ slug });
       const detail = await request(app).get(`/api/datasets/quests/entries/${slug}`);
       expect(detail.status).toBe(200);
       expect(detail.body.item).toMatchObject({ name, slug });

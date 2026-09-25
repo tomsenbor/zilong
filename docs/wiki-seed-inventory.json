@@ -1,0 +1,895 @@
+{
+  "version": "1.6.15",
+  "scope": "All 68 original Data/Objects Category -74 identities; not a claim of all agriculture coverage.",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+    "cropSha256": "F8A4479265A9218BADF47D3324BFE6F2BE3F0EDE453CB06DB278CF77721AA4C8"
+  },
+  "records": [
+    {
+      "nativeId": "69",
+      "title": "Banana Sapling",
+      "dataset": "items",
+      "slug": "seed-69",
+      "name": "香蕉树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Banana_Sapling",
+        "revision": 178005,
+        "sha256": "312753e9e7699a895e4a8ee00b41490550048ae0a162a3f76c5909b1c50e9089"
+      }
+    },
+    {
+      "nativeId": "251",
+      "title": "Tea Sapling",
+      "dataset": "items",
+      "slug": "seed-251",
+      "name": "茶苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Tea_Sapling",
+        "revision": 192828,
+        "sha256": "96005c243a5025e9fc33d3798d354ca7becb1054373b1871e8ce992682e81387"
+      }
+    },
+    {
+      "nativeId": "273",
+      "title": "Rice Shoot",
+      "dataset": "items",
+      "slug": "seed-273",
+      "name": "稻苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rice_Shoot",
+        "revision": 193356,
+        "sha256": "cf6f485997538bb62d4c0c7524d0a235412a262572252812f847c0a36a5bc084"
+      }
+    },
+    {
+      "nativeId": "292",
+      "title": "Mahogany Seed",
+      "dataset": "items",
+      "slug": "seed-292",
+      "name": "桃花心木种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mahogany_Seed",
+        "revision": 190209,
+        "sha256": "e08a45a78de76d4c1c5e8966e6873b6db0b9514e51359d966a2ad6527114f59c"
+      }
+    },
+    {
+      "nativeId": "299",
+      "title": "Amaranth Seeds",
+      "dataset": "items",
+      "slug": "seed-299",
+      "name": "苋菜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Amaranth_Seeds",
+        "revision": 193342,
+        "sha256": "e1f0bcf8c8022b675d63399bb8285e572669f6a9cc8839ff76d81859f59c377f"
+      }
+    },
+    {
+      "nativeId": "301",
+      "title": "Grape Starter",
+      "dataset": "items",
+      "slug": "seed-301",
+      "name": "葡萄种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Grape_Starter",
+        "revision": 193171,
+        "sha256": "16b19d24c5181e9769b2ebad28e0ffdcc09c210c6b92ffe71b5f7f5ce394b8bc"
+      }
+    },
+    {
+      "nativeId": "302",
+      "title": "Hops Starter",
+      "dataset": "items",
+      "slug": "seed-302",
+      "name": "啤酒花种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Hops_Starter",
+        "revision": 193214,
+        "sha256": "cbb71d2bc952acb43bf09cacd6bc927d0ae3b37c337b3d69f75526542aa59d5a"
+      }
+    },
+    {
+      "nativeId": "309",
+      "title": "Acorn",
+      "dataset": "items",
+      "slug": "seed-309",
+      "name": "橡子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Acorn",
+        "revision": 193200,
+        "sha256": "5bb48acbe0927f9109261be9629cecebaa9c74cb68a752e4a99c57a46088bbd5"
+      }
+    },
+    {
+      "nativeId": "310",
+      "title": "Maple Seed",
+      "dataset": "items",
+      "slug": "seed-310",
+      "name": "枫树种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Maple_Seed",
+        "revision": 193278,
+        "sha256": "70a2ef2695630a5de73b2ac27c413d3d9f50b62942aa312e7f71bd8e71a038ec"
+      }
+    },
+    {
+      "nativeId": "311",
+      "title": "Pine Cone",
+      "dataset": "items",
+      "slug": "seed-311",
+      "name": "松果",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pine_Cone",
+        "revision": 193239,
+        "sha256": "fa54b188ef1802a939bab8badf2bdb4a422df0f5875877af9d56961b56857e1c"
+      }
+    },
+    {
+      "nativeId": "347",
+      "title": "Rare Seed",
+      "dataset": "items",
+      "slug": "seed-347",
+      "name": "稀有种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rare_Seed",
+        "revision": 193321,
+        "sha256": "809699cfb4ed9d2e1289e2016fcf7135ce500680bf4a223ed5b46e99f1fc9ced"
+      }
+    },
+    {
+      "nativeId": "425",
+      "title": "Fairy Seeds",
+      "dataset": "items",
+      "slug": "seed-425",
+      "name": "玫瑰仙子种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fairy_Seeds",
+        "revision": 170193,
+        "sha256": "459458ddc39187f749c930b3e8474fd9615b8d89251bda369c5bb3400f4cf6e3"
+      }
+    },
+    {
+      "nativeId": "427",
+      "title": "Tulip Bulb",
+      "dataset": "items",
+      "slug": "seed-427",
+      "name": "郁金香球茎",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Tulip_Bulb",
+        "revision": 192747,
+        "sha256": "29a5b1dd2a57a27404f8b1801b52eb6b231687e4086fd9d66af9588fb19323cc"
+      }
+    },
+    {
+      "nativeId": "429",
+      "title": "Jazz Seeds",
+      "dataset": "items",
+      "slug": "seed-429",
+      "name": "蓝爵士种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Jazz_Seeds",
+        "revision": 193272,
+        "sha256": "d5ce7af5b78472a333e382f002cd8c6985d8ea07ec8247bcfe9e05cfad5071f7"
+      }
+    },
+    {
+      "nativeId": "431",
+      "title": "Sunflower Seeds",
+      "dataset": "items",
+      "slug": "seed-431",
+      "name": "向日葵种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sunflower_Seeds",
+        "revision": 193137,
+        "sha256": "730e38b406e03363c2fb260eccdde68c9993ea4a0026043d07e782b82b7687ec"
+      }
+    },
+    {
+      "nativeId": "433",
+      "title": "Coffee Bean",
+      "dataset": "crops",
+      "slug": "coffee-bean",
+      "name": "咖啡豆",
+      "reused": true,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Coffee_Bean",
+        "revision": 193175,
+        "sha256": "c75a2804d9cf7df75fab708df2d76df87f86d27b09ffad7d57f1fb4505c33de0"
+      }
+    },
+    {
+      "nativeId": "453",
+      "title": "Poppy Seeds",
+      "dataset": "items",
+      "slug": "seed-453",
+      "name": "虞美人种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Poppy_Seeds",
+        "revision": 193261,
+        "sha256": "f33513156cedd61d9bef84d2c3c64fda017bde01f718f4102177c4b0fa33e308"
+      }
+    },
+    {
+      "nativeId": "455",
+      "title": "Spangle Seeds",
+      "dataset": "items",
+      "slug": "seed-455",
+      "name": "夏季亮片种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Spangle_Seeds",
+        "revision": 193374,
+        "sha256": "12c14022d5107cbbf0444d6f541e66716584141d959fc7b390a625b6ed24280c"
+      }
+    },
+    {
+      "nativeId": "472",
+      "title": "Parsnip Seeds",
+      "dataset": "items",
+      "slug": "seed-472",
+      "name": "防风草种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Parsnip_Seeds",
+        "revision": 193542,
+        "sha256": "8bd5d0950fc7d122af1f7ad8d30fab0540f2792c04f431536b34437bb61a4972"
+      }
+    },
+    {
+      "nativeId": "473",
+      "title": "Bean Starter",
+      "dataset": "items",
+      "slug": "seed-473",
+      "name": "青豆种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bean_Starter",
+        "revision": 193169,
+        "sha256": "81ff21e22abd30ab51e9802bbe3391541424faab3e90470f3f367f82ce47c101"
+      }
+    },
+    {
+      "nativeId": "474",
+      "title": "Cauliflower Seeds",
+      "dataset": "items",
+      "slug": "seed-474",
+      "name": "花椰菜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cauliflower_Seeds",
+        "revision": 193301,
+        "sha256": "ea9130ce3cdbc69c3cee1ce9b2a2790e5f879bb4f5f57fea524a314bcc024bf2"
+      }
+    },
+    {
+      "nativeId": "475",
+      "title": "Potato Seeds",
+      "dataset": "items",
+      "slug": "seed-475",
+      "name": "土豆种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Potato_Seeds",
+        "revision": 193264,
+        "sha256": "e0eaad75ab90bf6d331c056395d89f693ef19955ae04ac4098c88ebf0b9738a9"
+      }
+    },
+    {
+      "nativeId": "476",
+      "title": "Garlic Seeds",
+      "dataset": "items",
+      "slug": "seed-476",
+      "name": "大蒜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Garlic_Seeds",
+        "revision": 193128,
+        "sha256": "e47dc532d7b2e63d9bd7e6e3bc4c171a72114eced4a9240df09018aae53b5093"
+      }
+    },
+    {
+      "nativeId": "477",
+      "title": "Kale Seeds",
+      "dataset": "items",
+      "slug": "seed-477",
+      "name": "甘蓝种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Kale_Seeds",
+        "revision": 193362,
+        "sha256": "fd17a0f76a1a155043eeabc2641f85a2a0b0d3296e9633599a314eefd5ab96c7"
+      }
+    },
+    {
+      "nativeId": "478",
+      "title": "Rhubarb Seeds",
+      "dataset": "items",
+      "slug": "seed-478",
+      "name": "大黄种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rhubarb_Seeds",
+        "revision": 193243,
+        "sha256": "5cb8b11e6b71421aadc8d4feb087865f67c9de5369c69d40971d29cf461b7cec"
+      }
+    },
+    {
+      "nativeId": "479",
+      "title": "Melon Seeds",
+      "dataset": "items",
+      "slug": "seed-479",
+      "name": "甜瓜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Melon_Seeds",
+        "revision": 193509,
+        "sha256": "b5bfd8337bc7b5c3a4bc6779aedc9700c45235c4373e99623ffe1946b71551de"
+      }
+    },
+    {
+      "nativeId": "480",
+      "title": "Tomato Seeds",
+      "dataset": "items",
+      "slug": "seed-480",
+      "name": "西红柿种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Tomato_Seeds",
+        "revision": 192867,
+        "sha256": "d16b80e766ba81423026b8383317a284c0b594fa5732bba77816e2d9a575896b"
+      }
+    },
+    {
+      "nativeId": "481",
+      "title": "Blueberry Seeds",
+      "dataset": "items",
+      "slug": "seed-481",
+      "name": "蓝莓种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Blueberry_Seeds",
+        "revision": 193154,
+        "sha256": "64a0fe0353230a76b890868bcf39bb155ebbbf12e974391b91dfed2d733af4fe"
+      }
+    },
+    {
+      "nativeId": "482",
+      "title": "Pepper Seeds",
+      "dataset": "items",
+      "slug": "seed-482",
+      "name": "辣椒种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pepper_Seeds",
+        "revision": 193254,
+        "sha256": "400b3f48d06c028d7b3f98cf1c5f554b2645bc95635e588f2e585a19a265d8b9"
+      }
+    },
+    {
+      "nativeId": "483",
+      "title": "Wheat Seeds",
+      "dataset": "items",
+      "slug": "seed-483",
+      "name": "小麦种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wheat_Seeds",
+        "revision": 193508,
+        "sha256": "a402137691d34f3420b4083f89dd9d10cf95b080aefce11722b45df2d8d5bec0"
+      }
+    },
+    {
+      "nativeId": "484",
+      "title": "Radish Seeds",
+      "dataset": "items",
+      "slug": "seed-484",
+      "name": "萝卜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Radish_Seeds",
+        "revision": 193303,
+        "sha256": "84ad76943e2f5697928dd710f40d08a9abd347f936b1e42e4fd4a463f13f7985"
+      }
+    },
+    {
+      "nativeId": "485",
+      "title": "Red Cabbage Seeds",
+      "dataset": "items",
+      "slug": "seed-485",
+      "name": "红叶卷心菜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Red_Cabbage_Seeds",
+        "revision": 193364,
+        "sha256": "c2093b6db2a161646ac165569c37131b62a46382eaeee0691804e4ea1eafa61d"
+      }
+    },
+    {
+      "nativeId": "486",
+      "title": "Starfruit Seeds",
+      "dataset": "items",
+      "slug": "seed-486",
+      "name": "杨桃种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Starfruit_Seeds",
+        "revision": 193359,
+        "sha256": "db2b69d68f7b90c53707b39876d70e5514832b7aedb38e9a66ff5cc087978955"
+      }
+    },
+    {
+      "nativeId": "487",
+      "title": "Corn Seeds",
+      "dataset": "items",
+      "slug": "seed-487",
+      "name": "玉米种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Corn_Seeds",
+        "revision": 193908,
+        "sha256": "e3a56a14afc058a588458f88a8979cdaa6466229fef2272f3efbba723c512e37"
+      }
+    },
+    {
+      "nativeId": "488",
+      "title": "Eggplant Seeds",
+      "dataset": "items",
+      "slug": "seed-488",
+      "name": "茄子种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Eggplant_Seeds",
+        "revision": 193225,
+        "sha256": "d6661df38344e97a85961385bd14d5115b776a3ff1b18243dc84d35a2c877593"
+      }
+    },
+    {
+      "nativeId": "489",
+      "title": "Artichoke Seeds",
+      "dataset": "items",
+      "slug": "seed-489",
+      "name": "洋蓟种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Artichoke_Seeds",
+        "revision": 193180,
+        "sha256": "a5437cbb692ebb4e00a5c210d07169ccc5a92c67120961e368f8c2309728a5f8"
+      }
+    },
+    {
+      "nativeId": "490",
+      "title": "Pumpkin Seeds",
+      "dataset": "items",
+      "slug": "seed-490",
+      "name": "南瓜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pumpkin_Seeds",
+        "revision": 193178,
+        "sha256": "c33705c7471c3a609d98f42b3c4dda2627ac530a603fec339f814e29d74f1975"
+      }
+    },
+    {
+      "nativeId": "491",
+      "title": "Bok Choy Seeds",
+      "dataset": "items",
+      "slug": "seed-491",
+      "name": "小白菜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bok_Choy_Seeds",
+        "revision": 193310,
+        "sha256": "9846688cd4bb2a87c604dfbb10cc9ab39da0ab01869629c199bce467db93c5e3"
+      }
+    },
+    {
+      "nativeId": "492",
+      "title": "Yam Seeds",
+      "dataset": "items",
+      "slug": "seed-492",
+      "name": "山药种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Yam_Seeds",
+        "revision": 191077,
+        "sha256": "e54a37b8d3a2f32c9ce9e886eb34a58a72c29139f981e625c92df012b94354a7"
+      }
+    },
+    {
+      "nativeId": "493",
+      "title": "Cranberry Seeds",
+      "dataset": "items",
+      "slug": "seed-493",
+      "name": "蔓越莓种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cranberry_Seeds",
+        "revision": 193275,
+        "sha256": "e2e42697d73d2877921c1802df6a547cf8320b618cf1e05dc13fdf8d26a83d5c"
+      }
+    },
+    {
+      "nativeId": "494",
+      "title": "Beet Seeds",
+      "dataset": "items",
+      "slug": "seed-494",
+      "name": "甜菜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Beet_Seeds",
+        "revision": 193158,
+        "sha256": "3e09665e64944aba7c3f6874a75e4cdae6c6a50fe5bd2f39e8b04babb9d0460a"
+      }
+    },
+    {
+      "nativeId": "495",
+      "title": "Spring Seeds",
+      "dataset": "items",
+      "slug": "seed-495",
+      "name": "春季种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Spring_Seeds",
+        "revision": 193245,
+        "sha256": "c47688769251e47e2eb0659ba6bc7866360be6d5cf12a72291ada7de48e2d3f7"
+      }
+    },
+    {
+      "nativeId": "496",
+      "title": "Summer Seeds",
+      "dataset": "items",
+      "slug": "seed-496",
+      "name": "夏季种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Summer_Seeds",
+        "revision": 193299,
+        "sha256": "c7207009150460abd9478fa15f8618c997172fce8cd59afd3460e3abc7b11b96"
+      }
+    },
+    {
+      "nativeId": "497",
+      "title": "Fall Seeds",
+      "dataset": "items",
+      "slug": "seed-497",
+      "name": "秋季种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fall_Seeds",
+        "revision": 193217,
+        "sha256": "f038fd9117a4522e691e768b006dcde77724c31708315cd05e6298a5f5e33adf"
+      }
+    },
+    {
+      "nativeId": "498",
+      "title": "Winter Seeds",
+      "dataset": "items",
+      "slug": "seed-498",
+      "name": "冬季种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Winter_Seeds",
+        "revision": 192690,
+        "sha256": "18d6978efc2a2318aaae889e883dc757accf454e071359d9d5fb08cca130d921"
+      }
+    },
+    {
+      "nativeId": "499",
+      "title": "Ancient Seeds",
+      "dataset": "items",
+      "slug": "seed-499",
+      "name": "上古种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ancient_Seeds",
+        "revision": 177195,
+        "sha256": "ac91545d413a4497c31c2317b6b708339ed87743c8b89b8df1b8031c9c1d6f28"
+      }
+    },
+    {
+      "nativeId": "628",
+      "title": "Cherry Sapling",
+      "dataset": "items",
+      "slug": "seed-628",
+      "name": "樱桃树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cherry_Sapling",
+        "revision": 193193,
+        "sha256": "8a4ffddbc3e3e137d5a1e22cfb2fcb50f24caa0221b070fa19747e5c4eca2335"
+      }
+    },
+    {
+      "nativeId": "629",
+      "title": "Apricot Sapling",
+      "dataset": "items",
+      "slug": "seed-629",
+      "name": "杏子树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Apricot_Sapling",
+        "revision": 193136,
+        "sha256": "f7a93db08a30bb7eb2b2231984aa9e98df0563a65a61c475d1f747e670934ac5"
+      }
+    },
+    {
+      "nativeId": "630",
+      "title": "Orange Sapling",
+      "dataset": "items",
+      "slug": "seed-630",
+      "name": "橙子树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Orange_Sapling",
+        "revision": 193222,
+        "sha256": "0a86787a8ddfa14612b8e2e9a4db6c3a754a893abf911dfa1df200dc04cb2307"
+      }
+    },
+    {
+      "nativeId": "631",
+      "title": "Peach Sapling",
+      "dataset": "items",
+      "slug": "seed-631",
+      "name": "桃子树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Peach_Sapling",
+        "revision": 193164,
+        "sha256": "a804f47fed8595298b5e0f6f45a690a1cd5675424f3543cbe6ddaba1091be777"
+      }
+    },
+    {
+      "nativeId": "632",
+      "title": "Pomegranate Sapling",
+      "dataset": "items",
+      "slug": "seed-632",
+      "name": "石榴树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pomegranate_Sapling",
+        "revision": 193298,
+        "sha256": "063051e846ee081f737c996a6767bb689d42fe58e136e3e81012baf704c9259c"
+      }
+    },
+    {
+      "nativeId": "633",
+      "title": "Apple Sapling",
+      "dataset": "items",
+      "slug": "seed-633",
+      "name": "苹果树苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Apple_Sapling",
+        "revision": 193343,
+        "sha256": "3fbafe0fa6dd7fbafd6e89b716254995230a806ce7a773ea171f72166f369a4e"
+      }
+    },
+    {
+      "nativeId": "745",
+      "title": "Strawberry Seeds",
+      "dataset": "items",
+      "slug": "seed-745",
+      "name": "草莓种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Strawberry_Seeds",
+        "revision": 191000,
+        "sha256": "1be19f5bd693b4a9da35fac6728b25f1abab57a62f3297edeaa149b50028f105"
+      }
+    },
+    {
+      "nativeId": "770",
+      "title": "Mixed Seeds",
+      "dataset": "items",
+      "slug": "seed-770",
+      "name": "混合种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mixed_Seeds",
+        "revision": 191480,
+        "sha256": "b0541c18649b862cd5be01fd2879b3de797ba07983192be3f854f99597b4c7a4"
+      }
+    },
+    {
+      "nativeId": "802",
+      "title": "Cactus Seeds",
+      "dataset": "items",
+      "slug": "seed-802",
+      "name": "仙人掌种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cactus_Seeds",
+        "revision": 182668,
+        "sha256": "2e482576bcaddc908da732201a93a6e8c81a8c8293e14629072611e0e0f75f52"
+      }
+    },
+    {
+      "nativeId": "831",
+      "title": "Taro Tuber",
+      "dataset": "items",
+      "slug": "seed-831",
+      "name": "芋头块茎",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Taro_Tuber",
+        "revision": 192707,
+        "sha256": "982755c4a3981b5e2d13bc1e2f3d4cf98127740574c5acf77f1eab62eb6ce118"
+      }
+    },
+    {
+      "nativeId": "833",
+      "title": "Pineapple Seeds",
+      "dataset": "items",
+      "slug": "seed-833",
+      "name": "菠萝种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pineapple_Seeds",
+        "revision": 190525,
+        "sha256": "2dc586d2cd9731e4a46ee02f50ed222dbe88b19f543e4d9c821eb39a9a8a3f11"
+      }
+    },
+    {
+      "nativeId": "835",
+      "title": "Mango Sapling",
+      "dataset": "items",
+      "slug": "seed-835",
+      "name": "芒果幼苗",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mango_Sapling",
+        "revision": 190272,
+        "sha256": "91b190ece51ddd879f861e28080916d3384a9da302bdc41665be1ce462a294a3"
+      }
+    },
+    {
+      "nativeId": "885",
+      "title": "Fiber Seeds",
+      "dataset": "items",
+      "slug": "seed-885",
+      "name": "纤维种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fiber_Seeds",
+        "revision": 193587,
+        "sha256": "bc444f14667fbeb6a4fcb167e5c0d4843ff50b638545c0dde98bfc38b7d03cc8"
+      }
+    },
+    {
+      "nativeId": "890",
+      "title": "Qi Bean",
+      "dataset": "items",
+      "slug": "seed-890",
+      "name": "齐豆",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Qi_Bean",
+        "revision": 192576,
+        "sha256": "253c578728880c93fe4ae45e022ef2520dc098a3c3bedf4e978c2da92933440a"
+      }
+    },
+    {
+      "nativeId": "891",
+      "title": "Mushroom Tree Seed",
+      "dataset": "items",
+      "slug": "seed-891",
+      "name": "蘑菇树种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mushroom_Tree_Seed",
+        "revision": 190491,
+        "sha256": "613ae6bdff256bc44316dc6cb984626dea445f755f9159aeae8cf64271b14bed"
+      }
+    },
+    {
+      "nativeId": "MixedFlowerSeeds",
+      "title": "Mixed Flower Seeds",
+      "dataset": "items",
+      "slug": "seed-mixedflowerseeds",
+      "name": "混合花卉种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mixed_Flower_Seeds",
+        "revision": 190498,
+        "sha256": "0c7453b6d62a1e8e5ac26b50f84d08d7cbcf1ddc67920e68d2ca7e6b230e9935"
+      }
+    },
+    {
+      "nativeId": "MossySeed",
+      "title": "Mossy Seed",
+      "dataset": "items",
+      "slug": "seed-mossyseed",
+      "name": "长满苔藓的种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mossy_Seed",
+        "revision": 193998,
+        "sha256": "d0b5559450fe5e220baea1673aab1e2f6a536f5f90b07e180624dec8c6208a70"
+      }
+    },
+    {
+      "nativeId": "MysticTreeSeed",
+      "title": "Mystic Tree Seed",
+      "dataset": "items",
+      "slug": "seed-mystictreeseed",
+      "name": "神秘树种",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mystic_Tree_Seed",
+        "revision": 193531,
+        "sha256": "cd286f6e30f656bc9aa2830afd51345545dff6bc50a95f653b47787b68845f70"
+      }
+    },
+    {
+      "nativeId": "CarrotSeeds",
+      "title": "Carrot Seeds",
+      "dataset": "items",
+      "slug": "seed-carrotseeds",
+      "name": "胡萝卜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Carrot_Seeds",
+        "revision": 182667,
+        "sha256": "d7a083618ac7af4254dca130c6b1100c7f74afc2935a0b81fbcc7c58678c799c"
+      }
+    },
+    {
+      "nativeId": "SummerSquashSeeds",
+      "title": "Summer Squash Seeds",
+      "dataset": "items",
+      "slug": "seed-summersquashseeds",
+      "name": "金皮西葫芦种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Summer_Squash_Seeds",
+        "revision": 192622,
+        "sha256": "24467b7f35ae3008b32cc78fbd2cf8204f0aa8334087e7ab1f68cf4a88a23b87"
+      }
+    },
+    {
+      "nativeId": "BroccoliSeeds",
+      "title": "Broccoli Seeds",
+      "dataset": "items",
+      "slug": "seed-broccoliseeds",
+      "name": "西蓝花种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Broccoli_Seeds",
+        "revision": 183025,
+        "sha256": "fb2187fd5f9e87b7eda72b660d318096a1412efd418e32cac6f5982cc17250fd"
+      }
+    },
+    {
+      "nativeId": "PowdermelonSeeds",
+      "title": "Powdermelon Seeds",
+      "dataset": "items",
+      "slug": "seed-powdermelonseeds",
+      "name": "霜瓜种子",
+      "reused": false,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Powdermelon_Seeds",
+        "revision": 190536,
+        "sha256": "73e9ec3af3b1363e78a22037157fa0b1434cbf2299209666d21612a7dc89637c"
+      }
+    }
+  ]
+}

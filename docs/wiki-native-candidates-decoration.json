@@ -1,0 +1,105 @@
+{
+  "version": "1.6.15",
+  "id": "decoration",
+  "name": "壁纸、地板与装饰",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 261,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/AdditionalWallpaperFlooring",
+      "sha256": "FD6159E48C67203C847F0A9D3E1B769A16B252A092826503124080D9C9BEBC66",
+      "count": 2,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "MoreWalls"
+        },
+        {
+          "nativeId": "1",
+          "nativeName": "MoreFloors"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "count": 17,
+      "records": [
+        {
+          "nativeId": "286",
+          "nativeName": "Cherry Bomb"
+        },
+        {
+          "nativeId": "287",
+          "nativeName": "Bomb"
+        },
+        {
+          "nativeId": "288",
+          "nativeName": "Mega Bomb"
+        },
+        {
+          "nativeId": "298",
+          "nativeName": "Hardwood Fence"
+        },
+        {
+          "nativeId": "322",
+          "nativeName": "Wood Fence"
+        },
+        {
+          "nativeId": "323",
+          "nativeName": "Stone Fence"
+        },
+        {
+          "nativeId": "324",
+          "nativeName": "Iron Fence"
+        },
+        {
+          "nativeId": "325",
+          "nativeName": "Gate"
+        },
+        {
+          "nativeId": "326",
+          "nativeName": "Dwarvish Translation Guide"
+        },
+        {
+          "nativeId": "599",
+          "nativeName": "Sprinkler"
+        },
+        {
+          "nativeId": "621",
+          "nativeName": "Quality Sprinkler"
+        },
+        {
+          "nativeId": "645",
+          "nativeName": "Iridium Sprinkler"
+        },
+        {
+          "nativeId": "746",
+          "nativeName": "Jack-O-Lantern"
+        },
+        {
+          "nativeId": "893",
+          "nativeName": "Fireworks (Red)"
+        },
+        {
+          "nativeId": "894",
+          "nativeName": "Fireworks (Purple)"
+        },
+        {
+          "nativeId": "895",
+          "nativeName": "Fireworks (Green)"
+        },
+        {
+          "nativeId": "929",
+          "nativeName": "Hedge"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-flooring-inventory.json",
+    "wiki-wallpaper-inventory.json"
+  ],
+  "remainingReview": "附加墙纸/地板记录是材质集合，须展开Count；还需复核原版基础材质、固定场景及围栏路径。"
+}

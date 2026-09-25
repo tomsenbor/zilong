@@ -1,0 +1,301 @@
+{
+  "version": "1.6.15",
+  "status": "native-livestock-reviewed",
+  "nativeSha256": "84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+  "records": [
+    {
+      "id": "White Chicken",
+      "name": "白鸡",
+      "title": "Chicken",
+      "slug": "animal-white-chicken",
+      "house": "鸡舍",
+      "acquisition": "在玛妮牧场购买鸡：800金，购买时随机分配颜色；白鸡蛋或大鸡蛋也可孵化白鸡。",
+      "effect": "每天产白色鸡蛋，友好度与心情足够时可能产大鸡蛋。",
+      "restriction": "孵化需要大鸡舍或高级鸡舍的孵化器，且建筑必须留有动物名额。",
+      "mature": 3,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Chicken",
+      "sourceRevision": 189239,
+      "sourceSha256": "e3284c926e7773bcdd5667ecb16e4d2288a014c8e83420e5c2f6e4b891725469",
+      "versionEvidence": " 1.6: Eggs now always give the corresponding color of chicken in the Incubator. Blue chickens can now only be obtained from Marnie's Ranch.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/2/22/White_Chicken.png",
+        "alt": "White Chicken.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-white-chicken.png"
+    },
+    {
+      "id": "Brown Chicken",
+      "name": "褐鸡",
+      "title": "Chicken",
+      "slug": "animal-brown-chicken",
+      "house": "鸡舍",
+      "acquisition": "在玛妮牧场购买鸡：800金，购买时随机分配颜色；褐色蛋及对应大蛋可孵化褐鸡。",
+      "effect": "每天产褐色鸡蛋，友好度与心情足够时可能产褐色大鸡蛋。",
+      "restriction": "1.6孵化按蛋的颜色决定鸡的颜色；孵化器和鸡舍空位均不可缺少。",
+      "mature": 3,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Chicken",
+      "sourceRevision": 189239,
+      "sourceSha256": "e3284c926e7773bcdd5667ecb16e4d2288a014c8e83420e5c2f6e4b891725469",
+      "versionEvidence": " 1.6: Eggs now always give the corresponding color of chicken in the Incubator. Blue chickens can now only be obtained from Marnie's Ranch.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/f/fd/Brown_Chicken.png",
+        "alt": "Brown Chicken.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-brown-chicken.png"
+    },
+    {
+      "id": "Blue Chicken",
+      "name": "蓝鸡",
+      "title": "Chicken",
+      "slug": "animal-blue-chicken",
+      "house": "鸡舍",
+      "acquisition": "看过谢恩8心事件后，在玛妮牧场购买鸡（800金）时有25%机会获得蓝鸡。",
+      "effect": "每天产白色鸡蛋，不会产蓝色蛋；颜色不同不代表产蛋价格或周期提高。",
+      "restriction": "1.6不能通过孵化获得蓝鸡；未触发谢恩事件时，反复买鸡也不能绕过解锁。",
+      "mature": 3,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Chicken",
+      "sourceRevision": 189239,
+      "sourceSha256": "e3284c926e7773bcdd5667ecb16e4d2288a014c8e83420e5c2f6e4b891725469",
+      "versionEvidence": " 1.6: Eggs now always give the corresponding color of chicken in the Incubator. Blue chickens can now only be obtained from Marnie's Ranch.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/6/61/Blue_Chicken.png",
+        "alt": "Blue Chicken.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-blue-chicken.png"
+    },
+    {
+      "id": "Void Chicken",
+      "name": "虚空鸡",
+      "title": "Void Chicken",
+      "slug": "animal-void-chicken",
+      "house": "大鸡舍",
+      "acquisition": "将虚空蛋放入鸡舍孵化器，并保留动物空位；不能直接在玛妮牧场购买虚空鸡。",
+      "effect": "每天产虚空蛋，可继续孵化或加工虚空蛋黄酱，不会产普通大鸡蛋。",
+      "restriction": "先取得虚空蛋再孵化；孵化时间与出生后的成熟期是两段不同的等待。",
+      "mature": 3,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Void_Chicken",
+      "sourceRevision": 192614,
+      "sourceSha256": "c10e0f061a24ebb9767a40b6dbe10f9d4f0b12e1b7a370fab0399628b5bf14ce",
+      "versionEvidence": "Present in original 1.6.15 Data/FarmAnimals. Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/6/67/Void_Chicken.png",
+        "alt": "Void Chicken.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-void-chicken.png"
+    },
+    {
+      "id": "Golden Chicken",
+      "name": "金鸡",
+      "title": "Golden Chicken",
+      "slug": "animal-golden-chicken",
+      "house": "大鸡舍",
+      "acquisition": "将金蛋放入鸡舍孵化器，并保留动物空位；金蛋获取条件另见金蛋资料，不是普通鸡随机变色。",
+      "effect": "每天产金蛋；一枚金蛋可加工3份金星蛋黄酱，不能按普通鸡蛋的单份产量估算。",
+      "restriction": "必须先取得金蛋，不能用普通鸡蛋孵出；建筑和孵化器需要满足条件。",
+      "mature": 3,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Chicken",
+      "sourceRevision": 190362,
+      "sourceSha256": "0463eddea934245bf4de265eaf68d5dd2874e5e68e57ee8340ca044b94fe9a58",
+      "versionEvidence": " 1.5: Introduced.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/3/3c/Golden_Chicken.png",
+        "alt": "Golden Chicken.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-golden-chicken.png"
+    },
+    {
+      "id": "Duck",
+      "name": "鸭",
+      "title": "Duck",
+      "slug": "animal-duck",
+      "house": "大鸡舍",
+      "acquisition": "玛妮牧场购买：1,200金；也可以将鸭蛋放入鸡舍孵化器，前提是有动物空位。",
+      "effect": "每2天产鸭蛋，友好度和心情足够时可能改产鸭毛，不是每天同时给两种产品。",
+      "restriction": "鸭子能游泳，但收集鸭蛋与鸭毛仍需要关注生产周期和当天动物状态。",
+      "mature": 5,
+      "period": 2,
+      "sourceUrl": "https://stardewvalleywiki.com/Duck",
+      "sourceRevision": 182104,
+      "sourceSha256": "b3eb1e565dbb3a8c3796f7f85f243c5b9b83713f3942356cb39d44e6df67230f",
+      "versionEvidence": " 1.5: Lowered purchase price from data-sort-value=\"4000\">4,000g to data-sort-value=\"1200\">1,200g. Increased Duck Feather price from data-sort-value=\"125\">125g to data-sort-value=\"250\">250g. Ducks can now swim in water. 1.5.2: Lowered sell price from data-sort-value=\"5200\">5,200g to data-sort-value=\"1560\">1,560g.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/3/38/Duck.png",
+        "alt": "Duck.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-duck.png"
+    },
+    {
+      "id": "Rabbit",
+      "name": "兔子",
+      "title": "Rabbit",
+      "slug": "animal-rabbit",
+      "house": "高级鸡舍",
+      "acquisition": "在玛妮牧场以8,000金购买，并安排高级鸡舍空位；不是将兔子的脚放入孵化器。",
+      "effect": "每4天掉落动物毛；状态足够好时可能改产兔子的脚，不需要用剪刀剪毛。",
+      "restriction": "兔子不会繁殖；兔子的脚不能靠宰杀或孵化取得，不能保证每次都产出。",
+      "mature": 6,
+      "period": 4,
+      "sourceUrl": "https://stardewvalleywiki.com/Rabbit",
+      "sourceRevision": 190501,
+      "sourceSha256": "dc2d1b993be933baea8f831518c75d4fd1081206ac8cbb304bf1a9d6bfd8c854",
+      "versionEvidence": "Present in original 1.6.15 Data/FarmAnimals. Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/f/fd/Rabbit.png",
+        "alt": "Rabbit.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-rabbit.png"
+    },
+    {
+      "id": "Dinosaur",
+      "name": "恐龙",
+      "title": "Dinosaur",
+      "slug": "animal-dinosaur",
+      "house": "大鸡舍",
+      "acquisition": "将恐龙蛋放入鸡舍孵化器，建筑要有空位；孵化完成即成熟，不在玛妮牧场出售。",
+      "effect": "每7天产恐龙蛋，可留种孵化或加工恐龙蛋黄酱，不是可战斗的喷火怪物。",
+      "restriction": "孵化时间不等于成熟天数：恐龙出壳后已成熟，但仍需按饲养条件等待产蛋。",
+      "mature": 0,
+      "period": 7,
+      "sourceUrl": "https://stardewvalleywiki.com/Dinosaur",
+      "sourceRevision": 179765,
+      "sourceSha256": "7c4c2c35a8803ced0ffeccb71fc3ccbc1d69082226658e7d60e6cb992316065b",
+      "versionEvidence": " 1.0: Introduced. 1.2.26: Fixed bug where they wouldn't produce goods at high happiness. 1.4: Fixed bug allowing wallpaper #108 to be placed in an incubator in lieu of a Dinosaur Egg. 1.6: A new dialogue interaction was added with Demetrius for hatching a dinosaur. Additionally, a new book of power interaction increases the value of unprocessed dinosaur eggs.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/8/89/Dinosaur.png",
+        "alt": "Dinosaur.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-dinosaur.png"
+    },
+    {
+      "id": "White Cow",
+      "name": "白牛",
+      "title": "Cow",
+      "slug": "animal-white-cow",
+      "house": "畜棚",
+      "acquisition": "在玛妮牧场以1,500金购买牛，白色或褐色随机；有条件时也可通过畜棚生育增加数量。",
+      "effect": "每天产牛奶，状态足够好时产大壶牛奶；用挤奶桶或自动采集器收集。",
+      "restriction": "颜色不改变牛奶种类；不能将牛奶放入孵化器，应保留畜棚空位并喂食。",
+      "mature": 5,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Cow",
+      "sourceRevision": 193886,
+      "sourceSha256": "5dd8b7de810223ed616aeede754449928b205f72f2a69695ea7b512338ebddc2",
+      "versionEvidence": "Present in original 1.6.15 Data/FarmAnimals. Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/3/36/White_Cow.png",
+        "alt": "White Cow.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-white-cow.png"
+    },
+    {
+      "id": "Brown Cow",
+      "name": "褐牛",
+      "title": "Cow",
+      "slug": "animal-brown-cow",
+      "house": "畜棚",
+      "acquisition": "在玛妮牧场以1,500金购买牛，白色或褐色随机；有条件时也可通过畜棚生育增加数量。",
+      "effect": "每天产牛奶，状态足够好时产大壶牛奶；与白牛产出相同，不产褐色牛奶。",
+      "restriction": "颜色不改变牛奶种类；用挤奶桶或自动采集器收集，不是直接掉落在地面。",
+      "mature": 5,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Cow",
+      "sourceRevision": 193886,
+      "sourceSha256": "5dd8b7de810223ed616aeede754449928b205f72f2a69695ea7b512338ebddc2",
+      "versionEvidence": "Present in original 1.6.15 Data/FarmAnimals. Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/3/3e/Brown_Cow.png",
+        "alt": "Brown Cow.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-brown-cow.png"
+    },
+    {
+      "id": "Goat",
+      "name": "山羊",
+      "title": "Goat",
+      "slug": "animal-goat",
+      "house": "大畜棚",
+      "acquisition": "在玛妮牧场以4,000金购买，并安排大畜棚或高级畜棚空位；可以在条件满足时生育。",
+      "effect": "每2天产羊奶，状态足够好时产大瓶羊奶；用挤奶桶或自动采集器收集。",
+      "restriction": "不要按奶牛的每日周期安排羊奶；成熟、喂食与生产周期都需要满足。",
+      "mature": 5,
+      "period": 2,
+      "sourceUrl": "https://stardewvalleywiki.com/Goat",
+      "sourceRevision": 190212,
+      "sourceSha256": "8ad5c89f645e52f90838391d29044b173800aa3dad4ac376b4cfb9faf9cdbe44",
+      "versionEvidence": "Present in original 1.6.15 Data/FarmAnimals. Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/5/52/Goat.png",
+        "alt": "Goat.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-goat.png"
+    },
+    {
+      "id": "Sheep",
+      "name": "绵羊",
+      "title": "Sheep",
+      "slug": "animal-sheep",
+      "house": "高级畜棚",
+      "acquisition": "在玛妮牧场以8,000金购买，并安排高级畜棚空位；剪刀或自动采集器用于收毛。",
+      "effect": "基础每3天长出动物毛；满足亲密度与牧羊人职业条件时可以缩短周期。",
+      "restriction": "需喂食且心情至少70；友好度至少900减少1天，牧羊人再减少1天，两者叠加可每天产毛。",
+      "mature": 4,
+      "period": 3,
+      "sourceUrl": "https://stardewvalleywiki.com/Sheep",
+      "sourceRevision": 190517,
+      "sourceSha256": "b0865ea8446baed255074476317b135afc20eb42fd9e54506852a465e3de78ca",
+      "versionEvidence": " 1.0: Introduced. 1.2.26: Fixed bug where they wouldn't produce goods at high happiness.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/c/cc/Sheep.png",
+        "alt": "Sheep.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-sheep.png"
+    },
+    {
+      "id": "Pig",
+      "name": "猪",
+      "title": "Pig",
+      "slug": "animal-pig",
+      "house": "高级畜棚",
+      "acquisition": "在玛妮牧场以16,000金购买，并安排高级畜棚空位；成熟后需能出门活动才能寻找松露。",
+      "effect": "满足条件时在室外寻找松露，数量并非每天固定；不会在畜棚内直接掉落成品。",
+      "restriction": "冬季和雨天不找松露；需喂食、放出畜棚且有可用空地，不能按每日固定产量承诺收益。",
+      "mature": 10,
+      "period": 1,
+      "sourceUrl": "https://stardewvalleywiki.com/Pig",
+      "sourceRevision": 192521,
+      "sourceSha256": "0fa5cc54055eda0e0fd8bd2cde0a9bd95763d0b997117574ce164df86d81cb4b",
+      "versionEvidence": " 1.0: Introduced. 1.2.26: Fixed bug where they wouldn't produce goods at high happiness. 1.5: Crafted flooring/paths no longer prevent pigs from producing truffles. 1.6: Can now rarely dig up Truffle Crabs.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/3/30/Pig.png",
+        "alt": "Pig.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-pig.png"
+    },
+    {
+      "id": "Ostrich",
+      "name": "鸵鸟",
+      "title": "Ostrich",
+      "slug": "animal-ostrich",
+      "house": "畜棚",
+      "acquisition": "将鸵鸟蛋放入畜棚内的鸵鸟孵化器，普通鸡舍孵化器无效；畜棚需有动物空位。",
+      "effect": "每7天产鸵鸟蛋；一枚蛋可加工10份同品质蛋黄酱，不能按普通鸡蛋计算。",
+      "restriction": "鸵鸟孵化器配方与首枚鸵鸟蛋分别获取；先解决孵化条件，再规划每周产蛋。",
+      "mature": 7,
+      "period": 7,
+      "sourceUrl": "https://stardewvalleywiki.com/Ostrich",
+      "sourceRevision": 190522,
+      "sourceSha256": "1252da0d6da9177738fdc4298a13c932a09cda11a57a5d511f76a70fb3d74ed2",
+      "versionEvidence": " 1.5: Introduced.  Native Data/FarmAnimals SHA-256 84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "image": {
+        "src": "/mediawiki/images/a/ad/Ostrich.png",
+        "alt": "Ostrich.png"
+      },
+      "file": "public/assets/game/FarmAnimal_animal-ostrich.png"
+    }
+  ]
+}

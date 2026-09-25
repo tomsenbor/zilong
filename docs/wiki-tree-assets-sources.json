@@ -1,0 +1,173 @@
+[
+  {
+    "file": "public/assets/game/Tree_wild_1.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/42/Oak_tree_portrait.png",
+    "source": "https://stardewvalleywiki.com/Oak_Tree",
+    "revision": 192878,
+    "sha256": "43652f982cef4a6b92ff7bb2a957d793fb6539063db25a068cd20af07454b0f7",
+    "width": 96,
+    "height": 204
+  },
+  {
+    "file": "public/assets/game/Tree_wild_2.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/40/Maple_tree_portrait.png",
+    "source": "https://stardewvalleywiki.com/Maple_Tree",
+    "revision": 192877,
+    "sha256": "2e29a5b0e0185aac9349fa3ca761b54e0887bc2fa858c364953cc1d92b2fe4ee",
+    "width": 96,
+    "height": 200
+  },
+  {
+    "file": "public/assets/game/Tree_wild_3.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Pine_tree_portrait.png",
+    "source": "https://stardewvalleywiki.com/Pine_Tree",
+    "revision": 192879,
+    "sha256": "c2b7af2410bf490f9a73d98d620dee30dc2dc6e89d9248c6a25a41874cd10181",
+    "width": 96,
+    "height": 202
+  },
+  {
+    "file": "public/assets/game/Tree_wild_6.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/36/Palm_tree_portrait.png/96px-Palm_tree_portrait.png",
+    "source": "https://stardewvalleywiki.com/Palm_Tree",
+    "revision": 161064,
+    "sha256": "52d08c379ca535c39de3a05af275c09976c9158e78decc0942f16797ad9d6b2b",
+    "width": 96,
+    "height": 177
+  },
+  {
+    "file": "public/assets/game/Tree_wild_7.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Mushroom_tree_portrait.png/96px-Mushroom_tree_portrait.png",
+    "source": "https://stardewvalleywiki.com/Mushroom_Tree",
+    "revision": 192872,
+    "sha256": "d139736821f26f29da078029d0381d93cc71f59d62e5f6ea08d1e9bc4313805f",
+    "width": 96,
+    "height": 179
+  },
+  {
+    "file": "public/assets/game/Tree_wild_8.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Mahogany_Tree_Portrait.png",
+    "source": "https://stardewvalleywiki.com/Mahogany_Tree",
+    "revision": 190228,
+    "sha256": "83780b0bf9aa4039449ff6b34fab0ddd259c85217a993dca3e9be2b1054fa607",
+    "width": 96,
+    "height": 201
+  },
+  {
+    "file": "public/assets/game/Tree_wild_9.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Palm_Tree_Island_Portrait.png",
+    "source": "https://stardewvalleywiki.com/Palm_Tree",
+    "revision": 161064,
+    "sha256": "fb212bf61f43b8fd912e390483faf8aa8c76f44c48041a467becab6ded8af570",
+    "width": 88,
+    "height": 203
+  },
+  {
+    "file": "public/assets/game/Tree_wild_10.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Wild_Tree_Stage_5.png/400px-Wild_Tree_Stage_5.png",
+    "source": "https://stardewvalleywiki.com/Green_Rain_Trees",
+    "revision": 191368,
+    "sha256": "35e421d4e18a2f3fff5d1af9cf332ab402de89453f70f14d3a54643f6858bfd1",
+    "width": 400,
+    "height": 202
+  },
+  {
+    "file": "public/assets/game/Tree_wild_11.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Lush_Wild_Tree_Stage_5.png/400px-Lush_Wild_Tree_Stage_5.png",
+    "source": "https://stardewvalleywiki.com/Green_Rain_Trees",
+    "revision": 191368,
+    "sha256": "1a0880f7ab8142f2feecb0ccf08ae179d9727ef8c0102c1a4c85c179ec576f2e",
+    "width": 400,
+    "height": 202
+  },
+  {
+    "file": "public/assets/game/Tree_wild_12.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/89/Fiddlehead_Stalk_Stage_5.png/300px-Fiddlehead_Stalk_Stage_5.png",
+    "source": "https://stardewvalleywiki.com/Green_Rain_Trees",
+    "revision": 191368,
+    "sha256": "698baf4eee45b9627bf51899ba03ef69a9e6b62922c1c7444bbe8f91629c7f9e",
+    "width": 300,
+    "height": 220
+  },
+  {
+    "file": "public/assets/game/Tree_wild_13.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Mystic_Tree_Portrait.png",
+    "source": "https://stardewvalleywiki.com/Mystic_Tree",
+    "revision": 193533,
+    "sha256": "becce11feb4970b6180fefcd8a46fdfb72eb7f174032c31c686530f21e02be53",
+    "width": 94,
+    "height": 216
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_69.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Banana_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Banana_Tree",
+    "revision": 187596,
+    "sha256": "5764f2af692f7fff5bb0beeca16b837646efd131212f57bbe272737422e24b5d",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_628.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Cherry_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Cherry_Tree",
+    "revision": 173189,
+    "sha256": "58ab053e1d12aef7cfa314959fd92731e0451c7943ab47e6c0946759e5127e6e",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_629.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Apricot_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Apricot_Tree",
+    "revision": 173188,
+    "sha256": "1c34795d65b422ad6680e50c6590b1ad8c8583cd43e52c797417f3d516765196",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_630.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b8/Orange_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Orange_Tree",
+    "revision": 173192,
+    "sha256": "b62424765605d2de4b1af74dbd73758964d8ffbca63c2ff69d1c1c0705bbe7c2",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_631.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/59/Peach_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Peach_Tree",
+    "revision": 173187,
+    "sha256": "d75df62d49e3d5e5de0c01dc831211004e4a800ed777e0e5c83cd6bf06f5a2fd",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_632.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/75/Pomegranate_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Pomegranate_Tree",
+    "revision": 173194,
+    "sha256": "e0e86d12ca046f5720585c1e88d904b3ae5d1b3f3e247b90e9d4af5d7e8709e6",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_633.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Apple_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Apple_Tree",
+    "revision": 185493,
+    "sha256": "b654d42ef1bd7116caddea7ee407b49e7ca8b5174cd1715dd94fae0369932d6a",
+    "width": 96,
+    "height": 160
+  },
+  {
+    "file": "public/assets/game/Tree_fruit_835.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/56/Mango_Stage_5_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Mango_Tree",
+    "revision": 187597,
+    "sha256": "f2665876aa5e5f7ba2da82d6871c76b962d50a3e9ab60779ad7e97311ae552d1",
+    "width": 96,
+    "height": 160
+  }
+]

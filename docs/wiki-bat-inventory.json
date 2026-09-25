@@ -1,0 +1,286 @@
+{
+  "version": "1.6.15",
+  "source": {
+    "url": "https://stardewvalleywiki.com/Bats",
+    "revision": 190063,
+    "sha256": "9c97a5d9c99cac097920781cfa85aa8a9c56c2657cf0d40421e71c8d32a71e02"
+  },
+  "translation": {
+    "url": "https://zh.stardewvalleywiki.com/蝙蝠",
+    "revision": 48373,
+    "sha256": "4aa8c956090691f291179d44ad8c17966edb8e791bc64cf01e29463d08a4ed42"
+  },
+  "notes": [
+    "Use EN spawn floors, not start of biome including noncombat elevator floors.",
+    "Normal/lava bomb drop is2%, not translated20%.",
+    "Red iridium variant described inside iridium entry; dedicated sprite not claimed."
+  ],
+  "records": [
+    {
+      "id": "Bat",
+      "name": "蝙蝠",
+      "slug": "monster-bat",
+      "file": "public/assets/game/Bat_bat.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8c/Bat_Anim.gif/48px-Bat_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "蝙蝠",
+        "slug": "monster-bat",
+        "image": "/assets/game/Bat_bat.png",
+        "summary": "蝙蝠：矿井31—39层及荒野农场的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "矿井31—39层及荒野农场",
+          "形态": "普通变体",
+          "基础生命": 24,
+          "基础伤害": 6,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落蝙蝠翅膀、矮人卷轴和稀有圆盘；炸弹2%，不是部分译文误写的20%。蝙蝠翅膀存在多次掉落判定，不应把单次概率当作总概率。",
+          "条件说明": "按所列常见生成楼层寻找，随机出现不保证每次进入都遇到。",
+          "变体说明": "外形相似不代表战斗属性相同；普通版和危险版分别列出。",
+          "获取方式": "在矿井31—39层及荒野农场遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Frost Bat",
+      "name": "冰冻蝙蝠",
+      "slug": "monster-frost-bat",
+      "file": "public/assets/game/Bat_frost-bat.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Frost_Bat_Anim.gif/48px-Frost_Bat_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "冰冻蝙蝠",
+        "slug": "monster-frost-bat",
+        "image": "/assets/game/Bat_frost-bat.png",
+        "summary": "冰冻蝙蝠：矿井41—79层的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "矿井41—79层",
+          "形态": "普通变体",
+          "基础生命": 36,
+          "基础伤害": 7,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落蝙蝠翅膀、矮人卷轴和稀有圆盘；炸弹2%，不是部分译文误写的20%。蝙蝠翅膀存在多次掉落判定，不应把单次概率当作总概率。",
+          "条件说明": "按所列常见生成楼层寻找，随机出现不保证每次进入都遇到。",
+          "变体说明": "外形相似不代表战斗属性相同；普通版和危险版分别列出。",
+          "获取方式": "在矿井41—79层遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Lava Bat",
+      "name": "熔岩蝙蝠",
+      "slug": "monster-lava-bat",
+      "file": "public/assets/game/Bat_lava-bat.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Lava_Bat_Anim.gif/48px-Lava_Bat_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "熔岩蝙蝠",
+        "slug": "monster-lava-bat",
+        "image": "/assets/game/Bat_lava-bat.png",
+        "summary": "熔岩蝙蝠：矿井81—119层；骷髅洞穴20层、40层的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "矿井81—119层；骷髅洞穴20层、40层",
+          "形态": "普通变体",
+          "基础生命": 80,
+          "基础伤害": 15,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落蝙蝠翅膀、矮人卷轴和稀有圆盘；炸弹2%，不是部分译文误写的20%。蝙蝠翅膀存在多次掉落判定，不应把单次概率当作总概率。",
+          "条件说明": "按所列常见生成楼层寻找，随机出现不保证每次进入都遇到。",
+          "变体说明": "外形相似不代表战斗属性相同；普通版和危险版分别列出。",
+          "获取方式": "在矿井81—119层；骷髅洞穴20层、40层遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Iridium Bat",
+      "name": "铱蝠",
+      "slug": "monster-iridium-bat",
+      "file": "public/assets/game/Bat_iridium-bat.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/78/Iridium_Bat_Anim.gif/48px-Iridium_Bat_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "铱蝠",
+        "slug": "monster-iridium-bat",
+        "image": "/assets/game/Bat_iridium-bat.png",
+        "summary": "铱蝠：骷髅洞穴51层及更深楼层，也可出现在史前层的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "骷髅洞穴51层及更深楼层，也可出现在史前层",
+          "形态": "普通变体",
+          "基础生命": 300,
+          "基础伤害": 30,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落铱矿石、电池组、能量滋补水、铱锭、生命药水、超级炸弹和太阳精华；各物品独立判断，不保证每次击杀获得。",
+          "条件说明": "按所列常见生成楼层寻找，随机出现不保证每次进入都遇到。",
+          "变体说明": "骷髅洞穴从880层起，非史前层的铱蝠可呈红色，生命翻倍且速度明显提高；本页图标展示普通铱蝠，不将红色形态伪装成另一张原版图片。",
+          "获取方式": "在骷髅洞穴51层及更深楼层，也可出现在史前层遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Bat (dangerous)",
+      "name": "蝙蝠（危险）",
+      "slug": "monster-bat-dangerous",
+      "file": "public/assets/game/Bat_bat-dangerous.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a6/Bat_Dangerous_Anim.gif/48px-Bat_Dangerous_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "蝙蝠（危险）",
+        "slug": "monster-bat-dangerous",
+        "image": "/assets/game/Bat_bat-dangerous.png",
+        "summary": "蝙蝠（危险）：危险矿井31—39层的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "危险矿井31—39层",
+          "形态": "危险变体",
+          "基础生命": 268,
+          "基础伤害": 13,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落蝙蝠翅膀、矮人卷轴和稀有圆盘；炸弹2%，不是部分译文误写的20%。蝙蝠翅膀存在多次掉落判定，不应把单次概率当作总概率。",
+          "条件说明": "矿井需启用危险状态，例如“深处的危险”或完成后开启挑战之神庙；不是普通矿井日常敌人。",
+          "变体说明": "外形相似不代表战斗属性相同；普通版和危险版分别列出。",
+          "获取方式": "在危险矿井31—39层遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Frost Bat (dangerous)",
+      "name": "森林蝙蝠（危险）",
+      "slug": "monster-frost-bat-dangerous",
+      "file": "public/assets/game/Bat_frost-bat-dangerous.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/36/Frost_Bat_Dangerous_Anim.gif/48px-Frost_Bat_Dangerous_Anim.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "森林蝙蝠（危险）",
+        "slug": "monster-frost-bat-dangerous",
+        "image": "/assets/game/Bat_frost-bat-dangerous.png",
+        "summary": "森林蝙蝠（危险）：危险矿井41—79层的飞行敌人，需区分普通与危险形态。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "蝙蝠",
+          "出现地点": "危险矿井41—79层",
+          "形态": "危险变体",
+          "基础生命": 277,
+          "基础伤害": 14,
+          "基础防御": 1,
+          "公会目标": "各种蝙蝠共同计入消灭200只蝙蝠的目标，铱蝠也计入。",
+          "掉落说明": "可能掉落蝙蝠翅膀、矮人卷轴和稀有圆盘；炸弹2%，不是部分译文误写的20%。蝙蝠翅膀存在多次掉落判定，不应把单次概率当作总概率。",
+          "条件说明": "矿井需启用危险状态，例如“深处的危险”或完成后开启挑战之神庙；不是普通矿井日常敌人。",
+          "变体说明": "对应英文Frost Bat (dangerous)，中文资料也称冰霜蝙蝠（危险）；与普通冰冻蝙蝠的生成条件和属性不同。",
+          "获取方式": "在危险矿井41—79层遇到；这是敌人资料，不是可购买或饲养的农场动物。",
+          "主要用途": "辨认飞行敌人并规划公会讨伐；掉落物与敌人身份分开记录，不将掉落概率解释为保证产出。",
+          "应对方法": "会从不同方向飞来，注意叫声和雾气。后退调整站位让敌人集中到同一侧，再用较大范围的挥击迎击，避免同时被多只夹击。",
+          "新手建议": "先处理靠近的飞行敌人再采矿，保留恢复和离开矿洞所需的物品，不要只盯着矿石忽视来袭方向。",
+          "资料来源": "https://stardewvalleywiki.com/Bats",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "public/assets/game/Bat_bat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8c/Bat_Anim.gif/48px-Bat_Anim.gif",
+      "width": 48,
+      "height": 48,
+      "sha256": "af545b3f8ed21fc6bbc4ea883ae9a8203992afe716c5db7a466b2eba7f437820",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    },
+    {
+      "file": "public/assets/game/Bat_frost-bat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Frost_Bat_Anim.gif/48px-Frost_Bat_Anim.gif",
+      "width": 48,
+      "height": 39,
+      "sha256": "966b14e31ac0d33761c4bf015d996d350af7c78eba0f6ed62e3aad1a27613d53",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    },
+    {
+      "file": "public/assets/game/Bat_lava-bat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Lava_Bat_Anim.gif/48px-Lava_Bat_Anim.gif",
+      "width": 48,
+      "height": 39,
+      "sha256": "eadb83ef012664ee4e58f7a38c41bb34e4e8c7fdfa4a8cea0b12bad023bd7d9a",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    },
+    {
+      "file": "public/assets/game/Bat_iridium-bat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/78/Iridium_Bat_Anim.gif/48px-Iridium_Bat_Anim.gif",
+      "width": 48,
+      "height": 51,
+      "sha256": "1567decd3151d5742224c78e9066410380dfbb9cdefa8140c1fe7b7e3eb509d5",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    },
+    {
+      "file": "public/assets/game/Bat_bat-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a6/Bat_Dangerous_Anim.gif/48px-Bat_Dangerous_Anim.gif",
+      "width": 48,
+      "height": 51,
+      "sha256": "731307a9be4634f238a006d4f54bcdbff7c3f7c4a697cecdf3bd224218d473d3",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    },
+    {
+      "file": "public/assets/game/Bat_frost-bat-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/36/Frost_Bat_Dangerous_Anim.gif/48px-Frost_Bat_Dangerous_Anim.gif",
+      "width": 48,
+      "height": 51,
+      "sha256": "847009c79e3500806729980fd1321a0aee32ef5d6989c0203ffb813fa2378b5e",
+      "transform": "Source animation first frame, static PNG; no generated artwork."
+    }
+  ]
+}

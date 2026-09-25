@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "rarecrow-1",
+    "file": "public/assets/game/Agriculture_rarecrow-1.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/62/Rarecrow_1.png/32px-Rarecrow_1.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "254dc0f91f985ba1e4857398ed42b45305822861d2c68ecbb1f3bf4ea2911073"
+  },
+  {
+    "slug": "rarecrow-2",
+    "file": "public/assets/game/Agriculture_rarecrow-2.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/28/Rarecrow_2.png/32px-Rarecrow_2.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "2768b602765f9c039881bec50163ea62a1431b594d61aead7d7a9746bf8fab2d"
+  },
+  {
+    "slug": "rarecrow-3",
+    "file": "public/assets/game/Agriculture_rarecrow-3.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ea/Rarecrow_3.png/32px-Rarecrow_3.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "d81066afe2a135e3cc3ce4bccac76ca0383897d36cb916f98645f914600093ce"
+  },
+  {
+    "slug": "rarecrow-4",
+    "file": "public/assets/game/Agriculture_rarecrow-4.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ef/Rarecrow_4.png/32px-Rarecrow_4.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "65b41daaf99f0f0a9d45c42bb75f26ddda3c98493d3c2aaadb971b306114c0c0"
+  },
+  {
+    "slug": "rarecrow-5",
+    "file": "public/assets/game/Agriculture_rarecrow-5.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9f/Rarecrow_5.png/32px-Rarecrow_5.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "dee0370fdb248c9e2a0612bdb5c9b9a4e96d17510af0efba8d9797764b4b4219"
+  },
+  {
+    "slug": "rarecrow-6",
+    "file": "public/assets/game/Agriculture_rarecrow-6.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/29/Rarecrow_6.png/32px-Rarecrow_6.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "0f6e70a1f5c6ad24cce38d63fe82b04bb704333cea19be1aefbd0467f9fac8e1"
+  },
+  {
+    "slug": "rarecrow-7",
+    "file": "public/assets/game/Agriculture_rarecrow-7.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/52/Rarecrow_7.png/32px-Rarecrow_7.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "3543cc43453e75bde2831f31fdda5604056648d36d85a6c2c7a8b66be09d06f9"
+  },
+  {
+    "slug": "rarecrow-8",
+    "file": "public/assets/game/Agriculture_rarecrow-8.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Rarecrow_8.png/32px-Rarecrow_8.png",
+    "source": "https://stardewvalleywiki.com/Scarecrow",
+    "revision": 191907,
+    "width": 32,
+    "height": 64,
+    "sha256": "5ccbdbb50d72c9ec0277d8647d3cd81ffbb21c91b4307d6a5a9f140c99e518f6"
+  },
+  {
+    "slug": "grass-starter",
+    "file": "public/assets/game/Agriculture_grass-starter.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/14/Grass_Starter.png",
+    "source": "https://stardewvalleywiki.com/Grass_Starter",
+    "revision": 192865,
+    "width": 48,
+    "height": 48,
+    "sha256": "5b33af97aad98e954a78ceb4a002ef1cf9e2b62f3893c9f1c98697b0a53dc455"
+  },
+  {
+    "slug": "blue-grass-starter",
+    "file": "public/assets/game/Agriculture_blue-grass-starter.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Blue_Grass_Starter.png",
+    "source": "https://stardewvalleywiki.com/Blue_Grass_Starter",
+    "revision": 179996,
+    "width": 48,
+    "height": 48,
+    "sha256": "47700faf7413af38b524bcdd6408a6f122c4764bcebf464cd9eef5c79ff8efc4"
+  }
+]

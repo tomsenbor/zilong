@@ -1,0 +1,457 @@
+{
+  "checkedOn": "2026-09-22",
+  "targetGameVersion": "1.6.15",
+  "note": "Original game icons obtained through Stardew Valley Wiki File imageinfo; existing files were not overwritten. Copyright belongs to ConcernedApe.",
+  "assets": [
+    {
+      "file": "public/assets/game/36px-Aerinite.png",
+      "source": "https://stardewvalleywiki.com/File:Aerinite.png",
+      "sha256": "d36edaf9231791137583f0a190f63a52579c5b6ffb820dfa0c215bd14f48afb6"
+    },
+    {
+      "file": "public/assets/game/36px-Aged_Roe.png",
+      "source": "https://stardewvalleywiki.com/File:Aged_Roe.png",
+      "sha256": "775bf83f0f06fd417aedf6279f2272e7dd7ac5d97c9bf4870ad86460238fe884"
+    },
+    {
+      "file": "public/assets/game/36px-Alamite.png",
+      "source": "https://stardewvalleywiki.com/File:Alamite.png",
+      "sha256": "967da60fec716b859017beaa0ea20ecbf8722dbdf5b7d515e0eaef6989fd08c7"
+    },
+    {
+      "file": "public/assets/game/36px-Anchor.png",
+      "source": "https://stardewvalleywiki.com/File:Anchor.png",
+      "sha256": "a2292202624c3451b9507da4352fd69e1584ce4f46b9c0a0ac9a90e59b147d99"
+    },
+    {
+      "file": "public/assets/game/36px-Ancient_Doll.png",
+      "source": "https://stardewvalleywiki.com/File:Ancient_Doll.png",
+      "sha256": "399e9d1c054bd63ac374db52dce098541dad1900a8c08ee5853c2aaa2845983a"
+    },
+    {
+      "file": "public/assets/game/36px-Ancient_Drum.png",
+      "source": "https://stardewvalleywiki.com/File:Ancient_Drum.png",
+      "sha256": "a883fefa7ce797e57e4e30d9a99d609b9187000f28e30001cd111e72adc50b1e"
+    },
+    {
+      "file": "public/assets/game/36px-Ancient_Seed.png",
+      "source": "https://stardewvalleywiki.com/File:Ancient_Seed.png",
+      "sha256": "67bfcc4b6a9fa8f2cf72bffc88fc48bcdcc9b0acade0d025d526ad8bda0b5391"
+    },
+    {
+      "file": "public/assets/game/36px-Ancient_Sword.png",
+      "source": "https://stardewvalleywiki.com/File:Ancient_Sword.png",
+      "sha256": "de675b16f34010e0f9d6266a1f3fbd2734bcfb11da7beb754cb11bf33bd72b47"
+    },
+    {
+      "file": "public/assets/game/36px-Arrowhead.png",
+      "source": "https://stardewvalleywiki.com/File:Arrowhead.png",
+      "sha256": "c3db9f63a051c0b84bf83e905ee662bfef193037c745fa520479dee4a157c2ac"
+    },
+    {
+      "file": "public/assets/game/36px-Baryte.png",
+      "source": "https://stardewvalleywiki.com/File:Baryte.png",
+      "sha256": "a4211def8b0f7990bd07f4277ea751abbb5223eca234ce9cac3796662fa8e300"
+    },
+    {
+      "file": "public/assets/game/36px-Basalt.png",
+      "source": "https://stardewvalleywiki.com/File:Basalt.png",
+      "sha256": "89e2e09f69d63b4897b057febb5c9263104180043047bae755ac5966a5b88ef4"
+    },
+    {
+      "file": "public/assets/game/36px-Beer.png",
+      "source": "https://stardewvalleywiki.com/File:Beer.png",
+      "sha256": "754d116b25f0a0e69e12d5d5a600b3519f8a656deef53ed67101c85feb72c68e"
+    },
+    {
+      "file": "public/assets/game/36px-Bixite.png",
+      "source": "https://stardewvalleywiki.com/File:Bixite.png",
+      "sha256": "15cf31faaa5f8f6aa7d77a6b954276a39efb7996e47cd5da69e7a7adc063ba84"
+    },
+    {
+      "file": "public/assets/game/36px-Bone_Flute.png",
+      "source": "https://stardewvalleywiki.com/File:Bone_Flute.png",
+      "sha256": "b845b7a7856f14f791228b63b8d98ade10229682ca1bbf331f6c0bef9392b4d6"
+    },
+    {
+      "file": "public/assets/game/36px-Calcite.png",
+      "source": "https://stardewvalleywiki.com/File:Calcite.png",
+      "sha256": "8c4275e4dc74038fc32f72317e52ab85241f30817a3bd1614261ff853fc5798f"
+    },
+    {
+      "file": "public/assets/game/36px-Celestine.png",
+      "source": "https://stardewvalleywiki.com/File:Celestine.png",
+      "sha256": "98c72711ce72d99f642028e35bf6ce56e98c3bdce6bb81e059ee8cc6e1b96c3a"
+    },
+    {
+      "file": "public/assets/game/36px-Chewing_Stick.png",
+      "source": "https://stardewvalleywiki.com/File:Chewing_Stick.png",
+      "sha256": "ce40ffb27c86761b0c57f09e68afdd7e884b8daf9192f08193da8353c8df5ae3"
+    },
+    {
+      "file": "public/assets/game/36px-Chicken_Statue.png",
+      "source": "https://stardewvalleywiki.com/File:Chicken_Statue.png",
+      "sha256": "870f427045d47a8222594c8f3ee6ae8b3edbea9b30bfe73c4fd2c1e2a0dcfc18"
+    },
+    {
+      "file": "public/assets/game/36px-Chipped_Amphora.png",
+      "source": "https://stardewvalleywiki.com/File:Chipped_Amphora.png",
+      "sha256": "420c34a98a94752150138164bae76f693a6d2b96803e6125d577a6fab0affed0"
+    },
+    {
+      "file": "public/assets/game/36px-Coffee.png",
+      "source": "https://stardewvalleywiki.com/File:Coffee.png",
+      "sha256": "80a88c4c63ece9d93833b13c6dd2a6fdf78ec542f398660f8987515c694702b6"
+    },
+    {
+      "file": "public/assets/game/36px-Dolomite.png",
+      "source": "https://stardewvalleywiki.com/File:Dolomite.png",
+      "sha256": "b80b4054f5fb0ff032b61bd22748ccbe15ea2eef5da02cdad60dd0aa8f6f7e8b"
+    },
+    {
+      "file": "public/assets/game/36px-Dried_Fruit.png",
+      "source": "https://stardewvalleywiki.com/File:Dried_Fruit.png",
+      "sha256": "1433a06579004d547a652a01f9e5100c95f395c50b4293d6067c3849d41c0f2f"
+    },
+    {
+      "file": "public/assets/game/36px-Dried_Mushrooms.png",
+      "source": "https://stardewvalleywiki.com/File:Dried_Mushrooms.png",
+      "sha256": "0ba5c2a28e3e4cab0619f49410f23726f4d3dca03fad6ed19b5ee1963cd6b6d3"
+    },
+    {
+      "file": "public/assets/game/36px-Dried_Starfish.png",
+      "source": "https://stardewvalleywiki.com/File:Dried_Starfish.png",
+      "sha256": "b4ea6ee0acf1d72cc9aa2518ffee632fecca402f1913aca57ec933092789f251"
+    },
+    {
+      "file": "public/assets/game/36px-Duck_Mayonnaise.png",
+      "source": "https://stardewvalleywiki.com/File:Duck_Mayonnaise.png",
+      "sha256": "f71eed52a24dd9fde2d8e6fae9b216742bff90605dd286d2e27c2eade4186e8b"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarf_Gadget.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarf_Gadget.png",
+      "sha256": "65fae876902bc6a4fcfa1415f0f4a9a165872bc586a2edb7330ad9710be42086"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarf_Scroll_I.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarf_Scroll_I.png",
+      "sha256": "dae2754609b1b5b1ac34957c6c2d1ef81fc446194fcd8bd9d4c60844ad97e102"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarf_Scroll_II.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarf_Scroll_II.png",
+      "sha256": "ebbd3dcd87a00e896095dd5230f064eb3aa93e57944637d043bf10dc3ca008a7"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarf_Scroll_III.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarf_Scroll_III.png",
+      "sha256": "8b69ec3d84feeaa8b75158304add10a5b51374b16439f7d4223b8c9bf9ac80c3"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarf_Scroll_IV.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarf_Scroll_IV.png",
+      "sha256": "547314c6e87194f4ab899f3a5c60913f27585de361c3bbab12f475761c1dce67"
+    },
+    {
+      "file": "public/assets/game/36px-Dwarvish_Helm.png",
+      "source": "https://stardewvalleywiki.com/File:Dwarvish_Helm.png",
+      "sha256": "e0109fe26970c188ff81c3b37444814ebe7a94abbec963d4ded363a49ba2907f"
+    },
+    {
+      "file": "public/assets/game/36px-Elvish_Jewelry.png",
+      "source": "https://stardewvalleywiki.com/File:Elvish_Jewelry.png",
+      "sha256": "757031730a61993d0a5ac91dfcfc9088f01130578a99f68bc7738118f4c0e93e"
+    },
+    {
+      "file": "public/assets/game/36px-Esperite.png",
+      "source": "https://stardewvalleywiki.com/File:Esperite.png",
+      "sha256": "d623d07607b1a5fda3d8a494526dabf0db63e91a4d95bc4624052c675e64455f"
+    },
+    {
+      "file": "public/assets/game/36px-Fairy_Stone.png",
+      "source": "https://stardewvalleywiki.com/File:Fairy_Stone.png",
+      "sha256": "b07df4952823b3ecd9a7655e9810fa260c3c93796a8f5b480687b58361413288"
+    },
+    {
+      "file": "public/assets/game/36px-Fire_Opal.png",
+      "source": "https://stardewvalleywiki.com/File:Fire_Opal.png",
+      "sha256": "398c4af61d507cbce3186a1bab5feb00ab623f00fe09812ad5ed01b574da50e2"
+    },
+    {
+      "file": "public/assets/game/36px-Fluorapatite.png",
+      "source": "https://stardewvalleywiki.com/File:Fluorapatite.png",
+      "sha256": "d407bdb3acf2f56da5d960dfa67a9b2491ca1eb8f1f19ff28b7cbf9df10f9149"
+    },
+    {
+      "file": "public/assets/game/36px-Geminite.png",
+      "source": "https://stardewvalleywiki.com/File:Geminite.png",
+      "sha256": "a5d62404b69f4c1df214580fe8b90caf66142c81dac546ac4193b673b00cdac1"
+    },
+    {
+      "file": "public/assets/game/36px-Ghost_Crystal.png",
+      "source": "https://stardewvalleywiki.com/File:Ghost_Crystal.png",
+      "sha256": "61d28f5dccc80976cd0662210025c5267144b13038a771d33ded1605171d57a2"
+    },
+    {
+      "file": "public/assets/game/36px-Glass_Shards.png",
+      "source": "https://stardewvalleywiki.com/File:Glass_Shards.png",
+      "sha256": "13fbc108550b824c6810413fade8db02fa05658cb0bba88fbe745136695b4d11"
+    },
+    {
+      "file": "public/assets/game/36px-Golden_Mask.png",
+      "source": "https://stardewvalleywiki.com/File:Golden_Mask.png",
+      "sha256": "de58557eae3ad852bcb42bdb4a1fbb60fe682c73113818eca6ed2f7d8d71a8ba"
+    },
+    {
+      "file": "public/assets/game/36px-Golden_Relic.png",
+      "source": "https://stardewvalleywiki.com/File:Golden_Relic.png",
+      "sha256": "b1f16fb0a6d25f50c9459921428f912f9b6859285fe739712c74fd56560936c0"
+    },
+    {
+      "file": "public/assets/game/36px-Granite.png",
+      "source": "https://stardewvalleywiki.com/File:Granite.png",
+      "sha256": "86f5756893bb96183f545baecbed7862af031804b39050895e375650d8417a11"
+    },
+    {
+      "file": "public/assets/game/36px-Green_Tea.png",
+      "source": "https://stardewvalleywiki.com/File:Green_Tea.png",
+      "sha256": "1fc973b155243be5e67fe7a0c99fe137ae18d4d295315e0000f93d0725f3bb28"
+    },
+    {
+      "file": "public/assets/game/36px-Helvite.png",
+      "source": "https://stardewvalleywiki.com/File:Helvite.png",
+      "sha256": "88aefc00754df5fc21802a866e04b00f4ffc7e7d2ff231271a44b0e0de2c37f8"
+    },
+    {
+      "file": "public/assets/game/36px-Hematite.png",
+      "source": "https://stardewvalleywiki.com/File:Hematite.png",
+      "sha256": "b420861b238c0f9f9899d7b2a708673242fe17844b5b358b2b8b83e4ae1b0efe"
+    },
+    {
+      "file": "public/assets/game/36px-Jagoite.png",
+      "source": "https://stardewvalleywiki.com/File:Jagoite.png",
+      "sha256": "d2cd557adf26e9ab466747efb3e3552688604d4dcdff3a21edbfeb9dc7f6ada2"
+    },
+    {
+      "file": "public/assets/game/36px-Jamborite.png",
+      "source": "https://stardewvalleywiki.com/File:Jamborite.png",
+      "sha256": "e6b74a5b3b6ffae41f64f63e52204d7a92d86decef37ea68edb6e6a4ccac392b"
+    },
+    {
+      "file": "public/assets/game/36px-Jasper.png",
+      "source": "https://stardewvalleywiki.com/File:Jasper.png",
+      "sha256": "6e1af32e350bb1719c1a4bf7dcfc2705840e75b705e162acee66b543e87a4c3f"
+    },
+    {
+      "file": "public/assets/game/36px-Juice.png",
+      "source": "https://stardewvalleywiki.com/File:Juice.png",
+      "sha256": "019bf4820928aa028db365dd8073fb7562aa0cb0cca9db38a895625fcd28ec4d"
+    },
+    {
+      "file": "public/assets/game/36px-Kyanite.png",
+      "source": "https://stardewvalleywiki.com/File:Kyanite.png",
+      "sha256": "87f60efffc97761caa9ba1e0ea4de99c52f9311cec3c2707f7677826b0e4bce3"
+    },
+    {
+      "file": "public/assets/game/36px-Lemon_Stone.png",
+      "source": "https://stardewvalleywiki.com/File:Lemon_Stone.png",
+      "sha256": "1cb671a686f40cf12ceca74e865a78ef6ef8504a4c98123b7f9f3d84ab4e5bcc"
+    },
+    {
+      "file": "public/assets/game/36px-Limestone.png",
+      "source": "https://stardewvalleywiki.com/File:Limestone.png",
+      "sha256": "92ecb77d39b790e5334634b50703b48575f7ca29fdb413c22811118b742642f0"
+    },
+    {
+      "file": "public/assets/game/36px-Lunarite.png",
+      "source": "https://stardewvalleywiki.com/File:Lunarite.png",
+      "sha256": "a7db403f50d3132af02a6ad026871b0756eb4ca0717dfaff4788ae03325ecb50"
+    },
+    {
+      "file": "public/assets/game/36px-Malachite.png",
+      "source": "https://stardewvalleywiki.com/File:Malachite.png",
+      "sha256": "fca0dd20778727f0c8ff0504750ae70cbd7dffafccd03736e250075228eb36b6"
+    },
+    {
+      "file": "public/assets/game/36px-Marble.png",
+      "source": "https://stardewvalleywiki.com/File:Marble.png",
+      "sha256": "f0fbf9d34000a1c832afaec3008425966b764563f0a5ce3b5b1552058715810e"
+    },
+    {
+      "file": "public/assets/game/36px-Mead.png",
+      "source": "https://stardewvalleywiki.com/File:Mead.png",
+      "sha256": "715a62ce2026f872d804dffda4e5a7878d1ba95c108ac35a144f504b4103e02b"
+    },
+    {
+      "file": "public/assets/game/36px-Moss.png",
+      "source": "https://stardewvalleywiki.com/File:Moss.png",
+      "sha256": "21e57ff34a83ae2b6a47490b6601f043ba1fb66a36b5dbc1b022abc6c5d6f8be"
+    },
+    {
+      "file": "public/assets/game/36px-Mudstone.png",
+      "source": "https://stardewvalleywiki.com/File:Mudstone.png",
+      "sha256": "843135124c469962576778c6b9316bad9a1b99127a0d2108340934d172a80c99"
+    },
+    {
+      "file": "public/assets/game/36px-Mystic_Syrup.png",
+      "source": "https://stardewvalleywiki.com/File:Mystic_Syrup.png",
+      "sha256": "1d32f9904b239204b1f2a558d5b8be7e4517dfd3bffe81f7adefc24200f427e7"
+    },
+    {
+      "file": "public/assets/game/36px-Nekoite.png",
+      "source": "https://stardewvalleywiki.com/File:Nekoite.png",
+      "sha256": "b4918a415f92396f99dd766c259d02cd2fc0a63c587a26602a9072872f15bf5b"
+    },
+    {
+      "file": "public/assets/game/36px-Neptunite.png",
+      "source": "https://stardewvalleywiki.com/File:Neptunite.png",
+      "sha256": "b7c08fc94d5c6a3aea551acb25159695f62c1f09be2b1afe4d4c5ef994140ba5"
+    },
+    {
+      "file": "public/assets/game/36px-Obsidian.png",
+      "source": "https://stardewvalleywiki.com/File:Obsidian.png",
+      "sha256": "78894278afaf164bad68cfafec2f3a8d11fc573af98fed5b39c582a95afb4c07"
+    },
+    {
+      "file": "public/assets/game/36px-Ocean_Stone.png",
+      "source": "https://stardewvalleywiki.com/File:Ocean_Stone.png",
+      "sha256": "9256fd65a014adda6327a406f790c006e00c528f166c5aa9ee52585ed809ea31"
+    },
+    {
+      "file": "public/assets/game/36px-Oil.png",
+      "source": "https://stardewvalleywiki.com/File:Oil.png",
+      "sha256": "364691e632e6ebf2fe5a16fd77f440aa4452738417e8490919afeab895fa915c"
+    },
+    {
+      "file": "public/assets/game/36px-Opal.png",
+      "source": "https://stardewvalleywiki.com/File:Opal.png",
+      "sha256": "9d7a263650edc55d1b551283d92b460aa0c7d35f1957eaa786a20fa944f6c6d9"
+    },
+    {
+      "file": "public/assets/game/36px-Ornamental_Fan.png",
+      "source": "https://stardewvalleywiki.com/File:Ornamental_Fan.png",
+      "sha256": "c837f64891e2a792f8901bd3b1059977c7f09d98da1cbbe60ea7fb5d20368580"
+    },
+    {
+      "file": "public/assets/game/36px-Orpiment.png",
+      "source": "https://stardewvalleywiki.com/File:Orpiment.png",
+      "sha256": "fdfa0ed9f84dbd78cb5fe8e6cc9815aa4248270750f2ccd64334e5d67f51b4ae"
+    },
+    {
+      "file": "public/assets/game/36px-Pale_Ale.png",
+      "source": "https://stardewvalleywiki.com/File:Pale_Ale.png",
+      "sha256": "1332f9f211d802631c5a08396cf7c7c6d1b13727b81110a6ec4a93459f7c008d"
+    },
+    {
+      "file": "public/assets/game/36px-Petrified_Slime.png",
+      "source": "https://stardewvalleywiki.com/File:Petrified_Slime.png",
+      "sha256": "659ed0b7aa686a557616d9149880fac39cf2ed774c72f59574abfdb532ab15da"
+    },
+    {
+      "file": "public/assets/game/36px-Pickles.png",
+      "source": "https://stardewvalleywiki.com/File:Pickles.png",
+      "sha256": "845b62093fafad1584d29fef043ad53771346d328a80a18d4844f7416c6c57a4"
+    },
+    {
+      "file": "public/assets/game/36px-Prehistoric_Handaxe.png",
+      "source": "https://stardewvalleywiki.com/File:Prehistoric_Handaxe.png",
+      "sha256": "5fd40d318aaa507ea20a7e796f6a15f2af0b28f26ae4c99c8ffcde056746c122"
+    },
+    {
+      "file": "public/assets/game/36px-Prehistoric_Tool.png",
+      "source": "https://stardewvalleywiki.com/File:Prehistoric_Tool.png",
+      "sha256": "d60b1f1abc883e4350d821153277c98c93dcc905adea1584f7bf7c00f759f337"
+    },
+    {
+      "file": "public/assets/game/36px-Pyrite.png",
+      "source": "https://stardewvalleywiki.com/File:Pyrite.png",
+      "sha256": "11fbd0f925bd3859104252728fd4591477c91ed38d96777499d14ff5ddf1b9de"
+    },
+    {
+      "file": "public/assets/game/36px-Radioactive_Bar.png",
+      "source": "https://stardewvalleywiki.com/File:Radioactive_Bar.png",
+      "sha256": "3331280487c4fa13048bc2b80d7f12e790d491c84e51db83850938c188d3bcd1"
+    },
+    {
+      "file": "public/assets/game/36px-Raisins.png",
+      "source": "https://stardewvalleywiki.com/File:Raisins.png",
+      "sha256": "7168c8a379453055e37dd4626ef1269e7eeb06df04daa66da28f249184b3ecdd"
+    },
+    {
+      "file": "public/assets/game/36px-Rare_Disc.png",
+      "source": "https://stardewvalleywiki.com/File:Rare_Disc.png",
+      "sha256": "c85cb50462c486f42c7f6d2f7549067d27dc4f066260da8af38ef4d736dd2ce1"
+    },
+    {
+      "file": "public/assets/game/36px-Refined_Quartz.png",
+      "source": "https://stardewvalleywiki.com/File:Refined_Quartz.png",
+      "sha256": "7eb3191abe39a50fc5b19abe783bb5d3a1a105a7fc8a09749023e3a18cf5d162"
+    },
+    {
+      "file": "public/assets/game/36px-Rusty_Cog.png",
+      "source": "https://stardewvalleywiki.com/File:Rusty_Cog.png",
+      "sha256": "13dd82dfba0798fe907a13eb71d18239629d92cfe3a93aa2084ab1b9c419dd81"
+    },
+    {
+      "file": "public/assets/game/36px-Rusty_Spoon.png",
+      "source": "https://stardewvalleywiki.com/File:Rusty_Spoon.png",
+      "sha256": "32642237cb2e99090790db1a7d5f8309450527764517f559215668943b254612"
+    },
+    {
+      "file": "public/assets/game/36px-Rusty_Spur.png",
+      "source": "https://stardewvalleywiki.com/File:Rusty_Spur.png",
+      "sha256": "0bf646763f38bd8299f843501fed8d01ea410ababa96756dd306b49db8081ffc"
+    },
+    {
+      "file": "public/assets/game/36px-Sandstone.png",
+      "source": "https://stardewvalleywiki.com/File:Sandstone.png",
+      "sha256": "807e4da7e972e5293de95dba6a6da072b921b63a4b7a924a4ce859a1513de22e"
+    },
+    {
+      "file": "public/assets/game/36px-Slate.png",
+      "source": "https://stardewvalleywiki.com/File:Slate.png",
+      "sha256": "ed342ada42e598eb562b21167c113ebf2633eb36af16c03ef1b332d5201aadbf"
+    },
+    {
+      "file": "public/assets/game/36px-Smoked_Fish.png",
+      "source": "https://stardewvalleywiki.com/File:Smoked_Fish.png",
+      "sha256": "ac23018256156d69cc0b8cfc3d5714640e316724c8bf9065cafde73eaea6c96b"
+    },
+    {
+      "file": "public/assets/game/36px-Soapstone.png",
+      "source": "https://stardewvalleywiki.com/File:Soapstone.png",
+      "sha256": "5519ac6720354bdfd9bcfc84beb1161d65d15e1c68016d2184ef13d471b78674"
+    },
+    {
+      "file": "public/assets/game/36px-Star_Shards.png",
+      "source": "https://stardewvalleywiki.com/File:Star_Shards.png",
+      "sha256": "aec1ebaef037b05575c24b0ac6b12564fdd618a06cf202a492ca54ffc0d2d904"
+    },
+    {
+      "file": "public/assets/game/36px-Strange_Doll_(green).png",
+      "source": "https://stardewvalleywiki.com/File:Strange_Doll_(green).png",
+      "sha256": "4a2d2769137ee772b3508956a6b121c6a5bdfa65c8321dfc031e3b1c3fb712dc"
+    },
+    {
+      "file": "public/assets/game/36px-Strange_Doll_(yellow).png",
+      "source": "https://stardewvalleywiki.com/File:Strange_Doll_(yellow).png",
+      "sha256": "49980e1eb1f5beb7ba8e2173a68fdb6cccb8b837253d251af947ae233a9a002c"
+    },
+    {
+      "file": "public/assets/game/36px-Thunder_Egg.png",
+      "source": "https://stardewvalleywiki.com/File:Thunder_Egg.png",
+      "sha256": "4f0134fcbffaf68f98d450a99e6ebc49c67ac6f1d936e8fd0617a1250a3a9bb9"
+    },
+    {
+      "file": "public/assets/game/36px-Tigerseye.png",
+      "source": "https://stardewvalleywiki.com/File:Tigerseye.png",
+      "sha256": "0266a5a28415fa9193487c6d2ab11bcb2f9fd37eb1d63379d26faa0fdb1d19f4"
+    },
+    {
+      "file": "public/assets/game/36px-Vinegar.png",
+      "source": "https://stardewvalleywiki.com/File:Vinegar.png",
+      "sha256": "8729557816c353457fd6f8c6ae303dd3bfbc12b3cfa973d891c23020eb6a54b2"
+    }
+  ]
+}

@@ -11,6 +11,18 @@ let context;
 
 afterEach(() => context?.close());
 
+async function initializeRecommendationFixture() {
+  context = createTestContext();
+  // Force initialization across different seconds, even on fast machines.
+  let tick = 0;
+  context.db.function("current_timestamp", () => new Date(Date.UTC(2026, 0, 1) + tick++ * 1000)
+    .toISOString().replace("T", " ").slice(0, 19));
+  await initialize(context);
+  // Literal recommendations below describe equal publication timestamps. Real
+  // SQLite CURRENT_TIMESTAMP follows wall time, not JavaScript fake timers.
+  context.db.prepare("UPDATE articles SET updated_at = ?").run("2026-01-01 00:00:00");
+}
+
 function relatedGuideLinks(html) {
   const section = html.match(/<section data-seo-related="guides"[\s\S]*?<\/section>/)?.[0] || "";
   return [...section.matchAll(/<a href="(\/guides\/[^"]+)"/g)].map((match) => match[1]);
@@ -85,8 +97,7 @@ describe("v5.4.2 growth content", () => {
   });
 
   test("keeps SSR guide recommendations aligned with the client selections", async () => {
-    context = createTestContext();
-    await initialize(context);
+    await initializeRecommendationFixture();
     const app = createApp(context);
     const articleList = (await request(app).get("/api/articles?pageSize=50")).body.items;
 
@@ -103,8 +114,7 @@ describe("v5.4.2 growth content", () => {
   });
 
   test("keeps shared guide selections stable across repeated calls and input ordering", async () => {
-    context = createTestContext();
-    await initialize(context);
+    await initializeRecommendationFixture();
     const articles = context.db.prepare(`
       SELECT id,title,slug,summary,featured,updated_at
       FROM articles
@@ -132,13 +142,34 @@ describe("v5.4.2 growth content", () => {
     }
   });
 
-  test("serves every internal link used by all 198 wiki recommendations", async () => {
+  test("keeps newer equal-score recommendations ahead in both SSR and client", async () => {
+    await initializeRecommendationFixture();
+    context.db.prepare("UPDATE articles SET updated_at = ? WHERE slug = ?")
+      .run("2026-01-02 00:00:00", "winter-prep-year-two-route");
+    const app = createApp(context);
+    const articles = (await request(app).get("/api/articles?pageSize=50")).body.items;
+    const current = articles.find(article => article.slug === "beginner-guide");
+    const expected = [
+      "/guides/winter-prep-year-two-route",
+      "/guides/year-one-summer-money-route",
+      "/guides/year-one-fall-money-route",
+      "/guides/year-one-spring-money-route"
+    ];
+    for (const input of [articles, [...articles].reverse()]) {
+      expect(selectRelatedGuides(current, input, 4).map(article => `/guides/${article.slug}`)).toEqual(expected);
+    }
+    const response = await request(app).get("/guides/beginner-guide");
+    expect(response.status).toBe(200);
+    expect(relatedGuideLinks(response.text)).toEqual(expected);
+  });
+
+  test("serves every internal link used by all curated wiki recommendations", async () => {
     context = createTestContext();
     await initialize(context);
     const app = createApp(context);
     const references = new Map();
 
-    expect(entries).toHaveLength(198);
+    expect(entries).toHaveLength(2796);
     for (const entry of entries) {
       for (const href of entry.attributes.links || []) {
         const names = references.get(href) || [];

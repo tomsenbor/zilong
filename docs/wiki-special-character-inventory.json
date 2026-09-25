@@ -1,0 +1,241 @@
+{
+  "version": "1.6.15",
+  "status": "reviewed-subset",
+  "collectionSource": "https://stardewvalleywiki.com/Villagers",
+  "records": [
+    {
+      "key": "character:Birdie",
+      "originalName": "Birdie",
+      "name": "贝啼",
+      "slug": "birdie",
+      "address": "姜岛西部海边小屋",
+      "acquisition": "解锁姜岛西部后，在非雨天前往最西侧海滩与她交谈，开启“海盗的妻子”交换任务。",
+      "purpose": "交回海盗项链可完成她的任务；任务完成后仍能交谈，但不能把交换任务当作可反复送礼的友情系统。",
+      "advice": "下雨时不在屋外，且玩家不能进入她的小屋；先留好交换任务所需物品，再按任务线逐步交付。",
+      "sourceUrl": "https://stardewvalleywiki.com/Birdie",
+      "sourceRevision": 193380,
+      "sourceSha256": "b1f9d3d055752dc6a59bd37de0d4124758e5aee2dfd0adee4d36fcc6a83bbce4",
+      "versionEvidence": "1.5: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/4/46/Birdie.png",
+        "alt": "Birdie.png"
+      }
+    },
+    {
+      "key": "character:Bouncer",
+      "originalName": "Bouncer",
+      "name": "门卫",
+      "slug": "bouncer",
+      "address": "沙漠绿洲商店后方",
+      "acquisition": "到达沙漠并进入绿洲商店后，可在赌场入口见到门卫；进入赌场仍需完成“神秘的齐先生”任务线。",
+      "purpose": "负责阻挡没有会员卡的玩家进入赌场；完成任务后让出入口，不提供生日、礼物或可培养的友情等级。",
+      "advice": "多人游戏各玩家需满足自己的会员卡条件，不能因另一位玩家已解锁就认为所有人均可进入。",
+      "sourceUrl": "https://stardewvalleywiki.com/Bouncer",
+      "sourceRevision": 187826,
+      "sourceSha256": "a7fd7cddcc422952bc0573059480d25768c099b426ac9f56382b7c2bb28ad8ec",
+      "versionEvidence": "1.05: Fixed bug where the Bouncer could be bypassed before obtaining the Club Card. 1.4: Fixed bug where the Bouncer just said \"Hi.\" instead of his unique line. Fixed bug where the Bouncer would not accept the club card if you already exhausted his dialogue for the day.",
+      "image": {
+        "src": "/mediawiki/images/f/f5/Bouncer.png",
+        "alt": "Bouncer.png"
+      }
+    },
+    {
+      "key": "character:Fizz",
+      "originalName": "Fizz",
+      "name": "菲兹",
+      "slug": "fizz",
+      "address": "姜岛北部蘑菇洞",
+      "acquisition": "首次查看齐先生核桃房的完美度统计后，次日收到来信，再前往姜岛北部“水边洞穴”见他。",
+      "purpose": "每份完美豁免花费500000金，增加1%完美度进展；豁免不是进入背包的实体物品，也不是完成对应任务本身。",
+      "advice": "购买前先比较剩余目标与预算；达到完美后他仍在洞内，但不能继续与他互动购买豁免。",
+      "sourceUrl": "https://stardewvalleywiki.com/Fizz",
+      "sourceRevision": 190982,
+      "sourceSha256": "798097b5969e6faf3aa57f52c98ce104761a10899453e45f407fed2fc70f3a86",
+      "versionEvidence": "1.6: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/a/a3/Fizz_00.png",
+        "alt": "Fizz 00.png"
+      }
+    },
+    {
+      "key": "character:Gil",
+      "originalName": "Gil",
+      "name": "吉尔",
+      "slug": "gil",
+      "address": "深山探险家公会",
+      "acquisition": "满足探险家公会入会条件后，在公会营业期间进入，可在柜台旁的摇椅见到吉尔。",
+      "purpose": "完成墙上海报对应的怪物击杀目标后，找他领取戒指、帽子等目标奖励；击杀进度和领奖动作需要分别确认。",
+      "advice": "先看公会海报的对应怪物数量，达标后再来领奖；普通交谈不会增加友情，也不需要准备生日礼物。",
+      "sourceUrl": "https://stardewvalleywiki.com/Gil",
+      "sourceRevision": 188145,
+      "sourceSha256": "d605450fd8af120467444ef6f990541ba9e46266d559125e4b72e7b1fdaae83a",
+      "versionEvidence": "1.6: Added a new portrait.",
+      "image": {
+        "src": "/mediawiki/images/6/64/Gil.png",
+        "alt": "Gil.png"
+      }
+    },
+    {
+      "key": "character:Governor",
+      "originalName": "Governor",
+      "name": "州长",
+      "slug": "governor",
+      "address": "夏威夷宴会活动场地；住址未公开",
+      "acquisition": "在每年的夏威夷宴会中可见到来访州长，他会品尝公共汤；也可能在电影院大厅出现。",
+      "purpose": "在夏威夷宴会中评价公共汤，是节日汤料互动中的角色；不能把往汤里加入物品理解成对州长日常送礼。",
+      "advice": "选择汤料前核对节日规则与材料品质，不需要为州长安排日常生日或每周礼物计划。",
+      "sourceUrl": "https://stardewvalleywiki.com/Governor",
+      "sourceRevision": 189059,
+      "sourceSha256": "5b47106c5e73259f8a7f977ba7ee78ffe7f3e75b876a34182d3148364466eab6",
+      "versionEvidence": "原版基础人物，Villagers集合与独立人物页一致；单页无新增版本历史，未编造引入版本号。",
+      "image": {
+        "src": "/mediawiki/images/4/46/Governor.png",
+        "alt": "Governor.png"
+      }
+    },
+    {
+      "key": "character:Grandpa",
+      "originalName": "Grandpa",
+      "name": "爷爷",
+      "slug": "grandpa",
+      "address": "农场西北角爷爷的神龛（评价互动）",
+      "acquisition": "开场信件将农场留给玩家；第3年春季1日触发首次评价，此后可向农场西北神龛献钻石请求重评。",
+      "purpose": "评价达到12分可点亮四根蜡烛，与神龛互动领取完美雕像；可获得的总分为21，不要求把所有项目全部完成。",
+      "advice": "首次评价不是游戏截止日期，错过四蜡烛也能继续发展并重评；评价分数不等于姜岛完美度百分比。",
+      "sourceUrl": "https://stardewvalleywiki.com/Grandpa",
+      "sourceRevision": 182923,
+      "sourceSha256": "bbebcc941b21fd1ed50220bfd582dbfa03ac63476f66f1c6cedd5b8aea615537",
+      "versionEvidence": "1.05: It is no longer necessary to acquire every Stardrop to achieve the maximum score in the evaluation. The evaluation can now be redone by interacting with Grandpa's Shrine. Grandpa's evaluation dialogue is less harsh. 1.5: Added speaking portrait.",
+      "image": {
+        "src": "/mediawiki/images/8/88/Grandpa.png",
+        "alt": "Grandpa.png"
+      }
+    },
+    {
+      "key": "character:Gunther",
+      "originalName": "Gunther",
+      "name": "冈瑟",
+      "slug": "gunther",
+      "address": "鹈鹕镇博物馆",
+      "acquisition": "带着可捐赠的矿物或古物首次进入博物馆，与冈瑟交谈开启捐赠介绍；之后在柜台办理藏品捐赠。",
+      "purpose": "累计捐赠60件藏品后会带来生锈的钥匙；捐赠奖励按藏品进度触发，不是给冈瑟送友情礼物。",
+      "advice": "先核对藏品是否已捐赠，再决定出售或保留；不要把同一种矿物重复取得的数量当成新增藏品种类。",
+      "sourceUrl": "https://stardewvalleywiki.com/Gunther",
+      "sourceRevision": 188142,
+      "sourceSha256": "1461cb38b0675f8b1eff54b050e94c6775982eb53beda45b7d97cd66e324f9ac",
+      "versionEvidence": "原版基础人物，Villagers集合与独立人物页一致；单页无新增版本历史，未编造引入版本号。",
+      "image": {
+        "src": "/mediawiki/images/3/3d/Gunther.png",
+        "alt": "Gunther.png"
+      }
+    },
+    {
+      "key": "character:Henchman",
+      "originalName": "Henchman",
+      "name": "仆从",
+      "slug": "henchman",
+      "address": "女巫沼泽通往女巫小屋的道路",
+      "acquisition": "完成社区中心或Joja仓库路线，并推进“黑暗护身符”任务后，进入女巫沼泽即可遇到挡路的仆从。",
+      "purpose": "向他交付虚空蛋黄酱解决“哥布林问题”，随后让开道路并离开；这是一次任务交付，不是可培养的日常好感。",
+      "advice": "可以通过图书馆遗失之书了解线索；交付前确认拿的是虚空蛋黄酱，普通蛋黄酱不能代替。",
+      "sourceUrl": "https://stardewvalleywiki.com/Henchman",
+      "sourceRevision": 190389,
+      "sourceSha256": "8d2bf4be08e00c68a52a2739d4eefa6332048273fe681a70d8798505c62e32db",
+      "versionEvidence": "1.1: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/2/21/Henchman_Portrait_1.png",
+        "alt": "Henchman Portrait 1.png"
+      }
+    },
+    {
+      "key": "character:Marlon",
+      "originalName": "Marlon",
+      "name": "马龙",
+      "slug": "marlon",
+      "address": "深山探险家公会",
+      "acquisition": "初次进入矿井时遇见马龙并取得生锈的剑；完成入会任务后，可在探险家公会柜台使用商店与服务。",
+      "purpose": "经营装备相关商店与物品找回服务；因生命值耗尽丢失物品后，可付费找回其中一项，不能一次恢复所有损失。",
+      "advice": "找回清单会被下一次生命值耗尽的掉落替换，应先处理最重要的损失；凌晨2点昏倒并不等同于战斗掉物品。",
+      "sourceUrl": "https://stardewvalleywiki.com/Marlon",
+      "sourceRevision": 194074,
+      "sourceSha256": "7461d9c7d47c836d5a37e6127a3ad5e6f78d142ee3322f09c38870e0d111876f",
+      "versionEvidence": "1.4: Added Item Recovery Service. 1.6: Added 3 new quests for the Desert Festival.",
+      "image": {
+        "src": "/mediawiki/images/3/37/Marlon.png",
+        "alt": "Marlon.png"
+      }
+    },
+    {
+      "key": "character:Morris",
+      "originalName": "Morris",
+      "name": "莫里斯",
+      "slug": "morris",
+      "address": "鹈鹕镇Joja超市",
+      "acquisition": "Joja超市营业时进入店内，在右侧服务区找到莫里斯；商店仍营业时可与他办理Joja路线业务。",
+      "purpose": "出售5000金的Joja会员资格；购买后社区中心改为仓库，改走社区发展付款路线，不能理解为普通购物折扣而忽略路线变化。",
+      "advice": "购买前先确认自己选择哪条发展路线；完成社区中心后Joja关店，莫里斯离开镇子，不再是固定可访问角色。",
+      "sourceUrl": "https://stardewvalleywiki.com/Morris",
+      "sourceRevision": 183434,
+      "sourceSha256": "cdcba26ff14edaa035252129d454793191765d8487fe13b8758f4b9161af7172",
+      "versionEvidence": "原版基础人物，Villagers集合与独立人物页一致；单页无新增版本历史，未编造引入版本号。",
+      "image": {
+        "src": "/mediawiki/images/9/90/Morris.png",
+        "alt": "Morris.png"
+      }
+    },
+    {
+      "key": "character:Mr. Qi",
+      "originalName": "Mr. Qi",
+      "name": "齐先生",
+      "slug": "mr-qi",
+      "address": "沙漠赌场与姜岛核桃房",
+      "acquisition": "在隧道锁箱放入电池组可开始神秘任务；完成对应任务取得赌场资格，累计找到100个金色核桃可进入姜岛核桃房。",
+      "purpose": "提供赌场互动和姜岛特别挑战；完成核桃房挑战可得齐钻，赌场与核桃房是两套不同的进入条件和货币体系。",
+      "advice": "“找到100个金色核桃”不是向门口交付100个；核对各挑战条件与期限后再接单，不要把两处解锁要求混为一谈。",
+      "sourceUrl": "https://stardewvalleywiki.com/Mr._Qi",
+      "sourceRevision": 194263,
+      "sourceSha256": "80bf58f541ddb4eefb80c7a1621fafe56687c42edb1232a97b9b121cce685840",
+      "versionEvidence": "1.3.27: Added encounter in Skull Cavern. Updated portrait. 1.5: Added Walnut Room and quests on Ginger Island. Relationship with the player's Grandpa is now revealed in the summit cutscene. 1.6: Added additional pre-Perfection Summit cutscene.",
+      "image": {
+        "src": "/mediawiki/images/b/b4/Mr._Qi.png",
+        "alt": "Mr. Qi.png"
+      }
+    },
+    {
+      "key": "character:Professor Snail",
+      "originalName": "Professor Snail",
+      "name": "蜗牛教授",
+      "slug": "professor-snail",
+      "address": "姜岛北部岛屿办事处",
+      "acquisition": "先花10个金色核桃修复通往挖掘场的桥，再用爆炸清除洞口岩石救出蜗牛教授，之后他回到岛屿办事处。",
+      "purpose": "接受岛屿化石捐赠与调查问答，给予相应奖励；完成办事处全部要求可取得鸵鸟孵化器配方，不是普通博物馆捐赠。",
+      "advice": "带好爆炸工具再去洞口；岛屿化石应留给办事处核对，未救出教授前不能把洞穴当成已经营业的办事处。",
+      "sourceUrl": "https://stardewvalleywiki.com/Professor_Snail",
+      "sourceRevision": 185971,
+      "sourceSha256": "f87c62dd34f8ca2202229849a5f2d8b0288d3c819dfa06bcd58d8b870abe621f",
+      "versionEvidence": "1.5: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/d/d4/Professor_Snail.png",
+        "alt": "Professor Snail.png"
+      }
+    },
+    {
+      "key": "character:Old Mariner",
+      "originalName": "Old Mariner",
+      "name": "老水手",
+      "slug": "old-mariner",
+      "address": "海滩东侧潮池区域",
+      "acquisition": "开通海滩东侧通道后，在雨天06:00至19:00进入海滩可遇到老水手；冬季需雨水图腾，夜市期间仍不出现。",
+      "purpose": "满足求婚条件时出售5000金的美人鱼吊坠：需与可结婚对象送过花束并达到10心，且农舍已进行首次升级。",
+      "advice": "人物出现与允许购买是两层条件；晴天等候不会出现，未升级农舍或未达到感情要求也不能仅靠金币购买。",
+      "sourceUrl": "https://stardewvalleywiki.com/Old_Mariner",
+      "sourceRevision": 176646,
+      "sourceSha256": "6f405a9cba18a3a2f8aeb9c877cb5a7a6d6d0e2ea130c9b8532062399f2154c7",
+      "versionEvidence": "原版基础人物，Villagers集合与独立人物页一致；单页无新增版本历史，未编造引入版本号。",
+      "image": {
+        "src": "/mediawiki/images/2/2b/Old_Mariner.png",
+        "alt": "Old Mariner.png"
+      }
+    }
+  ]
+}

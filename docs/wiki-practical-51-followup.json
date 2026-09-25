@@ -1,0 +1,1275 @@
+{
+  "version": "1.6.15",
+  "nativeVersion": "1.6.15.24356",
+  "reviewedOn": "2026-09-25",
+  "baseline": "docs/wiki-practical-174-review.json",
+  "counts": {
+    "examined": 51,
+    "mappedEventMechanism": 1,
+    "unresolved": 50
+  },
+  "allResolved": false,
+  "releaseReady": false,
+  "contentComplete": false,
+  "sources": [
+    {
+      "asset": "Data/Events/AbandonedJojaMart",
+      "sha256": "84D0AE9547D7B211D934DAECF2685F6A1A70F48CF0243ED44868C87C920981B1",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/AnimalShop",
+      "sha256": "A45FC45090DA2CB40AF00E86796029723319F5A65BE8377755E725A748CCBB0C",
+      "records": 4
+    },
+    {
+      "asset": "Data/Events/ArchaeologyHouse",
+      "sha256": "4A694367B8FE7D38D33C21AEE33FE4267C8B836609864D54E4258D0709283531",
+      "records": 4
+    },
+    {
+      "asset": "Data/Events/Backwoods",
+      "sha256": "A4662759D3672CB654C8AA9B21545087E35DD9DE6B695402EF122EB8D688E006",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/BathHouse_Pool",
+      "sha256": "5073F55A3C89AEEA0DB4BBD2BE5538AF804FD7864DF45D37EACBD952FFD525F1",
+      "records": 2
+    },
+    {
+      "asset": "Data/Events/Beach",
+      "sha256": "98C34D465140E9386B8ACCBB95D4FE7DC13B68450839481683C2621B75D707E5",
+      "records": 12
+    },
+    {
+      "asset": "Data/Events/BoatTunnel",
+      "sha256": "7008CF44953BDAA2A6D31C1D854F7EAE230FAEAD32922114CF48DFD4D433A295",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/BusStop",
+      "sha256": "7D7D780152D09121F88D320DBCC6CD3A277C97AB815452CAF78AC25FB77F4C0C",
+      "records": 4
+    },
+    {
+      "asset": "Data/Events/CommunityCenter",
+      "sha256": "F369C7D0BC3DFD448039629EF558383BFC68BF102B472B2749E0B789729E95F6",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/DesertFestival",
+      "sha256": "589C428F40CCE354221CB7C75E3A212C23BD222952C3C46D1AE966D263F634D6",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/ElliottHouse",
+      "sha256": "A4D86E101BB02C4C6318C687909DB66D420482405CDA185521D5C4C112464926",
+      "records": 5
+    },
+    {
+      "asset": "Data/Events/Farm",
+      "sha256": "5396EAAEEC8A03BE2515AF5A97ED193D451D52842AEF0C7BC23B6C4E50AAEA94",
+      "records": 26
+    },
+    {
+      "asset": "Data/Events/FarmHouse",
+      "sha256": "D26F5DE954FD2A1A579877F53D278E65BB273039E39EFCB12276221CF548DD92",
+      "records": 14
+    },
+    {
+      "asset": "Data/Events/FishShop",
+      "sha256": "035EF753E5F50CC9CBC074EB9469922386A7BDBFAF4042DBE49171444229FCBA",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/Forest",
+      "sha256": "EA4256DBE8F5284E4E97E9B0BAFC4DB4B3818512BEAF489C32CD19FA1F67C2D1",
+      "records": 16
+    },
+    {
+      "asset": "Data/Events/HaleyHouse",
+      "sha256": "257C59BFD2E9886057D4C9BAB777693DA74BB4B931D11242A3D7BB3EEBA335F9",
+      "records": 11
+    },
+    {
+      "asset": "Data/Events/HarveyRoom",
+      "sha256": "DDF1CD9A25D612839A630CEFB76C775778098BD7FD4FE5C44B723E9F1724F589",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/Hospital",
+      "sha256": "A6DEC6C222F3371EC3E368AC0C53BAD487E8F4BFD8529124D1A827FD36CCE894",
+      "records": 5
+    },
+    {
+      "asset": "Data/Events/IslandFarmHouse",
+      "sha256": "83BF8B5C96087D0EAE165CA3F9D864DF1C677F7A69B1E67620EAEE8F9BD15861",
+      "records": 0
+    },
+    {
+      "asset": "Data/Events/IslandHut",
+      "sha256": "E0909489DD90F6E1E53DAF4C5449D1CF07C8CE1FBD5FF6C2A9AF7B18FC560B31",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/IslandNorth",
+      "sha256": "45122592D5F31B026C50B3688A89E3C399C1523DD57DD3D884FB3E9FF9BF6461",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/IslandSouth",
+      "sha256": "F305D116F5D0CA8C55280346E5A038D358538DFEC2EF59A65213282FED58AE0D",
+      "records": 3
+    },
+    {
+      "asset": "Data/Events/IslandWest",
+      "sha256": "A196421F5ABA5E66F43FA335CC454BAAA7354CFD49291B50DEC90760396D524A",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/JoshHouse",
+      "sha256": "2D9D465C4B204EB11F246315E2653FA08083E8B315191C93EC5C2CE16CA2BA3F",
+      "records": 6
+    },
+    {
+      "asset": "Data/Events/LeahHouse",
+      "sha256": "B71ED1480417E97F1DDBA5617829483BE282DF1A0C75F0CAFB33D704B28E208D",
+      "records": 8
+    },
+    {
+      "asset": "Data/Events/ManorHouse",
+      "sha256": "ECEB2B9CD92DC51C898029275EA7BC953F7486F78244A3DE7824C109BDF1BE85",
+      "records": 2
+    },
+    {
+      "asset": "Data/Events/Mine",
+      "sha256": "6A50123E7554B95C23EE06EA85C8EF2140082D45BE6C877E0E17533374832E0D",
+      "records": 3
+    },
+    {
+      "asset": "Data/Events/Mountain",
+      "sha256": "ECA8136302B3802B43FA2C2F15D9160AA6EB13561B8C1A9F4A84873C3003D2FA",
+      "records": 13
+    },
+    {
+      "asset": "Data/Events/QiNutRoom",
+      "sha256": "AF1629091E7DDC31AF45E5CDB02A3E3D5E0A2B21446BC36BBFECF4E1FDEE1E8C",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/Railroad",
+      "sha256": "CD36943A6A22244B8DFF9FAD574633CEEFFC4503A235F6C2C4E52856844DC786",
+      "records": 3
+    },
+    {
+      "asset": "Data/Events/Saloon",
+      "sha256": "BC5E2C694843F9AFADC8796FBCC52442D4856A65D57411000104235F7213D263",
+      "records": 12
+    },
+    {
+      "asset": "Data/Events/SamHouse",
+      "sha256": "161024F04A6F58CD51967F0D2BEE25091704D1B34470DE8BBB2247ED623C6149",
+      "records": 7
+    },
+    {
+      "asset": "Data/Events/SandyHouse",
+      "sha256": "A7F71A267A895F23914B8516139D0AC76C238E6ECFB1FD5EE18271FA86603932",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/ScienceHouse",
+      "sha256": "2BB7F5C222F0949C0542A79D851474BD24A6E5987DC05786819432BA2F41D795",
+      "records": 7
+    },
+    {
+      "asset": "Data/Events/SebastianRoom",
+      "sha256": "1B3B9B2B04DD25A03390583DABE54F63D8CF9EADCD41ED0DA711BBC301BA212E",
+      "records": 24
+    },
+    {
+      "asset": "Data/Events/SeedShop",
+      "sha256": "30AF38162B6E3658841F4ED9051C70290CA6CD0DD7101D13742B8A7849E8C58D",
+      "records": 8
+    },
+    {
+      "asset": "Data/Events/Sewer",
+      "sha256": "27ED1268D4E09885C33E7FDDA9D4D09E4EB019CFC49DF04CD0B3F567F2FC1380",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/Sunroom",
+      "sha256": "D9870C872147E7668D0FDE0946F11FA2E5CEAB80AFCDB5D67176844A01FD756E",
+      "records": 1
+    },
+    {
+      "asset": "Data/Events/Temp",
+      "sha256": "6B54F60DFDB01F01461941CCB77A665F821E61E2D5E4157A3ACA9AA6328BE028",
+      "records": 7
+    },
+    {
+      "asset": "Data/Events/Tent",
+      "sha256": "83BF8B5C96087D0EAE165CA3F9D864DF1C677F7A69B1E67620EAEE8F9BD15861",
+      "records": 0
+    },
+    {
+      "asset": "Data/Events/Town",
+      "sha256": "25B9162C9320171ACD192F822FE93E84907B853AC80AF02FC0EE4E9023A931FA",
+      "records": 28
+    },
+    {
+      "asset": "Data/Events/Trailer",
+      "sha256": "68F208DCDC89CE7B27F1674AA60079CA9ACFCBCF746C6A994E092EA9760EF460",
+      "records": 3
+    },
+    {
+      "asset": "Data/Events/Trailer_Big",
+      "sha256": "F8BFE3B304CE4B4BDED8C7EC9F278ED11A48B216A7D3838DAE67627018D64328",
+      "records": 2
+    },
+    {
+      "asset": "Data/Events/WizardHouse",
+      "sha256": "B0451E1177103172560D0013595D6D098D27708751C8334DC777635BAB6F2F15",
+      "records": 2
+    },
+    {
+      "asset": "Data/Events/Woods",
+      "sha256": "BD41D4A619E87B6A53A8397D1BE64AD91261B71573E4F9C2468522D79BCD83F1",
+      "records": 2
+    },
+    {
+      "asset": "Data/Festivals/fall16",
+      "sha256": "EFD7B4D54E51FCFBB15999A0F47F1C75E975F6748D2113C1E281353D39C8043B",
+      "records": 94
+    },
+    {
+      "asset": "Data/Festivals/fall27",
+      "sha256": "F2665D8085E58A1B9D96DE629320ED0287038E6CF3409F43ABDA6AAFB9CDFE13",
+      "records": 94
+    },
+    {
+      "asset": "Data/Festivals/FestivalDates",
+      "sha256": "87AAAE22883C6539AB1E403804C59647C36C0E0A0E4DF91E4FD4A5C72CB6BF44",
+      "records": 8
+    },
+    {
+      "asset": "Data/Festivals/spring13",
+      "sha256": "93B0FC224CC5D91567530D354D4A607DA59AB0551D893B4071C55FF225AD6B9C",
+      "records": 82
+    },
+    {
+      "asset": "Data/Festivals/spring24",
+      "sha256": "6CDB36DF4C91BCDC429812FEF2150D5593D5AD7B4F6137FE0D717F2CB29F41FA",
+      "records": 85
+    },
+    {
+      "asset": "Data/Festivals/summer11",
+      "sha256": "3F2084413792744FA06D1587444672EE0CB264062CDF1194CEEFD33A89DDC737",
+      "records": 105
+    },
+    {
+      "asset": "Data/Festivals/summer28",
+      "sha256": "CF2963874182CA0492C7934F60D643D8803572EAE5DF9F8BC8AAED33EB4E838A",
+      "records": 86
+    },
+    {
+      "asset": "Data/Festivals/winter25",
+      "sha256": "C715974A7557FAD60A56C0C8B186712F9E219E9F214E1C35366E0B8C9D712225",
+      "records": 93
+    },
+    {
+      "asset": "Data/Festivals/winter8",
+      "sha256": "3AA3D867987AFF871EF0287D4A0B1FFF70EBC3C1C0ABCE34BE868D45FA093691",
+      "records": 96
+    }
+  ],
+  "scan": {
+    "events": 45,
+    "festivalAssets": 9,
+    "mapAssetsAttempted": 375,
+    "mapPropertiesRead": 259,
+    "otherAssetReadErrors": 116,
+    "limitations": [
+      "地图目录混有贴图资源；116项加载返回No Graphics Device Service，未将这些文件称为读取成功。",
+      "地图检查仅包含map-level properties，不是全部图块、Paths层及运行时生成路径。",
+      "事件和节日脚本未找到引用不等于不可获得；不对50项作无依据排除。"
+    ]
+  },
+  "records": [
+    {
+      "identity": "Data/Characters:???",
+      "nativeName": "???",
+      "nativeSource": {
+        "asset": "Data/Characters",
+        "sha256": "3B9519BF4887B557FB73C68834871C16755616A7EF26D84DC0BDBD95447F64A8"
+      },
+      "resolution": "unresolved",
+      "finding": "???角色数据CanSocialize=FALSE、SpawnIfMissing=false、Home为空，贴图为Shadow_Brute；其他???字符串含占位文本与旧友谊键，不能据同名合并成可结交村民。",
+      "remainingQuestions": [
+        "缺少这个Data/Characters身份在正常事件/地图生成中的完整可达性证据；不能说新增村民，也不能仅因无Home断言完全未使用。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Shadow Guy",
+      "nativeName": "Shadow Guy",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Shadow Guy保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Fireball",
+      "nativeName": "Fireball",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Fireball保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Skeleton Warrior",
+      "nativeName": "Skeleton Warrior",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Skeleton Warrior保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Crow",
+      "nativeName": "Crow",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Crow保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Frog",
+      "nativeName": "Frog",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Frog保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Monsters:Cat",
+      "nativeName": "Cat",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "resolution": "unresolved",
+      "finding": "Cat保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:0",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)0 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:1",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)1 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:2",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)2 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:3",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)3 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:4",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)4 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:5",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)5 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:6",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)6 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:7",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)7 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:22",
+      "nativeName": "Table Piece L",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)22 Table Piece L的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:23",
+      "nativeName": "Table Piece R",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)23 Table Piece R的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:26",
+      "nativeName": "Wood Chair",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)26 Wood Chair的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:27",
+      "nativeName": "Wood Chair",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)27 Wood Chair的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:28",
+      "nativeName": "Skeleton Model",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)28 Skeleton Model的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:29",
+      "nativeName": "Obelisk",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)29 Obelisk的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:31",
+      "nativeName": "Chicken Statue",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)31 Chicken Statue的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 同名(O)113古物及(F)1305家具不能自动抵扣(BC)31。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:64",
+      "nativeName": "Bookcase",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)64 Bookcase的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:65",
+      "nativeName": "Fancy Table",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)65 Fancy Table的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:66",
+      "nativeName": "Ancient Table",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)66 Ancient Table的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:67",
+      "nativeName": "Ancient Stool",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)67 Ancient Stool的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:68",
+      "nativeName": "Grandfather Clock",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)68 Grandfather Clock的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:69",
+      "nativeName": "Teddy Timer",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)69 Teddy Timer的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:70",
+      "nativeName": "Dead Tree",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)70 Dead Tree的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:72",
+      "nativeName": "Tall Torch",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)72 Tall Torch的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:73",
+      "nativeName": "Ritual Mask",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)73 Ritual Mask的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:74",
+      "nativeName": "Bonfire",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)74 Bonfire的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:75",
+      "nativeName": "Bongo",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)75 Bongo的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:76",
+      "nativeName": "Decorative Spears",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)76 Decorative Spears的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:78",
+      "nativeName": "Boulder",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)78 Boulder的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:79",
+      "nativeName": "Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)79 Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:80",
+      "nativeName": "Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)80 Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:81",
+      "nativeName": "Locked Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)81 Locked Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:82",
+      "nativeName": "Locked Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)82 Locked Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:84",
+      "nativeName": "Wicked Statue",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)84 Wicked Statue的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 (BC)83邪恶雕像的配方不能证明亮眼变体84的正常取得方式。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:106",
+      "nativeName": "Camera",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "mapped-event-mechanism",
+      "finding": "原版Data/Events/Forest事件14在海莉2000好感、非冬季、晴天10:00—16:00条件下执行addBigProp 100 25 106。DefaultCommands.AddBigProp以(BC)命名空间创建对象并加入Event.props，证明相机在正常剧情可见，不证明背包获取。现有海莉页补充事件条件和非奖励说明。",
+      "remainingQuestions": [
+        "背包获取不在本轮证明范围；不可从场景出现推断可购买、制作或带走。"
+      ],
+      "dataset": "villagers",
+      "slug": "haley-icon",
+      "evidence": {
+        "asset": "Data/Events/Forest",
+        "sha256": "EA4256DBE8F5284E4E97E9B0BAFC4DB4B3818512BEAF489C32CD19FA1F67C2D1",
+        "eventKey": "14/f Haley 2000/z winter/t 1000 1600/w sunny",
+        "command": "addBigProp 100 25 106",
+        "method": "DefaultCommands.AddBigProp",
+        "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+        "offsets": "002F (BC),003D Create,0051 props,0057 Add",
+        "sourceUrl": "https://stardewvalleywiki.com/Haley#Eight_Hearts"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:111",
+      "nativeName": "Decorative Pitcher",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)111 Decorative Pitcher的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/BigCraftables:219",
+      "nativeName": "Cursed P.K. Arcade System",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "resolution": "unresolved",
+      "finding": "(BC)219 Cursed P.K. Arcade System的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 旧Wiki讨论称未实装，仅作线索，不单凭旧讨论给1.6.15作排除签核。",
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:929",
+      "nativeName": "Hedge",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)929 Hedge的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 Hedge与正常家具/篱笆的同名视觉元素必须区分。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:30",
+      "nativeName": "Lumber",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)30 Lumber的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:94",
+      "nativeName": "Spirit Torch",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)94 Spirit Torch的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 光源处理存在，但未证明Spirit Torch有正常取得入口。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:449",
+      "nativeName": "Stone Base",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)449 Stone Base的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 构造器识别Stone Base，但不能仅凭此称为正常家具。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:461",
+      "nativeName": "Decorative Pot",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)461 Decorative Pot的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:892",
+      "nativeName": "Warp Totem: Qi's Arena",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)892 Warp Totem: Qi's Arena的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 未证实齐先生竞技场传送的正常入口，不虚构目的地。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:925",
+      "nativeName": "Slime Crate",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)925 Slime Crate的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    },
+    {
+      "identity": "Data/Objects:927",
+      "nativeName": "Camping Stove",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "resolution": "unresolved",
+      "finding": "(O)927 Camping Stove的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 Camping Stove不能借用(O)926 Cookout Kit及(BC)278的证据。",
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "dataset": null,
+      "slug": null,
+      "evidence": {
+        "checkedAssets": "45 event and 9 festival assets listed in sources",
+        "scope": "补查原版事件/节日命令和地图顶层属性；无新足够证据，不改变上一轮未知结论。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": "1.6.15",
+  "scope": "Additional verified characters, not full named-NPC closure.",
+  "records": [
+    {
+      "key": "additional-character:secret-woods-bear",
+      "group": "characters",
+      "originalName": "Bear",
+      "sourceUrl": "https://stardewvalleywiki.com/Secret_Notes",
+      "sourceRevision": 191277,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "secret-woods-bear",
+      "displayName": "熊（秘密森林）"
+    },
+    {
+      "key": "additional-character:trash-bear",
+      "group": "characters",
+      "originalName": "Trash Bear",
+      "sourceUrl": "https://stardewvalleywiki.com/Cindersap_Forest",
+      "sourceRevision": 194137,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "trash-bear",
+      "displayName": "垃圾熊"
+    },
+    {
+      "key": "additional-character:raccoon",
+      "group": "characters",
+      "originalName": "Raccoon",
+      "sourceUrl": "https://stardewvalleywiki.com/Giant_Stump",
+      "sourceRevision": 192771,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "raccoon",
+      "displayName": "浣熊"
+    },
+    {
+      "key": "additional-character:raccoon-wife",
+      "group": "characters",
+      "originalName": "Raccoon Wife",
+      "sourceUrl": "https://stardewvalleywiki.com/Giant_Stump",
+      "sourceRevision": 192771,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "raccoon-wife",
+      "displayName": "浣熊太太"
+    },
+    {
+      "key": "additional-character:marcello",
+      "group": "characters",
+      "originalName": "Marcello",
+      "sourceUrl": "https://stardewvalleywiki.com/Bookseller",
+      "sourceRevision": 191324,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "marcello",
+      "displayName": "马尔赛罗（书摊老板）"
+    },
+    {
+      "key": "additional-character:welwick",
+      "group": "characters",
+      "originalName": "Welwick",
+      "sourceUrl": "https://stardewvalleywiki.com/Television",
+      "sourceRevision": 193814,
+      "versionEvidence": "Original1.6.15 character or encounter with separately documented interaction. Native character names and Raccoon/TrashBear constructors corroborate identities and art. Independent source History excludes later additions.",
+      "disposition": "include",
+      "reason": "Distinct character interaction, not a new giftable villager; location overview remains separate.",
+      "dataset": "villagers",
+      "slug": "welwick",
+      "displayName": "维尔维克"
+    }
+  ]
+}

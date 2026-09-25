@@ -1,0 +1,4826 @@
+{
+  "version": "1.6.15",
+  "nativeVersion": "1.6.15.24356",
+  "reviewedOn": "2026-09-25",
+  "baseline": "wiki-practical-unresolved-review.json",
+  "previousClosures": [
+    "wiki-practical-interior-closure.json",
+    "wiki-practical-location-followup.json"
+  ],
+  "scope": "剩余174条原生身份的逐项证据复核；区分已确认的机制、可获取物、明确不可获取物与证据不足。不是174个缺失页面，也不是正文补齐或发布签核。",
+  "allIdentitiesExamined": true,
+  "allIdentitiesResolved": false,
+  "contentComplete": false,
+  "releaseReady": false,
+  "evidence": {
+    "native-record": {
+      "kind": "native-record",
+      "version": "1.6.15.24356",
+      "detail": "每行继承原审计的资产路径、SHA-256和字段快照，并与本机导出逐项比对；记录存在不证明正常可取得。"
+    },
+    "reference-scan": {
+      "kind": "bounded-negative-search",
+      "methodBodiesScanned": 17741,
+      "dataAssetsScanned": 40,
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "detail": "IL精确字符串与40份Data导出交叉检索；不覆盖所有动态ID、整数常量、地图属性或旧版存档。不存在引用不等于不可获得；裸数字不跨命名空间合并。"
+    },
+    "nodes-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Object.IsBreakableStone",
+        "GameLocation.breakStone",
+        "MineShaft.checkStoneForItems",
+        "Pickaxe.DoFunction"
+      ],
+      "detail": "类别-999且Name=Stone走环境破坏路径；breakStone按节点ID分支产生矿物/晶球等物品，MineShaft调用后处理通用概率掉落。这里只确认分派与主要产出，不发布全部概率表。"
+    },
+    "weeds-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Object.IsWeeds",
+        "Object.cutWeed",
+        "Object.performToolAction"
+      ],
+      "detail": "-999类别与忽略大小写包含weeds的名称识别杂物；cutWeed按实际ID覆盖掉落。792–794在043A强制770，319–321在03BC/03F9/0433清空普通掉落。"
+    },
+    "twig-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Object.IsTwig",
+        "Object.performToolAction"
+      ],
+      "detail": "-999/Twig；037C–049C斧头破坏分支生成一份(O)388并移除环境对象。"
+    },
+    "slimeball-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Object.CheckForActionOnSlimeBall",
+        "Game1.createMultipleObjectDebris"
+      ],
+      "detail": "00DD–00E1 System.Random.Next(10,21)上界不含21；碎片生成循环不额外加一。02E5–031E对(O)557做0.33连续循环，不能误写最多一个。Wiki现写10–21，与此1.6.15实码冲突，以本机版本为准。",
+      "sources": [
+        "https://stardewvalleywiki.com/Slime_Ball"
+      ]
+    },
+    "spiker-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "VolcanoDungeon.GenerateEntities",
+        "Spiker..ctor",
+        "Spiker.takeDamage"
+      ],
+      "detail": "GenerateEntities收集spiker_spawn_points并在088D构造Spiker加入characters；takeDamage直接返回-1。否定将Spiker随其他旧怪物一起排除的做法。"
+    },
+    "containers-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "BreakableContainer.get_TypeDefinitionId",
+        "BreakableContainer.GetBarrelForMines",
+        "BreakableContainer.GetBarrelForVolcanoDungeon",
+        "BreakableContainer.draw",
+        "BreakableContainer.releaseContents",
+        "ParsedItemData.GetSourceRect"
+      ],
+      "detail": "类型(BC)，矿井选118/120/122/124/262，火山选174；showNextIndex选择邻接SpriteIndex，119/121/123/125/175/263是成对箱子图像。掉落走releaseContents，不作为12件商店机器。"
+    },
+    "pedestal-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "IslandShrine.AddOrUpdatePedestal",
+        "ItemPedestal.performToolAction",
+        "BigCraftableDataDefinition.CreateItem"
+      ],
+      "detail": "AddOrUpdatePedestal0046以221构造，置isIslandShrinePedestal=true；工具破坏对该标志返回false。不是同名普通家具。",
+      "sources": [
+        "https://stardewvalleywiki.com/Ginger_Island#Gem_Birds"
+      ]
+    },
+    "locations-native": {
+      "kind": "native-code-and-data",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "GameLocation.GetData",
+        "GameLocation.IsTemporaryName",
+        "FishingGame..ctor",
+        "SaveMigrator_1_6.ApplySaveFix"
+      ],
+      "detail": "GetData的TypeDef33555176是MineShaft；Temp前缀和fishingGame是临时场景；FishingGame构造Maps/FishingGame。Locations/WitchWarpCave地图路径与迁移witchStatueGone分支对应巫婆沼泽前室；PassiveFestivals沙漠节将Desert替换为DesertFestival。",
+      "sources": [
+        "https://stardewvalleywiki.com/Witch%27s_Swamp",
+        "https://stardewvalleywiki.com/Stardew_Valley_Fair"
+      ]
+    },
+    "statues-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Town.DayUpdate",
+        "GameLocation.performAction",
+        "GameLocation.doStarpoint",
+        "Town.checkAction",
+        "Object.DayUpdate"
+      ],
+      "detail": "Town.DayUpdate春2创建BC55；performAction以O155换BC155；doStarpoint O307→BC161、O203→BC162；Town.checkAction创建BC164，Object.DayUpdate处理摆放后的事件。",
+      "sources": [
+        "https://stardewvalleywiki.com/Stone_Junimo",
+        "https://stardewvalleywiki.com/%3F%3FHMTGF%3F%3F",
+        "https://stardewvalleywiki.com/%3F%3FPinky_Lemon%3F%3F",
+        "https://stardewvalleywiki.com/%3F%3FForoguemon%3F%3F",
+        "https://stardewvalleywiki.com/Solid_Gold_Lewis"
+      ]
+    },
+    "trophy": {
+      "kind": "native-code-and-reference",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Event.skipEvent",
+        "DefaultCommands.ItemAboveHead",
+        "DefaultCommands.AwardFestivalPrize"
+      ],
+      "sources": [
+        "https://stardewvalleywiki.com/Stardew_Hero_Trophy"
+      ],
+      "detail": "社区中心完工仪式奖励BC116，不能照价格字段写成常规购买机器；Joja线路不授予此奖杯。"
+    },
+    "walnut": {
+      "kind": "native-code-and-data",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Farmer.OnItemReceived"
+      ],
+      "asset": "Data/Shops",
+      "path": "QiGemShop/Items/21/TradeItemId",
+      "sources": [
+        "https://stardewvalleywiki.com/Golden_Walnut"
+      ],
+      "detail": "O73被专门的接收与团队计数逻辑处理，并在齐钻商店交易字段使用；是姜岛金色核桃资源，不按普通可出货物品解释。"
+    },
+    "war-memento": {
+      "kind": "native-code-and-reference",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "NPC.tryToReceiveActiveObject",
+        "Event.skipEvent",
+        "DefaultCommands.AwardFestivalPrize"
+      ],
+      "sources": [
+        "https://stardewvalleywiki.com/Quests#The_Pirate.27s_Wife"
+      ],
+      "detail": "Data/Objects864为Quest类型；原生接收/奖励处理与海盗妻子任务资料交叉核对，起点物品交肯特换美食家番茄盐。"
+    },
+    "heart-native": {
+      "kind": "native-code",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "BigSlime..ctor",
+        "Farmer.OnItemReceived",
+        "Farmer.removeItemFromInventory"
+      ],
+      "detail": "BigSlime02E9–031F在SC_NO_FOOD规则下可持有O930；Farmer.OnItemReceived064A起每份恢复10生命并受maxHealth限制，再移除背包物品。名称及ConcernedApeMask描述键不足以映射到(H)92。"
+    },
+    "pot-native": {
+      "kind": "native-code-and-reference",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Forest.DayUpdate",
+        "Object.checkForAction",
+        "Farmer.OnItemReceived"
+      ],
+      "sources": [
+        "https://stardewvalleywiki.com/Cindersap_Forest#Pot_of_Gold"
+      ],
+      "detail": "Forest春17在52,98生成、18移除PotOfGold。交互发放GoldCoin和LeprechuanHat并移除场景对象；资料给第一年200金，每年加25到2500封顶。不是描述键暗示的CoalNode。"
+    },
+    "jukebox-wiki": {
+      "kind": "reference",
+      "sources": [
+        "https://stardewvalleywiki.com/Jukebox_Ring"
+      ],
+      "detail": "条目明确标为正常途径不可获得；不将漏洞或ID生成算作正常游玩取得。仍保留原生身份记录。"
+    },
+    "legacy-monsters": {
+      "kind": "native-code-limited",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Summit.getEndSlideshow",
+        "ShadowGuy..ctor",
+        "ShadowGirl..ctor",
+        "ShadowShaman..ctor"
+      ],
+      "detail": "山顶幻灯片对若干旧怪物名分支/过滤，构造器仍有旧友谊键???。这些引用不能证明正常刷怪，也不能单独证明彻底未使用；与实际Crow/Frog小动物、Cat宠物分开。"
+    },
+    "legacy-decoration": {
+      "kind": "native-code-limited",
+      "dllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+      "methods": [
+        "Object.checkForAction",
+        "Object.ShouldWobble",
+        "Object.initializeLightSource",
+        "Object.farmerAdjacentAction",
+        "Object.minutesElapsed"
+      ],
+      "detail": "部分BC仍有植物换型、摆动、光源或旧方尖碑处理；这些是能力实现，不是商店/奖励/场景生成路径。未找到正向路径的条目继续隔离，不能用同名家具来抵扣。"
+    }
+  },
+  "counts": {
+    "verified-mechanism": 115,
+    "verified-acquisition": 7,
+    "supported-unobtainable": 1,
+    "unresolved-acquisition": 51
+  },
+  "limitations": [
+    "不存在引用不等于不可获得；40份数据导出与17741个方法的精确字符串扫描不是所有地图、动态构造及旧存档的可达性证明。",
+    "174项不是174个缺失页面。verified-mechanism只确认记录所述分派/用途，不承诺全部出现地点、掉率、正文及交互验收。",
+    "所有closed仍为false；本报告不覆盖原226项快照、不改变15类/实用清单pending、不自动提升全量发布闸门。",
+    "无法正向核实的旧对象保留逐条原因和下一步；未制造获取途径、中文名、售价或不可能获得的结论。",
+    "只做证据与回归文档，本轮不改正式数据库、正文、图片、UI、API或部署。"
+  ],
+  "records": [
+    {
+      "identity": "Data/Characters:???",
+      "group": "characters",
+      "nativeName": "???",
+      "nativeSource": {
+        "asset": "Data/Characters",
+        "sha256": "3B9519BF4887B557FB73C68834871C16755616A7EF26D84DC0BDBD95447F64A8"
+      },
+      "nativeFields": {
+        "DisplayName": "???",
+        "CanSocialize": "FALSE",
+        "SpawnIfMissing": false,
+        "Home": null,
+        "TextureName": "Monsters\\Shadow_Brute"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "???角色数据CanSocialize=FALSE、SpawnIfMissing=false、Home为空，贴图为Shadow_Brute；其他???字符串含占位文本与旧友谊键，不能据同名合并成可结交村民。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "缺少这个Data/Characters身份在正常事件/地图生成中的完整可达性证据；不能说新增村民，也不能仅因无Home断言完全未使用。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Shadow Guy",
+      "group": "creatures",
+      "nativeName": "Shadow Guy",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "125/20/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/2/.01/-1/2/.0/true/15/Shadow Guy"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Shadow Guy保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Fireball",
+      "group": "creatures",
+      "nativeName": "Fireball",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "1/18/0/0/true/0/72 .0000001/0/0/-1/3/.00/false/0/Fireball"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Fireball保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Skeleton Warrior",
+      "group": "creatures",
+      "nativeName": "Skeleton Warrior",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "300/12/1/3/false/0/769 .25 105 .03 106 .03 166 .001 60 .04 232 .04 72 .03 74 .01 97 .005 99 .001/3/0/5/2/.0/true/15/Skeleton Warrior"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Skeleton Warrior保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Crow",
+      "group": "creatures",
+      "nativeName": "Crow",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Crow"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Crow保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Frog",
+      "group": "creatures",
+      "nativeName": "Frog",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Frog"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Frog保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Cat",
+      "group": "creatures",
+      "nativeName": "Cat",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "300/0/0/0/false/0/-6 .001/3/0/6/2/.0/false/0/Cat"
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "Cat保留在原生怪物表；已检查构造/山顶幻灯片相关引用，但这些不足以证明当前正常刷怪来源。不得与同名宠物或环境小动物合并。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-monsters"
+      ],
+      "remainingQuestions": [
+        "尚缺正常地图生成、事件构造或明确未实现的当前版本证据；数据里的生命、经验和掉落不是实际可刷证明。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Monsters:Spiker",
+      "group": "creatures",
+      "nativeName": "Spiker",
+      "nativeSource": {
+        "asset": "Data/Monsters",
+        "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB"
+      },
+      "nativeFields": {
+        "raw": "5/15/0/0/false/2000/378 .1 378 .1 380 .1 380 .1 382 .1/4/.01/8/2/.0/true/1/Spiker"
+      },
+      "verdict": "verified-mechanism",
+      "finding": "尖刺陷阱Spiker：VolcanoDungeon.GenerateEntities收集生成点并实际构造该类；takeDamage直接返回-1，属于不可常规击杀的火山障碍。原始怪物表的血量/掉落不能直接当作可刷战利品说明。",
+      "nextAction": "补入火山危险物说明，保持与可击杀怪物区别；不要依据旧讨论页面把它列为未使用记录。",
+      "evidenceIds": [
+        "native-record",
+        "spiker-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:0",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)0 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:1",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)1 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:2",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)2 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:3",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)3 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:4",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)4 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:5",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)5 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:6",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)6 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:7",
+      "group": "machines",
+      "nativeName": "House Plant",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "House Plant",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HousePlant_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HousePlant_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)7 House Plant的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 Object.checkForAction仍有这组盆栽的交互分支，但有处理器不等于有正常获取入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:22",
+      "group": "machines",
+      "nativeName": "Table Piece L",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Table Piece L",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:TablePieceL_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:TablePieceL_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)22 Table Piece L的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:23",
+      "group": "machines",
+      "nativeName": "Table Piece R",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Table Piece R",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:TablePieceR_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:TablePieceR_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)23 Table Piece R的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:26",
+      "group": "machines",
+      "nativeName": "Wood Chair",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Wood Chair",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:WoodChair_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:WoodChair_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)26 Wood Chair的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:27",
+      "group": "machines",
+      "nativeName": "Wood Chair",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Wood Chair",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:WoodChair_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:WoodChair_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)27 Wood Chair的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:28",
+      "group": "machines",
+      "nativeName": "Skeleton Model",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Skeleton Model",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:SkeletonModel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:SkeletonModel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)28 Skeleton Model的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:29",
+      "group": "machines",
+      "nativeName": "Obelisk",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Obelisk",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Obelisk_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Obelisk_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)29 Obelisk的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:31",
+      "group": "machines",
+      "nativeName": "Chicken Statue",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Chicken Statue",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:ChickenStatue_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:ChickenStatue_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)31 Chicken Statue的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 同名(O)113古物及(F)1305家具不能自动抵扣(BC)31。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:55",
+      "group": "machines",
+      "nativeName": "Stone Junimo",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Stone Junimo",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:StoneJunimo_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:StoneJunimo_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "石雕祝尼魔：Town.DayUpdate在春2、未加入Joja且位置可用时在57,16创建(BC)55；秘密纸条14是提示而不是生成条件。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "statues-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:56",
+      "group": "machines",
+      "nativeName": "Slime Ball",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Slime Ball",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:SlimeBall_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:SlimeBall_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "史莱姆球：CheckForActionOnSlimeBall的Next(10,21)实际产生10–20份史莱姆；33%石化史莱姆判定是循环，可连续产生多份。资料网页10–21与原版1.6.15实码不一致，本版本采用原码上界。",
+      "nextAction": "在史莱姆屋/史莱姆球说明加入版本限定数量与循环解释，并添加页面断言；不能把Wiki冲突值直接上线。",
+      "evidenceIds": [
+        "native-record",
+        "slimeball-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:64",
+      "group": "machines",
+      "nativeName": "Bookcase",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Bookcase",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Bookcase_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Bookcase_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)64 Bookcase的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:65",
+      "group": "machines",
+      "nativeName": "Fancy Table",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Fancy Table",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:FancyTable_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:FancyTable_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)65 Fancy Table的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:66",
+      "group": "machines",
+      "nativeName": "Ancient Table",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Ancient Table",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:AncientTable_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:AncientTable_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)66 Ancient Table的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:67",
+      "group": "machines",
+      "nativeName": "Ancient Stool",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Ancient Stool",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:AncientStool_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:AncientStool_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)67 Ancient Stool的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:68",
+      "group": "machines",
+      "nativeName": "Grandfather Clock",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Grandfather Clock",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:GrandfatherClock_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:GrandfatherClock_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)68 Grandfather Clock的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:69",
+      "group": "machines",
+      "nativeName": "Teddy Timer",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Teddy Timer",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:TeddyTimer_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:TeddyTimer_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)69 Teddy Timer的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:70",
+      "group": "machines",
+      "nativeName": "Dead Tree",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Dead Tree",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:DeadTree_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:DeadTree_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)70 Dead Tree的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:72",
+      "group": "machines",
+      "nativeName": "Tall Torch",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Tall Torch",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:TallTorch_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:TallTorch_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)72 Tall Torch的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:73",
+      "group": "machines",
+      "nativeName": "Ritual Mask",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Ritual Mask",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:RitualMask_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:RitualMask_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)73 Ritual Mask的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:74",
+      "group": "machines",
+      "nativeName": "Bonfire",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Bonfire",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Bonfire_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Bonfire_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)74 Bonfire的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:75",
+      "group": "machines",
+      "nativeName": "Bongo",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Bongo",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Bongo_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Bongo_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)75 Bongo的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:76",
+      "group": "machines",
+      "nativeName": "Decorative Spears",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Decorative Spears",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:DecorativeSpears_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:DecorativeSpears_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)76 Decorative Spears的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:78",
+      "group": "machines",
+      "nativeName": "Boulder",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Boulder",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Boulder_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Boulder_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)78 Boulder的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:79",
+      "group": "machines",
+      "nativeName": "Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Door",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Door_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Door_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)79 Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:80",
+      "group": "machines",
+      "nativeName": "Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Door",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Door_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Door_Description]",
+        "Fragility": 1
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)80 Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:81",
+      "group": "machines",
+      "nativeName": "Locked Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Locked Door",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:LockedDoor_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:LockedDoor_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)81 Locked Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:82",
+      "group": "machines",
+      "nativeName": "Locked Door",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Locked Door",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:LockedDoor_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:LockedDoor_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)82 Locked Door的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:84",
+      "group": "machines",
+      "nativeName": "Wicked Statue",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Wicked Statue",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:WickedStatue_LitEyes_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:WickedStatue_LitEyes_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)84 Wicked Statue的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 (BC)83邪恶雕像的配方不能证明亮眼变体84的正常取得方式。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:106",
+      "group": "machines",
+      "nativeName": "Camera",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Camera",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Camera_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Camera_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)106 Camera的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:111",
+      "group": "machines",
+      "nativeName": "Decorative Pitcher",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Decorative Pitcher",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:DecorativePitcher_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:DecorativePitcher_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)111 Decorative Pitcher的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:116",
+      "group": "machines",
+      "nativeName": "Stardew Hero Trophy",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Stardew Hero Trophy",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:StardewHeroTrophy_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:StardewHeroTrophy_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "星露谷英雄奖杯：(BC)116是标准社区中心完工仪式奖励，不是普通生产设备；Joja路线不授予此奖励。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "trophy"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:118",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份118（成对基准118）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:119",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份119（成对基准118）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:120",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份120（成对基准120）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:121",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份121（成对基准120）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:122",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份122（成对基准122）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:123",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份123（成对基准122）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:124",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份124（成对基准124）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:125",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份125（成对基准124）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:155",
+      "group": "machines",
+      "nativeName": "??HMTGF??",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "??HMTGF??",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:HMTGF_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:HMTGF_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "??HMTGF??：把超级黄瓜(O)155放进铁匠铺北侧围栏内棕色箱子，原生performAction创建(BC)155；同号普通物品与大型物品命名空间不同。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "statues-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:161",
+      "group": "machines",
+      "nativeName": "??Pinky Lemon??",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "??Pinky Lemon??",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:PinkyLemon_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:PinkyLemon_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "??Pinky Lemon??：把鸭蛋黄酱(O)307放入酒吧后室隐藏箱子；doStarpoint创建(BC)161，并非柠檬作物或机器。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "statues-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:162",
+      "group": "machines",
+      "nativeName": "??Foroguemon??",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "??Foroguemon??",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Foroguemon_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Foroguemon_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "??Foroguemon??：把奇怪的小面包(O)203放入文森特卧室隐藏玩具箱；doStarpoint创建(BC)162。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "statues-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:164",
+      "group": "machines",
+      "nativeName": "Solid Gold Lewis",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Solid Gold Lewis",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:SolidGoldLewis_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:SolidGoldLewis_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "纯金刘易斯：(BC)164对应秘密纸条19指向的镇长屋后隐藏雕像；Town.checkAction与Object.DayUpdate有专门处理，不能用普通金色家具代替。",
+      "nextAction": "已确认正常玩法来源，进入真实缺项补文队列；先查现有资料是否已承接，再决定独立条目或补段，并验证图片与链接。",
+      "evidenceIds": [
+        "native-record",
+        "statues-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:174",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份174（成对基准174）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:175",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份175（成对基准174）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:219",
+      "group": "machines",
+      "nativeName": "Cursed P.K. Arcade System",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Cursed P.K. Arcade System",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:CursedPKArcadeSystem_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:CursedPKArcadeSystem_Description]",
+        "Fragility": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(BC)219 Cursed P.K. Arcade System的原版字段已核对；未在已扫描资产中确认正常商店/配方/奖励取得路径。 旧Wiki讨论称未实装，仅作线索，不单凭旧讨论给1.6.15作排除签核。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan",
+        "legacy-decoration"
+      ],
+      "remainingQuestions": [
+        "仍需地图固定物、旧事件命令或保存迁移的正向身份链；同名家具及裸数字引用不能证明此BC身份可获取或可排除。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:221",
+      "group": "machines",
+      "nativeName": "Item Pedestal",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Item Pedestal",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:ItemPedestal_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:ItemPedestal_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "姜岛宝石鸟神龛的ItemPedestal：IslandShrine.AddOrUpdatePedestal用221构造并设置isIslandShrinePedestal；performToolAction因此返回false，不能当作可搬走的同名普通家具。",
+      "nextAction": "由姜岛东部宝石鸟谜题页承接固定底座机制；不擅自映射到家具列表的展示台。",
+      "evidenceIds": [
+        "native-record",
+        "pedestal-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:262",
+      "group": "machines",
+      "nativeName": "Barrel",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Barrel",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Barrel_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Barrel_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份262（成对基准262）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/BigCraftables:263",
+      "group": "machines",
+      "nativeName": "Crate",
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "nativeFields": {
+        "Name": "Crate",
+        "DisplayName": "[LocalizedText Strings\\BigCraftables:Crate_Name]",
+        "Description": "[LocalizedText Strings\\BigCraftables:Crate_Description]",
+        "Fragility": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "可破坏容器视觉身份263（成对基准262）：BreakableContainer使用(BC)命名空间，构造偶数基准并通过showNextIndex选择相邻箱子贴图。矿井/危险矿井/火山走各自容器及releaseContents分支，不是玩家可购买的独立生产机器。",
+      "nextAction": "在矿井/火山容器掉落说明中记录成对外观；不新增12件机器，不把奇数贴图声明为独立正常获得的背包物品。",
+      "evidenceIds": [
+        "native-record",
+        "containers-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:929",
+      "group": "decoration",
+      "nativeName": "Hedge",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Hedge",
+        "DisplayName": "[LocalizedText Strings\\Objects:Hedge_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Hedge_Description]",
+        "Type": "Crafting",
+        "Category": -8
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)929 Hedge的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 Hedge与正常家具/篱笆的同名视觉元素必须区分。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:0",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体0：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:2",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:DiamondStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:DiamondStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点2，breakStone明确产出(O)72钻石，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:4",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:RubyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:RubyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点4，breakStone明确产出(O)64红宝石，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:6",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:JadeStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:JadeStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点6，breakStone明确产出(O)70翡翠，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:8",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:AmethystStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:AmethystStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点8，breakStone明确产出(O)66紫水晶，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:10",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:TopazStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:TopazStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点10，breakStone明确产出(O)68黄水晶，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:12",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:EmeraldStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:EmeraldStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点12，breakStone明确产出(O)60绿宝石，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:14",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:AquamarineStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:AquamarineStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "宝石环境节点14，breakStone明确产出(O)62海蓝宝石，不是可出货石头(O)390的同义ID。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:25",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:MusselStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:MusselStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "贻贝节点：breakStone产出(O)719，基础Next(2,5)即2–4；姜岛西部另有核桃判定和团队次数限制，不能标成普通矿石。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:30",
+      "group": "special",
+      "nativeName": "Lumber",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Lumber",
+        "DisplayName": "[LocalizedText Strings\\Objects:Lumber_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Lumber_Description]",
+        "Type": "Basic",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)30 Lumber的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:32",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块32：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:34",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块34：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:36",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块36：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:38",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块38：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:40",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块40：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:42",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块42：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:44",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:GemStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GemStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "随机宝石节点：breakStone先随机转为2、4、6、8、10、12、14之一，再走对应宝石分支；不能把节点44映射成单一宝石。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:46",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:MysticStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:MysticStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "神秘石节点：breakStone有独立矿物碎片及25%五彩碎片判定；不是普通石头，不按(O)390的获取描述替代。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:48",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块48：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:50",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块50：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:52",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块52：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:54",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块54：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:56",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块56：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:58",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:SnowyStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块58：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:73",
+      "group": "special",
+      "nativeName": "Golden Walnut",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Golden Walnut",
+        "DisplayName": "[LocalizedText Strings\\Objects:GoldenWalnut_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GoldenWalnut_Description]",
+        "Type": "Basic",
+        "Category": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "(O)73金色核桃走专门接收与团队计数，是姜岛解锁资源；商店含核桃兑换字段。不能凭Price字段当作可常规出售、可无限购买的普通物品。",
+      "nextAction": "检查现有姜岛/核桃说明是否完整承接共享计数、解锁和兑换；只在补文验证后作覆盖签核。",
+      "evidenceIds": [
+        "native-record",
+        "walnut"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:75",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:GeodeStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GeodeStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点75：breakStone的独立分支产出(O)535晶球；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:76",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:FrozenGeodeStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:FrozenGeodeStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点76：breakStone的独立分支产出(O)536冰封晶球；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:77",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:MagmaGeodeStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:MagmaGeodeStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点77：breakStone的独立分支产出(O)537岩浆晶球；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:94",
+      "group": "special",
+      "nativeName": "Spirit Torch",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Spirit Torch",
+        "DisplayName": "[LocalizedText Strings\\Objects:SpiritTorch_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SpiritTorch_Description]",
+        "Type": "Crafting",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)94 Spirit Torch的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 光源处理存在，但未证明Spirit Torch有正常取得入口。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:95",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:RadioactiveStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:RadioactiveStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点95：breakStone的独立分支产出(O)909放射性矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:290",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:IronStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IronStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点290：breakStone的独立分支产出(O)380铁矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:294",
+      "group": "special",
+      "nativeName": "Twig",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Twig",
+        "DisplayName": "[LocalizedText Strings\\Objects:Twig_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Twig_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "地面树枝：原版Litter/-999且Name=Twig；斧头破坏分支产生一份(O)388木材。不是木材库存物品本身，不重复造树枝商品页。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "twig-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:295",
+      "group": "special",
+      "nativeName": "Twig",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Twig",
+        "DisplayName": "[LocalizedText Strings\\Objects:Twig_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Twig_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "地面树枝：原版Litter/-999且Name=Twig；斧头破坏分支产生一份(O)388木材。不是木材库存物品本身，不重复造树枝商品页。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "twig-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:313",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体313：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:314",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体314：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:315",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体315：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:316",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体316：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:317",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体317：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:318",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体318：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:319",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:IceCrystal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "冰晶杂物：尽管原生Name=Weeds，cutWeed的该ID分支使用碎玻璃效果并清空普通杂草掉落；不能套纤维/混合种子概率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:320",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:IceCrystal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "冰晶杂物：尽管原生Name=Weeds，cutWeed的该ID分支使用碎玻璃效果并清空普通杂草掉落；不能套纤维/混合种子概率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:321",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:IceCrystal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "冰晶杂物：尽管原生Name=Weeds，cutWeed的该ID分支使用碎玻璃效果并清空普通杂草掉落；不能套纤维/混合种子概率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:343",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块343：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:449",
+      "group": "special",
+      "nativeName": "Stone Base",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone Base",
+        "DisplayName": "[LocalizedText Strings\\Objects:StoneBase_Name]",
+        "Description": "[LocalizedText Strings\\Objects:StoneBase_Description]",
+        "Type": "asdf",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)449 Stone Base的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 构造器识别Stone Base，但不能仅凭此称为正常家具。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:450",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块450：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:452",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_DryBush_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_DryBush_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体452：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:461",
+      "group": "special",
+      "nativeName": "Decorative Pot",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Decorative Pot",
+        "DisplayName": "[LocalizedText Strings\\Objects:DecorativePot_Name]",
+        "Description": "[LocalizedText Strings\\Objects:DecorativePot_Description]",
+        "Type": "Crafting",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)461 Decorative Pot的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:528",
+      "group": "special",
+      "nativeName": "Jukebox Ring",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Jukebox Ring",
+        "DisplayName": "[LocalizedText Strings\\Objects:JukeboxRing_Name]",
+        "Description": "[LocalizedText Strings\\Objects:JukeboxRing_Description]",
+        "Type": "Ring",
+        "Category": 0
+      },
+      "verdict": "supported-unobtainable",
+      "finding": "点唱机戒指(O)528：专门资料页明确说明正常途径不可获得，ID漏洞不是正常游玩来源。原生记录仍保留，不删除身份或伪造配方。",
+      "nextAction": "在实用范围排除提案中保留来源与版本证据，待统一范围签核；不可仅凭本项结论批量排除其他旧物品。",
+      "evidenceIds": [
+        "native-record",
+        "jukebox-wiki"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:668",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "具有煤炭附加判定的石块：breakStone先产出石头，另有8%基础煤炭判定；不同于BasicCoalNode/VolcanoCoalNode专用煤节点，不能保证每次得煤。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:670",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "具有煤炭附加判定的石块：breakStone先产出石头，另有8%基础煤炭判定；不同于BasicCoalNode/VolcanoCoalNode专用煤节点，不能保证每次得煤。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:674",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体674：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:675",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体675：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:676",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体676：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:677",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体677：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:678",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体678：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:679",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体679：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:750",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体750：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:751",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CopperStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CopperStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点751：breakStone的独立分支产出(O)378铜矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:760",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块760：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:762",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_Node_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境石块762：原版Litter/-999且Name=Stone，由IsBreakableStone及Pickaxe破坏；普通掉落还受地图与MineShaft.checkStoneForItems控制。确认它不是背包石头(O)390，不把所有外观写成固定同一掉率。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:764",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:GoldStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GoldStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点764：breakStone的独立分支产出(O)384金矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:765",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:IridiumStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IridiumStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点765：breakStone的独立分支产出(O)386铱矿石，另有五彩碎片判定；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:784",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体784：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:785",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体785：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:786",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "普通杂草/枯杂物变体786：-999与Name=Weeds走cutWeed通用随机掉落；普通纤维、混合种子和夏季花卉种子按顺序判定。保留环境身份，不等同库存纤维或可购买种子。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:792",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "特殊杂草：cutWeed在043A将掉落强制改为(O)770混合种子，必定走该种子结果，不能因Description引用Fiber而说只产纤维。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:793",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "特殊杂草：cutWeed在043A将掉落强制改为(O)770混合种子，必定走该种子结果，不能因Description引用Fiber而说只产纤维。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:794",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "特殊杂草：cutWeed在043A将掉落强制改为(O)770混合种子，必定走该种子结果，不能因Description引用Fiber而说只产纤维。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:816",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:FossilStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:FossilStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点816：breakStone的独立分支产出(O)881骨头碎片，并另判化石/古物；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:817",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:FossilStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:FossilStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点817：breakStone的独立分支产出(O)881骨头碎片，并另判化石/古物；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:818",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:ClayStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:ClayStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点818：breakStone的独立分支产出(O)330黏土；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:819",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:OmniGeodeStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:OmniGeodeStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点819：breakStone的独立分支产出(O)749万象晶球；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:843",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CinderShardStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CinderShardStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点843：breakStone的独立分支产出(O)848火山晶石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:844",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CinderShardStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CinderShardStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点844：breakStone的独立分支产出(O)848火山晶石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:845",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "具有煤炭附加判定的石块：breakStone先产出石头，另有8%基础煤炭判定；不同于BasicCoalNode/VolcanoCoalNode专用煤节点，不能保证每次得煤。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:846",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "具有煤炭附加判定的石块：breakStone先产出石头，另有8%基础煤炭判定；不同于BasicCoalNode/VolcanoCoalNode专用煤节点，不能保证每次得煤。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:847",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "具有煤炭附加判定的石块：breakStone先产出石头，另有8%基础煤炭判定；不同于BasicCoalNode/VolcanoCoalNode专用煤节点，不能保证每次得煤。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:849",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CopperStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CopperStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点849：breakStone的独立分支产出(O)378铜矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:850",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:IronStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:IronStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点850：breakStone的独立分支产出(O)380铁矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:864",
+      "group": "special",
+      "nativeName": "War Memento",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "War Memento",
+        "DisplayName": "[LocalizedText Strings\\Objects:WarMemento_Name]",
+        "Description": "[LocalizedText Strings\\Objects:WarMemento_Description]",
+        "Type": "Quest",
+        "Category": 0
+      },
+      "verdict": "verified-acquisition",
+      "finding": "战争纪念物(O)864为Quest物品：海盗妻子任务由贝蒂交出，需交给肯特换美食家番茄盐；不能与奖章或普通礼物合并，任务物品不作出货商品。",
+      "nextAction": "补全海盗妻子交换链或建立对应任务物品说明，保留肯特为下一位接收人并验证关联链接。",
+      "evidenceIds": [
+        "native-record",
+        "war-memento"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:882",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "姜岛杂草：cutWeed有专属木乃伊青蛙、芋头块茎覆盖判定；首个青蛙还检查islandNorthCaveOpened与gotMummifiedFrog。不能照搬普通杂草唯一掉落。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:883",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "姜岛杂草：cutWeed有专属木乃伊青蛙、芋头块茎覆盖判定；首个青蛙还检查islandNorthCaveOpened与gotMummifiedFrog。不能照搬普通杂草唯一掉落。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:884",
+      "group": "special",
+      "nativeName": "Weeds",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Weeds",
+        "DisplayName": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "姜岛杂草：cutWeed有专属木乃伊青蛙、芋头块茎覆盖判定；首个青蛙还检查islandNorthCaveOpened与gotMummifiedFrog。不能照搬普通杂草唯一掉落。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:892",
+      "group": "special",
+      "nativeName": "Warp Totem: Qi's Arena",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Warp Totem: Qi's Arena",
+        "DisplayName": "[LocalizedText Strings\\Objects:WarpTotemQisArena_Name]",
+        "Description": "[LocalizedText Strings\\Objects:WarpTotemQisArena_Description]",
+        "Type": "Crafting",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)892 Warp Totem: Qi's Arena的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 未证实齐先生竞技场传送的正常入口，不虚构目的地。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:925",
+      "group": "special",
+      "nativeName": "Slime Crate",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Slime Crate",
+        "DisplayName": "[LocalizedText Strings\\Objects:SlimeCrate_Name]",
+        "Description": "[LocalizedText Strings\\Objects:SlimeCrate_Description]",
+        "Type": "Crafting",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)925 Slime Crate的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:927",
+      "group": "special",
+      "nativeName": "Camping Stove",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Camping Stove",
+        "DisplayName": "[LocalizedText Strings\\Objects:CampingStove_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CampingStove_Description]",
+        "Type": "Crafting",
+        "Category": 0
+      },
+      "verdict": "unresolved-acquisition",
+      "finding": "(O)927 Camping Stove的数据身份已核对，暂无已证实正常获取链；Price和说明键不能充当取得途径。 Camping Stove不能借用(O)926 Cookout Kit及(BC)278的证据。",
+      "nextAction": "保留该精确原生身份并补查地图/动态创建/当前版本资料；取得正向证据之前不合并、不排除、不写正常获取方式。",
+      "evidenceIds": [
+        "native-record",
+        "reference-scan"
+      ],
+      "remainingQuestions": [
+        "需明确商店/配方/事件/地图生成或版本级未实现证据；暂不新增页面，也不作为已排除清零。"
+      ],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:930",
+      "group": "special",
+      "nativeName": "???",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "???",
+        "DisplayName": "[LocalizedText Strings\\Objects:ConcernedApeMask_Name]",
+        "Description": "[LocalizedText Strings\\Objects:ConcernedApeMask_Description]",
+        "Type": "Basic",
+        "Category": 0
+      },
+      "verdict": "verified-mechanism",
+      "finding": "(O)930是SC_NO_FOOD挑战中的生命拾取物：BigSlime构造可持有它，OnItemReceived每份恢复10生命、上限maxHealth，然后移除背包记录。它不是同名(H)92面具，不能按ConcernedApeMask描述键合并。",
+      "nextAction": "在禁食挑战/大史莱姆机制中说明生命拾取；不新增可穿戴面具、不把内部Price=0解释为免费商品。",
+      "evidenceIds": [
+        "native-record",
+        "heart-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:CalicoEggStone_0",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CalicoEggStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点CalicoEggStone_0：breakStone的独立分支产出(O)CalicoEgg卡利科蛋；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:CalicoEggStone_1",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CalicoEggStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点CalicoEggStone_1：breakStone的独立分支产出(O)CalicoEgg卡利科蛋；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:CalicoEggStone_2",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:CalicoEggStone_Name]",
+        "Description": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点CalicoEggStone_2：breakStone的独立分支产出(O)CalicoEgg卡利科蛋；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds0",
+      "group": "special",
+      "nativeName": "GreenRainWeeds0",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds0",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds1",
+      "group": "special",
+      "nativeName": "GreenRainWeeds1",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds1",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds2",
+      "group": "special",
+      "nativeName": "GreenRainWeeds2",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds2",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds3",
+      "group": "special",
+      "nativeName": "GreenRainWeeds3",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds3",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds4",
+      "group": "special",
+      "nativeName": "GreenRainWeeds4",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds4",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds5",
+      "group": "special",
+      "nativeName": "GreenRainWeeds5",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds5",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds6",
+      "group": "special",
+      "nativeName": "GreenRainWeeds6",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds6",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:GreenRainWeeds7",
+      "group": "special",
+      "nativeName": "GreenRainWeeds7",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "GreenRainWeeds7",
+        "DisplayName": "[LocalizedText Strings\\Objects:GreenRainWeeds_Name]",
+        "Description": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "绿雨杂草变体：-999类别、名称包含weeds；cutWeed识别GreenRainWeeds前缀并加入10%苔藓覆盖判定。与普通杂草有区别，不把这八个内部外观当成八种可购买作物。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "weeds-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:VolcanoGoldNode",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:VolcanoGoldNode_Name]",
+        "Description": "[LocalizedText Strings\\Objects:VolcanoGoldNode_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点VolcanoGoldNode：breakStone的独立分支产出(O)384金矿石；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:VolcanoCoalNode0",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点VolcanoCoalNode0：breakStone的独立分支产出(O)382煤炭；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:VolcanoCoalNode1",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点VolcanoCoalNode1：breakStone的独立分支产出(O)382煤炭；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:PotOfGold",
+      "group": "special",
+      "nativeName": "PotOfGold",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "PotOfGold",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "interactive",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "春17在煤矿森林废屋旁瀑布彩虹尽头出现的金罐；交互给帽子和金币、春18清除。第一年200金，每年加25、2500封顶；不是煤矿节点，不能按错误描述键造采煤用途。",
+      "nextAction": "补入煤矿森林或节日彩蛋说明并链接既有帽子条目，避免创建常驻可采集煤矿页面。",
+      "evidenceIds": [
+        "native-record",
+        "pot-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:BasicCoalNode0",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点BasicCoalNode0：breakStone的独立分支产出(O)382煤炭；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Objects:BasicCoalNode1",
+      "group": "special",
+      "nativeName": "Stone",
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "nativeFields": {
+        "Name": "Stone",
+        "DisplayName": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Name]",
+        "Description": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+        "Type": "Litter",
+        "Category": -999
+      },
+      "verdict": "verified-mechanism",
+      "finding": "环境节点BasicCoalNode1：breakStone的独立分支产出(O)382煤炭；数量及额外掉落受对应分支、职业或运气影响，不能照节点售价或统一石头说明填写。",
+      "nextAction": "将已核实的机制补入对应采矿、资源或环境说明；若写完整地点和概率表，另需核对生成分支，不用节点数量冒充新增页面数量。",
+      "evidenceIds": [
+        "native-record",
+        "nodes-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Locations:WitchWarpCave",
+      "group": "locations",
+      "nativeName": "WitchWarpCave",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "nativeFields": {
+        "DisplayName": null,
+        "CreateOnLoad": {
+          "MapPath": "Maps\\WitchWarpCave",
+          "Type": null,
+          "AlwaysActive": false
+        }
+      },
+      "verdict": "verified-mechanism",
+      "finding": "巫婆沼泽入口洞穴而不是沼泽钓鱼地图本身；Locations明确MapPath，存档迁移witchStatueGone同时处理WitchSwamp与WitchWarpCave。黑暗护身符开路后经洞中符文传送。",
+      "nextAction": "在已有地点或节日说明中承接地图机制；补文和接口/页面回归后再单独签核，不创建Temp等伪地点。",
+      "evidenceIds": [
+        "native-record",
+        "locations-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Locations:UndergroundMine",
+      "group": "locations",
+      "nativeName": "UndergroundMine",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "nativeFields": {
+        "DisplayName": null,
+        "CreateOnLoad": null
+      },
+      "verdict": "verified-mechanism",
+      "finding": "GameLocation.GetData对MineShaft实例统一读取UndergroundMine。它是动态矿层共享数据，不是一张可与120层矿井逐一重复计数的新地图。",
+      "nextAction": "在已有地点或节日说明中承接地图机制；补文和接口/页面回归后再单独签核，不创建Temp等伪地点。",
+      "evidenceIds": [
+        "native-record",
+        "locations-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Locations:DesertFestival",
+      "group": "locations",
+      "nativeName": "DesertFestival",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "nativeFields": {
+        "DisplayName": null,
+        "CreateOnLoad": {
+          "MapPath": "Maps\\Desert-Festival",
+          "Type": "StardewValley.Locations.DesertFestival",
+          "AlwaysActive": false
+        }
+      },
+      "verdict": "verified-mechanism",
+      "finding": "Data/PassiveFestivals的沙漠节把Desert替换为DesertFestival，是活动地图状态；正常沙漠与沙漠节应区别说明，不新增同义地点。",
+      "nextAction": "在已有地点或节日说明中承接地图机制；补文和接口/页面回归后再单独签核，不创建Temp等伪地点。",
+      "evidenceIds": [
+        "native-record",
+        "locations-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Locations:fishingGame",
+      "group": "locations",
+      "nativeName": "fishingGame",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "nativeFields": {
+        "DisplayName": null,
+        "CreateOnLoad": null
+      },
+      "verdict": "verified-mechanism",
+      "finding": "FishingGame构造Maps/FishingGame并命名fishingGame；IsTemporaryName也识别此名。它服务于展览会钓鱼小游戏，不是常驻钓鱼地点。",
+      "nextAction": "在已有地点或节日说明中承接地图机制；补文和接口/页面回归后再单独签核，不创建Temp等伪地点。",
+      "evidenceIds": [
+        "native-record",
+        "locations-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    },
+    {
+      "identity": "Data/Locations:Temp",
+      "group": "locations",
+      "nativeName": "Temp",
+      "nativeSource": {
+        "asset": "Data/Locations",
+        "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+      },
+      "nativeFields": {
+        "DisplayName": null,
+        "CreateOnLoad": null
+      },
+      "verdict": "verified-mechanism",
+      "finding": "GameLocation.IsTemporaryName把Temp前缀识别为临时场景；Data/Locations:Temp不能直接当作可探索的新地点，也不意味着可忽略节日活动说明。",
+      "nextAction": "在已有地点或节日说明中承接地图机制；补文和接口/页面回归后再单独签核，不创建Temp等伪地点。",
+      "evidenceIds": [
+        "native-record",
+        "locations-native"
+      ],
+      "remainingQuestions": [],
+      "manifestKeys": [],
+      "closed": false
+    }
+  ]
+}

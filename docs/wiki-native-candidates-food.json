@@ -1,0 +1,1160 @@
+{
+  "version": "1.6.15",
+  "id": "food",
+  "name": "料理、采集与加工品",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 172,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "count": 202,
+      "records": [
+        {
+          "nativeId": "16",
+          "nativeName": "Wild Horseradish"
+        },
+        {
+          "nativeId": "18",
+          "nativeName": "Daffodil"
+        },
+        {
+          "nativeId": "20",
+          "nativeName": "Leek"
+        },
+        {
+          "nativeId": "22",
+          "nativeName": "Dandelion"
+        },
+        {
+          "nativeId": "24",
+          "nativeName": "Parsnip"
+        },
+        {
+          "nativeId": "78",
+          "nativeName": "Cave Carrot"
+        },
+        {
+          "nativeId": "88",
+          "nativeName": "Coconut"
+        },
+        {
+          "nativeId": "90",
+          "nativeName": "Cactus Fruit"
+        },
+        {
+          "nativeId": "91",
+          "nativeName": "Banana"
+        },
+        {
+          "nativeId": "92",
+          "nativeName": "Sap"
+        },
+        {
+          "nativeId": "174",
+          "nativeName": "Large Egg"
+        },
+        {
+          "nativeId": "176",
+          "nativeName": "Egg"
+        },
+        {
+          "nativeId": "180",
+          "nativeName": "Egg"
+        },
+        {
+          "nativeId": "182",
+          "nativeName": "Large Egg"
+        },
+        {
+          "nativeId": "184",
+          "nativeName": "Milk"
+        },
+        {
+          "nativeId": "186",
+          "nativeName": "Large Milk"
+        },
+        {
+          "nativeId": "188",
+          "nativeName": "Green Bean"
+        },
+        {
+          "nativeId": "190",
+          "nativeName": "Cauliflower"
+        },
+        {
+          "nativeId": "192",
+          "nativeName": "Potato"
+        },
+        {
+          "nativeId": "194",
+          "nativeName": "Fried Egg"
+        },
+        {
+          "nativeId": "195",
+          "nativeName": "Omelet"
+        },
+        {
+          "nativeId": "196",
+          "nativeName": "Salad"
+        },
+        {
+          "nativeId": "197",
+          "nativeName": "Cheese Cauliflower"
+        },
+        {
+          "nativeId": "198",
+          "nativeName": "Baked Fish"
+        },
+        {
+          "nativeId": "199",
+          "nativeName": "Parsnip Soup"
+        },
+        {
+          "nativeId": "200",
+          "nativeName": "Vegetable Medley"
+        },
+        {
+          "nativeId": "201",
+          "nativeName": "Complete Breakfast"
+        },
+        {
+          "nativeId": "202",
+          "nativeName": "Fried Calamari"
+        },
+        {
+          "nativeId": "203",
+          "nativeName": "Strange Bun"
+        },
+        {
+          "nativeId": "204",
+          "nativeName": "Lucky Lunch"
+        },
+        {
+          "nativeId": "205",
+          "nativeName": "Fried Mushroom"
+        },
+        {
+          "nativeId": "206",
+          "nativeName": "Pizza"
+        },
+        {
+          "nativeId": "207",
+          "nativeName": "Bean Hotpot"
+        },
+        {
+          "nativeId": "208",
+          "nativeName": "Glazed Yams"
+        },
+        {
+          "nativeId": "209",
+          "nativeName": "Carp Surprise"
+        },
+        {
+          "nativeId": "210",
+          "nativeName": "Hashbrowns"
+        },
+        {
+          "nativeId": "211",
+          "nativeName": "Pancakes"
+        },
+        {
+          "nativeId": "212",
+          "nativeName": "Salmon Dinner"
+        },
+        {
+          "nativeId": "213",
+          "nativeName": "Fish Taco"
+        },
+        {
+          "nativeId": "214",
+          "nativeName": "Crispy Bass"
+        },
+        {
+          "nativeId": "215",
+          "nativeName": "Pepper Poppers"
+        },
+        {
+          "nativeId": "216",
+          "nativeName": "Bread"
+        },
+        {
+          "nativeId": "218",
+          "nativeName": "Tom Kha Soup"
+        },
+        {
+          "nativeId": "219",
+          "nativeName": "Trout Soup"
+        },
+        {
+          "nativeId": "220",
+          "nativeName": "Chocolate Cake"
+        },
+        {
+          "nativeId": "221",
+          "nativeName": "Pink Cake"
+        },
+        {
+          "nativeId": "222",
+          "nativeName": "Rhubarb Pie"
+        },
+        {
+          "nativeId": "223",
+          "nativeName": "Cookie"
+        },
+        {
+          "nativeId": "224",
+          "nativeName": "Spaghetti"
+        },
+        {
+          "nativeId": "225",
+          "nativeName": "Fried Eel"
+        },
+        {
+          "nativeId": "226",
+          "nativeName": "Spicy Eel"
+        },
+        {
+          "nativeId": "227",
+          "nativeName": "Sashimi"
+        },
+        {
+          "nativeId": "228",
+          "nativeName": "Maki Roll"
+        },
+        {
+          "nativeId": "229",
+          "nativeName": "Tortilla"
+        },
+        {
+          "nativeId": "230",
+          "nativeName": "Red Plate"
+        },
+        {
+          "nativeId": "231",
+          "nativeName": "Eggplant Parmesan"
+        },
+        {
+          "nativeId": "232",
+          "nativeName": "Rice Pudding"
+        },
+        {
+          "nativeId": "233",
+          "nativeName": "Ice Cream"
+        },
+        {
+          "nativeId": "234",
+          "nativeName": "Blueberry Tart"
+        },
+        {
+          "nativeId": "235",
+          "nativeName": "Autumn's Bounty"
+        },
+        {
+          "nativeId": "236",
+          "nativeName": "Pumpkin Soup"
+        },
+        {
+          "nativeId": "237",
+          "nativeName": "Super Meal"
+        },
+        {
+          "nativeId": "238",
+          "nativeName": "Cranberry Sauce"
+        },
+        {
+          "nativeId": "239",
+          "nativeName": "Stuffing"
+        },
+        {
+          "nativeId": "240",
+          "nativeName": "Farmer's Lunch"
+        },
+        {
+          "nativeId": "241",
+          "nativeName": "Survival Burger"
+        },
+        {
+          "nativeId": "242",
+          "nativeName": "Dish O' The Sea"
+        },
+        {
+          "nativeId": "243",
+          "nativeName": "Miner's Treat"
+        },
+        {
+          "nativeId": "244",
+          "nativeName": "Roots Platter"
+        },
+        {
+          "nativeId": "248",
+          "nativeName": "Garlic"
+        },
+        {
+          "nativeId": "250",
+          "nativeName": "Kale"
+        },
+        {
+          "nativeId": "252",
+          "nativeName": "Rhubarb"
+        },
+        {
+          "nativeId": "253",
+          "nativeName": "Triple Shot Espresso"
+        },
+        {
+          "nativeId": "254",
+          "nativeName": "Melon"
+        },
+        {
+          "nativeId": "256",
+          "nativeName": "Tomato"
+        },
+        {
+          "nativeId": "257",
+          "nativeName": "Morel"
+        },
+        {
+          "nativeId": "258",
+          "nativeName": "Blueberry"
+        },
+        {
+          "nativeId": "259",
+          "nativeName": "Fiddlehead Fern"
+        },
+        {
+          "nativeId": "260",
+          "nativeName": "Hot Pepper"
+        },
+        {
+          "nativeId": "262",
+          "nativeName": "Wheat"
+        },
+        {
+          "nativeId": "264",
+          "nativeName": "Radish"
+        },
+        {
+          "nativeId": "265",
+          "nativeName": "Seafoam Pudding"
+        },
+        {
+          "nativeId": "266",
+          "nativeName": "Red Cabbage"
+        },
+        {
+          "nativeId": "268",
+          "nativeName": "Starfruit"
+        },
+        {
+          "nativeId": "270",
+          "nativeName": "Corn"
+        },
+        {
+          "nativeId": "271",
+          "nativeName": "Unmilled Rice"
+        },
+        {
+          "nativeId": "272",
+          "nativeName": "Eggplant"
+        },
+        {
+          "nativeId": "274",
+          "nativeName": "Artichoke"
+        },
+        {
+          "nativeId": "276",
+          "nativeName": "Pumpkin"
+        },
+        {
+          "nativeId": "278",
+          "nativeName": "Bok Choy"
+        },
+        {
+          "nativeId": "279",
+          "nativeName": "Magic Rock Candy"
+        },
+        {
+          "nativeId": "280",
+          "nativeName": "Yam"
+        },
+        {
+          "nativeId": "281",
+          "nativeName": "Chanterelle"
+        },
+        {
+          "nativeId": "282",
+          "nativeName": "Cranberries"
+        },
+        {
+          "nativeId": "283",
+          "nativeName": "Holly"
+        },
+        {
+          "nativeId": "284",
+          "nativeName": "Beet"
+        },
+        {
+          "nativeId": "289",
+          "nativeName": "Ostrich Egg"
+        },
+        {
+          "nativeId": "296",
+          "nativeName": "Salmonberry"
+        },
+        {
+          "nativeId": "300",
+          "nativeName": "Amaranth"
+        },
+        {
+          "nativeId": "303",
+          "nativeName": "Pale Ale"
+        },
+        {
+          "nativeId": "304",
+          "nativeName": "Hops"
+        },
+        {
+          "nativeId": "305",
+          "nativeName": "Void Egg"
+        },
+        {
+          "nativeId": "306",
+          "nativeName": "Mayonnaise"
+        },
+        {
+          "nativeId": "307",
+          "nativeName": "Duck Mayonnaise"
+        },
+        {
+          "nativeId": "308",
+          "nativeName": "Void Mayonnaise"
+        },
+        {
+          "nativeId": "340",
+          "nativeName": "Honey"
+        },
+        {
+          "nativeId": "342",
+          "nativeName": "Pickles"
+        },
+        {
+          "nativeId": "344",
+          "nativeName": "Jelly"
+        },
+        {
+          "nativeId": "346",
+          "nativeName": "Beer"
+        },
+        {
+          "nativeId": "348",
+          "nativeName": "Wine"
+        },
+        {
+          "nativeId": "350",
+          "nativeName": "Juice"
+        },
+        {
+          "nativeId": "376",
+          "nativeName": "Poppy"
+        },
+        {
+          "nativeId": "396",
+          "nativeName": "Spice Berry"
+        },
+        {
+          "nativeId": "398",
+          "nativeName": "Grape"
+        },
+        {
+          "nativeId": "399",
+          "nativeName": "Spring Onion"
+        },
+        {
+          "nativeId": "400",
+          "nativeName": "Strawberry"
+        },
+        {
+          "nativeId": "402",
+          "nativeName": "Sweet Pea"
+        },
+        {
+          "nativeId": "404",
+          "nativeName": "Common Mushroom"
+        },
+        {
+          "nativeId": "406",
+          "nativeName": "Wild Plum"
+        },
+        {
+          "nativeId": "408",
+          "nativeName": "Hazelnut"
+        },
+        {
+          "nativeId": "410",
+          "nativeName": "Blackberry"
+        },
+        {
+          "nativeId": "412",
+          "nativeName": "Winter Root"
+        },
+        {
+          "nativeId": "414",
+          "nativeName": "Crystal Fruit"
+        },
+        {
+          "nativeId": "416",
+          "nativeName": "Snow Yam"
+        },
+        {
+          "nativeId": "418",
+          "nativeName": "Crocus"
+        },
+        {
+          "nativeId": "420",
+          "nativeName": "Red Mushroom"
+        },
+        {
+          "nativeId": "421",
+          "nativeName": "Sunflower"
+        },
+        {
+          "nativeId": "422",
+          "nativeName": "Purple Mushroom"
+        },
+        {
+          "nativeId": "424",
+          "nativeName": "Cheese"
+        },
+        {
+          "nativeId": "426",
+          "nativeName": "Goat Cheese"
+        },
+        {
+          "nativeId": "428",
+          "nativeName": "Cloth"
+        },
+        {
+          "nativeId": "432",
+          "nativeName": "Truffle Oil"
+        },
+        {
+          "nativeId": "436",
+          "nativeName": "Goat Milk"
+        },
+        {
+          "nativeId": "438",
+          "nativeName": "L. Goat Milk"
+        },
+        {
+          "nativeId": "440",
+          "nativeName": "Wool"
+        },
+        {
+          "nativeId": "442",
+          "nativeName": "Duck Egg"
+        },
+        {
+          "nativeId": "444",
+          "nativeName": "Duck Feather"
+        },
+        {
+          "nativeId": "445",
+          "nativeName": "Caviar"
+        },
+        {
+          "nativeId": "446",
+          "nativeName": "Rabbit's Foot"
+        },
+        {
+          "nativeId": "447",
+          "nativeName": "Aged Roe"
+        },
+        {
+          "nativeId": "454",
+          "nativeName": "Ancient Fruit"
+        },
+        {
+          "nativeId": "456",
+          "nativeName": "Algae Soup"
+        },
+        {
+          "nativeId": "457",
+          "nativeName": "Pale Broth"
+        },
+        {
+          "nativeId": "459",
+          "nativeName": "Mead"
+        },
+        {
+          "nativeId": "591",
+          "nativeName": "Tulip"
+        },
+        {
+          "nativeId": "593",
+          "nativeName": "Summer Spangle"
+        },
+        {
+          "nativeId": "595",
+          "nativeName": "Fairy Rose"
+        },
+        {
+          "nativeId": "597",
+          "nativeName": "Blue Jazz"
+        },
+        {
+          "nativeId": "604",
+          "nativeName": "Plum Pudding"
+        },
+        {
+          "nativeId": "605",
+          "nativeName": "Artichoke Dip"
+        },
+        {
+          "nativeId": "606",
+          "nativeName": "Stir Fry"
+        },
+        {
+          "nativeId": "607",
+          "nativeName": "Roasted Hazelnuts"
+        },
+        {
+          "nativeId": "608",
+          "nativeName": "Pumpkin Pie"
+        },
+        {
+          "nativeId": "609",
+          "nativeName": "Radish Salad"
+        },
+        {
+          "nativeId": "610",
+          "nativeName": "Fruit Salad"
+        },
+        {
+          "nativeId": "611",
+          "nativeName": "Blackberry Cobbler"
+        },
+        {
+          "nativeId": "612",
+          "nativeName": "Cranberry Candy"
+        },
+        {
+          "nativeId": "613",
+          "nativeName": "Apple"
+        },
+        {
+          "nativeId": "614",
+          "nativeName": "Green Tea"
+        },
+        {
+          "nativeId": "618",
+          "nativeName": "Bruschetta"
+        },
+        {
+          "nativeId": "634",
+          "nativeName": "Apricot"
+        },
+        {
+          "nativeId": "635",
+          "nativeName": "Orange"
+        },
+        {
+          "nativeId": "636",
+          "nativeName": "Peach"
+        },
+        {
+          "nativeId": "637",
+          "nativeName": "Pomegranate"
+        },
+        {
+          "nativeId": "638",
+          "nativeName": "Cherry"
+        },
+        {
+          "nativeId": "648",
+          "nativeName": "Coleslaw"
+        },
+        {
+          "nativeId": "649",
+          "nativeName": "Fiddlehead Risotto"
+        },
+        {
+          "nativeId": "651",
+          "nativeName": "Poppyseed Muffin"
+        },
+        {
+          "nativeId": "727",
+          "nativeName": "Chowder"
+        },
+        {
+          "nativeId": "728",
+          "nativeName": "Fish Stew"
+        },
+        {
+          "nativeId": "729",
+          "nativeName": "Escargot"
+        },
+        {
+          "nativeId": "730",
+          "nativeName": "Lobster Bisque"
+        },
+        {
+          "nativeId": "731",
+          "nativeName": "Maple Bar"
+        },
+        {
+          "nativeId": "732",
+          "nativeName": "Crab Cakes"
+        },
+        {
+          "nativeId": "733",
+          "nativeName": "Shrimp Cocktail"
+        },
+        {
+          "nativeId": "772",
+          "nativeName": "Oil of Garlic"
+        },
+        {
+          "nativeId": "773",
+          "nativeName": "Life Elixir"
+        },
+        {
+          "nativeId": "807",
+          "nativeName": "Dinosaur Mayonnaise"
+        },
+        {
+          "nativeId": "815",
+          "nativeName": "Tea Leaves"
+        },
+        {
+          "nativeId": "829",
+          "nativeName": "Ginger"
+        },
+        {
+          "nativeId": "830",
+          "nativeName": "Taro Root"
+        },
+        {
+          "nativeId": "832",
+          "nativeName": "Pineapple"
+        },
+        {
+          "nativeId": "834",
+          "nativeName": "Mango"
+        },
+        {
+          "nativeId": "851",
+          "nativeName": "Magma Cap"
+        },
+        {
+          "nativeId": "873",
+          "nativeName": "Piña Colada"
+        },
+        {
+          "nativeId": "889",
+          "nativeName": "Qi Fruit"
+        },
+        {
+          "nativeId": "903",
+          "nativeName": "Ginger Ale"
+        },
+        {
+          "nativeId": "904",
+          "nativeName": "Banana Pudding"
+        },
+        {
+          "nativeId": "905",
+          "nativeName": "Mango Sticky Rice"
+        },
+        {
+          "nativeId": "906",
+          "nativeName": "Poi"
+        },
+        {
+          "nativeId": "907",
+          "nativeName": "Tropical Curry"
+        },
+        {
+          "nativeId": "921",
+          "nativeName": "Squid Ink Ravioli"
+        },
+        {
+          "nativeId": "928",
+          "nativeName": "Golden Egg"
+        },
+        {
+          "nativeId": "Raisins",
+          "nativeName": "Raisins"
+        },
+        {
+          "nativeId": "DriedFruit",
+          "nativeName": "Dried"
+        },
+        {
+          "nativeId": "DriedMushrooms",
+          "nativeName": "Dried"
+        },
+        {
+          "nativeId": "Carrot",
+          "nativeName": "Carrot"
+        },
+        {
+          "nativeId": "SummerSquash",
+          "nativeName": "Summer Squash"
+        },
+        {
+          "nativeId": "Broccoli",
+          "nativeName": "Broccoli"
+        },
+        {
+          "nativeId": "Powdermelon",
+          "nativeName": "Powdermelon"
+        },
+        {
+          "nativeId": "SmokedFish",
+          "nativeName": "Smoked"
+        },
+        {
+          "nativeId": "MossSoup",
+          "nativeName": "Moss Soup"
+        }
+      ]
+    },
+    {
+      "asset": "Data/CookingRecipes",
+      "sha256": "1773C16E1E23AB752F8E0A6EE991EF44156B2E13D477DF74C057AC0D3BCB05A4",
+      "count": 81,
+      "records": [
+        {
+          "nativeId": "Fried Egg",
+          "nativeName": "Fried Egg"
+        },
+        {
+          "nativeId": "Omelet",
+          "nativeName": "Omelet"
+        },
+        {
+          "nativeId": "Salad",
+          "nativeName": "Salad"
+        },
+        {
+          "nativeId": "Cheese Cauli.",
+          "nativeName": "Cheese Cauli."
+        },
+        {
+          "nativeId": "Baked Fish",
+          "nativeName": "Baked Fish"
+        },
+        {
+          "nativeId": "Parsnip Soup",
+          "nativeName": "Parsnip Soup"
+        },
+        {
+          "nativeId": "Vegetable Stew",
+          "nativeName": "Vegetable Stew"
+        },
+        {
+          "nativeId": "Complete Breakfast",
+          "nativeName": "Complete Breakfast"
+        },
+        {
+          "nativeId": "Fried Calamari",
+          "nativeName": "Fried Calamari"
+        },
+        {
+          "nativeId": "Strange Bun",
+          "nativeName": "Strange Bun"
+        },
+        {
+          "nativeId": "Lucky Lunch",
+          "nativeName": "Lucky Lunch"
+        },
+        {
+          "nativeId": "Fried Mushroom",
+          "nativeName": "Fried Mushroom"
+        },
+        {
+          "nativeId": "Pizza",
+          "nativeName": "Pizza"
+        },
+        {
+          "nativeId": "Bean Hotpot",
+          "nativeName": "Bean Hotpot"
+        },
+        {
+          "nativeId": "Glazed Yams",
+          "nativeName": "Glazed Yams"
+        },
+        {
+          "nativeId": "Carp Surprise",
+          "nativeName": "Carp Surprise"
+        },
+        {
+          "nativeId": "Hashbrowns",
+          "nativeName": "Hashbrowns"
+        },
+        {
+          "nativeId": "Pancakes",
+          "nativeName": "Pancakes"
+        },
+        {
+          "nativeId": "Salmon Dinner",
+          "nativeName": "Salmon Dinner"
+        },
+        {
+          "nativeId": "Fish Taco",
+          "nativeName": "Fish Taco"
+        },
+        {
+          "nativeId": "Crispy Bass",
+          "nativeName": "Crispy Bass"
+        },
+        {
+          "nativeId": "Pepper Poppers",
+          "nativeName": "Pepper Poppers"
+        },
+        {
+          "nativeId": "Bread",
+          "nativeName": "Bread"
+        },
+        {
+          "nativeId": "Tom Kha Soup",
+          "nativeName": "Tom Kha Soup"
+        },
+        {
+          "nativeId": "Trout Soup",
+          "nativeName": "Trout Soup"
+        },
+        {
+          "nativeId": "Chocolate Cake",
+          "nativeName": "Chocolate Cake"
+        },
+        {
+          "nativeId": "Pink Cake",
+          "nativeName": "Pink Cake"
+        },
+        {
+          "nativeId": "Rhubarb Pie",
+          "nativeName": "Rhubarb Pie"
+        },
+        {
+          "nativeId": "Cookies",
+          "nativeName": "Cookies"
+        },
+        {
+          "nativeId": "Spaghetti",
+          "nativeName": "Spaghetti"
+        },
+        {
+          "nativeId": "Fried Eel",
+          "nativeName": "Fried Eel"
+        },
+        {
+          "nativeId": "Spicy Eel",
+          "nativeName": "Spicy Eel"
+        },
+        {
+          "nativeId": "Sashimi",
+          "nativeName": "Sashimi"
+        },
+        {
+          "nativeId": "Maki Roll",
+          "nativeName": "Maki Roll"
+        },
+        {
+          "nativeId": "Tortilla",
+          "nativeName": "Tortilla"
+        },
+        {
+          "nativeId": "Red Plate",
+          "nativeName": "Red Plate"
+        },
+        {
+          "nativeId": "Eggplant Parm.",
+          "nativeName": "Eggplant Parm."
+        },
+        {
+          "nativeId": "Rice Pudding",
+          "nativeName": "Rice Pudding"
+        },
+        {
+          "nativeId": "Ice Cream",
+          "nativeName": "Ice Cream"
+        },
+        {
+          "nativeId": "Blueberry Tart",
+          "nativeName": "Blueberry Tart"
+        },
+        {
+          "nativeId": "Autumn's Bounty",
+          "nativeName": "Autumn's Bounty"
+        },
+        {
+          "nativeId": "Pumpkin Soup",
+          "nativeName": "Pumpkin Soup"
+        },
+        {
+          "nativeId": "Super Meal",
+          "nativeName": "Super Meal"
+        },
+        {
+          "nativeId": "Cran. Sauce",
+          "nativeName": "Cran. Sauce"
+        },
+        {
+          "nativeId": "Stuffing",
+          "nativeName": "Stuffing"
+        },
+        {
+          "nativeId": "Farmer's Lunch",
+          "nativeName": "Farmer's Lunch"
+        },
+        {
+          "nativeId": "Survival Burger",
+          "nativeName": "Survival Burger"
+        },
+        {
+          "nativeId": "Dish o' The Sea",
+          "nativeName": "Dish o' The Sea"
+        },
+        {
+          "nativeId": "Miner's Treat",
+          "nativeName": "Miner's Treat"
+        },
+        {
+          "nativeId": "Roots Platter",
+          "nativeName": "Roots Platter"
+        },
+        {
+          "nativeId": "Algae Soup",
+          "nativeName": "Algae Soup"
+        },
+        {
+          "nativeId": "Pale Broth",
+          "nativeName": "Pale Broth"
+        },
+        {
+          "nativeId": "Plum Pudding",
+          "nativeName": "Plum Pudding"
+        },
+        {
+          "nativeId": "Artichoke Dip",
+          "nativeName": "Artichoke Dip"
+        },
+        {
+          "nativeId": "Stir Fry",
+          "nativeName": "Stir Fry"
+        },
+        {
+          "nativeId": "Roasted Hazelnuts",
+          "nativeName": "Roasted Hazelnuts"
+        },
+        {
+          "nativeId": "Pumpkin Pie",
+          "nativeName": "Pumpkin Pie"
+        },
+        {
+          "nativeId": "Radish Salad",
+          "nativeName": "Radish Salad"
+        },
+        {
+          "nativeId": "Fruit Salad",
+          "nativeName": "Fruit Salad"
+        },
+        {
+          "nativeId": "Blackberry Cobbler",
+          "nativeName": "Blackberry Cobbler"
+        },
+        {
+          "nativeId": "Cranberry Candy",
+          "nativeName": "Cranberry Candy"
+        },
+        {
+          "nativeId": "Bruschetta",
+          "nativeName": "Bruschetta"
+        },
+        {
+          "nativeId": "Coleslaw",
+          "nativeName": "Coleslaw"
+        },
+        {
+          "nativeId": "Fiddlehead Risotto",
+          "nativeName": "Fiddlehead Risotto"
+        },
+        {
+          "nativeId": "Poppyseed Muffin",
+          "nativeName": "Poppyseed Muffin"
+        },
+        {
+          "nativeId": "Chowder",
+          "nativeName": "Chowder"
+        },
+        {
+          "nativeId": "Lobster Bisque",
+          "nativeName": "Lobster Bisque"
+        },
+        {
+          "nativeId": "Fish Stew",
+          "nativeName": "Fish Stew"
+        },
+        {
+          "nativeId": "Escargot",
+          "nativeName": "Escargot"
+        },
+        {
+          "nativeId": "Maple Bar",
+          "nativeName": "Maple Bar"
+        },
+        {
+          "nativeId": "Crab Cakes",
+          "nativeName": "Crab Cakes"
+        },
+        {
+          "nativeId": "Triple Shot Espresso",
+          "nativeName": "Triple Shot Espresso"
+        },
+        {
+          "nativeId": "Shrimp Cocktail",
+          "nativeName": "Shrimp Cocktail"
+        },
+        {
+          "nativeId": "Seafoam Pudding",
+          "nativeName": "Seafoam Pudding"
+        },
+        {
+          "nativeId": "Ginger Ale",
+          "nativeName": "Ginger Ale"
+        },
+        {
+          "nativeId": "Banana Pudding",
+          "nativeName": "Banana Pudding"
+        },
+        {
+          "nativeId": "Mango Sticky Rice",
+          "nativeName": "Mango Sticky Rice"
+        },
+        {
+          "nativeId": "Poi",
+          "nativeName": "Poi"
+        },
+        {
+          "nativeId": "Tropical Curry",
+          "nativeName": "Tropical Curry"
+        },
+        {
+          "nativeId": "Squid Ink Ravioli",
+          "nativeName": "Squid Ink Ravioli"
+        },
+        {
+          "nativeId": "Moss Soup",
+          "nativeName": "Moss Soup"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-food-native-roster.json"
+  ],
+  "remainingReview": "原版Lumber编号30有可食用字段，但正常玩法来源尚未查明；不能直接判为料理或无依据排除。"
+}

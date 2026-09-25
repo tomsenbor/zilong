@@ -1,0 +1,216 @@
+[
+  {
+    "id": "rabbit",
+    "nativeClass": "Rabbit",
+    "file": "public/assets/game/Wildlife_rabbit.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 256,
+      "top": 192,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "67a1b28361e1e1443bc87ff8917e959af154410781149d9fc1e1692cc8874ca0"
+  },
+  {
+    "id": "squirrel",
+    "nativeClass": "Squirrel",
+    "file": "public/assets/game/Wildlife_squirrel.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 192,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "7e078e1bdc5de892afb0999eb625dc9cd92f34f61d8731f51079aead8b9abb4a"
+  },
+  {
+    "id": "frog",
+    "nativeClass": "Frog",
+    "file": "public/assets/game/Wildlife_frog.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 224,
+      "width": 16,
+      "height": 16
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "67ee6fbe3b99706f29ca1efde9cbf9489fc3893e3374c5634e5d7342f5759f90"
+  },
+  {
+    "id": "crow",
+    "nativeClass": "Crow",
+    "file": "public/assets/game/Wildlife_crow.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 128,
+      "top": 32,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "4470df0b91713a43c4568af5e7520a168a052f3e107e8d15a76012fbab715d20"
+  },
+  {
+    "id": "woodpecker",
+    "nativeClass": "Woodpecker",
+    "file": "public/assets/game/Wildlife_woodpecker.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 256,
+      "width": 16,
+      "height": 16
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "f7ee63c75ab6d3527098f9f32fea2898589df16af2938731b51f6b99e90e43bf"
+  },
+  {
+    "id": "sparrow",
+    "nativeClass": "Birdie",
+    "file": "public/assets/game/Wildlife_sparrow.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 160,
+      "top": 64,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "9b46f85d5bba2154d496073206dd98c6cc410dced77931c72b019fe815f53ed3"
+  },
+  {
+    "id": "butterfly",
+    "nativeClass": "Butterfly",
+    "file": "public/assets/game/Wildlife_butterfly.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 128,
+      "top": 96,
+      "width": 16,
+      "height": 16
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "cd1d0ef361e3c570ddc5de12c347c8544e1f82b17081b61c32ce17e6c00a76dd"
+  },
+  {
+    "id": "opossum",
+    "nativeClass": "Opossum",
+    "file": "public/assets/game/Wildlife_opossum.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 480,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "14ef3ad95a1f784d4fa65291ddc94e0500e83c62da99d09584da5b6a30a8525b"
+  },
+  {
+    "id": "crab",
+    "nativeClass": "CrabCritter",
+    "file": "public/assets/game/Wildlife_crab.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 272,
+      "width": 18,
+      "height": 18
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "e9d138e2cd572a8bd120f7d6e592ac830b71958d1af741dad2fdbb76021c7124"
+  },
+  {
+    "id": "caldera-monkey",
+    "nativeClass": "CalderaMonkey",
+    "file": "public/assets/game/Wildlife_caldera-monkey.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 309,
+      "width": 20,
+      "height": 24
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "39769c50a08dcec16d70cd11419087743bfe40048683395db344d5531088e2fc"
+  },
+  {
+    "id": "parrot",
+    "nativeClass": "OverheadParrot",
+    "file": "public/assets/game/Wildlife_parrot.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/LooseSprites/parrots.xnb",
+    "sourceSha256": "730edfe7f32a6aacf63ab9cd7b935e741e87cb26d1760c0c102aa1612b1cd7ac",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 24,
+      "height": 24
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "c93bb5dd45c952b8812b64e98a0a7434323bd495333f995aeedfa77d536a06e1"
+  },
+  {
+    "id": "owl",
+    "nativeClass": "Owl",
+    "file": "public/assets/game/Wildlife_owl.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 96,
+      "top": 256,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "5f1c385e37154fd913a312724c2c18fc4de189561a8a2ceefbf595800b8dcef1"
+  },
+  {
+    "id": "seagull",
+    "nativeClass": "Seagull",
+    "file": "public/assets/game/Wildlife_seagull.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/critters.xnb",
+    "sourceSha256": "80f23adb5bd0d8b90afce2c18342c176c802cca4d9e3052f2f1e9e9a7138a755",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 32,
+      "height": 32
+    },
+    "width": 96,
+    "height": 96,
+    "sha256": "01e20b98ec838aaaa9ad4eb9ac89626650cc8f31b56947db69825543ff5b7ced"
+  },
+  {
+    "id": "firefly",
+    "file": "public/assets/game/Location_cindersap-forest.png",
+    "purpose": "Explicitly labelled Cindersap Forest habitat illustration, not a Firefly item icon.",
+    "sha256": "eda8154390e0909c8da435f90d473e8ec8193ca3511928679e617d2de28d1b22"
+  }
+]

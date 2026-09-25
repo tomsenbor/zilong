@@ -1,0 +1,1157 @@
+{
+  "version": "1.6.15",
+  "status": "pending",
+  "collections": {
+    "seeds": {
+      "source": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "records": [
+        {
+          "nativeId": "69",
+          "manifestKeys": [
+            "seed:69"
+          ]
+        },
+        {
+          "nativeId": "251",
+          "manifestKeys": [
+            "seed:251"
+          ]
+        },
+        {
+          "nativeId": "273",
+          "manifestKeys": [
+            "seed:273"
+          ]
+        },
+        {
+          "nativeId": "292",
+          "manifestKeys": [
+            "seed:292"
+          ]
+        },
+        {
+          "nativeId": "299",
+          "manifestKeys": [
+            "seed:299"
+          ]
+        },
+        {
+          "nativeId": "301",
+          "manifestKeys": [
+            "seed:301"
+          ]
+        },
+        {
+          "nativeId": "302",
+          "manifestKeys": [
+            "seed:302"
+          ]
+        },
+        {
+          "nativeId": "309",
+          "manifestKeys": [
+            "seed:309"
+          ]
+        },
+        {
+          "nativeId": "310",
+          "manifestKeys": [
+            "seed:310"
+          ]
+        },
+        {
+          "nativeId": "311",
+          "manifestKeys": [
+            "seed:311"
+          ]
+        },
+        {
+          "nativeId": "347",
+          "manifestKeys": [
+            "seed:347"
+          ]
+        },
+        {
+          "nativeId": "425",
+          "manifestKeys": [
+            "seed:425"
+          ]
+        },
+        {
+          "nativeId": "427",
+          "manifestKeys": [
+            "seed:427"
+          ]
+        },
+        {
+          "nativeId": "429",
+          "manifestKeys": [
+            "seed:429"
+          ]
+        },
+        {
+          "nativeId": "431",
+          "manifestKeys": [
+            "seed:431"
+          ]
+        },
+        {
+          "nativeId": "433",
+          "manifestKeys": [
+            "seed:433"
+          ]
+        },
+        {
+          "nativeId": "453",
+          "manifestKeys": [
+            "seed:453"
+          ]
+        },
+        {
+          "nativeId": "455",
+          "manifestKeys": [
+            "seed:455"
+          ]
+        },
+        {
+          "nativeId": "472",
+          "manifestKeys": [
+            "seed:472"
+          ]
+        },
+        {
+          "nativeId": "473",
+          "manifestKeys": [
+            "seed:473"
+          ]
+        },
+        {
+          "nativeId": "474",
+          "manifestKeys": [
+            "seed:474"
+          ]
+        },
+        {
+          "nativeId": "475",
+          "manifestKeys": [
+            "seed:475"
+          ]
+        },
+        {
+          "nativeId": "476",
+          "manifestKeys": [
+            "seed:476"
+          ]
+        },
+        {
+          "nativeId": "477",
+          "manifestKeys": [
+            "seed:477"
+          ]
+        },
+        {
+          "nativeId": "478",
+          "manifestKeys": [
+            "seed:478"
+          ]
+        },
+        {
+          "nativeId": "479",
+          "manifestKeys": [
+            "seed:479"
+          ]
+        },
+        {
+          "nativeId": "480",
+          "manifestKeys": [
+            "seed:480"
+          ]
+        },
+        {
+          "nativeId": "481",
+          "manifestKeys": [
+            "seed:481"
+          ]
+        },
+        {
+          "nativeId": "482",
+          "manifestKeys": [
+            "seed:482"
+          ]
+        },
+        {
+          "nativeId": "483",
+          "manifestKeys": [
+            "seed:483"
+          ]
+        },
+        {
+          "nativeId": "484",
+          "manifestKeys": [
+            "seed:484"
+          ]
+        },
+        {
+          "nativeId": "485",
+          "manifestKeys": [
+            "seed:485"
+          ]
+        },
+        {
+          "nativeId": "486",
+          "manifestKeys": [
+            "seed:486"
+          ]
+        },
+        {
+          "nativeId": "487",
+          "manifestKeys": [
+            "seed:487"
+          ]
+        },
+        {
+          "nativeId": "488",
+          "manifestKeys": [
+            "seed:488"
+          ]
+        },
+        {
+          "nativeId": "489",
+          "manifestKeys": [
+            "seed:489"
+          ]
+        },
+        {
+          "nativeId": "490",
+          "manifestKeys": [
+            "seed:490"
+          ]
+        },
+        {
+          "nativeId": "491",
+          "manifestKeys": [
+            "seed:491"
+          ]
+        },
+        {
+          "nativeId": "492",
+          "manifestKeys": [
+            "seed:492"
+          ]
+        },
+        {
+          "nativeId": "493",
+          "manifestKeys": [
+            "seed:493"
+          ]
+        },
+        {
+          "nativeId": "494",
+          "manifestKeys": [
+            "seed:494"
+          ]
+        },
+        {
+          "nativeId": "495",
+          "manifestKeys": [
+            "seed:495"
+          ]
+        },
+        {
+          "nativeId": "496",
+          "manifestKeys": [
+            "seed:496"
+          ]
+        },
+        {
+          "nativeId": "497",
+          "manifestKeys": [
+            "seed:497"
+          ]
+        },
+        {
+          "nativeId": "498",
+          "manifestKeys": [
+            "seed:498"
+          ]
+        },
+        {
+          "nativeId": "499",
+          "manifestKeys": [
+            "seed:499"
+          ]
+        },
+        {
+          "nativeId": "628",
+          "manifestKeys": [
+            "seed:628"
+          ]
+        },
+        {
+          "nativeId": "629",
+          "manifestKeys": [
+            "seed:629"
+          ]
+        },
+        {
+          "nativeId": "630",
+          "manifestKeys": [
+            "seed:630"
+          ]
+        },
+        {
+          "nativeId": "631",
+          "manifestKeys": [
+            "seed:631"
+          ]
+        },
+        {
+          "nativeId": "632",
+          "manifestKeys": [
+            "seed:632"
+          ]
+        },
+        {
+          "nativeId": "633",
+          "manifestKeys": [
+            "seed:633"
+          ]
+        },
+        {
+          "nativeId": "745",
+          "manifestKeys": [
+            "seed:745"
+          ]
+        },
+        {
+          "nativeId": "770",
+          "manifestKeys": [
+            "seed:770"
+          ]
+        },
+        {
+          "nativeId": "802",
+          "manifestKeys": [
+            "seed:802"
+          ]
+        },
+        {
+          "nativeId": "831",
+          "manifestKeys": [
+            "seed:831"
+          ]
+        },
+        {
+          "nativeId": "833",
+          "manifestKeys": [
+            "seed:833"
+          ]
+        },
+        {
+          "nativeId": "835",
+          "manifestKeys": [
+            "seed:835"
+          ]
+        },
+        {
+          "nativeId": "885",
+          "manifestKeys": [
+            "seed:885"
+          ]
+        },
+        {
+          "nativeId": "890",
+          "manifestKeys": [
+            "seed:890"
+          ]
+        },
+        {
+          "nativeId": "891",
+          "manifestKeys": [
+            "seed:891"
+          ]
+        },
+        {
+          "nativeId": "MixedFlowerSeeds",
+          "manifestKeys": [
+            "seed:MixedFlowerSeeds"
+          ]
+        },
+        {
+          "nativeId": "MossySeed",
+          "manifestKeys": [
+            "seed:MossySeed"
+          ]
+        },
+        {
+          "nativeId": "MysticTreeSeed",
+          "manifestKeys": [
+            "seed:MysticTreeSeed"
+          ]
+        },
+        {
+          "nativeId": "CarrotSeeds",
+          "manifestKeys": [
+            "seed:CarrotSeeds"
+          ]
+        },
+        {
+          "nativeId": "SummerSquashSeeds",
+          "manifestKeys": [
+            "seed:SummerSquashSeeds"
+          ]
+        },
+        {
+          "nativeId": "BroccoliSeeds",
+          "manifestKeys": [
+            "seed:BroccoliSeeds"
+          ]
+        },
+        {
+          "nativeId": "PowdermelonSeeds",
+          "manifestKeys": [
+            "seed:PowdermelonSeeds"
+          ]
+        }
+      ]
+    },
+    "crops": {
+      "source": "Data/Crops",
+      "sha256": "F8A4479265A9218BADF47D3324BFE6F2BE3F0EDE453CB06DB278CF77721AA4C8",
+      "records": [
+        {
+          "nativeId": "273",
+          "manifestKeys": [
+            "seed:273",
+            "legacy-primary:Crops:Unmilled Rice"
+          ]
+        },
+        {
+          "nativeId": "299",
+          "manifestKeys": [
+            "seed:299",
+            "legacy-primary:Crops:Amaranth"
+          ]
+        },
+        {
+          "nativeId": "301",
+          "manifestKeys": [
+            "seed:301",
+            "legacy-primary:Crops:Grape"
+          ]
+        },
+        {
+          "nativeId": "302",
+          "manifestKeys": [
+            "seed:302",
+            "legacy-primary:Crops:Hops"
+          ]
+        },
+        {
+          "nativeId": "347",
+          "manifestKeys": [
+            "seed:347",
+            "legacy-primary:Crops:Sweet Gem Berry"
+          ]
+        },
+        {
+          "nativeId": "425",
+          "manifestKeys": [
+            "seed:425",
+            "legacy-primary:Crops:Fairy Rose"
+          ]
+        },
+        {
+          "nativeId": "427",
+          "manifestKeys": [
+            "seed:427",
+            "legacy-primary:Crops:Tulip"
+          ]
+        },
+        {
+          "nativeId": "429",
+          "manifestKeys": [
+            "seed:429",
+            "legacy-primary:Crops:Blue Jazz"
+          ]
+        },
+        {
+          "nativeId": "431",
+          "manifestKeys": [
+            "seed:431",
+            "legacy-primary:Crops:Sunflower"
+          ]
+        },
+        {
+          "nativeId": "433",
+          "manifestKeys": [
+            "seed:433"
+          ]
+        },
+        {
+          "nativeId": "453",
+          "manifestKeys": [
+            "seed:453",
+            "legacy-primary:Crops:Poppy"
+          ]
+        },
+        {
+          "nativeId": "455",
+          "manifestKeys": [
+            "seed:455",
+            "legacy-primary:Crops:Summer Spangle"
+          ]
+        },
+        {
+          "nativeId": "472",
+          "manifestKeys": [
+            "seed:472",
+            "legacy-primary:Crops:Parsnip"
+          ]
+        },
+        {
+          "nativeId": "473",
+          "manifestKeys": [
+            "seed:473",
+            "legacy-primary:Crops:Green Bean"
+          ]
+        },
+        {
+          "nativeId": "474",
+          "manifestKeys": [
+            "seed:474",
+            "legacy-primary:Crops:Cauliflower"
+          ]
+        },
+        {
+          "nativeId": "475",
+          "manifestKeys": [
+            "seed:475",
+            "legacy-primary:Crops:Potato"
+          ]
+        },
+        {
+          "nativeId": "476",
+          "manifestKeys": [
+            "seed:476",
+            "legacy-primary:Crops:Garlic"
+          ]
+        },
+        {
+          "nativeId": "477",
+          "manifestKeys": [
+            "seed:477",
+            "legacy-primary:Crops:Kale"
+          ]
+        },
+        {
+          "nativeId": "478",
+          "manifestKeys": [
+            "seed:478",
+            "legacy-primary:Crops:Rhubarb"
+          ]
+        },
+        {
+          "nativeId": "479",
+          "manifestKeys": [
+            "seed:479",
+            "legacy-primary:Crops:Melon"
+          ]
+        },
+        {
+          "nativeId": "480",
+          "manifestKeys": [
+            "seed:480",
+            "legacy-primary:Crops:Tomato"
+          ]
+        },
+        {
+          "nativeId": "481",
+          "manifestKeys": [
+            "seed:481",
+            "legacy-primary:Crops:Blueberry"
+          ]
+        },
+        {
+          "nativeId": "482",
+          "manifestKeys": [
+            "seed:482",
+            "legacy-primary:Crops:Hot Pepper"
+          ]
+        },
+        {
+          "nativeId": "483",
+          "manifestKeys": [
+            "seed:483",
+            "legacy-primary:Crops:Wheat"
+          ]
+        },
+        {
+          "nativeId": "484",
+          "manifestKeys": [
+            "seed:484",
+            "legacy-primary:Crops:Radish"
+          ]
+        },
+        {
+          "nativeId": "485",
+          "manifestKeys": [
+            "seed:485",
+            "legacy-primary:Crops:Red Cabbage"
+          ]
+        },
+        {
+          "nativeId": "486",
+          "manifestKeys": [
+            "seed:486",
+            "legacy-primary:Crops:Starfruit"
+          ]
+        },
+        {
+          "nativeId": "487",
+          "manifestKeys": [
+            "seed:487",
+            "legacy-primary:Crops:Corn"
+          ]
+        },
+        {
+          "nativeId": "488",
+          "manifestKeys": [
+            "seed:488",
+            "legacy-primary:Crops:Eggplant"
+          ]
+        },
+        {
+          "nativeId": "489",
+          "manifestKeys": [
+            "seed:489",
+            "legacy-primary:Crops:Artichoke"
+          ]
+        },
+        {
+          "nativeId": "490",
+          "manifestKeys": [
+            "seed:490",
+            "legacy-primary:Crops:Pumpkin"
+          ]
+        },
+        {
+          "nativeId": "491",
+          "manifestKeys": [
+            "seed:491",
+            "legacy-primary:Crops:Bok Choy"
+          ]
+        },
+        {
+          "nativeId": "492",
+          "manifestKeys": [
+            "seed:492",
+            "legacy-primary:Crops:Yam"
+          ]
+        },
+        {
+          "nativeId": "493",
+          "manifestKeys": [
+            "seed:493",
+            "legacy-primary:Crops:Cranberries"
+          ]
+        },
+        {
+          "nativeId": "494",
+          "manifestKeys": [
+            "seed:494",
+            "legacy-primary:Crops:Beet"
+          ]
+        },
+        {
+          "nativeId": "495",
+          "manifestKeys": [
+            "seed:495",
+            "forage:16"
+          ],
+          "wildSeedHarvestNotExhaustive": true,
+          "note": "Data/Crops default harvest is not the full forage roll; each seasonal seed page retains its documented possible products."
+        },
+        {
+          "nativeId": "496",
+          "manifestKeys": [
+            "seed:496",
+            "forage:396"
+          ],
+          "wildSeedHarvestNotExhaustive": true,
+          "note": "Data/Crops default harvest is not the full forage roll; each seasonal seed page retains its documented possible products."
+        },
+        {
+          "nativeId": "497",
+          "manifestKeys": [
+            "seed:497",
+            "forage:404"
+          ],
+          "wildSeedHarvestNotExhaustive": true,
+          "note": "Data/Crops default harvest is not the full forage roll; each seasonal seed page retains its documented possible products."
+        },
+        {
+          "nativeId": "498",
+          "manifestKeys": [
+            "seed:498",
+            "forage:412"
+          ],
+          "wildSeedHarvestNotExhaustive": true,
+          "note": "Data/Crops default harvest is not the full forage roll; each seasonal seed page retains its documented possible products."
+        },
+        {
+          "nativeId": "499",
+          "manifestKeys": [
+            "seed:499",
+            "legacy-primary:Crops:Ancient Fruit"
+          ]
+        },
+        {
+          "nativeId": "745",
+          "manifestKeys": [
+            "seed:745",
+            "legacy-primary:Crops:Strawberry"
+          ]
+        },
+        {
+          "nativeId": "802",
+          "manifestKeys": [
+            "seed:802",
+            "legacy-primary:Crops:Cactus Fruit"
+          ]
+        },
+        {
+          "nativeId": "831",
+          "manifestKeys": [
+            "seed:831",
+            "legacy-primary:Crops:Taro Root"
+          ]
+        },
+        {
+          "nativeId": "833",
+          "manifestKeys": [
+            "seed:833",
+            "legacy-primary:Crops:Pineapple"
+          ]
+        },
+        {
+          "nativeId": "885",
+          "manifestKeys": [
+            "seed:885",
+            "legacy-primary:Crops:Fiber"
+          ]
+        },
+        {
+          "nativeId": "890",
+          "manifestKeys": [
+            "seed:890",
+            "legacy-primary:Crops:Qi Fruit"
+          ]
+        },
+        {
+          "nativeId": "CarrotSeeds",
+          "manifestKeys": [
+            "seed:CarrotSeeds",
+            "legacy-primary:Crops:Carrot"
+          ]
+        },
+        {
+          "nativeId": "SummerSquashSeeds",
+          "manifestKeys": [
+            "seed:SummerSquashSeeds",
+            "legacy-primary:Crops:Summer Squash"
+          ]
+        },
+        {
+          "nativeId": "BroccoliSeeds",
+          "manifestKeys": [
+            "seed:BroccoliSeeds",
+            "legacy-primary:Crops:Broccoli"
+          ]
+        },
+        {
+          "nativeId": "PowdermelonSeeds",
+          "manifestKeys": [
+            "seed:PowdermelonSeeds",
+            "legacy-primary:Crops:Powdermelon"
+          ]
+        }
+      ]
+    },
+    "wildTrees": {
+      "source": "Data/WildTrees",
+      "sha256": "11A3317BF6A5E3C5D301EC45A5C26812060F46F655C423DBF39861A73B6588D2",
+      "records": [
+        {
+          "nativeId": "1",
+          "manifestKeys": [
+            "wild-tree:1"
+          ]
+        },
+        {
+          "nativeId": "2",
+          "manifestKeys": [
+            "wild-tree:2"
+          ]
+        },
+        {
+          "nativeId": "3",
+          "manifestKeys": [
+            "wild-tree:3"
+          ]
+        },
+        {
+          "nativeId": "6",
+          "manifestKeys": [
+            "wild-tree:6"
+          ]
+        },
+        {
+          "nativeId": "7",
+          "manifestKeys": [
+            "wild-tree:7"
+          ]
+        },
+        {
+          "nativeId": "8",
+          "manifestKeys": [
+            "wild-tree:8"
+          ]
+        },
+        {
+          "nativeId": "9",
+          "manifestKeys": [
+            "wild-tree:9"
+          ]
+        },
+        {
+          "nativeId": "10",
+          "manifestKeys": [
+            "wild-tree:10"
+          ]
+        },
+        {
+          "nativeId": "11",
+          "manifestKeys": [
+            "wild-tree:11"
+          ]
+        },
+        {
+          "nativeId": "12",
+          "manifestKeys": [
+            "wild-tree:12"
+          ]
+        },
+        {
+          "nativeId": "13",
+          "manifestKeys": [
+            "wild-tree:13"
+          ]
+        }
+      ]
+    },
+    "fruitTrees": {
+      "source": "Data/FruitTrees",
+      "sha256": "E9D8EB03613068FD244067539ACAC74546EC1DDD7461F922416B331444744F73",
+      "records": [
+        {
+          "nativeId": "69",
+          "manifestKeys": [
+            "fruit-tree:69"
+          ]
+        },
+        {
+          "nativeId": "628",
+          "manifestKeys": [
+            "fruit-tree:628"
+          ]
+        },
+        {
+          "nativeId": "629",
+          "manifestKeys": [
+            "fruit-tree:629"
+          ]
+        },
+        {
+          "nativeId": "630",
+          "manifestKeys": [
+            "fruit-tree:630"
+          ]
+        },
+        {
+          "nativeId": "631",
+          "manifestKeys": [
+            "fruit-tree:631"
+          ]
+        },
+        {
+          "nativeId": "632",
+          "manifestKeys": [
+            "fruit-tree:632"
+          ]
+        },
+        {
+          "nativeId": "633",
+          "manifestKeys": [
+            "fruit-tree:633"
+          ]
+        },
+        {
+          "nativeId": "835",
+          "manifestKeys": [
+            "fruit-tree:835"
+          ]
+        }
+      ]
+    },
+    "giantCrops": {
+      "source": "Data/GiantCrops",
+      "sha256": "BB84916D88BA438AC7917E28BA0C2930441540EDC5BAC1A934DD1CC9C1996D72",
+      "records": [
+        {
+          "nativeId": "Cauliflower",
+          "manifestKeys": [
+            "giant-crop:Cauliflower"
+          ]
+        },
+        {
+          "nativeId": "Melon",
+          "manifestKeys": [
+            "giant-crop:Melon"
+          ]
+        },
+        {
+          "nativeId": "Pumpkin",
+          "manifestKeys": [
+            "giant-crop:Pumpkin"
+          ]
+        },
+        {
+          "nativeId": "Powdermelon",
+          "manifestKeys": [
+            "giant-crop:Powdermelon"
+          ]
+        },
+        {
+          "nativeId": "QiFruit",
+          "manifestKeys": [
+            "giant-crop:QiFruit"
+          ]
+        }
+      ]
+    },
+    "fertilizers": {
+      "source": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "records": [
+        {
+          "nativeId": "368",
+          "manifestKeys": [
+            "fertilizer:basic-fertilizer"
+          ]
+        },
+        {
+          "nativeId": "369",
+          "manifestKeys": [
+            "fertilizer:quality-fertilizer"
+          ]
+        },
+        {
+          "nativeId": "370",
+          "manifestKeys": [
+            "fertilizer:basic-retaining-soil"
+          ]
+        },
+        {
+          "nativeId": "371",
+          "manifestKeys": [
+            "fertilizer:quality-retaining-soil"
+          ]
+        },
+        {
+          "nativeId": "465",
+          "manifestKeys": [
+            "fertilizer:speed-gro"
+          ]
+        },
+        {
+          "nativeId": "466",
+          "manifestKeys": [
+            "fertilizer:deluxe-speed-gro"
+          ]
+        },
+        {
+          "nativeId": "805",
+          "manifestKeys": [
+            "fertilizer:tree-fertilizer"
+          ]
+        },
+        {
+          "nativeId": "918",
+          "manifestKeys": [
+            "fertilizer:hyper-speed-gro"
+          ]
+        },
+        {
+          "nativeId": "919",
+          "manifestKeys": [
+            "fertilizer:deluxe-fertilizer"
+          ]
+        },
+        {
+          "nativeId": "920",
+          "manifestKeys": [
+            "fertilizer:deluxe-retaining-soil"
+          ]
+        }
+      ]
+    }
+  },
+  "supplementary": [
+    {
+      "originalName": "Tea Bush",
+      "manifestKeys": [
+        "roster-gap:tea-bush"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Tea_Bush",
+      "sourceRevision": 192708
+    },
+    {
+      "originalName": "Seed Spot",
+      "manifestKeys": [
+        "environment:SeedSpot"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Seed_Spot",
+      "sourceRevision": 191406
+    },
+    {
+      "originalName": "Hay",
+      "manifestKeys": [
+        "material:178"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Hay",
+      "sourceRevision": 195141
+    },
+    {
+      "originalName": "Tea Leaves",
+      "manifestKeys": [
+        "legacy-primary:Crops:Tea Leaves"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Crops",
+      "sourceRevision": 193979
+    },
+    {
+      "originalName": "Grass Starter",
+      "manifestKeys": [
+        "agriculture:grass-starter"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Grass_Starter",
+      "sourceRevision": 192865
+    },
+    {
+      "originalName": "Blue Grass Starter",
+      "manifestKeys": [
+        "agriculture:blue-grass-starter"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Grass_Starter",
+      "sourceRevision": 179996
+    },
+    {
+      "originalName": "Scarecrow",
+      "manifestKeys": [
+        "farm-protection:scarecrow"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Deluxe Scarecrow",
+      "manifestKeys": [
+        "farm-protection:deluxe-scarecrow"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Deluxe_Scarecrow",
+      "sourceRevision": 185917
+    },
+    {
+      "originalName": "Garden Pot",
+      "manifestKeys": [
+        "farm-protection:garden-pot"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Garden_Pot",
+      "sourceRevision": 193913
+    },
+    {
+      "originalName": "Rarecrow 1",
+      "manifestKeys": [
+        "agriculture:rarecrow-1"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 2",
+      "manifestKeys": [
+        "agriculture:rarecrow-2"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 3",
+      "manifestKeys": [
+        "agriculture:rarecrow-3"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 4",
+      "manifestKeys": [
+        "agriculture:rarecrow-4"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 5",
+      "manifestKeys": [
+        "agriculture:rarecrow-5"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 6",
+      "manifestKeys": [
+        "agriculture:rarecrow-6"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 7",
+      "manifestKeys": [
+        "agriculture:rarecrow-7"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    },
+    {
+      "originalName": "Rarecrow 8",
+      "manifestKeys": [
+        "agriculture:rarecrow-8"
+      ],
+      "sourceUrl": "https://stardewvalleywiki.com/Scarecrow",
+      "sourceRevision": 191907
+    }
+  ],
+  "coveredAgricultureIdentities": 164,
+  "unknown": [
+    {
+      "identity": "Mature regular grass and blue grass terrain",
+      "reason": "Grass starters are recorded; mature terrain forms and acquisition/growth wording need an independent scope decision and source review before whole-category closure."
+    }
+  ],
+  "limitations": "Native data mappings are identity checks, not proof that all possible harvest outcomes, fixed terrain features and agricultural interactions have been enumerated. Seed pages remain distinct from mature tree and bush pages."
+}

@@ -1,0 +1,109 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Consumable_field-snack.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Field_Snack.png",
+      "source": "https://stardewvalleywiki.com/Field_Snack",
+      "width": 48,
+      "height": 48,
+      "sha256": "fc020663566b22fa534d25937bea8ece34a7a79350d9aef22dfe615b0a813c27"
+    },
+    {
+      "file": "public/assets/game/Consumable_bug-steak.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Bug_Steak.png",
+      "source": "https://stardewvalleywiki.com/Bug_Steak",
+      "width": 48,
+      "height": 48,
+      "sha256": "62037c0762f40458d9acece358527c47e7d8b04a23db84652e9c917a8e7943cf"
+    },
+    {
+      "file": "public/assets/game/Consumable_life-elixir.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Life_Elixir.png",
+      "source": "https://stardewvalleywiki.com/Life_Elixir",
+      "width": 48,
+      "height": 48,
+      "sha256": "404c45d4d02a8c4330ecbae15e851dd2eb8aff4831a5e6cc6d2f29e977eb48ba"
+    },
+    {
+      "file": "public/assets/game/Consumable_oil-of-garlic.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Oil_of_Garlic.png",
+      "source": "https://stardewvalleywiki.com/Oil_of_Garlic",
+      "width": 48,
+      "height": 48,
+      "sha256": "f3d152a2f31aad0cee15424fc02c5f90c605b9c15f7fabba8871b4e489975623"
+    },
+    {
+      "file": "public/assets/game/Consumable_monster-musk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Monster_Musk.png",
+      "source": "https://stardewvalleywiki.com/Monster_Musk",
+      "width": 48,
+      "height": 48,
+      "sha256": "ff1d81b4a962cc7a2407f43b4a4186996f25cb7edd5af7549d691b3977f61825"
+    },
+    {
+      "file": "public/assets/game/Consumable_fairy-dust.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Fairy_Dust.png",
+      "source": "https://stardewvalleywiki.com/Fairy_Dust",
+      "width": 48,
+      "height": 48,
+      "sha256": "3a4b79b3d4787caa7363553c4a811be0445c1c1e6921e4dd74b41111008df9ab"
+    },
+    {
+      "file": "public/assets/game/Consumable_warp-totem-beach.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Warp_Totem_Beach.png",
+      "source": "https://stardewvalleywiki.com/Warp_Totem:_Beach",
+      "width": 48,
+      "height": 48,
+      "sha256": "80740d0d391f015400126f9954170cb5c4c616fd6e3a5e79d345e5680ef9a555"
+    },
+    {
+      "file": "public/assets/game/Consumable_warp-totem-mountains.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d8/Warp_Totem_Mountains.png",
+      "source": "https://stardewvalleywiki.com/Warp_Totem:_Mountains",
+      "width": 48,
+      "height": 48,
+      "sha256": "649d35c2c358c0d1b9e2dfea47d88ee44dd6446d8c375dd091e9184867a66dde"
+    },
+    {
+      "file": "public/assets/game/Consumable_warp-totem-farm.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Warp_Totem_Farm.png",
+      "source": "https://stardewvalleywiki.com/Warp_Totem:_Farm",
+      "width": 48,
+      "height": 48,
+      "sha256": "0074de26db9e24e06eceab0609546de20180cba334d34ce21439f97c9fce82ae"
+    },
+    {
+      "file": "public/assets/game/Consumable_warp-totem-desert.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/83/Warp_Totem_Desert.png",
+      "source": "https://stardewvalleywiki.com/Warp_Totem:_Desert",
+      "width": 48,
+      "height": 48,
+      "sha256": "02d6ba2b692b4855381666bc98968e5280c8f46e61e204e3257b2c8ecba6ccd0"
+    },
+    {
+      "file": "public/assets/game/Consumable_warp-totem-island.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Warp_Totem_Island.png",
+      "source": "https://stardewvalleywiki.com/Warp_Totem:_Island",
+      "width": 48,
+      "height": 48,
+      "sha256": "66cfcb43804ad9b05edb65e21ab5b5f8e2d2034330e986871b68f82789cf26b7"
+    },
+    {
+      "file": "public/assets/game/Consumable_rain-totem.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Rain_Totem.png",
+      "source": "https://stardewvalleywiki.com/Rain_Totem",
+      "width": 48,
+      "height": 48,
+      "sha256": "16a76b0a2eae6e246a0cc91cceac528b0698807b5699988be01b5da308041473"
+    },
+    {
+      "file": "public/assets/game/Consumable_treasure-totem.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/06/Treasure_Totem.png",
+      "source": "https://stardewvalleywiki.com/Treasure_Totem",
+      "width": 48,
+      "height": 48,
+      "sha256": "3dcef2f73907efc17191ebd38edaf525f4a7d81afb84fce96214d172c1ac5c6a"
+    }
+  ]
+}

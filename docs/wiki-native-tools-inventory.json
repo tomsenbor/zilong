@@ -1,0 +1,274 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Tools",
+    "sha256": "86A85235A08D9056D53FD7622AE871CE0F56FBC465415C99364E0932F7A14C97"
+  },
+  "source": {
+    "url": "https://stardewvalleywiki.com/Modding:Tools",
+    "revision": 190707,
+    "sha256": "dddd5d233eb6d471810941b6da1acdf9c1190099c6c6e92ad13032bf556a88be"
+  },
+  "records": [
+    {
+      "nativeId": "Axe",
+      "originalName": "Axe",
+      "manifestKey": "tools:Axe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CopperAxe",
+      "originalName": "Copper Axe",
+      "manifestKey": "tools:Copper Axe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelAxe",
+      "originalName": "Steel Axe",
+      "manifestKey": "tools:Steel Axe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldAxe",
+      "originalName": "Gold Axe",
+      "manifestKey": "tools:Gold Axe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumAxe",
+      "originalName": "Iridium Axe",
+      "manifestKey": "tools:Iridium Axe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "BambooPole",
+      "originalName": "Bamboo Pole",
+      "manifestKey": "rod:bamboo-pole",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "TrainingRod",
+      "originalName": "Training Rod",
+      "manifestKey": "rod:training-rod",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "FiberglassRod",
+      "originalName": "Fiberglass Rod",
+      "manifestKey": "rod:fiberglass-rod",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumRod",
+      "originalName": "Iridium Rod",
+      "manifestKey": "rod:iridium-rod",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "AdvancedIridiumRod",
+      "originalName": "Advanced Iridium Rod",
+      "manifestKey": "rod:advanced-iridium-rod",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Hoe",
+      "originalName": "Hoe",
+      "manifestKey": "tools:Hoe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CopperHoe",
+      "originalName": "Copper Hoe",
+      "manifestKey": "tools:Copper Hoe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelHoe",
+      "originalName": "Steel Hoe",
+      "manifestKey": "tools:Steel Hoe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldHoe",
+      "originalName": "Gold Hoe",
+      "manifestKey": "tools:Gold Hoe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumHoe",
+      "originalName": "Iridium Hoe",
+      "manifestKey": "tools:Iridium Hoe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Lantern",
+      "originalName": "Lantern",
+      "manifestKey": "native-tool:Lantern",
+      "group": "equipment",
+      "disposition": "exclude"
+    },
+    {
+      "nativeId": "MilkPail",
+      "originalName": "Milk Pail",
+      "manifestKey": "equipment:milk-pail",
+      "group": "machines",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Pan",
+      "originalName": "Pan",
+      "manifestKey": "tools:Copper Pan",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelPan",
+      "originalName": "Steel Pan",
+      "manifestKey": "tools:Steel Pan",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldPan",
+      "originalName": "Gold Pan",
+      "manifestKey": "tools:Gold Pan",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumPan",
+      "originalName": "Iridium Pan",
+      "manifestKey": "tools:Iridium Pan",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Pickaxe",
+      "originalName": "Pickaxe",
+      "manifestKey": "tools:Pickaxe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CopperPickaxe",
+      "originalName": "Copper Pickaxe",
+      "manifestKey": "tools:Copper Pickaxe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelPickaxe",
+      "originalName": "Steel Pickaxe",
+      "manifestKey": "tools:Steel Pickaxe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldPickaxe",
+      "originalName": "Gold Pickaxe",
+      "manifestKey": "tools:Gold Pickaxe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumPickaxe",
+      "originalName": "Iridium Pickaxe",
+      "manifestKey": "tools:Iridium Pickaxe",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "ReturnScepter",
+      "originalName": "Return Scepter",
+      "manifestKey": "special-equipment:Return Scepter",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Shears",
+      "originalName": "Shears",
+      "manifestKey": "equipment:shears",
+      "group": "machines",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "WateringCan",
+      "originalName": "Watering Can",
+      "manifestKey": "tools:Watering Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CopperWateringCan",
+      "originalName": "Copper Watering Can",
+      "manifestKey": "tools:Copper Watering Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelWateringCan",
+      "originalName": "Steel Watering Can",
+      "manifestKey": "tools:Steel Watering Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldWateringCan",
+      "originalName": "Gold Watering Can",
+      "manifestKey": "tools:Gold Watering Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumWateringCan",
+      "originalName": "Iridium Watering Can",
+      "manifestKey": "tools:Iridium Watering Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CopperTrashCan",
+      "originalName": "Copper Trash Can",
+      "manifestKey": "tools:Copper Trash Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SteelTrashCan",
+      "originalName": "Steel Trash Can",
+      "manifestKey": "tools:Steel Trash Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "GoldTrashCan",
+      "originalName": "Gold Trash Can",
+      "manifestKey": "tools:Gold Trash Can",
+      "group": "equipment",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "IridiumTrashCan",
+      "originalName": "Iridium Trash Can",
+      "manifestKey": "tools:Iridium Trash Can",
+      "group": "equipment",
+      "disposition": "include"
+    }
+  ],
+  "limitations": "This closes only Data/Tools identities, not all equipment; weapons, scythes, backpacks and initial trash-can interface are outside this native dictionary. Fishing and husbandry tools keep existing single identities in their own groups."
+}

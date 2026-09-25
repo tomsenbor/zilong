@@ -1,0 +1,46 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-23T11:33:01.471Z",
+  "images": [
+    {
+      "file": "public/assets/game/Wood_Fence.png",
+      "source": "https://stardewvalleywiki.com/File:Wood_Fence.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Wood_Fence.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "a62d7a0eda8914afcf8dfd8eddfe4ff7ccf20e771300779b5c3f81cf2211e2cd"
+    },
+    {
+      "file": "public/assets/game/Stone_Fence.png",
+      "source": "https://stardewvalleywiki.com/File:Stone_Fence.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Stone_Fence.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "fd7f8670cc4ecd06c7a4de47d1fc170886890a26bc6cac9b08fbfdb814c8918b"
+    },
+    {
+      "file": "public/assets/game/Iron_Fence.png",
+      "source": "https://stardewvalleywiki.com/File:Iron_Fence.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Iron_Fence.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "731f3fd1d3f95fe77f13691dc28b689aedd25f23b1cb525d0faa0bb06405181f"
+    },
+    {
+      "file": "public/assets/game/Hardwood_Fence.png",
+      "source": "https://stardewvalleywiki.com/File:Hardwood_Fence.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Hardwood_Fence.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "2e0e2411ba22ee2f83d67d26e1d29bf9d61bb9408bcb84e80384444eee8967c2"
+    },
+    {
+      "file": "public/assets/game/Gate.png",
+      "source": "https://stardewvalleywiki.com/File:Gate.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Gate.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "57d7ff75f1189a3e6d8a77f4392400140cd285a357c8fb2d8e40f9c384a03d12"
+    }
+  ]
+}

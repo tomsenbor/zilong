@@ -1,0 +1,222 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T13:53:52.491Z",
+  "images": [
+    {
+      "file": "public/assets/game/Small_Glow_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Small_Glow_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6c/Small_Glow_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "429b494b6daf48c0aefdf11488a489a202f18a02ea4529efc387e5f5962b31ce"
+    },
+    {
+      "file": "public/assets/game/Glow_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Glow_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/01/Glow_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "303465148bad9605a842bf03874fdfa82b662315caf9a6d802c570a3d19d47eb"
+    },
+    {
+      "file": "public/assets/game/Small_Magnet_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Small_Magnet_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Small_Magnet_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "47cb6eecb9d12456d6d58802cd8cba9ea09a2353b645cd0c72a87b4a21a2fbdd"
+    },
+    {
+      "file": "public/assets/game/Magnet_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Magnet_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/04/Magnet_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "006d794d001846fd6e5d65831822644d11f1f7d9eff5b1955a16c1d0813c71a3"
+    },
+    {
+      "file": "public/assets/game/Warrior_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Warrior_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Warrior_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "679e4798c24df50af3caf2fce739bc52cbe3893fd6c266f32ba3545a4597b9f6"
+    },
+    {
+      "file": "public/assets/game/Vampire_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Vampire_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Vampire_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "b43b33b0905fe65074a23dcd7b9a7d0de2414d19ead1dd4ab5fb35a1e8f5693b"
+    },
+    {
+      "file": "public/assets/game/Savage_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Savage_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Savage_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "58e37515dc781e3ac4b4de545541b2e170854abeb3b7a546274da877a152235e"
+    },
+    {
+      "file": "public/assets/game/Ring_of_Yoba.png",
+      "source": "https://stardewvalleywiki.com/File:Ring_of_Yoba.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Ring_of_Yoba.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "232bc250e1f851a67b5d7da93817170f3a1cc4fac5400d771be6efd0484c9bfc"
+    },
+    {
+      "file": "public/assets/game/Sturdy_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Sturdy_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Sturdy_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "521bae32bf6dbd327a41c7ed38cb02286e922cfbe2fa990d2c1c650d78aa2305"
+    },
+    {
+      "file": "public/assets/game/Burglar's_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Burglar%27s_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Burglar%27s_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "b82022f9848d91094a31c37b0d0acb4db6010d58336d23be2a4eaaf21075478e"
+    },
+    {
+      "file": "public/assets/game/Amethyst_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Amethyst_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Amethyst_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "d6574b5ba5ae4246afc8ce442c8ab03bc3b6efe34a138796ce8636202c36156a"
+    },
+    {
+      "file": "public/assets/game/Topaz_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Topaz_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Topaz_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "69e87ac40408f2056e2f0a8879eed19431b211213a8e0f2c1424f45fb7e45837"
+    },
+    {
+      "file": "public/assets/game/Aquamarine_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Aquamarine_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Aquamarine_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "0e7904fe8d50279c1bcd071b69564e878309468923f1a99c5cdf44f903860827"
+    },
+    {
+      "file": "public/assets/game/Jade_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Jade_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d8/Jade_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c86bd239d486448cc30851b61c430fbc1f3bf3d579a64144cb7135ed7f2928a9"
+    },
+    {
+      "file": "public/assets/game/Emerald_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Emerald_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Emerald_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "9dac767d6991fd2a54325473eeea3ad0cacb4d18749ba68af7fe2ea2df1407c4"
+    },
+    {
+      "file": "public/assets/game/Ruby_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Ruby_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Ruby_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "eec02cc1975a68fe901cad68651a634c4cb8182f9f2829a94fdb12cfd0762b0f"
+    },
+    {
+      "file": "public/assets/game/Wedding_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Wedding_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fe/Wedding_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "8b77b9d956351cd8cf6ad3334bedea69f18a70cac2d41cfbe02af02080cc3802"
+    },
+    {
+      "file": "public/assets/game/Crabshell_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Crabshell_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/eb/Crabshell_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c59fadd36b0b5d08f8b2794b9ca74b530b0991b3527f6a4406e8fa736615a7be"
+    },
+    {
+      "file": "public/assets/game/Napalm_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Napalm_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/82/Napalm_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "4d60d4073fa64e571a293d016ef2c6e172ca6b2079105253f56d9f1338d02b94"
+    },
+    {
+      "file": "public/assets/game/Thorns_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Thorns_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5b/Thorns_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "a16ac7df6824523e58a7672b3a4520c4de3a222abf357806d89221b054667417"
+    },
+    {
+      "file": "public/assets/game/Lucky_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Lucky_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4c/Lucky_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c223d9874e19e26e3bfdfd9a951af4ec78d4a0cb7c703eb324acbd5ef49becc8"
+    },
+    {
+      "file": "public/assets/game/Hot_Java_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Hot_Java_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Hot_Java_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "9a948969a934a7f7d557f321fd182890a8a1c63daf688a1bd7214cf2836ebd5d"
+    },
+    {
+      "file": "public/assets/game/Protection_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Protection_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Protection_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "bcd5d5fb4ea4a1e57aeecd1a94ecbfa7d08d7336ea4cfd4d712787f8bd9a78d1"
+    },
+    {
+      "file": "public/assets/game/Soul_Sapper_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Soul_Sapper_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Soul_Sapper_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "0ad0129cae193a113e4643d166eb88a8aaf37fd6602be7cfcc910188d4723da1"
+    },
+    {
+      "file": "public/assets/game/Phoenix_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Phoenix_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Phoenix_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c175278123d6bf5bccba2989a979ec15b7b405bfa9c654f35cc98442102ebeb6"
+    },
+    {
+      "file": "public/assets/game/Immunity_Band.png",
+      "source": "https://stardewvalleywiki.com/File:Immunity_Band.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/09/Immunity_Band.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "9033dfee7ba7147b77b43d279a0e1a4fd60db4690e4f5e602ace1e7bcd01b043"
+    },
+    {
+      "file": "public/assets/game/Glowstone_Ring.png",
+      "source": "https://stardewvalleywiki.com/File:Glowstone_Ring.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Glowstone_Ring.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "2486c4c0b5a134ef43b83465544cca0997c7103c853c65ebd935e8135488b33a"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "167",
+      "name": "Joja 可乐",
+      "slug": "beverage-167",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Joja_Cola",
+        "revision": 190214,
+        "sha256": "b7840aa7126d884f6e7b3686dfe1fb3ebc02c29167a6b00250c2c1ab0778f7c7"
+      }
+    }
+  ]
+}

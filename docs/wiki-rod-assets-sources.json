@@ -1,0 +1,46 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T14:14:09.014Z",
+  "images": [
+    {
+      "file": "public/assets/game/Training_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Training_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/00/Training_Rod.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "f2cefcdbb67b3674dce87a89e014de39aa4bfc236ab5b132bece300db7597011"
+    },
+    {
+      "file": "public/assets/game/Bamboo_Pole.png",
+      "source": "https://stardewvalleywiki.com/File:Bamboo_Pole.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Bamboo_Pole.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "9fbfe783982f31f0f3c5321279eaaee561254378d0c7c36d3a1c531d07b5b6ed"
+    },
+    {
+      "file": "public/assets/game/Fiberglass_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Fiberglass_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5e/Fiberglass_Rod.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "be0cddf10eed168698db2effa477618a8dfd8daa7138369c9d910a2a94922220"
+    },
+    {
+      "file": "public/assets/game/Iridium_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Iridium_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Iridium_Rod.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "bd0a09074f3450ec5c9c4a4d14b600c059df8914ff010768663d628497a988da"
+    },
+    {
+      "file": "public/assets/game/Advanced_Iridium_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Advanced_Iridium_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Advanced_Iridium_Rod.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "4257fbb6b4f6d5dca5d1e3095e00b037b0ece5fadbe4d6dc146f0931349ddb42"
+    }
+  ]
+}

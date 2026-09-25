@@ -1,0 +1,132 @@
+[
+  {
+    "nativeId": "820",
+    "file": "public/assets/game/Collectible_820.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Fossilized_Skull.png",
+    "source": "https://stardewvalleywiki.com/Fossilized_Skull",
+    "revision": 190305,
+    "sha256": "1d9e3677110e29d1cc9be340c15e294cc151d30bc8b29e08b00818f0bf8b9587",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "821",
+    "file": "public/assets/game/Collectible_821.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Fossilized_Spine.png",
+    "source": "https://stardewvalleywiki.com/Fossilized_Spine",
+    "revision": 193721,
+    "sha256": "128d70054a5920c9e454534fc8ab43df7619d7c6c303b3c494fbb191383cfc22",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "822",
+    "file": "public/assets/game/Collectible_822.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3a/Fossilized_Tail.png",
+    "source": "https://stardewvalleywiki.com/Fossilized_Tail",
+    "revision": 189428,
+    "sha256": "72274a98a16c93dcac969159b020538d764daae73afe0041dc996dbaeb9f47b0",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "823",
+    "file": "public/assets/game/Collectible_823.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/09/Fossilized_Leg.png",
+    "source": "https://stardewvalleywiki.com/Fossilized_Leg",
+    "revision": 190422,
+    "sha256": "018d2bdbebc07fb4a09956844daf518d384ae1dd5941386c86cf89e1a539c604",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "824",
+    "file": "public/assets/game/Collectible_824.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Fossilized_Ribs.png",
+    "source": "https://stardewvalleywiki.com/Fossilized_Ribs",
+    "revision": 190313,
+    "sha256": "38fafbe412568c22a2f7f39c5792a73253b4b49db52538ca8efe6cd64f84f16e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "825",
+    "file": "public/assets/game/Collectible_825.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Snake_Skull.png",
+    "source": "https://stardewvalleywiki.com/Snake_Skull",
+    "revision": 189431,
+    "sha256": "7da86bc4f1b1a03ef44f2dc07eca04267ab9edb0f12bc878ca49fbd9c71fc97f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "826",
+    "file": "public/assets/game/Collectible_826.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Snake_Vertebrae.png",
+    "source": "https://stardewvalleywiki.com/Snake_Vertebrae",
+    "revision": 189432,
+    "sha256": "87bc5b64b235268ecb7f720ead399ab027c9ba6cb3f38cd9436ef25f4cffdad3",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "827",
+    "file": "public/assets/game/Collectible_827.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Mummified_Bat.png",
+    "source": "https://stardewvalleywiki.com/Mummified_Bat",
+    "revision": 189430,
+    "sha256": "4e4450f6235bac5410f08c807a36e8a50943f0c898b4168040b1392fd1267ef4",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "828",
+    "file": "public/assets/game/Collectible_828.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Mummified_Frog.png",
+    "source": "https://stardewvalleywiki.com/Mummified_Frog",
+    "revision": 189429,
+    "sha256": "aad401787541e52ea9834bb35c44cd472b3ec81220f9c6d2dd877173ce6a093a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "852",
+    "file": "public/assets/game/Collectible_852.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Dragon_Tooth.png",
+    "source": "https://stardewvalleywiki.com/Dragon_Tooth",
+    "revision": 186757,
+    "sha256": "879ffef916f5b3007bec8232ac7486d6d27d378bf87a668d411ee2720161f84f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "791",
+    "file": "public/assets/game/Collectible_791.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Golden_Coconut.png",
+    "source": "https://stardewvalleywiki.com/Golden_Coconut",
+    "revision": 187368,
+    "sha256": "de9840652ab741941c0f512706370d39cda81ac4ba86b090d34794286657ea10",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "275",
+    "file": "public/assets/game/Collectible_275.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/8/82/Artifact_Trove.png",
+    "source": "https://stardewvalleywiki.com/Artifact_Trove",
+    "revision": 187775,
+    "sha256": "a9b53a180d656c76e322fd35f0e4ed92738e1c9e00a21988944a76650a849e83",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "166",
+    "file": "public/assets/game/Collectible_166.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/32/Treasure_Chest.png",
+    "source": "https://stardewvalleywiki.com/Treasure_Chest",
+    "revision": 192710,
+    "sha256": "e956343cf7386d5a0af708cc91b436be46bf09a6cc62050896f7cbc12c1cb514",
+    "width": 48,
+    "height": 48
+  }
+]

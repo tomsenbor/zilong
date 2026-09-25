@@ -1,0 +1,213 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Book_mapping-cave-systems.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mapping_Cave_Systems.png",
+      "source": "https://stardewvalleywiki.com/Mapping_Cave_Systems",
+      "width": 48,
+      "height": 48,
+      "sha256": "7a06f97df08173265f3691ecaed710927ff1701eda7182f1374d534e73bd300e"
+    },
+    {
+      "file": "public/assets/game/Book_price-catalogue.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Price_Catalogue.png",
+      "source": "https://stardewvalleywiki.com/Price_Catalogue",
+      "width": 48,
+      "height": 48,
+      "sha256": "575b1d3efb0d605cb55b57893762a100305ff316fcef6dfa2694b796dbab171e"
+    },
+    {
+      "file": "public/assets/game/Book_way-of-the-wind-pt-2.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Way_Of_The_Wind_pt._2.png",
+      "source": "https://stardewvalleywiki.com/Way_Of_The_Wind_pt._2",
+      "width": 48,
+      "height": 48,
+      "sha256": "7177b615b95e324167c5857271d3edb9deacb05d417acf83162a361c8d7c75d6"
+    },
+    {
+      "file": "public/assets/game/Book_way-of-the-wind-pt-1.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Way_Of_The_Wind_pt._1.png",
+      "source": "https://stardewvalleywiki.com/Way_Of_The_Wind_pt._1",
+      "width": 48,
+      "height": 48,
+      "sha256": "38ba9ced691edc9ae1212534cf5502c4ef9731121b1350bee7ba4a13960f2e40"
+    },
+    {
+      "file": "public/assets/game/Book_monster-compendium.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/15/Monster_Compendium.png",
+      "source": "https://stardewvalleywiki.com/Monster_Compendium",
+      "width": 48,
+      "height": 48,
+      "sha256": "be756aa95e558a29372dd0b9f89ee5fff4dc172671894e2d046cb65963b53b7b"
+    },
+    {
+      "file": "public/assets/game/Book_friendship-101.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Friendship_101.png",
+      "source": "https://stardewvalleywiki.com/Friendship_101",
+      "width": 48,
+      "height": 48,
+      "sha256": "e3fa36e5f019066c5614f5dd906ba71a4f33863f7c8e95bae04ebcb96ff67086"
+    },
+    {
+      "file": "public/assets/game/Book_jack-be-nimble-jack-be-thick.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Jack_Be_Nimble%2C_Jack_Be_Thick.png",
+      "source": "https://stardewvalleywiki.com/Jack_Be_Nimble,_Jack_Be_Thick",
+      "width": 48,
+      "height": 48,
+      "sha256": "d648e06663f0563056761bc5e308e51819dc00585b668bd3eddf9630f0d592b2"
+    },
+    {
+      "file": "public/assets/game/Book_woodys-secret.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Woody%27s_Secret.png",
+      "source": "https://stardewvalleywiki.com/Woody's_Secret",
+      "width": 48,
+      "height": 48,
+      "sha256": "e21fd7029e2b062e8245aed06cebe5fe3bed4fcd0c3bd7b90b88e12d37cf3d14"
+    },
+    {
+      "file": "public/assets/game/Book_raccoon-journal.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Ways_Of_The_Wild.png",
+      "source": "https://stardewvalleywiki.com/Raccoon_Journal",
+      "width": 48,
+      "height": 48,
+      "sha256": "2fee64f6f6736f00d5dd9349f895b1b7c23cdb9e1c20441f55f76d18bd838e70"
+    },
+    {
+      "file": "public/assets/game/Book_jewels-of-the-sea.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Jewels_Of_The_Sea.png",
+      "source": "https://stardewvalleywiki.com/Jewels_Of_The_Sea",
+      "width": 48,
+      "height": 48,
+      "sha256": "996b625b02ccede655695c3a1094a4339e52164e39b5111d3046e9c284253524"
+    },
+    {
+      "file": "public/assets/game/Book_dwarvish-safety-manual.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Dwarvish_Safety_Manual.png",
+      "source": "https://stardewvalleywiki.com/Dwarvish_Safety_Manual",
+      "width": 48,
+      "height": 48,
+      "sha256": "71d596a2af3b265a07d45b5463f49ac16bf63f315a431ad4ce160e0c37cfcd67"
+    },
+    {
+      "file": "public/assets/game/Book_the-art-o-crabbing.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/The_Art_O%27_Crabbing.png",
+      "source": "https://stardewvalleywiki.com/The_Art_O'_Crabbing",
+      "width": 48,
+      "height": 48,
+      "sha256": "f5294e167789353e11791b80c951e938358470d499e3d7a91b7bb1ea779eaa14"
+    },
+    {
+      "file": "public/assets/game/Book_the-alleyway-buffet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3a/The_Alleyway_Buffet.png",
+      "source": "https://stardewvalleywiki.com/The_Alleyway_Buffet",
+      "width": 48,
+      "height": 48,
+      "sha256": "b57bc2e3eba9062f91d7140cd87045acf7b6a354a1c2fc7085fed18182ceebdc"
+    },
+    {
+      "file": "public/assets/game/Book_book-of-mysteries.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/df/Book_of_Mysteries.png",
+      "source": "https://stardewvalleywiki.com/Book_of_Mysteries",
+      "width": 48,
+      "height": 48,
+      "sha256": "c5830693e24c64fff0e8efe7fc132db49f5dae60cde62575102b78650cf533af"
+    },
+    {
+      "file": "public/assets/game/Book_the-diamond-hunter.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/The_Diamond_Hunter.png",
+      "source": "https://stardewvalleywiki.com/The_Diamond_Hunter",
+      "width": 48,
+      "height": 48,
+      "sha256": "e7fcedd007bec2f717127133ed46810ae5aea7e47698efc28b8988c0da230216"
+    },
+    {
+      "file": "public/assets/game/Book_horse-the-book.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/45/Horse_The_Book.png",
+      "source": "https://stardewvalleywiki.com/Horse:_The_Book",
+      "width": 48,
+      "height": 48,
+      "sha256": "0e0efa2d3334a678eae30f487658538aaf3167d7138882c5516f08766b19ba21"
+    },
+    {
+      "file": "public/assets/game/Book_treasure-appraisal-guide.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Treasure_Appraisal_Guide.png",
+      "source": "https://stardewvalleywiki.com/Treasure_Appraisal_Guide",
+      "width": 48,
+      "height": 48,
+      "sha256": "01122003e3817cf420a358d6717973517614617ef977ddd18a47c12b3382006f"
+    },
+    {
+      "file": "public/assets/game/Book_animal-catalogue.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/df/Animal_Catalogue.png",
+      "source": "https://stardewvalleywiki.com/Animal_Catalogue",
+      "width": 48,
+      "height": 48,
+      "sha256": "77139c52cb74ef15441658265a6ce4c8055c33a2fee25e6622e249fa068b7d7c"
+    },
+    {
+      "file": "public/assets/game/Book_ol-slitherlegs.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Ol%27_Slitherlegs.png",
+      "source": "https://stardewvalleywiki.com/Ol'_Slitherlegs",
+      "width": 48,
+      "height": 48,
+      "sha256": "474d4b1988ad4e20eaa7248e0bb1b24ca42d1a68394cefe7b88d7147cb2b1165"
+    },
+    {
+      "file": "public/assets/game/Book_bait-and-bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Bait_And_Bobber.png",
+      "source": "https://stardewvalleywiki.com/Bait_And_Bobber",
+      "width": 48,
+      "height": 48,
+      "sha256": "aaaadf833fd61d5d0e7f091c23f84afb007ead0b097c908d914084d9ddf7e2f5"
+    },
+    {
+      "file": "public/assets/game/Book_combat-quarterly.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Combat_Quarterly.png",
+      "source": "https://stardewvalleywiki.com/Combat_Quarterly",
+      "width": 48,
+      "height": 48,
+      "sha256": "8666dcdd45228f79dc07ea49b0c240db4ea123528505367caa8a3a825e1cbfe1"
+    },
+    {
+      "file": "public/assets/game/Book_book-of-stars.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ef/Book_Of_Stars.png",
+      "source": "https://stardewvalleywiki.com/Book_Of_Stars",
+      "width": 48,
+      "height": 48,
+      "sha256": "1435fdec49581639260545fa9dab8b5f5dc7a29c43170c6ef66c05e66e58bc2d"
+    },
+    {
+      "file": "public/assets/game/Book_mining-monthly.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Mining_Monthly.png",
+      "source": "https://stardewvalleywiki.com/Mining_Monthly",
+      "width": 48,
+      "height": 48,
+      "sha256": "0c6da17298fdcd2bf9d7659ecb81b3c4d74038a968925de86d041267e62aef5e"
+    },
+    {
+      "file": "public/assets/game/Book_stardew-valley-almanac.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/28/Stardew_Valley_Almanac.png",
+      "source": "https://stardewvalleywiki.com/Stardew_Valley_Almanac",
+      "width": 48,
+      "height": 48,
+      "sha256": "aa214cd1ed288fd7170845d1c9b9eac1aaaf6db423cb33adb1c8dab00aed6d20"
+    },
+    {
+      "file": "public/assets/game/Book_queen-of-sauce-cookbook.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Queen_Of_Sauce_Cookbook.png",
+      "source": "https://stardewvalleywiki.com/Queen_Of_Sauce_Cookbook",
+      "width": 48,
+      "height": 48,
+      "sha256": "2f6dd3e397e33c1ab59f9f299234cfacdb55f8692ef5279ba835d26479f677eb"
+    },
+    {
+      "file": "public/assets/game/Book_woodcutters-weekly.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/46/Woodcutter%27s_Weekly.png",
+      "source": "https://stardewvalleywiki.com/Woodcutter's_Weekly",
+      "width": 48,
+      "height": 48,
+      "sha256": "8912e45d22a655239b06e26dc63628ed3b411616793a3a18f867f54c30b79fd5"
+    }
+  ]
+}

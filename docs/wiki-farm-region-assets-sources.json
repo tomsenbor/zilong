@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "farm-standard",
+    "file": "public/assets/game/Location_farm-standard.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6f/Standard_Farm_thumb.png/200px-Standard_Farm_thumb.png",
+    "width": 200,
+    "height": 164,
+    "sha256": "2ed41886b8dc92d4ab779be1b4d60f2ae4ae9c7b92a73a4b58b637a9ffb3187c",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-riverland",
+    "file": "public/assets/game/Location_farm-riverland.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ae/Riverlands_Farm_thumb.png/200px-Riverlands_Farm_thumb.png",
+    "width": 200,
+    "height": 164,
+    "sha256": "2f002b7daa73191a1d49029fac7a758965e505a242d92dc362161cde953a1471",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-forest",
+    "file": "public/assets/game/Location_farm-forest.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bc/Forest_Farm_thumb.png/200px-Forest_Farm_thumb.png",
+    "width": 200,
+    "height": 164,
+    "sha256": "9d3cc33ceeaa5d9ac772e3cf9b763be2353a129a98fe32d175b85fa033b8296a",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-hilltop",
+    "file": "public/assets/game/Location_farm-hilltop.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Hilltop_Farm_thumb.png/200px-Hilltop_Farm_thumb.png",
+    "width": 200,
+    "height": 164,
+    "sha256": "19d966db17d03031ef7ca4f7d7ef38d64f3004d120ddc668bc7f982b7c016f47",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-wilderness",
+    "file": "public/assets/game/Location_farm-wilderness.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2a/Wilderness_Farm_thumb.png/200px-Wilderness_Farm_thumb.png",
+    "width": 200,
+    "height": 164,
+    "sha256": "97848b280814bd0c2ec47838309e0515f40070c4e7fe4eb6b1f2e8b6f5e29ec7",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-four-corners",
+    "file": "public/assets/game/Location_farm-four-corners.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Four_Corners_Farm.png/200px-Four_Corners_Farm.png",
+    "width": 200,
+    "height": 200,
+    "sha256": "96eed367deaaffd6e2696c3e50ecd1eeb48d9c5c30a3b30dd7397c8e699dd129",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-beach",
+    "file": "public/assets/game/Location_farm-beach.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d9/Beach_Farm.png/200px-Beach_Farm.png",
+    "width": 200,
+    "height": 200,
+    "sha256": "a37af6314c88ae99c4f005c6c418d78a589979606c08d795cd992e7c410522ca",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "farm-meadowlands",
+    "file": "public/assets/game/Location_farm-meadowlands.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0e/Meadowlands_Farm.png/200px-Meadowlands_Farm.png",
+    "width": 200,
+    "height": 150,
+    "sha256": "e1a5db99a02c1b61a26c2791c73122a1b965809b7d8bfece0c1009f54b38d430",
+    "source": "https://stardewvalleywiki.com/Farm_Maps",
+    "revision": 191362,
+    "sourceSha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "cindersap-forest",
+    "file": "public/assets/game/Location_cindersap-forest.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0c/CindersapForest.png/500px-CindersapForest.png",
+    "width": 500,
+    "height": 500,
+    "sha256": "eda8154390e0909c8da435f90d473e8ec8193ca3511928679e617d2de28d1b22",
+    "source": "https://stardewvalleywiki.com/Cindersap_Forest",
+    "revision": 194137,
+    "sourceSha256": "84cd10764d6bfe3eb5beb3440c5fe0377a2e58d6a14b56a444749e8fa9bee39c",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  },
+  {
+    "slug": "community-center-building",
+    "file": "public/assets/game/Location_community-center-building.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Community_Center.png",
+    "width": 384,
+    "height": 320,
+    "sha256": "897ae2e9bfbb5b7c5c025a1549344f89a48ba80aca1eea33d73a98c08cd1a13d",
+    "source": "https://stardewvalleywiki.com/Community_Center",
+    "revision": 193096,
+    "sourceSha256": "7cb9fb11af73cf96fc3e608d51bb80f4c9eb7f36630c8d69c4b468165c76776e",
+    "transform": "None; original source-rendered scene/map thumbnail; not an inventory item."
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "820",
+      "name": "颅骨化石",
+      "slug": "collectible-820",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fossilized_Skull",
+        "revision": 190305,
+        "sha256": "1cd2dcd455d97a5e4fa0a4cc67617221a0ba92f310661370af7b73d887cc9ce2"
+      }
+    },
+    {
+      "nativeId": "821",
+      "name": "脊柱化石",
+      "slug": "collectible-821",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fossilized_Spine",
+        "revision": 193721,
+        "sha256": "3d56b2a76382831fddc5935cabdae39362af641f3173b384ffae7dd09bafa14c"
+      }
+    },
+    {
+      "nativeId": "822",
+      "name": "尾巴化石",
+      "slug": "collectible-822",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fossilized_Tail",
+        "revision": 189428,
+        "sha256": "5f76465f599815b6282258c9518e591f3c1164b98087c4af0a2fc93644c36812"
+      }
+    },
+    {
+      "nativeId": "823",
+      "name": "腿骨化石",
+      "slug": "collectible-823",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fossilized_Leg",
+        "revision": 190422,
+        "sha256": "d2c631e75c6dc2ec20e66da8d795ac17e3a11fdf38d49263773045cbeaf122b8"
+      }
+    },
+    {
+      "nativeId": "824",
+      "name": "肋骨化石",
+      "slug": "collectible-824",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fossilized_Ribs",
+        "revision": 190313,
+        "sha256": "a7e3c9fc122a23587c6815da26c48a7383b27f15b832408422fb9d2816723f08"
+      }
+    },
+    {
+      "nativeId": "825",
+      "name": "蛇头骨",
+      "slug": "collectible-825",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Snake_Skull",
+        "revision": 189431,
+        "sha256": "c483c60235ff4a64e114933648c89005dd8a7dc1479c3238a487436165c693d0"
+      }
+    },
+    {
+      "nativeId": "826",
+      "name": "蛇脊椎骨",
+      "slug": "collectible-826",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Snake_Vertebrae",
+        "revision": 189432,
+        "sha256": "e50bb0e05178381dc6c2791d01e3cc8cd64fc99809e8ad7da97f368bc2021066"
+      }
+    },
+    {
+      "nativeId": "827",
+      "name": "蝙蝠木乃伊",
+      "slug": "collectible-827",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mummified_Bat",
+        "revision": 189430,
+        "sha256": "008a61dd47827c5f409ae6fcb6eb60a90b91dc085f0e070e9e6b387a363abcb5"
+      }
+    },
+    {
+      "nativeId": "828",
+      "name": "青蛙木乃伊",
+      "slug": "collectible-828",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mummified_Frog",
+        "revision": 189429,
+        "sha256": "e34b1ef33fc3f7e5eeada4ddba98a4c5e7f574e9c8093790760e5c2ab5c1bb03"
+      }
+    },
+    {
+      "nativeId": "852",
+      "name": "龙牙",
+      "slug": "collectible-852",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dragon_Tooth",
+        "revision": 186757,
+        "sha256": "65ae0d030eeb1551c8120e7d3eb1e93b48c23fda3032670f012941003f6e5bd6"
+      }
+    },
+    {
+      "nativeId": "791",
+      "name": "金色椰子",
+      "slug": "collectible-791",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Coconut",
+        "revision": 187368,
+        "sha256": "d3b4c1d645c88d2495700ee97ab048d8818dcccea809ff7b7857d3e746c876f3"
+      }
+    },
+    {
+      "nativeId": "275",
+      "name": "古物宝藏",
+      "slug": "collectible-275",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Artifact_Trove",
+        "revision": 187775,
+        "sha256": "b85008e785db85b7033feecc2809c6ae1bb35e9df10a59b1ce1704e6634dfebf"
+      }
+    },
+    {
+      "nativeId": "166",
+      "name": "财宝箱",
+      "slug": "collectible-166",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Treasure_Chest",
+        "revision": 192710,
+        "sha256": "ddbd05291e50a19a038dd059e53d9fc1e86a21ab1d6c98b0495a803cfc569242"
+      }
+    }
+  ]
+}

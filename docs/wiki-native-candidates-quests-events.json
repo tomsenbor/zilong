@@ -1,0 +1,449 @@
+{
+  "version": "1.6.15",
+  "id": "quests-events",
+  "name": "任务与活动",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 114,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Quests",
+      "sha256": "164A9E4E0003C4EFC8D13B6E82E4CAB1C1AFA334C4772C61A4FD333588E5824F",
+      "count": 66,
+      "records": [
+        {
+          "nativeId": "1",
+          "nativeName": "Meet The Wizard"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "The Mysterious Qi"
+        },
+        {
+          "nativeId": "3",
+          "nativeName": "The Mysterious Qi"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "The Mysterious Qi"
+        },
+        {
+          "nativeId": "5",
+          "nativeName": "The Mysterious Qi"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "Getting Started"
+        },
+        {
+          "nativeId": "7",
+          "nativeName": "Raising Animals"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Advancement"
+        },
+        {
+          "nativeId": "9",
+          "nativeName": "Introductions"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Copper Ore"
+        },
+        {
+          "nativeId": "11",
+          "nativeName": "Forging Ahead"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Smelting"
+        },
+        {
+          "nativeId": "13",
+          "nativeName": "To The Beach"
+        },
+        {
+          "nativeId": "14",
+          "nativeName": "Explore The Mine"
+        },
+        {
+          "nativeId": "15",
+          "nativeName": "Initiation"
+        },
+        {
+          "nativeId": "16",
+          "nativeName": "Initiation"
+        },
+        {
+          "nativeId": "17",
+          "nativeName": "Deeper In The Mine"
+        },
+        {
+          "nativeId": "18",
+          "nativeName": "To The Bottom?"
+        },
+        {
+          "nativeId": "19",
+          "nativeName": "The Skull Key"
+        },
+        {
+          "nativeId": "20",
+          "nativeName": "Qi's Challenge"
+        },
+        {
+          "nativeId": "21",
+          "nativeName": "Marnie's Request"
+        },
+        {
+          "nativeId": "22",
+          "nativeName": "Fish Casserole"
+        },
+        {
+          "nativeId": "23",
+          "nativeName": "Archaeology"
+        },
+        {
+          "nativeId": "24",
+          "nativeName": "Archaeology"
+        },
+        {
+          "nativeId": "25",
+          "nativeName": "How To Win Friends"
+        },
+        {
+          "nativeId": "26",
+          "nativeName": "\"Rat Problem\""
+        },
+        {
+          "nativeId": "27",
+          "nativeName": "Goblin Problem"
+        },
+        {
+          "nativeId": "28",
+          "nativeName": "Dark Talisman"
+        },
+        {
+          "nativeId": "29",
+          "nativeName": "Strange Note"
+        },
+        {
+          "nativeId": "30",
+          "nativeName": "Cryptic Note"
+        },
+        {
+          "nativeId": "31",
+          "nativeName": "A Winter Mystery"
+        },
+        {
+          "nativeId": "100",
+          "nativeName": "Robin's Lost Axe"
+        },
+        {
+          "nativeId": "101",
+          "nativeName": "Jodi's Request"
+        },
+        {
+          "nativeId": "102",
+          "nativeName": "Mayor's \"Shorts\""
+        },
+        {
+          "nativeId": "103",
+          "nativeName": "Pam Is Thirsty"
+        },
+        {
+          "nativeId": "104",
+          "nativeName": "Crop Research"
+        },
+        {
+          "nativeId": "105",
+          "nativeName": "Knee Therapy"
+        },
+        {
+          "nativeId": "106",
+          "nativeName": "Cow's Delight"
+        },
+        {
+          "nativeId": "107",
+          "nativeName": "Blackberry Basket"
+        },
+        {
+          "nativeId": "108",
+          "nativeName": "Carving Pumpkins"
+        },
+        {
+          "nativeId": "109",
+          "nativeName": "Catch A Squid"
+        },
+        {
+          "nativeId": "110",
+          "nativeName": "Clint's Attempt"
+        },
+        {
+          "nativeId": "111",
+          "nativeName": "A Dark Reagent"
+        },
+        {
+          "nativeId": "112",
+          "nativeName": "A Favor For Clint"
+        },
+        {
+          "nativeId": "113",
+          "nativeName": "Robin's Request"
+        },
+        {
+          "nativeId": "114",
+          "nativeName": "Fish Stew"
+        },
+        {
+          "nativeId": "115",
+          "nativeName": "Fresh Fruit"
+        },
+        {
+          "nativeId": "116",
+          "nativeName": "Granny's Gift"
+        },
+        {
+          "nativeId": "117",
+          "nativeName": "Pierre's Notice"
+        },
+        {
+          "nativeId": "118",
+          "nativeName": "Aquatic Research"
+        },
+        {
+          "nativeId": "119",
+          "nativeName": "A Soldier's Star"
+        },
+        {
+          "nativeId": "120",
+          "nativeName": "Mayor's Need"
+        },
+        {
+          "nativeId": "121",
+          "nativeName": "Wanted: Lobster"
+        },
+        {
+          "nativeId": "122",
+          "nativeName": "Pam Needs Juice"
+        },
+        {
+          "nativeId": "123",
+          "nativeName": "Staff Of Power"
+        },
+        {
+          "nativeId": "124",
+          "nativeName": "Catch a Lingcod"
+        },
+        {
+          "nativeId": "125",
+          "nativeName": "Exotic Spirits"
+        },
+        {
+          "nativeId": "126",
+          "nativeName": "Errand for your Wife"
+        },
+        {
+          "nativeId": "127",
+          "nativeName": "Haley's Cake-Walk"
+        },
+        {
+          "nativeId": "128",
+          "nativeName": "..."
+        },
+        {
+          "nativeId": "129",
+          "nativeName": "..."
+        },
+        {
+          "nativeId": "130",
+          "nativeName": "The Pirate's Wife"
+        },
+        {
+          "nativeId": "131",
+          "nativeName": "Willy's Challenge"
+        },
+        {
+          "nativeId": "132",
+          "nativeName": "Getting Started"
+        },
+        {
+          "nativeId": "133",
+          "nativeName": "Feeding Animals"
+        },
+        {
+          "nativeId": "134",
+          "nativeName": "The Giant Stump"
+        }
+      ]
+    },
+    {
+      "asset": "Data/SpecialOrders",
+      "sha256": "F024A27F714D960D3DEDD965258ACE69B23DF2875F6653D2394527E50C96726E",
+      "count": 33,
+      "records": [
+        {
+          "nativeId": "Willy",
+          "nativeName": "[Willy_Name]"
+        },
+        {
+          "nativeId": "Pam",
+          "nativeName": "[Pam_Name]"
+        },
+        {
+          "nativeId": "Pierre",
+          "nativeName": "[Pierre_Name]"
+        },
+        {
+          "nativeId": "Robin",
+          "nativeName": "[Robin_Name]"
+        },
+        {
+          "nativeId": "Emily",
+          "nativeName": "[Emily_Name]"
+        },
+        {
+          "nativeId": "Demetrius",
+          "nativeName": "[Demetrius_Name]"
+        },
+        {
+          "nativeId": "Demetrius2",
+          "nativeName": "[Demetrius2_Name]"
+        },
+        {
+          "nativeId": "Gus",
+          "nativeName": "[Gus_Name]"
+        },
+        {
+          "nativeId": "Lewis",
+          "nativeName": "[Lewis_Name]"
+        },
+        {
+          "nativeId": "Wizard",
+          "nativeName": "[Wizard_Name]"
+        },
+        {
+          "nativeId": "Clint",
+          "nativeName": "[Clint_Name]"
+        },
+        {
+          "nativeId": "Linus",
+          "nativeName": "[Linus_Name]"
+        },
+        {
+          "nativeId": "Evelyn",
+          "nativeName": "[Evelyn_Name]"
+        },
+        {
+          "nativeId": "Wizard2",
+          "nativeName": "[Wizard2_Name]"
+        },
+        {
+          "nativeId": "Robin2",
+          "nativeName": "[Robin2_Name]"
+        },
+        {
+          "nativeId": "Gunther",
+          "nativeName": "[Gunther_Name]"
+        },
+        {
+          "nativeId": "Caroline",
+          "nativeName": "[Caroline_Name]"
+        },
+        {
+          "nativeId": "Willy2",
+          "nativeName": "[Willy2_Name]"
+        },
+        {
+          "nativeId": "QiChallenge",
+          "nativeName": "[QiChallenge_Name]"
+        },
+        {
+          "nativeId": "QiChallenge2",
+          "nativeName": "[QiChallenge2_Name]"
+        },
+        {
+          "nativeId": "QiChallenge3",
+          "nativeName": "[QiChallenge3_Name]"
+        },
+        {
+          "nativeId": "QiChallenge4",
+          "nativeName": "[QiChallenge4_Name]"
+        },
+        {
+          "nativeId": "QiChallenge5",
+          "nativeName": "[QiChallenge5_Name]"
+        },
+        {
+          "nativeId": "QiChallenge6",
+          "nativeName": "[QiChallenge6_Name]"
+        },
+        {
+          "nativeId": "QiChallenge7",
+          "nativeName": "[QiChallenge7_Name]"
+        },
+        {
+          "nativeId": "QiChallenge8",
+          "nativeName": "[QiChallenge8_Name]"
+        },
+        {
+          "nativeId": "QiChallenge9",
+          "nativeName": "[QiChallenge9_Name]"
+        },
+        {
+          "nativeId": "QiChallenge10",
+          "nativeName": "[QiChallenge10_Name]"
+        },
+        {
+          "nativeId": "QiChallenge11",
+          "nativeName": "[QiChallenge11_Name]"
+        },
+        {
+          "nativeId": "QiChallenge12",
+          "nativeName": "[QiChallenge12_Name]"
+        },
+        {
+          "nativeId": "DesertFestivalMarlon1",
+          "nativeName": "[Marlon_DF_0_Name]"
+        },
+        {
+          "nativeId": "DesertFestivalMarlon2",
+          "nativeName": "[Marlon_DF_1_Name]"
+        },
+        {
+          "nativeId": "DesertFestivalMarlon3",
+          "nativeName": "[Marlon_DF_2_Name]"
+        }
+      ]
+    },
+    {
+      "asset": "Data/PassiveFestivals",
+      "sha256": "84F960728E3CEED666C2AA0A5FD173FA0483F69D76052BF2DA45485C946229AE",
+      "count": 4,
+      "records": [
+        {
+          "nativeId": "NightMarket",
+          "nativeName": "NightMarket"
+        },
+        {
+          "nativeId": "DesertFestival",
+          "nativeName": "DesertFestival"
+        },
+        {
+          "nativeId": "TroutDerby",
+          "nativeName": "TroutDerby"
+        },
+        {
+          "nativeId": "SquidFest",
+          "nativeName": "SquidFest"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-quest-identity-inventory.json",
+    "wiki-story-quest-inventory.json",
+    "wiki-special-order-inventory.json"
+  ],
+  "remainingReview": "随机求助模板、节日、事件任务与内部重复任务编号须交叉映射，原版基础任务表不能独自证明全量。"
+}

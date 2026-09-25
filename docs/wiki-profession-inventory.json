@@ -1,0 +1,755 @@
+{
+  "version": "1.6.15",
+  "records": [
+    {
+      "id": "Rancher",
+      "name": "畜牧人",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 5,
+      "previous": "无",
+      "effect": "畜产品售价提高20%，不是增加动物生产数量或把生产间隔缩短20%。",
+      "note": "不要把动物产品加成直接套到全部加工品，需按出售物品的实际分类核对。",
+      "slug": "profession-rancher",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/3/3c/Rancher.png/24px-Rancher.png",
+        "alt": "Rancher.png"
+      },
+      "file": "public/assets/game/Profession_Rancher.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Tiller",
+      "name": "农耕人",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 5,
+      "previous": "无",
+      "effect": "适用农作物售价提高10%，涵盖蔬菜、花卉及非采集获得的水果。",
+      "note": "不是所有采集物都属于农作物；选择此分支才可在10级选择工匠或农业学家。",
+      "slug": "profession-tiller",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/b/b2/Tiller.png/24px-Tiller.png",
+        "alt": "Tiller.png"
+      },
+      "file": "public/assets/game/Profession_Tiller.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Coopmaster",
+      "name": "鸡舍大师",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 10,
+      "previous": "畜牧人",
+      "effect": "更快与鸡舍动物交好，并把普通、鸵鸟及史莱姆孵化器的孵化时间减半。",
+      "note": "孵化加速不是动物出壳后立即成熟；空位、饲料与后续生产条件仍要满足。",
+      "slug": "profession-coopmaster",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/2/26/Coopmaster.png/24px-Coopmaster.png",
+        "alt": "Coopmaster.png"
+      },
+      "file": "public/assets/game/Profession_Coopmaster.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Shepherd",
+      "name": "牧羊人",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 10,
+      "previous": "畜牧人",
+      "effect": "更快与畜棚动物交好，绵羊基础产毛周期缩短1天，并改善畜棚动物产品质量。",
+      "note": "与高友好度缩短绵羊产毛周期可叠加，但不能把全部畜棚动物都视为每日双倍产出。",
+      "slug": "profession-shepherd",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/8/80/Shepherd.png/24px-Shepherd.png",
+        "alt": "Shepherd.png"
+      },
+      "file": "public/assets/game/Profession_Shepherd.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Artisan",
+      "name": "工匠",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 10,
+      "previous": "农耕人",
+      "effect": "适用加工品售价提高40%，如酒、奶酪等；不会缩短机器加工时间或增加产量。",
+      "note": "普通油不享受此加成；不能因为中文说明出现油类，就给所有油一律加价。",
+      "slug": "profession-artisan",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/4/46/Artisan.png/24px-Artisan.png",
+        "alt": "Artisan.png"
+      },
+      "file": "public/assets/game/Profession_Artisan.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Agriculturist",
+      "name": "农业学家",
+      "skill": "Farming",
+      "skillName": "耕种",
+      "level": 10,
+      "previous": "农耕人",
+      "effect": "作物生长加速10%，属于种植生长规则，不是出售价格提高10%。",
+      "note": "实际收获日需结合生长阶段和其他加速条件核算，不能只把原天数直接显示为小数。",
+      "slug": "profession-agriculturist",
+      "sourceUrl": "https://stardewvalleywiki.com/Farming",
+      "sourceRevision": 191914,
+      "sourceSha256": "ffdeee01f747976af14bd42015ad1b85f4b9f4ee36c58052b110617de0b35ec4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/耕种",
+        "revision": 54491,
+        "sha256": "490d4f721202280d9df8cb468b9068d639e261b83226dfdb005839704fda51ea"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/7/78/Agriculturist.png/24px-Agriculturist.png",
+        "alt": "Agriculturist.png"
+      },
+      "file": "public/assets/game/Profession_Agriculturist.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Miner",
+      "name": "矿工",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 5,
+      "previous": "无",
+      "effect": "每个适用矿石矿脉额外获得1块矿石，不代表任意石头都额外掉落金属矿石。",
+      "note": "此分支通往铁匠或勘探者，先区分自己需要矿石产量、金属锭售价还是煤炭。",
+      "slug": "profession-miner",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/4/4a/Miner.png/24px-Miner.png",
+        "alt": "Miner.png"
+      },
+      "file": "public/assets/game/Profession_Miner.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Geologist",
+      "name": "地质学家",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 5,
+      "previous": "无",
+      "effect": "开采时宝石有50%机会成对出现，也适用于破碎岩石产生的晶球。",
+      "note": "这是概率额外掉落，不是保证每次翻倍；与10级挖掘者的晶球发现概率含义不同。",
+      "slug": "profession-geologist",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/8/88/Geologist.png/24px-Geologist.png",
+        "alt": "Geologist.png"
+      },
+      "file": "public/assets/game/Profession_Geologist.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Blacksmith",
+      "name": "铁匠",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 10,
+      "previous": "矿工",
+      "effect": "铜锭、铁锭、金锭、铱锭与放射性矿锭售价提高50%，不是提高原矿石售价。",
+      "note": "卖锭前也要考虑工具升级与打造用途；不能把加价直接套给精炼石英等全部材料。",
+      "slug": "profession-blacksmith",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/e/ea/Blacksmith_Icon.png/24px-Blacksmith_Icon.png",
+        "alt": "Blacksmith Icon.png"
+      },
+      "file": "public/assets/game/Profession_Blacksmith.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Prospector",
+      "name": "勘探者",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 10,
+      "previous": "矿工",
+      "effect": "找到煤炭的概率翻倍，适合缺煤的采矿路线，但不保证每块岩石都掉煤。",
+      "note": "概率翻倍与固定多给一块不同；既有煤炭物品不会因选择职业自动增加。",
+      "slug": "profession-prospector",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/a/ae/Prospector.png/24px-Prospector.png",
+        "alt": "Prospector.png"
+      },
+      "file": "public/assets/game/Profession_Prospector.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Excavator",
+      "name": "挖掘者",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 10,
+      "previous": "地质学家",
+      "effect": "找到普通、冰封、岩浆和万能晶球的概率翻倍，不是把敲开晶球的产物翻倍。",
+      "note": "加成针对找到晶球，不能推导成更容易敲出指定矿物或保证得到五彩碎片。",
+      "slug": "profession-excavator",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/5/53/Excavator.png/24px-Excavator.png",
+        "alt": "Excavator.png"
+      },
+      "file": "public/assets/game/Profession_Excavator.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Gemologist",
+      "name": "宝石专家",
+      "skill": "Mining",
+      "skillName": "采矿",
+      "level": 10,
+      "previous": "地质学家",
+      "effect": "宝石与矿物售价提高30%，属于售卖收益加成，不会改变矿石或晶球掉落量。",
+      "note": "保留博物馆捐赠、献祭与打造所需数量；不要仅因加价把唯一未捐赠矿物卖掉。",
+      "slug": "profession-gemologist",
+      "sourceUrl": "https://stardewvalleywiki.com/Mining",
+      "sourceRevision": 192860,
+      "sourceSha256": "43c6367dc1eea252826fc915dd1c42f431af85005aadbd81f55c5691cc094b28",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采矿",
+        "revision": 55116,
+        "sha256": "a328e5318cbae14cd006124a4362ab511bf08cb9674ff3cf84b710826f1cbffc"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/3/3c/Gemologist.png/24px-Gemologist.png",
+        "alt": "Gemologist.png"
+      },
+      "file": "public/assets/game/Profession_Gemologist.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Forester",
+      "name": "护林人",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 5,
+      "previous": "无",
+      "effect": "砍树、树桩和原木获得的木材增加25%，不是让树木生长速度提高25%。",
+      "note": "此分支通往伐木工人或萃取者，需在木材供给和树脂售卖方向之间选择。",
+      "slug": "profession-forester",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/0/0b/Forester.png/24px-Forester.png",
+        "alt": "Forester.png"
+      },
+      "file": "public/assets/game/Profession_Forester.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Gatherer",
+      "name": "收集者",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 5,
+      "previous": "无",
+      "effect": "采集适用物品时有20%机会额外获得一份，不是每次采集都必定获得两份。",
+      "note": "概率额外收获不能当作单次保证；不应把任意农作物收割都当成野外采集。",
+      "slug": "profession-gatherer",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/a/a6/Gatherer.png/24px-Gatherer.png",
+        "alt": "Gatherer.png"
+      },
+      "file": "public/assets/game/Profession_Gatherer.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Lumberjack",
+      "name": "伐木工人",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 10,
+      "previous": "护林人",
+      "effect": "砍伐树木有机会额外获得硬木，提供常规树木之外的硬木收集途径。",
+      "note": "机会掉落不是每棵树固定给硬木；原有大树桩和桃花心木用途仍需分别规划。",
+      "slug": "profession-lumberjack",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/c/cc/Lumberjack.png/24px-Lumberjack.png",
+        "alt": "Lumberjack.png"
+      },
+      "file": "public/assets/game/Profession_Lumberjack.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Tapper",
+      "name": "萃取者",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 10,
+      "previous": "护林人",
+      "effect": "树脂产品售价提高25%，属于售卖加成，不缩短树液采集器的生产间隔。",
+      "note": "不要把树木本体、木材或全部加工机器产物都套用为树脂产品。",
+      "slug": "profession-tapper",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/a/a4/Tapper_Icon.png/24px-Tapper_Icon.png",
+        "alt": "Tapper Icon.png"
+      },
+      "file": "public/assets/game/Profession_Tapper.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Botanist",
+      "name": "植物学家",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 10,
+      "previous": "收集者",
+      "effect": "适用采集物总为最高品质，通常表现为铱星；不是把普通农作物统一升级品质。",
+      "note": "只对存在相应品质机制的适用采集物生效，不能凭此承诺所有拾取物都有铱星。",
+      "slug": "profession-botanist",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/8/86/Botanist.png/24px-Botanist.png",
+        "alt": "Botanist.png"
+      },
+      "file": "public/assets/game/Profession_Botanist.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Tracker",
+      "name": "追踪者",
+      "skill": "Foraging",
+      "skillName": "采集",
+      "level": 10,
+      "previous": "收集者",
+      "effect": "用位置提示帮助发现当前场景可采集物品，方便安排搜索路线，不会自动拾取。",
+      "note": "这是定位辅助而非产量或品质加成，仍需自己到达目标并完成采集操作。",
+      "slug": "profession-tracker",
+      "sourceUrl": "https://stardewvalleywiki.com/Foraging",
+      "sourceRevision": 194054,
+      "sourceSha256": "f96348f720c4d36daefc7dbc7f97d7ef3a028d9c5856eca73979b129ff2b9e6f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/采集",
+        "revision": 55329,
+        "sha256": "899e13642197bf77676a11fe0c5e03b3d2455a74ab54bb17338ccd477f455ada"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/c/c5/Tracker.png/24px-Tracker.png",
+        "alt": "Tracker.png"
+      },
+      "file": "public/assets/game/Profession_Tracker.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Fisher",
+      "name": "渔夫",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 5,
+      "previous": "无",
+      "effect": "适用鱼类售价提高25%，属于卖鱼收益加成，不降低鱼类难度或扩大钓鱼条。",
+      "note": "需要提升操控时仍要考虑鱼竿、等级与浮标；本职业不能代替这些装备效果。",
+      "slug": "profession-fisher",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/4/44/Fisher.png/24px-Fisher.png",
+        "alt": "Fisher.png"
+      },
+      "file": "public/assets/game/Profession_Fisher.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Trapper",
+      "name": "捕猎者",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 5,
+      "previous": "无",
+      "effect": "制造蟹笼所需资源减少，适合铺设蟹笼路线，但不是免除以后每日投饵。",
+      "note": "免费投饵需另选10级诱饵大师；制造成本与运作成本是两项不同条件。",
+      "slug": "profession-trapper",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/b/b8/Trapper.png/24px-Trapper.png",
+        "alt": "Trapper.png"
+      },
+      "file": "public/assets/game/Profession_Trapper.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Angler",
+      "name": "垂钓者",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 10,
+      "previous": "渔夫",
+      "effect": "鱼类售价加成为50%，是更高的售卖加成，不是把钓获数量提高50%。",
+      "note": "不要把售价百分比写成捕鱼成功率；在选择本分支时与海盗职业进行取舍。",
+      "slug": "profession-angler",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/2/22/Angler_Icon.png/24px-Angler_Icon.png",
+        "alt": "Angler Icon.png"
+      },
+      "file": "public/assets/game/Profession_Angler.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Pirate",
+      "name": "海盗",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 10,
+      "previous": "渔夫",
+      "effect": "钓鱼找到宝藏的机会翻倍，增加出现宝箱的概率，不保证每次钓鱼出现宝箱。",
+      "note": "宝箱出现后仍需在小游戏中收取并成功钓鱼，不保证宝箱里出现指定稀有物。",
+      "slug": "profession-pirate",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/7/7d/Pirate.png/24px-Pirate.png",
+        "alt": "Pirate.png"
+      },
+      "file": "public/assets/game/Profession_Pirate.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Mariner",
+      "name": "水手",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 10,
+      "previous": "捕猎者",
+      "effect": "蟹笼不再产出垃圾物品，减少清理垃圾的次数，不是所有蟹笼都产最贵海产。",
+      "note": "仍需满足蟹笼位置与正常使用条件，不能把不同水域的产物池混为一谈。",
+      "slug": "profession-mariner",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/0/03/Mariner.png/24px-Mariner.png",
+        "alt": "Mariner.png"
+      },
+      "file": "public/assets/game/Profession_Mariner.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Luremaster",
+      "name": "诱饵大师",
+      "skill": "Fishing",
+      "skillName": "钓鱼",
+      "level": 10,
+      "previous": "捕猎者",
+      "effect": "蟹笼不需要鱼饵即可运作，降低日常补饵操作，不是让鱼竿也不需要鱼饵。",
+      "note": "与水手是同一前置下的两种选择；免投饵并不同时承诺蟹笼绝不产垃圾。",
+      "slug": "profession-luremaster",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing",
+      "sourceRevision": 193904,
+      "sourceSha256": "09fd1fe78fced0606d8ba1657ced0e790077ddbd61ff8c312679b222b210d0ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/钓鱼",
+        "revision": 55292,
+        "sha256": "faa5a8aca3c3ecf7b553050d5779512113c2dfeef7fb33ebf554062407282fe6"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/2/29/Luremaster.png/24px-Luremaster.png",
+        "alt": "Luremaster.png"
+      },
+      "file": "public/assets/game/Profession_Luremaster.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Fighter",
+      "name": "战士",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 5,
+      "previous": "无",
+      "effect": "所有攻击伤害提高10%，并增加15点生命值；不是增加10个百分点暴击率。",
+      "note": "与侦查员分属5级两种选择，后续10级可选野蛮人或防御者。",
+      "slug": "profession-fighter",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/e/e6/Fighter.png/24px-Fighter.png",
+        "alt": "Fighter.png"
+      },
+      "file": "public/assets/game/Profession_Fighter.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Scout",
+      "name": "侦查员",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 5,
+      "previous": "无",
+      "effect": "暴击概率乘以1.5，即相对提高50%，不额外增加生命值。",
+      "note": "不是直接增加50个百分点；例如基础概率很低时，相对提高后仍可能很低。",
+      "slug": "profession-scout",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/6/69/Scout.png/24px-Scout.png",
+        "alt": "Scout.png"
+      },
+      "file": "public/assets/game/Profession_Scout.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Brute",
+      "name": "野蛮人",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 10,
+      "previous": "战士",
+      "effect": "额外提高15%伤害，与战士的10%以乘法叠加；本级不额外增加生命值。",
+      "note": "不要按10%加15%的简单相加计算，两项效果相乘；也不是把暴击伤害直接翻倍。",
+      "slug": "profession-brute",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/a/aa/Brute.png/24px-Brute.png",
+        "alt": "Brute.png"
+      },
+      "file": "public/assets/game/Profession_Brute.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Defender",
+      "name": "防御者",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 10,
+      "previous": "战士",
+      "effect": "额外增加25点生命值，提高承受伤害的空间，不直接增加武器攻击力。",
+      "note": "增加生命值不等于增加防御力；仍需护具、治疗和规避攻击，不能当成减伤百分比。",
+      "slug": "profession-defender",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/0/0d/Defender.png/24px-Defender.png",
+        "alt": "Defender.png"
+      },
+      "file": "public/assets/game/Profession_Defender.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Acrobat",
+      "name": "特技者",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 10,
+      "previous": "侦查员",
+      "effect": "武器特殊动作冷却时间减半，适合使用特技的战斗方式，不提高普通攻击频率。",
+      "note": "减半的是特技冷却，不是所有动作、工具蓄力或怪物攻击间隔。",
+      "slug": "profession-acrobat",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/8/8f/Acrobat.png/24px-Acrobat.png",
+        "alt": "Acrobat.png"
+      },
+      "file": "public/assets/game/Profession_Acrobat.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    },
+    {
+      "id": "Desperado",
+      "name": "亡命徒",
+      "skill": "Combat",
+      "skillName": "战斗",
+      "level": 10,
+      "previous": "侦查员",
+      "effect": "暴击伤害提高到2倍，属于暴击命中后的伤害加成，不额外增加生命值。",
+      "note": "需要先发生暴击才体现此加成，不能把每次普通攻击都直接计算为双倍伤害。",
+      "slug": "profession-desperado",
+      "sourceUrl": "https://stardewvalleywiki.com/Combat",
+      "sourceRevision": 192831,
+      "sourceSha256": "7c55f8f47e0f0a9a4863326fc97e9f0719789a9269f9bc493388da4bbaa41053",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/战斗",
+        "revision": 53589,
+        "sha256": "a8e828771666f8fbc4dcb9dceb741a43202aacbbde7a71ba92450e4b0135f2a8"
+      },
+      "image": {
+        "src": "/mediawiki/images/thumb/5/57/Desperado.png/24px-Desperado.png",
+        "alt": "Desperado.png"
+      },
+      "file": "public/assets/game/Profession_Desperado.png",
+      "versionEvidence": "Reviewed original five skill profession trees at levels5/10; English and Chinese skill tables agree on branch identity and effects for1.6.15."
+    }
+  ]
+}

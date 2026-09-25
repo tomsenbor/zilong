@@ -1,0 +1,2077 @@
+{
+  "version": "1.6.15",
+  "status": "pending",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "nativeCategories": [
+    -7,
+    -79,
+    -80,
+    -81,
+    -75,
+    -26,
+    -5,
+    -6,
+    -18
+  ],
+  "categoryRecords": [
+    {
+      "nativeId": "16",
+      "nativeName": "Wild Horseradish",
+      "originalName": "Wild Horseradish",
+      "category": -81,
+      "manifestKey": "forage:16",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "18",
+      "nativeName": "Daffodil",
+      "originalName": "Daffodil",
+      "category": -81,
+      "manifestKey": "forage:18",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "20",
+      "nativeName": "Leek",
+      "originalName": "Leek",
+      "category": -81,
+      "manifestKey": "forage:20",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "22",
+      "nativeName": "Dandelion",
+      "originalName": "Dandelion",
+      "category": -81,
+      "manifestKey": "forage:22",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "24",
+      "nativeName": "Parsnip",
+      "originalName": "Parsnip",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Parsnip",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "78",
+      "nativeName": "Cave Carrot",
+      "originalName": "Cave Carrot",
+      "category": -81,
+      "manifestKey": "legacy-secondary:items:cave-carrot",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "88",
+      "nativeName": "Coconut",
+      "originalName": "Coconut",
+      "category": -79,
+      "manifestKey": "forage:88",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "90",
+      "nativeName": "Cactus Fruit",
+      "originalName": "Cactus Fruit",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Cactus Fruit",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "91",
+      "nativeName": "Banana",
+      "originalName": "Banana",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:banana",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "92",
+      "nativeName": "Sap",
+      "originalName": "Sap",
+      "category": -81,
+      "manifestKey": "forage:92",
+      "group": "resources",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "174",
+      "nativeName": "Large Egg",
+      "originalName": "Large Egg",
+      "category": -5,
+      "manifestKey": "animal-product:174",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "176",
+      "nativeName": "Egg",
+      "originalName": "Egg",
+      "category": -5,
+      "manifestKey": "animal-product:176",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "180",
+      "nativeName": "Egg",
+      "originalName": "Brown Egg",
+      "category": -5,
+      "manifestKey": "animal-product:180",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "182",
+      "nativeName": "Large Egg",
+      "originalName": "Large Brown Egg",
+      "category": -5,
+      "manifestKey": "animal-product:182",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "184",
+      "nativeName": "Milk",
+      "originalName": "Milk",
+      "category": -6,
+      "manifestKey": "animal-product:184",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "186",
+      "nativeName": "Large Milk",
+      "originalName": "Large Milk",
+      "category": -6,
+      "manifestKey": "animal-product:186",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "188",
+      "nativeName": "Green Bean",
+      "originalName": "Green Bean",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Green Bean",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "190",
+      "nativeName": "Cauliflower",
+      "originalName": "Cauliflower",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Cauliflower",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "192",
+      "nativeName": "Potato",
+      "originalName": "Potato",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Potato",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "194",
+      "nativeName": "Fried Egg",
+      "originalName": "Fried Egg",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fried Egg",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "195",
+      "nativeName": "Omelet",
+      "originalName": "Omelet",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Omelet",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "196",
+      "nativeName": "Salad",
+      "originalName": "Salad",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Salad",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "197",
+      "nativeName": "Cheese Cauliflower",
+      "originalName": "Cheese Cauliflower",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Cheese Cauliflower",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "198",
+      "nativeName": "Baked Fish",
+      "originalName": "Baked Fish",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Baked Fish",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "199",
+      "nativeName": "Parsnip Soup",
+      "originalName": "Parsnip Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Parsnip Soup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "200",
+      "nativeName": "Vegetable Medley",
+      "originalName": "Vegetable Medley",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Vegetable Medley",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "201",
+      "nativeName": "Complete Breakfast",
+      "originalName": "Complete Breakfast",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Complete Breakfast",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "202",
+      "nativeName": "Fried Calamari",
+      "originalName": "Fried Calamari",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fried Calamari",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "203",
+      "nativeName": "Strange Bun",
+      "originalName": "Strange Bun",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Strange Bun",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "204",
+      "nativeName": "Lucky Lunch",
+      "originalName": "Lucky Lunch",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Lucky Lunch",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "205",
+      "nativeName": "Fried Mushroom",
+      "originalName": "Fried Mushroom",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fried Mushroom",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "206",
+      "nativeName": "Pizza",
+      "originalName": "Pizza",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pizza",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "207",
+      "nativeName": "Bean Hotpot",
+      "originalName": "Bean Hotpot",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Bean Hotpot",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "208",
+      "nativeName": "Glazed Yams",
+      "originalName": "Glazed Yams",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Glazed Yams",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "209",
+      "nativeName": "Carp Surprise",
+      "originalName": "Carp Surprise",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Carp Surprise",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "210",
+      "nativeName": "Hashbrowns",
+      "originalName": "Hashbrowns",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Hashbrowns",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "211",
+      "nativeName": "Pancakes",
+      "originalName": "Pancakes",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pancakes",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "212",
+      "nativeName": "Salmon Dinner",
+      "originalName": "Salmon Dinner",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Salmon Dinner",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "213",
+      "nativeName": "Fish Taco",
+      "originalName": "Fish Taco",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fish Taco",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "214",
+      "nativeName": "Crispy Bass",
+      "originalName": "Crispy Bass",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Crispy Bass",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "215",
+      "nativeName": "Pepper Poppers",
+      "originalName": "Pepper Poppers",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pepper Poppers",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "216",
+      "nativeName": "Bread",
+      "originalName": "Bread",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Bread",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "218",
+      "nativeName": "Tom Kha Soup",
+      "originalName": "Tom Kha Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Tom Kha Soup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "219",
+      "nativeName": "Trout Soup",
+      "originalName": "Trout Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Trout Soup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "220",
+      "nativeName": "Chocolate Cake",
+      "originalName": "Chocolate Cake",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Chocolate Cake",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "221",
+      "nativeName": "Pink Cake",
+      "originalName": "Pink Cake",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pink Cake",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "222",
+      "nativeName": "Rhubarb Pie",
+      "originalName": "Rhubarb Pie",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Rhubarb Pie",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "223",
+      "nativeName": "Cookie",
+      "originalName": "Cookie",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Cookie",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "224",
+      "nativeName": "Spaghetti",
+      "originalName": "Spaghetti",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Spaghetti",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "225",
+      "nativeName": "Fried Eel",
+      "originalName": "Fried Eel",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fried Eel",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "226",
+      "nativeName": "Spicy Eel",
+      "originalName": "Spicy Eel",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Spicy Eel",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "227",
+      "nativeName": "Sashimi",
+      "originalName": "Sashimi",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Sashimi",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "228",
+      "nativeName": "Maki Roll",
+      "originalName": "Maki Roll",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Maki Roll",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "229",
+      "nativeName": "Tortilla",
+      "originalName": "Tortilla",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Tortilla",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "230",
+      "nativeName": "Red Plate",
+      "originalName": "Red Plate",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Red Plate",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "231",
+      "nativeName": "Eggplant Parmesan",
+      "originalName": "Eggplant Parmesan",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Eggplant Parmesan",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "232",
+      "nativeName": "Rice Pudding",
+      "originalName": "Rice Pudding",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Rice Pudding",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "233",
+      "nativeName": "Ice Cream",
+      "originalName": "Ice Cream",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Ice Cream",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "234",
+      "nativeName": "Blueberry Tart",
+      "originalName": "Blueberry Tart",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Blueberry Tart",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "235",
+      "nativeName": "Autumn's Bounty",
+      "originalName": "Autumn's Bounty",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Autumn's Bounty",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "236",
+      "nativeName": "Pumpkin Soup",
+      "originalName": "Pumpkin Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pumpkin Soup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "237",
+      "nativeName": "Super Meal",
+      "originalName": "Super Meal",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Super Meal",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "238",
+      "nativeName": "Cranberry Sauce",
+      "originalName": "Cranberry Sauce",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Cranberry Sauce",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "239",
+      "nativeName": "Stuffing",
+      "originalName": "Stuffing",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Stuffing",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "240",
+      "nativeName": "Farmer's Lunch",
+      "originalName": "Farmer's Lunch",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Farmer's Lunch",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "241",
+      "nativeName": "Survival Burger",
+      "originalName": "Survival Burger",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Survival Burger",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "242",
+      "nativeName": "Dish O' The Sea",
+      "originalName": "Dish O' The Sea",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Dish O' The Sea",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "243",
+      "nativeName": "Miner's Treat",
+      "originalName": "Miner's Treat",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Miner's Treat",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "244",
+      "nativeName": "Roots Platter",
+      "originalName": "Roots Platter",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Roots Platter",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "248",
+      "nativeName": "Garlic",
+      "originalName": "Garlic",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Garlic",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "250",
+      "nativeName": "Kale",
+      "originalName": "Kale",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Kale",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "252",
+      "nativeName": "Rhubarb",
+      "originalName": "Rhubarb",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Rhubarb",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "253",
+      "nativeName": "Triple Shot Espresso",
+      "originalName": "Triple Shot Espresso",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Triple Shot Espresso",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "254",
+      "nativeName": "Melon",
+      "originalName": "Melon",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Melon",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "256",
+      "nativeName": "Tomato",
+      "originalName": "Tomato",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Tomato",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "257",
+      "nativeName": "Morel",
+      "originalName": "Morel",
+      "category": -81,
+      "manifestKey": "forage:257",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "258",
+      "nativeName": "Blueberry",
+      "originalName": "Blueberry",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Blueberry",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "259",
+      "nativeName": "Fiddlehead Fern",
+      "originalName": "Fiddlehead Fern",
+      "category": -75,
+      "manifestKey": "forage:259",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "260",
+      "nativeName": "Hot Pepper",
+      "originalName": "Hot Pepper",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Hot Pepper",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "262",
+      "nativeName": "Wheat",
+      "originalName": "Wheat",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Wheat",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "264",
+      "nativeName": "Radish",
+      "originalName": "Radish",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Radish",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "265",
+      "nativeName": "Seafoam Pudding",
+      "originalName": "Seafoam Pudding",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Seafoam Pudding",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "266",
+      "nativeName": "Red Cabbage",
+      "originalName": "Red Cabbage",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Red Cabbage",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "268",
+      "nativeName": "Starfruit",
+      "originalName": "Starfruit",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Starfruit",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "270",
+      "nativeName": "Corn",
+      "originalName": "Corn",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Corn",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "271",
+      "nativeName": "Unmilled Rice",
+      "originalName": "Unmilled Rice",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Unmilled Rice",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "272",
+      "nativeName": "Eggplant",
+      "originalName": "Eggplant",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Eggplant",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "274",
+      "nativeName": "Artichoke",
+      "originalName": "Artichoke",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Artichoke",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "276",
+      "nativeName": "Pumpkin",
+      "originalName": "Pumpkin",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Pumpkin",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "278",
+      "nativeName": "Bok Choy",
+      "originalName": "Bok Choy",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Bok Choy",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "279",
+      "nativeName": "Magic Rock Candy",
+      "originalName": "Magic Rock Candy",
+      "category": -7,
+      "manifestKey": "material:279",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "280",
+      "nativeName": "Yam",
+      "originalName": "Yam",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Yam",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "281",
+      "nativeName": "Chanterelle",
+      "originalName": "Chanterelle",
+      "category": -81,
+      "manifestKey": "forage:281",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "282",
+      "nativeName": "Cranberries",
+      "originalName": "Cranberries",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Cranberries",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "283",
+      "nativeName": "Holly",
+      "originalName": "Holly",
+      "category": -81,
+      "manifestKey": "forage:283",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "284",
+      "nativeName": "Beet",
+      "originalName": "Beet",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Beet",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "289",
+      "nativeName": "Ostrich Egg",
+      "originalName": "Ostrich Egg",
+      "category": -5,
+      "manifestKey": "animal-product:289",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "296",
+      "nativeName": "Salmonberry",
+      "originalName": "Salmonberry",
+      "category": -79,
+      "manifestKey": "forage:296",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "300",
+      "nativeName": "Amaranth",
+      "originalName": "Amaranth",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Amaranth",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "303",
+      "nativeName": "Pale Ale",
+      "originalName": "Pale Ale",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:pale-ale",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "304",
+      "nativeName": "Hops",
+      "originalName": "Hops",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Hops",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "305",
+      "nativeName": "Void Egg",
+      "originalName": "Void Egg",
+      "category": -5,
+      "manifestKey": "animal-product:305",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "306",
+      "nativeName": "Mayonnaise",
+      "originalName": "Mayonnaise",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:mayonnaise",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "307",
+      "nativeName": "Duck Mayonnaise",
+      "originalName": "Duck Mayonnaise",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:duck-mayonnaise",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "308",
+      "nativeName": "Void Mayonnaise",
+      "originalName": "Void Mayonnaise",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:void-mayonnaise",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "340",
+      "nativeName": "Honey",
+      "originalName": "Honey",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:honey",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "342",
+      "nativeName": "Pickles",
+      "originalName": "Pickles",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:pickles",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "344",
+      "nativeName": "Jelly",
+      "originalName": "Jelly",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:jelly",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "346",
+      "nativeName": "Beer",
+      "originalName": "Beer",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:beer",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "348",
+      "nativeName": "Wine",
+      "originalName": "Wine",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:fruit-wine",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "350",
+      "nativeName": "Juice",
+      "originalName": "Juice",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:juice",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "376",
+      "nativeName": "Poppy",
+      "originalName": "Poppy",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Poppy",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "396",
+      "nativeName": "Spice Berry",
+      "originalName": "Spice Berry",
+      "category": -79,
+      "manifestKey": "forage:396",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "398",
+      "nativeName": "Grape",
+      "originalName": "Grape",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Grape",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "399",
+      "nativeName": "Spring Onion",
+      "originalName": "Spring Onion",
+      "category": -81,
+      "manifestKey": "forage:399",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "400",
+      "nativeName": "Strawberry",
+      "originalName": "Strawberry",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Strawberry",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "402",
+      "nativeName": "Sweet Pea",
+      "originalName": "Sweet Pea",
+      "category": -80,
+      "manifestKey": "forage:402",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "404",
+      "nativeName": "Common Mushroom",
+      "originalName": "Common Mushroom",
+      "category": -81,
+      "manifestKey": "forage:404",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "406",
+      "nativeName": "Wild Plum",
+      "originalName": "Wild Plum",
+      "category": -79,
+      "manifestKey": "forage:406",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "408",
+      "nativeName": "Hazelnut",
+      "originalName": "Hazelnut",
+      "category": -81,
+      "manifestKey": "forage:408",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "410",
+      "nativeName": "Blackberry",
+      "originalName": "Blackberry",
+      "category": -79,
+      "manifestKey": "forage:410",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "412",
+      "nativeName": "Winter Root",
+      "originalName": "Winter Root",
+      "category": -81,
+      "manifestKey": "forage:412",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "414",
+      "nativeName": "Crystal Fruit",
+      "originalName": "Crystal Fruit",
+      "category": -79,
+      "manifestKey": "forage:414",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "416",
+      "nativeName": "Snow Yam",
+      "originalName": "Snow Yam",
+      "category": -81,
+      "manifestKey": "forage:416",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "418",
+      "nativeName": "Crocus",
+      "originalName": "Crocus",
+      "category": -80,
+      "manifestKey": "forage:418",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "420",
+      "nativeName": "Red Mushroom",
+      "originalName": "Red Mushroom",
+      "category": -81,
+      "manifestKey": "legacy-secondary:items:red-mushroom",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "421",
+      "nativeName": "Sunflower",
+      "originalName": "Sunflower",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Sunflower",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "422",
+      "nativeName": "Purple Mushroom",
+      "originalName": "Purple Mushroom",
+      "category": -81,
+      "manifestKey": "legacy-secondary:items:purple-mushroom",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "424",
+      "nativeName": "Cheese",
+      "originalName": "Cheese",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:cheese",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "426",
+      "nativeName": "Goat Cheese",
+      "originalName": "Goat Cheese",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:goat-cheese",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "428",
+      "nativeName": "Cloth",
+      "originalName": "Cloth",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:cloth",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "432",
+      "nativeName": "Truffle Oil",
+      "originalName": "Truffle Oil",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:truffle-oil",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "436",
+      "nativeName": "Goat Milk",
+      "originalName": "Goat Milk",
+      "category": -6,
+      "manifestKey": "animal-product:436",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "438",
+      "nativeName": "L. Goat Milk",
+      "originalName": "Large Goat Milk",
+      "category": -6,
+      "manifestKey": "animal-product:438",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "440",
+      "nativeName": "Wool",
+      "originalName": "Wool",
+      "category": -18,
+      "manifestKey": "animal-product:440",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "442",
+      "nativeName": "Duck Egg",
+      "originalName": "Duck Egg",
+      "category": -5,
+      "manifestKey": "animal-product:442",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "444",
+      "nativeName": "Duck Feather",
+      "originalName": "Duck Feather",
+      "category": -18,
+      "manifestKey": "animal-product:444",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "445",
+      "nativeName": "Caviar",
+      "originalName": "Caviar",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:caviar",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "446",
+      "nativeName": "Rabbit's Foot",
+      "originalName": "Rabbit's Foot",
+      "category": -18,
+      "manifestKey": "legacy-secondary:items:rabbit-s-foot",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "447",
+      "nativeName": "Aged Roe",
+      "originalName": "Aged Roe",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:aged-roe",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "454",
+      "nativeName": "Ancient Fruit",
+      "originalName": "Ancient Fruit",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Ancient Fruit",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "456",
+      "nativeName": "Algae Soup",
+      "originalName": "Algae Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Algae Soup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "457",
+      "nativeName": "Pale Broth",
+      "originalName": "Pale Broth",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pale Broth",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "459",
+      "nativeName": "Mead",
+      "originalName": "Mead",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:mead",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "591",
+      "nativeName": "Tulip",
+      "originalName": "Tulip",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Tulip",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "593",
+      "nativeName": "Summer Spangle",
+      "originalName": "Summer Spangle",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Summer Spangle",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "595",
+      "nativeName": "Fairy Rose",
+      "originalName": "Fairy Rose",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Fairy Rose",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "597",
+      "nativeName": "Blue Jazz",
+      "originalName": "Blue Jazz",
+      "category": -80,
+      "manifestKey": "legacy-primary:Crops:Blue Jazz",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "604",
+      "nativeName": "Plum Pudding",
+      "originalName": "Plum Pudding",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Plum Pudding",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "605",
+      "nativeName": "Artichoke Dip",
+      "originalName": "Artichoke Dip",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Artichoke Dip",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "606",
+      "nativeName": "Stir Fry",
+      "originalName": "Stir Fry",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Stir Fry",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "607",
+      "nativeName": "Roasted Hazelnuts",
+      "originalName": "Roasted Hazelnuts",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Roasted Hazelnuts",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "608",
+      "nativeName": "Pumpkin Pie",
+      "originalName": "Pumpkin Pie",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Pumpkin Pie",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "609",
+      "nativeName": "Radish Salad",
+      "originalName": "Radish Salad",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Radish Salad",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "610",
+      "nativeName": "Fruit Salad",
+      "originalName": "Fruit Salad",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fruit Salad",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "611",
+      "nativeName": "Blackberry Cobbler",
+      "originalName": "Blackberry Cobbler",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Blackberry Cobbler",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "612",
+      "nativeName": "Cranberry Candy",
+      "originalName": "Cranberry Candy",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Cranberry Candy",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "613",
+      "nativeName": "Apple",
+      "originalName": "Apple",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:apple",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "614",
+      "nativeName": "Green Tea",
+      "originalName": "Green Tea",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:green-tea",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "618",
+      "nativeName": "Bruschetta",
+      "originalName": "Bruschetta",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Bruschetta",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "634",
+      "nativeName": "Apricot",
+      "originalName": "Apricot",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:apricot",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "635",
+      "nativeName": "Orange",
+      "originalName": "Orange",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:orange",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "636",
+      "nativeName": "Peach",
+      "originalName": "Peach",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:peach",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "637",
+      "nativeName": "Pomegranate",
+      "originalName": "Pomegranate",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:pomegranate",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "638",
+      "nativeName": "Cherry",
+      "originalName": "Cherry",
+      "category": -79,
+      "manifestKey": "legacy-secondary:items:cherry",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "648",
+      "nativeName": "Coleslaw",
+      "originalName": "Coleslaw",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Coleslaw",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "649",
+      "nativeName": "Fiddlehead Risotto",
+      "originalName": "Fiddlehead Risotto",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fiddlehead Risotto",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "651",
+      "nativeName": "Poppyseed Muffin",
+      "originalName": "Poppyseed Muffin",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Poppyseed Muffin",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "727",
+      "nativeName": "Chowder",
+      "originalName": "Chowder",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Chowder",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "728",
+      "nativeName": "Fish Stew",
+      "originalName": "Fish Stew",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Fish Stew",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "729",
+      "nativeName": "Escargot",
+      "originalName": "Escargot",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Escargot",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "730",
+      "nativeName": "Lobster Bisque",
+      "originalName": "Lobster Bisque",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Lobster Bisque",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "731",
+      "nativeName": "Maple Bar",
+      "originalName": "Maple Bar",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Maple Bar",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "732",
+      "nativeName": "Crab Cakes",
+      "originalName": "Crab Cakes",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Crab Cakes",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "733",
+      "nativeName": "Shrimp Cocktail",
+      "originalName": "Shrimp Cocktail",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Shrimp Cocktail",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "772",
+      "nativeName": "Oil of Garlic",
+      "originalName": "Oil of Garlic",
+      "category": -7,
+      "manifestKey": "consumable:Oil of Garlic",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "773",
+      "nativeName": "Life Elixir",
+      "originalName": "Life Elixir",
+      "category": -7,
+      "manifestKey": "consumable:Life Elixir",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "807",
+      "nativeName": "Dinosaur Mayonnaise",
+      "originalName": "Dinosaur Mayonnaise",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:dinosaur-mayonnaise",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "815",
+      "nativeName": "Tea Leaves",
+      "originalName": "Tea Leaves",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Tea Leaves",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "829",
+      "nativeName": "Ginger",
+      "originalName": "Ginger",
+      "category": -81,
+      "manifestKey": "forage:829",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "830",
+      "nativeName": "Taro Root",
+      "originalName": "Taro Root",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Taro Root",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "832",
+      "nativeName": "Pineapple",
+      "originalName": "Pineapple",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Pineapple",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "834",
+      "nativeName": "Mango",
+      "originalName": "Mango",
+      "category": -79,
+      "manifestKey": "material:834",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "851",
+      "nativeName": "Magma Cap",
+      "originalName": "Magma Cap",
+      "category": -81,
+      "manifestKey": "forage:851",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "873",
+      "nativeName": "Piña Colada",
+      "originalName": "Piña Colada",
+      "category": -7,
+      "manifestKey": "material:873",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "889",
+      "nativeName": "Qi Fruit",
+      "originalName": "Qi Fruit",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Qi Fruit",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "903",
+      "nativeName": "Ginger Ale",
+      "originalName": "Ginger Ale",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Ginger Ale",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "904",
+      "nativeName": "Banana Pudding",
+      "originalName": "Banana Pudding",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Banana Pudding",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "905",
+      "nativeName": "Mango Sticky Rice",
+      "originalName": "Mango Sticky Rice",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Mango Sticky Rice",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "906",
+      "nativeName": "Poi",
+      "originalName": "Poi",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Poi",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "907",
+      "nativeName": "Tropical Curry",
+      "originalName": "Tropical Curry",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Tropical Curry",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "921",
+      "nativeName": "Squid Ink Ravioli",
+      "originalName": "Squid Ink Ravioli",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Squid Ink Ravioli",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "928",
+      "nativeName": "Golden Egg",
+      "originalName": "Golden Egg",
+      "category": -5,
+      "manifestKey": "animal-product:928",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Raisins",
+      "nativeName": "Raisins",
+      "originalName": "Raisins",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:raisins",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "DriedFruit",
+      "nativeName": "Dried",
+      "originalName": "Dried Fruit",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:dried-fruit",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "DriedMushrooms",
+      "nativeName": "Dried",
+      "originalName": "Dried Mushrooms",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:dried-mushrooms",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Carrot",
+      "nativeName": "Carrot",
+      "originalName": "Carrot",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Carrot",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SummerSquash",
+      "nativeName": "Summer Squash",
+      "originalName": "Summer Squash",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Summer Squash",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Broccoli",
+      "nativeName": "Broccoli",
+      "originalName": "Broccoli",
+      "category": -75,
+      "manifestKey": "legacy-primary:Crops:Broccoli",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "Powdermelon",
+      "nativeName": "Powdermelon",
+      "originalName": "Powdermelon",
+      "category": -79,
+      "manifestKey": "legacy-primary:Crops:Powdermelon",
+      "group": "agriculture",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SmokedFish",
+      "nativeName": "Smoked",
+      "originalName": "Smoked Fish",
+      "category": -26,
+      "manifestKey": "legacy-secondary:items:smoked-fish",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "MossSoup",
+      "nativeName": "Moss Soup",
+      "originalName": "Moss Soup",
+      "category": -7,
+      "manifestKey": "legacy:Cooking:Moss Soup",
+      "group": "food",
+      "disposition": "include"
+    }
+  ],
+  "supplementary": [
+    {
+      "nativeId": "152",
+      "nativeName": "Seaweed",
+      "originalName": "Seaweed",
+      "category": 0,
+      "manifestKey": "material:152",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "153",
+      "nativeName": "Green Algae",
+      "originalName": "Green Algae",
+      "category": 0,
+      "manifestKey": "material:153",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "157",
+      "nativeName": "White Algae",
+      "originalName": "White Algae",
+      "category": 0,
+      "manifestKey": "material:157",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "167",
+      "nativeName": "Joja Cola",
+      "originalName": "Joja Cola",
+      "category": -20,
+      "manifestKey": "beverage:167",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "245",
+      "nativeName": "Sugar",
+      "originalName": "Sugar",
+      "category": 0,
+      "manifestKey": "material:245",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "246",
+      "nativeName": "Wheat Flour",
+      "originalName": "Wheat Flour",
+      "category": 0,
+      "manifestKey": "material:246",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "247",
+      "nativeName": "Oil",
+      "originalName": "Oil",
+      "category": 0,
+      "manifestKey": "legacy-secondary:items:oil",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "349",
+      "nativeName": "Energy Tonic",
+      "originalName": "Energy Tonic",
+      "category": 0,
+      "manifestKey": "special:349",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "351",
+      "nativeName": "Muscle Remedy",
+      "originalName": "Muscle Remedy",
+      "category": 0,
+      "manifestKey": "special:351",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "395",
+      "nativeName": "Coffee",
+      "originalName": "Coffee",
+      "category": 0,
+      "manifestKey": "legacy-secondary:items:coffee",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "403",
+      "nativeName": "Field Snack",
+      "originalName": "Field Snack",
+      "category": 0,
+      "manifestKey": "consumable:Field Snack",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "419",
+      "nativeName": "Vinegar",
+      "originalName": "Vinegar",
+      "category": 0,
+      "manifestKey": "legacy-secondary:items:vinegar",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "423",
+      "nativeName": "Rice",
+      "originalName": "Rice",
+      "category": 0,
+      "manifestKey": "material:423",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "430",
+      "nativeName": "Truffle",
+      "originalName": "Truffle",
+      "category": -17,
+      "manifestKey": "legacy-secondary:items:truffle",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "434",
+      "nativeName": "Stardrop",
+      "originalName": "Stardrop",
+      "category": 0,
+      "manifestKey": "special:434",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "724",
+      "nativeName": "Maple Syrup",
+      "originalName": "Maple Syrup",
+      "category": -27,
+      "manifestKey": "legacy-secondary:items:maple-syrup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "725",
+      "nativeName": "Oak Resin",
+      "originalName": "Oak Resin",
+      "category": -27,
+      "manifestKey": "legacy-secondary:items:oak-resin",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "726",
+      "nativeName": "Pine Tar",
+      "originalName": "Pine Tar",
+      "category": -27,
+      "manifestKey": "legacy-secondary:items:pine-tar",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "812",
+      "nativeName": "Roe",
+      "originalName": "Roe",
+      "category": -23,
+      "manifestKey": "material:812",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "814",
+      "nativeName": "Squid Ink",
+      "originalName": "Squid Ink",
+      "category": -23,
+      "manifestKey": "material:814",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "874",
+      "nativeName": "Bug Steak",
+      "originalName": "Bug Steak",
+      "category": 0,
+      "manifestKey": "consumable:Bug Steak",
+      "group": "special",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "MysticSyrup",
+      "nativeName": "Mystic Syrup",
+      "originalName": "Mystic Syrup",
+      "category": -27,
+      "manifestKey": "legacy-secondary:items:mystic-syrup",
+      "group": "food",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "SeaJelly",
+      "nativeName": "Sea Jelly",
+      "originalName": "Sea Jelly",
+      "category": 0,
+      "manifestKey": "material:SeaJelly",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "CaveJelly",
+      "nativeName": "Cave Jelly",
+      "originalName": "Cave Jelly",
+      "category": 0,
+      "manifestKey": "material:CaveJelly",
+      "group": "fishing",
+      "disposition": "include"
+    },
+    {
+      "nativeId": "RiverJelly",
+      "nativeName": "River Jelly",
+      "originalName": "River Jelly",
+      "category": 0,
+      "manifestKey": "material:RiverJelly",
+      "group": "fishing",
+      "disposition": "include"
+    }
+  ],
+  "coveredFoodIdentities": 172,
+  "unknown": [
+    {
+      "nativeId": "30",
+      "name": "Lumber",
+      "category": 0,
+      "edibility": 10,
+      "reason": "Native record has positive edibility, but no verified normal-play acquisition or explicit exclusion evidence has been established. Do not fabricate a food page or silently declare the food roster complete."
+    }
+  ],
+  "limitations": "Native categories cross-reference crop harvests and other groups without duplicate pages. Fish are covered by the separately closed fishing inventory. Positive Edibility alone is not proof of a normally obtainable food. Food category remains pending until the unknown native record is resolved."
+}

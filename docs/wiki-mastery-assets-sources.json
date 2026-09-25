@@ -1,0 +1,45 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Mastery_Farming.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/82/Farming_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mastery_Cave",
+      "width": 64,
+      "height": 64,
+      "sha256": "2fe849dacc2dec5ef4240f5aab316480cfc69011422069b0195df95210a3b8b5"
+    },
+    {
+      "file": "public/assets/game/Mastery_Mining.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Mining_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mastery_Cave",
+      "width": 64,
+      "height": 64,
+      "sha256": "487d17c82efdee4906a5bc6941679146d40540b78f0ce4c8cb0f018c83f18160"
+    },
+    {
+      "file": "public/assets/game/Mastery_Foraging.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Foraging_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mastery_Cave",
+      "width": 64,
+      "height": 64,
+      "sha256": "5c1deac60e3742f3500dfb2f7c59a99c60aa1bdcdcc9a1be714f2d70215567e2"
+    },
+    {
+      "file": "public/assets/game/Mastery_Fishing.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Fishing_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mastery_Cave",
+      "width": 64,
+      "height": 64,
+      "sha256": "475820e9ec1637941b04d4043d34c83af06ed869165b3c35e98d9175f1f4b711"
+    },
+    {
+      "file": "public/assets/game/Mastery_Combat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Combat_Skill_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mastery_Cave",
+      "width": 64,
+      "height": 64,
+      "sha256": "e193d6da43223dd3fa86379052557f982dccc75ac7ecd517c1ebc9e95b6a0145"
+    }
+  ]
+}

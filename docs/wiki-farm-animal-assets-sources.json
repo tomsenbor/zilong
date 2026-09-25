@@ -1,0 +1,117 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/FarmAnimal_animal-white-chicken.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/22/White_Chicken.png",
+      "source": "https://stardewvalleywiki.com/Chicken",
+      "width": 48,
+      "height": 48,
+      "sha256": "e4d93cb058ede11f5bc63fc6646e14af52ad2f60621dc74c9522760eb56ea89c"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-brown-chicken.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fd/Brown_Chicken.png",
+      "source": "https://stardewvalleywiki.com/Chicken",
+      "width": 48,
+      "height": 48,
+      "sha256": "37f3111853d56f0589fc95ddee20f3372bc5add37874bcb2e14b04b2ade499e2"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-blue-chicken.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/61/Blue_Chicken.png",
+      "source": "https://stardewvalleywiki.com/Chicken",
+      "width": 48,
+      "height": 48,
+      "sha256": "6242a8e07b9293b01df22a0f7a7ff7e5abcc0b561ad7a76eec99a93379aab194"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-void-chicken.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/67/Void_Chicken.png",
+      "source": "https://stardewvalleywiki.com/Void_Chicken",
+      "width": 48,
+      "height": 48,
+      "sha256": "a26f537b79e21da33613c94b004449b8dbbcf986c04c232afc8d50f76229077f"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-golden-chicken.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3c/Golden_Chicken.png",
+      "source": "https://stardewvalleywiki.com/Golden_Chicken",
+      "width": 48,
+      "height": 48,
+      "sha256": "4442b07f643c894f1b69966ee481f43212eea091cae7b029c4f88360b02b07cf"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-duck.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/38/Duck.png",
+      "source": "https://stardewvalleywiki.com/Duck",
+      "width": 48,
+      "height": 45,
+      "sha256": "c299957b482b0d678980b5eb2daee5e83455bc5a40954ccfaf5dae3214f39328"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-rabbit.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fd/Rabbit.png",
+      "source": "https://stardewvalleywiki.com/Rabbit",
+      "width": 48,
+      "height": 48,
+      "sha256": "325695046aaf783ec22b04b3df1f81b7cfd66217c8129a56ae3f1170475fdf4f"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-dinosaur.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/89/Dinosaur.png",
+      "source": "https://stardewvalleywiki.com/Dinosaur",
+      "width": 48,
+      "height": 39,
+      "sha256": "808c7b7f19c2380c9998458c085bb4c60f7aee56aadbe7510ea082242934baf5"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-white-cow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/White_Cow.png",
+      "source": "https://stardewvalleywiki.com/Cow",
+      "width": 90,
+      "height": 69,
+      "sha256": "8496b8f0bc14349786c4a5c321b493aa1d9e56bcb9644f9f577a3a6e009ff80d"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-brown-cow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3e/Brown_Cow.png",
+      "source": "https://stardewvalleywiki.com/Cow",
+      "width": 90,
+      "height": 69,
+      "sha256": "ff151f0bfe972d99740805869bdd1e182fee0680a21903682f2967c0cb3d22ca"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-goat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/52/Goat.png",
+      "source": "https://stardewvalleywiki.com/Goat",
+      "width": 84,
+      "height": 75,
+      "sha256": "d833efd5b3c98e6ab30be45f2b0bebf90db17dda56c5b3fe4270b647381bd4e8"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-sheep.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Sheep.png",
+      "source": "https://stardewvalleywiki.com/Sheep",
+      "width": 81,
+      "height": 69,
+      "sha256": "72d7197207ad71e9b4c73e257986bd2dead8472beaa175616a581fcd83d96cce"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-pig.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Pig.png",
+      "source": "https://stardewvalleywiki.com/Pig",
+      "width": 93,
+      "height": 66,
+      "sha256": "e176e908326e8236cb854f3ad9f0dc1fab93332bb7ae39523ac3319159c905db"
+    },
+    {
+      "file": "public/assets/game/FarmAnimal_animal-ostrich.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Ostrich.png",
+      "source": "https://stardewvalleywiki.com/Ostrich",
+      "width": 93,
+      "height": 96,
+      "sha256": "402fed56cde330cbaf77de78c49650e7cbbed45cef87ad5555ae4444e1a10ed6"
+    }
+  ]
+}

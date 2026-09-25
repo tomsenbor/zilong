@@ -24,7 +24,8 @@ export function formatGameTime(value) {
   const numericValue = Number(value);
   const hour = Math.floor(numericValue / 100) % 24;
   const minute = numericValue % 100;
-  return `${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}`;
+  const nextDay = numericValue >= 2400 || numericValue <= 200;
+  return `${nextDay ? "次日" : ""}${String(hour).padStart(2, "0")}:${String(minute).padStart(2, "0")}`;
 }
 
 export function buildFishQuery(formData) {

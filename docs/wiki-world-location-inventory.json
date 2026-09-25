@@ -1,0 +1,358 @@
+{
+  "version": "1.6.15",
+  "status": "partial; other world regions, shops and native internal-map mappings remain pending",
+  "records": [
+    {
+      "title": "Backwoods",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Backwoods",
+        "revision": 192773,
+        "sha256": "58b5c88cde317c701b3e17474489756eafcac0e2db99f89e9e70bcb14554808b"
+      },
+      "dataset": "locations",
+      "slug": "backwoods",
+      "name": "边远森林"
+    },
+    {
+      "title": "Bus Stop",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bus_Stop",
+        "revision": 192757,
+        "sha256": "f384d8a339242f3885283a02b6d5e6b3d83cdc46ab3a1a4eeeeb2a83dca3c734"
+      },
+      "dataset": "locations",
+      "slug": "bus-stop",
+      "name": "巴士站"
+    },
+    {
+      "title": "The Cave",
+      "source": {
+        "url": "https://stardewvalleywiki.com/The_Cave",
+        "revision": 193773,
+        "sha256": "339c17d9b0c4795a69f443280ebfd59f2256b1daa8f3ca4acca8a6e97cb37e30"
+      },
+      "dataset": "locations",
+      "slug": "farm-cave",
+      "name": "山洞"
+    },
+    {
+      "title": "The Tunnel",
+      "source": {
+        "url": "https://stardewvalleywiki.com/The_Tunnel",
+        "revision": 182029,
+        "sha256": "e81bff7d93248e4d1cc07aa26b1efe9a9dc90272571441acc1808d3b96114390"
+      },
+      "dataset": "locations",
+      "slug": "tunnel",
+      "name": "隧道"
+    },
+    {
+      "title": "Mutant Bug Lair",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mutant_Bug_Lair",
+        "revision": 188479,
+        "sha256": "22eb64d30010eb7d57bf2837a29aa67f485cf1242b29a5d8f4c25941b5747eb8"
+      },
+      "dataset": "locations",
+      "slug": "mutant-bug-lair",
+      "name": "突变虫穴"
+    },
+    {
+      "title": "Witch's Swamp",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Witch's_Swamp",
+        "revision": 187086,
+        "sha256": "95c06982a2951909a402f5956ecf645cfbb52f3f6a2c61be73e739e23234c245"
+      },
+      "dataset": "locations",
+      "slug": "witch-swamp",
+      "name": "巫婆沼泽"
+    },
+    {
+      "title": "Witch's Hut",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Witch's_Hut",
+        "revision": 192640,
+        "sha256": "caad5a3f8198d9117be4046c0bf374711e44373d9336c27d5c1618d9bb63467c"
+      },
+      "dataset": "locations",
+      "slug": "witch-hut",
+      "name": "女巫小屋"
+    },
+    {
+      "title": "1 River Road",
+      "source": {
+        "url": "https://stardewvalleywiki.com/1_River_Road",
+        "revision": 189171,
+        "sha256": "a5e33f9608b827fa943932dbe3d05e959337911630eea33017278e0dde69a637"
+      },
+      "dataset": "locations",
+      "slug": "river-road-1",
+      "name": "河间大道1号"
+    },
+    {
+      "title": "1 Willow Lane",
+      "source": {
+        "url": "https://stardewvalleywiki.com/1_Willow_Lane",
+        "revision": 189172,
+        "sha256": "5caffead7b800f9d077a3112dbe86b0b58d4664797f9e3129f3984b4845c9395"
+      },
+      "dataset": "locations",
+      "slug": "willow-lane-1",
+      "name": "柳巷1号"
+    },
+    {
+      "title": "2 Willow Lane",
+      "source": {
+        "url": "https://stardewvalleywiki.com/2_Willow_Lane",
+        "revision": 189173,
+        "sha256": "f9c0749e18ddfb819800e72807c3810b196acede054c99ca09dd718088908bae"
+      },
+      "dataset": "locations",
+      "slug": "willow-lane-2",
+      "name": "柳巷2号"
+    },
+    {
+      "title": "Harvey's Clinic",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Harvey's_Clinic",
+        "revision": 194230,
+        "sha256": "c4d0fa5e06d493af6901a4b3218c08f185d218011f0f8f34fbbfa439b28fbfe7"
+      },
+      "dataset": "locations",
+      "slug": "harveys-clinic",
+      "name": "哈维的诊所"
+    },
+    {
+      "title": "JojaMart",
+      "source": {
+        "url": "https://stardewvalleywiki.com/JojaMart",
+        "revision": 194246,
+        "sha256": "c794a785f2a0f311e53763177fbdea0c656a9372af82516a2e17633ead5efc85"
+      },
+      "dataset": "locations",
+      "slug": "jojamart",
+      "name": "Joja超市"
+    },
+    {
+      "title": "Joja Warehouse",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Joja_Warehouse",
+        "revision": 176467,
+        "sha256": "4110fbc6bd5f368d65f54e9bc2fb1fe53a9a74cbca7550bb1e2cb2a431a72956"
+      },
+      "dataset": "locations",
+      "slug": "joja-warehouse",
+      "name": "Joja仓库"
+    },
+    {
+      "title": "Mayor's Manor",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mayor's_Manor",
+        "revision": 191981,
+        "sha256": "b46c34c0d72832afed0b963b92adc27554e3c2a42e183e4ab90b52bc59127764"
+      },
+      "dataset": "locations",
+      "slug": "mayors-manor",
+      "name": "镇长的庄园"
+    },
+    {
+      "title": "Trailer",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Trailer",
+        "revision": 194169,
+        "sha256": "d5a9865de5a77d929219af429e3a5fdf3f31ddf641c792c6daa695dfd1e389e1"
+      },
+      "dataset": "locations",
+      "slug": "trailer",
+      "name": "拖车"
+    },
+    {
+      "title": "Dog Pen",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dog_Pen",
+        "revision": 162413,
+        "sha256": "4c19050d5c4fb44fba2d9d8bd2a05eaf62558f3b642d105f5383cfd671c86beb"
+      },
+      "dataset": "locations",
+      "slug": "dog-pen",
+      "name": "狗窝"
+    },
+    {
+      "title": "Graveyard",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Graveyard",
+        "revision": 165620,
+        "sha256": "f801cfc1d609eb37be5b099a186b86c29d6747132acdde5056cae978c06caa68"
+      },
+      "dataset": "locations",
+      "slug": "graveyard",
+      "name": "墓园"
+    },
+    {
+      "title": "Ice Cream Stand",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ice_Cream_Stand",
+        "revision": 193105,
+        "sha256": "19807ca27e22f52c015a3e37f3cf1b5690744d33192162fa84a5fa5c2199d42c"
+      },
+      "dataset": "locations",
+      "slug": "ice-cream-stand",
+      "name": "冰淇淋摊"
+    },
+    {
+      "title": "Abandoned House",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Abandoned_House",
+        "revision": 190108,
+        "sha256": "27e893ffd05265a27830574cce767be18d3add9f8037e85e6e62dd3d887fe637"
+      },
+      "dataset": "locations",
+      "slug": "abandoned-house",
+      "name": "废弃的屋子"
+    },
+    {
+      "title": "The Shrine of Illusions",
+      "source": {
+        "url": "https://stardewvalleywiki.com/The_Shrine_of_Illusions",
+        "revision": 194034,
+        "sha256": "a3d93e6b5e6a0ac236ef658f4cdbd3bc739119cb7d547b4e011032f6a0408d5c"
+      },
+      "dataset": "locations",
+      "slug": "shrine-illusions",
+      "name": "幻觉神龛"
+    },
+    {
+      "title": "Quarry",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quarry",
+        "revision": 193898,
+        "sha256": "7738881e1edd129fc60e0e4a5679e61b0c2398516fa71228fc6ec295d5b5bf59"
+      },
+      "dataset": "locations",
+      "slug": "quarry",
+      "name": "采石场"
+    },
+    {
+      "title": "Quarry Mine",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quarry_Mine",
+        "revision": 189349,
+        "sha256": "10b2e8f75ce3af00e0e4bb31a6ae88e24aff9dc39258049c4067019ac1789e15"
+      },
+      "dataset": "locations",
+      "slug": "quarry-mine",
+      "name": "采石场矿井"
+    },
+    {
+      "title": "Tent",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Tent",
+        "revision": 179501,
+        "sha256": "9a0d8df074d9b0945181b5723bc83be5d90ad7c38a816885ec23a33871f80e5f"
+      },
+      "dataset": "locations",
+      "slug": "linus-tent",
+      "name": "帐篷"
+    },
+    {
+      "title": "Treehouse",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Treehouse",
+        "revision": 175999,
+        "sha256": "747ba8d817e9a1f7cb82ff146805cf56eeb10ba3cc8cd38551902cdb52c27d91"
+      },
+      "dataset": "locations",
+      "slug": "leos-treehouse",
+      "name": "树屋"
+    },
+    {
+      "title": "Leah's Cottage",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Leah's_Cottage",
+        "revision": 192517,
+        "sha256": "d34a75f793b7c4b6b2345a5f5c32d369f0de7e56806013b0db407a80037d4db2"
+      },
+      "dataset": "locations",
+      "slug": "leahs-cottage",
+      "name": "莉亚的农舍"
+    },
+    {
+      "title": "Elliott's Cabin",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Elliott's_Cabin",
+        "revision": 143694,
+        "sha256": "4388e38c4ee8bf5b538a1773873dc5d5a48f2d187a6edaf68df4b3da5d0a1bc2"
+      },
+      "dataset": "locations",
+      "slug": "elliotts-cabin",
+      "name": "艾利欧特小屋"
+    },
+    {
+      "title": "The Summit",
+      "source": {
+        "url": "https://stardewvalleywiki.com/The_Summit",
+        "revision": 193935,
+        "sha256": "01156ccd9eec2d94514fba1092979c150a833c3a3433d3ea7b6f118c6f2e169c"
+      },
+      "dataset": "locations",
+      "slug": "summit",
+      "name": "顶峰"
+    },
+    {
+      "title": "Island Farmhouse",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Island_Farmhouse",
+        "revision": 181781,
+        "sha256": "cafd8d2353318ad1a3d833a6e8f5fb9fd40517c64d665b7b081fa461d9333c96"
+      },
+      "dataset": "locations",
+      "slug": "island-farmhouse",
+      "name": "姜岛农舍"
+    },
+    {
+      "title": "Island Field Office",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Island_Field_Office",
+        "revision": 190323,
+        "sha256": "54722458615e5f5bbe86f163affc1697d1a4ce699846f9a247f3ccd1c0aea09c"
+      },
+      "dataset": "locations",
+      "slug": "island-field-office",
+      "name": "岛屿办事处"
+    },
+    {
+      "title": "Dark Shrine of Memory",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dark_Shrine_of_Memory",
+        "revision": 194251,
+        "sha256": "fcb73e617f72168b353d221cc909a6a9c30f9d3590ea9c70b13ad8bd2a237e00"
+      },
+      "dataset": "locations",
+      "slug": "dark-shrine-memory",
+      "name": "记忆之黑暗神殿"
+    },
+    {
+      "title": "Dark Shrine of Night Terrors",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dark_Shrine_of_Night_Terrors",
+        "revision": 193011,
+        "sha256": "69fa3903b67eef57aec0a9dc7c46cc590b79cabccfed11fa55cec144270ebcdb"
+      },
+      "dataset": "locations",
+      "slug": "dark-shrine-night-terrors",
+      "name": "夜惊之黑暗神殿"
+    },
+    {
+      "title": "Dark Shrine of Selfishness",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dark_Shrine_of_Selfishness",
+        "revision": 193720,
+        "sha256": "d8f27cd5b4e8754fc6236032ff7e992aabc554525897bdc62dfd647723bc7de2"
+      },
+      "dataset": "locations",
+      "slug": "dark-shrine-selfishness",
+      "name": "私欲之黑暗神殿"
+    }
+  ]
+}

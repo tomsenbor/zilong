@@ -1,0 +1,359 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "79",
+      "name": "秘密纸条",
+      "slug": "special-79",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Secret_Notes",
+        "revision": 191277,
+        "sha256": "370c8a124b1e86500af1f220734113f92b266a8cca45a9aab23ec669b22e21b7"
+      }
+    },
+    {
+      "nativeId": "102",
+      "name": "遗失之书",
+      "slug": "special-102",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Lost_Books",
+        "revision": 193859,
+        "sha256": "be0aacf6ce6546aa65fc438dc1477811802f8318df3e2410ffbec1e65bca60fc"
+      }
+    },
+    {
+      "nativeId": "842",
+      "name": "日记残页",
+      "slug": "special-842",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Journal_Scraps",
+        "revision": 192888,
+        "sha256": "f13e698af1f89dba85395d5f8e40ead373cca898dde7d3c588700da0499f68ba"
+      }
+    },
+    {
+      "nativeId": "458",
+      "name": "花束",
+      "slug": "special-458",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bouquet",
+        "revision": 193753,
+        "sha256": "c740f6c855096d3b5c7116018bc512654cdeb8c8d8d1cede03ba84f5b8171885"
+      }
+    },
+    {
+      "nativeId": "277",
+      "name": "枯萎的花束",
+      "slug": "special-277",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wilted_Bouquet",
+        "revision": 192666,
+        "sha256": "0dd98a8bd9c30c509f214ae864ebe77c97ec7cfa9cfed2998837a1a5f4ffddce"
+      }
+    },
+    {
+      "nativeId": "460",
+      "name": "美人鱼吊坠",
+      "slug": "special-460",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mermaid's_Pendant",
+        "revision": 188637,
+        "sha256": "8f297f6129763bc4cf994b20f9f804314320a23cd1283d0c25ee2db8e8777947"
+      }
+    },
+    {
+      "nativeId": "808",
+      "name": "虚空幽灵吊坠",
+      "slug": "special-808",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Void_Ghost_Pendant",
+        "revision": 192321,
+        "sha256": "a5fe29c0c692016164869308c67a3da0c86f2898a188f9e65848f5ea6e822e89"
+      }
+    },
+    {
+      "nativeId": "809",
+      "name": "电影票",
+      "slug": "special-809",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Movie_Ticket",
+        "revision": 176577,
+        "sha256": "337d64cacc661bb9ff429deb1fb35db82997f743a40b3fc19d739057c5e9d075"
+      }
+    },
+    {
+      "nativeId": "896",
+      "name": "银河之魂",
+      "slug": "special-896",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Galaxy_Soul",
+        "revision": 194076,
+        "sha256": "26a4006b504e500ac739ac3e6fe00e68be0fc926e9f461b9f6125dee8c052a5b"
+      }
+    },
+    {
+      "nativeId": "897",
+      "name": "皮埃尔丢失的存货单",
+      "slug": "special-897",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pierre's_Missing_Stocklist",
+        "revision": 191296,
+        "sha256": "e616fbf948e61cc05ea581dc540434e9d61ee15f1ecf26618029de8944039154"
+      }
+    },
+    {
+      "nativeId": "911",
+      "name": "马笛",
+      "slug": "special-911",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Horse_Flute",
+        "revision": 176394,
+        "sha256": "422403e9925fcbac16ddf66e4a8641b897e6261abdc887648d001c5bd23c4881"
+      }
+    },
+    {
+      "nativeId": "913",
+      "name": "施肥器",
+      "slug": "special-913",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Enricher",
+        "revision": 193776,
+        "sha256": "b509f7b0babee2bfe35e04564d233d449dd75f9a973d930b0809b1b4dcd2c91e"
+      }
+    },
+    {
+      "nativeId": "915",
+      "name": "加压喷头",
+      "slug": "special-915",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Pressure_Nozzle",
+        "revision": 193733,
+        "sha256": "0aa39cd0c73880129d383d45175bf0fb8a891582521f267fea383de9ed54fc5f"
+      }
+    },
+    {
+      "nativeId": "917",
+      "name": "齐氏调味料",
+      "slug": "special-917",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Qi_Seasoning",
+        "revision": 190557,
+        "sha256": "78e84400f5073bdc53693533f72a3ffedaa9805d7ef9134b7b72e01a0b762f1d"
+      }
+    },
+    {
+      "nativeId": "349",
+      "name": "能量滋补水",
+      "slug": "special-349",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Harvey's_Clinic",
+        "revision": 194230,
+        "sha256": "c4d0fa5e06d493af6901a4b3218c08f185d218011f0f8f34fbbfa439b28fbfe7"
+      }
+    },
+    {
+      "nativeId": "351",
+      "name": "肌肉回复药",
+      "slug": "special-351",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Harvey's_Clinic",
+        "revision": 194230,
+        "sha256": "c4d0fa5e06d493af6901a4b3218c08f185d218011f0f8f34fbbfa439b28fbfe7"
+      }
+    },
+    {
+      "nativeId": "434",
+      "name": "星之果实",
+      "slug": "special-434",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Stardrop",
+        "revision": 182085,
+        "sha256": "aec9664af0a1e5971da20d7aa9bb24e06fb7aa2d9598ffa4f2ad425c8c43ce80"
+      }
+    },
+    {
+      "nativeId": "680",
+      "name": "绿色史莱姆蛋",
+      "slug": "special-680",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Slime_Egg",
+        "revision": 182059,
+        "sha256": "db1f7a043cf3367948cbd235f35724aedfd9452a41f79b93ecc8249c69ff466a"
+      }
+    },
+    {
+      "nativeId": "413",
+      "name": "蓝色史莱姆蛋",
+      "slug": "special-413",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Slime_Egg",
+        "revision": 182059,
+        "sha256": "db1f7a043cf3367948cbd235f35724aedfd9452a41f79b93ecc8249c69ff466a"
+      }
+    },
+    {
+      "nativeId": "437",
+      "name": "红色史莱姆蛋",
+      "slug": "special-437",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Slime_Egg",
+        "revision": 182059,
+        "sha256": "db1f7a043cf3367948cbd235f35724aedfd9452a41f79b93ecc8249c69ff466a"
+      }
+    },
+    {
+      "nativeId": "439",
+      "name": "紫色史莱姆蛋",
+      "slug": "special-439",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Slime_Egg",
+        "revision": 182059,
+        "sha256": "db1f7a043cf3367948cbd235f35724aedfd9452a41f79b93ecc8249c69ff466a"
+      }
+    },
+    {
+      "nativeId": "857",
+      "name": "老虎史莱姆蛋",
+      "slug": "special-857",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Slime_Egg",
+        "revision": 182059,
+        "sha256": "db1f7a043cf3367948cbd235f35724aedfd9452a41f79b93ecc8249c69ff466a"
+      }
+    },
+    {
+      "nativeId": "865",
+      "name": "美食家番茄盐",
+      "slug": "special-865",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "866",
+      "name": "星露谷玫瑰",
+      "slug": "special-866",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "867",
+      "name": "高级电视遥控器",
+      "slug": "special-867",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "868",
+      "name": "极寒碎片",
+      "slug": "special-868",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "869",
+      "name": "蠕动蚯蚓",
+      "slug": "special-869",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "870",
+      "name": "海盗项链",
+      "slug": "special-870",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Quests",
+        "revision": 195139,
+        "sha256": "41ade480c7b24a5695fd4faaaad971522440177e20aafcb2df2691472d7c3c98"
+      }
+    },
+    {
+      "nativeId": "875",
+      "name": "灵外质",
+      "slug": "special-875",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ectoplasm",
+        "revision": 193760,
+        "sha256": "82a891b032276570fffe24d2b46e5492634954a5571e9a9b15610cebcc5625fb"
+      }
+    },
+    {
+      "nativeId": "MysteryBox",
+      "name": "谜之盒",
+      "slug": "special-mysterybox",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mystery_Box",
+        "revision": 193441,
+        "sha256": "c19c607f5ff6bd144730b925fb9d9b1c4a3f2efcedf89caf73417cdeaafa0b7f"
+      }
+    },
+    {
+      "nativeId": "GoldenMysteryBox",
+      "name": "金色谜之盒",
+      "slug": "special-goldenmysterybox",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Mystery_Box",
+        "revision": 185189,
+        "sha256": "0dff3d116d5dedc77f47a172da50681146e0d7f6b75d954083406fbda913e0d6"
+      }
+    },
+    {
+      "nativeId": "StardropTea",
+      "name": "星之果茶",
+      "slug": "special-stardroptea",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Stardrop_Tea",
+        "revision": 188132,
+        "sha256": "fa95ead58ac4e212da7bd9a1b166c23602c337cf63fbfa12e50a53cebe75c593"
+      }
+    },
+    {
+      "nativeId": "PrizeTicket",
+      "name": "兑奖券",
+      "slug": "special-prizeticket",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Prize_Ticket",
+        "revision": 190677,
+        "sha256": "69add57b9925ccdde6dafe0add5d74311742fcf7d379cff0fe59a4dfa8b48556"
+      }
+    },
+    {
+      "nativeId": "GoldenAnimalCracker",
+      "name": "金色动物饼干",
+      "slug": "special-goldenanimalcracker",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Animal_Cracker",
+        "revision": 190796,
+        "sha256": "78009855215bb2e66c79455b8cbf59127ed05fc2c9299314e38ba804a74754b3"
+      }
+    },
+    {
+      "nativeId": "ButterflyPowder",
+      "name": "蝴蝶粉",
+      "slug": "special-butterflypowder",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Butterfly_Powder",
+        "revision": 192468,
+        "sha256": "37916eb2e4f874c9b0d5d232f0b92f70f9cfed6c0dc33bced0ff182ca6c52b85"
+      }
+    }
+  ]
+}

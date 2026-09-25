@@ -1,0 +1,45 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-25",
+  "baseline": "wiki-practical-unresolved-review.json",
+  "previousClosure": "wiki-practical-interior-closure.json",
+  "releaseReady": false,
+  "scope": "三个原生地图的身份与已有正文对应；不是全站内容完整声明。",
+  "nativeDllSha256": "7F1E5B8E58D2758B78570BA771BBEB03D33522F62188BF6C32EDF0CF626DEAEE",
+  "nativeLocationsSha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49",
+  "records": [
+    {
+      "identity": "Data/Locations:AbandonedJojaMart",
+      "dataset": "locations",
+      "slug": "movie-theater",
+      "resolution": "covered-in-existing-page",
+      "nativeEvidence": "Data/Locations的CreateOnLoad.Type为StardewValley.Locations.AbandonedJojaMart；该类doRestoreAreaCutscene读取Data/Events/AbandonedJojaMart和missingBundleComplete，随后处理ccMovieTheater及theaterBuildDate。",
+      "contentEvidence": "获取方式已分别说明开门过场、遗失包完成与次夜建成，以及Joja路线另付500000金；地图身份与转换机制对应电影院，不新增同义页面。",
+      "sources": ["https://stardewvalleywiki.com/Movie_Theater"]
+    },
+    {
+      "identity": "Data/Locations:IslandNorthCave1",
+      "dataset": "locations",
+      "slug": "island-dig-site",
+      "resolution": "covered-in-existing-page",
+      "nativeEvidence": "Data/Locations指向Maps\\IslandNorthCave1；GameLocation.MakeMapModifications的IslandNorthCave1分支处理Fizz及同名光源，SaveMigrator_1_6使用islandNorthCaveOpened对应IslandNorthCave1。与资料中菲兹所在的救援蘑菇洞交叉对应，不映射到IslandFieldOffice。",
+      "contentEvidence": "现有页说明10核桃修桥、炸弹救援、地面蘑菇及例外；本轮补充首次查看完美度统计后次日的菲兹出现条件、500000金/1%及非背包物品限制。",
+      "sources": ["https://stardewvalleywiki.com/Ginger_Island#Dig_Site", "https://stardewvalleywiki.com/Fizz"]
+    },
+    {
+      "identity": "Data/Locations:IslandFarmCave",
+      "dataset": "locations",
+      "slug": "island-west",
+      "resolution": "covered-in-existing-page",
+      "nativeEvidence": "CreateOnLoad.Type为StardewValley.Locations.IslandFarmCave；OnRequestGourmandCheck读取IslandWest的terrainFeatures及作物成熟阶段、indexOfHarvest；IndexForRequest返回254、262、248。",
+      "contentEvidence": "现有饕餮青蛙字段说明农舍修复、东北洞穴、甜瓜/小麦/大蒜顺序、成熟但未收获、每项5核桃总15；API与SSR均验证。作物顺序由资料明确支持，不仅凭switch打印顺序推断。",
+      "sources": ["https://stardewvalleywiki.com/Ginger_Island#Gourmand_Frog"]
+    }
+  ],
+  "remaining": { "mechanismReview": 98, "researchNeeded": 76, "total": 174 },
+  "limitations": [
+    "与先前11项室内闭合记录按identity取并集后计算，保留原226项审计及旧计数不改。",
+    "其余地图、资源节点和变体仍需核查；未把临时地图或未知取得途径自动排除。",
+    "浏览器、实用分类签核及全量发布闸门仍未完成。"
+  ]
+}

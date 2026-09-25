@@ -1,0 +1,1808 @@
+{
+  "version": "1.6.15",
+  "id": "clothing",
+  "name": "帽子与服装",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 442,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/hats",
+      "sha256": "FCBD1E5C35358333D73D27FAB746484B96EE900359963045B037A398B7B6F3D9",
+      "count": 122,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "Cowboy Hat"
+        },
+        {
+          "nativeId": "1",
+          "nativeName": "Bowler Hat"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "Top Hat"
+        },
+        {
+          "nativeId": "3",
+          "nativeName": "Sombrero"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "Straw Hat"
+        },
+        {
+          "nativeId": "5",
+          "nativeName": "Official Cap"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "Blue Bonnet"
+        },
+        {
+          "nativeId": "7",
+          "nativeName": "Plum Chapeau"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Skeleton Mask"
+        },
+        {
+          "nativeId": "9",
+          "nativeName": "Goblin Mask"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Chicken Mask"
+        },
+        {
+          "nativeId": "11",
+          "nativeName": "Earmuffs"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Delicate Bow"
+        },
+        {
+          "nativeId": "13",
+          "nativeName": "Tropiclip"
+        },
+        {
+          "nativeId": "14",
+          "nativeName": "Butterfly Bow"
+        },
+        {
+          "nativeId": "15",
+          "nativeName": "Hunter's Cap"
+        },
+        {
+          "nativeId": "16",
+          "nativeName": "Trucker Hat"
+        },
+        {
+          "nativeId": "17",
+          "nativeName": "Sailor's Cap"
+        },
+        {
+          "nativeId": "18",
+          "nativeName": "Good Ol' Cap"
+        },
+        {
+          "nativeId": "19",
+          "nativeName": "Fedora"
+        },
+        {
+          "nativeId": "20",
+          "nativeName": "Cool Cap"
+        },
+        {
+          "nativeId": "21",
+          "nativeName": "Lucky Bow"
+        },
+        {
+          "nativeId": "22",
+          "nativeName": "Polka Bow"
+        },
+        {
+          "nativeId": "23",
+          "nativeName": "Gnome's Cap"
+        },
+        {
+          "nativeId": "24",
+          "nativeName": "Eye Patch"
+        },
+        {
+          "nativeId": "25",
+          "nativeName": "Santa Hat"
+        },
+        {
+          "nativeId": "26",
+          "nativeName": "Tiara"
+        },
+        {
+          "nativeId": "27",
+          "nativeName": "Hard Hat"
+        },
+        {
+          "nativeId": "28",
+          "nativeName": "Sou'wester"
+        },
+        {
+          "nativeId": "29",
+          "nativeName": "Daisy"
+        },
+        {
+          "nativeId": "30",
+          "nativeName": "Watermelon Band"
+        },
+        {
+          "nativeId": "31",
+          "nativeName": "Mouse Ears"
+        },
+        {
+          "nativeId": "32",
+          "nativeName": "Cat Ears"
+        },
+        {
+          "nativeId": "33",
+          "nativeName": "Cowgal Hat"
+        },
+        {
+          "nativeId": "34",
+          "nativeName": "Cowpoke Hat"
+        },
+        {
+          "nativeId": "35",
+          "nativeName": "Archer's Cap"
+        },
+        {
+          "nativeId": "36",
+          "nativeName": "Panda Hat"
+        },
+        {
+          "nativeId": "37",
+          "nativeName": "Blue Cowboy Hat"
+        },
+        {
+          "nativeId": "38",
+          "nativeName": "Red Cowboy Hat"
+        },
+        {
+          "nativeId": "39",
+          "nativeName": "Cone Hat"
+        },
+        {
+          "nativeId": "40",
+          "nativeName": "Living Hat"
+        },
+        {
+          "nativeId": "41",
+          "nativeName": "Emily's Magic Hat"
+        },
+        {
+          "nativeId": "42",
+          "nativeName": "Mushroom Cap"
+        },
+        {
+          "nativeId": "43",
+          "nativeName": "Dinosaur Hat"
+        },
+        {
+          "nativeId": "44",
+          "nativeName": "Totem Mask"
+        },
+        {
+          "nativeId": "45",
+          "nativeName": "Logo Cap"
+        },
+        {
+          "nativeId": "46",
+          "nativeName": "Wearable Dwarf Helm"
+        },
+        {
+          "nativeId": "47",
+          "nativeName": "Fashion Hat"
+        },
+        {
+          "nativeId": "48",
+          "nativeName": "Pumpkin Mask"
+        },
+        {
+          "nativeId": "49",
+          "nativeName": "Hair Bone"
+        },
+        {
+          "nativeId": "50",
+          "nativeName": "Knight's Helmet"
+        },
+        {
+          "nativeId": "51",
+          "nativeName": "Squire's Helmet"
+        },
+        {
+          "nativeId": "52",
+          "nativeName": "Spotted Headscarf"
+        },
+        {
+          "nativeId": "53",
+          "nativeName": "Beanie"
+        },
+        {
+          "nativeId": "54",
+          "nativeName": "Floppy Beanie"
+        },
+        {
+          "nativeId": "55",
+          "nativeName": "Fishing Hat"
+        },
+        {
+          "nativeId": "56",
+          "nativeName": "Blobfish Mask"
+        },
+        {
+          "nativeId": "57",
+          "nativeName": "Party Hat"
+        },
+        {
+          "nativeId": "58",
+          "nativeName": "Party Hat"
+        },
+        {
+          "nativeId": "59",
+          "nativeName": "Party Hat"
+        },
+        {
+          "nativeId": "60",
+          "nativeName": "Arcane Hat"
+        },
+        {
+          "nativeId": "61",
+          "nativeName": "Chef Hat"
+        },
+        {
+          "nativeId": "62",
+          "nativeName": "Pirate Hat"
+        },
+        {
+          "nativeId": "63",
+          "nativeName": "Flat Topped Hat"
+        },
+        {
+          "nativeId": "64",
+          "nativeName": "Elegant Turban"
+        },
+        {
+          "nativeId": "65",
+          "nativeName": "White Turban"
+        },
+        {
+          "nativeId": "66",
+          "nativeName": "Garbage Hat"
+        },
+        {
+          "nativeId": "67",
+          "nativeName": "Golden Mask"
+        },
+        {
+          "nativeId": "68",
+          "nativeName": "Propeller Hat"
+        },
+        {
+          "nativeId": "69",
+          "nativeName": "Bridal Veil"
+        },
+        {
+          "nativeId": "70",
+          "nativeName": "Witch Hat"
+        },
+        {
+          "nativeId": "71",
+          "nativeName": "Copper Pan"
+        },
+        {
+          "nativeId": "72",
+          "nativeName": "Green Turban"
+        },
+        {
+          "nativeId": "73",
+          "nativeName": "Magic Cowboy Hat"
+        },
+        {
+          "nativeId": "74",
+          "nativeName": "Magic Turban"
+        },
+        {
+          "nativeId": "75",
+          "nativeName": "Golden Helmet"
+        },
+        {
+          "nativeId": "76",
+          "nativeName": "Deluxe Pirate Hat"
+        },
+        {
+          "nativeId": "77",
+          "nativeName": "Pink Bow"
+        },
+        {
+          "nativeId": "78",
+          "nativeName": "Frog Hat"
+        },
+        {
+          "nativeId": "79",
+          "nativeName": "Small Cap"
+        },
+        {
+          "nativeId": "80",
+          "nativeName": "Bluebird Mask"
+        },
+        {
+          "nativeId": "81",
+          "nativeName": "Deluxe Cowboy Hat"
+        },
+        {
+          "nativeId": "82",
+          "nativeName": "Mr. Qi's Hat"
+        },
+        {
+          "nativeId": "83",
+          "nativeName": "Dark Cowboy Hat"
+        },
+        {
+          "nativeId": "84",
+          "nativeName": "Radioactive Goggles"
+        },
+        {
+          "nativeId": "85",
+          "nativeName": "Swashbuckler Hat"
+        },
+        {
+          "nativeId": "86",
+          "nativeName": "Qi Mask"
+        },
+        {
+          "nativeId": "87",
+          "nativeName": "Star Helmet"
+        },
+        {
+          "nativeId": "88",
+          "nativeName": "Sunglasses"
+        },
+        {
+          "nativeId": "89",
+          "nativeName": "Goggles"
+        },
+        {
+          "nativeId": "90",
+          "nativeName": "Forager's Hat"
+        },
+        {
+          "nativeId": "91",
+          "nativeName": "Tiger Hat"
+        },
+        {
+          "nativeId": "92",
+          "nativeName": "???"
+        },
+        {
+          "nativeId": "93",
+          "nativeName": "Warrior Helmet"
+        },
+        {
+          "nativeId": "AbigailsBow",
+          "nativeName": "Abigail's Bow"
+        },
+        {
+          "nativeId": "TricornHat",
+          "nativeName": "Tricorn Hat"
+        },
+        {
+          "nativeId": "JojaCap",
+          "nativeName": "Joja Cap"
+        },
+        {
+          "nativeId": "LaurelWreathCrown",
+          "nativeName": "Laurel Wreath Crown"
+        },
+        {
+          "nativeId": "GilsHat",
+          "nativeName": "Gil's Hat"
+        },
+        {
+          "nativeId": "BlueBow",
+          "nativeName": "Blue Bow"
+        },
+        {
+          "nativeId": "DarkVelvetBow",
+          "nativeName": "Dark Velvet Bow"
+        },
+        {
+          "nativeId": "MummyMask",
+          "nativeName": "Mummy Mask"
+        },
+        {
+          "nativeId": "BucketHat",
+          "nativeName": "Bucket Hat"
+        },
+        {
+          "nativeId": "SquidHat",
+          "nativeName": "Squid Hat"
+        },
+        {
+          "nativeId": "SportsCap",
+          "nativeName": "Sports Cap"
+        },
+        {
+          "nativeId": "RedFez",
+          "nativeName": "Red Fez"
+        },
+        {
+          "nativeId": "RaccoonHat",
+          "nativeName": "Raccoon Hat"
+        },
+        {
+          "nativeId": "SteelPanHat",
+          "nativeName": "Steel Pan"
+        },
+        {
+          "nativeId": "GoldPanHat",
+          "nativeName": "Gold Pan"
+        },
+        {
+          "nativeId": "IridiumPanHat",
+          "nativeName": "Iridium Pan"
+        },
+        {
+          "nativeId": "MysteryHat",
+          "nativeName": "Mystery Hat"
+        },
+        {
+          "nativeId": "DarkBallcap",
+          "nativeName": "Dark Ballcap"
+        },
+        {
+          "nativeId": "LeprechuanHat",
+          "nativeName": "Leprechaun Hat"
+        },
+        {
+          "nativeId": "JunimoHat",
+          "nativeName": "Junimo Hat"
+        },
+        {
+          "nativeId": "PaperHat",
+          "nativeName": "Paper Hat"
+        },
+        {
+          "nativeId": "PageboyCap",
+          "nativeName": "Pageboy Cap"
+        },
+        {
+          "nativeId": "JesterHat",
+          "nativeName": "Jester Hat"
+        },
+        {
+          "nativeId": "BlueRibbon",
+          "nativeName": "Blue Ribbon"
+        },
+        {
+          "nativeId": "GovernorsHat",
+          "nativeName": "Governor's Hat"
+        },
+        {
+          "nativeId": "WhiteBow",
+          "nativeName": "White Bow"
+        },
+        {
+          "nativeId": "SpaceHelmet",
+          "nativeName": "Space Helmet"
+        },
+        {
+          "nativeId": "InfinityCrown",
+          "nativeName": "Infinity Crown"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Shirts",
+      "sha256": "F7853B9CB4612ACCEA8B0AA6585A88FB6FA0853643EC81748A88B51964A9D08E",
+      "count": 303,
+      "records": [
+        {
+          "nativeId": "1000",
+          "nativeName": "Classic Overalls"
+        },
+        {
+          "nativeId": "1001",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1002",
+          "nativeName": "Mint Blouse"
+        },
+        {
+          "nativeId": "1003",
+          "nativeName": "Dark Shirt"
+        },
+        {
+          "nativeId": "1004",
+          "nativeName": "Skull Shirt"
+        },
+        {
+          "nativeId": "1005",
+          "nativeName": "Light Blue Shirt"
+        },
+        {
+          "nativeId": "1006",
+          "nativeName": "Tan Striped Shirt"
+        },
+        {
+          "nativeId": "1007",
+          "nativeName": "Green Overalls"
+        },
+        {
+          "nativeId": "1008",
+          "nativeName": "Good Grief Shirt"
+        },
+        {
+          "nativeId": "1009",
+          "nativeName": "Aquamarine Shirt"
+        },
+        {
+          "nativeId": "1010",
+          "nativeName": "Suit Top"
+        },
+        {
+          "nativeId": "1011",
+          "nativeName": "Green Belted Shirt"
+        },
+        {
+          "nativeId": "1012",
+          "nativeName": "Lime Green Striped Shirt"
+        },
+        {
+          "nativeId": "1013",
+          "nativeName": "Red Striped Shirt"
+        },
+        {
+          "nativeId": "1014",
+          "nativeName": "Skeleton Shirt"
+        },
+        {
+          "nativeId": "1015",
+          "nativeName": "Orange Shirt"
+        },
+        {
+          "nativeId": "1016",
+          "nativeName": "Night Sky Shirt"
+        },
+        {
+          "nativeId": "1017",
+          "nativeName": "Mayoral Suspenders"
+        },
+        {
+          "nativeId": "1018",
+          "nativeName": "Brown Jacket"
+        },
+        {
+          "nativeId": "1019",
+          "nativeName": "Sailor Shirt"
+        },
+        {
+          "nativeId": "1020",
+          "nativeName": "Green Vest"
+        },
+        {
+          "nativeId": "1021",
+          "nativeName": "Yellow and Green Shirt"
+        },
+        {
+          "nativeId": "1022",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1023",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1024",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1025",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1026",
+          "nativeName": "Light Blue Striped Shirt"
+        },
+        {
+          "nativeId": "1027",
+          "nativeName": "Pink Striped Shirt"
+        },
+        {
+          "nativeId": "1028",
+          "nativeName": "Heart Shirt"
+        },
+        {
+          "nativeId": "1029",
+          "nativeName": "Work Shirt"
+        },
+        {
+          "nativeId": "1030",
+          "nativeName": "Store Owner's Jacket"
+        },
+        {
+          "nativeId": "1031",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1032",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1033",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1034",
+          "nativeName": "Green Tunic"
+        },
+        {
+          "nativeId": "1035",
+          "nativeName": "Fancy Red Blouse"
+        },
+        {
+          "nativeId": "1036",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1037",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1038",
+          "nativeName": "Plain Shirt (M)"
+        },
+        {
+          "nativeId": "1039",
+          "nativeName": "Retro Rainbow Shirt"
+        },
+        {
+          "nativeId": "1040",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1041",
+          "nativeName": "Plain Shirt (F)"
+        },
+        {
+          "nativeId": "1042",
+          "nativeName": "Lime Green Tunic"
+        },
+        {
+          "nativeId": "1043",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1044",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1045",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1046",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1047",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1048",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1049",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1050",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1051",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1052",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1053",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1054",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1055",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1056",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1057",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1058",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1059",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1060",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1061",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1062",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1063",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1064",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1065",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1066",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1067",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1068",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1069",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1070",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1071",
+          "nativeName": "White Overalls Shirt"
+        },
+        {
+          "nativeId": "1072",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1073",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1074",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1075",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1076",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1077",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1078",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1079",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1080",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1081",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1082",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1083",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1084",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1085",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1086",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1087",
+          "nativeName": "Neat Bow Shirt"
+        },
+        {
+          "nativeId": "1088",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1089",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1090",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1091",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1092",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1093",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1094",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1095",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1096",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1097",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1098",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1099",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1100",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1101",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1102",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1103",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1104",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1105",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1106",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1107",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1108",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1109",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1110",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1111",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1112",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1113",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1114",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1115",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1116",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1117",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1118",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1119",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1120",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1121",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1122",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1123",
+          "nativeName": "Shirt And Tie"
+        },
+        {
+          "nativeId": "1124",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1125",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1126",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1127",
+          "nativeName": "Emily's Magic Shirt"
+        },
+        {
+          "nativeId": "1128",
+          "nativeName": "Striped Shirt"
+        },
+        {
+          "nativeId": "1129",
+          "nativeName": "Tank Top (M)"
+        },
+        {
+          "nativeId": "1130",
+          "nativeName": "Tank Top (F)"
+        },
+        {
+          "nativeId": "1131",
+          "nativeName": "Cowboy Poncho"
+        },
+        {
+          "nativeId": "1132",
+          "nativeName": "Crop Tank Top (M)"
+        },
+        {
+          "nativeId": "1133",
+          "nativeName": "Crop Tank Top (F)"
+        },
+        {
+          "nativeId": "1134",
+          "nativeName": "Bikini Top"
+        },
+        {
+          "nativeId": "1135",
+          "nativeName": "Wumbus Shirt"
+        },
+        {
+          "nativeId": "1136",
+          "nativeName": "80's Shirt (F)"
+        },
+        {
+          "nativeId": "1137",
+          "nativeName": "Letterman Jacket"
+        },
+        {
+          "nativeId": "1138",
+          "nativeName": "Black Leather Jacket"
+        },
+        {
+          "nativeId": "1139",
+          "nativeName": "Strapped Top"
+        },
+        {
+          "nativeId": "1140",
+          "nativeName": "Button Down Shirt"
+        },
+        {
+          "nativeId": "1141",
+          "nativeName": "Crop Top Shirt"
+        },
+        {
+          "nativeId": "1142",
+          "nativeName": "Tube Top"
+        },
+        {
+          "nativeId": "1143",
+          "nativeName": "Tie Dye Shirt"
+        },
+        {
+          "nativeId": "1144",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1145",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1146",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1147",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1148",
+          "nativeName": "Steel Breastplate"
+        },
+        {
+          "nativeId": "1149",
+          "nativeName": "Copper Breastplate"
+        },
+        {
+          "nativeId": "1150",
+          "nativeName": "Gold Breastplate"
+        },
+        {
+          "nativeId": "1151",
+          "nativeName": "Iridium Breastplate"
+        },
+        {
+          "nativeId": "1152",
+          "nativeName": "80's Shirt (M)"
+        },
+        {
+          "nativeId": "1153",
+          "nativeName": "Fake Muscles Shirt"
+        },
+        {
+          "nativeId": "1154",
+          "nativeName": "Flannel Shirt"
+        },
+        {
+          "nativeId": "1155",
+          "nativeName": "Bomber Jacket"
+        },
+        {
+          "nativeId": "1156",
+          "nativeName": "Caveman Shirt"
+        },
+        {
+          "nativeId": "1157",
+          "nativeName": "Fishing Vest"
+        },
+        {
+          "nativeId": "1158",
+          "nativeName": "Fish Shirt"
+        },
+        {
+          "nativeId": "1159",
+          "nativeName": "Shirt And Belt"
+        },
+        {
+          "nativeId": "1160",
+          "nativeName": "Gray Hoodie"
+        },
+        {
+          "nativeId": "1161",
+          "nativeName": "Blue Hoodie"
+        },
+        {
+          "nativeId": "1162",
+          "nativeName": "Red Hoodie"
+        },
+        {
+          "nativeId": "1163",
+          "nativeName": "Denim Jacket"
+        },
+        {
+          "nativeId": "1164",
+          "nativeName": "Track Jacket"
+        },
+        {
+          "nativeId": "1165",
+          "nativeName": "White Gi"
+        },
+        {
+          "nativeId": "1166",
+          "nativeName": "Orange Gi"
+        },
+        {
+          "nativeId": "1167",
+          "nativeName": "Gray Vest"
+        },
+        {
+          "nativeId": "1168",
+          "nativeName": "Kelp Shirt"
+        },
+        {
+          "nativeId": "1169",
+          "nativeName": "Studded Vest"
+        },
+        {
+          "nativeId": "1170",
+          "nativeName": "Gaudy Shirt"
+        },
+        {
+          "nativeId": "1171",
+          "nativeName": "Oasis Gown"
+        },
+        {
+          "nativeId": "1172",
+          "nativeName": "Blacksmith Apron"
+        },
+        {
+          "nativeId": "1173",
+          "nativeName": "Neat Bow Shirt"
+        },
+        {
+          "nativeId": "1174",
+          "nativeName": "High-Waisted Shirt"
+        },
+        {
+          "nativeId": "1175",
+          "nativeName": "High-Waisted Shirt"
+        },
+        {
+          "nativeId": "1176",
+          "nativeName": "Basic Pullover (M)"
+        },
+        {
+          "nativeId": "1177",
+          "nativeName": "Basic Pullover (F)"
+        },
+        {
+          "nativeId": "1178",
+          "nativeName": "Turtleneck Sweater"
+        },
+        {
+          "nativeId": "1179",
+          "nativeName": "Iridium Energy Shirt"
+        },
+        {
+          "nativeId": "1180",
+          "nativeName": "Tunnelers Jersey"
+        },
+        {
+          "nativeId": "1181",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1182",
+          "nativeName": "Shirt"
+        },
+        {
+          "nativeId": "1183",
+          "nativeName": "Gray Suit"
+        },
+        {
+          "nativeId": "1184",
+          "nativeName": "Red Tuxedo"
+        },
+        {
+          "nativeId": "1185",
+          "nativeName": "Navy Tuxedo"
+        },
+        {
+          "nativeId": "1186",
+          "nativeName": "Holiday Shirt"
+        },
+        {
+          "nativeId": "1187",
+          "nativeName": "Leafy Top"
+        },
+        {
+          "nativeId": "1188",
+          "nativeName": "Goodnight Shirt"
+        },
+        {
+          "nativeId": "1189",
+          "nativeName": "Green Belted Shirt"
+        },
+        {
+          "nativeId": "1190",
+          "nativeName": "Happy Shirt"
+        },
+        {
+          "nativeId": "1191",
+          "nativeName": "Shirt with Bow"
+        },
+        {
+          "nativeId": "1192",
+          "nativeName": "Jester Shirt"
+        },
+        {
+          "nativeId": "1193",
+          "nativeName": "Ocean Shirt"
+        },
+        {
+          "nativeId": "1194",
+          "nativeName": "Dark Striped Shirt"
+        },
+        {
+          "nativeId": "1195",
+          "nativeName": "Bandana Shirt"
+        },
+        {
+          "nativeId": "1196",
+          "nativeName": "Backpack Shirt"
+        },
+        {
+          "nativeId": "1197",
+          "nativeName": "Purple Blouse"
+        },
+        {
+          "nativeId": "1198",
+          "nativeName": "Vintage Polo"
+        },
+        {
+          "nativeId": "1199",
+          "nativeName": "Toga Shirt"
+        },
+        {
+          "nativeId": "1200",
+          "nativeName": "Star Shirt"
+        },
+        {
+          "nativeId": "1201",
+          "nativeName": "Classy Top (M)"
+        },
+        {
+          "nativeId": "1202",
+          "nativeName": "Classy Top (F)"
+        },
+        {
+          "nativeId": "1203",
+          "nativeName": "Bandana Shirt"
+        },
+        {
+          "nativeId": "1204",
+          "nativeName": "Vacation Shirt"
+        },
+        {
+          "nativeId": "1205",
+          "nativeName": "Green Thumb Shirt"
+        },
+        {
+          "nativeId": "1206",
+          "nativeName": "Bandana Shirt"
+        },
+        {
+          "nativeId": "1207",
+          "nativeName": "Slime Shirt"
+        },
+        {
+          "nativeId": "1208",
+          "nativeName": "Excavator Shirt"
+        },
+        {
+          "nativeId": "1209",
+          "nativeName": "Sports Shirt"
+        },
+        {
+          "nativeId": "1210",
+          "nativeName": "Heart Shirt"
+        },
+        {
+          "nativeId": "1211",
+          "nativeName": "Dark Jacket"
+        },
+        {
+          "nativeId": "1212",
+          "nativeName": "Sunset Shirt"
+        },
+        {
+          "nativeId": "1213",
+          "nativeName": "Chef Coat"
+        },
+        {
+          "nativeId": "1214",
+          "nativeName": "Shirt O' The Sea"
+        },
+        {
+          "nativeId": "1215",
+          "nativeName": "Arcane Shirt"
+        },
+        {
+          "nativeId": "1216",
+          "nativeName": "Plain Overalls"
+        },
+        {
+          "nativeId": "1217",
+          "nativeName": "Sleeveless Overalls"
+        },
+        {
+          "nativeId": "1218",
+          "nativeName": "Cardigan"
+        },
+        {
+          "nativeId": "1219",
+          "nativeName": "Yoba Shirt"
+        },
+        {
+          "nativeId": "1220",
+          "nativeName": "Necklace Shirt"
+        },
+        {
+          "nativeId": "1221",
+          "nativeName": "Belted Coat"
+        },
+        {
+          "nativeId": "1222",
+          "nativeName": "Gold Trimmed Shirt"
+        },
+        {
+          "nativeId": "1223",
+          "nativeName": "Prismatic Shirt"
+        },
+        {
+          "nativeId": "1224",
+          "nativeName": "Pendant Shirt"
+        },
+        {
+          "nativeId": "1225",
+          "nativeName": "High Heat Shirt"
+        },
+        {
+          "nativeId": "1226",
+          "nativeName": "Flames Shirt"
+        },
+        {
+          "nativeId": "1227",
+          "nativeName": "Antiquity Shirt"
+        },
+        {
+          "nativeId": "1228",
+          "nativeName": "Soft Arrow Shirt"
+        },
+        {
+          "nativeId": "1229",
+          "nativeName": "Doll Shirt"
+        },
+        {
+          "nativeId": "1230",
+          "nativeName": "Jewelry Shirt"
+        },
+        {
+          "nativeId": "1231",
+          "nativeName": "Canvas Jacket"
+        },
+        {
+          "nativeId": "1232",
+          "nativeName": "Trash Can Shirt"
+        },
+        {
+          "nativeId": "1233",
+          "nativeName": "Rusty Shirt"
+        },
+        {
+          "nativeId": "1234",
+          "nativeName": "Circuitboard Shirt"
+        },
+        {
+          "nativeId": "1235",
+          "nativeName": "Fluffy Shirt"
+        },
+        {
+          "nativeId": "1236",
+          "nativeName": "Sauce-Stained Shirt"
+        },
+        {
+          "nativeId": "1237",
+          "nativeName": "Brown Suit"
+        },
+        {
+          "nativeId": "1238",
+          "nativeName": "Golden Shirt"
+        },
+        {
+          "nativeId": "1239",
+          "nativeName": "Captain's Uniform"
+        },
+        {
+          "nativeId": "1240",
+          "nativeName": "Officer Uniform"
+        },
+        {
+          "nativeId": "1241",
+          "nativeName": "Ranger Uniform"
+        },
+        {
+          "nativeId": "1242",
+          "nativeName": "Blue Long Vest"
+        },
+        {
+          "nativeId": "1243",
+          "nativeName": "Regal Mantle"
+        },
+        {
+          "nativeId": "1244",
+          "nativeName": "Relic Shirt"
+        },
+        {
+          "nativeId": "1245",
+          "nativeName": "Bobo Shirt"
+        },
+        {
+          "nativeId": "1246",
+          "nativeName": "Fried Egg Shirt"
+        },
+        {
+          "nativeId": "1247",
+          "nativeName": "Burger Shirt"
+        },
+        {
+          "nativeId": "1248",
+          "nativeName": "Collared Shirt"
+        },
+        {
+          "nativeId": "1249",
+          "nativeName": "Toasted Shirt"
+        },
+        {
+          "nativeId": "1250",
+          "nativeName": "Carp Shirt"
+        },
+        {
+          "nativeId": "1251",
+          "nativeName": "Red Flannel Shirt"
+        },
+        {
+          "nativeId": "1252",
+          "nativeName": "Tortilla Shirt"
+        },
+        {
+          "nativeId": "1253",
+          "nativeName": "Warm Flannel Shirt"
+        },
+        {
+          "nativeId": "1254",
+          "nativeName": "Sugar Shirt"
+        },
+        {
+          "nativeId": "1255",
+          "nativeName": "Green Flannel Shirt"
+        },
+        {
+          "nativeId": "1256",
+          "nativeName": "Oil Stained Shirt"
+        },
+        {
+          "nativeId": "1257",
+          "nativeName": "Morel Shirt"
+        },
+        {
+          "nativeId": "1258",
+          "nativeName": "Spring Shirt"
+        },
+        {
+          "nativeId": "1259",
+          "nativeName": "Sailor Shirt"
+        },
+        {
+          "nativeId": "1260",
+          "nativeName": "Rain Coat"
+        },
+        {
+          "nativeId": "1261",
+          "nativeName": "Sailor Shirt"
+        },
+        {
+          "nativeId": "1262",
+          "nativeName": "Dark Bandana Shirt"
+        },
+        {
+          "nativeId": "1263",
+          "nativeName": "Dark Highlight Shirt"
+        },
+        {
+          "nativeId": "1264",
+          "nativeName": "Omni Shirt"
+        },
+        {
+          "nativeId": "1265",
+          "nativeName": "Bridal Shirt"
+        },
+        {
+          "nativeId": "1266",
+          "nativeName": "Brown Overalls"
+        },
+        {
+          "nativeId": "1267",
+          "nativeName": "Orange Bow Shirt"
+        },
+        {
+          "nativeId": "1268",
+          "nativeName": "White Overalls"
+        },
+        {
+          "nativeId": "1269",
+          "nativeName": "Pour-Over Shirt"
+        },
+        {
+          "nativeId": "1270",
+          "nativeName": "Green Jacket Shirt"
+        },
+        {
+          "nativeId": "1271",
+          "nativeName": "Short Jacket"
+        },
+        {
+          "nativeId": "1272",
+          "nativeName": "Polka Dot Shirt"
+        },
+        {
+          "nativeId": "1273",
+          "nativeName": "White Dot Shirt"
+        },
+        {
+          "nativeId": "1274",
+          "nativeName": "Camo Shirt"
+        },
+        {
+          "nativeId": "1275",
+          "nativeName": "Dirt Shirt"
+        },
+        {
+          "nativeId": "1276",
+          "nativeName": "Crab Cake Shirt"
+        },
+        {
+          "nativeId": "1277",
+          "nativeName": "Silky Shirt"
+        },
+        {
+          "nativeId": "1278",
+          "nativeName": "Blue Buttoned Vest"
+        },
+        {
+          "nativeId": "1279",
+          "nativeName": "Faded Denim Shirt"
+        },
+        {
+          "nativeId": "1280",
+          "nativeName": "Red Buttoned Vest"
+        },
+        {
+          "nativeId": "1281",
+          "nativeName": "Green Buttoned Vest"
+        },
+        {
+          "nativeId": "1282",
+          "nativeName": "Tomato Shirt"
+        },
+        {
+          "nativeId": "1283",
+          "nativeName": "Fringed Vest"
+        },
+        {
+          "nativeId": "1284",
+          "nativeName": "Globby Shirt"
+        },
+        {
+          "nativeId": "1285",
+          "nativeName": "Midnight Dog Jacket"
+        },
+        {
+          "nativeId": "1286",
+          "nativeName": "Shrimp Enthusiast Shirt"
+        },
+        {
+          "nativeId": "1287",
+          "nativeName": "Tea Shirt"
+        },
+        {
+          "nativeId": "1288",
+          "nativeName": "Trinket Shirt"
+        },
+        {
+          "nativeId": "1289",
+          "nativeName": "Darkness Suit"
+        },
+        {
+          "nativeId": "1290",
+          "nativeName": "Mineral Dog Jacket"
+        },
+        {
+          "nativeId": "1291",
+          "nativeName": "Magenta Shirt"
+        },
+        {
+          "nativeId": "1292",
+          "nativeName": "Ginger Overalls"
+        },
+        {
+          "nativeId": "1293",
+          "nativeName": "Banana Shirt"
+        },
+        {
+          "nativeId": "1294",
+          "nativeName": "Yellow Suit"
+        },
+        {
+          "nativeId": "1295",
+          "nativeName": "Hot Pink Shirt"
+        },
+        {
+          "nativeId": "1296",
+          "nativeName": "Tropical Sunrise Shirt"
+        },
+        {
+          "nativeId": "1297",
+          "nativeName": "Island Bikini"
+        },
+        {
+          "nativeId": "1997",
+          "nativeName": "Magic Sprinkle Shirt"
+        },
+        {
+          "nativeId": "1998",
+          "nativeName": "Prismatic Shirt"
+        },
+        {
+          "nativeId": "1999",
+          "nativeName": "Prismatic Shirt"
+        },
+        {
+          "nativeId": "MysteryShirt",
+          "nativeName": "Mystery Shirt"
+        },
+        {
+          "nativeId": "SoftEdgePullover",
+          "nativeName": "Basic Pullover (M)"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Pants",
+      "sha256": "62FEB36593E7238C06CB83616DFE235B8F5E99EA8B15A5FB97D82BE000E43804",
+      "count": 18,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "Farmer Pants"
+        },
+        {
+          "nativeId": "1",
+          "nativeName": "Shorts"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "Dress"
+        },
+        {
+          "nativeId": "3",
+          "nativeName": "Skirt"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "Pleated Skirt"
+        },
+        {
+          "nativeId": "5",
+          "nativeName": "Dinosaur Pants"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "Grass Skirt"
+        },
+        {
+          "nativeId": "7",
+          "nativeName": "Luau Skirt"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Genie Pants"
+        },
+        {
+          "nativeId": "9",
+          "nativeName": "Tight Pants"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Baggy Pants"
+        },
+        {
+          "nativeId": "11",
+          "nativeName": "Simple Dress"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Relaxed Fit Pants"
+        },
+        {
+          "nativeId": "13",
+          "nativeName": "Relaxed Fit Shorts"
+        },
+        {
+          "nativeId": "14",
+          "nativeName": "Polka Dot Shorts"
+        },
+        {
+          "nativeId": "15",
+          "nativeName": "Trimmed Lucky Purple Shorts"
+        },
+        {
+          "nativeId": "998",
+          "nativeName": "Prismatic Pants"
+        },
+        {
+          "nativeId": "999",
+          "nativeName": "Prismatic Genie Pants"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-hat-inventory.json",
+    "wiki-clothing-inventory.json"
+  ],
+  "remainingReview": "裤装14号Polka Dot Shorts仍缺正常获取或明确排除依据；同名派对帽须按原版ID区分。"
+}

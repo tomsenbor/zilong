@@ -1,0 +1,47 @@
+{
+  "version": "1.6.15",
+  "records": [
+    {
+      "id": "126",
+      "slug": "event-emily-errand",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Emily",
+        "revision": 191968,
+        "sha256": "aba31adec0245e7d733303a0180944bd47338b059195871d1269310492c16213"
+      }
+    },
+    {
+      "id": "127",
+      "slug": "event-haley-cakewalk",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Haley",
+        "revision": 194257,
+        "sha256": "8fad128721459c0bc1e38c34827e1c7497d8a74e0a0955dacae2764b1e0fc5db"
+      }
+    },
+    {
+      "id": "128-129",
+      "slug": "event-ornate-necklace",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Secret_Notes",
+        "revision": 191277,
+        "sha256": "370c8a124b1e86500af1f220734113f92b266a8cca45a9aab23ec669b22e21b7"
+      }
+    },
+    {
+      "id": "131",
+      "slug": "event-desert-fishing",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Desert_Festival",
+        "revision": 191598,
+        "sha256": "f948bcc4cf4bd36f9e0add8815b511688ba11a12be67386e7c7499ce2cc100b8"
+      }
+    }
+  ],
+  "notes": [
+    "128 and129 have exclusiveQuestId pointing at each other; friendship100 versus50 from native quest definition.",
+    "Emily event3917600 and3917601; Haley6184643,8675611,6184644.",
+    "Native quest131 template is not treated as a generic supported Quest factory type; festival behavior separately sourced.",
+    "Unreferenced native quest10 remains pending, not silently excluded."
+  ]
+}

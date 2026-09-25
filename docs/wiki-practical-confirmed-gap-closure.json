@@ -1,0 +1,761 @@
+{
+  "version": "1.6.15",
+  "nativeVersion": "1.6.15.24356",
+  "reviewedOn": "2026-09-25",
+  "baseline": "docs/wiki-practical-unresolved-review.json",
+  "scope": "Resolve only the 34 confirmed gaps; preserve the prior 226-row audit as historical evidence.",
+  "releaseReady": false,
+  "contentComplete": false,
+  "counts": {
+    "confirmedGaps": 34,
+    "newEntries": 33,
+    "existingPagesCorrected": 1,
+    "mechanismReviewRemaining": 112,
+    "researchNeededRemaining": 76
+  },
+  "records": [
+    {
+      "identity": "Data/BigCraftables:32",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-32",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Cairn",
+      "sourceRevision": 176813,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Dwarf",
+          "index": 9,
+          "itemId": "(BC)32",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:33",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-33",
+      "sourceUrl": "https://stardewvalleywiki.com/Suit_Of_Armor",
+      "sourceRevision": 176802,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day2",
+          "index": 0,
+          "itemId": "(BC)33",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:34",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-34",
+      "sourceUrl": "https://stardewvalleywiki.com/Sign_Of_The_Vessel",
+      "sourceRevision": 192469,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "ShadowShop",
+          "index": 11,
+          "itemId": "(BC)34",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:35",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-35",
+      "sourceUrl": "https://stardewvalleywiki.com/Basic_Log",
+      "sourceRevision": 166863,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Carpenter",
+          "index": 51,
+          "itemId": "(BC)35",
+          "condition": null,
+          "price": -1,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:36",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-36",
+      "sourceUrl": "https://stardewvalleywiki.com/Lawn_Flamingo",
+      "sourceRevision": 176260,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_EggFestival_Pierre",
+          "index": 0,
+          "itemId": "(BC)36",
+          "condition": null,
+          "price": 400,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:40",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-40",
+      "sourceUrl": "https://stardewvalleywiki.com/Big_Green_Cane",
+      "sourceRevision": 182707,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 0,
+          "itemId": "(BC)40",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:41",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-41",
+      "sourceUrl": "https://stardewvalleywiki.com/Green_Canes",
+      "sourceRevision": 179533,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 1,
+          "itemId": "(BC)41",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:42",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-42",
+      "sourceUrl": "https://stardewvalleywiki.com/Mixed_Cane",
+      "sourceRevision": 179535,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 2,
+          "itemId": "(BC)42",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:43",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-43",
+      "sourceUrl": "https://stardewvalleywiki.com/Red_Canes",
+      "sourceRevision": 179536,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 3,
+          "itemId": "(BC)43",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:44",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-44",
+      "sourceUrl": "https://stardewvalleywiki.com/Big_Red_Cane",
+      "sourceRevision": 182706,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 4,
+          "itemId": "(BC)44",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:45",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-45",
+      "sourceUrl": "https://stardewvalleywiki.com/Ornamental_Hay_Bale",
+      "sourceRevision": 176638,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "AnimalShop",
+          "index": 6,
+          "itemId": "(BC)45",
+          "condition": null,
+          "price": 250,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:46",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-46",
+      "sourceUrl": "https://stardewvalleywiki.com/Log_Section",
+      "sourceRevision": 176270,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Carpenter",
+          "index": 52,
+          "itemId": "(BC)46",
+          "condition": null,
+          "price": -1,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day3",
+          "index": 0,
+          "itemId": "(BC)46",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:47",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-47",
+      "sourceUrl": "https://stardewvalleywiki.com/Grave_Stone",
+      "sourceRevision": 176352,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day1",
+          "index": 0,
+          "itemId": "(BC)47",
+          "condition": null,
+          "price": 200,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_SpiritsEve_Pierre",
+          "index": 3,
+          "itemId": "(BC)47",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:48",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-48",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Decor",
+      "sourceRevision": 194248,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_FlowerDance_Pierre",
+          "index": 0,
+          "itemId": "(BC)48",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 8,
+          "itemId": "(BC)48",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:52",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-52",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Frog",
+      "sourceRevision": 182433,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day1",
+          "index": 1,
+          "itemId": "(BC)52",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:53",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-53",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Parrot",
+      "sourceRevision": 182432,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day2",
+          "index": 1,
+          "itemId": "(BC)53",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:54",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-54",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Owl",
+      "sourceRevision": 182434,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_MagicBoat_Day3",
+          "index": 1,
+          "itemId": "(BC)54",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:95",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-95",
+      "sourceUrl": "https://stardewvalleywiki.com/Random_Events",
+      "sourceRevision": 193480,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/BigCraftables:96",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-96",
+      "sourceUrl": "https://stardewvalleywiki.com/Random_Events",
+      "sourceRevision": 193480,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/BigCraftables:98",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-98",
+      "sourceUrl": "https://stardewvalleywiki.com/Random_Events",
+      "sourceRevision": 193480,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/BigCraftables:107",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-107",
+      "sourceUrl": "https://stardewvalleywiki.com/Plush_Bunny",
+      "sourceRevision": 188532,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_EggFestival_Pierre",
+          "index": 1,
+          "itemId": "(BC)107",
+          "condition": null,
+          "price": 2000,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:141",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-141",
+      "sourceUrl": "https://stardewvalleywiki.com/Prairie_King_Arcade_System",
+      "sourceRevision": 193028,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/BigCraftables:159",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-159",
+      "sourceUrl": "https://stardewvalleywiki.com/Junimo_Kart_Arcade_System",
+      "sourceRevision": 188249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/BigCraftables:184",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-184",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_EggFestival_Pierre",
+          "index": 3,
+          "itemId": "(BC)184",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 9,
+          "itemId": "(BC)184",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:188",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-188",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_EggFestival_Pierre",
+          "index": 4,
+          "itemId": "(BC)188",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 10,
+          "itemId": "(BC)188",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:192",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-192",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_FlowerDance_Pierre",
+          "index": 1,
+          "itemId": "(BC)192",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 11,
+          "itemId": "(BC)192",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:196",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-196",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 12,
+          "itemId": "(BC)196",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        },
+        {
+          "shop": "Sandy",
+          "index": 4,
+          "itemId": "(BC)196",
+          "condition": null,
+          "price": -1,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:200",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-200",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Carpenter",
+          "index": 50,
+          "itemId": "(BC)200",
+          "condition": null,
+          "price": -1,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 13,
+          "itemId": "(BC)200",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/BigCraftables:204",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-bc-204",
+      "sourceUrl": "https://stardewvalleywiki.com/Seasonal_Plant",
+      "sourceRevision": 194249,
+      "nativeSource": {
+        "asset": "Data/BigCraftables",
+        "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889"
+      },
+      "shopReferences": [
+        {
+          "shop": "Festival_FlowerDance_Pierre",
+          "index": 2,
+          "itemId": "(BC)204",
+          "condition": null,
+          "price": 350,
+          "isRecipe": false
+        },
+        {
+          "shop": "Festival_NightMarket_DecorationBoat",
+          "index": 14,
+          "itemId": "(BC)204",
+          "condition": null,
+          "price": 500,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/Objects:373",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-object-373",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Pumpkin",
+      "sourceRevision": 190346,
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/Objects:797",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-object-797",
+      "sourceUrl": "https://stardewvalleywiki.com/Pearl",
+      "sourceRevision": 194157,
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/Objects:858",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-object-858",
+      "sourceUrl": "https://stardewvalleywiki.com/Qi_Gem",
+      "sourceRevision": 191603,
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "shopReferences": [
+        {
+          "shop": "QiGemShop",
+          "index": 21,
+          "itemId": "(O)858",
+          "condition": "PLAYER_HAS_ITEM Current 73, PLAYER_HAS_MAIL Current Island_FirstParrot, PLAYER_HAS_MAIL Current Island_Turtle, PLAYER_HAS_MAIL Current Island_UpgradeBridge, PLAYER_HAS_MAIL Current Island_UpgradeHouse, PLAYER_HAS_MAIL Current Island_UpgradeParrotPlatform, PLAYER_HAS_MAIL Current Island_Resort, PLAYER_HAS_MAIL Current Island_UpgradeTrader, PLAYER_HAS_MAIL Current Island_W_Obelisk, PLAYER_HAS_MAIL Current Island_UpgradeHouse_Mailbox, PLAYER_HAS_MAIL Current Island_VolcanoBridge, PLAYER_HAS_MAIL Current Island_VolcanoShortcutOut",
+          "price": -1,
+          "isRecipe": false
+        }
+      ]
+    },
+    {
+      "identity": "Data/Objects:CalicoEgg",
+      "resolution": "implemented",
+      "dataset": "items",
+      "slug": "practical-object-calicoegg",
+      "sourceUrl": "https://stardewvalleywiki.com/Calico_Egg",
+      "sourceRevision": 180856,
+      "nativeSource": {
+        "asset": "Data/Objects",
+        "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+      },
+      "shopReferences": []
+    },
+    {
+      "identity": "Data/Objects:876",
+      "resolution": "existing-page-corrected",
+      "dataset": "quests",
+      "slug": "special-order-wizard2",
+      "sourceUrl": "https://stardewvalleywiki.com/Prismatic_Jelly",
+      "sourceRevision": 168556,
+      "facts": [
+        "expires on completion or expiry",
+        "special slime can override jelly drop"
+      ]
+    }
+  ],
+  "limitations": [
+    "This is not a completion claim for all eight practical categories.",
+    "112 mechanism records and 76 acquisition/identity research records remain open.",
+    "No production database, deployment, or final five-viewport acceptance in this batch."
+  ]
+}

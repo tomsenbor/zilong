@@ -1,0 +1,1259 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-24",
+  "scope": "Original named base equipment identities: native weapons/scythes, tools, rings including Combined Ring, footwear, trinkets; starter inventory/trash interface and two backpack upgrades. Enchantment rolls, combined-ring pair combinations, forged stats and cosmetic recolours do not create extra base identities. Hats and tailored clothing remain in the clothing group.",
+  "expectedCount": 159,
+  "includedCount": 153,
+  "excludedCount": 6,
+  "nativeCollections": {
+    "tools": {
+      "source": "Data/Tools",
+      "sha256": "86A85235A08D9056D53FD7622AE871CE0F56FBC465415C99364E0932F7A14C97",
+      "records": [
+        {
+          "nativeId": "Axe",
+          "originalName": "Axe",
+          "manifestKey": "tools:Axe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "CopperAxe",
+          "originalName": "Copper Axe",
+          "manifestKey": "tools:Copper Axe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelAxe",
+          "originalName": "Steel Axe",
+          "manifestKey": "tools:Steel Axe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldAxe",
+          "originalName": "Gold Axe",
+          "manifestKey": "tools:Gold Axe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumAxe",
+          "originalName": "Iridium Axe",
+          "manifestKey": "tools:Iridium Axe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "BambooPole",
+          "originalName": "Bamboo Pole",
+          "manifestKey": "rod:bamboo-pole",
+          "group": "fishing",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "TrainingRod",
+          "originalName": "Training Rod",
+          "manifestKey": "rod:training-rod",
+          "group": "fishing",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "FiberglassRod",
+          "originalName": "Fiberglass Rod",
+          "manifestKey": "rod:fiberglass-rod",
+          "group": "fishing",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumRod",
+          "originalName": "Iridium Rod",
+          "manifestKey": "rod:iridium-rod",
+          "group": "fishing",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "AdvancedIridiumRod",
+          "originalName": "Advanced Iridium Rod",
+          "manifestKey": "rod:advanced-iridium-rod",
+          "group": "fishing",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "Hoe",
+          "originalName": "Hoe",
+          "manifestKey": "tools:Hoe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "CopperHoe",
+          "originalName": "Copper Hoe",
+          "manifestKey": "tools:Copper Hoe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelHoe",
+          "originalName": "Steel Hoe",
+          "manifestKey": "tools:Steel Hoe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldHoe",
+          "originalName": "Gold Hoe",
+          "manifestKey": "tools:Gold Hoe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumHoe",
+          "originalName": "Iridium Hoe",
+          "manifestKey": "tools:Iridium Hoe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "Lantern",
+          "originalName": "Lantern",
+          "manifestKey": "native-tool:Lantern",
+          "group": "equipment",
+          "disposition": "exclude"
+        },
+        {
+          "nativeId": "MilkPail",
+          "originalName": "Milk Pail",
+          "manifestKey": "equipment:milk-pail",
+          "group": "machines",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "Pan",
+          "originalName": "Copper Pan",
+          "manifestKey": "tools:Copper Pan",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelPan",
+          "originalName": "Steel Pan",
+          "manifestKey": "tools:Steel Pan",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldPan",
+          "originalName": "Gold Pan",
+          "manifestKey": "tools:Gold Pan",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumPan",
+          "originalName": "Iridium Pan",
+          "manifestKey": "tools:Iridium Pan",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "Pickaxe",
+          "originalName": "Pickaxe",
+          "manifestKey": "tools:Pickaxe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "CopperPickaxe",
+          "originalName": "Copper Pickaxe",
+          "manifestKey": "tools:Copper Pickaxe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelPickaxe",
+          "originalName": "Steel Pickaxe",
+          "manifestKey": "tools:Steel Pickaxe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldPickaxe",
+          "originalName": "Gold Pickaxe",
+          "manifestKey": "tools:Gold Pickaxe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumPickaxe",
+          "originalName": "Iridium Pickaxe",
+          "manifestKey": "tools:Iridium Pickaxe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "ReturnScepter",
+          "originalName": "Return Scepter",
+          "manifestKey": "special-equipment:Return Scepter",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "Shears",
+          "originalName": "Shears",
+          "manifestKey": "equipment:shears",
+          "group": "machines",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "WateringCan",
+          "originalName": "Watering Can",
+          "manifestKey": "tools:Watering Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "CopperWateringCan",
+          "originalName": "Copper Watering Can",
+          "manifestKey": "tools:Copper Watering Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelWateringCan",
+          "originalName": "Steel Watering Can",
+          "manifestKey": "tools:Steel Watering Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldWateringCan",
+          "originalName": "Gold Watering Can",
+          "manifestKey": "tools:Gold Watering Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumWateringCan",
+          "originalName": "Iridium Watering Can",
+          "manifestKey": "tools:Iridium Watering Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "CopperTrashCan",
+          "originalName": "Copper Trash Can",
+          "manifestKey": "tools:Copper Trash Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "SteelTrashCan",
+          "originalName": "Steel Trash Can",
+          "manifestKey": "tools:Steel Trash Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "GoldTrashCan",
+          "originalName": "Gold Trash Can",
+          "manifestKey": "tools:Gold Trash Can",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumTrashCan",
+          "originalName": "Iridium Trash Can",
+          "manifestKey": "tools:Iridium Trash Can",
+          "group": "equipment",
+          "disposition": "include"
+        }
+      ]
+    },
+    "weapons": {
+      "source": "Data/weapons",
+      "sha256": "1D7F1C2CE413BB92B28D7282C0F288DEC351B05D317EFAF778F30E30E671579E",
+      "records": [
+        {
+          "nativeId": "0",
+          "originalName": "Rusty Sword",
+          "manifestKey": "weapons:Rusty Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "1",
+          "originalName": "Silver Saber",
+          "manifestKey": "weapons:Silver Saber",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "2",
+          "originalName": "Dark Sword",
+          "manifestKey": "weapons:Dark Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "3",
+          "originalName": "Holy Blade",
+          "manifestKey": "weapons:Holy Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "4",
+          "originalName": "Galaxy Sword",
+          "manifestKey": "weapons:Galaxy Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "5",
+          "originalName": "Bone Sword",
+          "manifestKey": "weapons:Bone Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "6",
+          "originalName": "Iron Edge",
+          "manifestKey": "weapons:Iron Edge",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "7",
+          "originalName": "Templar's Blade",
+          "manifestKey": "weapons:Templar's Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "8",
+          "originalName": "Obsidian Edge",
+          "manifestKey": "weapons:Obsidian Edge",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "9",
+          "originalName": "Lava Katana",
+          "manifestKey": "weapons:Lava Katana",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "10",
+          "originalName": "Claymore",
+          "manifestKey": "weapons:Claymore",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "11",
+          "originalName": "Steel Smallsword",
+          "manifestKey": "weapons:Steel Smallsword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "12",
+          "originalName": "Wooden Blade",
+          "manifestKey": "weapons:Wooden Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "13",
+          "originalName": "Insect Head",
+          "manifestKey": "weapons:Insect Head",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "14",
+          "originalName": "Neptune's Glaive",
+          "manifestKey": "weapons:Neptune's Glaive",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "15",
+          "originalName": "Forest Sword",
+          "manifestKey": "weapons:Forest Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "16",
+          "originalName": "Carving Knife",
+          "manifestKey": "weapons:Carving Knife",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "17",
+          "originalName": "Iron Dirk",
+          "manifestKey": "weapons:Iron Dirk",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "18",
+          "originalName": "Burglar's Shank",
+          "manifestKey": "weapons:Burglar's Shank",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "19",
+          "originalName": "Shadow Dagger",
+          "manifestKey": "weapons:Shadow Dagger",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "20",
+          "originalName": "Elf Blade",
+          "manifestKey": "weapons:Elf Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "21",
+          "originalName": "Crystal Dagger",
+          "manifestKey": "weapons:Crystal Dagger",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "22",
+          "originalName": "Wind Spire",
+          "manifestKey": "weapons:Wind Spire",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "23",
+          "originalName": "Galaxy Dagger",
+          "manifestKey": "weapons:Galaxy Dagger",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "24",
+          "originalName": "Wood Club",
+          "manifestKey": "weapons:Wood Club",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "25",
+          "originalName": "Alex's Bat",
+          "manifestKey": "weapons:Alex's Bat",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "26",
+          "originalName": "Lead Rod",
+          "manifestKey": "weapons:Lead Rod",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "27",
+          "originalName": "Wood Mallet",
+          "manifestKey": "weapons:Wood Mallet",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "28",
+          "originalName": "The Slammer",
+          "manifestKey": "weapons:The Slammer",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "29",
+          "originalName": "Galaxy Hammer",
+          "manifestKey": "weapons:Galaxy Hammer",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "30",
+          "originalName": "Sam's Old Guitar",
+          "manifestKey": "weapons:Sam's Old Guitar",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "31",
+          "originalName": "Femur",
+          "manifestKey": "weapons:Femur",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "32",
+          "originalName": "Slingshot",
+          "manifestKey": "weapons:Slingshot",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "33",
+          "originalName": "Master Slingshot",
+          "manifestKey": "weapons:Master Slingshot",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "34",
+          "originalName": "Galaxy Slingshot",
+          "manifestKey": "weapons:Galaxy Slingshot",
+          "group": "equipment",
+          "disposition": "exclude"
+        },
+        {
+          "nativeId": "35",
+          "originalName": "Elliott's Pencil",
+          "manifestKey": "weapons:Elliott's Pencil",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "36",
+          "originalName": "Maru's Wrench",
+          "manifestKey": "weapons:Maru's Wrench",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "37",
+          "originalName": "Harvey's Mallet",
+          "manifestKey": "weapons:Harvey's Mallet",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "38",
+          "originalName": "Penny's Fryer",
+          "manifestKey": "weapons:Penny's Fryer",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "39",
+          "originalName": "Leah's Whittler",
+          "manifestKey": "weapons:Leah's Whittler",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "40",
+          "originalName": "Abby's Planchette",
+          "manifestKey": "weapons:Abby's Planchette",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "41",
+          "originalName": "Seb's Lost Mace",
+          "manifestKey": "weapons:Seb's Lost Mace",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "42",
+          "originalName": "Haley's Iron",
+          "manifestKey": "weapons:Haley's Iron",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "43",
+          "originalName": "Pirate's Sword",
+          "manifestKey": "weapons:Pirate's Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "44",
+          "originalName": "Cutlass",
+          "manifestKey": "weapons:Cutlass",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "45",
+          "originalName": "Wicked Kris",
+          "manifestKey": "weapons:Wicked Kris",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "46",
+          "originalName": "Kudgel",
+          "manifestKey": "weapons:Kudgel",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "47",
+          "originalName": "Scythe",
+          "manifestKey": "tools:Scythe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "48",
+          "originalName": "Yeti Tooth",
+          "manifestKey": "weapons:Yeti Tooth",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "49",
+          "originalName": "Rapier",
+          "manifestKey": "weapons:Rapier",
+          "group": "equipment",
+          "disposition": "exclude"
+        },
+        {
+          "nativeId": "50",
+          "originalName": "Steel Falchion",
+          "manifestKey": "weapons:Steel Falchion",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "51",
+          "originalName": "Broken Trident",
+          "manifestKey": "weapons:Broken Trident",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "52",
+          "originalName": "Tempered Broadsword",
+          "manifestKey": "weapons:Tempered Broadsword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "53",
+          "originalName": "Golden Scythe",
+          "manifestKey": "tools:Golden Scythe",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "54",
+          "originalName": "Dwarf Sword",
+          "manifestKey": "weapons:Dwarf Sword",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "55",
+          "originalName": "Dwarf Hammer",
+          "manifestKey": "weapons:Dwarf Hammer",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "56",
+          "originalName": "Dwarf Dagger",
+          "manifestKey": "weapons:Dwarf Dagger",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "57",
+          "originalName": "Dragontooth Cutlass",
+          "manifestKey": "weapons:Dragontooth Cutlass",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "58",
+          "originalName": "Dragontooth Club",
+          "manifestKey": "weapons:Dragontooth Club",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "59",
+          "originalName": "Dragontooth Shiv",
+          "manifestKey": "weapons:Dragontooth Shiv",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "60",
+          "originalName": "Ossified Blade",
+          "manifestKey": "weapons:Ossified Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "61",
+          "originalName": "Iridium Needle",
+          "manifestKey": "weapons:Iridium Needle",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "62",
+          "originalName": "Infinity Blade",
+          "manifestKey": "weapons:Infinity Blade",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "63",
+          "originalName": "Infinity Gavel",
+          "manifestKey": "weapons:Infinity Gavel",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "64",
+          "originalName": "Infinity Dagger",
+          "manifestKey": "weapons:Infinity Dagger",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "65",
+          "originalName": "Meowmere",
+          "manifestKey": "weapons:Meowmere",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "66",
+          "originalName": "Iridium Scythe",
+          "manifestKey": "legacy-secondary:items:iridium-scythe",
+          "group": "equipment",
+          "disposition": "include"
+        }
+      ]
+    },
+    "rings": {
+      "source": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "records": [
+        {
+          "nativeId": "516",
+          "originalName": "Small Glow Ring",
+          "manifestKey": "ring:small-glow-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "517",
+          "originalName": "Glow Ring",
+          "manifestKey": "ring:glow-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "518",
+          "originalName": "Small Magnet Ring",
+          "manifestKey": "ring:small-magnet-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "519",
+          "originalName": "Magnet Ring",
+          "manifestKey": "ring:magnet-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "520",
+          "originalName": "Slime Charmer Ring",
+          "manifestKey": "ring:slime-charmer-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "521",
+          "originalName": "Warrior Ring",
+          "manifestKey": "ring:warrior-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "522",
+          "originalName": "Vampire Ring",
+          "manifestKey": "ring:vampire-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "523",
+          "originalName": "Savage Ring",
+          "manifestKey": "ring:savage-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "524",
+          "originalName": "Ring of Yoba",
+          "manifestKey": "ring:ring-of-yoba",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "525",
+          "originalName": "Sturdy Ring",
+          "manifestKey": "ring:sturdy-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "526",
+          "originalName": "Burglar's Ring",
+          "manifestKey": "ring:burglars-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "527",
+          "originalName": "Iridium Band",
+          "manifestKey": "ring:iridium-band",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "528",
+          "originalName": "Jukebox Ring",
+          "manifestKey": "ring:jukebox-ring",
+          "group": "equipment",
+          "disposition": "exclude"
+        },
+        {
+          "nativeId": "529",
+          "originalName": "Amethyst Ring",
+          "manifestKey": "ring:amethyst-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "530",
+          "originalName": "Topaz Ring",
+          "manifestKey": "ring:topaz-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "531",
+          "originalName": "Aquamarine Ring",
+          "manifestKey": "ring:aquamarine-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "532",
+          "originalName": "Jade Ring",
+          "manifestKey": "ring:jade-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "533",
+          "originalName": "Emerald Ring",
+          "manifestKey": "ring:emerald-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "534",
+          "originalName": "Ruby Ring",
+          "manifestKey": "ring:ruby-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "801",
+          "originalName": "Wedding Ring",
+          "manifestKey": "ring:wedding-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "810",
+          "originalName": "Crabshell Ring",
+          "manifestKey": "ring:crabshell-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "811",
+          "originalName": "Napalm Ring",
+          "manifestKey": "ring:napalm-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "839",
+          "originalName": "Thorns Ring",
+          "manifestKey": "ring:thorns-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "859",
+          "originalName": "Lucky Ring",
+          "manifestKey": "ring:lucky-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "860",
+          "originalName": "Hot Java Ring",
+          "manifestKey": "ring:hot-java-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "861",
+          "originalName": "Protection Ring",
+          "manifestKey": "ring:protection-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "862",
+          "originalName": "Soul Sapper Ring",
+          "manifestKey": "ring:soul-sapper-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "863",
+          "originalName": "Phoenix Ring",
+          "manifestKey": "ring:phoenix-ring",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "880",
+          "originalName": "Combined Ring",
+          "manifestKey": "interaction:880",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "887",
+          "originalName": "Immunity Band",
+          "manifestKey": "ring:immunity-band",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "888",
+          "originalName": "Glowstone Ring",
+          "manifestKey": "ring:glowstone-ring",
+          "group": "equipment",
+          "disposition": "include"
+        }
+      ]
+    },
+    "boots": {
+      "source": "Data/Boots",
+      "sha256": "F6880FB49CF5CCBDDD0F30487FF2D278AC02688BF557838F04C4D2E0B958F52F",
+      "records": [
+        {
+          "nativeId": "504",
+          "originalName": "Sneakers",
+          "manifestKey": "footwear:sneakers",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "505",
+          "originalName": "Rubber Boots",
+          "manifestKey": "footwear:rubber-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "506",
+          "originalName": "Leather Boots",
+          "manifestKey": "footwear:leather-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "507",
+          "originalName": "Work Boots",
+          "manifestKey": "footwear:work-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "508",
+          "originalName": "Combat Boots",
+          "manifestKey": "footwear:combat-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "509",
+          "originalName": "Tundra Boots",
+          "manifestKey": "footwear:tundra-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "510",
+          "originalName": "Thermal Boots",
+          "manifestKey": "footwear:thermal-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "511",
+          "originalName": "Dark Boots",
+          "manifestKey": "footwear:dark-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "512",
+          "originalName": "Firewalker Boots",
+          "manifestKey": "footwear:firewalker-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "513",
+          "originalName": "Genie Shoes",
+          "manifestKey": "footwear:genie-shoes",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "514",
+          "originalName": "Space Boots",
+          "manifestKey": "footwear:space-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "515",
+          "originalName": "Cowboy Boots",
+          "manifestKey": "footwear:cowboy-boots",
+          "group": "equipment",
+          "disposition": "exclude"
+        },
+        {
+          "nativeId": "804",
+          "originalName": "Emily's Magic Boots",
+          "manifestKey": "footwear:emilys-magic-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "806",
+          "originalName": "Leprechaun Shoes",
+          "manifestKey": "footwear:leprechaun-shoes",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "853",
+          "originalName": "Cinderclown Shoes",
+          "manifestKey": "footwear:cinderclown-shoes",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "854",
+          "originalName": "Mermaid Boots",
+          "manifestKey": "footwear:mermaid-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "855",
+          "originalName": "Dragonscale Boots",
+          "manifestKey": "footwear:dragonscale-boots",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "878",
+          "originalName": "Crystal Shoes",
+          "manifestKey": "footwear:crystal-shoes",
+          "group": "equipment",
+          "disposition": "include"
+        }
+      ]
+    },
+    "trinkets": {
+      "source": "Data/Trinkets",
+      "sha256": "D231C496F3A7480898900A0EBC87C09929D5208286959DA5D3BDC8BE77BFA39D",
+      "records": [
+        {
+          "nativeId": "MagicHairDye",
+          "originalName": "Magic Hair Gel",
+          "manifestKey": "trinket:magic-hair-gel",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "FrogEgg",
+          "originalName": "Frog Egg",
+          "manifestKey": "trinket:frog-egg",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "MagicQuiver",
+          "originalName": "Magic Quiver",
+          "manifestKey": "trinket:magic-quiver",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "FairyBox",
+          "originalName": "Fairy Box",
+          "manifestKey": "trinket:fairy-box",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "ParrotEgg",
+          "originalName": "Parrot Egg",
+          "manifestKey": "trinket:parrot-egg",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IceRod",
+          "originalName": "Ice Rod",
+          "manifestKey": "trinket:ice-rod",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "IridiumSpur",
+          "originalName": "Golden Spur",
+          "manifestKey": "trinket:golden-spur",
+          "group": "equipment",
+          "disposition": "include"
+        },
+        {
+          "nativeId": "BasiliskPaw",
+          "originalName": "Basilisk Paw",
+          "manifestKey": "trinket:basilisk-paw",
+          "group": "equipment",
+          "disposition": "include"
+        }
+      ]
+    }
+  },
+  "supplementary": [
+    {
+      "originalName": "Backpack (12 slots)",
+      "manifestKey": "roster-gap:starter-backpack",
+      "group": "equipment",
+      "disposition": "include",
+      "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+      "sourceRevision": 171695,
+      "reason": "Documented initial interface tool or purchased capacity upgrade outside native item dictionaries."
+    },
+    {
+      "originalName": "Large Pack (24 slots)",
+      "manifestKey": "tools:Large Pack (24 slots)",
+      "group": "equipment",
+      "disposition": "include",
+      "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+      "sourceRevision": 171695,
+      "reason": "Documented initial interface tool or purchased capacity upgrade outside native item dictionaries."
+    },
+    {
+      "originalName": "Deluxe Pack (36 slots)",
+      "manifestKey": "tools:Deluxe Pack (36 slots)",
+      "group": "equipment",
+      "disposition": "include",
+      "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+      "sourceRevision": 171695,
+      "reason": "Documented initial interface tool or purchased capacity upgrade outside native item dictionaries."
+    },
+    {
+      "originalName": "Trash Can",
+      "manifestKey": "roster-gap:basic-trash-can",
+      "group": "equipment",
+      "disposition": "include",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "reason": "Documented initial interface tool or purchased capacity upgrade outside native item dictionaries."
+    },
+    {
+      "originalName": "Raft",
+      "manifestKey": "native-tool:Raft",
+      "group": "equipment",
+      "disposition": "exclude",
+      "sourceUrl": "https://stardewvalleywiki.com/Modding:Tools",
+      "sourceRevision": 190707,
+      "reason": "Explicitly cut tool class, absent from Data/Tools."
+    }
+  ],
+  "exclusions": [
+    {
+      "key": "native-tool:Lantern",
+      "originalName": "Lantern",
+      "sourceUrl": "https://stardewvalleywiki.com/Modding:Tools",
+      "sourceRevision": 190707,
+      "reason": "Source explicitly identifies these as cut tools which may not work correctly; no normal gameplay acquisition is invented."
+    },
+    {
+      "key": "native-tool:Raft",
+      "originalName": "Raft",
+      "sourceUrl": "https://stardewvalleywiki.com/Modding:Tools",
+      "sourceRevision": 190707,
+      "reason": "Source explicitly identifies these as cut tools which may not work correctly; no normal gameplay acquisition is invented."
+    },
+    {
+      "key": "ring:jukebox-ring",
+      "originalName": "Jukebox Ring",
+      "sourceUrl": "https://stardewvalleywiki.com/Rings",
+      "sourceRevision": 190540,
+      "reason": "游戏中正常无法获取，不按可制作或可购买物品加入。"
+    },
+    {
+      "key": "footwear:cowboy-boots",
+      "originalName": "Cowboy Boots",
+      "sourceUrl": "https://stardewvalleywiki.com/Footwear",
+      "sourceRevision": 192766,
+      "reason": "原版正常游戏无法获取，不能伪造购买或掉落方式。"
+    },
+    {
+      "key": "weapons:Rapier",
+      "originalName": "Rapier",
+      "sourceUrl": "https://stardewvalleywiki.com/Rapier",
+      "sourceRevision": 190657,
+      "reason": "来源明确列于不可获取武器，不将调试物品冒充正常获取。"
+    },
+    {
+      "key": "weapons:Galaxy Slingshot",
+      "originalName": "Galaxy Slingshot",
+      "sourceUrl": "https://stardewvalleywiki.com/Galaxy_Slingshot",
+      "sourceRevision": 185370,
+      "reason": "来源明确列于不可获取武器，不将调试物品冒充正常获取。"
+    }
+  ],
+  "limitations": "Identity coverage closure only. Does not imply full-site completion, all content fields validated, browser approval or readiness to deploy."
+}

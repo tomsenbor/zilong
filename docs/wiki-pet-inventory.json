@@ -1,0 +1,269 @@
+{
+  "version": "1.6.15",
+  "records": [
+    {
+      "key": "Cat:0",
+      "slug": "pet-cat-0",
+      "name": "猫（外观0）",
+      "type": "Cat",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来鱼类等礼物，不保证每天掉落，也不能代替钓鱼工具。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 160,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-cat-0.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Cat:0; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Cat:1",
+      "slug": "pet-cat-1",
+      "name": "猫（外观1）",
+      "type": "Cat",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来鱼类等礼物，不保证每天掉落，也不能代替钓鱼工具。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 176,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-cat-1.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Cat:1; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Cat:2",
+      "slug": "pet-cat-2",
+      "name": "猫（外观2）",
+      "type": "Cat",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来鱼类等礼物，不保证每天掉落，也不能代替钓鱼工具。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 192,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-cat-2.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Cat:2; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Cat:3",
+      "slug": "pet-cat-3",
+      "name": "猫（外观3）",
+      "type": "Cat",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来鱼类等礼物，不保证每天掉落，也不能代替钓鱼工具。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 256,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-cat-3.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Cat:3; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Cat:4",
+      "slug": "pet-cat-4",
+      "name": "猫（外观4）",
+      "type": "Cat",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来鱼类等礼物，不保证每天掉落，也不能代替钓鱼工具。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 256,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-cat-4.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Cat:4; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Dog:0",
+      "slug": "pet-dog-0",
+      "name": "狗（外观0）",
+      "type": "Dog",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来骨头、材料等礼物，不保证每天掉落，也不是畜棚生产动物。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 208,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-dog-0.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Dog:0; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Dog:1",
+      "slug": "pet-dog-1",
+      "name": "狗（外观1）",
+      "type": "Dog",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来骨头、材料等礼物，不保证每天掉落，也不是畜棚生产动物。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 224,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-dog-1.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Dog:1; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Dog:2",
+      "slug": "pet-dog-2",
+      "name": "狗（外观2）",
+      "type": "Dog",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来骨头、材料等礼物，不保证每天掉落，也不是畜棚生产动物。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors",
+      "rectangle": {
+        "left": 240,
+        "top": 208,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-dog-2.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Dog:2; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Dog:3",
+      "slug": "pet-dog-3",
+      "name": "狗（外观3）",
+      "type": "Dog",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来骨头、材料等礼物，不保证每天掉落，也不是畜棚生产动物。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 272,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-dog-3.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Dog:3; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Dog:4",
+      "slug": "pet-dog-4",
+      "name": "狗（外观4）",
+      "type": "Dog",
+      "price": 40000,
+      "acquisition": "可在开局选择该外观作为初始宠物，由玛妮领养事件免费送来。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用40000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来骨头、材料等礼物，不保证每天掉落，也不是畜棚生产动物。",
+      "restriction": "猫和狗可以戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 272,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-dog-4.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Dog:4; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Turtle:0",
+      "slug": "pet-turtle-0",
+      "name": "乌龟（外观0）",
+      "type": "Turtle",
+      "price": 60000,
+      "acquisition": "不能在开局选择乌龟。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用60000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来海滩及其他礼物，不保证每天掉落，不能当作可出售的养殖产品。",
+      "restriction": "乌龟不能戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 288,
+        "top": 365,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-turtle-0.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Turtle:0; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    },
+    {
+      "key": "Turtle:1",
+      "slug": "pet-turtle-1",
+      "name": "乌龟（外观1）",
+      "type": "Turtle",
+      "price": 500000,
+      "acquisition": "不能在开局选择乌龟。额外领养须初始宠物达到满友好度，或无宠物进入第二年后，在玛妮牧场解锁领养服务；该外观额外领养费用500000金。",
+      "effect": "陪伴型宠物，满友好度后每日首次抚摸有机会送来海滩及其他礼物，不保证每天掉落，不能当作可出售的养殖产品。",
+      "restriction": "乌龟不能戴帽子。每只宠物应有自己的室外宠物碗，避免无碗造成友好度下降；外观编号用于区分原版款式，不是不同生产职业。",
+      "texture": "LooseSprites/Cursors_1_6",
+      "rectangle": {
+        "left": 288,
+        "top": 381,
+        "width": 16,
+        "height": 16
+      },
+      "file": "public/assets/game/Pet_pet-turtle-1.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Animals",
+      "sourceRevision": 194356,
+      "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+      "versionEvidence": "Original 1.6.15 Data/Pets breed Turtle:1; SHA-256 BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F"
+    }
+  ]
+}

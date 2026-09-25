@@ -126,24 +126,26 @@ function crab({
 
 export const fish = [
   rod({ id: "albacore", name: "青花鱼", image: "Albacore", aliases: ["Albacore"], seasons: ["秋季", "冬季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 1100 }, { start: 1800, end: 2600 }], difficulty: 60, basePrice: 75 }),
-  rod({ id: "anchovy", name: "凤尾鱼", image: "Anchovy", aliases: ["Anchovy"], seasons: ["春季", "秋季"], locations: ["海洋"], difficulty: 30, behavior: "急冲型", basePrice: 30 }),
+  rod({ id: "anchovy", name: "鳀鱼", image: "Anchovy", aliases: ["Anchovy", "凤尾鱼"], seasons: ["春季", "秋季"], locations: ["海洋"], difficulty: 30, behavior: "急冲型", basePrice: 30 }),
   rod({ id: "blue-discus", name: "蓝铁饼鱼", image: "Blue_Discus", aliases: ["Blue Discus"], locations: ["姜岛河流", "姜岛池塘"], difficulty: 60, behavior: "急冲型", basePrice: 120 }),
   rod({ id: "bream", name: "鲷鱼", image: "Bream", aliases: ["Bream"], locations: ["小镇河流", "森林河流"], timeRanges: [{ start: 1800, end: 2600 }], difficulty: 35, behavior: "平滑型", basePrice: 45, bundleIds: ["night-fishing-bundle"] }),
   rod({ id: "bullhead", name: "大头鱼", image: "Bullhead", aliases: ["Bullhead"], locations: ["山区湖泊"], difficulty: 46, behavior: "平滑型", basePrice: 75, bundleIds: ["lake-fish-bundle"] }),
-  rod({ id: "carp", name: "鲤鱼", image: "Carp", aliases: ["Carp"], locations: ["山区湖泊", "秘密森林池塘", "下水道", "突变虫穴"], difficulty: 15, basePrice: 30, bundleIds: ["lake-fish-bundle"] }),
+  rod({ id: "carp", name: "鲤鱼", image: "Carp", aliases: ["Carp"], difficulty: 15, basePrice: 30, bundleIds: ["lake-fish-bundle"], availabilityRules: [
+    { locations: ["山区湖泊"], seasons: ["春季", "夏季", "秋季"] },
+    { locations: ["秘密森林池塘", "下水道", "突变虫穴"] }
+  ] }),
   rod({ id: "catfish", name: "鲶鱼", image: "Catfish", aliases: ["Catfish"], difficulty: 75, basePrice: 200, bundleIds: ["river-fish-bundle"], notes: "小镇与森林河流仅春秋雨天可钓；秘密森林池塘和女巫沼泽在春夏秋雨天可钓。", availabilityRules: [
     { locations: ["小镇河流", "森林河流"], seasons: ["春季", "秋季"], weather: ["雨天"], timeRanges: [{ start: 600, end: 2400 }], conditionType: "standard", requirements: [] },
     { locations: ["秘密森林池塘", "女巫沼泽"], seasons: ["春季", "夏季", "秋季"], weather: ["雨天"], timeRanges: [{ start: 600, end: 2400 }], conditionType: "standard", requirements: [] }
   ] }),
   rod({ id: "chub", name: "鲢鱼", image: "Chub", aliases: ["Chub"], locations: ["森林河流", "山区湖泊"], difficulty: 35, behavior: "急冲型", basePrice: 50, bundleIds: ["field-research-bundle"] }),
-  rod({ id: "dace", name: "鲮鱼", image: "Fish", aliases: ["Dace"], seasons: ["夏季", "秋季", "冬季"], locations: ["森林河流"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 35, behavior: "急冲型", basePrice: 30 }),
   rod({ id: "dorado", name: "麻哈脂鲤", image: "Dorado", aliases: ["Dorado"], seasons: ["夏季"], locations: ["森林河流"], timeRanges: [{ start: 600, end: 1900 }], difficulty: 78, basePrice: 100 }),
   rod({ id: "eel", name: "鳗鱼", image: "Eel", aliases: ["Eel"], seasons: ["春季", "秋季"], locations: ["海洋"], weather: ["雨天"], timeRanges: [{ start: 1600, end: 2600 }], difficulty: 70, behavior: "平滑型", basePrice: 85, bundleIds: ["night-fishing-bundle"] }),
   rod({ id: "flounder", name: "比目鱼", image: "Flounder", aliases: ["Flounder"], difficulty: 50, behavior: "下沉型", basePrice: 100, availabilityRules: [
     { locations: ["海洋"], seasons: ["春季", "夏季"], weather: ["任意"], timeRanges: [{ start: 600, end: 2000 }] },
     { locations: ["姜岛海洋"], seasons: allSeasons, weather: ["任意"], timeRanges: [{ start: 600, end: 2000 }] }
   ] }),
-  rod({ id: "ghostfish", name: "幽灵鱼", image: "Ghostfish", aliases: ["Ghostfish"], locations: ["矿井20层", "矿井60层"], difficulty: 50, basePrice: 45, bundleIds: ["specialty-fish-bundle"] }),
+  rod({ id: "ghostfish", name: "鬼鱼", image: "Ghostfish", aliases: ["Ghostfish"], locations: ["矿井20层", "矿井60层"], difficulty: 50, basePrice: 45, bundleIds: ["specialty-fish-bundle"] }),
   rod({ id: "goby", name: "虾虎鱼", image: "Goby", aliases: ["Goby"], locations: ["煤矿森林瀑布"], difficulty: 55, behavior: "急冲型", basePrice: 150, notes: "1.6 新增鱼类，需要在瀑布水域抛竿。" }),
   rod({ id: "halibut", name: "大比目鱼", image: "Halibut", aliases: ["Halibut"], seasons: ["春季", "夏季", "冬季"], locations: ["海洋"], timeRanges: [{ start: 600, end: 1100 }, { start: 1900, end: 2600 }], difficulty: 50, behavior: "下沉型", basePrice: 80 }),
   rod({ id: "herring", name: "鲱鱼", image: "Herring", aliases: ["Herring"], seasons: ["春季", "冬季"], locations: ["海洋"], difficulty: 25, behavior: "急冲型", basePrice: 30 }),

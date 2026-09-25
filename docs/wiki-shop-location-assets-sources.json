@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "stardrop-saloon",
+    "file": "public/assets/game/Location_stardrop-saloon.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Saloon.png/300px-Saloon.png",
+    "width": 300,
+    "height": 330,
+    "sha256": "7cd921a3df37daa298511e210936fd2c5c05a02d58fbe15d5e5b53b8d574890f",
+    "source": "https://stardewvalleywiki.com/The_Stardrop_Saloon",
+    "revision": 194225,
+    "sourceSha256": "ad7d98c28295348c68ad62f1d96c797654c9ea673c021e9bfb149732c1328230",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "casino",
+    "file": "public/assets/game/Location_casino.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/4f/Casino.png",
+    "width": 896,
+    "height": 448,
+    "sha256": "188b1711d5e188aacccc414870e4c3eae1d9e07f2cec204d81ccd765c68ccb1f",
+    "source": "https://stardewvalleywiki.com/Casino",
+    "revision": 192836,
+    "sourceSha256": "85bf6754f32f8020d4a2f550c0dd3db09e2570f2f75b7c76ec4371b2420149f6",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "desert-trader",
+    "file": "public/assets/game/Location_desert-trader.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/df/Desert_Trader.png",
+    "width": 783,
+    "height": 423,
+    "sha256": "e6b13187cb606366955430b633e28181a4ccf04a08185715447ae5a27b9228da",
+    "source": "https://stardewvalleywiki.com/Desert_Trader",
+    "revision": 189090,
+    "sourceSha256": "28dd932b778ad9b7c113b2207dd4fd133afd66669e29c78030c70594f0914f72",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "island-trader",
+    "file": "public/assets/game/Location_island-trader.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Island_Trader.png",
+    "width": 489,
+    "height": 339,
+    "sha256": "3e55738e85fcb0b78be9080551b132091ee6bdd61cf1f617878222ad55a7e540",
+    "source": "https://stardewvalleywiki.com/Island_Trader",
+    "revision": 190410,
+    "sourceSha256": "7ce87335de2651cfb7e287c5844f7a7709cfbc612e476dfe8ff352fcbd9e20bb",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "bookseller-shop",
+    "file": "public/assets/game/Location_bookseller-shop.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Bookseller.png",
+    "width": 330,
+    "height": 237,
+    "sha256": "d5187fa235f5b827248c2999a7ed02356b2d764187e581f3ee70ecd2d3d7d669",
+    "source": "https://stardewvalleywiki.com/Bookseller",
+    "revision": 191324,
+    "sourceSha256": "4b63657988d674483996a6b548fd7a8a87c3f93f09548c4177f6e95c8216f470",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "movie-theater",
+    "file": "public/assets/game/Location_movie-theater.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Movie_Theater.png",
+    "width": 768,
+    "height": 640,
+    "sha256": "5fc49f879d8d08433d09baa410d18c0b2f10a3c3cdf56061decaf6b000a902dd",
+    "source": "https://stardewvalleywiki.com/Movie_Theater",
+    "revision": 193933,
+    "sourceSha256": "e2c3ef4bc9c358a1d500a6ab7cac1b452adef3888ffe460397c081834c68af8f",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  },
+  {
+    "slug": "giant-stump",
+    "file": "public/assets/game/Location_giant-stump.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Giant_Stump.png",
+    "width": 1212,
+    "height": 709,
+    "sha256": "c0057e30bb009e43caa21b3dfd2bdbd90096e78521fbe4edb4d1ea2acbb31ae8",
+    "source": "https://stardewvalleywiki.com/Giant_Stump",
+    "revision": 192771,
+    "sourceSha256": "6a67269929fee8413107d6d6897c44ad9d3ff04a748f4e5aee5ae4f21ada3774",
+    "transform": "None; source-rendered location or facility view, not an inventory item sprite."
+  }
+]

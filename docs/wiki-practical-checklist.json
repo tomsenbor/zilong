@@ -1,0 +1,416 @@
+{
+  "version": "1.6.15",
+  "scope": "原版正常游玩实用资料覆盖；独立来源定义集合，现有网页只作为覆盖目标。",
+  "reviewedOn": "2026-09-24",
+  "status": "incomplete",
+  "meaning": {
+    "membership": "reviewed仅表示本范围的名册与精确映射已有证据；不代表逐页事实复核或发布通过。",
+    "content": "逐页关键条件复核独立记录；全量测试与五尺寸浏览器另设发布闸门。",
+    "counts": "来源记录、唯一身份、网页数分开；未知分母不得记为零或计算完整率。"
+  },
+  "groups": [
+    {
+      "id": "agriculture",
+      "name": "农业与种植",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "68种子、50作物记录、11野树、8果树、5巨型作物、10肥料",
+        "成熟茶树、牧草、野生种子全部产物、稻草人与花盆"
+      ],
+      "sourceFiles": [
+        "docs/wiki-agriculture-native-roster.json",
+        "docs/wiki-practical-agriculture-closure.json"
+      ],
+      "testFiles": [
+        "tests/wiki-agriculture-roster.test.js",
+        "tests/wiki-seeds.test.js",
+        "tests/wiki-trees.test.js",
+        "tests/wiki-giant-crops.test.js",
+        "tests/wiki-fertilizers.test.js",
+        "tests/wiki-farm-protection.test.js",
+        "tests/wiki-grass-rarecrows.test.js",
+        "tests/wiki-practical-agriculture.test.js"
+      ],
+      "remaining": [
+        "对全部农业页按种植前置、季节与室内例外、产出和费用复核，不能用非空字段替代事实核对"
+      ]
+    },
+    {
+      "id": "fishing",
+      "name": "鱼类与钓鱼用品",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "71鱼及蟹笼产物、鱼饵、钓具、鱼竿、蟹笼和凝胶",
+        "季节地点天气时间的联合条件、魔法鱼饵例外"
+      ],
+      "sourceFiles": [
+        "docs/wiki-fishing-closure.json"
+      ],
+      "testFiles": [
+        "tests/wiki-fishing-closure.test.js",
+        "tests/wiki-fishing-items.test.js"
+      ],
+      "remaining": [
+        "联合条件与正文逐项对齐；名册闭合不代表工具和页面所有条件已重验"
+      ]
+    },
+    {
+      "id": "characters",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 48, "mapped": 47, "unresolved": 1, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "人物",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "所有可交往村民",
+        "特殊角色、地图商人及服务功能，精确复用商店页"
+      ],
+      "sourceFiles": [
+        "docs/wiki-native-candidates-characters.json",
+        "docs/wiki-legacy-primary-inventory.json",
+        "docs/wiki-special-character-inventory.json",
+        "docs/wiki-additional-character-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-special-characters.test.js",
+        "tests/wiki-practical-merchants.test.js"
+      ],
+      "remaining": [
+        "逐一映射48原版角色记录与表外商人",
+        "查明???身份，不凭名称并入科罗布斯",
+        "逐页核对可送礼、生日和服务前置"
+      ]
+    },
+    {
+      "id": "creatures",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 68, "mapped": 61, "unresolved": 7, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "动物与怪物",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "14家畜、12宠物品种、马和环境生物",
+        "有独立掉落或战斗机制的普通与危险怪物变体"
+      ],
+      "sourceFiles": [
+        "docs/wiki-native-candidates-creatures.json",
+        "docs/wiki-farm-animal-inventory.json",
+        "docs/wiki-pet-inventory.json",
+        "docs/wiki-monster-inventory.json",
+        "docs/wiki-bat-inventory.json",
+        "docs/wiki-slime-inventory.json",
+        "docs/wiki-wildlife-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-practical-husbandry.test.js"
+      ],
+      "remaining": [
+        "51基础怪物记录与具名变体逐一对照",
+        "核对史莱姆剩余形态；纯外观变体合并必须有说明",
+        "核对饲养、产出与掉落条件"
+      ]
+    },
+    {
+      "id": "food",
+      "name": "料理、采集与加工品",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "81料理配方、采集物、动物产品、正常食材、饮品和工匠品",
+        "正常来源、恢复与增益、加工输入输出；跨类原料复用"
+      ],
+      "sourceFiles": [
+        "docs/wiki-food-native-roster.json",
+        "docs/wiki-legacy-collection-inventory.json",
+        "docs/wiki-practical-processing-evidence.json"
+      ],
+      "testFiles": [
+        "tests/wiki-food-roster.test.js",
+        "tests/wiki-practical-processing.test.js",
+        "tests/wiki-practical-husbandry.test.js",
+        "tests/wiki-practical-material-supply.test.js"
+      ],
+      "remaining": [
+        "对料理来源、效果与加工限制逐项查错",
+        "Lumber未确认记录研究留档，不伪装已证实废弃"
+      ]
+    },
+    {
+      "id": "resources",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 124, "mapped": 124, "unresolved": 0, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "资源、矿物与古物",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "矿物、古物、矿石与锭、晶球、化石和常用材料",
+        "正常资源节点获取；同机制石头与杂草形态精确合并"
+      ],
+      "sourceFiles": [
+        "docs/wiki-native-candidates-resources.json",
+        "docs/wiki-legacy-collection-inventory.json",
+        "docs/wiki-material-inventory.json",
+        "docs/wiki-collectible-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-practical-resources.test.js"
+      ],
+      "remaining": [
+        "把不同获取机制的资源节点映射到准确材料/地点页",
+        "核对现有资源的工具门槛、数量与加工，不枚举无独立机制贴图"
+      ]
+    },
+    {
+      "id": "machines",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 207, "mapped": 119, "unresolved": 88, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "机器与建筑",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "39原版机器输入输出规则及25建筑",
+        "储物、照明、农场设施、配方或购买前置与费用"
+      ],
+      "sourceFiles": [
+        "docs/wiki-practical-processing-evidence.json",
+        "docs/wiki-building-inventory.json",
+        "docs/wiki-craft-facility-inventory.json",
+        "docs/wiki-native-candidates-machines.json"
+      ],
+      "testFiles": [
+        "tests/wiki-practical-processing.test.js",
+        "tests/wiki-buildings.test.js"
+      ],
+      "remaining": [
+        "将182大件候选分别归为机器、农业、装饰或研究项",
+        "逐项确认费用、配方、输入输出；蘑菇箱精确复用农场洞穴说明"
+      ]
+    },
+    {
+      "id": "equipment",
+      "name": "工具与装备",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "基础工具、升级、武器、戒指、鞋、饰品",
+        "初始背包、垃圾桶与背包升级；组合规则不穷举"
+      ],
+      "sourceFiles": [
+        "docs/wiki-equipment-closure.json"
+      ],
+      "testFiles": [
+        "tests/wiki-equipment-roster.test.js",
+        "tests/wiki-native-tools.test.js"
+      ],
+      "remaining": [
+        "逐页复核升级费用、装备效果与特殊使用条件；保留153纳入及6有来源排除"
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "帽子与服装",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "122帽子、303上衣、17已证实下装",
+        "同名款式区分、制作材料、特殊获取与染色限制"
+      ],
+      "sourceFiles": [
+        "docs/wiki-hat-inventory.json",
+        "docs/wiki-clothing-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-hats.test.js",
+        "tests/wiki-clothing.test.js"
+      ],
+      "remaining": [
+        "验证每个款式的来源及限制；裤装14只作为未确认研究候选"
+      ]
+    },
+    {
+      "id": "furniture",
+      "name": "家具",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "正常可得家具及社区中心固定鱼缸说明",
+        "目录、兑换、节日和特殊来源；功能家具不得写成普通装饰"
+      ],
+      "sourceFiles": [
+        "docs/wiki-furniture-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-furniture.test.js"
+      ],
+      "remaining": [
+        "逐条核对获取与功能；两个内部宠物碗不能冒充建筑宠物碗"
+      ]
+    },
+    {
+      "id": "decoration",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 19, "mapped": 18, "unresolved": 1, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "壁纸、地板与装饰",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "正常壁纸、室内地板、室外路径、栅栏及装饰",
+        "固定环境样式明确非背包物品，保留已有页面"
+      ],
+      "sourceFiles": [
+        "docs/wiki-wallpaper-inventory.json",
+        "docs/wiki-flooring-inventory.json",
+        "docs/wiki-craft-facility-inventory.json",
+        "docs/wiki-environment-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-wallpaper.test.js",
+        "tests/wiki-flooring.test.js"
+      ],
+      "remaining": [
+        "核对基础及附加材质数量、铺设物与跨类边界",
+        "区分正常可取用样式与固定背景，核对购买、耐久和铺设限制"
+      ]
+    },
+    {
+      "id": "special",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 309, "mapped": 200, "unresolved": 109, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "特殊物品与能力",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "书籍、钱包能力、正常任务物品、传送与消耗品",
+        "剧情临时物品不能因不可出售而排除"
+      ],
+      "sourceFiles": [
+        "docs/wiki-native-candidates-special.json",
+        "docs/wiki-book-inventory.json",
+        "docs/wiki-wallet-inventory.json",
+        "docs/wiki-questitem-inventory.json",
+        "docs/wiki-special-inventory.json",
+        "docs/wiki-consumable-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-books.test.js",
+        "tests/wiki-wallet.test.js",
+        "tests/wiki-quest-objects.test.js"
+      ],
+      "remaining": [
+        "309候选逐条归类为已有精确映射、缺项或有理由研究项",
+        "核对正常获得、消耗/永久效果和解锁前置"
+      ]
+    },
+    {
+      "id": "skills",
+      "name": "技能、职业与精通",
+      "membership": "reviewed",
+      "content": "pending",
+      "requiredCoverage": [
+        "6技能概览、30职业、5精通、49成就",
+        "前置、效果、经验转换与互斥关系"
+      ],
+      "sourceFiles": [
+        "docs/wiki-legacy-primary-inventory.json",
+        "docs/wiki-profession-inventory.json",
+        "docs/wiki-mastery-inventory.json",
+        "docs/wiki-achievement-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-professions.test.js",
+        "tests/wiki-mastery.test.js",
+        "tests/wiki-achievements.test.js"
+      ],
+      "remaining": [
+        "复核解锁与效果正文，不能把90身份闭合当全部事实已重验"
+      ]
+    },
+    {
+      "id": "quests-events",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 103, "mapped": 99, "unresolved": 0, "priorExclusion": 4, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "任务与活动",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "剧情任务、信件任务、特别订单、节日与活动",
+        "随机求助按模板说明；任务阶段可精确合并"
+      ],
+      "sourceFiles": [
+        "docs/wiki-quest-identity-inventory.json",
+        "docs/wiki-special-order-inventory.json",
+        "docs/wiki-story-quest-inventory.json",
+        "docs/wiki-letter-quest-inventory.json",
+        "docs/wiki-event-quest-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-quest-identities.test.js",
+        "tests/wiki-special-orders.test.js",
+        "tests/wiki-practical-quests.test.js"
+      ],
+      "remaining": [
+        "66任务、33订单与事件/节日逐项交叉映射",
+        "核对接取、交付、期限和奖励，区分任务阶段与重复项"
+      ]
+    },
+    {
+      "id": "locations",
+      "nativeReviewFile": "docs/wiki-practical-eight-review.json",
+      "nativeReview": { "candidates": 91, "mapped": 71, "unresolved": 20, "priorExclusion": 0, "meaning": "本轮候选交叉核对，不等于全类实用分母或正文签核；未对应项不直接等于缺页。" },
+      "name": "地点",
+      "membership": "pending",
+      "content": "pending",
+      "requiredCoverage": [
+        "农场、住宅、商店、矿洞、沙漠、姜岛和特殊区域",
+        "进入前置、主要设施与商人；同地点房间状态可合并"
+      ],
+      "sourceFiles": [
+        "docs/wiki-native-candidates-locations.json",
+        "docs/wiki-world-location-inventory.json",
+        "docs/wiki-shop-location-inventory.json",
+        "docs/wiki-island-region-inventory.json",
+        "docs/wiki-farm-region-inventory.json"
+      ],
+      "testFiles": [
+        "tests/wiki-practical-location-access.test.js",
+        "tests/wiki-practical-merchants.test.js"
+      ],
+      "remaining": [
+        "逐一归类91地图记录，分离默认模板、房间状态与真正独立区域",
+        "核对所有可达区域的精确入口映射及开放条件"
+      ]
+    }
+  ],
+  "researchOnly": [
+    {
+      "identity": "Data/Furniture:FoodPetBowl",
+      "disposition": "unverified-normal-acquisition",
+      "reopenWhen": "获得适用于原版1.6.15的正常获取证据时，重新纳入对应实用类别并补页；目前不宣称废弃。"
+    },
+    {
+      "identity": "Data/Furniture:WaterPetBowl",
+      "disposition": "unverified-normal-acquisition",
+      "reopenWhen": "获得适用于原版1.6.15的正常获取证据时，重新纳入对应实用类别并补页；目前不宣称废弃。"
+    },
+    {
+      "identity": "Data/Objects:30",
+      "disposition": "unverified-normal-acquisition",
+      "reopenWhen": "获得适用于原版1.6.15的正常获取证据时，重新纳入对应实用类别并补页；目前不宣称废弃。"
+    },
+    {
+      "identity": "Data/Pants:14",
+      "disposition": "unverified-normal-acquisition",
+      "reopenWhen": "获得适用于原版1.6.15的正常获取证据时，重新纳入对应实用类别并补页；目前不宣称废弃。"
+    }
+  ],
+  "releaseGates": [
+    "每类实用名册及关键内容复核完成",
+    "已知正常玩法缺项与错误为零",
+    "临时库API/SSR/图片/内链/重复导入通过",
+    "全量check与build通过",
+    "真实五尺寸浏览器通过",
+    "保留旧修改、正式数据库与暂存区；上线另需授权"
+  ]
+}

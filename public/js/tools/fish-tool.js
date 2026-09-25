@@ -40,7 +40,7 @@ function ruleDetails(item) {
     ? `<p><b>其他来源：</b>${escapeHtml(item.alternateSources.join("、"))}</p>`
     : "";
 
-  return `<details class="fish-availability-details"><summary>按地点查看条件</summary><ul>${ruleList}</ul>${alternateSources}</details>`;
+  return `<details class="fish-availability-details"><summary>按地点查看条件</summary><p>上方为条件汇总，不代表每个地点都适用全部季节和时段。请按以下每行条件核对。</p><ul>${ruleList}</ul>${alternateSources}</details>`;
 }
 
 function fishCard(item) {

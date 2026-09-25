@@ -1,0 +1,95 @@
+{
+  "version": "1.6.15",
+  "source": {
+    "url": "https://stardewvalleywiki.com/Animals",
+    "revision": 194356,
+    "sha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2"
+  },
+  "scope": "Reviewed named ambient critters. Not a declaration that the entire creatures collection is complete.",
+  "records": [
+    {
+      "key": "wildlife:rabbit",
+      "nativeClass": "Rabbit",
+      "slug": "wildlife-rabbit",
+      "name": "野兔"
+    },
+    {
+      "key": "wildlife:squirrel",
+      "nativeClass": "Squirrel",
+      "slug": "wildlife-squirrel",
+      "name": "松鼠"
+    },
+    {
+      "key": "wildlife:frog",
+      "nativeClass": "Frog",
+      "slug": "wildlife-frog",
+      "name": "野生青蛙"
+    },
+    {
+      "key": "wildlife:crow",
+      "nativeClass": "Crow",
+      "slug": "wildlife-crow",
+      "name": "乌鸦"
+    },
+    {
+      "key": "wildlife:woodpecker",
+      "nativeClass": "Woodpecker",
+      "slug": "wildlife-woodpecker",
+      "name": "啄木鸟"
+    },
+    {
+      "key": "wildlife:sparrow",
+      "nativeClass": "Birdie",
+      "slug": "wildlife-sparrow",
+      "name": "野生小鸟"
+    },
+    {
+      "key": "wildlife:butterfly",
+      "nativeClass": "Butterfly",
+      "slug": "wildlife-butterfly",
+      "name": "蝴蝶"
+    },
+    {
+      "key": "wildlife:opossum",
+      "nativeClass": "Opossum",
+      "slug": "wildlife-opossum",
+      "name": "负鼠"
+    },
+    {
+      "key": "wildlife:crab",
+      "nativeClass": "CrabCritter",
+      "slug": "wildlife-crab",
+      "name": "场景螃蟹"
+    },
+    {
+      "key": "wildlife:caldera-monkey",
+      "nativeClass": "CalderaMonkey",
+      "slug": "wildlife-caldera-monkey",
+      "name": "火山口猴子"
+    },
+    {
+      "key": "wildlife:parrot",
+      "nativeClass": "OverheadParrot",
+      "slug": "wildlife-parrot",
+      "name": "环境鹦鹉"
+    },
+    {
+      "key": "wildlife:owl",
+      "nativeClass": "Owl",
+      "slug": "wildlife-owl",
+      "name": "猫头鹰"
+    },
+    {
+      "key": "wildlife:seagull",
+      "nativeClass": "Seagull",
+      "slug": "wildlife-seagull",
+      "name": "海鸥"
+    },
+    {
+      "key": "wildlife:firefly",
+      "nativeClass": "Firefly",
+      "slug": "wildlife-firefly",
+      "name": "萤火虫"
+    }
+  ]
+}

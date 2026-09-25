@@ -1,0 +1,30 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T14:37:15.750Z",
+  "images": [
+    {
+      "file": "public/assets/game/Sprinkler.png",
+      "source": "https://stardewvalleywiki.com/File:Sprinkler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/08/Sprinkler.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "4b176d177f18ed85af69a9815e0a756ed1539e99ff12aefa59ad2f45b950b021"
+    },
+    {
+      "file": "public/assets/game/Quality_Sprinkler.png",
+      "source": "https://stardewvalleywiki.com/File:Quality_Sprinkler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Quality_Sprinkler.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "6c5d9192b357d8a11c442e5ddec9d5345f33f32e793687cbe44417da961ce10a"
+    },
+    {
+      "file": "public/assets/game/Iridium_Sprinkler.png",
+      "source": "https://stardewvalleywiki.com/File:Iridium_Sprinkler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Iridium_Sprinkler.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "21d815d9ca47a84e50a83db36b9f4fdd6182c9c9db21e0f4ee530b7874d28b78"
+    }
+  ]
+}

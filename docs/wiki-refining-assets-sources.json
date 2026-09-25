@@ -1,0 +1,158 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T14:22:32.277Z",
+  "images": [
+    {
+      "file": "public/assets/game/Bait_Maker.png",
+      "source": "https://stardewvalleywiki.com/File:Bait_Maker.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c0/Bait_Maker.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "ac1ffb611d94930e56a1091c3f1b413bed36d0c9df756710ec9514cb82f9957d"
+    },
+    {
+      "file": "public/assets/game/Bone_Mill.png",
+      "source": "https://stardewvalleywiki.com/File:Bone_Mill.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Bone_Mill.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "a47a0c4f8a5f33f2d1c6a2e1b95424cbe84b9b582bac5c1d04134075cf74f5a9"
+    },
+    {
+      "file": "public/assets/game/Charcoal_Kiln.png",
+      "source": "https://stardewvalleywiki.com/File:Charcoal_Kiln.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/76/Charcoal_Kiln.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "800aa7512b0ba4f2a71658ae870efca7e9f9715021a08eaa042f2a3a7cb11d38"
+    },
+    {
+      "file": "public/assets/game/Crystalarium.png",
+      "source": "https://stardewvalleywiki.com/File:Crystalarium.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Crystalarium.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "d3dab706024073f8ee82bfed392335f56642ddfd8b8c47293dc404b1eb26f560"
+    },
+    {
+      "file": "public/assets/game/Deluxe_Worm_Bin.png",
+      "source": "https://stardewvalleywiki.com/File:Deluxe_Worm_Bin.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Deluxe_Worm_Bin.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "ee96925c126b6ac868e4beba9cd67b2170990608ffc5b7a3626e5195ef2602fd"
+    },
+    {
+      "file": "public/assets/game/Furnace.png",
+      "source": "https://stardewvalleywiki.com/File:Furnace.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0f/Furnace.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "8a54d0c932ca66eb08788e0b00ee34592e4ceabaa3c8ef224367ea2354e80eb3"
+    },
+    {
+      "file": "public/assets/game/Geode_Crusher.png",
+      "source": "https://stardewvalleywiki.com/File:Geode_Crusher.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Geode_Crusher.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "348b83e6fc4e3766b887995d706e38da618720a2fa2ec20b0d7e12ad11aaefbd"
+    },
+    {
+      "file": "public/assets/game/Heavy_Furnace.png",
+      "source": "https://stardewvalleywiki.com/File:Heavy_Furnace.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Heavy_Furnace.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "2781eb6415ed96e0aca354ee4b7aed9f9d6f3ff2e3d46c9ac6416c7f8459062c"
+    },
+    {
+      "file": "public/assets/game/Heavy_Tapper.png",
+      "source": "https://stardewvalleywiki.com/File:Heavy_Tapper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Heavy_Tapper.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "abd47838524aabace737fb083e75cc039369a3b045b91b54620c384aec42abd8"
+    },
+    {
+      "file": "public/assets/game/Lightning_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Lightning_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/62/Lightning_Rod.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "16b110fc0f7d37dcfd98af01e9f23d1c2acb06bb0c5b71d71b1db6db3ca58594"
+    },
+    {
+      "file": "public/assets/game/Mushroom_Log.png",
+      "source": "https://stardewvalleywiki.com/File:Mushroom_Log.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/39/Mushroom_Log.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "8b63fb1516a1fcf1c338cedf4d2346362759db29d8b3e30a0bd404cca329da57"
+    },
+    {
+      "file": "public/assets/game/Recycling_Machine.png",
+      "source": "https://stardewvalleywiki.com/File:Recycling_Machine.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Recycling_Machine.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "48e9c73c28cd8cd46e9bcc67980d8e35b0e924734e31d1d27ea33f83590f43d5"
+    },
+    {
+      "file": "public/assets/game/Seed_Maker.png",
+      "source": "https://stardewvalleywiki.com/File:Seed_Maker.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/19/Seed_Maker.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "ef5f241a301ee733e3d0b3f1dea516e825024a759d92ebcf7d1167d23bc18c57"
+    },
+    {
+      "file": "public/assets/game/Slime_Egg-Press.png",
+      "source": "https://stardewvalleywiki.com/File:Slime_Egg-Press.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Slime_Egg-Press.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "e4d05d26962ab51b132be9802dc39b72ff6e46250913e148aea5c53a8a9c9cdb"
+    },
+    {
+      "file": "public/assets/game/Slime_Incubator.png",
+      "source": "https://stardewvalleywiki.com/File:Slime_Incubator.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c0/Slime_Incubator.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "117002e11ef0ad160f2e2eb1062764044cde6872954f06df32eeccf92b6d8141"
+    },
+    {
+      "file": "public/assets/game/Solar_Panel.png",
+      "source": "https://stardewvalleywiki.com/File:Solar_Panel.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Solar_Panel.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "e0b3a4035442cbdb0ba61de831b0e095a9aaa2f1d161085c2049bc2606a7d894"
+    },
+    {
+      "file": "public/assets/game/Tapper.png",
+      "source": "https://stardewvalleywiki.com/File:Tapper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Tapper.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "0c00238d6f2c116d59a92aeb6aaa543b6642801c6a87447f2f2d323c7c237c42"
+    },
+    {
+      "file": "public/assets/game/Wood_Chipper.png",
+      "source": "https://stardewvalleywiki.com/File:Wood_Chipper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Wood_Chipper.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "60774493d641ef384856a3c7214732f03a6ab53f95efe357324c0d2d9f2cf8cf"
+    },
+    {
+      "file": "public/assets/game/Worm_Bin.png",
+      "source": "https://stardewvalleywiki.com/File:Worm_Bin.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/71/Worm_Bin.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "78ff6c8932a6fb1dec3369a78adfc845628251e8f33a67bb3b0802ba3ea8226e"
+    }
+  ]
+}

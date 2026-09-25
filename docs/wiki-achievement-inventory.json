@@ -1,0 +1,1185 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "source": "Data/Achievements.zh-CN",
+    "sha256": "9F7B2A881786BB7097AE795B3ED8181CC50E09AA7ED9FD88162D57AF2DC19100"
+  },
+  "records": [
+    {
+      "id": "Greenhorn",
+      "name": "新手（1.5万）（成就）",
+      "slug": "achievement-greenhorn",
+      "nativeId": 0,
+      "requirement": "赚取 15,000 金",
+      "note": "计算累计赚取15000金，不要求钱包同时保有15000金；花掉收入不会把累计收益清零。",
+      "reward": "老伙计帽",
+      "image": {
+        "alt": "Achievement Greenhorn.jpg",
+        "src": "/mediawiki/images/1/1d/Achievement_Greenhorn.jpg"
+      },
+      "file": "public/assets/game/Achievement_greenhorn.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Cowpoke",
+      "name": "牛仔（5万）（成就）",
+      "slug": "achievement-cowpoke",
+      "nativeId": 1,
+      "requirement": "赚取 50,000 金",
+      "note": "计算累计赚取50000金，不要求一次出售得到50000金，也不要求钱包余额保持这一数额。",
+      "reward": "幸运蝴蝶结",
+      "image": {
+        "alt": "Achievement Cowpoke.jpg",
+        "src": "/mediawiki/images/2/24/Achievement_Cowpoke.jpg"
+      },
+      "file": "public/assets/game/Achievement_cowpoke.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Homesteader",
+      "name": "农场主（25万）（成就）",
+      "slug": "achievement-homesteader",
+      "nativeId": 2,
+      "requirement": "赚取 250,000 金",
+      "note": "累计收入达到250000金即可对应此目标，不是农场土地、建筑或背包物品的估值。",
+      "reward": "凉帽",
+      "image": {
+        "alt": "Achievement Homesteader.jpg",
+        "src": "/mediawiki/images/f/fb/Achievement_Homesteader.jpg"
+      },
+      "file": "public/assets/game/Achievement_homesteader.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Millionaire",
+      "name": "百万富翁(100万)（成就）",
+      "slug": "achievement-millionaire",
+      "nativeId": 3,
+      "requirement": "赚取 1,000,000 金",
+      "note": "累计收入门槛为1000000金，不是当前现金余额；规划生产时不必为了成就停止正常支出。",
+      "reward": "圆顶礼帽",
+      "image": {
+        "alt": "Achievement Millionaire.jpg",
+        "src": "/mediawiki/images/9/91/Achievement_Millionaire.jpg"
+      },
+      "file": "public/assets/game/Achievement_millionaire.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Legend",
+      "name": "千万富翁(1000万)（成就）",
+      "slug": "achievement-legend",
+      "nativeId": 4,
+      "requirement": "赚取 10,000,000 金",
+      "note": "累计收入门槛为10000000金；隐藏成就并不表示存在额外未公布的随机触发条件。",
+      "reward": "墨西哥帽",
+      "image": {
+        "alt": "Achievement Legend.jpg",
+        "src": "/mediawiki/images/b/bb/Achievement_Legend.jpg"
+      },
+      "file": "public/assets/game/Achievement_legend.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "A Complete Collection",
+      "name": "全套收集（成就）",
+      "slug": "achievement-a-complete-collection",
+      "nativeId": 5,
+      "requirement": "完成博物馆收集。",
+      "note": "需要完成博物馆的矿物与古物捐赠，不是仅在背包中持有或在收藏界面发现这些物品。",
+      "reward": "牛仔帽",
+      "image": {
+        "alt": "Achievement A Complete Collection.jpg",
+        "src": "/mediawiki/images/c/c6/Achievement_A_Complete_Collection.jpg"
+      },
+      "file": "public/assets/game/Achievement_a-complete-collection.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "A New Friend",
+      "name": "新朋友（成就）",
+      "slug": "achievement-a-new-friend",
+      "nativeId": 6,
+      "requirement": "与某人达到了 5 颗心的等级。",
+      "note": "需要一位对象实际达到5心；自己的孩子也计入友谊类成就，礼物数量不直接等于心数。",
+      "reward": "蝴蝶结",
+      "image": {
+        "alt": "Achievement A New Friend.jpg",
+        "src": "/mediawiki/images/c/cd/Achievement_A_New_Friend.jpg"
+      },
+      "file": "public/assets/game/Achievement_a-new-friend.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Best Friends",
+      "name": "最好的朋友（成就）",
+      "slug": "achievement-best-friends",
+      "nativeId": 7,
+      "requirement": "与某人达到了 10 颗心的等级。",
+      "note": "需要一位对象达到10心；自己的孩子也计入友谊成就，不能把8心自动按10心计。",
+      "reward": "老鼠耳朵",
+      "image": {
+        "alt": "Achievement Best Friends.jpg",
+        "src": "/mediawiki/images/e/e8/Achievement_Best_Friends.jpg"
+      },
+      "file": "public/assets/game/Achievement_best-friends.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "The Beloved Farmer",
+      "name": "深受喜爱的农夫（成就）",
+      "slug": "achievement-the-beloved-farmer",
+      "nativeId": 9,
+      "requirement": "与 8 个人达到了 10 颗心的等级。",
+      "note": "要求8名对象各达到10心，不是把不同对象的心数相加到80；孩子也计入友谊成就。",
+      "reward": "猫耳",
+      "image": {
+        "alt": "Achievement The Beloved Farmer.jpg",
+        "src": "/mediawiki/images/5/5d/Achievement_The_Beloved_Farmer.jpg"
+      },
+      "file": "public/assets/game/Achievement_the-beloved-farmer.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Cliques",
+      "name": "朋友圈（成就）",
+      "slug": "achievement-cliques",
+      "nativeId": 11,
+      "requirement": "与 4 个人达到了 5 颗心的等级。",
+      "note": "要求4名对象各达到5心，不是任意一人的20心；自己的孩子也计入友谊类成就。",
+      "reward": "三重冕",
+      "image": {
+        "alt": "Achievement Cliques.jpg",
+        "src": "/mediawiki/images/2/26/Achievement_Cliques.jpg"
+      },
+      "file": "public/assets/game/Achievement_cliques.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Networking",
+      "name": "广结好友（成就）",
+      "slug": "achievement-networking",
+      "nativeId": 12,
+      "requirement": "与 10 个人达到了 5 颗心的等级。",
+      "note": "要求10名对象各达到5心，不是单纯认识10位村民；自己的孩子也计入友谊成就。",
+      "reward": "圣诞帽",
+      "image": {
+        "alt": "Achievement Networking.jpg",
+        "src": "/mediawiki/images/5/5e/Achievement_Networking.jpg"
+      },
+      "file": "public/assets/game/Achievement_networking.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Popular",
+      "name": "万人迷（成就）",
+      "slug": "achievement-popular",
+      "nativeId": 13,
+      "requirement": "与 20 个人达到了 5 颗心的等级。",
+      "note": "要求20名对象各达到5心，不是给20个人各送一次礼物；自己的孩子也计入友谊成就。",
+      "reward": "护耳",
+      "image": {
+        "alt": "Achievement Popular.jpg",
+        "src": "/mediawiki/images/a/a4/Achievement_Popular.jpg"
+      },
+      "file": "public/assets/game/Achievement_popular.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Cook",
+      "name": "厨子（成就）",
+      "slug": "achievement-cook",
+      "nativeId": 15,
+      "requirement": "做出 10 道不同的料理。",
+      "note": "亲自烹饪10种不同配方，重复做同一道菜不能增加不同配方数；购买成品不能代替烹饪。",
+      "reward": "精美蝴蝶结",
+      "image": {
+        "alt": "Achievement Cook.jpg",
+        "src": "/mediawiki/images/c/c6/Achievement_Cook.jpg"
+      },
+      "file": "public/assets/game/Achievement_cook.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Sous Chef",
+      "name": "副主厨师（成就）",
+      "slug": "achievement-sous-chef",
+      "nativeId": 16,
+      "requirement": "做出 25 道不同的料理。",
+      "note": "亲自烹饪25种不同配方；学习配方与做出成品是两步，反复做同一道菜不会增加种类。",
+      "reward": "紫红小帽",
+      "image": {
+        "alt": "Achievement Sous Chef.jpg",
+        "src": "/mediawiki/images/4/44/Achievement_Sous_Chef.jpg"
+      },
+      "file": "public/assets/game/Achievement_sous-chef.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Gourmet Chef",
+      "name": "美食大厨（成就）",
+      "slug": "achievement-gourmet-chef",
+      "nativeId": 17,
+      "requirement": "烹饪每种配方",
+      "note": "需要亲自烹饪全部配方，购买料理不替代制作；先核对料理收集记录中的未制作项目。",
+      "reward": "射手帽；厨师帽",
+      "image": {
+        "alt": "Achievement Gourmet Chef.jpg",
+        "src": "/mediawiki/images/d/dd/Achievement_Gourmet_Chef.jpg"
+      },
+      "file": "public/assets/game/Achievement_gourmet-chef.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Moving Up",
+      "name": "节节高升（成就）",
+      "slug": "achievement-moving-up",
+      "nativeId": 18,
+      "requirement": "升级你的房屋。",
+      "note": "完成农舍第一次升级；新增棚舍、鸡舍或屋内装饰不能代替农舍扩建条件。",
+      "reward": "热带风小发卡",
+      "image": {
+        "alt": "Achievement Moving Up.jpg",
+        "src": "/mediawiki/images/b/bd/Achievement_Moving_Up.jpg"
+      },
+      "file": "public/assets/game/Achievement_moving-up.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Living Large",
+      "name": "富裕生活（成就）",
+      "slug": "achievement-living-large",
+      "nativeId": 19,
+      "requirement": "将房屋升级至最大号。",
+      "note": "指农舍第2次升级，不含地窖；不要求为了此成就再支付地窖升级费用。",
+      "reward": "猎人帽",
+      "image": {
+        "alt": "Achievement Living Large.jpg",
+        "src": "/mediawiki/images/6/65/Achievement_Living_Large.jpg"
+      },
+      "file": "public/assets/game/Achievement_living-large.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "D.I.Y.",
+      "name": "自己动手（成就）",
+      "slug": "achievement-d-i-y",
+      "nativeId": 20,
+      "requirement": "制作 15 个不同的物品。",
+      "note": "制作15种不同物品，重复制造同一种不增加种类；结婚戒指不属于此成就的必需物品。",
+      "reward": "雏菊发卡",
+      "image": {
+        "alt": "Achievement DIY.jpg",
+        "src": "/mediawiki/images/2/2e/Achievement_DIY.jpg"
+      },
+      "file": "public/assets/game/Achievement_d-i-y.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Artisan",
+      "name": "工匠（成就）",
+      "slug": "achievement-artisan",
+      "nativeId": 21,
+      "requirement": "制作 30 个不同的物品。",
+      "note": "制作30种不同物品，结婚戒指不计入必需制作清单；此成就不是同名耕种职业。",
+      "reward": "司机帽",
+      "image": {
+        "alt": "Achievement Artisan.jpg",
+        "src": "/mediawiki/images/2/20/Achievement_Artisan.jpg"
+      },
+      "file": "public/assets/game/Achievement_artisan.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Craft Master",
+      "name": "制造大师（成就）",
+      "slug": "achievement-craft-master",
+      "nativeId": 22,
+      "requirement": "制作所有物品。",
+      "note": "制作清单中的物品需至少各制作一次；结婚戒指不要求制作，联机也不例外。",
+      "reward": "土地神帽",
+      "image": {
+        "alt": "Achievement Master Craft.jpg",
+        "src": "/mediawiki/images/6/60/Achievement_Master_Craft.jpg"
+      },
+      "file": "public/assets/game/Achievement_craft-master.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Fisherman",
+      "name": "渔夫（成就）",
+      "slug": "achievement-fisherman",
+      "nativeId": 24,
+      "requirement": "抓住 10 种不同的鱼。",
+      "note": "要求10种不同钓获；绿藻、白藻、海草及三类凝胶计入，垃圾不计入。",
+      "reward": "防雨帽",
+      "image": {
+        "alt": "Achievement Fisherman.jpg",
+        "src": "/mediawiki/images/0/00/Achievement_Fisherman.jpg"
+      },
+      "file": "public/assets/game/Achievement_fisherman.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Ol' Mariner",
+      "name": "老海员（成就）",
+      "slug": "achievement-ol-mariner",
+      "nativeId": 25,
+      "requirement": "抓住 24 种不同的鱼。",
+      "note": "要求24种不同钓获；绿藻、白藻、海草及三类凝胶计入，不能用重复鱼数替代种数。",
+      "reward": "大檐帽",
+      "image": {
+        "alt": "Achievement Ol Mariner.jpg",
+        "src": "/mediawiki/images/a/af/Achievement_Ol_Mariner.jpg"
+      },
+      "file": "public/assets/game/Achievement_ol-mariner.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Master Angler",
+      "name": "垂钓大师（成就）",
+      "slug": "achievement-master-angler",
+      "nativeId": 26,
+      "requirement": "抓住所有种类的鱼。",
+      "note": "齐先生“扩大家庭”任务鱼不要求捕获；绿藻、白藻、海草和三类凝胶属于计数范围，垃圾不计。",
+      "reward": "眼罩",
+      "image": {
+        "alt": "Achievement Master Angler.jpg",
+        "src": "/mediawiki/images/6/65/Achievement_Master_Angler.jpg"
+      },
+      "file": "public/assets/game/Achievement_master-angler.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Mother Catch",
+      "name": "捕鱼大师（成就）",
+      "slug": "achievement-mother-catch",
+      "nativeId": 27,
+      "requirement": "抓住 100 条鱼。",
+      "note": "累计捕获100条而非100种；藻类、海草和三类凝胶计入钓获计数，垃圾不计。",
+      "reward": "西瓜发卡",
+      "image": {
+        "alt": "Achievement Mother Catch.jpg",
+        "src": "/mediawiki/images/0/0f/Achievement_Mother_Catch.jpg"
+      },
+      "file": "public/assets/game/Achievement_mother-catch.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Treasure Trove",
+      "name": "无主宝藏（成就）",
+      "slug": "achievement-treasure-trove",
+      "nativeId": 28,
+      "requirement": "向博物馆捐赠 40 种不同的物品。",
+      "note": "向博物馆实际捐赠40种不同物品；重复拾取、出售或仅保留在箱子里不能代替捐赠。",
+      "reward": "蓝色软帽",
+      "image": {
+        "alt": "Achievement Treasure Trove.jpg",
+        "src": "/mediawiki/images/5/55/Achievement_Treasure_Trove.jpg"
+      },
+      "file": "public/assets/game/Achievement_treasure-trove.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Gofer",
+      "name": "听差（成就）",
+      "slug": "achievement-gofer",
+      "nativeId": 29,
+      "requirement": "完成 10 个“需要帮助”任务。",
+      "note": "镇上特别订单和齐先生特别订单也计入；达成后的次日刘易斯会寄来500金。",
+      "reward": "波尔卡蝴蝶结",
+      "image": {
+        "alt": "Achievement Gofer.jpg",
+        "src": "/mediawiki/images/2/27/Achievement_Gofer.jpg"
+      },
+      "file": "public/assets/game/Achievement_gofer.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "A Big Help",
+      "name": "帮了大忙（成就）",
+      "slug": "achievement-a-big-help",
+      "nativeId": 30,
+      "requirement": "完成 40 个“需要帮助”任务。",
+      "note": "镇上特别订单和齐先生特别订单也计入；达成后的次日刘易斯会寄来2500金。",
+      "reward": "小鸡面具",
+      "image": {
+        "alt": "Achievement A Big Help.jpg",
+        "src": "/mediawiki/images/3/37/Achievement_A_Big_Help.jpg"
+      },
+      "file": "public/assets/game/Achievement_a-big-help.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Polyculture",
+      "name": "混合栽培（成就）",
+      "slug": "achievement-polyculture",
+      "nativeId": 31,
+      "requirement": "每种作物运送 15 份。",
+      "note": "要求指定28种作物各出货15份，不是全部新增作物：花椰菜、咖啡豆、大蒜、青豆、甘蓝、防风草、土豆、大黄、草莓；蓝莓、玉米、啤酒花、辣椒、甜瓜、萝卜、红叶卷心菜、杨桃、西红柿、小麦；苋菜、洋蓟、甜菜、小白菜、蔓越莓、茄子、葡萄、南瓜、山药。",
+      "reward": "专业牛仔帽",
+      "image": {
+        "alt": "Achievement Polyculture.jpg",
+        "src": "/mediawiki/images/7/7f/Achievement_Polyculture.jpg"
+      },
+      "file": "public/assets/game/Achievement_polyculture.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Monoculture",
+      "name": "单一栽培（成就）",
+      "slug": "achievement-monoculture",
+      "nativeId": 32,
+      "requirement": "一种作物运送 300 份。",
+      "note": "可从指定33种作物中任选一种出货300份：混合栽培的28种，加上上古水果、蓝爵、玫瑰仙子、夏季亮片、郁金香；不是任意物品都算。",
+      "reward": "牛仔女郎帽",
+      "image": {
+        "alt": "Achievement Monoculture.jpg",
+        "src": "/mediawiki/images/2/2c/Achievement_Monoculture.jpg"
+      },
+      "file": "public/assets/game/Achievement_monoculture.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Full Shipment",
+      "name": "全部货物（成就）",
+      "slug": "achievement-full-shipment",
+      "nativeId": 34,
+      "requirement": "寄出每一种物品。",
+      "note": "按游戏出货收集页显示的物品逐项至少出货1份，不是把所有装备、家具或任务道具都拿去卖。",
+      "reward": "哥布林面具",
+      "image": {
+        "alt": "Achievement Full Shipment.jpg",
+        "src": "/mediawiki/images/b/b8/Achievement_Full_Shipment.jpg"
+      },
+      "file": "public/assets/game/Achievement_full-shipment.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Prairie King",
+      "name": "草原之王（成就）",
+      "slug": "achievement-prairie-king",
+      "nativeId": null,
+      "requirement": "通关“草原王者大冒险”。",
+      "note": "需要通关酒吧小游戏草原王者大冒险；普通矿井战斗或另一款祝尼魔赛车不能代替。",
+      "reward": "草原之王街机系统",
+      "image": {
+        "alt": "Achievement Prarie King.jpg",
+        "src": "/mediawiki/images/7/79/Achievement_Prarie_King.jpg"
+      },
+      "file": "public/assets/game/Achievement_prairie-king.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "The Bottom",
+      "name": "底部（成就）",
+      "slug": "achievement-the-bottom",
+      "nativeId": null,
+      "requirement": "到达矿井的最底层。",
+      "note": "目标是普通矿井第120层，不是没有固定底层的骷髅洞穴；到达后可取得头骨钥匙。",
+      "reward": "头骨钥匙",
+      "image": {
+        "alt": "Achievement The Bottom.jpg",
+        "src": "/mediawiki/images/3/3b/Achievement_The_Bottom.jpg"
+      },
+      "file": "public/assets/game/Achievement_the-bottom.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Local Legend",
+      "name": "当地传奇（成就）",
+      "slug": "achievement-local-legend",
+      "nativeId": null,
+      "requirement": "重建鹈鹕镇的社区中心。",
+      "note": "完成社区中心修复路线；不要把购买Joja社区发展项目视为同一个成就的完成方式。",
+      "reward": "星露谷英雄奖杯",
+      "image": {
+        "alt": "Achievement Local Legend.jpg",
+        "src": "/mediawiki/images/7/72/Achievement_Local_Legend.jpg"
+      },
+      "file": "public/assets/game/Achievement_local-legend.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Joja Co. Member Of The Year",
+      "name": "Joja公司年度会员（成就）",
+      "slug": "achievement-joja-co-member-of-the-year",
+      "nativeId": null,
+      "requirement": "成为Joja公司的会员并购买所有社区发展福利。",
+      "note": "购买Joja会员并完成所有社区发展项目；仅支付会员费并未完成此目标。",
+      "reward": "汽水机",
+      "image": {
+        "alt": "Achievement Joja Co. Member Of The Year.jpg",
+        "src": "/mediawiki/images/0/02/Achievement_Joja_Co._Member_Of_The_Year.jpg"
+      },
+      "file": "public/assets/game/Achievement_joja-co-member-of-the-year.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Mystery Of The Stardrops",
+      "name": "星之果实的神秘（成就）",
+      "slug": "achievement-mystery-of-the-stardrops",
+      "nativeId": null,
+      "requirement": "找到所有星之果实。",
+      "note": "要求取得所有星之果实，不是种植或食用杨桃；两种名称相近的物品用途不同。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Mystery Of The Stardrops.jpg",
+        "src": "/mediawiki/images/e/e0/Achievement_Mystery_Of_The_Stardrops.jpg"
+      },
+      "file": "public/assets/game/Achievement_mystery-of-the-stardrops.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Full House",
+      "name": "浪漫满屋（成就）",
+      "slug": "achievement-full-house",
+      "nativeId": null,
+      "requirement": "结婚并养育2个孩子。",
+      "note": "结婚并拥有两个孩子；只升级房屋、摆放婴儿床或达到配偶高好感并不完成目标。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Full House.jpg",
+        "src": "/mediawiki/images/e/e4/Achievement_Full_House.jpg"
+      },
+      "file": "public/assets/game/Achievement_full-house.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Singular Talent",
+      "name": "非凡天赋（成就）",
+      "slug": "achievement-singular-talent",
+      "nativeId": null,
+      "requirement": "任意一种技能达到10级。",
+      "note": "一项技能基础等级达到10级；临时食物或装备增益不能代替永久技能等级。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Singular Talent.jpg",
+        "src": "/mediawiki/images/6/6f/Achievement_Singular_Talent.jpg"
+      },
+      "file": "public/assets/game/Achievement_singular-talent.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Master Of The Five Ways",
+      "name": "5种技能大师（成就）",
+      "slug": "achievement-master-of-the-five-ways",
+      "nativeId": null,
+      "requirement": "每种技能都达到10级。",
+      "note": "耕种、采矿、采集、钓鱼和战斗五项技能均达到10级；不是领取全部精通奖励。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Master Of The Five Ways.jpg",
+        "src": "/mediawiki/images/4/49/Achievement_Master_Of_The_Five_Ways.jpg"
+      },
+      "file": "public/assets/game/Achievement_master-of-the-five-ways.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Protector Of The Valley",
+      "name": "城镇守护者（成就）",
+      "slug": "achievement-protector-of-the-valley",
+      "nativeId": null,
+      "requirement": "完成探险家公会猎人会长的全部任务。",
+      "note": "完成探险家公会全部怪物击杀目标；与普通任务委托数量、单次矿井通关无关。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Protector Of The Valley.jpg",
+        "src": "/mediawiki/images/6/66/Achievement_Protector_Of_The_Valley.jpg"
+      },
+      "file": "public/assets/game/Achievement_protector-of-the-valley.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Fector's Challenge",
+      "name": "因子挑战（成就）",
+      "slug": "achievement-fectors-challenge",
+      "nativeId": null,
+      "requirement": "一命通关“草原王者大冒险”（隐藏成就）",
+      "note": "草原王者大冒险全程不死亡通关；普通通关只完成草原之王，不能自动取得此隐藏成就。",
+      "reward": "没有单列的游戏内奖励",
+      "image": {
+        "alt": "Achievement Fector's Challenge.jpg",
+        "src": "/mediawiki/images/f/f2/Achievement_Fector%27s_Challenge.jpg"
+      },
+      "file": "public/assets/game/Achievement_fectors-challenge.png",
+      "scope": "平台额外成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "A Distant Shore",
+      "name": "遥远的海岸（成就）",
+      "slug": "achievement-a-distant-shore",
+      "nativeId": 40,
+      "requirement": "到达姜岛。",
+      "note": "需要实际到达姜岛；只取得修船材料或收到威利邀请还不算已经抵达。",
+      "reward": "纸帽子",
+      "image": {
+        "alt": "Achievement A Distant Shore.jpg",
+        "src": "/mediawiki/images/thumb/5/5b/Achievement_A_Distant_Shore.jpg/64px-Achievement_A_Distant_Shore.jpg"
+      },
+      "file": "public/assets/game/Achievement_a-distant-shore.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Well-Read",
+      "name": "博览群书（成就）",
+      "slug": "achievement-well-read",
+      "nativeId": 35,
+      "requirement": "读完所有的书。",
+      "note": "要求读完全部能力书，不包含只提供技能经验的书；收进背包但未阅读不能当作已读。",
+      "reward": "报童帽",
+      "image": {
+        "alt": "Achievement Well-Read.jpg",
+        "src": "/mediawiki/images/thumb/1/1b/Achievement_Well-Read.jpg/64px-Achievement_Well-Read.jpg"
+      },
+      "file": "public/assets/game/Achievement_well-read.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Two Thumbs Up",
+      "name": "意犹未尽（成就）",
+      "slug": "achievement-two-thumbs-up",
+      "nativeId": 36,
+      "requirement": "看一部电影。",
+      "note": "实际看一场电影；仅解锁电影院或购买电影票不能替代观影条件。",
+      "reward": "小丑帽",
+      "image": {
+        "alt": "Achievement Two Thumbs Up.jpg",
+        "src": "/mediawiki/images/thumb/c/ca/Achievement_Two_Thumbs_Up.jpg/64px-Achievement_Two_Thumbs_Up.jpg"
+      },
+      "file": "public/assets/game/Achievement_two-thumbs-up.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Blue Ribbon",
+      "name": "冠军（成就）",
+      "slug": "achievement-blue-ribbon",
+      "nativeId": 37,
+      "requirement": "在星露谷集市的比赛中获得第一名。",
+      "note": "星露谷展览会农产品展览取得第一名；不是累计星星币或赢一次转盘小游戏。",
+      "reward": "蓝丝带",
+      "image": {
+        "alt": "Achievement Blue Ribbon.jpg",
+        "src": "/mediawiki/images/thumb/7/7a/Achievement_Blue_Ribbon.jpg/64px-Achievement_Blue_Ribbon.jpg"
+      },
+      "file": "public/assets/game/Achievement_blue-ribbon.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "An Unforgettable Soup",
+      "name": "难忘的汤（成就）",
+      "slug": "achievement-an-unforgettable-soup",
+      "nativeId": 38,
+      "requirement": "让州长高兴。",
+      "note": "夏威夷宴会的汤获得州长最好的评价；普通正面评价不能直接视为最高评价。",
+      "reward": "州长帽",
+      "image": {
+        "alt": "Achievement An Unforgettable Soup.jpg",
+        "src": "/mediawiki/images/thumb/c/c8/Achievement_An_Unforgettable_Soup.jpg/64px-Achievement_An_Unforgettable_Soup.jpg"
+      },
+      "file": "public/assets/game/Achievement_an-unforgettable-soup.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Good Neighbors",
+      "name": "热心邻居（成就）",
+      "slug": "achievement-good-neighbors",
+      "nativeId": 39,
+      "requirement": "帮助森林里的邻居朋友组建家庭。",
+      "note": "完成浣熊的9次请求；后续剧情在晴天进入煤矿森林时触发。修复树桩不等于已完成这9次请求。",
+      "reward": "白色蝴蝶结",
+      "image": {
+        "alt": "Achievement Good Neighbors.jpg",
+        "src": "/mediawiki/images/thumb/0/00/Achievement_Good_Neighbors.jpg/64px-Achievement_Good_Neighbors.jpg"
+      },
+      "file": "public/assets/game/Achievement_good-neighbors.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Danger In The Deep",
+      "name": "深处的危险（成就）",
+      "slug": "achievement-danger-in-the-deep",
+      "nativeId": 41,
+      "requirement": "到达“危险”矿井的底层。",
+      "note": "到达危险矿井第120层；普通难度矿井第120层与骷髅洞穴第120层都不能混同。",
+      "reward": "太空头盔",
+      "image": {
+        "alt": "Achievement Danger In The Deep.jpg",
+        "src": "/mediawiki/images/thumb/9/99/Achievement_Danger_In_The_Deep.jpg/64px-Achievement_Danger_In_The_Deep.jpg"
+      },
+      "file": "public/assets/game/Achievement_danger-in-the-deep.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Infinite Power",
+      "name": "无限力量（成就）",
+      "slug": "achievement-infinite-power",
+      "nativeId": 42,
+      "requirement": "获得最强大的武器。",
+      "note": "获取无限之刃、无限匕首或无限之锤这一武器系列；不是只有无限之刃一种，也不只是银河武器。",
+      "reward": "无限之冠",
+      "image": {
+        "alt": "Achievement Infinite Power.jpg",
+        "src": "/mediawiki/images/thumb/0/0c/Achievement_Infinite_Power.jpg/64px-Achievement_Infinite_Power.jpg"
+      },
+      "file": "public/assets/game/Achievement_infinite-power.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    },
+    {
+      "id": "Perfection",
+      "name": "完美（成就）",
+      "slug": "achievement-perfection",
+      "nativeId": 44,
+      "requirement": "到达山顶。",
+      "note": "目标是到达顶峰；不要把爷爷评估四支蜡烛与完美度100%混为同一个进度。",
+      "reward": "祝尼魔帽子",
+      "image": {
+        "alt": "Achievement Perfection.jpg",
+        "src": "/mediawiki/images/thumb/8/8b/Achievement_Perfection.jpg/64px-Achievement_Perfection.jpg"
+      },
+      "file": "public/assets/game/Achievement_perfection.png",
+      "scope": "游戏内成就",
+      "sourceUrl": "https://stardewvalleywiki.com/Achievements",
+      "sourceRevision": 189827,
+      "sourceSha256": "43a48c4e3e1218a0473de3a7a864266375344ff12dcae66cba523191e76475b1",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/成就",
+        "revision": 54132,
+        "sha256": "9dc3f7064674e43e02754931a58674f5d0af68e3c86e0108bb85d5e860341068"
+      },
+      "versionEvidence": "39 original1.6.15 Data/Achievements identities plus10 platform achievements from independently matched EN/ZH collection. Upcoming1.6.16 recovery notes explicitly not imported."
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 import { Button, PageHeader, SearchBar } from "./components/site-components.js";
 import { routePath } from "./routes.js";
 import { uiClass } from "./ui-class.js";
+import { wikiLinkLabels } from "./wiki-link-labels.js";
+import { formatCropDays } from "./wiki-days.js";
 
 const fallbackImage = "/assets/game/36px-Prismatic_Shard.png";
 const relatedLinkLabels = new Map([
@@ -59,7 +61,7 @@ function normalizeAttributeValue(value) {
 
 function pickAttribute(attributes = {}, keys = []) {
   for (const key of keys) {
-    const value = normalizeAttributeValue(attributes[key]);
+    const value = ["days", "成熟时间"].includes(key) ? formatCropDays(attributes[key]) : normalizeAttributeValue(attributes[key]);
     if (value) return value;
   }
   return "";
@@ -274,7 +276,7 @@ function renderItemRelatedLinks(item) {
   if (!links.length) return "";
 
   return `<div class="item-related-links">
-    ${links.map((href) => `<a href="${escapeHtml(href)}">${escapeHtml(relatedLinkLabels.get(href) || href.replace(/^\//, ""))}</a>`).join("")}
+    ${links.map((href) => `<a href="${escapeHtml(href)}">${escapeHtml(wikiLinkLabels.get(href) || relatedLinkLabels.get(href) || "查看相关资料")}</a>`).join("")}
   </div>`;
 }
 
@@ -404,17 +406,62 @@ export function renderCategoryOverview(datasets) {
 
 export function renderLibrarySidebar(datasets, activeSlug) {
   return `<aside class="${uiClass("library-sidebar card")}" aria-label="图鉴分类">
-    <h2>图鉴分类</h2>
+    <details class="library-category-menu" open>
+    <summary>图鉴分类</summary>
     <nav>
       ${datasets.map((dataset) => `<a data-dataset-link="${escapeHtml(dataset.slug)}" href="${routePath("wikiDataset", { datasetSlug: dataset.slug })}" ${dataset.slug === activeSlug ? 'aria-current="page"' : ""}>
         ${image(dataset.icon, dataset.name)}
         <span>${escapeHtml(dataset.name)}</span>
       </a>`).join("")}
-    </nav>
+    </nav></details>
   </aside>`;
 }
 
+export async function loadLibraryFilterOptions(fetchPage, datasetSlug) {
+  const options = {};
+  let page = 1;
+  let pages = 1;
+  do {
+    const data = await fetchPage(`/api/datasets/${encodeURIComponent(datasetSlug)}/entries?page=${page}&pageSize=100`);
+    for (const field of data.dataset.fields.slice(0, 4)) {
+      options[field] ||= new Set();
+      for (const item of data.items) {
+        const raw = item.attributes[field];
+        for (const value of Array.isArray(raw) ? raw : [raw]) {
+          if (value !== undefined && value !== null && value !== "") options[field].add(datasetSlug === "crops" && field === "days" ? formatCropDays(value) : String(value));
+        }
+      }
+    }
+    pages = data.pagination.pages;
+    page++;
+  } while (page <= pages);
+  return Object.fromEntries(Object.entries(options).map(([field, values]) =>
+    [field, [...values].sort((a, b) => a < b ? -1 : a > b ? 1 : 0)]));
+}
+
 export function renderItemDialog(item) {
+  if (isVillagerEntry(item)) {
+    const attributes = item.attributes || {};
+    return `<div class="item-dialog-backdrop" data-dialog-backdrop>
+      <section class="${uiClass("item-dialog card")}" role="dialog" aria-modal="true" aria-labelledby="item-dialog-title">
+        <header class="item-dialog-titlebar"><h2 id="item-dialog-title">村民详情</h2>
+          <button class="${uiClass("btn ghost small")}" type="button" data-dialog-close aria-label="关闭村民详情">×</button></header>
+        <div class="item-dialog-content"><div class="item-dialog-information">
+          <div class="item-dialog-heading">${image(item.image, item.name, "item-dialog-icon pixel-icon")}<strong>${escapeHtml(item.name)}</strong></div>
+          ${renderLabeledParagraphs("生日", pickAttribute(attributes, ["birthday", "生日"]))}
+          ${renderLabeledParagraphs("住址", pickAttribute(attributes, ["address", "住址"]))}
+          ${renderLabeledParagraphs("最爱礼物", pickAttribute(attributes, ["loves", "最爱礼物"]))}
+          <p>此处列出最爱礼物，不代表完整礼物喜恶表。</p>
+          ${renderParagraphs(item.summary || "")}
+          ${renderLabeledParagraphs("日常路线", pickAttribute(attributes, ["获取方式"]))}
+          ${renderLabeledParagraphs("用途与关系", pickAttribute(attributes, ["主要用途"]))}
+          ${renderLabeledParagraphs("使用限制", pickAttribute(attributes, ["使用限制"]))}
+          ${renderLabeledParagraphs("关联规划", pickAttribute(attributes, ["关联规划"]))}
+          ${renderParagraphs(pickAttribute(attributes, ["新手建议"]) || "送礼前核对生日和最爱物品，优先使用已经取得的材料。")}
+          <h3>相关资料</h3>${renderItemRelatedLinks(item)}
+        </div></div>
+      </section></div>`;
+  }
   const source = buildItemSourceText(item);
   const use = buildItemUseText(item);
   const sellPrice = buildItemSellPriceText(item);
@@ -452,6 +499,7 @@ export function renderItemDialog(item) {
           <section class="item-tab-content" data-item-section="use" hidden>
             <h3>推荐用途（主要用途）</h3>
             ${renderParagraphs(use)}
+            ${renderLabeledParagraphs("使用限制", pickAttribute(item.attributes, ["使用限制"]))}
           </section>
           <section class="item-tab-content" data-item-section="sellPrice" hidden>
             <h3>售价信息</h3>
@@ -556,7 +604,7 @@ export function renderHomeView({ stats, datasets, articles }) {
             return `<a class="${uiClass("home-category-card card")}" href="${escapeHtml(datasetLink(card.slug, card.query))}">
               ${image(dataset?.icon || card.icon, card.title)}
               <h3>${escapeHtml(dataset?.name || card.title)}</h3>
-              <small>${Number(dataset?.entry_count) || "查询"} 条</small>
+              <small>${dataset && Number.isFinite(Number(dataset.entry_count)) ? `${Number(dataset.entry_count)} 条` : "进入查询"}</small>
             </a>`;
           }).join("")}
         </div>

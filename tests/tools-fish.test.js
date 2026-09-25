@@ -14,7 +14,9 @@ const uniqueRanges = (ranges) => [...new Map(ranges.map((range) => [`${range.sta
 
 describe("fish tool data", () => {
   test("covers the complete 1.6.15 fish query catalog", () => {
-    expect(fish.length).toBeGreaterThanOrEqual(72);
+    // 61 rod species + 10 crab-pot catches; the old Dace entry was not a vanilla fish.
+    expect(fish).toHaveLength(71);
+    expect(fish.some(item => item.id === "dace")).toBe(false);
     expect(new Set(fish.map((item) => item.id)).size).toBe(fish.length);
     expect(fish.filter((item) => item.sourceType === "蟹笼")).toHaveLength(10);
     expect(fish.filter((item) => item.category === "传奇")).toHaveLength(10);

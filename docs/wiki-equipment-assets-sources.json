@@ -1,0 +1,83 @@
+{
+  "verifiedDate": "2026-09-22",
+  "assets": [
+    {
+      "file": "/assets/game/36px-Bee_House.png",
+      "sha256": "0d4a2f9be02bfc341b07afa7574951ec88e9c87a4bccf42af44356ad07d0b8a6",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/ce/Bee_House.png"
+    },
+    {
+      "file": "/assets/game/36px-Keg.png",
+      "sha256": "ee2759684ffc742dc62c0dfaedba1aca28a1fc01aa230e5237fe33ecc87048f3",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Keg.png"
+    },
+    {
+      "file": "/assets/game/36px-Preserves_Jar.png",
+      "sha256": "69eacc04f32017b91def7a7ead76e0c01b599af88579c0de42551d337e213e15",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Preserves_Jar.png"
+    },
+    {
+      "file": "/assets/game/36px-Mayonnaise_Machine.png",
+      "sha256": "0b26c0da9ca05d2ed7d8179fee4fa04f903364705ed9f1a1b1b1f0926c5dbef0",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/e/ef/Mayonnaise_Machine.png"
+    },
+    {
+      "file": "/assets/game/36px-Cheese_Press.png",
+      "sha256": "7342cdbf4d89502bc497a91ddefe81236838c15005b52928e9b983e394f26e20",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/79/Cheese_Press.png"
+    },
+    {
+      "file": "/assets/game/36px-Loom.png",
+      "sha256": "ffb397c572116aaf0da31fb680e00ece0f9ac0ddaf41325f03512f35747cee7e",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Loom.png"
+    },
+    {
+      "name": "产油机",
+      "file": "/assets/game/36px-Oil_Maker.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Oil_Maker.png",
+      "sha256": "d0f575324671326fea823950f8685be146924fde95c06219b484bd21eb84d4f7"
+    },
+    {
+      "name": "木桶",
+      "file": "/assets/game/36px-Cask.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Cask.png",
+      "sha256": "be857d3feb5126dbe6f946f0af067fdfeb305a0e9c1e3e12d61a65f98a0a7398"
+    },
+    {
+      "name": "脱水机",
+      "file": "/assets/game/36px-Dehydrator.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/0/02/Dehydrator.png",
+      "sha256": "577010eb9e6dff92a826d5eca541c404c6a2fa5cbdebd5131b223d97db153b22"
+    },
+    {
+      "name": "银河剑",
+      "file": "/assets/game/36px-Galaxy_Sword.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/4/44/Galaxy_Sword.png",
+      "sha256": "0639121a0f2eca731533ace263a8b0d9046d375f378910045d276dcd8ed0e60c"
+    },
+    {
+      "name": "铱环",
+      "file": "/assets/game/36px-Iridium_Band.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/7/77/Iridium_Band.png",
+      "sha256": "8984537a23b8c93d96f4229e31ee32d5d76de98da39f7e7b25c7508f0f41fcd0"
+    },
+    {
+      "name": "太空之靴",
+      "file": "/assets/game/36px-Space_Boots.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Space_Boots.png",
+      "sha256": "78a3ba0b8b4873fd50372007b7d51053bf45ed8c617a10243f24048928bdd325"
+    },
+    {
+      "name": "史莱姆克星戒指",
+      "file": "/assets/game/36px-Slime_Charmer_Ring.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/51/Slime_Charmer_Ring.png",
+      "sha256": "4f9c071caeee458734a3fee2d672dccfcc1d266c16f7536b3f1e22d5231a3e81"
+    },
+    {
+      "name": "旅行货车",
+      "file": "/assets/game/36px-Rare_Seed.png",
+      "source": "https://stardewvalleywiki.com/mediawiki/images/5/5b/Rare_Seed.png",
+      "sha256": "b4fb6d66710996970e155429a0d6288f2197ef07a272f6600c59f63ee1a8f0eb"
+    }
+  ]
+}

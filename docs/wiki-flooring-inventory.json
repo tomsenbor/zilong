@@ -1,0 +1,1664 @@
+{
+  "version": "1.6.15",
+  "collection": "flooring",
+  "status": "reviewed",
+  "nativeBaseCount": 88,
+  "nativeAdditionalCount": 9,
+  "source": {
+    "url": "https://stardewvalleywiki.com/Flooring",
+    "revision": 190285,
+    "sha256": "93459c5aa14923689d106cb36721807e997ad09b987098be29202d5ea4ce48ce"
+  },
+  "nativeSourceSha256": "FD6159E48C67203C847F0A9D3E1B769A16B252A092826503124080D9C9BEBC66",
+  "records": [
+    {
+      "id": "0",
+      "index": 0,
+      "extra": false,
+      "key": "(FL)0",
+      "slug": "flooring-0",
+      "name": "地板（款式0）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_0.png"
+    },
+    {
+      "id": "1",
+      "index": 1,
+      "extra": false,
+      "key": "(FL)1",
+      "slug": "flooring-1",
+      "name": "地板（款式1）",
+      "acquisition": "已核实获取途径：皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售；祝尼魔目录：已拥有目录后可0金取用；法师目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_1.png"
+    },
+    {
+      "id": "2",
+      "index": 2,
+      "extra": false,
+      "key": "(FL)2",
+      "slug": "flooring-2",
+      "name": "地板（款式2）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_2.png"
+    },
+    {
+      "id": "3",
+      "index": 3,
+      "extra": false,
+      "key": "(FL)3",
+      "slug": "flooring-3",
+      "name": "地板（款式3）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_3.png"
+    },
+    {
+      "id": "4",
+      "index": 4,
+      "extra": false,
+      "key": "(FL)4",
+      "slug": "flooring-4",
+      "name": "地板（款式4）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_4.png"
+    },
+    {
+      "id": "5",
+      "index": 5,
+      "extra": false,
+      "key": "(FL)5",
+      "slug": "flooring-5",
+      "name": "地板（款式5）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_5.png"
+    },
+    {
+      "id": "6",
+      "index": 6,
+      "extra": false,
+      "key": "(FL)6",
+      "slug": "flooring-6",
+      "name": "地板（款式6）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_6.png"
+    },
+    {
+      "id": "7",
+      "index": 7,
+      "extra": false,
+      "key": "(FL)7",
+      "slug": "flooring-7",
+      "name": "地板（款式7）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 336,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_7.png"
+    },
+    {
+      "id": "8",
+      "index": 8,
+      "extra": false,
+      "key": "(FL)8",
+      "slug": "flooring-8",
+      "name": "地板（款式8）",
+      "acquisition": "已核实获取途径：皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售；Joja家具目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_8.png"
+    },
+    {
+      "id": "9",
+      "index": 9,
+      "extra": false,
+      "key": "(FL)9",
+      "slug": "flooring-9",
+      "name": "地板（款式9）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_9.png"
+    },
+    {
+      "id": "10",
+      "index": 10,
+      "extra": false,
+      "key": "(FL)10",
+      "slug": "flooring-10",
+      "name": "地板（款式10）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_10.png"
+    },
+    {
+      "id": "11",
+      "index": 11,
+      "extra": false,
+      "key": "(FL)11",
+      "slug": "flooring-11",
+      "name": "地板（款式11）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_11.png"
+    },
+    {
+      "id": "12",
+      "index": 12,
+      "extra": false,
+      "key": "(FL)12",
+      "slug": "flooring-12",
+      "name": "地板（款式12）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_12.png"
+    },
+    {
+      "id": "13",
+      "index": 13,
+      "extra": false,
+      "key": "(FL)13",
+      "slug": "flooring-13",
+      "name": "地板（款式13）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_13.png"
+    },
+    {
+      "id": "14",
+      "index": 14,
+      "extra": false,
+      "key": "(FL)14",
+      "slug": "flooring-14",
+      "name": "地板（款式14）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_14.png"
+    },
+    {
+      "id": "15",
+      "index": 15,
+      "extra": false,
+      "key": "(FL)15",
+      "slug": "flooring-15",
+      "name": "地板（款式15）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 368,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_15.png"
+    },
+    {
+      "id": "16",
+      "index": 16,
+      "extra": false,
+      "key": "(FL)16",
+      "slug": "flooring-16",
+      "name": "地板（款式16）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_16.png"
+    },
+    {
+      "id": "17",
+      "index": 17,
+      "extra": false,
+      "key": "(FL)17",
+      "slug": "flooring-17",
+      "name": "地板（款式17）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_17.png"
+    },
+    {
+      "id": "18",
+      "index": 18,
+      "extra": false,
+      "key": "(FL)18",
+      "slug": "flooring-18",
+      "name": "地板（款式18）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_18.png"
+    },
+    {
+      "id": "19",
+      "index": 19,
+      "extra": false,
+      "key": "(FL)19",
+      "slug": "flooring-19",
+      "name": "地板（款式19）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_19.png"
+    },
+    {
+      "id": "20",
+      "index": 20,
+      "extra": false,
+      "key": "(FL)20",
+      "slug": "flooring-20",
+      "name": "地板（款式20）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_20.png"
+    },
+    {
+      "id": "21",
+      "index": 21,
+      "extra": false,
+      "key": "(FL)21",
+      "slug": "flooring-21",
+      "name": "地板（款式21）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_21.png"
+    },
+    {
+      "id": "22",
+      "index": 22,
+      "extra": false,
+      "key": "(FL)22",
+      "slug": "flooring-22",
+      "name": "地板（款式22）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_22.png"
+    },
+    {
+      "id": "23",
+      "index": 23,
+      "extra": false,
+      "key": "(FL)23",
+      "slug": "flooring-23",
+      "name": "地板（款式23）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 400,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_23.png"
+    },
+    {
+      "id": "24",
+      "index": 24,
+      "extra": false,
+      "key": "(FL)24",
+      "slug": "flooring-24",
+      "name": "地板（款式24）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_24.png"
+    },
+    {
+      "id": "25",
+      "index": 25,
+      "extra": false,
+      "key": "(FL)25",
+      "slug": "flooring-25",
+      "name": "地板（款式25）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_25.png"
+    },
+    {
+      "id": "26",
+      "index": 26,
+      "extra": false,
+      "key": "(FL)26",
+      "slug": "flooring-26",
+      "name": "地板（款式26）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_26.png"
+    },
+    {
+      "id": "27",
+      "index": 27,
+      "extra": false,
+      "key": "(FL)27",
+      "slug": "flooring-27",
+      "name": "地板（款式27）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_27.png"
+    },
+    {
+      "id": "28",
+      "index": 28,
+      "extra": false,
+      "key": "(FL)28",
+      "slug": "flooring-28",
+      "name": "地板（款式28）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_28.png"
+    },
+    {
+      "id": "29",
+      "index": 29,
+      "extra": false,
+      "key": "(FL)29",
+      "slug": "flooring-29",
+      "name": "地板（款式29）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_29.png"
+    },
+    {
+      "id": "30",
+      "index": 30,
+      "extra": false,
+      "key": "(FL)30",
+      "slug": "flooring-30",
+      "name": "地板（款式30）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_30.png"
+    },
+    {
+      "id": "31",
+      "index": 31,
+      "extra": false,
+      "key": "(FL)31",
+      "slug": "flooring-31",
+      "name": "地板（款式31）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 432,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_31.png"
+    },
+    {
+      "id": "32",
+      "index": 32,
+      "extra": false,
+      "key": "(FL)32",
+      "slug": "flooring-32",
+      "name": "地板（款式32）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_32.png"
+    },
+    {
+      "id": "33",
+      "index": 33,
+      "extra": false,
+      "key": "(FL)33",
+      "slug": "flooring-33",
+      "name": "地板（款式33）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_33.png"
+    },
+    {
+      "id": "34",
+      "index": 34,
+      "extra": false,
+      "key": "(FL)34",
+      "slug": "flooring-34",
+      "name": "地板（款式34）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_34.png"
+    },
+    {
+      "id": "35",
+      "index": 35,
+      "extra": false,
+      "key": "(FL)35",
+      "slug": "flooring-35",
+      "name": "地板（款式35）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_35.png"
+    },
+    {
+      "id": "36",
+      "index": 36,
+      "extra": false,
+      "key": "(FL)36",
+      "slug": "flooring-36",
+      "name": "地板（款式36）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_36.png"
+    },
+    {
+      "id": "37",
+      "index": 37,
+      "extra": false,
+      "key": "(FL)37",
+      "slug": "flooring-37",
+      "name": "地板（款式37）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_37.png"
+    },
+    {
+      "id": "38",
+      "index": 38,
+      "extra": false,
+      "key": "(FL)38",
+      "slug": "flooring-38",
+      "name": "地板（款式38）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_38.png"
+    },
+    {
+      "id": "39",
+      "index": 39,
+      "extra": false,
+      "key": "(FL)39",
+      "slug": "flooring-39",
+      "name": "地板（款式39）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售；Joja超市：250金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 464,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_39.png"
+    },
+    {
+      "id": "40",
+      "index": 40,
+      "extra": false,
+      "key": "(FL)40",
+      "slug": "flooring-40",
+      "name": "地板（款式40）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_40.png"
+    },
+    {
+      "id": "41",
+      "index": 41,
+      "extra": false,
+      "key": "(FL)41",
+      "slug": "flooring-41",
+      "name": "地板（款式41）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_41.png"
+    },
+    {
+      "id": "42",
+      "index": 42,
+      "extra": false,
+      "key": "(FL)42",
+      "slug": "flooring-42",
+      "name": "地板（款式42）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_42.png"
+    },
+    {
+      "id": "43",
+      "index": 43,
+      "extra": false,
+      "key": "(FL)43",
+      "slug": "flooring-43",
+      "name": "地板（款式43）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_43.png"
+    },
+    {
+      "id": "44",
+      "index": 44,
+      "extra": false,
+      "key": "(FL)44",
+      "slug": "flooring-44",
+      "name": "地板（款式44）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_44.png"
+    },
+    {
+      "id": "45",
+      "index": 45,
+      "extra": false,
+      "key": "(FL)45",
+      "slug": "flooring-45",
+      "name": "地板（款式45）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_45.png"
+    },
+    {
+      "id": "46",
+      "index": 46,
+      "extra": false,
+      "key": "(FL)46",
+      "slug": "flooring-46",
+      "name": "地板（款式46）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_46.png"
+    },
+    {
+      "id": "47",
+      "index": 47,
+      "extra": false,
+      "key": "(FL)47",
+      "slug": "flooring-47",
+      "name": "地板（款式47）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 496,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_47.png"
+    },
+    {
+      "id": "48",
+      "index": 48,
+      "extra": false,
+      "key": "(FL)48",
+      "slug": "flooring-48",
+      "name": "地板（款式48）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_48.png"
+    },
+    {
+      "id": "49",
+      "index": 49,
+      "extra": false,
+      "key": "(FL)49",
+      "slug": "flooring-49",
+      "name": "地板（款式49）",
+      "acquisition": "已核实获取途径：皮埃尔杂货店：200金，仅当天随机选中该款式时出售；祝尼魔目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_49.png"
+    },
+    {
+      "id": "50",
+      "index": 50,
+      "extra": false,
+      "key": "(FL)50",
+      "slug": "flooring-50",
+      "name": "地板（款式50）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_50.png"
+    },
+    {
+      "id": "51",
+      "index": 51,
+      "extra": false,
+      "key": "(FL)51",
+      "slug": "flooring-51",
+      "name": "地板（款式51）",
+      "acquisition": "已核实获取途径：皮埃尔杂货店：200金，仅当天随机选中该款式时出售；法师目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_51.png"
+    },
+    {
+      "id": "52",
+      "index": 52,
+      "extra": false,
+      "key": "(FL)52",
+      "slug": "flooring-52",
+      "name": "地板（款式52）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_52.png"
+    },
+    {
+      "id": "53",
+      "index": 53,
+      "extra": false,
+      "key": "(FL)53",
+      "slug": "flooring-53",
+      "name": "地板（款式53）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_53.png"
+    },
+    {
+      "id": "54",
+      "index": 54,
+      "extra": false,
+      "key": "(FL)54",
+      "slug": "flooring-54",
+      "name": "地板（款式54）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_54.png"
+    },
+    {
+      "id": "55",
+      "index": 55,
+      "extra": false,
+      "key": "(FL)55",
+      "slug": "flooring-55",
+      "name": "地板（款式55）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金，仅当天随机选中该款式时出售。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 528,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_55.png"
+    },
+    {
+      "id": "56",
+      "index": 56,
+      "extra": false,
+      "key": "(FL)56",
+      "slug": "flooring-56",
+      "name": "地板（款式56）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_56.png"
+    },
+    {
+      "id": "57",
+      "index": 57,
+      "extra": false,
+      "key": "(FL)57",
+      "slug": "flooring-57",
+      "name": "地板（款式57）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_57.png"
+    },
+    {
+      "id": "58",
+      "index": 58,
+      "extra": false,
+      "key": "(FL)58",
+      "slug": "flooring-58",
+      "name": "地板（款式58）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_58.png"
+    },
+    {
+      "id": "59",
+      "index": 59,
+      "extra": false,
+      "key": "(FL)59",
+      "slug": "flooring-59",
+      "name": "地板（款式59）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_59.png"
+    },
+    {
+      "id": "60",
+      "index": 60,
+      "extra": false,
+      "key": "(FL)60",
+      "slug": "flooring-60",
+      "name": "地板（款式60）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_60.png"
+    },
+    {
+      "id": "61",
+      "index": 61,
+      "extra": false,
+      "key": "(FL)61",
+      "slug": "flooring-61",
+      "name": "地板（款式61）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_61.png"
+    },
+    {
+      "id": "62",
+      "index": 62,
+      "extra": false,
+      "key": "(FL)62",
+      "slug": "flooring-62",
+      "name": "地板（款式62）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_62.png"
+    },
+    {
+      "id": "63",
+      "index": 63,
+      "extra": false,
+      "key": "(FL)63",
+      "slug": "flooring-63",
+      "name": "地板（款式63）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 560,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_63.png"
+    },
+    {
+      "id": "64",
+      "index": 64,
+      "extra": false,
+      "key": "(FL)64",
+      "slug": "flooring-64",
+      "name": "地板（款式64）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_64.png"
+    },
+    {
+      "id": "65",
+      "index": 65,
+      "extra": false,
+      "key": "(FL)65",
+      "slug": "flooring-65",
+      "name": "地板（款式65）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_65.png"
+    },
+    {
+      "id": "66",
+      "index": 66,
+      "extra": false,
+      "key": "(FL)66",
+      "slug": "flooring-66",
+      "name": "地板（款式66）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_66.png"
+    },
+    {
+      "id": "67",
+      "index": 67,
+      "extra": false,
+      "key": "(FL)67",
+      "slug": "flooring-67",
+      "name": "地板（款式67）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_67.png"
+    },
+    {
+      "id": "68",
+      "index": 68,
+      "extra": false,
+      "key": "(FL)68",
+      "slug": "flooring-68",
+      "name": "地板（款式68）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_68.png"
+    },
+    {
+      "id": "69",
+      "index": 69,
+      "extra": false,
+      "key": "(FL)69",
+      "slug": "flooring-69",
+      "name": "地板（款式69）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_69.png"
+    },
+    {
+      "id": "70",
+      "index": 70,
+      "extra": false,
+      "key": "(FL)70",
+      "slug": "flooring-70",
+      "name": "地板（款式70）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_70.png"
+    },
+    {
+      "id": "71",
+      "index": 71,
+      "extra": false,
+      "key": "(FL)71",
+      "slug": "flooring-71",
+      "name": "地板（款式71）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 592,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_71.png"
+    },
+    {
+      "id": "72",
+      "index": 72,
+      "extra": false,
+      "key": "(FL)72",
+      "slug": "flooring-72",
+      "name": "地板（款式72）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_72.png"
+    },
+    {
+      "id": "73",
+      "index": 73,
+      "extra": false,
+      "key": "(FL)73",
+      "slug": "flooring-73",
+      "name": "地板（款式73）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_73.png"
+    },
+    {
+      "id": "74",
+      "index": 74,
+      "extra": false,
+      "key": "(FL)74",
+      "slug": "flooring-74",
+      "name": "地板（款式74）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_74.png"
+    },
+    {
+      "id": "75",
+      "index": 75,
+      "extra": false,
+      "key": "(FL)75",
+      "slug": "flooring-75",
+      "name": "地板（款式75）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_75.png"
+    },
+    {
+      "id": "76",
+      "index": 76,
+      "extra": false,
+      "key": "(FL)76",
+      "slug": "flooring-76",
+      "name": "地板（款式76）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_76.png"
+    },
+    {
+      "id": "77",
+      "index": 77,
+      "extra": false,
+      "key": "(FL)77",
+      "slug": "flooring-77",
+      "name": "地板（款式77）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_77.png"
+    },
+    {
+      "id": "78",
+      "index": 78,
+      "extra": false,
+      "key": "(FL)78",
+      "slug": "flooring-78",
+      "name": "地板（款式78）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_78.png"
+    },
+    {
+      "id": "79",
+      "index": 79,
+      "extra": false,
+      "key": "(FL)79",
+      "slug": "flooring-79",
+      "name": "地板（款式79）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 624,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_79.png"
+    },
+    {
+      "id": "80",
+      "index": 80,
+      "extra": false,
+      "key": "(FL)80",
+      "slug": "flooring-80",
+      "name": "地板（款式80）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_80.png"
+    },
+    {
+      "id": "81",
+      "index": 81,
+      "extra": false,
+      "key": "(FL)81",
+      "slug": "flooring-81",
+      "name": "地板（款式81）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_81.png"
+    },
+    {
+      "id": "82",
+      "index": 82,
+      "extra": false,
+      "key": "(FL)82",
+      "slug": "flooring-82",
+      "name": "地板（款式82）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_82.png"
+    },
+    {
+      "id": "83",
+      "index": 83,
+      "extra": false,
+      "key": "(FL)83",
+      "slug": "flooring-83",
+      "name": "地板（款式83）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_83.png"
+    },
+    {
+      "id": "84",
+      "index": 84,
+      "extra": false,
+      "key": "(FL)84",
+      "slug": "flooring-84",
+      "name": "地板（款式84）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_84.png"
+    },
+    {
+      "id": "85",
+      "index": 85,
+      "extra": false,
+      "key": "(FL)85",
+      "slug": "flooring-85",
+      "name": "地板（款式85）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_85.png"
+    },
+    {
+      "id": "86",
+      "index": 86,
+      "extra": false,
+      "key": "(FL)86",
+      "slug": "flooring-86",
+      "name": "地板（款式86）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_86.png"
+    },
+    {
+      "id": "87",
+      "index": 87,
+      "extra": false,
+      "key": "(FL)87",
+      "slug": "flooring-87",
+      "name": "地板（款式87）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 656,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_87.png"
+    },
+    {
+      "id": "MoreFloors:0",
+      "index": 0,
+      "extra": true,
+      "key": "(FL)MoreFloors:0",
+      "slug": "flooring-morefloors-0",
+      "name": "地板（款式MoreFloors:0）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_0.png"
+    },
+    {
+      "id": "MoreFloors:1",
+      "index": 1,
+      "extra": true,
+      "key": "(FL)MoreFloors:1",
+      "slug": "flooring-morefloors-1",
+      "name": "地板（款式MoreFloors:1）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；复古目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_1.png"
+    },
+    {
+      "id": "MoreFloors:2",
+      "index": 2,
+      "extra": true,
+      "key": "(FL)MoreFloors:2",
+      "slug": "flooring-morefloors-2",
+      "name": "地板（款式MoreFloors:2）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；复古目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_2.png"
+    },
+    {
+      "id": "MoreFloors:3",
+      "index": 3,
+      "extra": true,
+      "key": "(FL)MoreFloors:3",
+      "slug": "flooring-morefloors-3",
+      "name": "地板（款式MoreFloors:3）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；复古目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_3.png"
+    },
+    {
+      "id": "MoreFloors:4",
+      "index": 4,
+      "extra": true,
+      "key": "(FL)MoreFloors:4",
+      "slug": "flooring-morefloors-4",
+      "name": "地板（款式MoreFloors:4）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；复古目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 128,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_4.png"
+    },
+    {
+      "id": "MoreFloors:5",
+      "index": 5,
+      "extra": true,
+      "key": "(FL)MoreFloors:5",
+      "slug": "flooring-morefloors-5",
+      "name": "地板（款式MoreFloors:5）",
+      "acquisition": "已核实获取途径：祝尼魔目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_5.png"
+    },
+    {
+      "id": "MoreFloors:6",
+      "index": 6,
+      "extra": true,
+      "key": "(FL)MoreFloors:6",
+      "slug": "flooring-morefloors-6",
+      "name": "地板（款式MoreFloors:6）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；诅咒假人有极低概率自动更换脚下房间的地板；不建议用此随机事件代替目录取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_6.png"
+    },
+    {
+      "id": "MoreFloors:7",
+      "index": 7,
+      "extra": true,
+      "key": "(FL)MoreFloors:7",
+      "slug": "flooring-morefloors-7",
+      "name": "地板（款式MoreFloors:7）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；复古目录：已拥有目录后可0金取用。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_7.png"
+    },
+    {
+      "id": "MoreFloors:8",
+      "index": 8,
+      "extra": true,
+      "key": "(FL)MoreFloors:8",
+      "slug": "flooring-morefloors-8",
+      "name": "地板（款式MoreFloors:8）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；赌场：齐币×100,000，不是金币；需先获得赌场通行资格。购买前请按图案确认款式，商店随机库存并不保证每天出售。",
+      "texture": "Maps/floors_2",
+      "rectangle": {
+        "left": 0,
+        "top": 32,
+        "width": 32,
+        "height": 32
+      },
+      "localPath": "public/assets/game/Flooring_MoreFloors_8.png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "nativeId": "747",
+    "file": "public/assets/game/Decay_747.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 48,
+      "top": 496,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "c3a00fbe69c4d47d469bb2cfa8bd80816e5434522d5bd967a9b2ca9fa77e5e14",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "748",
+    "file": "public/assets/game/Decay_748.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 64,
+      "top": 496,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "de10c2634b41d4aedd71dd858f5f286fb95914b12beb171f502d49be307ae855",
+    "width": 48,
+    "height": 48
+  }
+]

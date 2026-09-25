@@ -1,0 +1,70 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T14:18:00.590Z",
+  "images": [
+    {
+      "file": "public/assets/game/Crab_Pot.png",
+      "source": "https://stardewvalleywiki.com/File:Crab_Pot.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/92/Crab_Pot.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "86b290db17f044cc59bbb70c48008a3f195938bf52a0a1d65d7c31842cbfc110"
+    },
+    {
+      "file": "public/assets/game/Milk_Pail.png",
+      "source": "https://stardewvalleywiki.com/File:Milk_Pail.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Milk_Pail.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "91c92044ad69244fdd6cd951da0f1c8ad453b58e4b42ab985599b3f2393d4e47"
+    },
+    {
+      "file": "public/assets/game/Shears.png",
+      "source": "https://stardewvalleywiki.com/File:Shears.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Shears.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "32925888833f92f35a3c167784f3059212f146de39ae187c1a80b34d174abfbe"
+    },
+    {
+      "file": "public/assets/game/Heater.png",
+      "source": "https://stardewvalleywiki.com/File:Heater.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/93/Heater.png",
+      "width": 48,
+      "height": 72,
+      "sha256": "316f852c51e17aa8aeeb1463d1d49e7c7626dc2ea113a62d5fc37f6478c87675"
+    },
+    {
+      "file": "public/assets/game/Auto-Grabber.png",
+      "source": "https://stardewvalleywiki.com/File:Auto-Grabber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Auto-Grabber.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "ad02684137a35fb23ca09fe7c48861c2bef10e5464c66ced262aa3fcda1ddca8"
+    },
+    {
+      "file": "public/assets/game/Hay_Hopper.png",
+      "source": "https://stardewvalleywiki.com/File:Hay_Hopper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Hay_Hopper.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "b980f871e45d0a69700cb550570c5d806891632a3dabf668c3fb5dc4d2b91c0e"
+    },
+    {
+      "file": "public/assets/game/Incubator.png",
+      "source": "https://stardewvalleywiki.com/File:Incubator.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Incubator.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "b281339ae6366841201a2731017f51ca622df0d8009fdce1b56afac342e5cdfc"
+    },
+    {
+      "file": "public/assets/game/Ostrich_Incubator.png",
+      "source": "https://stardewvalleywiki.com/File:Ostrich_Incubator.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Ostrich_Incubator.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "77dc41ce5202cbd1d6326ba5821fd747080c65a28e310eb1f9eaa2fd6e122802"
+    }
+  ]
+}

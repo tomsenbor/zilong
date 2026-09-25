@@ -1,0 +1,662 @@
+{
+  "version": "1.6.15",
+  "status": "reviewed-subset",
+  "collectionSource": "https://stardewvalleywiki.com/Tools",
+  "collectionRevision": 188669,
+  "records": [
+    {
+      "key": "tools:Hoe",
+      "originalName": "Hoe",
+      "name": "锄头",
+      "slug": "hoe",
+      "sourceUrl": "https://stardewvalleywiki.com/Hoes",
+      "sourceRevision": 194245,
+      "sourceSha256": "898ea514d7e4cd08d03dd5baa57ba03b71aeb825a762db85e9db125e4be20a2e",
+      "versionEvidence": " 1.5: Hoes no longer remove sprinklers. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Hoe.png",
+        "src": "/mediawiki/images/8/87/Hoe.png"
+      },
+      "acquisition": "开始游戏时已拥有，不需要向商店购买。",
+      "purpose": "单次锄开一格土地，用于播种准备和挖掘远古斑点。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "初始自带",
+      "materials": "无需材料",
+      "kind": "Hoes"
+    },
+    {
+      "key": "tools:Copper Hoe",
+      "originalName": "Copper Hoe",
+      "name": "铜锄头",
+      "slug": "copper-hoe",
+      "sourceUrl": "https://stardewvalleywiki.com/Hoes",
+      "sourceRevision": 194245,
+      "sourceSha256": "898ea514d7e4cd08d03dd5baa57ba03b71aeb825a762db85e9db125e4be20a2e",
+      "versionEvidence": " 1.5: Hoes no longer remove sprinklers. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Copper Hoe.png",
+        "src": "/mediawiki/images/8/8f/Copper_Hoe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、2000g和铜锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "蓄力最多锄开直线3格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "2000g",
+      "materials": "铜锭（5）",
+      "kind": "Hoes"
+    },
+    {
+      "key": "tools:Steel Hoe",
+      "originalName": "Steel Hoe",
+      "name": "钢锄头",
+      "slug": "steel-hoe",
+      "sourceUrl": "https://stardewvalleywiki.com/Hoes",
+      "sourceRevision": 194245,
+      "sourceSha256": "898ea514d7e4cd08d03dd5baa57ba03b71aeb825a762db85e9db125e4be20a2e",
+      "versionEvidence": " 1.5: Hoes no longer remove sprinklers. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Steel Hoe.png",
+        "src": "/mediawiki/images/f/f5/Steel_Hoe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "蓄力最多锄开直线5格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "5000g",
+      "materials": "铁锭（5）",
+      "kind": "Hoes"
+    },
+    {
+      "key": "tools:Gold Hoe",
+      "originalName": "Gold Hoe",
+      "name": "金锄头",
+      "slug": "gold-hoe",
+      "sourceUrl": "https://stardewvalleywiki.com/Hoes",
+      "sourceRevision": 194245,
+      "sourceSha256": "898ea514d7e4cd08d03dd5baa57ba03b71aeb825a762db85e9db125e4be20a2e",
+      "versionEvidence": " 1.5: Hoes no longer remove sprinklers. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Gold Hoe.png",
+        "src": "/mediawiki/images/d/d3/Gold_Hoe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、10000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "蓄力最多锄开3×3共9格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "10000g",
+      "materials": "金锭（5）",
+      "kind": "Hoes"
+    },
+    {
+      "key": "tools:Iridium Hoe",
+      "originalName": "Iridium Hoe",
+      "name": "铱锄头",
+      "slug": "iridium-hoe",
+      "sourceUrl": "https://stardewvalleywiki.com/Hoes",
+      "sourceRevision": 194245,
+      "sourceSha256": "898ea514d7e4cd08d03dd5baa57ba03b71aeb825a762db85e9db125e4be20a2e",
+      "versionEvidence": " 1.5: Hoes no longer remove sprinklers. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Iridium Hoe.png",
+        "src": "/mediawiki/images/5/5f/Iridium_Hoe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、25000g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "蓄力最多锄开3×6共18格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "25000g",
+      "materials": "铱锭（5）",
+      "kind": "Hoes"
+    },
+    {
+      "key": "tools:Pickaxe",
+      "originalName": "Pickaxe",
+      "name": "十字镐",
+      "slug": "pickaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Pickaxes",
+      "sourceRevision": 194244,
+      "sourceSha256": "cbd15bffcd27d0ebaf96a7a04994985c223acb2c0b2139ef6275506e46939437",
+      "versionEvidence": "该基础工具及升级列于Tools版本历史覆盖的基础等级表；无后续版本专有项目。",
+      "image": {
+        "alt": "Pickaxe.png",
+        "src": "/mediawiki/images/b/b7/Pickaxe.png"
+      },
+      "acquisition": "开始游戏时已拥有，不需要向商店购买。",
+      "purpose": "可破坏普通石头；不能破坏农场的大石块。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "初始自带",
+      "materials": "无需材料",
+      "kind": "Pickaxes"
+    },
+    {
+      "key": "tools:Copper Pickaxe",
+      "originalName": "Copper Pickaxe",
+      "name": "铜十字镐",
+      "slug": "copper-pickaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Pickaxes",
+      "sourceRevision": 194244,
+      "sourceSha256": "cbd15bffcd27d0ebaf96a7a04994985c223acb2c0b2139ef6275506e46939437",
+      "versionEvidence": "该基础工具及升级列于Tools版本历史覆盖的基础等级表；无后续版本专有项目。",
+      "image": {
+        "alt": "Copper Pickaxe.png",
+        "src": "/mediawiki/images/d/d7/Copper_Pickaxe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、2000g和铜锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "矿井1至39层普通岩石一次敲开，铜矿点需要2次敲击。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "2000g",
+      "materials": "铜锭（5）",
+      "kind": "Pickaxes"
+    },
+    {
+      "key": "tools:Steel Pickaxe",
+      "originalName": "Steel Pickaxe",
+      "name": "钢十字镐",
+      "slug": "steel-pickaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Pickaxes",
+      "sourceRevision": 194244,
+      "sourceSha256": "cbd15bffcd27d0ebaf96a7a04994985c223acb2c0b2139ef6275506e46939437",
+      "versionEvidence": "该基础工具及升级列于Tools版本历史覆盖的基础等级表；无后续版本专有项目。",
+      "image": {
+        "alt": "Steel Pickaxe.png",
+        "src": "/mediawiki/images/d/d1/Steel_Pickaxe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "可破坏农场大石块和矿井矮人通道障碍；铜矿点1次、铁矿点2次敲开。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "5000g",
+      "materials": "铁锭（5）",
+      "kind": "Pickaxes"
+    },
+    {
+      "key": "tools:Gold Pickaxe",
+      "originalName": "Gold Pickaxe",
+      "name": "金十字镐",
+      "slug": "gold-pickaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Pickaxes",
+      "sourceRevision": 194244,
+      "sourceSha256": "cbd15bffcd27d0ebaf96a7a04994985c223acb2c0b2139ef6275506e46939437",
+      "versionEvidence": "该基础工具及升级列于Tools版本历史覆盖的基础等级表；无后续版本专有项目。",
+      "image": {
+        "alt": "Gold Pickaxe.png",
+        "src": "/mediawiki/images/d/d3/Gold_Pickaxe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、10000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "可破坏农场陨石；矿井80至120层普通岩石1次敲开。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "10000g",
+      "materials": "金锭（5）",
+      "kind": "Pickaxes"
+    },
+    {
+      "key": "tools:Iridium Pickaxe",
+      "originalName": "Iridium Pickaxe",
+      "name": "铱十字镐",
+      "slug": "iridium-pickaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Pickaxes",
+      "sourceRevision": 194244,
+      "sourceSha256": "cbd15bffcd27d0ebaf96a7a04994985c223acb2c0b2139ef6275506e46939437",
+      "versionEvidence": "该基础工具及升级列于Tools版本历史覆盖的基础等级表；无后续版本专有项目。",
+      "image": {
+        "alt": "Iridium Pickaxe.png",
+        "src": "/mediawiki/images/c/ca/Iridium_Pickaxe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、25000g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "采石场矿井和骷髅洞穴普通岩石1次敲开；钻石矿点2次，其他宝石矿点1次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "25000g",
+      "materials": "铱锭（5）",
+      "kind": "Pickaxes"
+    },
+    {
+      "key": "tools:Axe",
+      "originalName": "Axe",
+      "name": "斧头",
+      "slug": "axe",
+      "sourceUrl": "https://stardewvalleywiki.com/Axes",
+      "sourceRevision": 194232,
+      "sourceSha256": "e634fba941a4e34316563b87c610b37762762e70bb5dde5d9e75a3e4d86248ab",
+      "versionEvidence": " 1.11: On the Riverlands and Forest Farm Maps, some bushes can be destroyed with an upgraded Axe. ",
+      "image": {
+        "alt": "Axe.png",
+        "src": "/mediawiki/images/f/fb/Axe.png"
+      },
+      "acquisition": "开始游戏时已拥有，不需要向商店购买。",
+      "purpose": "成熟树干需要10次敲击，剩余小树桩需要5次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "初始自带",
+      "materials": "无需材料",
+      "kind": "Axes"
+    },
+    {
+      "key": "tools:Copper Axe",
+      "originalName": "Copper Axe",
+      "name": "铜斧头",
+      "slug": "copper-axe",
+      "sourceUrl": "https://stardewvalleywiki.com/Axes",
+      "sourceRevision": 194232,
+      "sourceSha256": "e634fba941a4e34316563b87c610b37762762e70bb5dde5d9e75a3e4d86248ab",
+      "versionEvidence": " 1.11: On the Riverlands and Forest Farm Maps, some bushes can be destroyed with an upgraded Axe. ",
+      "image": {
+        "alt": "Copper Axe.png",
+        "src": "/mediawiki/images/2/21/Copper_Axe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、2000g和铜锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "可清除大树桩；成熟树干8次，小树桩4次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "2000g",
+      "materials": "铜锭（5）",
+      "kind": "Axes"
+    },
+    {
+      "key": "tools:Steel Axe",
+      "originalName": "Steel Axe",
+      "name": "钢斧头",
+      "slug": "steel-axe",
+      "sourceUrl": "https://stardewvalleywiki.com/Axes",
+      "sourceRevision": 194232,
+      "sourceSha256": "e634fba941a4e34316563b87c610b37762762e70bb5dde5d9e75a3e4d86248ab",
+      "versionEvidence": " 1.11: On the Riverlands and Forest Farm Maps, some bushes can be destroyed with an upgraded Axe. ",
+      "image": {
+        "alt": "Steel Axe.png",
+        "src": "/mediawiki/images/c/ce/Steel_Axe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "可清除大圆木；成熟树干6次，小树桩3次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "5000g",
+      "materials": "铁锭（5）",
+      "kind": "Axes"
+    },
+    {
+      "key": "tools:Gold Axe",
+      "originalName": "Gold Axe",
+      "name": "金斧头",
+      "slug": "gold-axe",
+      "sourceUrl": "https://stardewvalleywiki.com/Axes",
+      "sourceRevision": 194232,
+      "sourceSha256": "e634fba941a4e34316563b87c610b37762762e70bb5dde5d9e75a3e4d86248ab",
+      "versionEvidence": " 1.11: On the Riverlands and Forest Farm Maps, some bushes can be destroyed with an upgraded Axe. ",
+      "image": {
+        "alt": "Gold Axe.png",
+        "src": "/mediawiki/images/2/29/Gold_Axe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、10000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "成熟树干4次，小树桩2次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "10000g",
+      "materials": "金锭（5）",
+      "kind": "Axes"
+    },
+    {
+      "key": "tools:Iridium Axe",
+      "originalName": "Iridium Axe",
+      "name": "铱斧头",
+      "slug": "iridium-axe",
+      "sourceUrl": "https://stardewvalleywiki.com/Axes",
+      "sourceRevision": 194232,
+      "sourceSha256": "e634fba941a4e34316563b87c610b37762762e70bb5dde5d9e75a3e4d86248ab",
+      "versionEvidence": " 1.11: On the Riverlands and Forest Farm Maps, some bushes can be destroyed with an upgraded Axe. ",
+      "image": {
+        "alt": "Iridium Axe.png",
+        "src": "/mediawiki/images/8/8b/Iridium_Axe.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、25000g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "成熟树干2次，小树桩1次。",
+      "limitation": "这里按未附魔的普通工具说明。不同石头、矿点和树体的敲击次数不同，升级不能跳过中间等级。",
+      "cost": "25000g",
+      "materials": "铱锭（5）",
+      "kind": "Axes"
+    },
+    {
+      "key": "tools:Watering Can",
+      "originalName": "Watering Can",
+      "name": "喷壶",
+      "slug": "watering-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Watering_Cans",
+      "sourceRevision": 194235,
+      "sourceSha256": "19cde4d453f31e42001fa4ea1fc2608a04e991b09a4353ef8c4f33332743244b",
+      "versionEvidence": " 1.3.27: The player can refill a Watering Can at the kitchen sink, if the player has a kitchen. 1.4: The player can refill a Watering Can at a Fish Pond. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Watering Can.png",
+        "src": "/mediawiki/images/5/51/Watering_Can.png"
+      },
+      "acquisition": "开始游戏时已拥有，不需要向商店购买。",
+      "purpose": "容量40次，单格浇水。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "初始自带",
+      "materials": "无需材料",
+      "kind": "Watering Cans"
+    },
+    {
+      "key": "tools:Copper Watering Can",
+      "originalName": "Copper Watering Can",
+      "name": "铜喷壶",
+      "slug": "copper-watering-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Watering_Cans",
+      "sourceRevision": 194235,
+      "sourceSha256": "19cde4d453f31e42001fa4ea1fc2608a04e991b09a4353ef8c4f33332743244b",
+      "versionEvidence": " 1.3.27: The player can refill a Watering Can at the kitchen sink, if the player has a kitchen. 1.4: The player can refill a Watering Can at a Fish Pond. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Copper Watering Can.png",
+        "src": "/mediawiki/images/0/0d/Copper_Watering_Can.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、2000g和铜锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "容量55次，蓄力最多浇直线3格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "2000g",
+      "materials": "铜锭（5）",
+      "kind": "Watering Cans"
+    },
+    {
+      "key": "tools:Steel Watering Can",
+      "originalName": "Steel Watering Can",
+      "name": "钢喷壶",
+      "slug": "steel-watering-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Watering_Cans",
+      "sourceRevision": 194235,
+      "sourceSha256": "19cde4d453f31e42001fa4ea1fc2608a04e991b09a4353ef8c4f33332743244b",
+      "versionEvidence": " 1.3.27: The player can refill a Watering Can at the kitchen sink, if the player has a kitchen. 1.4: The player can refill a Watering Can at a Fish Pond. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Steel Watering Can.png",
+        "src": "/mediawiki/images/6/66/Steel_Watering_Can.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "容量70次，蓄力最多浇直线5格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "5000g",
+      "materials": "铁锭（5）",
+      "kind": "Watering Cans"
+    },
+    {
+      "key": "tools:Gold Watering Can",
+      "originalName": "Gold Watering Can",
+      "name": "金喷壶",
+      "slug": "gold-watering-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Watering_Cans",
+      "sourceRevision": 194235,
+      "sourceSha256": "19cde4d453f31e42001fa4ea1fc2608a04e991b09a4353ef8c4f33332743244b",
+      "versionEvidence": " 1.3.27: The player can refill a Watering Can at the kitchen sink, if the player has a kitchen. 1.4: The player can refill a Watering Can at a Fish Pond. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Gold Watering Can.png",
+        "src": "/mediawiki/images/7/74/Gold_Watering_Can.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、10000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "容量85次，蓄力最多浇3×3共9格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "10000g",
+      "materials": "金锭（5）",
+      "kind": "Watering Cans"
+    },
+    {
+      "key": "tools:Iridium Watering Can",
+      "originalName": "Iridium Watering Can",
+      "name": "铱喷壶",
+      "slug": "iridium-watering-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Watering_Cans",
+      "sourceRevision": 194235,
+      "sourceSha256": "19cde4d453f31e42001fa4ea1fc2608a04e991b09a4353ef8c4f33332743244b",
+      "versionEvidence": " 1.3.27: The player can refill a Watering Can at the kitchen sink, if the player has a kitchen. 1.4: The player can refill a Watering Can at a Fish Pond. 1.6: The player can now \"strafe\" while charging a watering can or hoe, allowing them to reposition their tool hit area without changing their facing direction. ",
+      "image": {
+        "alt": "Iridium Watering Can.png",
+        "src": "/mediawiki/images/5/5e/Iridium_Watering_Can.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、25000g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "容量100次，蓄力最多浇3×6共18格。",
+      "limitation": "多格范围需要长按蓄力。普通升级范围与延展附魔范围不同；喷壶仍须留意储水和体力。",
+      "cost": "25000g",
+      "materials": "铱锭（5）",
+      "kind": "Watering Cans"
+    },
+    {
+      "key": "tools:Copper Trash Can",
+      "originalName": "Copper Trash Can",
+      "name": "铜垃圾桶",
+      "slug": "copper-trash-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "sourceSha256": "65869dff5fed066e308c5db91153e845729cb455c32606916fcaee7af39c893a",
+      "versionEvidence": " 1.0: Introduced. 1.4: Added ability to be upgraded at the Blacksmith. ",
+      "image": {
+        "alt": "Trash Can Copper.png",
+        "src": "/mediawiki/images/6/6f/Trash_Can_Copper.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、1000g和铜锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "丢弃物品可回收其价值的15%。",
+      "limitation": "垃圾桶升级期间仍能丢弃物品；家具、壁纸和地板不会因升级而回收金币。回收部分价值不等于按完整售价出售。",
+      "cost": "1000g",
+      "materials": "铜锭（5）",
+      "kind": "Trash Cans"
+    },
+    {
+      "key": "tools:Steel Trash Can",
+      "originalName": "Steel Trash Can",
+      "name": "钢垃圾桶",
+      "slug": "steel-trash-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "sourceSha256": "65869dff5fed066e308c5db91153e845729cb455c32606916fcaee7af39c893a",
+      "versionEvidence": " 1.0: Introduced. 1.4: Added ability to be upgraded at the Blacksmith. ",
+      "image": {
+        "alt": "Trash Can Steel.png",
+        "src": "/mediawiki/images/b/b9/Trash_Can_Steel.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、2500g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "丢弃物品可回收其价值的30%。",
+      "limitation": "垃圾桶升级期间仍能丢弃物品；家具、壁纸和地板不会因升级而回收金币。回收部分价值不等于按完整售价出售。",
+      "cost": "2500g",
+      "materials": "铁锭（5）",
+      "kind": "Trash Cans"
+    },
+    {
+      "key": "tools:Gold Trash Can",
+      "originalName": "Gold Trash Can",
+      "name": "金垃圾桶",
+      "slug": "gold-trash-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "sourceSha256": "65869dff5fed066e308c5db91153e845729cb455c32606916fcaee7af39c893a",
+      "versionEvidence": " 1.0: Introduced. 1.4: Added ability to be upgraded at the Blacksmith. ",
+      "image": {
+        "alt": "Trash Can Gold.png",
+        "src": "/mediawiki/images/e/e0/Trash_Can_Gold.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "丢弃物品可回收其价值的45%。",
+      "limitation": "垃圾桶升级期间仍能丢弃物品；家具、壁纸和地板不会因升级而回收金币。回收部分价值不等于按完整售价出售。",
+      "cost": "5000g",
+      "materials": "金锭（5）",
+      "kind": "Trash Cans"
+    },
+    {
+      "key": "tools:Iridium Trash Can",
+      "originalName": "Iridium Trash Can",
+      "name": "铱垃圾桶",
+      "slug": "iridium-trash-can",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "sourceRevision": 192746,
+      "sourceSha256": "65869dff5fed066e308c5db91153e845729cb455c32606916fcaee7af39c893a",
+      "versionEvidence": " 1.0: Introduced. 1.4: Added ability to be upgraded at the Blacksmith. ",
+      "image": {
+        "alt": "Trash Can Iridium.png",
+        "src": "/mediawiki/images/a/ad/Trash_Can_Iridium.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、12500g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "丢弃物品可回收其价值的60%。",
+      "limitation": "垃圾桶升级期间仍能丢弃物品；家具、壁纸和地板不会因升级而回收金币。回收部分价值不等于按完整售价出售。",
+      "cost": "12500g",
+      "materials": "铱锭（5）",
+      "kind": "Trash Cans"
+    },
+    {
+      "key": "tools:Copper Pan",
+      "originalName": "Copper Pan",
+      "name": "淘盘",
+      "slug": "copper-pan",
+      "sourceUrl": "https://stardewvalleywiki.com/Pans",
+      "sourceRevision": 194243,
+      "sourceSha256": "a8032736ff7ecc8a60e9584b0cc3168f89e7916b75b9754aab25ab8da3dbe51e",
+      "versionEvidence": " 1.0: Introduced. 1.4: Can now be trashed. Can be bought at Willy's Fish Shop after receiving the first one. Can now be used as a hat. 1.5: Can find Fossilized Tail and Taro Tubers on Ginger Island. Can now find the Lucky Ring by panning. 1.6: Can now be upgraded to steel, gold, and iridium version at the Blacksmith. Pans can be enchanted. Can now find Bone Fragments, Mystery Boxes, Artifacts, clothing and furniture. Shimmering lights no longer appear every half hour at the Ginger Island Dig Site. Pan no longer yields the same thing if the player pans in the same spot twice in the same day. ",
+      "image": {
+        "alt": "Copper Pan.png",
+        "src": "/mediawiki/images/7/71/Copper_Pan.png"
+      },
+      "acquisition": "完成鱼缸收集包或购买Joja淘金项目移除闪光巨石后，从威利处获得；解锁后鱼店补购价格2500g。",
+      "purpose": "每次淘金可得3至9个矿石，最多1项特殊物品。",
+      "limitation": "只能在水边闪光的淘金点使用；上限不是每次必得数量。淘盘可佩戴，但工具等级与帽子外观不是两次升级。",
+      "cost": "2500g",
+      "materials": "不适用",
+      "kind": "Pans"
+    },
+    {
+      "key": "tools:Steel Pan",
+      "originalName": "Steel Pan",
+      "name": "钢淘盘",
+      "slug": "steel-pan",
+      "sourceUrl": "https://stardewvalleywiki.com/Pans",
+      "sourceRevision": 194243,
+      "sourceSha256": "a8032736ff7ecc8a60e9584b0cc3168f89e7916b75b9754aab25ab8da3dbe51e",
+      "versionEvidence": " 1.0: Introduced. 1.4: Can now be trashed. Can be bought at Willy's Fish Shop after receiving the first one. Can now be used as a hat. 1.5: Can find Fossilized Tail and Taro Tubers on Ginger Island. Can now find the Lucky Ring by panning. 1.6: Can now be upgraded to steel, gold, and iridium version at the Blacksmith. Pans can be enchanted. Can now find Bone Fragments, Mystery Boxes, Artifacts, clothing and furniture. Shimmering lights no longer appear every half hour at the Ginger Island Dig Site. Pan no longer yields the same thing if the player pans in the same spot twice in the same day. ",
+      "image": {
+        "alt": "Steel Pan.png",
+        "src": "/mediawiki/images/4/49/Steel_Pan.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、5000g和铁锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "每次淘金可得4至10个矿石，最多2项特殊物品；有机会再生成淘金点。",
+      "limitation": "只能在水边闪光的淘金点使用；上限不是每次必得数量。淘盘可佩戴，但工具等级与帽子外观不是两次升级。",
+      "cost": "5000g",
+      "materials": "铁锭（5）",
+      "kind": "Pans"
+    },
+    {
+      "key": "tools:Gold Pan",
+      "originalName": "Gold Pan",
+      "name": "金淘盘",
+      "slug": "gold-pan",
+      "sourceUrl": "https://stardewvalleywiki.com/Pans",
+      "sourceRevision": 194243,
+      "sourceSha256": "a8032736ff7ecc8a60e9584b0cc3168f89e7916b75b9754aab25ab8da3dbe51e",
+      "versionEvidence": " 1.0: Introduced. 1.4: Can now be trashed. Can be bought at Willy's Fish Shop after receiving the first one. Can now be used as a hat. 1.5: Can find Fossilized Tail and Taro Tubers on Ginger Island. Can now find the Lucky Ring by panning. 1.6: Can now be upgraded to steel, gold, and iridium version at the Blacksmith. Pans can be enchanted. Can now find Bone Fragments, Mystery Boxes, Artifacts, clothing and furniture. Shimmering lights no longer appear every half hour at the Ginger Island Dig Site. Pan no longer yields the same thing if the player pans in the same spot twice in the same day. ",
+      "image": {
+        "alt": "Gold Pan.png",
+        "src": "/mediawiki/images/6/6e/Gold_Pan.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、10000g和金锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "每次淘金可得5至11个矿石，最多3项特殊物品；再生成淘金点的机会提高。",
+      "limitation": "只能在水边闪光的淘金点使用；上限不是每次必得数量。淘盘可佩戴，但工具等级与帽子外观不是两次升级。",
+      "cost": "10000g",
+      "materials": "金锭（5）",
+      "kind": "Pans"
+    },
+    {
+      "key": "tools:Iridium Pan",
+      "originalName": "Iridium Pan",
+      "name": "铱淘盘",
+      "slug": "iridium-pan",
+      "sourceUrl": "https://stardewvalleywiki.com/Pans",
+      "sourceRevision": 194243,
+      "sourceSha256": "a8032736ff7ecc8a60e9584b0cc3168f89e7916b75b9754aab25ab8da3dbe51e",
+      "versionEvidence": " 1.0: Introduced. 1.4: Can now be trashed. Can be bought at Willy's Fish Shop after receiving the first one. Can now be used as a hat. 1.5: Can find Fossilized Tail and Taro Tubers on Ginger Island. Can now find the Lucky Ring by panning. 1.6: Can now be upgraded to steel, gold, and iridium version at the Blacksmith. Pans can be enchanted. Can now find Bone Fragments, Mystery Boxes, Artifacts, clothing and furniture. Shimmering lights no longer appear every half hour at the Ginger Island Dig Site. Pan no longer yields the same thing if the player pans in the same spot twice in the same day. ",
+      "image": {
+        "alt": "Iridium Pan.png",
+        "src": "/mediawiki/images/6/66/Iridium_Pan.png"
+      },
+      "acquisition": "在铁匠铺交付上一级工具、25000g和铱锭（5），等待两天后领取；必须按等级顺序升级。",
+      "purpose": "每次淘金可得6至12个矿石，最多4项特殊物品；再生成淘金点的机会较高。",
+      "limitation": "只能在水边闪光的淘金点使用；上限不是每次必得数量。淘盘可佩戴，但工具等级与帽子外观不是两次升级。",
+      "cost": "25000g",
+      "materials": "铱锭（5）",
+      "kind": "Pans"
+    },
+    {
+      "key": "tools:Large Pack (24 slots)",
+      "originalName": "Large Pack (24 slots)",
+      "name": "24格背包",
+      "slug": "large-pack",
+      "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+      "sourceRevision": 171695,
+      "sourceSha256": "aa11d850c5544ae0df55159470add55c667c701d44f59d30c12c10ada1ab18d7",
+      "versionEvidence": " 1.4: Character's image background changed. 1.5: The auto-sort button no longer sorts tools.",
+      "image": {
+        "alt": "Backpack.png",
+        "src": "/mediawiki/images/b/b1/Backpack.png"
+      },
+      "acquisition": "在皮埃尔杂货店柜台旁购买，价格2000g；这是第一档背包升级。",
+      "purpose": "背包容量由12格增加到24格。",
+      "limitation": "只能逐级购买，两次各增加12格；36格为这里记录的普通背包上限，不是每次购买无限扩容。",
+      "cost": "2000g",
+      "materials": "不适用",
+      "kind": "Inventory"
+    },
+    {
+      "key": "tools:Deluxe Pack (36 slots)",
+      "originalName": "Deluxe Pack (36 slots)",
+      "name": "36格背包",
+      "slug": "deluxe-pack",
+      "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+      "sourceRevision": 171695,
+      "sourceSha256": "aa11d850c5544ae0df55159470add55c667c701d44f59d30c12c10ada1ab18d7",
+      "versionEvidence": " 1.4: Character's image background changed. 1.5: The auto-sort button no longer sorts tools.",
+      "image": {
+        "alt": "36 Backpack.png",
+        "src": "/mediawiki/images/3/36/36_Backpack.png"
+      },
+      "acquisition": "先购买24格背包，再在皮埃尔杂货店购买，价格10000g；新增一行12格容量。",
+      "purpose": "背包容量由24格增加到36格。",
+      "limitation": "只能逐级购买，两次各增加12格；36格为这里记录的普通背包上限，不是每次购买无限扩容。",
+      "cost": "10000g",
+      "materials": "不适用",
+      "kind": "Inventory"
+    },
+    {
+      "key": "tools:Scythe",
+      "originalName": "Scythe",
+      "name": "镰刀",
+      "slug": "scythe",
+      "sourceUrl": "https://stardewvalleywiki.com/Scythe",
+      "sourceRevision": 171696,
+      "sourceSha256": "ed84970b8d542ca9b2f9c74a931196c3e5d4b68c4a106fff4cf1b73a1c412760",
+      "versionEvidence": " 1.6: Can no longer lose from inventory when dying. ",
+      "image": {
+        "alt": "Scythe.png",
+        "src": "/mediawiki/images/c/cd/Scythe.png"
+      },
+      "acquisition": "开始游戏时已经获得普通镰刀；不通过铁匠铺花金属锭升级，替代型号有各自获取条件。",
+      "purpose": "用于割草、杂草、苔藓和需要镰刀收获的作物；挥动不消耗体力。",
+      "limitation": "生产干草需要筒仓；镰刀不能把所有作物都当作可收割目标，铱镰刀的收获能力须单独解锁。",
+      "cost": "不适用",
+      "materials": "不适用",
+      "kind": "Scythe"
+    },
+    {
+      "key": "tools:Golden Scythe",
+      "originalName": "Golden Scythe",
+      "name": "金色的镰刀",
+      "slug": "golden-scythe",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Scythe",
+      "sourceRevision": 191051,
+      "sourceSha256": "ab1925bd71ad16e79ec03e507a38f3373d7f88e76df983c6be8d75ec42826e93",
+      "versionEvidence": " 1.4: Introduced. 1.6: Can no longer lose from inventory when dying. ",
+      "image": {
+        "alt": "Golden Scythe.png",
+        "src": "/mediawiki/images/3/33/Golden_Scythe.png"
+      },
+      "acquisition": "解锁采石场后进入采石场矿井，从矿井尽头的死神雕像取得；不是铁匠铺升级配方。",
+      "purpose": "范围比普通镰刀大；割草获得干草的概率从50%提高至75%，基础伤害13。",
+      "limitation": "生产干草需要筒仓；镰刀不能把所有作物都当作可收割目标，铱镰刀的收获能力须单独解锁。",
+      "cost": "不适用",
+      "materials": "不适用",
+      "kind": "Golden Scythe"
+    }
+  ],
+  "pending": [
+    {
+      "originalName": "Trash Can",
+      "name": "垃圾桶",
+      "sourceUrl": "https://stardewvalleywiki.com/Trash_Cans",
+      "reason": "来源工具表没有基础垃圾桶图像；Wiki allimages Trash 前缀也只有升级款。不能冒充铜垃圾桶。"
+    },
+    {
+      "originalName": "Backpack (12 slots)",
+      "name": "12格背包",
+      "sourceUrl": "https://stardewvalleywiki.com/Tools",
+      "reason": "原版初始容量已核实，但来源工具表无独立图像；尚需可验证的界面素材。"
+    }
+  ]
+}

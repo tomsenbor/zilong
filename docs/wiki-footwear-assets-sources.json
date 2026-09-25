@@ -1,0 +1,134 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T13:50:21.008Z",
+  "images": [
+    {
+      "file": "public/assets/game/Sneakers.png",
+      "source": "https://stardewvalleywiki.com/File:Sneakers.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Sneakers.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c9ff9cf94abdc24673861fe671f40f6a5f4b475185df6fb25b19874c024e297c"
+    },
+    {
+      "file": "public/assets/game/Rubber_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Rubber_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e8/Rubber_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "7389712c32edef960e7a739ce88a5312478620391242121eca712d338fb39aa1"
+    },
+    {
+      "file": "public/assets/game/Leather_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Leather_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fd/Leather_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "6df37cd2bcaf68321afa4f857b527e3e6031cafdfebc4197f33c0a2094b1dcd3"
+    },
+    {
+      "file": "public/assets/game/Work_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Work_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/53/Work_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "0fca8ce745123d20967d4c7c5a658a06195d010b7c5834346ccc19471457d10f"
+    },
+    {
+      "file": "public/assets/game/Combat_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Combat_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Combat_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "165b3bcc8ed4bd9560f47a32924384ae276047a0a622e511ff3390ca42e2f5d7"
+    },
+    {
+      "file": "public/assets/game/Tundra_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Tundra_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/93/Tundra_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "37eeee599538de1eeaf389d86ec0f581cbeedecbcd89c863e32b391d07c7f99e"
+    },
+    {
+      "file": "public/assets/game/Leprechaun_Shoes.png",
+      "source": "https://stardewvalleywiki.com/File:Leprechaun_Shoes.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Leprechaun_Shoes.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "0ef69550d06f19aabfe2133a5a697e99db1ebd0244375884dcc2e7985ee39125"
+    },
+    {
+      "file": "public/assets/game/Thermal_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Thermal_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Thermal_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "5e090df3921531234e31cc59cb838c48390fb895e0fd8d96a5fdf6d828e724d8"
+    },
+    {
+      "file": "public/assets/game/Dark_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Dark_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Dark_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "36b87a66cbbd6f238f84ef14b194b08467fe127b0a7480e6084876a47a7254f1"
+    },
+    {
+      "file": "public/assets/game/Firewalker_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Firewalker_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fa/Firewalker_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "129da0db1cea7e96a0e78d604c72c3422fdaa893807e4f741bf9ab84b2878c65"
+    },
+    {
+      "file": "public/assets/game/Genie_Shoes.png",
+      "source": "https://stardewvalleywiki.com/File:Genie_Shoes.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/98/Genie_Shoes.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "da5055da3904e41c59b7876cb32e1342a586d78979fae7aeb0bef1e9d32a1bef"
+    },
+    {
+      "file": "public/assets/game/Crystal_Shoes.png",
+      "source": "https://stardewvalleywiki.com/File:Crystal_Shoes.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Crystal_Shoes.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "90b320c18bbca935bbbcd6d4c8f296616aac01ce5f2407b47d59053fe8f76241"
+    },
+    {
+      "file": "public/assets/game/Emily's_Magic_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Emily%27s_Magic_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Emily%27s_Magic_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "7f1b0ef73dcf28e07aa05e54dcf7b847f4b61b540e2b08f098d99c0476cea373"
+    },
+    {
+      "file": "public/assets/game/Cinderclown_Shoes.png",
+      "source": "https://stardewvalleywiki.com/File:Cinderclown_Shoes.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Cinderclown_Shoes.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "735653e5da055026fd71189572a176077b7cbd6c23aab6f5b8a58059ef729bb4"
+    },
+    {
+      "file": "public/assets/game/Mermaid_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Mermaid_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/98/Mermaid_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "466bd4102f21c68d4deb4241676ab891e2c47e8dc6cd070e415dba55bec64c6f"
+    },
+    {
+      "file": "public/assets/game/Dragonscale_Boots.png",
+      "source": "https://stardewvalleywiki.com/File:Dragonscale_Boots.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Dragonscale_Boots.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "5006ae20493b2747965d81938b952aa355c8b3c0ab12416f3868bbad7a933990"
+    }
+  ]
+}

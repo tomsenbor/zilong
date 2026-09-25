@@ -1,0 +1,857 @@
+{
+  "version": "1.6.15",
+  "id": "machines",
+  "name": "机器与建筑",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 107,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/BigCraftables",
+      "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+      "count": 182,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "1",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "3",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "5",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "7",
+          "nativeName": "House Plant"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Scarecrow"
+        },
+        {
+          "nativeId": "9",
+          "nativeName": "Lightning Rod"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Bee House"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Keg"
+        },
+        {
+          "nativeId": "13",
+          "nativeName": "Furnace"
+        },
+        {
+          "nativeId": "15",
+          "nativeName": "Preserves Jar"
+        },
+        {
+          "nativeId": "16",
+          "nativeName": "Cheese Press"
+        },
+        {
+          "nativeId": "17",
+          "nativeName": "Loom"
+        },
+        {
+          "nativeId": "19",
+          "nativeName": "Oil Maker"
+        },
+        {
+          "nativeId": "20",
+          "nativeName": "Recycling Machine"
+        },
+        {
+          "nativeId": "21",
+          "nativeName": "Crystalarium"
+        },
+        {
+          "nativeId": "22",
+          "nativeName": "Table Piece L"
+        },
+        {
+          "nativeId": "23",
+          "nativeName": "Table Piece R"
+        },
+        {
+          "nativeId": "24",
+          "nativeName": "Mayonnaise Machine"
+        },
+        {
+          "nativeId": "25",
+          "nativeName": "Seed Maker"
+        },
+        {
+          "nativeId": "26",
+          "nativeName": "Wood Chair"
+        },
+        {
+          "nativeId": "27",
+          "nativeName": "Wood Chair"
+        },
+        {
+          "nativeId": "28",
+          "nativeName": "Skeleton Model"
+        },
+        {
+          "nativeId": "29",
+          "nativeName": "Obelisk"
+        },
+        {
+          "nativeId": "31",
+          "nativeName": "Chicken Statue"
+        },
+        {
+          "nativeId": "32",
+          "nativeName": "Stone Cairn"
+        },
+        {
+          "nativeId": "33",
+          "nativeName": "Suit Of Armor"
+        },
+        {
+          "nativeId": "34",
+          "nativeName": "Sign Of The Vessel"
+        },
+        {
+          "nativeId": "35",
+          "nativeName": "Basic Log"
+        },
+        {
+          "nativeId": "36",
+          "nativeName": "Lawn Flamingo"
+        },
+        {
+          "nativeId": "37",
+          "nativeName": "Wood Sign"
+        },
+        {
+          "nativeId": "38",
+          "nativeName": "Stone Sign"
+        },
+        {
+          "nativeId": "39",
+          "nativeName": "Dark Sign"
+        },
+        {
+          "nativeId": "40",
+          "nativeName": "Big Green Cane"
+        },
+        {
+          "nativeId": "41",
+          "nativeName": "Green Canes"
+        },
+        {
+          "nativeId": "42",
+          "nativeName": "Mixed Cane"
+        },
+        {
+          "nativeId": "43",
+          "nativeName": "Red Canes"
+        },
+        {
+          "nativeId": "44",
+          "nativeName": "Big Red Cane"
+        },
+        {
+          "nativeId": "45",
+          "nativeName": "Ornamental Hay Bale"
+        },
+        {
+          "nativeId": "46",
+          "nativeName": "Log Section"
+        },
+        {
+          "nativeId": "47",
+          "nativeName": "Grave Stone"
+        },
+        {
+          "nativeId": "48",
+          "nativeName": "Seasonal Decor"
+        },
+        {
+          "nativeId": "52",
+          "nativeName": "Stone Frog"
+        },
+        {
+          "nativeId": "53",
+          "nativeName": "Stone Parrot"
+        },
+        {
+          "nativeId": "54",
+          "nativeName": "Stone Owl"
+        },
+        {
+          "nativeId": "55",
+          "nativeName": "Stone Junimo"
+        },
+        {
+          "nativeId": "56",
+          "nativeName": "Slime Ball"
+        },
+        {
+          "nativeId": "62",
+          "nativeName": "Garden Pot"
+        },
+        {
+          "nativeId": "64",
+          "nativeName": "Bookcase"
+        },
+        {
+          "nativeId": "65",
+          "nativeName": "Fancy Table"
+        },
+        {
+          "nativeId": "66",
+          "nativeName": "Ancient Table"
+        },
+        {
+          "nativeId": "67",
+          "nativeName": "Ancient Stool"
+        },
+        {
+          "nativeId": "68",
+          "nativeName": "Grandfather Clock"
+        },
+        {
+          "nativeId": "69",
+          "nativeName": "Teddy Timer"
+        },
+        {
+          "nativeId": "70",
+          "nativeName": "Dead Tree"
+        },
+        {
+          "nativeId": "71",
+          "nativeName": "Staircase"
+        },
+        {
+          "nativeId": "72",
+          "nativeName": "Tall Torch"
+        },
+        {
+          "nativeId": "73",
+          "nativeName": "Ritual Mask"
+        },
+        {
+          "nativeId": "74",
+          "nativeName": "Bonfire"
+        },
+        {
+          "nativeId": "75",
+          "nativeName": "Bongo"
+        },
+        {
+          "nativeId": "76",
+          "nativeName": "Decorative Spears"
+        },
+        {
+          "nativeId": "78",
+          "nativeName": "Boulder"
+        },
+        {
+          "nativeId": "79",
+          "nativeName": "Door"
+        },
+        {
+          "nativeId": "80",
+          "nativeName": "Door"
+        },
+        {
+          "nativeId": "81",
+          "nativeName": "Locked Door"
+        },
+        {
+          "nativeId": "82",
+          "nativeName": "Locked Door"
+        },
+        {
+          "nativeId": "83",
+          "nativeName": "Wicked Statue"
+        },
+        {
+          "nativeId": "84",
+          "nativeName": "Wicked Statue"
+        },
+        {
+          "nativeId": "85",
+          "nativeName": "Sloth Skeleton L"
+        },
+        {
+          "nativeId": "86",
+          "nativeName": "Sloth Skeleton M"
+        },
+        {
+          "nativeId": "87",
+          "nativeName": "Sloth Skeleton R"
+        },
+        {
+          "nativeId": "88",
+          "nativeName": "Standing Geode"
+        },
+        {
+          "nativeId": "89",
+          "nativeName": "Obsidian Vase"
+        },
+        {
+          "nativeId": "90",
+          "nativeName": "Bone Mill"
+        },
+        {
+          "nativeId": "94",
+          "nativeName": "Singing Stone"
+        },
+        {
+          "nativeId": "95",
+          "nativeName": "Stone Owl"
+        },
+        {
+          "nativeId": "96",
+          "nativeName": "Strange Capsule"
+        },
+        {
+          "nativeId": "98",
+          "nativeName": "Empty Capsule"
+        },
+        {
+          "nativeId": "99",
+          "nativeName": "Feed Hopper"
+        },
+        {
+          "nativeId": "101",
+          "nativeName": "Incubator"
+        },
+        {
+          "nativeId": "104",
+          "nativeName": "Heater"
+        },
+        {
+          "nativeId": "105",
+          "nativeName": "Tapper"
+        },
+        {
+          "nativeId": "106",
+          "nativeName": "Camera"
+        },
+        {
+          "nativeId": "107",
+          "nativeName": "Plush Bunny"
+        },
+        {
+          "nativeId": "108",
+          "nativeName": "Tub o' Flowers"
+        },
+        {
+          "nativeId": "110",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "111",
+          "nativeName": "Decorative Pitcher"
+        },
+        {
+          "nativeId": "112",
+          "nativeName": "Dried Sunflowers"
+        },
+        {
+          "nativeId": "113",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "114",
+          "nativeName": "Charcoal Kiln"
+        },
+        {
+          "nativeId": "116",
+          "nativeName": "Stardew Hero Trophy"
+        },
+        {
+          "nativeId": "117",
+          "nativeName": "Soda Machine"
+        },
+        {
+          "nativeId": "118",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "119",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "120",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "121",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "122",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "123",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "124",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "125",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "126",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "127",
+          "nativeName": "Statue Of Endless Fortune"
+        },
+        {
+          "nativeId": "128",
+          "nativeName": "Mushroom Box"
+        },
+        {
+          "nativeId": "130",
+          "nativeName": "Chest"
+        },
+        {
+          "nativeId": "136",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "137",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "138",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "139",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "140",
+          "nativeName": "Rarecrow"
+        },
+        {
+          "nativeId": "141",
+          "nativeName": "Prairie King Arcade System"
+        },
+        {
+          "nativeId": "143",
+          "nativeName": "Wooden Brazier"
+        },
+        {
+          "nativeId": "144",
+          "nativeName": "Stone Brazier"
+        },
+        {
+          "nativeId": "145",
+          "nativeName": "Gold Brazier"
+        },
+        {
+          "nativeId": "146",
+          "nativeName": "Campfire"
+        },
+        {
+          "nativeId": "147",
+          "nativeName": "Stump Brazier"
+        },
+        {
+          "nativeId": "148",
+          "nativeName": "Carved Brazier"
+        },
+        {
+          "nativeId": "149",
+          "nativeName": "Skull Brazier"
+        },
+        {
+          "nativeId": "150",
+          "nativeName": "Barrel Brazier"
+        },
+        {
+          "nativeId": "151",
+          "nativeName": "Marble Brazier"
+        },
+        {
+          "nativeId": "152",
+          "nativeName": "Wood Lamp-post"
+        },
+        {
+          "nativeId": "153",
+          "nativeName": "Iron Lamp-post"
+        },
+        {
+          "nativeId": "154",
+          "nativeName": "Worm Bin"
+        },
+        {
+          "nativeId": "155",
+          "nativeName": "??HMTGF??"
+        },
+        {
+          "nativeId": "156",
+          "nativeName": "Slime Incubator"
+        },
+        {
+          "nativeId": "158",
+          "nativeName": "Slime Egg-Press"
+        },
+        {
+          "nativeId": "159",
+          "nativeName": "Junimo Kart Arcade System"
+        },
+        {
+          "nativeId": "160",
+          "nativeName": "Statue Of Perfection"
+        },
+        {
+          "nativeId": "161",
+          "nativeName": "??Pinky Lemon??"
+        },
+        {
+          "nativeId": "162",
+          "nativeName": "??Foroguemon??"
+        },
+        {
+          "nativeId": "163",
+          "nativeName": "Cask"
+        },
+        {
+          "nativeId": "164",
+          "nativeName": "Solid Gold Lewis"
+        },
+        {
+          "nativeId": "165",
+          "nativeName": "Auto-Grabber"
+        },
+        {
+          "nativeId": "167",
+          "nativeName": "Deluxe Scarecrow"
+        },
+        {
+          "nativeId": "174",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "175",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "182",
+          "nativeName": "Geode Crusher"
+        },
+        {
+          "nativeId": "184",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "188",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "192",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "196",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "200",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "204",
+          "nativeName": "Seasonal Plant"
+        },
+        {
+          "nativeId": "208",
+          "nativeName": "Workbench"
+        },
+        {
+          "nativeId": "209",
+          "nativeName": "Mini-Jukebox"
+        },
+        {
+          "nativeId": "211",
+          "nativeName": "Wood Chipper"
+        },
+        {
+          "nativeId": "214",
+          "nativeName": "Telephone"
+        },
+        {
+          "nativeId": "216",
+          "nativeName": "Mini-Fridge"
+        },
+        {
+          "nativeId": "219",
+          "nativeName": "Cursed P.K. Arcade System"
+        },
+        {
+          "nativeId": "221",
+          "nativeName": "Item Pedestal"
+        },
+        {
+          "nativeId": "231",
+          "nativeName": "Solar Panel"
+        },
+        {
+          "nativeId": "232",
+          "nativeName": "Stone Chest"
+        },
+        {
+          "nativeId": "238",
+          "nativeName": "Mini-Obelisk"
+        },
+        {
+          "nativeId": "239",
+          "nativeName": "Farm Computer"
+        },
+        {
+          "nativeId": "246",
+          "nativeName": "Coffee Maker"
+        },
+        {
+          "nativeId": "247",
+          "nativeName": "Sewing Machine"
+        },
+        {
+          "nativeId": "248",
+          "nativeName": "Mini-Shipping Bin"
+        },
+        {
+          "nativeId": "254",
+          "nativeName": "Ostrich Incubator"
+        },
+        {
+          "nativeId": "256",
+          "nativeName": "Junimo Chest"
+        },
+        {
+          "nativeId": "262",
+          "nativeName": "Barrel"
+        },
+        {
+          "nativeId": "263",
+          "nativeName": "Crate"
+        },
+        {
+          "nativeId": "264",
+          "nativeName": "Heavy Tapper"
+        },
+        {
+          "nativeId": "265",
+          "nativeName": "Deconstructor"
+        },
+        {
+          "nativeId": "272",
+          "nativeName": "Auto-Petter"
+        },
+        {
+          "nativeId": "275",
+          "nativeName": "Hopper"
+        },
+        {
+          "nativeId": "278",
+          "nativeName": "Campfire"
+        },
+        {
+          "nativeId": "280",
+          "nativeName": "Statue Of True Perfection"
+        },
+        {
+          "nativeId": "TextSign",
+          "nativeName": "Text Sign"
+        },
+        {
+          "nativeId": "MushroomLog",
+          "nativeName": "Mushroom Log"
+        },
+        {
+          "nativeId": "BaitMaker",
+          "nativeName": "Bait Maker"
+        },
+        {
+          "nativeId": "Dehydrator",
+          "nativeName": "Dehydrator"
+        },
+        {
+          "nativeId": "HeavyFurnace",
+          "nativeName": "Heavy Furnace"
+        },
+        {
+          "nativeId": "StatueOfBlessings",
+          "nativeName": "Statue Of Blessings"
+        },
+        {
+          "nativeId": "StatueOfTheDwarfKing",
+          "nativeName": "Statue Of The Dwarf King"
+        },
+        {
+          "nativeId": "Anvil",
+          "nativeName": "Anvil"
+        },
+        {
+          "nativeId": "MiniForge",
+          "nativeName": "Mini-Forge"
+        },
+        {
+          "nativeId": "FishSmoker",
+          "nativeName": "Fish Smoker"
+        },
+        {
+          "nativeId": "DeluxeWormBin",
+          "nativeName": "Deluxe Worm Bin"
+        },
+        {
+          "nativeId": "BigChest",
+          "nativeName": "Big Chest"
+        },
+        {
+          "nativeId": "BigStoneChest",
+          "nativeName": "Big Stone Chest"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Buildings",
+      "sha256": "1917DE8574CFAB091C3E40DBB6CF8243F09066A53CC41B08BD1E67F7F4ED3290",
+      "count": 25,
+      "records": [
+        {
+          "nativeId": "Junimo Hut",
+          "nativeName": "[LocalizedText Strings\\Buildings:JunimoHut_Name]"
+        },
+        {
+          "nativeId": "Earth Obelisk",
+          "nativeName": "[LocalizedText Strings\\Buildings:EarthObelisk_Name]"
+        },
+        {
+          "nativeId": "Water Obelisk",
+          "nativeName": "[LocalizedText Strings\\Buildings:WaterObelisk_Name]"
+        },
+        {
+          "nativeId": "Desert Obelisk",
+          "nativeName": "[LocalizedText Strings\\Buildings:DesertObelisk_Name]"
+        },
+        {
+          "nativeId": "Island Obelisk",
+          "nativeName": "[LocalizedText Strings\\Buildings:IslandObelisk_Name]"
+        },
+        {
+          "nativeId": "Gold Clock",
+          "nativeName": "[LocalizedText Strings\\Buildings:GoldClock_Name]"
+        },
+        {
+          "nativeId": "Coop",
+          "nativeName": "[LocalizedText Strings\\Buildings:Coop_Name]"
+        },
+        {
+          "nativeId": "Barn",
+          "nativeName": "[LocalizedText Strings\\Buildings:Barn_Name]"
+        },
+        {
+          "nativeId": "Well",
+          "nativeName": "[LocalizedText Strings\\Buildings:Well_Name]"
+        },
+        {
+          "nativeId": "Silo",
+          "nativeName": "[LocalizedText Strings\\Buildings:Silo_Name]"
+        },
+        {
+          "nativeId": "Mill",
+          "nativeName": "[LocalizedText Strings\\Buildings:Mill_Name]"
+        },
+        {
+          "nativeId": "Shed",
+          "nativeName": "[LocalizedText Strings\\Buildings:Shed_Name]"
+        },
+        {
+          "nativeId": "Fish Pond",
+          "nativeName": "[LocalizedText Strings\\Buildings:FishPond_Name]"
+        },
+        {
+          "nativeId": "Cabin",
+          "nativeName": "[LocalizedText Strings\\Buildings:Cabin_Name]"
+        },
+        {
+          "nativeId": "Pet Bowl",
+          "nativeName": "[LocalizedText Strings\\Buildings:PetBowl_Name]"
+        },
+        {
+          "nativeId": "Stable",
+          "nativeName": "[LocalizedText Strings\\Buildings:Stable_Name]"
+        },
+        {
+          "nativeId": "Slime Hutch",
+          "nativeName": "[LocalizedText Strings\\Buildings:SlimeHutch_Name]"
+        },
+        {
+          "nativeId": "Big Coop",
+          "nativeName": "[LocalizedText Strings\\Buildings:BigCoop_Name]"
+        },
+        {
+          "nativeId": "Deluxe Coop",
+          "nativeName": "[LocalizedText Strings\\Buildings:DeluxeCoop_Name]"
+        },
+        {
+          "nativeId": "Big Barn",
+          "nativeName": "[LocalizedText Strings\\Buildings:BigBarn_Name]"
+        },
+        {
+          "nativeId": "Deluxe Barn",
+          "nativeName": "[LocalizedText Strings\\Buildings:DeluxeBarn_Name]"
+        },
+        {
+          "nativeId": "Big Shed",
+          "nativeName": "[LocalizedText Strings\\Buildings:BigShed_Name]"
+        },
+        {
+          "nativeId": "Shipping Bin",
+          "nativeName": "[LocalizedText Strings\\Buildings:ShippingBin_Name]"
+        },
+        {
+          "nativeId": "Farmhouse",
+          "nativeName": "Farmhouse"
+        },
+        {
+          "nativeId": "Greenhouse",
+          "nativeName": "[LocalizedText Strings\\Buildings:Greenhouse_Name]"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-building-inventory.json",
+    "wiki-craft-facility-inventory.json"
+  ],
+  "remainingReview": "182条大件数据并不全是机器；须按原版身份区分农业、装饰和功能设施，不能按数量补同名页。"
+}

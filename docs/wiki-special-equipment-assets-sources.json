@@ -1,0 +1,69 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Utility_coffee-maker.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Coffee_Maker.png",
+      "source": "https://stardewvalleywiki.com/Coffee_Maker",
+      "width": 48,
+      "height": 84,
+      "sha256": "d86279cb48a660951dfe8970d8c6d03cbe2433673291907b25984999fc808036"
+    },
+    {
+      "file": "public/assets/game/Utility_deconstructor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/22/Deconstructor.png",
+      "source": "https://stardewvalleywiki.com/Deconstructor",
+      "width": 48,
+      "height": 96,
+      "sha256": "9e009c63c6d9d3aa371cda6ecbdd14e5bad906868e7b3a833bd90d5fc47caab9"
+    },
+    {
+      "file": "public/assets/game/Utility_sewing-machine.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Sewing_Machine.png",
+      "source": "https://stardewvalleywiki.com/Sewing_Machine",
+      "width": 48,
+      "height": 96,
+      "sha256": "d5500c4ce3763d89d382c4263ed159e58670c83fef2616704527f2d381faf668"
+    },
+    {
+      "file": "public/assets/game/Utility_telephone.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Telephone.png",
+      "source": "https://stardewvalleywiki.com/Telephone",
+      "width": 48,
+      "height": 96,
+      "sha256": "bb80ede0ffe53abcc76b3721b8100a94bf45947754804f2db0f80532dd1b3f27"
+    },
+    {
+      "file": "public/assets/game/Utility_mini-shipping-bin.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Mini-Shipping_Bin.png",
+      "source": "https://stardewvalleywiki.com/Mini-Shipping_Bin",
+      "width": 48,
+      "height": 96,
+      "sha256": "780f5856c71de1d45f6aa082edb5eae999ce137a2834e6039513fee04768d0b2"
+    },
+    {
+      "file": "public/assets/game/Utility_workbench.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Workbench.png",
+      "source": "https://stardewvalleywiki.com/Workbench",
+      "width": 48,
+      "height": 93,
+      "sha256": "1de500378c4420ba42fffb7ea71167f0a529218305bd86f3bab6c2cee45427c1"
+    },
+    {
+      "file": "public/assets/game/Utility_statue-of-endless-fortune.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/00/Statue_Of_Endless_Fortune.png",
+      "source": "https://stardewvalleywiki.com/Statue_Of_Endless_Fortune",
+      "width": 48,
+      "height": 90,
+      "sha256": "dacfe909290bca218de17d4f3ed912ffba4b3f27ae003de0326b28a40a4999ea"
+    },
+    {
+      "file": "public/assets/game/Utility_return-scepter.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Return_Scepter.png",
+      "source": "https://stardewvalleywiki.com/Return_Scepter",
+      "width": 48,
+      "height": 48,
+      "sha256": "3479e37db1c33e0a3064566a393a135f4614b9a6d42a83d38659b8f34cd4703c"
+    }
+  ]
+}

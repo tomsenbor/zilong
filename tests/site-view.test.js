@@ -61,6 +61,28 @@ const forbiddenRuntimeTokens = [
   "btn danger"
 ];
 
+describe("item dialog usage restrictions", () => {
+  test.each(["items", "villagers", "locations"])("keeps supplied restrictions visible in %s dialog markup", (dataset_slug) => {
+    const item = { name: "测试资料", dataset_slug, attributes: { 使用限制: "农场外不要放在NPC行走路径上，否则会被破坏。" } };
+    const before = JSON.stringify(item);
+    const html = renderItemDialog(item);
+    expect(html).toContain("使用限制");
+    expect(html).toContain(item.attributes.使用限制);
+    expect(JSON.stringify(item)).toBe(before);
+  });
+
+  test("escapes restriction text instead of injecting markup", () => {
+    const html = renderItemDialog({ name: "测试", attributes: { 使用限制: '<script>alert("x")</script>' } });
+    expect(html).toContain("&lt;script&gt;");
+    expect(html).not.toContain("<script>");
+  });
+
+  test("does not invent a restriction when no value was supplied", () => {
+    expect(renderItemDialog({ name: "测试" })).not.toContain("使用限制");
+    expect(renderItemDialog({ name: "测试", attributes: { 使用限制: "" } })).not.toContain("使用限制");
+  });
+});
+
 describe("UI Kit v4 refinement public views", () => {
   test("renders the homepage as a database and tool entrance", () => {
     const html = renderHomeView({

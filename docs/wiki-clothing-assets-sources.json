@@ -1,0 +1,2887 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "key": "(P)0",
+      "file": "public/assets/game/Clothing_P_0.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/78/Farmer_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "4d26acc53e2e52776e5e936f505fff06747e39bc6f57cf66d6d2b1eabda80316"
+    },
+    {
+      "key": "(P)1",
+      "file": "public/assets/game/Clothing_P_1.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Shorts.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "2b5e6afb8f100003c73af73e5970d2c3feef2b51c44cdd64890087283dc1d4c2"
+    },
+    {
+      "key": "(P)10",
+      "file": "public/assets/game/Clothing_P_10.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Baggy_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "14f405de32f07015a0a41350d14eb926fafce0b4f88ec0042cc6a92658169230"
+    },
+    {
+      "key": "(P)11",
+      "file": "public/assets/game/Clothing_P_11.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Simple_Dress.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "24a91e80e2881aabe5a6f8ad81afbdb3247af6589e0b35aaf607478bfe8b91a4"
+    },
+    {
+      "key": "(P)12",
+      "file": "public/assets/game/Clothing_P_12.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Relaxed_Fit_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "26bb03db7c2f2e97025957d67a114ba3cedd96f2a68235c32aca2c4d3e349c69"
+    },
+    {
+      "key": "(P)13",
+      "file": "public/assets/game/Clothing_P_13.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4a/Relaxed_Fit_Shorts.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "74161869347002524df4c6a7cafaa472d8d91b23364721f3a0b8837d7bbf9d55"
+    },
+    {
+      "key": "(P)15",
+      "file": "public/assets/game/Clothing_P_15.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Springobjects071.png",
+      "source": "https://stardewvalleywiki.com/Secrets",
+      "width": 48,
+      "height": 48,
+      "sha256": "21c2bf2594740ebe958b5e098bfc1c2ea423a9d92da095e1005405202b251eb9"
+    },
+    {
+      "key": "(P)2",
+      "file": "public/assets/game/Clothing_P_2.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Long_Dress.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "0a5201dc7f028f8139b58537a45bcbea2b1d57a6bdbedd09400afb9005e3a64b"
+    },
+    {
+      "key": "(P)3",
+      "file": "public/assets/game/Clothing_P_3.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fa/Skirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "4e0ed8e625a33429749b71cd210ae0136bfeddc124f771c7540c1c36e433b160"
+    },
+    {
+      "key": "(P)4",
+      "file": "public/assets/game/Clothing_P_4.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/92/Pleated_Skirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "cbcf7a2e1f5fd9b8a0432b2f00f5805ef96d2ae4dc41712beadb0551742b5a60"
+    },
+    {
+      "key": "(P)5",
+      "file": "public/assets/game/Clothing_P_5.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Dinosaur_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "38fd31d79166486e9d8cdb8de434e42973fc5652cf410d2f23811dc693d2bfb3"
+    },
+    {
+      "key": "(P)6",
+      "file": "public/assets/game/Clothing_P_6.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Grass_Skirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "1d186cfe13723b662f809925f4f25f477a363af2cba1c82d7cca5c03b35907b6"
+    },
+    {
+      "key": "(P)7",
+      "file": "public/assets/game/Clothing_P_7.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4c/Luau_Skirt.png",
+      "source": "https://stardewvalleywiki.com/Luau_Skirt",
+      "width": 48,
+      "height": 48,
+      "sha256": "270313640f7d4023bebe321ad588e62dc97804f88a10899c82e2bc35c362520b"
+    },
+    {
+      "key": "(P)8",
+      "file": "public/assets/game/Clothing_P_8.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Genie_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "973e1b6e8c77ead4d13cc5249313024b5b3974ab252d92c7c57fe20a0fd24c3b"
+    },
+    {
+      "key": "(P)9",
+      "file": "public/assets/game/Clothing_P_9.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/42/Tight_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tight_Pants",
+      "width": 48,
+      "height": 48,
+      "sha256": "6ac680ef00e5f86b704724543806826887df020d744c4383848c1f28f538b758"
+    },
+    {
+      "key": "(P)998",
+      "file": "public/assets/game/Clothing_P_998.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/78/Farmer_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "4d26acc53e2e52776e5e936f505fff06747e39bc6f57cf66d6d2b1eabda80316"
+    },
+    {
+      "key": "(P)999",
+      "file": "public/assets/game/Clothing_P_999.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Genie_Pants.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 48,
+      "height": 48,
+      "sha256": "973e1b6e8c77ead4d13cc5249313024b5b3974ab252d92c7c57fe20a0fd24c3b"
+    },
+    {
+      "key": "(S)1000",
+      "file": "public/assets/game/Clothing_S_1000.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/db/Shirt000.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a025403d71433493f714139e1ce5a6eabbef9e88ad6a3014a8104f38c4df22a4"
+    },
+    {
+      "key": "(S)1001",
+      "file": "public/assets/game/Clothing_S_1001.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Shirt001.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4df30fd83d748e830e277f8757a83844d76d0484642c20997720125fce8e2479"
+    },
+    {
+      "key": "(S)1002",
+      "file": "public/assets/game/Clothing_S_1002.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Shirt002.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8fae429e1286b89bb78dd54eaa46acb21ae517aa6f1b3b245c75bc787ee24cb6"
+    },
+    {
+      "key": "(S)1003",
+      "file": "public/assets/game/Clothing_S_1003.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f5/Shirt003.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0188dcc3abccf23d334291fdebf81341672378ed4349b57e041af74d4660a863"
+    },
+    {
+      "key": "(S)1004",
+      "file": "public/assets/game/Clothing_S_1004.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/61/Shirt004.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5a24424ff2b747c523f9ee6803daac253ff0c175052dc054cf5251302f0b7b1e"
+    },
+    {
+      "key": "(S)1005",
+      "file": "public/assets/game/Clothing_S_1005.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Shirt005.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c235964c5e263aa415c738f0150ffeae93304d7166df8e2e2580ee17b174d226"
+    },
+    {
+      "key": "(S)1006",
+      "file": "public/assets/game/Clothing_S_1006.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Shirt006.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "db091391d3f2545a0c135235daaa6c8ba95bda82121ffa41465a0265869f55b9"
+    },
+    {
+      "key": "(S)1007",
+      "file": "public/assets/game/Clothing_S_1007.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Shirt007.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ead784405d24ab657a27b42ded32f386558d279db05c9edc4ace26e87fb4a2a2"
+    },
+    {
+      "key": "(S)1008",
+      "file": "public/assets/game/Clothing_S_1008.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Shirt008.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "194bdb51d19538263281f4f313929aac12ff189ba3595f327054000336b014ac"
+    },
+    {
+      "key": "(S)1009",
+      "file": "public/assets/game/Clothing_S_1009.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Shirt009.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6eeac6f4b71502d67bd7844f48db98985a238c4f6244801075572f68b5f7af06"
+    },
+    {
+      "key": "(S)1010",
+      "file": "public/assets/game/Clothing_S_1010.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ce/Shirt010.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8bef98f2b405e7e2f82fc87c0caf1b3e59080d92ee88122f39294a8435a705fc"
+    },
+    {
+      "key": "(S)1011",
+      "file": "public/assets/game/Clothing_S_1011.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Shirt011.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3bfc9f87c95c4836c58c51d2429f54ca33498b54ba0b46e27388c899253a594e"
+    },
+    {
+      "key": "(S)1012",
+      "file": "public/assets/game/Clothing_S_1012.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Shirt012.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5df3c4fa4bc0853e25751f73324839d1b833c671dc77aab6cea069276f2138df"
+    },
+    {
+      "key": "(S)1013",
+      "file": "public/assets/game/Clothing_S_1013.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Shirt013.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "090705b399d18dd071883b3367e156794513af5581c3398839e02e9155439caf"
+    },
+    {
+      "key": "(S)1014",
+      "file": "public/assets/game/Clothing_S_1014.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0f/Shirt014.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "97c2b2962c6a634d4dd953c495cc865fa29b4e15b26e85d059fc244c1a8f85c1"
+    },
+    {
+      "key": "(S)1015",
+      "file": "public/assets/game/Clothing_S_1015.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Shirt015.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "43f12a6275b32126224de938d7e159f6f957ced494f29591b992664dc7129ee4"
+    },
+    {
+      "key": "(S)1016",
+      "file": "public/assets/game/Clothing_S_1016.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b0/Shirt016.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c779d82616238c78a5980262473410aff319a28daffa9b0698867e46192a71e2"
+    },
+    {
+      "key": "(S)1017",
+      "file": "public/assets/game/Clothing_S_1017.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Shirt017.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "03ed83e9d62b767987caf56e228c5eea2247e92298fbaabbd95977747576e763"
+    },
+    {
+      "key": "(S)1018",
+      "file": "public/assets/game/Clothing_S_1018.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Shirt018.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4153333277ea233201cb7c5a32e8ac30e75f4052b8efbc8816ed8aa5323bd61d"
+    },
+    {
+      "key": "(S)1019",
+      "file": "public/assets/game/Clothing_S_1019.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Shirt019.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ed7d3a1f0d4712336db4245b8218f262e842d6ebfa8f083a3e56f06a715179f1"
+    },
+    {
+      "key": "(S)1020",
+      "file": "public/assets/game/Clothing_S_1020.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Shirt020.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4245150656cb0c52f707142d9abd2eeb689660d233580615aaacca4141bf172d"
+    },
+    {
+      "key": "(S)1021",
+      "file": "public/assets/game/Clothing_S_1021.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Shirt021.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3feb97fd7364dfe14b6f0685d5e24bf3f28bd9e42e55c5ebe6e02879c0cffffb"
+    },
+    {
+      "key": "(S)1022",
+      "file": "public/assets/game/Clothing_S_1022.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f0/Shirt022.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "980a847829785b3b1977657d85632272c18d1652a74731e28c9dda388047282e"
+    },
+    {
+      "key": "(S)1023",
+      "file": "public/assets/game/Clothing_S_1023.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/be/Shirt023.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6e4b5b09a3b42240ecfdc12bcbd56018e545113a4c025ca1ac502a37870beb6d"
+    },
+    {
+      "key": "(S)1024",
+      "file": "public/assets/game/Clothing_S_1024.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/76/Shirt024.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c582a9213d11bfd54ecc8b8d6487e3843018f152546c2d70260bd60916e29e4b"
+    },
+    {
+      "key": "(S)1025",
+      "file": "public/assets/game/Clothing_S_1025.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Shirt025.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d2f9a8aa9f34b37990a44a5f5eb412dc5aed922c4b0d037a56a3b877780fd26e"
+    },
+    {
+      "key": "(S)1026",
+      "file": "public/assets/game/Clothing_S_1026.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/95/Shirt026.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8d382095b8c6dc294ec7b829d11b6050d811fcc1990aacbfe60a950149a1cb19"
+    },
+    {
+      "key": "(S)1027",
+      "file": "public/assets/game/Clothing_S_1027.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Shirt027.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "91bf47391ce8965b1f5aa2d1665640fcb8aa5b652b935264f304241ba590759d"
+    },
+    {
+      "key": "(S)1028",
+      "file": "public/assets/game/Clothing_S_1028.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Shirt028.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "009a6600dbe06bbc97d45c847180fb288500f39a152b6e90cb2e947dc985b18f"
+    },
+    {
+      "key": "(S)1029",
+      "file": "public/assets/game/Clothing_S_1029.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Shirt029.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ba965beb5322e52ca1273cf914ae1bc53f6e3cb4ee8fc3458c51f214695f9031"
+    },
+    {
+      "key": "(S)1030",
+      "file": "public/assets/game/Clothing_S_1030.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/84/Shirt030.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a640f1a65d3c191b256a4356ccd926cee0ae0cd243959ab445cb7baca131d77d"
+    },
+    {
+      "key": "(S)1031",
+      "file": "public/assets/game/Clothing_S_1031.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Shirt031.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c58e78d3ef6bcd6948317e65dd2d0d4c292fb5563ae2157d52615aeeb520460f"
+    },
+    {
+      "key": "(S)1032",
+      "file": "public/assets/game/Clothing_S_1032.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Shirt032.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7dcff31b0303298c923580091c6c8730334af546590de6586d66ebc1d1ac34ac"
+    },
+    {
+      "key": "(S)1033",
+      "file": "public/assets/game/Clothing_S_1033.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Shirt033.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "240ee126ae5f87143f6fd3fd54a8196177a1566daf87ae42920d836546a75e95"
+    },
+    {
+      "key": "(S)1034",
+      "file": "public/assets/game/Clothing_S_1034.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Shirt034.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ee3ba469e1a4341837f37806702e3bcac1087ad9d0c0299e8526bf7a9c24f1a3"
+    },
+    {
+      "key": "(S)1035",
+      "file": "public/assets/game/Clothing_S_1035.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Shirt035.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b152d60b1fc3fdd5c624771ac73ab12506752ee90075e979861fbfe5994ce5c2"
+    },
+    {
+      "key": "(S)1036",
+      "file": "public/assets/game/Clothing_S_1036.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/20/Shirt036.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "67f2f515440019a9e7470c53c72ef6ad608bca81de2763f8e708855dfef836a7"
+    },
+    {
+      "key": "(S)1037",
+      "file": "public/assets/game/Clothing_S_1037.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Shirt037.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "59ef5beb7de643b2bb925c724e3b3fd8e645a40b3020dc8f6f1e6c6fa1f23acf"
+    },
+    {
+      "key": "(S)1038",
+      "file": "public/assets/game/Clothing_S_1038.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Shirt038.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4cdf6ef266029fb4052eb38186167e59cc055048df42367b87a35af1f2d1a21c"
+    },
+    {
+      "key": "(S)1039",
+      "file": "public/assets/game/Clothing_S_1039.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Shirt039.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d856fe210e0c0dcaf87533dddaf92262e179d6046c82517213fa6b08f0e328e0"
+    },
+    {
+      "key": "(S)1040",
+      "file": "public/assets/game/Clothing_S_1040.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/64/Shirt040.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f1d1c672f05998f242c7227fffa95dea606526c0cf2faf963240d887905d1974"
+    },
+    {
+      "key": "(S)1041",
+      "file": "public/assets/game/Clothing_S_1041.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Shirt041.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0d0e40a7ba747ba93fc5637a4daa5e780fde7e1a264bb01e35f0830a6916418e"
+    },
+    {
+      "key": "(S)1042",
+      "file": "public/assets/game/Clothing_S_1042.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/47/Shirt042.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d11fa7abeab716e66622ca36c82a715c0a57dba6aa32dea584c50c8f04f3c54d"
+    },
+    {
+      "key": "(S)1043",
+      "file": "public/assets/game/Clothing_S_1043.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/29/Shirt043.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7d80fe4a2d07058f7f8ad86f7c1415091873bb4559c9fb5382c9176ff2c572b5"
+    },
+    {
+      "key": "(S)1044",
+      "file": "public/assets/game/Clothing_S_1044.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Shirt044.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1228282bbad422b0f78af66a3b2788d804fdbc91732507e93daea6bac59a7cf6"
+    },
+    {
+      "key": "(S)1045",
+      "file": "public/assets/game/Clothing_S_1045.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Shirt045.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "79f5f24e6690fcceb256e4d80160d8575c1a69c8332e5021a58259e153e981fa"
+    },
+    {
+      "key": "(S)1046",
+      "file": "public/assets/game/Clothing_S_1046.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Shirt046.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "96f60f7c57de4c58ea308dafd3932710c90a8ae4f75943b6b412f5c689b8b99f"
+    },
+    {
+      "key": "(S)1047",
+      "file": "public/assets/game/Clothing_S_1047.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Shirt047.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2db90bbc3ce8f2666843cbd7091968035146e8e22e444ac1d97c1e45e521bdc4"
+    },
+    {
+      "key": "(S)1048",
+      "file": "public/assets/game/Clothing_S_1048.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Shirt048.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b31360def0e2705e3a2fc66a31b14dbc768a4f922df71a195eb8f47f9ce4e019"
+    },
+    {
+      "key": "(S)1049",
+      "file": "public/assets/game/Clothing_S_1049.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Shirt049.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "87321b48a8beca5dd0cb4c9e9b2078ecfbce11c134dca1327c438d6f0ba3a4dc"
+    },
+    {
+      "key": "(S)1050",
+      "file": "public/assets/game/Clothing_S_1050.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bf/Shirt050.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "70a593fd764c0275d5cbbe5d15e1514a789d4c7a887d53470513cdde13e78508"
+    },
+    {
+      "key": "(S)1051",
+      "file": "public/assets/game/Clothing_S_1051.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/32/Shirt051.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e54eeb69ae5d7a808ec49233bcaf8a0bae785231b98e026ca99105c81543b6f5"
+    },
+    {
+      "key": "(S)1052",
+      "file": "public/assets/game/Clothing_S_1052.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/88/Shirt052.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "364cc152f7b510f6d7a075c62b8630f73298aa0f71cdb59dbdbdc342490ba3d3"
+    },
+    {
+      "key": "(S)1053",
+      "file": "public/assets/game/Clothing_S_1053.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Shirt053.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8d595980634049cc04c71af4bfe74f80e4457755d0d8a62d0adfacae125f5784"
+    },
+    {
+      "key": "(S)1054",
+      "file": "public/assets/game/Clothing_S_1054.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Shirt054.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7c6c87e8c610d11abad602ac9af7d0938f77a7877669467e09da23e7f344d4e0"
+    },
+    {
+      "key": "(S)1055",
+      "file": "public/assets/game/Clothing_S_1055.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Shirt055.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "bd8e151914a2772c1557821e47f4d15183eb1bbc504c9cdccc4dc34b7050757e"
+    },
+    {
+      "key": "(S)1056",
+      "file": "public/assets/game/Clothing_S_1056.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/77/Shirt056.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c008b273768f127820e686cb90838ff4a76b1358c1935dd729060c5878656507"
+    },
+    {
+      "key": "(S)1057",
+      "file": "public/assets/game/Clothing_S_1057.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/39/Shirt057.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7bbed33af89b97e5fc76fc285e5d14fbe215f19cc630a18aab648275ef7b9697"
+    },
+    {
+      "key": "(S)1058",
+      "file": "public/assets/game/Clothing_S_1058.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Shirt058.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c5151f56e60e4575849e6062ee9663b8fe3f2fc839e011432cbbdec2a2bcb996"
+    },
+    {
+      "key": "(S)1059",
+      "file": "public/assets/game/Clothing_S_1059.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Shirt059.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1ecea2896320dbf4a532b9efdef5c48719e0b904b8642e5cdb361839908669da"
+    },
+    {
+      "key": "(S)1060",
+      "file": "public/assets/game/Clothing_S_1060.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Shirt060.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "dab01241ce389985ecce42434f7ac43c974f7e6d773e1d167ee9650df033fa8f"
+    },
+    {
+      "key": "(S)1061",
+      "file": "public/assets/game/Clothing_S_1061.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Shirt061.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "db220a63249b833b79cd719f5e7e6e019e0e95a7a008fa0d2d94beaeb5ccd9c6"
+    },
+    {
+      "key": "(S)1062",
+      "file": "public/assets/game/Clothing_S_1062.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Shirt062.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8528e248d7dbd4f98abd97339d4c327127730a847e86280b04f1ec7b105fa128"
+    },
+    {
+      "key": "(S)1063",
+      "file": "public/assets/game/Clothing_S_1063.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Shirt063.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b51ac0c4c50111961f5dd64dc791d62cbf33dac5a8fc2e071747cd419c21f7ad"
+    },
+    {
+      "key": "(S)1064",
+      "file": "public/assets/game/Clothing_S_1064.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Shirt064.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7fb5164ffafe90b197970900851a9a23edeb744324e879a5fc8fb42692427061"
+    },
+    {
+      "key": "(S)1065",
+      "file": "public/assets/game/Clothing_S_1065.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Shirt065.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5f89b23707afd280cef34587bd4723ce6350b7c6682404c0d2eb4b2abf176816"
+    },
+    {
+      "key": "(S)1066",
+      "file": "public/assets/game/Clothing_S_1066.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/98/Shirt066.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0175894e23b80db83b321ab0bb926dcf65275f7e8846dab9e1abec3261a7a841"
+    },
+    {
+      "key": "(S)1067",
+      "file": "public/assets/game/Clothing_S_1067.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Shirt067.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "48ca00e74d8e22fa150376a00794973e78c308c93770ff11b20633a875075676"
+    },
+    {
+      "key": "(S)1068",
+      "file": "public/assets/game/Clothing_S_1068.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/04/Shirt068.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d04329289af7391d96f3ecf776f2eb495441da91df1e273fcdb53ee9da111817"
+    },
+    {
+      "key": "(S)1069",
+      "file": "public/assets/game/Clothing_S_1069.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Shirt069.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c0f58c45450d01be57686b9e72dd546a88d074bf027ac6c8e7965f0e24fd017c"
+    },
+    {
+      "key": "(S)1070",
+      "file": "public/assets/game/Clothing_S_1070.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Shirt070.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b85af9590602dd7951db154a5ffd2ea7654c54d5d0e60b61a129c567a227baca"
+    },
+    {
+      "key": "(S)1071",
+      "file": "public/assets/game/Clothing_S_1071.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Shirt071.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7f87f9d59c6d6fb7690189a7ab717b7385e3fee59ede00a9aa76a08f0207e94c"
+    },
+    {
+      "key": "(S)1072",
+      "file": "public/assets/game/Clothing_S_1072.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Shirt072.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b42803736b022dc7de8106aee4cc923a41cc3456f3787d75d7a9575ee0a4e3c7"
+    },
+    {
+      "key": "(S)1073",
+      "file": "public/assets/game/Clothing_S_1073.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shirt073.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "81339f2548fe7ab55f81ab4ac3fc098fa00d29de0a04560dffa1d6bbe9e636ab"
+    },
+    {
+      "key": "(S)1074",
+      "file": "public/assets/game/Clothing_S_1074.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Shirt074.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "272be9d1700521ed71a12d6dcdcb24e89fab88a974e8857dbe9732b14eaa7ddb"
+    },
+    {
+      "key": "(S)1075",
+      "file": "public/assets/game/Clothing_S_1075.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Shirt075.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9f51f839dbeb38384f8aed5e561baebf6d20692193eecd6bf8c001948401dfba"
+    },
+    {
+      "key": "(S)1076",
+      "file": "public/assets/game/Clothing_S_1076.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b5/Shirt076.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6032f1552f6451d667ea06cfaafb5a8ec8e858984d113a76fcd2ee8fa4e55c66"
+    },
+    {
+      "key": "(S)1077",
+      "file": "public/assets/game/Clothing_S_1077.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Shirt077.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "79ad11fa45edb23f20328071e47b837208e97837620c341d082ede6d9269f58a"
+    },
+    {
+      "key": "(S)1078",
+      "file": "public/assets/game/Clothing_S_1078.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Shirt078.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a64566a1d80c60e35d7d82c0dda96f3279abb7c6d63095ef782bbc15f49466ba"
+    },
+    {
+      "key": "(S)1079",
+      "file": "public/assets/game/Clothing_S_1079.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/78/Shirt079.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "07f44632234d40f4fde2e6c797a10daee96188d90fa79026158a332044807367"
+    },
+    {
+      "key": "(S)1080",
+      "file": "public/assets/game/Clothing_S_1080.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Shirt080.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "df587a0328a2ed7aabe37002ad0b65413815c6ad24fb302e9db23bd5dc8e63d7"
+    },
+    {
+      "key": "(S)1081",
+      "file": "public/assets/game/Clothing_S_1081.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Shirt081.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "06d2e36838e059c17fa4abcea1b2330ae44b607289176d35881235a44afc47eb"
+    },
+    {
+      "key": "(S)1082",
+      "file": "public/assets/game/Clothing_S_1082.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Shirt082.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e59abdc42f796056621c229645864907d2f82e659a0b53cb7232cd9f26314e1c"
+    },
+    {
+      "key": "(S)1083",
+      "file": "public/assets/game/Clothing_S_1083.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Shirt083.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d0856ee31446a9297824dc1398e3477443b03ca2544ce6a8dc2498e95f518061"
+    },
+    {
+      "key": "(S)1084",
+      "file": "public/assets/game/Clothing_S_1084.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Shirt084.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7a963cd39a55a732d0ca2fe422f135f019b9cc2372bc347199a4c7b33e22d967"
+    },
+    {
+      "key": "(S)1085",
+      "file": "public/assets/game/Clothing_S_1085.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Shirt085.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e01b038865fbf04c714dfe0c49a4e75bff558ba87f8d8c5807cd36f71cd19b26"
+    },
+    {
+      "key": "(S)1086",
+      "file": "public/assets/game/Clothing_S_1086.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/27/Shirt086.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "71ff5952d84d5a2bb845542a1ad12642f80c0e3817c4d038c956b32845b8c20f"
+    },
+    {
+      "key": "(S)1087",
+      "file": "public/assets/game/Clothing_S_1087.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Shirt087.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ee608b9dda5b301aed4a68287a1766a6470c86190b47ebcc313ea7c4bdace794"
+    },
+    {
+      "key": "(S)1088",
+      "file": "public/assets/game/Clothing_S_1088.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Shirt088.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f6394c2c9b573efe9d5ab6b4b57ccea7d48ba816404cc82733869ef1ae97a54e"
+    },
+    {
+      "key": "(S)1089",
+      "file": "public/assets/game/Clothing_S_1089.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bf/Shirt089.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ec41264aad4f7267f358ada358d15e088ca46a8bec1a7de7e887cbb328854e1c"
+    },
+    {
+      "key": "(S)1090",
+      "file": "public/assets/game/Clothing_S_1090.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/98/Shirt090.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "47e3e85019f84cabf57dfa5b4ffd3759d3757e1b61cd6c5c55c6ddc9370de5d2"
+    },
+    {
+      "key": "(S)1091",
+      "file": "public/assets/game/Clothing_S_1091.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ee/Shirt091.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8359f4abc07d05f96974d48ceebfb6b5701cf9408ed38da3d19c96165d2821ce"
+    },
+    {
+      "key": "(S)1092",
+      "file": "public/assets/game/Clothing_S_1092.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Shirt092.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "10a7d148062e15f1c9c42256fafd3580c9166b507363b3e7ca23666115a9a364"
+    },
+    {
+      "key": "(S)1093",
+      "file": "public/assets/game/Clothing_S_1093.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/28/Shirt093.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8221581fd20a871787e9e58299067434d7076654f431512c8dd0c0aa5cdd2c29"
+    },
+    {
+      "key": "(S)1094",
+      "file": "public/assets/game/Clothing_S_1094.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Shirt094.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4e33af1d000a1dc4d7321910a86ff60ab7ce751ed2060fdbf8538732db712351"
+    },
+    {
+      "key": "(S)1095",
+      "file": "public/assets/game/Clothing_S_1095.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Shirt095.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "86af4b5610a2cb79d73f8626a7e1f72a79c15b7c1b4f956e6bfbd5b586974c44"
+    },
+    {
+      "key": "(S)1096",
+      "file": "public/assets/game/Clothing_S_1096.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Shirt096.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "75f0a61e54a2306050541373b5076f5407261bb1131369cb30987b89e849be47"
+    },
+    {
+      "key": "(S)1097",
+      "file": "public/assets/game/Clothing_S_1097.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Shirt097.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ca2ce34a1e916fb1dd29037428ab43637009d8b0a7f222996ca0c518c910e4b1"
+    },
+    {
+      "key": "(S)1098",
+      "file": "public/assets/game/Clothing_S_1098.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Shirt098.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3f95b3b384af9b7cdc058bc7de8fe1e148619005af49a2e9f92def3cf850b4bf"
+    },
+    {
+      "key": "(S)1099",
+      "file": "public/assets/game/Clothing_S_1099.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/de/Shirt099.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "26c36c81a9f96d511411a08d673335042d982687d9b0a5175e5e3cac5e5fe14f"
+    },
+    {
+      "key": "(S)1100",
+      "file": "public/assets/game/Clothing_S_1100.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Shirt100.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6fff488b9d7afd8e9057a223ff6e4f93a3909e3e830937cf9bb2174132de6d7f"
+    },
+    {
+      "key": "(S)1101",
+      "file": "public/assets/game/Clothing_S_1101.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Shirt101.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "11aff74e94aabc1dfc6e77331bf8b9354324cb94723f27251949a8fdb601117f"
+    },
+    {
+      "key": "(S)1102",
+      "file": "public/assets/game/Clothing_S_1102.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Shirt102.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "15efb4bcd5e9fc49e6132a186a4466624c2ed177464b19a09c459869d6a8f848"
+    },
+    {
+      "key": "(S)1103",
+      "file": "public/assets/game/Clothing_S_1103.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Shirt103.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "441e60ec227622f9c403ce4911ccac69a8a68a324634b0808d993b66d949a580"
+    },
+    {
+      "key": "(S)1104",
+      "file": "public/assets/game/Clothing_S_1104.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Shirt104.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5b830386914fb3e1191dbb343c686e92544aa0ee803de432ed392cd4373e5911"
+    },
+    {
+      "key": "(S)1105",
+      "file": "public/assets/game/Clothing_S_1105.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Shirt105.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8af1e7683019274a6e826661efb8a93a646e4c8428e499b3222bdbec4b67e304"
+    },
+    {
+      "key": "(S)1106",
+      "file": "public/assets/game/Clothing_S_1106.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/44/Shirt106.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "02eb5181290d8351b99a7c7b26f36e9598906e5cf0ecc81fd3968bede1d26c98"
+    },
+    {
+      "key": "(S)1107",
+      "file": "public/assets/game/Clothing_S_1107.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/48/Shirt107.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "99debad92847c0446912f56eadab048f4be0c88932b207320ccf7d709f0b246c"
+    },
+    {
+      "key": "(S)1108",
+      "file": "public/assets/game/Clothing_S_1108.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Shirt108.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "392b8036e59b239d77049a9507bf22f5a4286fc0f87d73f60dc32c04e822ecd9"
+    },
+    {
+      "key": "(S)1109",
+      "file": "public/assets/game/Clothing_S_1109.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Shirt109.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9da153a2242bcbe1598682a1b8a481b67bde3f2e4d8bcfd3a5c00d94255c8836"
+    },
+    {
+      "key": "(S)1110",
+      "file": "public/assets/game/Clothing_S_1110.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Shirt110.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "46e4ef8b1c0bf6897fe0c23bb10dce2afe0fadb615a9ccbc78de523bf52e2eb2"
+    },
+    {
+      "key": "(S)1111",
+      "file": "public/assets/game/Clothing_S_1111.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Shirt111.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "23c2dac86a8a59e9169073f3b42eed1080428e987c25b87ebdf2ba5be2db121b"
+    },
+    {
+      "key": "(S)1112",
+      "file": "public/assets/game/Clothing_S_1112.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3c/Shirt112.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f68ee77817691b843b8f525b50a330252b42608ad3a4f0f882c1f8831095e504"
+    },
+    {
+      "key": "(S)1113",
+      "file": "public/assets/game/Clothing_S_1113.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/09/Shirt113.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e9b76e33c50c3747c042cc21eff0744ae28f45eac7ed42cecd70d1d486c2c76b"
+    },
+    {
+      "key": "(S)1114",
+      "file": "public/assets/game/Clothing_S_1114.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/33/Shirt114.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c3c0c4448cad3acd1d04fb6a0627541ab552acbf9e558906b5cf28ad22ea5053"
+    },
+    {
+      "key": "(S)1115",
+      "file": "public/assets/game/Clothing_S_1115.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Shirt115.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "32bf50231c0172435c75acfd459c7d438448de7c9a217233946e21a9f7e176af"
+    },
+    {
+      "key": "(S)1116",
+      "file": "public/assets/game/Clothing_S_1116.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/be/Shirt116.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "25001b458c7533d6d04d7819adc2d2438e35dd378bd707890ea5f451808f7c8d"
+    },
+    {
+      "key": "(S)1117",
+      "file": "public/assets/game/Clothing_S_1117.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Shirt117.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fb7270d9930de0554ebd5f401a88d91a5919f91733b2830078601063520aafb5"
+    },
+    {
+      "key": "(S)1118",
+      "file": "public/assets/game/Clothing_S_1118.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Shirt118.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a0be915ed6414b7e7f1d98333678b4e34cce99329e42ae70764bc9d22fc5bdf3"
+    },
+    {
+      "key": "(S)1119",
+      "file": "public/assets/game/Clothing_S_1119.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shirt119.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "762708b55847245a8c9b9729a1902d86ff8c673627162fb3d24f400d7116917d"
+    },
+    {
+      "key": "(S)1120",
+      "file": "public/assets/game/Clothing_S_1120.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Shirt120.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "787211714ec514f8fcc5596c3f78b80c414cb265d13ddbb5f7648646d6330ad1"
+    },
+    {
+      "key": "(S)1121",
+      "file": "public/assets/game/Clothing_S_1121.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Shirt121.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f14e8d67f9165bf7f169711ef31283555f1936952b1a39b68503aca6bb8dc24d"
+    },
+    {
+      "key": "(S)1122",
+      "file": "public/assets/game/Clothing_S_1122.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f5/Shirt122.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2f97263f6b34b861af3291a53d23a2dddc7c58012bf458066bd65804e2663a2d"
+    },
+    {
+      "key": "(S)1123",
+      "file": "public/assets/game/Clothing_S_1123.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d0/Shirt123.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d7dd48f28d3ea1b9ec5bb86710b51bb0cc6c3dfa3242188f1d6c5c5588a37e92"
+    },
+    {
+      "key": "(S)1124",
+      "file": "public/assets/game/Clothing_S_1124.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fd/Shirt124.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "480326771a8ef3d8805289a50232e3e813d12cef109d1b32ddbf51c821108828"
+    },
+    {
+      "key": "(S)1125",
+      "file": "public/assets/game/Clothing_S_1125.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Shirt125.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "92c0e37ae7ea0c96ee09d810c4d4da92b8503f4e16d01d2496a73bbfd01f58c5"
+    },
+    {
+      "key": "(S)1126",
+      "file": "public/assets/game/Clothing_S_1126.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Shirt126.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e2e1d66d41f76c8953f34538021b4c318ccb30befa8080f7b006140954468267"
+    },
+    {
+      "key": "(S)1127",
+      "file": "public/assets/game/Clothing_S_1127.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/20/Shirt127.png",
+      "source": "https://stardewvalleywiki.com/Emily's_Magic_Shirt",
+      "width": 32,
+      "height": 32,
+      "sha256": "60ff28d5606817b6938670c37f8d6ebc676955649eab7a18d997e38f50afac66"
+    },
+    {
+      "key": "(S)1128",
+      "file": "public/assets/game/Clothing_S_1128.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Shirt128.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a1bd80c9dc47e6787b3cd5f6da132b95910eca762edbe90faa440a68f5f87171"
+    },
+    {
+      "key": "(S)1129",
+      "file": "public/assets/game/Clothing_S_1129.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/23/Shirt129.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c1808dfaaba665fc045dda38b49a96d7caac0e45b4fef79f19fad692cf852e1b"
+    },
+    {
+      "key": "(S)1130",
+      "file": "public/assets/game/Clothing_S_1130.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/eb/Shirt130.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "20b616f90de50f51938632666444261a44677ca2b8e58e1d4fc7b2a04840d3ea"
+    },
+    {
+      "key": "(S)1131",
+      "file": "public/assets/game/Clothing_S_1131.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Shirt131.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9e5e5d0036822554e622cec8c98707b2d2cfa64929c72c702372efeabdb185be"
+    },
+    {
+      "key": "(S)1132",
+      "file": "public/assets/game/Clothing_S_1132.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/48/Shirt132.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "84caee1d8483c77bcd4b3a0dfd6382a0658cfa01610530fe3868320ae8729c92"
+    },
+    {
+      "key": "(S)1133",
+      "file": "public/assets/game/Clothing_S_1133.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Shirt133.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "bec202df0332a3a9a19aab9eba0c28b01ad84631ff0b1a32638196c1f5a41328"
+    },
+    {
+      "key": "(S)1134",
+      "file": "public/assets/game/Clothing_S_1134.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7f/Shirt134.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5f042eec2e23cd1c7a6fee68b46534302b4e43f1fbb438112ff5b321dce5ebe8"
+    },
+    {
+      "key": "(S)1135",
+      "file": "public/assets/game/Clothing_S_1135.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/52/Shirt135.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "565b2be18554804807577dc23f8e5cce8a51fa358bc0ced1f53dce0ba11abe71"
+    },
+    {
+      "key": "(S)1136",
+      "file": "public/assets/game/Clothing_S_1136.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/31/Shirt136.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d04ada84f93343b84cd07fc9a2cb2e2450e95dc9eeb958b81389ed4a6c945dd9"
+    },
+    {
+      "key": "(S)1137",
+      "file": "public/assets/game/Clothing_S_1137.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Shirt137.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7cd04524b1cab7cb635d147a8dc294e7e12e8a513efd21429824cd299057742b"
+    },
+    {
+      "key": "(S)1138",
+      "file": "public/assets/game/Clothing_S_1138.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Shirt138.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f9078e87269cf8aad849bf0bab6ba183f85c3117944e0649ca4dc4e4233d6f64"
+    },
+    {
+      "key": "(S)1139",
+      "file": "public/assets/game/Clothing_S_1139.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Shirt139.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b3d963c25f2f2ed1ffe1561617c3514b7096f35c788679c3c13dd95320533955"
+    },
+    {
+      "key": "(S)1140",
+      "file": "public/assets/game/Clothing_S_1140.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Shirt140.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f5ed71b3dc0872725e0fa1143786cb18d7eb8176bc9f68530bedd5cc33d99c0f"
+    },
+    {
+      "key": "(S)1141",
+      "file": "public/assets/game/Clothing_S_1141.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Shirt141.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1c247f3a01b652d17e502f9368dfe82f6ebecd20e79dcc3fa43e64e2c87e412d"
+    },
+    {
+      "key": "(S)1142",
+      "file": "public/assets/game/Clothing_S_1142.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Shirt142.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "31d3dfa01a3962a4fa394bd76771037f7518c8128f6fcc15404c51fed47227ff"
+    },
+    {
+      "key": "(S)1143",
+      "file": "public/assets/game/Clothing_S_1143.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/50/Shirt143.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "066c6a238bbb785431a210b6a08fe557bf9825a8a54f6c8a1b4bc46233c93eeb"
+    },
+    {
+      "key": "(S)1144",
+      "file": "public/assets/game/Clothing_S_1144.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/07/Shirt144.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "23ebca3ad5b2ab23a8a755db0ad03630c98f3247a6dd013c428bdf0fd3f3f8fb"
+    },
+    {
+      "key": "(S)1145",
+      "file": "public/assets/game/Clothing_S_1145.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Shirt145.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "395e190dcc0ef7cfea84f19e6430ed46a25a371beafb4abad3191d31f3763a30"
+    },
+    {
+      "key": "(S)1146",
+      "file": "public/assets/game/Clothing_S_1146.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Shirt146.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "eaad616badf0c70166d9d8da8131da62a3594aacc7bd47b463572ba7467d4d4c"
+    },
+    {
+      "key": "(S)1147",
+      "file": "public/assets/game/Clothing_S_1147.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Shirt147.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "31084ba48d18a3c6a7846c2c64e9e9134a0bbdf89298e5511b9ad174d3f60237"
+    },
+    {
+      "key": "(S)1148",
+      "file": "public/assets/game/Clothing_S_1148.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/60/Shirt148.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8101832694fb60bebcda8b94cd169c0747a594fad5c0021f785e2968d857ae1e"
+    },
+    {
+      "key": "(S)1149",
+      "file": "public/assets/game/Clothing_S_1149.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0f/Shirt149.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "83c68bd003f77704d0b2e96af5dc1cf6bdac94e76287b631b567c835d41fb94b"
+    },
+    {
+      "key": "(S)1150",
+      "file": "public/assets/game/Clothing_S_1150.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Shirt150.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0b06c3b2ad0d469b83944d1873764ecd8c7f57cffc6ab2f8b9ab79db334773eb"
+    },
+    {
+      "key": "(S)1151",
+      "file": "public/assets/game/Clothing_S_1151.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Shirt151.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5e4d3033654baa05fdb4169db803e96011a351e0f66e2eccf4470cc9ce8c34f0"
+    },
+    {
+      "key": "(S)1152",
+      "file": "public/assets/game/Clothing_S_1152.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/48/Shirt152.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0c952f350a61ae1cb0c79410f2a1212a20fb528be25138c140c9d6ffb5052c78"
+    },
+    {
+      "key": "(S)1153",
+      "file": "public/assets/game/Clothing_S_1153.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/96/Shirt153.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "acc68ce792148b18fcb9e01d82f4d1b5bb58b3f1d309ad010e833ff90c3a3661"
+    },
+    {
+      "key": "(S)1154",
+      "file": "public/assets/game/Clothing_S_1154.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Shirt154.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "cce300e22b96916bde6aeeb66b193495d6a7f2afa699802be051a3388841bb72"
+    },
+    {
+      "key": "(S)1155",
+      "file": "public/assets/game/Clothing_S_1155.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Shirt155.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "261c5239d88f191553769f6f7eb2f99ad05f241e7d4599752478ff07995a1b7e"
+    },
+    {
+      "key": "(S)1156",
+      "file": "public/assets/game/Clothing_S_1156.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Shirt156.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "34b921c18072bdffc50e3dddfa9d842c841bae3419f7dbd2a3821ec2b31b368c"
+    },
+    {
+      "key": "(S)1157",
+      "file": "public/assets/game/Clothing_S_1157.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Shirt157.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "30b6985fe83be6e203b397b2e986c9c9c2eb99336ddc9923ad7213fcff827a3b"
+    },
+    {
+      "key": "(S)1158",
+      "file": "public/assets/game/Clothing_S_1158.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Shirt158.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "422a053b1208a3e951884bbdabc315e9f0db1d2c2df4ed7f2c9c117478b961e3"
+    },
+    {
+      "key": "(S)1159",
+      "file": "public/assets/game/Clothing_S_1159.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Shirt159.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "87709316e29732d982b03c56bcafd4813dafa59837f3036a15b84499e300cfea"
+    },
+    {
+      "key": "(S)1160",
+      "file": "public/assets/game/Clothing_S_1160.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Shirt160.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "97a23cc1eb142c564b8efeaff71e767a471d407a8fff5e9bbb8153749ea40f6d"
+    },
+    {
+      "key": "(S)1161",
+      "file": "public/assets/game/Clothing_S_1161.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/88/Shirt161.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "14ec120003c00120bb33bcd8176bc21a46dbeaebdc02f822314269d86cf44dec"
+    },
+    {
+      "key": "(S)1162",
+      "file": "public/assets/game/Clothing_S_1162.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Shirt162.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1d98975ac95d67c0e75a583471c4bef3cde18d5bede1611d397a240c6cb2efc7"
+    },
+    {
+      "key": "(S)1163",
+      "file": "public/assets/game/Clothing_S_1163.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ae/Shirt163.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f55155b4f39333b9d0debf6b0c034d0a5788898ecdba63d3bd5b327f0d565f1e"
+    },
+    {
+      "key": "(S)1164",
+      "file": "public/assets/game/Clothing_S_1164.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Shirt164.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9aa48e7d7b0f2fe9a325d769b899b0f79ff961ba96e79952507c8dedfb20036f"
+    },
+    {
+      "key": "(S)1165",
+      "file": "public/assets/game/Clothing_S_1165.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Shirt165.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "bfd3a9c0e41c45ee05509d6e11290f571b5f314ee0e1b13597b6a9a9869c3854"
+    },
+    {
+      "key": "(S)1166",
+      "file": "public/assets/game/Clothing_S_1166.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/61/Shirt166.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e4386eb38d5dc662b017b1a35564cfb307eecf7c5f8a8fe71b06642523ca7190"
+    },
+    {
+      "key": "(S)1167",
+      "file": "public/assets/game/Clothing_S_1167.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Shirt167.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1b2855d63153b686a62466bff5cfe1857c0012183df7bc6c157f6b991dd89bf4"
+    },
+    {
+      "key": "(S)1168",
+      "file": "public/assets/game/Clothing_S_1168.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Shirt168.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6ae245cac9865f671547239bb799fa50bf4f38d63264abf75fcb39dc944b9efc"
+    },
+    {
+      "key": "(S)1169",
+      "file": "public/assets/game/Clothing_S_1169.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Shirt169.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "cce4235b76bdf4e4cbd682610843c9270a1e582adb72aeb8badd57474d4105cc"
+    },
+    {
+      "key": "(S)1170",
+      "file": "public/assets/game/Clothing_S_1170.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Shirt170.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d59d31fc8f0cbe542d72e83f0097b51097a032c0459b8abc0ecedc2d957ee24f"
+    },
+    {
+      "key": "(S)1171",
+      "file": "public/assets/game/Clothing_S_1171.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Shirt171.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9843286a5fad1b7aa0997077362076f8a332ec4f4814087d01d83f06d60de094"
+    },
+    {
+      "key": "(S)1172",
+      "file": "public/assets/game/Clothing_S_1172.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Shirt172.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "32c64209c0906541a8677c0f3d44ed28f57a728d95e6ad994c0d25f94cdbf056"
+    },
+    {
+      "key": "(S)1173",
+      "file": "public/assets/game/Clothing_S_1173.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Shirt173.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fa1ec6cdc85bf64e7fbd7d94552fb246014bf54b0d7726c983f03f67c19d4e4b"
+    },
+    {
+      "key": "(S)1174",
+      "file": "public/assets/game/Clothing_S_1174.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Shirt174.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0f244812b86fc2fee930c8098ac8a56aede5251484dee8031e371a43ba052fbc"
+    },
+    {
+      "key": "(S)1175",
+      "file": "public/assets/game/Clothing_S_1175.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Shirt175.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d8fee8e40ccd1ae63d8c6de40ce75c29ba4b04b999667b0774533637854abef0"
+    },
+    {
+      "key": "(S)1176",
+      "file": "public/assets/game/Clothing_S_1176.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/22/Shirt176.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "85f9845f0b64d796ca0727f2d6ab84d7bc4db382b900c620f5cd48bf38b6a3d0"
+    },
+    {
+      "key": "(S)1177",
+      "file": "public/assets/game/Clothing_S_1177.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/93/Shirt177.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "130f76c5c98bcdf8f974b138f5772bbcaf26c960ee2ab76630e86beadbe1b994"
+    },
+    {
+      "key": "(S)1178",
+      "file": "public/assets/game/Clothing_S_1178.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/89/Shirt178.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e83637f407db37de578b9975ab01e4d5fbfb37e6a18d4baa74c6632dd0c1bd8e"
+    },
+    {
+      "key": "(S)1179",
+      "file": "public/assets/game/Clothing_S_1179.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2a/Shirt179.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "558b273163e6cf52b394d34360db09957bf0c9d53a655d48b2f23164b074dc4e"
+    },
+    {
+      "key": "(S)1180",
+      "file": "public/assets/game/Clothing_S_1180.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Shirt180.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "90ea827b7af2adc5643f199e3b48d723d1de4ddfc52639cc64dd5ebab8d79dcf"
+    },
+    {
+      "key": "(S)1181",
+      "file": "public/assets/game/Clothing_S_1181.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Shirt181.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d753614f78ea71320a111f173e0fd75f13a6bf1a85d93e7896cb10ea44a35f18"
+    },
+    {
+      "key": "(S)1182",
+      "file": "public/assets/game/Clothing_S_1182.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/14/Shirt182.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "90d8e5e3791740966bc9869c439de1da2c47f3006efcf0fa6db0524fe465bef2"
+    },
+    {
+      "key": "(S)1183",
+      "file": "public/assets/game/Clothing_S_1183.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Shirt183.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e8d565df23e9836b3b69f7b78794e526222529b4377b93b5f95295999664ee1d"
+    },
+    {
+      "key": "(S)1184",
+      "file": "public/assets/game/Clothing_S_1184.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Shirt184.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9576d94455d6f94378e9bf84fd04c065d0d381b40e31a9d9156a00c90ef6dd0e"
+    },
+    {
+      "key": "(S)1185",
+      "file": "public/assets/game/Clothing_S_1185.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Shirt185.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2cc736c832b8ea992202bca30e13dd9397a0cd49a6be99dfd52e591766cb7792"
+    },
+    {
+      "key": "(S)1186",
+      "file": "public/assets/game/Clothing_S_1186.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Shirt186.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f4b0747715678b7eaf471b4bb256326b448a198fd65e72d42e0fc61a3c2cd529"
+    },
+    {
+      "key": "(S)1187",
+      "file": "public/assets/game/Clothing_S_1187.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c0/Shirt187.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d97afeea7eabf09cf63b8e4485af1fc19955cbb71f81859b02962dce2b3e1255"
+    },
+    {
+      "key": "(S)1188",
+      "file": "public/assets/game/Clothing_S_1188.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Shirt188.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "711f5f04a601796f4978fa6738b6eaa404b8560ff2d43aa80b661eee63278540"
+    },
+    {
+      "key": "(S)1189",
+      "file": "public/assets/game/Clothing_S_1189.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Shirt189.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fd28009bf4db1150e71dbde407a72328c07df2a4737658f152d305b7d77cb988"
+    },
+    {
+      "key": "(S)1190",
+      "file": "public/assets/game/Clothing_S_1190.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/09/Shirt190.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "82f379b29cc4ecff219dd8b65202ecc32b5bc0527aee9dd85a02188e4d8faab6"
+    },
+    {
+      "key": "(S)1191",
+      "file": "public/assets/game/Clothing_S_1191.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Shirt191.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "22c7ac63cedee541478cff16e21352a5152841c91f93780d9365a4d4e12112a3"
+    },
+    {
+      "key": "(S)1192",
+      "file": "public/assets/game/Clothing_S_1192.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Shirt192.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ea7dc4174d814e9cc9b32f5ef0337bd00292a7134672b11bfa41d3788277ca5d"
+    },
+    {
+      "key": "(S)1193",
+      "file": "public/assets/game/Clothing_S_1193.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Shirt193.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "365630b7261930d8efae48527e1a018738de796f1c358d0b5a88694325b16290"
+    },
+    {
+      "key": "(S)1194",
+      "file": "public/assets/game/Clothing_S_1194.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/33/Shirt194a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7a40bff09e55657e6619f294a1081b55909c0bb09efa4c64f41e1ec57dae4a1c"
+    },
+    {
+      "key": "(S)1195",
+      "file": "public/assets/game/Clothing_S_1195.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/de/Shirt195.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6c6d649e7254d9900005a3a40a1f37e22dfbaa4c1f1e8abcb3c03845aca273f9"
+    },
+    {
+      "key": "(S)1196",
+      "file": "public/assets/game/Clothing_S_1196.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b2/Shirt196.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9d973e3ee36659dfcc2c210fa01e0fcd723c1c5bea826e5c6d2284a9f937ff9a"
+    },
+    {
+      "key": "(S)1197",
+      "file": "public/assets/game/Clothing_S_1197.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Shirt197.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b7ae3d436a7edd358a7f93408a2413454211bac509e7c996b25c6f81b48918c1"
+    },
+    {
+      "key": "(S)1198",
+      "file": "public/assets/game/Clothing_S_1198.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Shirt198.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0a64ba73c1d23071cda4f29098ec6acbb53a4ee440759b9233f2158dc5670fae"
+    },
+    {
+      "key": "(S)1199",
+      "file": "public/assets/game/Clothing_S_1199.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Shirt199.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "211ab5775f1c7cf37da36f161964a3dfb7b5f00f5a2ba89638d3e8ecbf672cc9"
+    },
+    {
+      "key": "(S)1200",
+      "file": "public/assets/game/Clothing_S_1200.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0f/Shirt200.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5d081e53a4298789cd407c5a5dd81667fff14e1016251b604907699acf82f199"
+    },
+    {
+      "key": "(S)1201",
+      "file": "public/assets/game/Clothing_S_1201.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Shirt201.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2360a0539ad1fa1acc44d4cfbead76d32776acee8d5308d7e7b319cec1955777"
+    },
+    {
+      "key": "(S)1202",
+      "file": "public/assets/game/Clothing_S_1202.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Shirt202.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "921897f752b1a656f211f74fe57ddf728c943def40c338675bbe579e409fa92b"
+    },
+    {
+      "key": "(S)1203",
+      "file": "public/assets/game/Clothing_S_1203.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Shirt203.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b881b9a31c70d9adf2204664c0f11bff35c2c31da7f2a055444419c583a7eb0b"
+    },
+    {
+      "key": "(S)1204",
+      "file": "public/assets/game/Clothing_S_1204.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Shirt204.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f167bb15444e89163252b655be6eedc45b41d3c62d95f5a9d6090b6a80e0728d"
+    },
+    {
+      "key": "(S)1205",
+      "file": "public/assets/game/Clothing_S_1205.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c1/Shirt205.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "000b33c559f443d206bff13a295e0cd4bd83ebe767104896f6986ea35c0af1c1"
+    },
+    {
+      "key": "(S)1206",
+      "file": "public/assets/game/Clothing_S_1206.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Shirt206.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6f1eb3583e206157fc3b4223e68aa56010027b4b0897779f1ce7c5c398ef3889"
+    },
+    {
+      "key": "(S)1207",
+      "file": "public/assets/game/Clothing_S_1207.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Shirt207.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2b2034b4eaaf6ae0fa64e6bcade3aa9196a278851488cce7dd16cdba5a9339ec"
+    },
+    {
+      "key": "(S)1208",
+      "file": "public/assets/game/Clothing_S_1208.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/15/Shirt208.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1c10a15f4afbdd45feb7b7c8bc41881282a3ac2273f107cb36a79de251752ff0"
+    },
+    {
+      "key": "(S)1209",
+      "file": "public/assets/game/Clothing_S_1209.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a3/Shirt209.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e5734d24f8394649f685b8daec3736f679056aaf324bc12e478f269d6a37e7bf"
+    },
+    {
+      "key": "(S)1210",
+      "file": "public/assets/game/Clothing_S_1210.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Shirt210.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fee59a8df7d002160048331190a3fefb26cc2f7ae9a468966f0a2fc83ca151cb"
+    },
+    {
+      "key": "(S)1211",
+      "file": "public/assets/game/Clothing_S_1211.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cd/Shirt211.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d0c2f021914c593fbfede0fcca60a3e7f48090097c1d4977977043d8c28bc85e"
+    },
+    {
+      "key": "(S)1212",
+      "file": "public/assets/game/Clothing_S_1212.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3e/Shirt212.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "bd252775d6beb812f2209e0529ef7320bfab632ac5710f6e3b4461813cc79f20"
+    },
+    {
+      "key": "(S)1213",
+      "file": "public/assets/game/Clothing_S_1213.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Shirt213.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "599a96a42e23794a82d45c67be82c2a369df32a43d3c859066bca59591d96e50"
+    },
+    {
+      "key": "(S)1214",
+      "file": "public/assets/game/Clothing_S_1214.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4c/Shirt214.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "20a3281bc704336696196e31851d9b00316802cfd9865878ba06969264189e62"
+    },
+    {
+      "key": "(S)1215",
+      "file": "public/assets/game/Clothing_S_1215.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Shirt215.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "7c2c40d36b932b0f59d6d5305056e33c65ad34e3cc396bb18ba2c43b1d95c84f"
+    },
+    {
+      "key": "(S)1216",
+      "file": "public/assets/game/Clothing_S_1216.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Shirt216.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3e37773d79b8d0a8bd5996f15d3a47b45b4bb5133f71cdfe44865dd0fd4c1e17"
+    },
+    {
+      "key": "(S)1217",
+      "file": "public/assets/game/Clothing_S_1217.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Shirt217.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8aaa49a34194a9788ecfedda199e164e1c7ed78d6487d5371523f09b599331c6"
+    },
+    {
+      "key": "(S)1218",
+      "file": "public/assets/game/Clothing_S_1218.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/35/Shirt218.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9ccf2d339463697adc471e642753d02bdfaf194bb5260a3827a3342dd3a7c6eb"
+    },
+    {
+      "key": "(S)1219",
+      "file": "public/assets/game/Clothing_S_1219.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/77/Shirt219.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "11372f4adc36aaf93deef1f3f2bcb5c4d5fe2635e6e2e26cf21a319c2d5b6558"
+    },
+    {
+      "key": "(S)1220",
+      "file": "public/assets/game/Clothing_S_1220.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Shirt220.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "46bd691635fb45f2cfabe98bb23ba8e5ab2b1ad28388407fe1a928a3fd19a63c"
+    },
+    {
+      "key": "(S)1221",
+      "file": "public/assets/game/Clothing_S_1221.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Shirt221.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "60bea5a8f7bed7404202aed136dffb1c78ee6d50ca01187f0dd608bfb8413222"
+    },
+    {
+      "key": "(S)1222",
+      "file": "public/assets/game/Clothing_S_1222.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/ff/Shirt222.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "88d2f0f713437c8f4628a0ddb14bfb38ab11ef434736e61db4ab3fb8695eb709"
+    },
+    {
+      "key": "(S)1223",
+      "file": "public/assets/game/Clothing_S_1223.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/46/Shirt223.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "73f9d2aa1d7e18dbfc421daf3a4f13e94bfd45c0f17472b11aae78ba0ca742f7"
+    },
+    {
+      "key": "(S)1224",
+      "file": "public/assets/game/Clothing_S_1224.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7f/Shirt224.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8f14a1490d2df015b4b4136ebc80c6b62fd577a36c625d67661342b207cd9fb5"
+    },
+    {
+      "key": "(S)1225",
+      "file": "public/assets/game/Clothing_S_1225.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/88/Shirt225.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "700df075a88ec13e3bcfa2d3364e913f5709f9264d3ef41bb6196ebd78935147"
+    },
+    {
+      "key": "(S)1226",
+      "file": "public/assets/game/Clothing_S_1226.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4f/Shirt226.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6019bcaa97f951ddb4b118a10f138a60ca64e22c11f8e4096a362f29760fa090"
+    },
+    {
+      "key": "(S)1227",
+      "file": "public/assets/game/Clothing_S_1227.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Shirt227.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "c78c382ebfcb484930dd442634e2e94657f6a539b0c8b7c1eff66ebefbd6e4ea"
+    },
+    {
+      "key": "(S)1228",
+      "file": "public/assets/game/Clothing_S_1228.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Shirt228.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ca5c82311f04062015d6e3e263da8c8710a0a1b43a53e90fcb6049b69a68cae5"
+    },
+    {
+      "key": "(S)1229",
+      "file": "public/assets/game/Clothing_S_1229.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Shirt229.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f51fb257cd874c39a459ef5985037b20228be04f1316848c996df288d161457e"
+    },
+    {
+      "key": "(S)1230",
+      "file": "public/assets/game/Clothing_S_1230.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Shirt230.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3283f1839e5ffa3a38ae3bf9ffc9aa1282bacfbd176afd2acd425265f42b4879"
+    },
+    {
+      "key": "(S)1231",
+      "file": "public/assets/game/Clothing_S_1231.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Shirt231.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "36ae8dbacfb4d546a799c6a0df211b0fdebbdc8b1469016639057d94306871b2"
+    },
+    {
+      "key": "(S)1232",
+      "file": "public/assets/game/Clothing_S_1232.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2a/Shirt232.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b52903169ed62035ee30abe0ebdf3c8aa546fe72ddbd42e1521e31f5782b4fb8"
+    },
+    {
+      "key": "(S)1233",
+      "file": "public/assets/game/Clothing_S_1233.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Shirt233.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "066210e18b2ad8baaa6856141399970c5d710ffb3a71b232e757a3fc6f513187"
+    },
+    {
+      "key": "(S)1234",
+      "file": "public/assets/game/Clothing_S_1234.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Shirt234.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5945b902da755c7d4f60000f1a31ab52c14017a621d74ce8324a9c32fe371052"
+    },
+    {
+      "key": "(S)1235",
+      "file": "public/assets/game/Clothing_S_1235.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/15/Shirt235.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d1bcb0557ac44555a08c130e1f5d4c9d5d57f5a61ea9ae3de00c1bbf96723479"
+    },
+    {
+      "key": "(S)1236",
+      "file": "public/assets/game/Clothing_S_1236.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Shirt236.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1ecb24ad5be31b47fa72a0b4eeca3f2a5c6768b64626250c9c32d72292e09c7a"
+    },
+    {
+      "key": "(S)1237",
+      "file": "public/assets/game/Clothing_S_1237.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Shirt237.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2c41c3061c1fb63c4df642e4d218dfb3e0cbe3821f3c3d85f87c93eef9be2595"
+    },
+    {
+      "key": "(S)1238",
+      "file": "public/assets/game/Clothing_S_1238.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a1/Shirt238.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5914080ca502a13671f273e65a3bd680785581bbd09d17b2fa81a03730fc2552"
+    },
+    {
+      "key": "(S)1239",
+      "file": "public/assets/game/Clothing_S_1239.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Shirt239.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9a867d2d02faa4a71f6690ef59b74eb421f56e7fe69c0af1c155bd5f87aa725b"
+    },
+    {
+      "key": "(S)1240",
+      "file": "public/assets/game/Clothing_S_1240.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Shirt240.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "0fd3ae0170afee966e4e889498c207ac63d37c6fd958030e6afb8767c7fec700"
+    },
+    {
+      "key": "(S)1241",
+      "file": "public/assets/game/Clothing_S_1241.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Shirt241.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "30862c4a84ae7bfab863ce00d87249e0799c7442ffc7e48778bdbbeb5f4eb5f6"
+    },
+    {
+      "key": "(S)1242",
+      "file": "public/assets/game/Clothing_S_1242.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Shirt242.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ae1cd854101b13ebf88522165bd53ad9ce4eb31032bbe75c9941b1eeac60be31"
+    },
+    {
+      "key": "(S)1243",
+      "file": "public/assets/game/Clothing_S_1243.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Shirt243.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fc61e84105741413c17a53a31114462e7da2359c7e50b0482e0fa6f8c97046a0"
+    },
+    {
+      "key": "(S)1244",
+      "file": "public/assets/game/Clothing_S_1244.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Shirt244.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "badefdb3fd6aa98d6015d7c4ba1bc591c865dc4a8b34d8189605a29bc7dd1c5d"
+    },
+    {
+      "key": "(S)1245",
+      "file": "public/assets/game/Clothing_S_1245.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Shirt245.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4bbd482f87de52d60f2895c4923578652a60bc23dad774f733a9434aa3f0f505"
+    },
+    {
+      "key": "(S)1246",
+      "file": "public/assets/game/Clothing_S_1246.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Shirt246.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "e00318e628aa836924a55854496344865584f53693ae78d94b89478ac29108bf"
+    },
+    {
+      "key": "(S)1247",
+      "file": "public/assets/game/Clothing_S_1247.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Shirt247.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "23f2d4ababfce22bf93e886ae29967e1cc01a24ecb96d87cdf9aaf56e56f6dfa"
+    },
+    {
+      "key": "(S)1248",
+      "file": "public/assets/game/Clothing_S_1248.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Shirt248.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "92c381812207402cd3b6200fa6679a5bc214e3156df58a829a25e7f5e00c280b"
+    },
+    {
+      "key": "(S)1249",
+      "file": "public/assets/game/Clothing_S_1249.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Shirt249.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "a6310fd9f0913a2608e6a0e5c62ee277aa4a9f4b9ac14bc25cd00c1496ab4218"
+    },
+    {
+      "key": "(S)1250",
+      "file": "public/assets/game/Clothing_S_1250.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/57/Shirt250.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "81eb7c079a6c26b34fd7d463e8bb30fa9007b3cf0aae7d5de1b62fbcfcffd3a7"
+    },
+    {
+      "key": "(S)1251",
+      "file": "public/assets/game/Clothing_S_1251.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f0/Shirt251.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4b06cc22f4b1960194f9e0ce6904a54b57a05f1010e519648866615af540fa26"
+    },
+    {
+      "key": "(S)1252",
+      "file": "public/assets/game/Clothing_S_1252.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Shirt252.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "834d0abfc07e957ff6afb2036b344574e894ef4ded72ee45554b4e4cf17ecdf4"
+    },
+    {
+      "key": "(S)1253",
+      "file": "public/assets/game/Clothing_S_1253.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/23/Shirt253.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ab192994e0e817874ffd4111e2af30daf51bc276c9aaf362f3ec310098e02270"
+    },
+    {
+      "key": "(S)1254",
+      "file": "public/assets/game/Clothing_S_1254.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/75/Shirt254.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "2e95680cd6c4e853672ec8b24f54cef0e60bb93fdadbb40a386fbf4326e88683"
+    },
+    {
+      "key": "(S)1255",
+      "file": "public/assets/game/Clothing_S_1255.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d6/Shirt255.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "17d4e2b0b206d05dc5e03a79b9aca4c41c545d397a1010d24287f67d58ab1dde"
+    },
+    {
+      "key": "(S)1256",
+      "file": "public/assets/game/Clothing_S_1256.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Shirt256.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5f36a5665b0b1fd675313ce8638c4802fda48669fdc50f476f990b3811e4f001"
+    },
+    {
+      "key": "(S)1257",
+      "file": "public/assets/game/Clothing_S_1257.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cb/Shirt257.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5429e44a298c6e7179aab813d68af953ad46665ad1dfc635db6868a4dddfac9a"
+    },
+    {
+      "key": "(S)1258",
+      "file": "public/assets/game/Clothing_S_1258.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shirt258.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "49513e7bf0cdc077ec3b64300969f3f2661abd5740abf6495cbeda4ed25fdda6"
+    },
+    {
+      "key": "(S)1259",
+      "file": "public/assets/game/Clothing_S_1259.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Shirt259a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "80006979138b6a1af06c048efd30cda8ae30082c22ade1603fa3a20b883e8a47"
+    },
+    {
+      "key": "(S)1260",
+      "file": "public/assets/game/Clothing_S_1260.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shirt260.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "81499fd47438a7b9e5b3b29d72ed1dfc37c9c2a77fad69d9318c0607151b6647"
+    },
+    {
+      "key": "(S)1261",
+      "file": "public/assets/game/Clothing_S_1261.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Shirt261a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "78cf7e46bf7790b4c3447a4cb822564be9176dfaceb56be28f3827d6a9657ff5"
+    },
+    {
+      "key": "(S)1262",
+      "file": "public/assets/game/Clothing_S_1262.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Shirt262a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "81d93781f0345fe4c303ca39fceb1a242a950b8b1ad5a73aea38f8616cbe5c36"
+    },
+    {
+      "key": "(S)1263",
+      "file": "public/assets/game/Clothing_S_1263.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Shirt263a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "bb3f647ffd8ff40b3c4cf9eb851cb8e95773e055ed0adba288084544f68907e5"
+    },
+    {
+      "key": "(S)1264",
+      "file": "public/assets/game/Clothing_S_1264.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Shirt264.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "3333ea56334715623cb30eda1cf884603d1af333fc20b1aa02a3a3809db52b86"
+    },
+    {
+      "key": "(S)1265",
+      "file": "public/assets/game/Clothing_S_1265.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Shirt265.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "cce9d5cf4384440c95a2f981c70e5d6daa618ea71fb9dc955337af75ec41ab25"
+    },
+    {
+      "key": "(S)1266",
+      "file": "public/assets/game/Clothing_S_1266.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f0/Shirt266.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "4b1da911d2fa28af0d7123b9c9fd46c1c065bc92797169261c765743e5aded8c"
+    },
+    {
+      "key": "(S)1267",
+      "file": "public/assets/game/Clothing_S_1267.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Shirt267.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "39c2777ec7036da489db804e9922acbee1d3df9cfceed9a011a037e19ab27f5a"
+    },
+    {
+      "key": "(S)1268",
+      "file": "public/assets/game/Clothing_S_1268.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7a/Shirt268.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f8a9b380a7794f7152aaf6aed92158c913350ab8086c9060365c60c76ff47082"
+    },
+    {
+      "key": "(S)1269",
+      "file": "public/assets/game/Clothing_S_1269.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/42/Shirt269.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "362468bdb7d281533d4a74501685bd6b2879456f249f5ae9b543736457efaba6"
+    },
+    {
+      "key": "(S)1270",
+      "file": "public/assets/game/Clothing_S_1270.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/14/Shirt270.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "afb3e03c7656c00fac591edad7ad7bbc0e63ba38b4d7cf59d7e98c92d71d301b"
+    },
+    {
+      "key": "(S)1271",
+      "file": "public/assets/game/Clothing_S_1271.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Shirt271a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "21daffc149e92ff6f31a610e62987eb4f8f93017870e9946dad0a93e9ee9f1ab"
+    },
+    {
+      "key": "(S)1272",
+      "file": "public/assets/game/Clothing_S_1272.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/57/Shirt272.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1aaf3ebc1e082d0b02a517e0f2a92685286c5e7bbfe1b4f1b2f3b2ab1fd1a452"
+    },
+    {
+      "key": "(S)1273",
+      "file": "public/assets/game/Clothing_S_1273.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a3/Shirt273.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "843a63d176bc9cf71a5eef3602c219f5080aeb4327b5218b9b2f930e0aa544b6"
+    },
+    {
+      "key": "(S)1274",
+      "file": "public/assets/game/Clothing_S_1274.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Shirt274.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5a12523eb65af4553c3411b94ce835c6a3de93666cdebbcd52cd1afd253da827"
+    },
+    {
+      "key": "(S)1275",
+      "file": "public/assets/game/Clothing_S_1275.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Shirt275.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "896456007f7274d0d45a030f9fc4c77f6f3d1e942655a75508930236424be026"
+    },
+    {
+      "key": "(S)1276",
+      "file": "public/assets/game/Clothing_S_1276.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Shirt276.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ca8d490273961804e702428224776c446cb1a875426ad1a593617421f27756e8"
+    },
+    {
+      "key": "(S)1277",
+      "file": "public/assets/game/Clothing_S_1277.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/27/Shirt277a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "ef39d161ceb8a7cd6095eff1171fe55052979757ce7b76d4d56ae43d50820104"
+    },
+    {
+      "key": "(S)1278",
+      "file": "public/assets/game/Clothing_S_1278.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Shirt278a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "73e93331c4c742c405f3a4653f0d722e548d7f5de2060209c186f56a24f7c0c6"
+    },
+    {
+      "key": "(S)1279",
+      "file": "public/assets/game/Clothing_S_1279.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Shirt279.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1840253daa7ecd93d774a9ae6d3c0766d36e2a8cdc4ee7b7d59a7e753c76d834"
+    },
+    {
+      "key": "(S)1280",
+      "file": "public/assets/game/Clothing_S_1280.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/74/Shirt280a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6e6a42dc0c0b385b3bd8d774f2e257022b1425661efab220b089fd1ecbd39d2a"
+    },
+    {
+      "key": "(S)1281",
+      "file": "public/assets/game/Clothing_S_1281.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Shirt281a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "d8aef426804e811f229b775c1b76d032bd25baee35d2754296ef0256855c833d"
+    },
+    {
+      "key": "(S)1282",
+      "file": "public/assets/game/Clothing_S_1282.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Shirt282.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "9a7679d738f60daa7d893a8d395e60d2409fc850f5155a459c9134cac04c1e4d"
+    },
+    {
+      "key": "(S)1283",
+      "file": "public/assets/game/Clothing_S_1283.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Shirt283a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "08146b4826a608e0e721449747b5cb393b737a8b2b612fb2dff71956686f83a4"
+    },
+    {
+      "key": "(S)1284",
+      "file": "public/assets/game/Clothing_S_1284.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Shirt284a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "5030a8651701ea2b5209027d58e3b57383ddeea7086ec47b8d233acfca2efc3c"
+    },
+    {
+      "key": "(S)1285",
+      "file": "public/assets/game/Clothing_S_1285.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Shirt285.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "60d251007d47e4226ba1a588830ca388f8a2ea5e47be06476cb490a6a942e6bd"
+    },
+    {
+      "key": "(S)1286",
+      "file": "public/assets/game/Clothing_S_1286.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3c/Shirt286.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "fe0b99b56fd229c2e79bdbd0c7b96afaad9828d1f0faea632dba26bfe749a6af"
+    },
+    {
+      "key": "(S)1287",
+      "file": "public/assets/game/Clothing_S_1287.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/44/Shirt287.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "8f5cc91b4df8a04adbf9f747fe35c52e5c6469f50bbcf4ae65035ea77f6548a4"
+    },
+    {
+      "key": "(S)1288",
+      "file": "public/assets/game/Clothing_S_1288.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/70/Shirt290.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1b0f14bb833e7988ce478c8967ba51245002d07621a813f0aeae2db58108a08f"
+    },
+    {
+      "key": "(S)1289",
+      "file": "public/assets/game/Clothing_S_1289.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Shirt291.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "924ca37b210b3f6e89e63ad552266742c0f974e591ab7ddebbc30f4a9db4a6be"
+    },
+    {
+      "key": "(S)1290",
+      "file": "public/assets/game/Clothing_S_1290.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Mineral_Dog_Jacket.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "38ab944aa4c7cd33873ab817ef5c144eb34d2741ebeada641d40c85d13116b04"
+    },
+    {
+      "key": "(S)1291",
+      "file": "public/assets/game/Clothing_S_1291.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b5/Magenta_Shirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "07883982e12eea4aab2cb63c31435cc25ec8148fdaf766c1ed1958945c3856de"
+    },
+    {
+      "key": "(S)1292",
+      "file": "public/assets/game/Clothing_S_1292.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/eb/Ginger_Overalls.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "b7914c847e67088eeb8c557a53c77492ca2227ee1cdd9803c8400f1cdc257528"
+    },
+    {
+      "key": "(S)1293",
+      "file": "public/assets/game/Clothing_S_1293.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Banana_Shirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "f2af28dbe60607ff2944752e2ae6f40f133b5c55235e6642d3bdbe0eaa9092b1"
+    },
+    {
+      "key": "(S)1294",
+      "file": "public/assets/game/Clothing_S_1294.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Yellow_Suit.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "426d313bf144ab7f5fa187c3b0cde2786133b4e0288a20bed5e50b11552afc78"
+    },
+    {
+      "key": "(S)1295",
+      "file": "public/assets/game/Clothing_S_1295.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Hot_Pink_Shirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "67537dbee521a9d8ffbac028cee3367405e31cef07175cbebaa98fdb407cce6e"
+    },
+    {
+      "key": "(S)1296",
+      "file": "public/assets/game/Clothing_S_1296.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9c/Tropical_Sunrise_Shirt.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "6e53a335aac0b4fed6d0f3e032b4258bfca231725efaa66002b69fc8d5976973"
+    },
+    {
+      "key": "(S)1297",
+      "file": "public/assets/game/Clothing_S_1297.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cb/Island_Bikini.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "55298a2f130531e77c45c93a8faeae7544529d20c5b2ef35054cbc6a6ebbf8b1"
+    },
+    {
+      "key": "(S)1997",
+      "file": "public/assets/game/Clothing_S_1997.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/57/Shirt272.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "1aaf3ebc1e082d0b02a517e0f2a92685286c5e7bbfe1b4f1b2f3b2ab1fd1a452"
+    },
+    {
+      "key": "(S)1998",
+      "file": "public/assets/game/Clothing_S_1998.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Shirt289a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "388cd3f7f9edd660d9e2c127488f0f9723a007026b103f41409977eff1594264"
+    },
+    {
+      "key": "(S)1999",
+      "file": "public/assets/game/Clothing_S_1999.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/76/Shirt288a.png",
+      "source": "https://stardewvalleywiki.com/Tailoring",
+      "width": 32,
+      "height": 32,
+      "sha256": "532c8888cf0f0a38ce76fc6193bb8e608eb2f91cbcd1dfb8c925423e1698721c"
+    },
+    {
+      "key": "(S)MysteryShirt",
+      "file": "public/assets/game/Clothing_S_MysteryShirt.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Mystery_Shirt.png",
+      "source": "https://stardewvalleywiki.com/Mystery_Shirt",
+      "width": 32,
+      "height": 32,
+      "sha256": "66d4878d264032496c9b9f4e5f72582984dc6029b103bda641aa1226cae6fdb8"
+    },
+    {
+      "key": "(S)SoftEdgePullover",
+      "file": "public/assets/game/Clothing_S_SoftEdgePullover.png",
+      "url": "local:Characters/Farmer/shirts#301",
+      "source": "https://stardewvalleywiki.com/Tight_Pants",
+      "width": 8,
+      "height": 8,
+      "sha256": "96ff3d8039d82a656878f6c251ebb2cffd2a92d50bc3b88fcb45b9164077dbea",
+      "note": "1.6.15原始贴图中的未染色正面底图，不表示随机换装的最终染色。",
+      "sourceSha256": "61D9E8A7D6342C4E05DA3D2C56684A6C97B3EDE86AE2138643A5F72A2718F640"
+    }
+  ]
+}

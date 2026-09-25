@@ -1,0 +1,114 @@
+{
+  "version": "1.6.15",
+  "status": "reviewed subset; full location mapping pending",
+  "records": [
+    {
+      "title": "The Stardrop Saloon",
+      "source": {
+        "url": "https://stardewvalleywiki.com/The_Stardrop_Saloon",
+        "revision": 194225,
+        "sha256": "ad7d98c28295348c68ad62f1d96c797654c9ea673c021e9bfb149732c1328230"
+      },
+      "dataset": "locations",
+      "slug": "stardrop-saloon",
+      "name": "星之果实酒吧",
+      "reused": false
+    },
+    {
+      "title": "Casino",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Casino",
+        "revision": 192836,
+        "sha256": "85bf6754f32f8020d4a2f550c0dd3db09e2570f2f75b7c76ec4371b2420149f6"
+      },
+      "dataset": "locations",
+      "slug": "casino",
+      "name": "赌场",
+      "reused": false
+    },
+    {
+      "title": "Desert Trader",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Desert_Trader",
+        "revision": 189090,
+        "sha256": "28dd932b778ad9b7c113b2207dd4fd133afd66669e29c78030c70594f0914f72"
+      },
+      "dataset": "locations",
+      "slug": "desert-trader",
+      "name": "沙漠商人",
+      "reused": false
+    },
+    {
+      "title": "Island Trader",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Island_Trader",
+        "revision": 190410,
+        "sha256": "7ce87335de2651cfb7e287c5844f7a7709cfbc612e476dfe8ff352fcbd9e20bb"
+      },
+      "dataset": "locations",
+      "slug": "island-trader",
+      "name": "姜岛商人",
+      "reused": false
+    },
+    {
+      "title": "Bookseller",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bookseller",
+        "revision": 191324,
+        "sha256": "4b63657988d674483996a6b548fd7a8a87c3f93f09548c4177f6e95c8216f470"
+      },
+      "dataset": "locations",
+      "slug": "bookseller-shop",
+      "name": "书摊老板",
+      "reused": false
+    },
+    {
+      "title": "Movie Theater",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Movie_Theater",
+        "revision": 193933,
+        "sha256": "e2c3ef4bc9c358a1d500a6ab7cac1b452adef3888ffe460397c081834c68af8f"
+      },
+      "dataset": "locations",
+      "slug": "movie-theater",
+      "name": "电影院",
+      "reused": false
+    },
+    {
+      "title": "Giant Stump",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Giant_Stump",
+        "revision": 192771,
+        "sha256": "6a67269929fee8413107d6d6897c44ad9d3ff04a748f4e5aee5ae4f21ada3774"
+      },
+      "dataset": "locations",
+      "slug": "giant-stump",
+      "name": "大树桩（地点）",
+      "reused": false
+    },
+    {
+      "title": "Greenhouse",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Greenhouse",
+        "revision": 194164,
+        "sha256": "92fdfe83c82e296844c7841fd72b85b3f6153cd66a190916e9b2850b8fb6a6b8"
+      },
+      "dataset": "items",
+      "slug": "building-greenhouse",
+      "name": "温室",
+      "reused": true
+    },
+    {
+      "title": "Farmhouse",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farmhouse",
+        "revision": 190738,
+        "sha256": "ebb8d348e66bc692f4e2750596819de40c58166e4df8f295d4c5d41fa25593a8"
+      },
+      "dataset": "items",
+      "slug": "building-farmhouse",
+      "name": "农舍",
+      "reused": true
+    }
+  ]
+}

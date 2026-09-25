@@ -1,0 +1,219 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "152",
+      "name": "海草",
+      "slug": "material-152",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Seaweed",
+        "revision": 194145,
+        "sha256": "686086eaf16a6622a026d5e7a3b5b0d4d5acad47eb801fbbf8d0e347125a6825"
+      }
+    },
+    {
+      "nativeId": "153",
+      "name": "绿藻",
+      "slug": "material-153",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Green_Algae",
+        "revision": 190440,
+        "sha256": "3b1f42998f7904df3b76b6f7f78035ccb013c029a36075545fd579d07ad5174c"
+      }
+    },
+    {
+      "nativeId": "157",
+      "name": "白藻",
+      "slug": "material-157",
+      "source": {
+        "url": "https://stardewvalleywiki.com/White_Algae",
+        "revision": 187398,
+        "sha256": "73e0d0a483566bd102e71650f34115a6c3403912566eb5799e065f262e7f3845"
+      }
+    },
+    {
+      "nativeId": "178",
+      "name": "干草",
+      "slug": "material-178",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Hay",
+        "revision": 195141,
+        "sha256": "a06eecfb16d5a7e83369a506ac87c576768b315852fb78b56624bbc76dc80394"
+      }
+    },
+    {
+      "nativeId": "245",
+      "name": "糖",
+      "slug": "material-245",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sugar",
+        "revision": 192605,
+        "sha256": "5ad9fac4674a24d245667bb2968f8a2ebb475562a3c24dbfa5a7aa4c224ef9cc"
+      }
+    },
+    {
+      "nativeId": "246",
+      "name": "大麦粉",
+      "slug": "material-246",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wheat_Flour",
+        "revision": 192709,
+        "sha256": "8daab9345b201b4c33cbe51ddf1e6cda474f64c316736743c4c15c31b5bab2ce"
+      }
+    },
+    {
+      "nativeId": "423",
+      "name": "大米",
+      "slug": "material-423",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rice",
+        "revision": 190668,
+        "sha256": "512b0e683f9dc30ab6869ed87bfc869a8bb952d0e0a7435cd4efc95c06472556"
+      }
+    },
+    {
+      "nativeId": "684",
+      "name": "虫肉",
+      "slug": "material-684",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Bug_Meat",
+        "revision": 184791,
+        "sha256": "4995969aab217118f686221506f39d44d0bb7ef3ea8e3d8ba1f2773037185829"
+      }
+    },
+    {
+      "nativeId": "812",
+      "name": "鱼籽",
+      "slug": "material-812",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Roe",
+        "revision": 190462,
+        "sha256": "170b67272beddf0472f9c5974bfc9bf0e06c47165af3a87fe0475ed9d989bc0e"
+      }
+    },
+    {
+      "nativeId": "814",
+      "name": "鱿鱼墨汁",
+      "slug": "material-814",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Squid_Ink",
+        "revision": 192632,
+        "sha256": "e1d9a4caaf838afaccfc23c9010030d454b70f44d85b8ac464ab321e8473f140"
+      }
+    },
+    {
+      "nativeId": "834",
+      "name": "芒果",
+      "slug": "material-834",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Mango",
+        "revision": 192967,
+        "sha256": "08b9af8f3758004e9513d3beaaa4a29f02f2fc4fd856550280d127ebf7522295"
+      }
+    },
+    {
+      "nativeId": "168",
+      "name": "垃圾",
+      "slug": "material-168",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Trash_(item)",
+        "revision": 192649,
+        "sha256": "e1dc7b837cdf2a7e5c19cf7909f5b6be95a5f862ed2fe30172cf20b72c10a5e2"
+      }
+    },
+    {
+      "nativeId": "169",
+      "name": "浮木",
+      "slug": "material-169",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Driftwood",
+        "revision": 184947,
+        "sha256": "790010a820c516feca74f8cab9d2499cdea800cbcabd86d7d9c28b581511a754"
+      }
+    },
+    {
+      "nativeId": "170",
+      "name": "破损的眼镜",
+      "slug": "material-170",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Broken_Glasses",
+        "revision": 188436,
+        "sha256": "583d7e00ca7e1c9615c2ec3bbfdc2bc05d49b4573fb181f77c1bed710f0f98b9"
+      }
+    },
+    {
+      "nativeId": "171",
+      "name": "破损的 CD",
+      "slug": "material-171",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Broken_CD",
+        "revision": 177150,
+        "sha256": "b63c0fa510fcad286c64560b01e3344909f513703b7fb9fe04f05de79e5a9fc6"
+      }
+    },
+    {
+      "nativeId": "172",
+      "name": "湿透的报纸",
+      "slug": "material-172",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Soggy_Newspaper",
+        "revision": 190587,
+        "sha256": "f915ba40cfa3e1cf26f78dd3a17eaff05f28fbc665b0273da7bc9df491903959"
+      }
+    },
+    {
+      "nativeId": "SeaJelly",
+      "name": "海凝胶",
+      "slug": "material-seajelly",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sea_Jelly",
+        "revision": 190510,
+        "sha256": "7ac77cba0e0cec906f4b292e4a738c9fbad88d5b099f3c593f0ac87130ddc958"
+      }
+    },
+    {
+      "nativeId": "CaveJelly",
+      "name": "洞穴凝胶",
+      "slug": "material-cavejelly",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cave_Jelly",
+        "revision": 180863,
+        "sha256": "a047f86781a165fe1d3ba0de2fba7dacd9a4775821f183119816d320e7e31dc0"
+      }
+    },
+    {
+      "nativeId": "RiverJelly",
+      "name": "河凝胶",
+      "slug": "material-riverjelly",
+      "source": {
+        "url": "https://stardewvalleywiki.com/River_Jelly",
+        "revision": 190963,
+        "sha256": "63c036c4a5ac70b7d775634baa3d98a7c98eea76c40377d78a9f3fc426d0a31a"
+      }
+    },
+    {
+      "nativeId": "279",
+      "name": "魔法糖冰棍",
+      "slug": "material-279",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Magic_Rock_Candy",
+        "revision": 192339,
+        "sha256": "90fc46224d8254eee7fe4414a9ef93f23fdb2ac9ee82e8a72d900a27a0971ce7"
+      }
+    },
+    {
+      "nativeId": "873",
+      "name": "椰林飘香",
+      "slug": "material-873",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Piña_Colada",
+        "revision": 178025,
+        "sha256": "822099f1bd4d7df61a9e2b013409c1b046bd676c50dd75d15872578fef639178"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "nativeId": "191",
+    "file": "public/assets/game/Questitem_191.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 368,
+      "top": 112,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "41b5003b28a9ffd02ef5afd6e4004840e1bc853b8022d96ef2c3763794259e29",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "788",
+    "file": "public/assets/game/Questitem_788.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 320,
+      "top": 512,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "59c5f839470838f9f777ee5f2fd688755a70142267ff53f5ae4a3c463d25e954",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "789",
+    "file": "public/assets/game/Questitem_789.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 336,
+      "top": 512,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "3c718644783b63c4c981f0d88b09a51dbf3355e8d244400778159aa9f34f860c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "790",
+    "file": "public/assets/game/Questitem_790.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 352,
+      "top": 512,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "b6c84a7614f175221552bd4f2161ad9f9d5b315960c605c62d7a421613adc3f9",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "FarAwayStone",
+    "file": "public/assets/game/Questitem_FarAwayStone.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 0,
+      "top": 0,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "cfe60ee3d49cd67c55394bb0444900aa4f6372b4b8fa9aebcf89f7fda9a8810b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "GoldenBobber",
+    "file": "public/assets/game/Questitem_GoldenBobber.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 16,
+      "top": 16,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "427bbbfa498201b9441e88e5ee5e8cbee20e512165eabfc22e2efe9e6d7a5be7",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "TroutDerbyTag",
+    "file": "public/assets/game/Questitem_TroutDerbyTag.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 80,
+      "top": 16,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "4de93a261d67d8127139dd013b970c4602b92c66b419833d14c28ea6df6cce2a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "326",
+    "file": "public/assets/game/Questitem_326.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 224,
+      "top": 208,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "6c3863cc25f063e8de8314e25ad646feecc3a17e06f08d404d09779ac9906c98",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "341",
+    "file": "public/assets/game/Questitem_341.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 224,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "2cfe3badccaed35889e9cc4b88212c37df082c40ae09b22fa64e83efec1a45ae",
+    "width": 48,
+    "height": 48
+  }
+]

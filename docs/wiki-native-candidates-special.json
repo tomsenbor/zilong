@@ -1,0 +1,1260 @@
+{
+  "version": "1.6.15",
+  "id": "special",
+  "name": "特殊物品与能力",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 98,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "count": 309,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "14",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "25",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "30",
+          "nativeName": "Lumber"
+        },
+        {
+          "nativeId": "32",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "34",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "36",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "38",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "40",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "42",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "44",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "46",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "48",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "50",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "52",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "54",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "56",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "58",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "71",
+          "nativeName": "Trimmed Lucky Purple Shorts"
+        },
+        {
+          "nativeId": "73",
+          "nativeName": "Golden Walnut"
+        },
+        {
+          "nativeId": "75",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "76",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "77",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "79",
+          "nativeName": "Secret Note"
+        },
+        {
+          "nativeId": "93",
+          "nativeName": "Torch"
+        },
+        {
+          "nativeId": "94",
+          "nativeName": "Spirit Torch"
+        },
+        {
+          "nativeId": "95",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "96",
+          "nativeName": "Dwarf Scroll I"
+        },
+        {
+          "nativeId": "97",
+          "nativeName": "Dwarf Scroll II"
+        },
+        {
+          "nativeId": "98",
+          "nativeName": "Dwarf Scroll III"
+        },
+        {
+          "nativeId": "99",
+          "nativeName": "Dwarf Scroll IV"
+        },
+        {
+          "nativeId": "100",
+          "nativeName": "Chipped Amphora"
+        },
+        {
+          "nativeId": "101",
+          "nativeName": "Arrowhead"
+        },
+        {
+          "nativeId": "102",
+          "nativeName": "Lost Book"
+        },
+        {
+          "nativeId": "103",
+          "nativeName": "Ancient Doll"
+        },
+        {
+          "nativeId": "104",
+          "nativeName": "Elvish Jewelry"
+        },
+        {
+          "nativeId": "105",
+          "nativeName": "Chewing Stick"
+        },
+        {
+          "nativeId": "106",
+          "nativeName": "Ornamental Fan"
+        },
+        {
+          "nativeId": "107",
+          "nativeName": "Dinosaur Egg"
+        },
+        {
+          "nativeId": "108",
+          "nativeName": "Rare Disc"
+        },
+        {
+          "nativeId": "109",
+          "nativeName": "Ancient Sword"
+        },
+        {
+          "nativeId": "110",
+          "nativeName": "Rusty Spoon"
+        },
+        {
+          "nativeId": "111",
+          "nativeName": "Rusty Spur"
+        },
+        {
+          "nativeId": "112",
+          "nativeName": "Rusty Cog"
+        },
+        {
+          "nativeId": "113",
+          "nativeName": "Chicken Statue"
+        },
+        {
+          "nativeId": "114",
+          "nativeName": "Ancient Seed"
+        },
+        {
+          "nativeId": "115",
+          "nativeName": "Prehistoric Tool"
+        },
+        {
+          "nativeId": "116",
+          "nativeName": "Dried Starfish"
+        },
+        {
+          "nativeId": "117",
+          "nativeName": "Anchor"
+        },
+        {
+          "nativeId": "118",
+          "nativeName": "Glass Shards"
+        },
+        {
+          "nativeId": "119",
+          "nativeName": "Bone Flute"
+        },
+        {
+          "nativeId": "120",
+          "nativeName": "Prehistoric Handaxe"
+        },
+        {
+          "nativeId": "121",
+          "nativeName": "Dwarvish Helm"
+        },
+        {
+          "nativeId": "122",
+          "nativeName": "Dwarf Gadget"
+        },
+        {
+          "nativeId": "123",
+          "nativeName": "Ancient Drum"
+        },
+        {
+          "nativeId": "124",
+          "nativeName": "Golden Mask"
+        },
+        {
+          "nativeId": "125",
+          "nativeName": "Golden Relic"
+        },
+        {
+          "nativeId": "126",
+          "nativeName": "Strange Doll"
+        },
+        {
+          "nativeId": "127",
+          "nativeName": "Strange Doll"
+        },
+        {
+          "nativeId": "152",
+          "nativeName": "Seaweed"
+        },
+        {
+          "nativeId": "153",
+          "nativeName": "Green Algae"
+        },
+        {
+          "nativeId": "157",
+          "nativeName": "White Algae"
+        },
+        {
+          "nativeId": "166",
+          "nativeName": "Treasure Chest"
+        },
+        {
+          "nativeId": "178",
+          "nativeName": "Hay"
+        },
+        {
+          "nativeId": "191",
+          "nativeName": "Ornate Necklace"
+        },
+        {
+          "nativeId": "245",
+          "nativeName": "Sugar"
+        },
+        {
+          "nativeId": "246",
+          "nativeName": "Wheat Flour"
+        },
+        {
+          "nativeId": "247",
+          "nativeName": "Oil"
+        },
+        {
+          "nativeId": "261",
+          "nativeName": "Warp Totem: Desert"
+        },
+        {
+          "nativeId": "275",
+          "nativeName": "Artifact Trove"
+        },
+        {
+          "nativeId": "277",
+          "nativeName": "Wilted Bouquet"
+        },
+        {
+          "nativeId": "290",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "294",
+          "nativeName": "Twig"
+        },
+        {
+          "nativeId": "295",
+          "nativeName": "Twig"
+        },
+        {
+          "nativeId": "297",
+          "nativeName": "Grass Starter"
+        },
+        {
+          "nativeId": "313",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "314",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "315",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "316",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "317",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "318",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "319",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "320",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "321",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "343",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "349",
+          "nativeName": "Energy Tonic"
+        },
+        {
+          "nativeId": "351",
+          "nativeName": "Muscle Remedy"
+        },
+        {
+          "nativeId": "373",
+          "nativeName": "Golden Pumpkin"
+        },
+        {
+          "nativeId": "395",
+          "nativeName": "Coffee"
+        },
+        {
+          "nativeId": "403",
+          "nativeName": "Field Snack"
+        },
+        {
+          "nativeId": "413",
+          "nativeName": "Blue Slime Egg"
+        },
+        {
+          "nativeId": "419",
+          "nativeName": "Vinegar"
+        },
+        {
+          "nativeId": "423",
+          "nativeName": "Rice"
+        },
+        {
+          "nativeId": "434",
+          "nativeName": "Stardrop"
+        },
+        {
+          "nativeId": "437",
+          "nativeName": "Red Slime Egg"
+        },
+        {
+          "nativeId": "439",
+          "nativeName": "Purple Slime Egg"
+        },
+        {
+          "nativeId": "441",
+          "nativeName": "Explosive Ammo"
+        },
+        {
+          "nativeId": "449",
+          "nativeName": "Stone Base"
+        },
+        {
+          "nativeId": "450",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "452",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "458",
+          "nativeName": "Bouquet"
+        },
+        {
+          "nativeId": "460",
+          "nativeName": "Mermaid's Pendant"
+        },
+        {
+          "nativeId": "461",
+          "nativeName": "Decorative Pot"
+        },
+        {
+          "nativeId": "463",
+          "nativeName": "Drum Block"
+        },
+        {
+          "nativeId": "464",
+          "nativeName": "Flute Block"
+        },
+        {
+          "nativeId": "516",
+          "nativeName": "Small Glow Ring"
+        },
+        {
+          "nativeId": "517",
+          "nativeName": "Glow Ring"
+        },
+        {
+          "nativeId": "518",
+          "nativeName": "Small Magnet Ring"
+        },
+        {
+          "nativeId": "519",
+          "nativeName": "Magnet Ring"
+        },
+        {
+          "nativeId": "520",
+          "nativeName": "Slime Charmer Ring"
+        },
+        {
+          "nativeId": "521",
+          "nativeName": "Warrior Ring"
+        },
+        {
+          "nativeId": "522",
+          "nativeName": "Vampire Ring"
+        },
+        {
+          "nativeId": "523",
+          "nativeName": "Savage Ring"
+        },
+        {
+          "nativeId": "524",
+          "nativeName": "Ring of Yoba"
+        },
+        {
+          "nativeId": "525",
+          "nativeName": "Sturdy Ring"
+        },
+        {
+          "nativeId": "526",
+          "nativeName": "Burglar's Ring"
+        },
+        {
+          "nativeId": "527",
+          "nativeName": "Iridium Band"
+        },
+        {
+          "nativeId": "528",
+          "nativeName": "Jukebox Ring"
+        },
+        {
+          "nativeId": "529",
+          "nativeName": "Amethyst Ring"
+        },
+        {
+          "nativeId": "530",
+          "nativeName": "Topaz Ring"
+        },
+        {
+          "nativeId": "531",
+          "nativeName": "Aquamarine Ring"
+        },
+        {
+          "nativeId": "532",
+          "nativeName": "Jade Ring"
+        },
+        {
+          "nativeId": "533",
+          "nativeName": "Emerald Ring"
+        },
+        {
+          "nativeId": "534",
+          "nativeName": "Ruby Ring"
+        },
+        {
+          "nativeId": "535",
+          "nativeName": "Geode"
+        },
+        {
+          "nativeId": "536",
+          "nativeName": "Frozen Geode"
+        },
+        {
+          "nativeId": "537",
+          "nativeName": "Magma Geode"
+        },
+        {
+          "nativeId": "579",
+          "nativeName": "Prehistoric Scapula"
+        },
+        {
+          "nativeId": "580",
+          "nativeName": "Prehistoric Tibia"
+        },
+        {
+          "nativeId": "581",
+          "nativeName": "Prehistoric Skull"
+        },
+        {
+          "nativeId": "582",
+          "nativeName": "Skeletal Hand"
+        },
+        {
+          "nativeId": "583",
+          "nativeName": "Prehistoric Rib"
+        },
+        {
+          "nativeId": "584",
+          "nativeName": "Prehistoric Vertebra"
+        },
+        {
+          "nativeId": "585",
+          "nativeName": "Skeletal Tail"
+        },
+        {
+          "nativeId": "586",
+          "nativeName": "Nautilus Fossil"
+        },
+        {
+          "nativeId": "587",
+          "nativeName": "Amphibian Fossil"
+        },
+        {
+          "nativeId": "588",
+          "nativeName": "Palm Fossil"
+        },
+        {
+          "nativeId": "589",
+          "nativeName": "Trilobite"
+        },
+        {
+          "nativeId": "590",
+          "nativeName": "Artifact Spot"
+        },
+        {
+          "nativeId": "668",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "670",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "674",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "675",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "676",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "677",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "678",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "679",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "680",
+          "nativeName": "Green Slime Egg"
+        },
+        {
+          "nativeId": "681",
+          "nativeName": "Rain Totem"
+        },
+        {
+          "nativeId": "688",
+          "nativeName": "Warp Totem: Farm"
+        },
+        {
+          "nativeId": "689",
+          "nativeName": "Warp Totem: Mountains"
+        },
+        {
+          "nativeId": "690",
+          "nativeName": "Warp Totem: Beach"
+        },
+        {
+          "nativeId": "710",
+          "nativeName": "Crab Pot"
+        },
+        {
+          "nativeId": "742",
+          "nativeName": "Haley's Lost Bracelet"
+        },
+        {
+          "nativeId": "749",
+          "nativeName": "Omni Geode"
+        },
+        {
+          "nativeId": "750",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "751",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "760",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "762",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "764",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "765",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "784",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "785",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "786",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "788",
+          "nativeName": "Lost Axe"
+        },
+        {
+          "nativeId": "789",
+          "nativeName": "Lucky Purple Shorts"
+        },
+        {
+          "nativeId": "790",
+          "nativeName": "Berry Basket"
+        },
+        {
+          "nativeId": "791",
+          "nativeName": "Golden Coconut"
+        },
+        {
+          "nativeId": "792",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "793",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "794",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "797",
+          "nativeName": "Pearl"
+        },
+        {
+          "nativeId": "801",
+          "nativeName": "Wedding Ring"
+        },
+        {
+          "nativeId": "803",
+          "nativeName": "Iridium Milk"
+        },
+        {
+          "nativeId": "808",
+          "nativeName": "Void Ghost Pendant"
+        },
+        {
+          "nativeId": "809",
+          "nativeName": "Movie Ticket"
+        },
+        {
+          "nativeId": "810",
+          "nativeName": "Crabshell Ring"
+        },
+        {
+          "nativeId": "811",
+          "nativeName": "Napalm Ring"
+        },
+        {
+          "nativeId": "816",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "817",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "818",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "819",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "820",
+          "nativeName": "Fossilized Skull"
+        },
+        {
+          "nativeId": "821",
+          "nativeName": "Fossilized Spine"
+        },
+        {
+          "nativeId": "822",
+          "nativeName": "Fossilized Tail"
+        },
+        {
+          "nativeId": "823",
+          "nativeName": "Fossilized Leg"
+        },
+        {
+          "nativeId": "824",
+          "nativeName": "Fossilized Ribs"
+        },
+        {
+          "nativeId": "825",
+          "nativeName": "Snake Skull"
+        },
+        {
+          "nativeId": "826",
+          "nativeName": "Snake Vertebrae"
+        },
+        {
+          "nativeId": "827",
+          "nativeName": "Mummified Bat"
+        },
+        {
+          "nativeId": "828",
+          "nativeName": "Mummified Frog"
+        },
+        {
+          "nativeId": "839",
+          "nativeName": "Thorns Ring"
+        },
+        {
+          "nativeId": "842",
+          "nativeName": "Journal Scrap"
+        },
+        {
+          "nativeId": "843",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "844",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "845",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "846",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "847",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "849",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "850",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "852",
+          "nativeName": "Dragon Tooth"
+        },
+        {
+          "nativeId": "857",
+          "nativeName": "Tiger Slime Egg"
+        },
+        {
+          "nativeId": "858",
+          "nativeName": "Qi Gem"
+        },
+        {
+          "nativeId": "859",
+          "nativeName": "Lucky Ring"
+        },
+        {
+          "nativeId": "860",
+          "nativeName": "Hot Java Ring"
+        },
+        {
+          "nativeId": "861",
+          "nativeName": "Protection Ring"
+        },
+        {
+          "nativeId": "862",
+          "nativeName": "Soul Sapper Ring"
+        },
+        {
+          "nativeId": "863",
+          "nativeName": "Phoenix Ring"
+        },
+        {
+          "nativeId": "864",
+          "nativeName": "War Memento"
+        },
+        {
+          "nativeId": "865",
+          "nativeName": "Gourmet Tomato Salt"
+        },
+        {
+          "nativeId": "866",
+          "nativeName": "Stardew Valley Rose"
+        },
+        {
+          "nativeId": "867",
+          "nativeName": "Advanced TV Remote"
+        },
+        {
+          "nativeId": "868",
+          "nativeName": "Arctic Shard"
+        },
+        {
+          "nativeId": "869",
+          "nativeName": "Wriggling Worm"
+        },
+        {
+          "nativeId": "870",
+          "nativeName": "Pirate's Locket"
+        },
+        {
+          "nativeId": "872",
+          "nativeName": "Fairy Dust"
+        },
+        {
+          "nativeId": "874",
+          "nativeName": "Bug Steak"
+        },
+        {
+          "nativeId": "875",
+          "nativeName": "Ectoplasm"
+        },
+        {
+          "nativeId": "876",
+          "nativeName": "Prismatic Jelly"
+        },
+        {
+          "nativeId": "879",
+          "nativeName": "Monster Musk"
+        },
+        {
+          "nativeId": "880",
+          "nativeName": "Combined Ring"
+        },
+        {
+          "nativeId": "882",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "883",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "884",
+          "nativeName": "Weeds"
+        },
+        {
+          "nativeId": "886",
+          "nativeName": "Warp Totem: Island"
+        },
+        {
+          "nativeId": "887",
+          "nativeName": "Immunity Band"
+        },
+        {
+          "nativeId": "888",
+          "nativeName": "Glowstone Ring"
+        },
+        {
+          "nativeId": "892",
+          "nativeName": "Warp Totem: Qi's Arena"
+        },
+        {
+          "nativeId": "896",
+          "nativeName": "Galaxy Soul"
+        },
+        {
+          "nativeId": "897",
+          "nativeName": "Pierre's Missing Stocklist"
+        },
+        {
+          "nativeId": "911",
+          "nativeName": "Horse Flute"
+        },
+        {
+          "nativeId": "913",
+          "nativeName": "Enricher"
+        },
+        {
+          "nativeId": "915",
+          "nativeName": "Pressure Nozzle"
+        },
+        {
+          "nativeId": "917",
+          "nativeName": "Qi Seasoning"
+        },
+        {
+          "nativeId": "922",
+          "nativeName": "SupplyCrate"
+        },
+        {
+          "nativeId": "923",
+          "nativeName": "SupplyCrate"
+        },
+        {
+          "nativeId": "924",
+          "nativeName": "SupplyCrate"
+        },
+        {
+          "nativeId": "925",
+          "nativeName": "Slime Crate"
+        },
+        {
+          "nativeId": "926",
+          "nativeName": "Cookout Kit"
+        },
+        {
+          "nativeId": "927",
+          "nativeName": "Camping Stove"
+        },
+        {
+          "nativeId": "930",
+          "nativeName": "???"
+        },
+        {
+          "nativeId": "FarAwayStone",
+          "nativeName": "Far Away Stone"
+        },
+        {
+          "nativeId": "CalicoEgg",
+          "nativeName": "Calico Egg"
+        },
+        {
+          "nativeId": "GoldenBobber",
+          "nativeName": "Golden Bobber"
+        },
+        {
+          "nativeId": "CalicoEggStone_0",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "CalicoEggStone_1",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "CalicoEggStone_2",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "MysteryBox",
+          "nativeName": "Mystery Box"
+        },
+        {
+          "nativeId": "TroutDerbyTag",
+          "nativeName": "Golden Tag"
+        },
+        {
+          "nativeId": "GreenRainWeeds0",
+          "nativeName": "GreenRainWeeds0"
+        },
+        {
+          "nativeId": "GreenRainWeeds1",
+          "nativeName": "GreenRainWeeds1"
+        },
+        {
+          "nativeId": "GreenRainWeeds2",
+          "nativeName": "GreenRainWeeds2"
+        },
+        {
+          "nativeId": "GreenRainWeeds3",
+          "nativeName": "GreenRainWeeds3"
+        },
+        {
+          "nativeId": "GreenRainWeeds4",
+          "nativeName": "GreenRainWeeds4"
+        },
+        {
+          "nativeId": "GreenRainWeeds5",
+          "nativeName": "GreenRainWeeds5"
+        },
+        {
+          "nativeId": "GreenRainWeeds6",
+          "nativeName": "GreenRainWeeds6"
+        },
+        {
+          "nativeId": "GreenRainWeeds7",
+          "nativeName": "GreenRainWeeds7"
+        },
+        {
+          "nativeId": "TentKit",
+          "nativeName": "Tent Kit"
+        },
+        {
+          "nativeId": "VolcanoGoldNode",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "StardropTea",
+          "nativeName": "Stardrop Tea"
+        },
+        {
+          "nativeId": "PrizeTicket",
+          "nativeName": "Prize Ticket"
+        },
+        {
+          "nativeId": "GoldCoin",
+          "nativeName": "Gold Coin"
+        },
+        {
+          "nativeId": "TreasureTotem",
+          "nativeName": "Treasure Totem"
+        },
+        {
+          "nativeId": "SeedSpot",
+          "nativeName": "Seed Spot"
+        },
+        {
+          "nativeId": "PurpleBook",
+          "nativeName": "Book Of Stars"
+        },
+        {
+          "nativeId": "SkillBook_0",
+          "nativeName": "Stardew Valley Almanac"
+        },
+        {
+          "nativeId": "SkillBook_2",
+          "nativeName": "Woodcutter's Weekly"
+        },
+        {
+          "nativeId": "SkillBook_1",
+          "nativeName": "Bait And Bobber"
+        },
+        {
+          "nativeId": "SkillBook_3",
+          "nativeName": "Mining Monthly"
+        },
+        {
+          "nativeId": "SkillBook_4",
+          "nativeName": "Combat Quarterly"
+        },
+        {
+          "nativeId": "Book_Trash",
+          "nativeName": "The Alleyway Buffet"
+        },
+        {
+          "nativeId": "Book_Crabbing",
+          "nativeName": "The Art O' Crabbing"
+        },
+        {
+          "nativeId": "Book_Bombs",
+          "nativeName": "Dwarvish Safety Manual"
+        },
+        {
+          "nativeId": "Book_Roe",
+          "nativeName": "Jewels Of The Sea"
+        },
+        {
+          "nativeId": "Book_WildSeeds",
+          "nativeName": "Ways Of The Wild"
+        },
+        {
+          "nativeId": "Book_Woodcutting",
+          "nativeName": "Woody's Secret"
+        },
+        {
+          "nativeId": "Book_Defense",
+          "nativeName": "Jack Be Nimble, Jack Be Thick"
+        },
+        {
+          "nativeId": "Book_Friendship",
+          "nativeName": "Friendship 101"
+        },
+        {
+          "nativeId": "Book_Void",
+          "nativeName": "Monster Compendium"
+        },
+        {
+          "nativeId": "Book_Speed",
+          "nativeName": "Way Of The Wind pt. 1"
+        },
+        {
+          "nativeId": "Book_Marlon",
+          "nativeName": "Mapping Cave Systems"
+        },
+        {
+          "nativeId": "Book_PriceCatalogue",
+          "nativeName": "Price Catalogue"
+        },
+        {
+          "nativeId": "Book_QueenOfSauce",
+          "nativeName": "Queen Of Sauce Cookbook"
+        },
+        {
+          "nativeId": "Book_Diamonds",
+          "nativeName": "The Diamond Hunter"
+        },
+        {
+          "nativeId": "Book_Mystery",
+          "nativeName": "Book of Mysteries"
+        },
+        {
+          "nativeId": "Book_AnimalCatalogue",
+          "nativeName": "Animal Catalogue"
+        },
+        {
+          "nativeId": "Book_Speed2",
+          "nativeName": "Way Of The Wind pt. 2"
+        },
+        {
+          "nativeId": "GoldenAnimalCracker",
+          "nativeName": "Golden Animal Cracker"
+        },
+        {
+          "nativeId": "GoldenMysteryBox",
+          "nativeName": "Golden Mystery Box"
+        },
+        {
+          "nativeId": "SeaJelly",
+          "nativeName": "Sea Jelly"
+        },
+        {
+          "nativeId": "CaveJelly",
+          "nativeName": "Cave Jelly"
+        },
+        {
+          "nativeId": "RiverJelly",
+          "nativeName": "River Jelly"
+        },
+        {
+          "nativeId": "VolcanoCoalNode0",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "VolcanoCoalNode1",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "PotOfGold",
+          "nativeName": "PotOfGold"
+        },
+        {
+          "nativeId": "Book_Artifact",
+          "nativeName": "Book_Artifact"
+        },
+        {
+          "nativeId": "Book_Horse",
+          "nativeName": "Book_Horse"
+        },
+        {
+          "nativeId": "ButterflyPowder",
+          "nativeName": "Butterfly Powder"
+        },
+        {
+          "nativeId": "PetLicense",
+          "nativeName": "Pet License"
+        },
+        {
+          "nativeId": "BlueGrassStarter",
+          "nativeName": "Blue Grass Starter"
+        },
+        {
+          "nativeId": "Book_Grass",
+          "nativeName": "Book_Grass"
+        },
+        {
+          "nativeId": "BasicCoalNode0",
+          "nativeName": "Stone"
+        },
+        {
+          "nativeId": "BasicCoalNode1",
+          "nativeName": "Stone"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-special-inventory.json",
+    "wiki-wallet-inventory.json",
+    "wiki-book-inventory.json",
+    "wiki-questitem-inventory.json"
+  ],
+  "remainingReview": "此处是待分类候选池而非已纳入物品。特殊任务、钱包能力、书籍和疑似废弃对象须逐项归类，不虚构获得方法。"
+}

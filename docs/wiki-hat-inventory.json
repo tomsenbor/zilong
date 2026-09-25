@@ -1,0 +1,3121 @@
+{
+  "version": "1.6.15",
+  "collectionSource": "https://stardewvalleywiki.com/Hats",
+  "collectionRevision": 192817,
+  "chineseCollectionRevision": 54115,
+  "status": "reviewed",
+  "warnings": [],
+  "records": [
+    {
+      "key": "hats:Cowboy Hat",
+      "slug": "cowboy-hat",
+      "name": "牛仔帽",
+      "originalName": "Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Cowboy_Hat",
+      "sourceRevision": 179933,
+      "sourceSha256": "d4cebe89893e8df1b1e57cc7799b9f89a8eeb549268861311fd2bcadc523f418",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"10000\">10,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/牛仔帽",
+      "chineseRevision": 50102,
+      "chineseSha256": "f191b363b4f041586d0efb8a6209f9ad983b329f64a9d682c8f70c3401073eea",
+      "image": {
+        "alt": "Cowboy Hat.png",
+        "src": "/mediawiki/images/9/99/Cowboy_Hat.png"
+      },
+      "acquisition": "全套收集（完成博物馆的收集）",
+      "shopPrice": "10,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "全套收集",
+        "成就说明": "完成博物馆的收集",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Bowler Hat",
+      "slug": "bowler-hat",
+      "name": "圆顶礼帽",
+      "originalName": "Bowler Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Bowler_Hat",
+      "sourceRevision": 185494,
+      "sourceSha256": "759800bc6a3c6dd76797f9398cce6c3f33e417e7e6096157fdb8c99c531641ef",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"10000\">10,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/圆顶礼帽",
+      "chineseRevision": 44550,
+      "chineseSha256": "179cf1b159dffd991c5b75354a4e2c702ad8b729b301b4ff75cd6e11aecf07f4",
+      "image": {
+        "alt": "Bowler Hat.png",
+        "src": "/mediawiki/images/e/e1/Bowler_Hat.png"
+      },
+      "acquisition": "百万富翁（获得1,000,000）",
+      "shopPrice": "10,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "百万富翁",
+        "成就说明": "赚 金币1,000,000",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Top Hat",
+      "slug": "top-hat",
+      "name": "大礼帽",
+      "originalName": "Top Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Top_Hat",
+      "sourceRevision": 176839,
+      "sourceSha256": "fd4534931b118fe1f7526a8f20288b0d0fc530cdc646d8616cafe39ba61d25f2",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/大礼帽",
+      "chineseRevision": 44553,
+      "chineseSha256": "e6674eb1263e26de00e6782389a1d49e4223064768c6f25f621f31ee0c6dcbd1",
+      "image": {
+        "alt": "Top Hat.png",
+        "src": "/mediawiki/images/8/8d/Top_Hat.png"
+      },
+      "acquisition": "在齐的赌场里花8,000购买",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "赌场",
+        "购买价格": "齐币8,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Sombrero",
+      "slug": "sombrero",
+      "name": "墨西哥帽",
+      "originalName": "Sombrero",
+      "sourceUrl": "https://stardewvalleywiki.com/Sombrero",
+      "sourceRevision": 176531,
+      "sourceSha256": "5177ef63874bb04d926a7678a90968f42691cd31483869d127002fe8cdbfb378",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"25000\">25,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/墨西哥帽",
+      "chineseRevision": 44554,
+      "chineseSha256": "e2df16fb22affcc6d1ff1ef431715e5a248afe4ebb697b3634bfa3fb27bb2cd3",
+      "image": {
+        "alt": "Sombrero.png",
+        "src": "/mediawiki/images/1/1c/Sombrero.png"
+      },
+      "acquisition": "千万富翁（获得10,000,000）",
+      "shopPrice": "25,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "千万富翁",
+        "成就说明": "赚 金币10,000,000",
+        "购买价格": "金币25,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Straw Hat",
+      "slug": "straw-hat",
+      "name": "草帽",
+      "originalName": "Straw Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Straw_Hat",
+      "sourceRevision": 180272,
+      "sourceSha256": "1d8d96cd93e9bba90b8025ba3bd39c2ef07586170a910196b037aa0aa7716a9d",
+      "versionEvidence": "1.0: Introduced. 1.4: The Hat Mouse now sells the hat after winning the egg hunt at least once. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/草帽",
+      "chineseRevision": 50274,
+      "chineseSha256": "bea09609877673a994a78a5837a2027044e1fc14fc7a4002b9d4fe2e6b74f204",
+      "image": {
+        "alt": "Straw Hat.png",
+        "src": "/mediawiki/images/b/b2/Straw_Hat.png"
+      },
+      "acquisition": "在复活节上获胜",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "复活节",
+        "要求": "集齐至少9个复活节彩蛋",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Official Cap",
+      "slug": "official-cap",
+      "name": "大檐帽",
+      "originalName": "Official Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Official_Cap",
+      "sourceRevision": 194264,
+      "sourceSha256": "be24d9aa74bc6eb9d6dd4958d17fd2a40470e4e51f5cf5a7edac6bde1f84e37d",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/大檐帽",
+      "chineseRevision": 55335,
+      "chineseSha256": "9d598dc01b04991167a91c928c8ddb23024702ab88d940ab95911e2a4a81741b",
+      "image": {
+        "alt": "Official Cap.png",
+        "src": "/mediawiki/images/b/b4/Official_Cap.png"
+      },
+      "acquisition": "老海员（捕获24种不同的鱼）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "老海员",
+        "成就说明": "钓到24种不同鱼",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Blue Bonnet",
+      "slug": "blue-bonnet",
+      "name": "蓝色软帽",
+      "originalName": "Blue Bonnet",
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Bonnet",
+      "sourceRevision": 173523,
+      "sourceSha256": "299b8507b13d21ccc6a7cb6b0d37896fc110645ddc013c09a569c555791b2dbe",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蓝色软帽",
+      "chineseRevision": 44291,
+      "chineseSha256": "f481eb7c1283c17632ce6f406cabe909c8979eab358d9fed90683447bbed490c",
+      "image": {
+        "alt": "Blue Bonnet.png",
+        "src": "/mediawiki/images/b/ba/Blue_Bonnet.png"
+      },
+      "acquisition": "无主宝藏（捐献40种不同的物品给博物馆）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "无主宝藏",
+        "成就说明": "捐赠40种不同的物品到博物馆",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Plum Chapeau",
+      "slug": "plum-chapeau",
+      "name": "紫红小帽",
+      "originalName": "Plum Chapeau",
+      "sourceUrl": "https://stardewvalleywiki.com/Plum_Chapeau",
+      "sourceRevision": 176584,
+      "sourceSha256": "20324e6de47c340e97b4b4528b2b0fa138b4a06bfea3eaf94f9c74cf473f2bcd",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/紫红小帽",
+      "chineseRevision": 44564,
+      "chineseSha256": "34209f9d662ee38bec73c7498825c0a4aece0cd6c1b144cd772e3653767742b9",
+      "image": {
+        "alt": "Plum Chapeau.png",
+        "src": "/mediawiki/images/9/99/Plum_Chapeau.png"
+      },
+      "acquisition": "副主厨师（烹饪25种不同的食谱）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "副主厨师",
+        "成就说明": "烹饪25种不同菜谱。",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Skeleton Mask",
+      "slug": "skeleton-mask",
+      "name": "骷髅面具",
+      "originalName": "Skeleton Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Skeleton_Mask",
+      "sourceRevision": 162989,
+      "sourceSha256": "b6577d0f3b73b093900878895cbddedf302cc49c08eb6a25f7b8311d2a34956b",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/骷髅面具",
+      "chineseRevision": 44712,
+      "chineseSha256": "d96e37d6faa7f973227625dd1ec89243c32d4d25590d479986a4bb0e82953002",
+      "image": {
+        "alt": "Skeleton Mask.png",
+        "src": "/mediawiki/images/1/12/Skeleton_Mask.png"
+      },
+      "acquisition": "探险家公会（消灭怪物的目标 - 击杀50个骷髅）",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "冒险家公会",
+        "购买价格": "金币20,000",
+        "售出价格": "无法出售"
+      }
+    },
+    {
+      "key": "hats:Goblin Mask",
+      "slug": "goblin-mask",
+      "name": "哥布林面具",
+      "originalName": "Goblin Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Goblin_Mask",
+      "sourceRevision": 176379,
+      "sourceSha256": "fa1ed3150d75985576d44962c72fc2cbed0efa43b6357f40cf1e09b61099f270",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"10000\">10,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/哥布林面具",
+      "chineseRevision": 44566,
+      "chineseSha256": "bfa770dc98f84a0e3eb5718075a895a12dd945878ba9b5acd1dd14ddffea3604",
+      "image": {
+        "alt": "Goblin Mask.png",
+        "src": "/mediawiki/images/9/91/Goblin_Mask.png"
+      },
+      "acquisition": "全部货物（出售每种物品）",
+      "shopPrice": "10,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "全部货物",
+        "成就说明": "出售每种物品",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Chicken Mask",
+      "slug": "chicken-mask",
+      "name": "小鸡面具",
+      "originalName": "Chicken Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Chicken_Mask",
+      "sourceRevision": 182736,
+      "sourceSha256": "19155068d43fa58060abd68ad29bd6091f475e989ffcdf95b96388f03ca34146",
+      "versionEvidence": "1.0: Introduced. 1.4: Fixed typo \"thim\" to \"them\" in description. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/小鸡面具",
+      "chineseRevision": 51431,
+      "chineseSha256": "f41aed524660a7900a344cc53ad5029039a2fe6e6f4624cd435510e9094a3816",
+      "image": {
+        "alt": "Chicken Mask.png",
+        "src": "/mediawiki/images/9/99/Chicken_Mask.png"
+      },
+      "acquisition": "帮了大忙（完成40个'委托'请求）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "帮了大忙",
+        "成就说明": "完成40个求助任务",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Earmuffs",
+      "slug": "earmuffs",
+      "name": "护耳",
+      "originalName": "Earmuffs",
+      "sourceUrl": "https://stardewvalleywiki.com/Earmuffs",
+      "sourceRevision": 176473,
+      "sourceSha256": "3d9fc2864c460c1a82fb0732dc67e1308bf4337dcf055be397684aa092510a18",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"4000\">4,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/护耳",
+      "chineseRevision": 44568,
+      "chineseSha256": "4d1898db8ed5e8743e10c8edb57035826f7401913c7350f897c15ce52c6a559e",
+      "image": {
+        "alt": "Earmuffs.png",
+        "src": "/mediawiki/images/c/ca/Earmuffs.png"
+      },
+      "acquisition": "万人迷（与20个人达到5心好感度）",
+      "shopPrice": "4,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "万人迷",
+        "成就说明": "与20个人达到了5颗心的友谊等级",
+        "购买价格": "金币4,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Delicate Bow",
+      "slug": "delicate-bow",
+      "name": "精美蝴蝶结",
+      "originalName": "Delicate Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Delicate_Bow",
+      "sourceRevision": 179963,
+      "sourceSha256": "bf639ae872f62106f405dfd911f4baeb77aaa547032477fdb82e4da613768d8c",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/精美蝴蝶结",
+      "chineseRevision": 50307,
+      "chineseSha256": "8f4172f2271b61a5ce6099f03e70a807943b6012cc3ec121aa23caa47e91f113",
+      "image": {
+        "alt": "Delicate Bow.png",
+        "src": "/mediawiki/images/3/38/Delicate_Bow.png"
+      },
+      "acquisition": "厨子（烹饪10种不同的菜谱）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "厨子",
+        "成就说明": "烹饪10种不同菜谱。",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Tropiclip",
+      "slug": "tropiclip",
+      "name": "热带风小发卡",
+      "originalName": "Tropiclip",
+      "sourceUrl": "https://stardewvalleywiki.com/Tropiclip",
+      "sourceRevision": 189996,
+      "sourceSha256": "dc0fa202bb7cec56e3416c29a0f83e67e8572b5ac8c412eadbd66c872e4a627c",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/热带风小发卡",
+      "chineseRevision": 44574,
+      "chineseSha256": "6284fe7cc769d0c66427d1312c1c38d997a2e2ef9a35d45141c8c753119ba500",
+      "image": {
+        "alt": "Tropiclip.png",
+        "src": "/mediawiki/images/5/5a/Tropiclip.png"
+      },
+      "acquisition": "节节高升（升级你的房子）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "节节高升",
+        "成就说明": "升级你的房屋",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Butterfly Bow",
+      "slug": "butterfly-bow",
+      "name": "蝴蝶结",
+      "originalName": "Butterfly Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Butterfly_Bow",
+      "sourceRevision": 173526,
+      "sourceSha256": "ea3a84f898923230929c2ec13c0b5421736d24eb6e316eef622368d8c0e78b64",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蝴蝶结",
+      "chineseRevision": 44015,
+      "chineseSha256": "8e6eb41c6a7a6c9fca59e8e7f187bb1106a7aaf37d4d36d14c05833cd6616ad9",
+      "image": {
+        "alt": "Butterfly Bow.png",
+        "src": "/mediawiki/images/0/01/Butterfly_Bow.png"
+      },
+      "acquisition": "新朋友（与任意一人到达5心好感度）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "新朋友",
+        "成就说明": "与某人达到了5颗心的友谊等级。",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Hunter's Cap",
+      "slug": "hunters-cap",
+      "name": "猎人帽",
+      "originalName": "Hunter's Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Hunter's_Cap",
+      "sourceRevision": 176395,
+      "sourceSha256": "64c05101ebe0a979aabc32879131dbcbf57a84ca3b0fd688f69710e781d60fc4",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/猎人帽",
+      "chineseRevision": 44575,
+      "chineseSha256": "694993e53dfc0a76362cdfe9e8d106f63c392374fd33721437613896dcee4289",
+      "image": {
+        "alt": "Hunter's Cap.png",
+        "src": "/mediawiki/images/c/c9/Hunter%27s_Cap.png"
+      },
+      "acquisition": "富裕生活（升级你的房屋到最大尺寸）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "富裕生活",
+        "成就说明": "升级你的房屋到最大尺寸",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Trucker Hat",
+      "slug": "trucker-hat",
+      "name": "司机帽",
+      "originalName": "Trucker Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Trucker_Hat",
+      "sourceRevision": 176883,
+      "sourceSha256": "79b46ab896beda1ffa2f18eba03fdd9b67a7028b826b23c9b672fe643e8017d6",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/司机帽",
+      "chineseRevision": 47206,
+      "chineseSha256": "9148a9e7dcc7e5a24caf648c91f2eb58b420b3ffef3ea8da5294f667d00e68ef",
+      "image": {
+        "alt": "Trucker Hat.png",
+        "src": "/mediawiki/images/2/2f/Trucker_Hat.png"
+      },
+      "acquisition": "工匠（制造30种不同的物品）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "工匠",
+        "成就说明": "制造30种不同物品",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Sailor's Cap",
+      "slug": "sailors-cap",
+      "name": "水手帽",
+      "originalName": "Sailor's Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Sailor's_Cap",
+      "sourceRevision": 192873,
+      "sourceSha256": "b11b997a4e84ab4f46f1ead4a6409c68eb595fb5f6bc98666b398a89025b7683",
+      "versionEvidence": "1.0: Introduced. 1.4: The Hat Mouse now sells the hat after winning the competition at least once.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/水手帽",
+      "chineseRevision": 44578,
+      "chineseSha256": "72c170844d1f502a753b5facb537d0b5f712c2b020758d4e03ea9495be8adfbe",
+      "image": {
+        "alt": "Sailor's Cap.png",
+        "src": "/mediawiki/images/4/45/Sailor%27s_Cap.png"
+      },
+      "acquisition": "在冰雪节的钓鱼比赛上获胜",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "冰雪节",
+        "要求": "至少钓到5条鱼",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Good Ol' Cap",
+      "slug": "good-ol-cap",
+      "name": "老伙计帽",
+      "originalName": "Good Ol' Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Good_Ol'_Cap",
+      "sourceRevision": 179928,
+      "sourceSha256": "b2a2ee59dd23a762d37f0a39960bdc3c394f6121b9814507f254815de3ce8ab8",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/老伙计帽",
+      "chineseRevision": 50183,
+      "chineseSha256": "f42d0184d55bef4a47857daf19ed611f508a11a813a1018deec7d90616c268df",
+      "image": {
+        "alt": "Good Ol' Cap.png",
+        "src": "/mediawiki/images/1/1e/Good_Ol%27_Cap.png"
+      },
+      "acquisition": "新手（获得15,000）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "新手",
+        "成就说明": "赚 金币15,000",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Fedora",
+      "slug": "fedora",
+      "name": "软呢帽",
+      "originalName": "Fedora",
+      "sourceUrl": "https://stardewvalleywiki.com/Fedora",
+      "sourceRevision": 164197,
+      "sourceSha256": "7831439c830b142cf256fdc88e324d83a5f51658c5834354b129df8590c4badc",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/软呢帽",
+      "chineseRevision": 44580,
+      "chineseSha256": "ddd203fa3f93a3e311f8dac36dfdc42dfa7db52d78b64b70f56da5f535bd71a2",
+      "image": {
+        "alt": "Fedora.png",
+        "src": "/mediawiki/images/5/5e/Fedora.png"
+      },
+      "acquisition": "在星露谷展览会上花费500兑换。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "星露谷展览会",
+        "购买价格": "星星币500",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Cool Cap",
+      "slug": "cool-cap",
+      "name": "凉帽",
+      "originalName": "Cool Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Cool_Cap",
+      "sourceRevision": 166912,
+      "sourceSha256": "63eb316ebe489d5c825923c2d223d4acff35b74b63eaefaf8fae710d74d6357d",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/凉帽",
+      "chineseRevision": 44581,
+      "chineseSha256": "b331753ec5e0b47ec171f1968a2abc869911d672f24e915b9fdbb4dfe54c8c2e",
+      "image": {
+        "alt": "Cool Cap.png",
+        "src": "/mediawiki/images/6/69/Cool_Cap.png"
+      },
+      "acquisition": "农场主（获得250,000）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "农场主",
+        "成就说明": "赚取金币250,000",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Lucky Bow",
+      "slug": "lucky-bow",
+      "name": "幸运蝴蝶结",
+      "originalName": "Lucky Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Lucky_Bow",
+      "sourceRevision": 191016,
+      "sourceSha256": "1efbbeac6003e7a78e9556ad27265a0e83ac76b9e32ecfce9a7ae9de1a2e347d",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/幸运蝴蝶结",
+      "chineseRevision": 44582,
+      "chineseSha256": "d387bd83969f51c5e533d04fa8d53e0bd75cd51fe6fbb4c0bd10d318498208f3",
+      "image": {
+        "alt": "Lucky Bow.png",
+        "src": "/mediawiki/images/7/71/Lucky_Bow.png"
+      },
+      "acquisition": "牛仔（获得50,000）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "牛仔",
+        "成就说明": "赚 金币50,000",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Polka Bow",
+      "slug": "polka-bow",
+      "name": "波尔卡蝴蝶结",
+      "originalName": "Polka Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Polka_Bow",
+      "sourceRevision": 176496,
+      "sourceSha256": "bc9ed380f04601d0f10c628bd93266cab447279892e394e2e76f817fc07edb96",
+      "versionEvidence": "1.0: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/波尔卡蝴蝶结",
+      "chineseRevision": 44583,
+      "chineseSha256": "e3b1b7cb26c7e3fdb67ffecc6a03fc41ad2e9784ae6ae57cbc9841a41d590194",
+      "image": {
+        "alt": "Polka Bow.png",
+        "src": "/mediawiki/images/b/b6/Polka_Bow.png"
+      },
+      "acquisition": "听差（完成10个'委托'请求）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "听差",
+        "成就说明": "完成10个'委托'要求",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Gnome's Cap",
+      "slug": "gnomes-cap",
+      "name": "土地神帽",
+      "originalName": "Gnome's Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Gnome's_Cap",
+      "sourceRevision": 180008,
+      "sourceSha256": "b437393e066c7e1cd397fbd006f4aec5af990012cf8598a31b94fa5a37a5e29c",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/土地神帽",
+      "chineseRevision": 50083,
+      "chineseSha256": "c62efa503ab369e874cd06cc9200e321e75946f927cd35dea322966b3d197f77",
+      "image": {
+        "alt": "Gnome's Cap.png",
+        "src": "/mediawiki/images/2/26/Gnome%27s_Cap.png"
+      },
+      "acquisition": "制造大师（制造每种物品）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "制造大师",
+        "成就说明": "制作所有物品",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Eye Patch",
+      "slug": "eye-patch",
+      "name": "眼罩",
+      "originalName": "Eye Patch",
+      "sourceUrl": "https://stardewvalleywiki.com/Eye_Patch",
+      "sourceRevision": 176441,
+      "sourceSha256": "6da95704d0635179249b49924c761f23c066585648157da4424eb8a8a3dd8357",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/眼罩",
+      "chineseRevision": 44587,
+      "chineseSha256": "9699f4e596bba30c3d699b59fd466d2841219b0c55e22f5bfa9a5bcceb37755f",
+      "image": {
+        "alt": "Eye Patch.png",
+        "src": "/mediawiki/images/f/fb/Eye_Patch.png"
+      },
+      "acquisition": "垂钓大师（捕获每种鱼）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "垂钓大师",
+        "成就说明": "钓到每一种鱼",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Santa Hat",
+      "slug": "santa-hat",
+      "name": "圣诞帽",
+      "originalName": "Santa Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Santa_Hat",
+      "sourceRevision": 180344,
+      "sourceSha256": "431f508adf87852a5669106fe47f712daf59c134026f1b28cb4791c2cbe2bfed",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/圣诞帽",
+      "chineseRevision": 49870,
+      "chineseSha256": "47b59f7404e59123379d5d1fb6498bf4497ae6dbaddd9c6a6d81c98e8f2d6c49",
+      "image": {
+        "alt": "Santa Hat.png",
+        "src": "/mediawiki/images/e/e6/Santa_Hat.png"
+      },
+      "acquisition": "网络交友（与10个人达到5心好感度）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "广结好友",
+        "成就说明": "与10个人达到了5颗心的友谊等级。",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Tiara",
+      "slug": "tiara",
+      "name": "三重冕",
+      "originalName": "Tiara",
+      "sourceUrl": "https://stardewvalleywiki.com/Tiara",
+      "sourceRevision": 176798,
+      "sourceSha256": "d7247fe5723b6531b69d1a78f540333f1f1c4a2e7441fafbec67469ea72a6c30",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/三重冕",
+      "chineseRevision": 44620,
+      "chineseSha256": "f4b38ec8bda62b1e11d79f27841d82ab3c5eaea189b5fd11ecdc008b9a46a01c",
+      "image": {
+        "alt": "Tiara.png",
+        "src": "/mediawiki/images/6/6c/Tiara.png"
+      },
+      "acquisition": "拉帮结派（与4个人达到5心好感度）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "朋友圈",
+        "成就说明": "与4个人达到了5颗心的友谊等级",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Hard Hat",
+      "slug": "hard-hat",
+      "name": "安全帽",
+      "originalName": "Hard Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Hard_Hat",
+      "sourceRevision": 179945,
+      "sourceSha256": "49858d3f812eb616d11861affec6b770b27059c6b0797d7b3c4fe3a3849ad74d",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/安全帽",
+      "chineseRevision": 49914,
+      "chineseSha256": "a70b7c2e863ada43e78e35ed0a687945ed6fa58cd0a3d224a7d8978cf6492329",
+      "image": {
+        "alt": "Hard Hat.png",
+        "src": "/mediawiki/images/0/08/Hard_Hat.png"
+      },
+      "acquisition": "探险家公会（消灭怪物的目标 - 击杀30个掘地虫）",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "冒险家公会",
+        "购买价格": "金币20,000",
+        "售出价格": "无法出售"
+      }
+    },
+    {
+      "key": "hats:Sou'wester",
+      "slug": "souwester",
+      "name": "防雨帽",
+      "originalName": "Sou'wester",
+      "sourceUrl": "https://stardewvalleywiki.com/Sou'wester",
+      "sourceRevision": 180299,
+      "sourceSha256": "128b3c6706c00e0bb5d6b97fa8544f4bbae7e51b8ebf20c661b741fe87e97136",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/防雨帽",
+      "chineseRevision": 50228,
+      "chineseSha256": "c7e4b8d187f67660da2b729a264d72f21a198a3be9b31723c55b34e31fa92edc",
+      "image": {
+        "alt": "Sou'wester.png",
+        "src": "/mediawiki/images/f/f0/Sou%27wester.png"
+      },
+      "acquisition": "渔夫（捕获10种不同的鱼）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "渔夫",
+        "成就说明": "钓到10种不同鱼",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Daisy",
+      "slug": "daisy",
+      "name": "雏菊发卡",
+      "originalName": "Daisy",
+      "sourceUrl": "https://stardewvalleywiki.com/Daisy",
+      "sourceRevision": 185489,
+      "sourceSha256": "264a1bd5d6ba2f04a80466688de321bfbb54aad7c8865e7fbd50dd5ded9fe86e",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/雏菊发卡",
+      "chineseRevision": 50263,
+      "chineseSha256": "ccce37b3e323d988d22ae9772ab029b1f2f50e79657300cc7c30febf3c9c0356",
+      "image": {
+        "alt": "Daisy.png",
+        "src": "/mediawiki/images/c/c1/Daisy.png"
+      },
+      "acquisition": "自己动手（制造15种不同的物品）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "自己动手",
+        "成就说明": "制造15种不同物品。",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Watermelon Band",
+      "slug": "watermelon-band",
+      "name": "西瓜发卡",
+      "originalName": "Watermelon Band",
+      "sourceUrl": "https://stardewvalleywiki.com/Watermelon_Band",
+      "sourceRevision": 180315,
+      "sourceSha256": "d2a9887b5208fe911f8aa904632e34743803e64697c1d4135a993b5554371cc5",
+      "versionEvidence": "1.0: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/西瓜发卡",
+      "chineseRevision": 50134,
+      "chineseSha256": "3c5814037c609ddb6ef75d77133914b342496f8d9be918bd68b4352219d23e0a",
+      "image": {
+        "alt": "Watermelon Band.png",
+        "src": "/mediawiki/images/b/b7/Watermelon_Band.png"
+      },
+      "acquisition": "捕鱼大师（捕获100条鱼）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "捕鱼大师",
+        "成就说明": "钓到100条鱼",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Mouse Ears",
+      "slug": "mouse-ears",
+      "name": "老鼠耳朵",
+      "originalName": "Mouse Ears",
+      "sourceUrl": "https://stardewvalleywiki.com/Mouse_Ears",
+      "sourceRevision": 190915,
+      "sourceSha256": "47f44e24329fa2d12733f999c5101678f3918c52192d5bb746ea02c6ecc6c4c1",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"2000\">2,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/老鼠耳朵",
+      "chineseRevision": 50197,
+      "chineseSha256": "b7164724b58d2df22922975c3c31b2a169058ce123ff2f03ffd40528cb5354e0",
+      "image": {
+        "alt": "Mouse Ears.png",
+        "src": "/mediawiki/images/0/05/Mouse_Ears.png"
+      },
+      "acquisition": "最好的朋友（与任意一人达到10心好感度）",
+      "shopPrice": "2,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "最好的朋友",
+        "成就说明": "与某人达到了10颗心的友谊等级。",
+        "购买价格": "金币2,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Cat Ears",
+      "slug": "cat-ears",
+      "name": "猫耳",
+      "originalName": "Cat Ears",
+      "sourceUrl": "https://stardewvalleywiki.com/Cat_Ears",
+      "sourceRevision": 188123,
+      "sourceSha256": "254639fa004beb2b9afdae8fcbfe140e6baa819d7699cbb9152adac4c0ddab45",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/猫耳",
+      "chineseRevision": 50129,
+      "chineseSha256": "ac5f7dee35d3e3003ec3840e34ee4656627a3355e3beab71679d210ea9854578",
+      "image": {
+        "alt": "Cat Ears.png",
+        "src": "/mediawiki/images/a/ab/Cat_Ears.png"
+      },
+      "acquisition": "深受喜爱的农夫（与8个人达到10心好感度）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "深受喜爱的农夫",
+        "成就说明": "与8个人达到了10颗心的友谊等级。",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Cowgal Hat",
+      "slug": "cowgal-hat",
+      "name": "牛仔女郎帽",
+      "originalName": "Cowgal Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Cowgal_Hat",
+      "sourceRevision": 166924,
+      "sourceSha256": "7f9a384142823b3c8905029de53433bb75b29f7986e94ebef1bceadf4d681c35",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/牛仔女郎帽",
+      "chineseRevision": 44675,
+      "chineseSha256": "76c0a9f63af84faff91eec904001b7ec10fb95072c6cf78f661c05d515431d00",
+      "image": {
+        "alt": "Cowgal Hat.png",
+        "src": "/mediawiki/images/e/e7/Cowgal_Hat.png"
+      },
+      "acquisition": "单一栽培（一种农作物出售300个）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "单一栽培",
+        "成就说明": "将一种农作物寄出300个",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Cowpoke Hat",
+      "slug": "cowpoke-hat",
+      "name": "专业牛仔帽",
+      "originalName": "Cowpoke Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Cowpoke_Hat",
+      "sourceRevision": 167062,
+      "sourceSha256": "069744a4868b01416610f47c64547767cba39983245ecf5c669f5545fbe413be",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"5000\">5,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/专业牛仔帽",
+      "chineseRevision": 44676,
+      "chineseSha256": "06d1c0954dcc13594b9f9c9aced0e3174c84c84d1faeb8d19d84a5108fcf39dd",
+      "image": {
+        "alt": "Cowpoke Hat.png",
+        "src": "/mediawiki/images/4/4e/Cowpoke_Hat.png"
+      },
+      "acquisition": "混合栽培（每种农作物出售15个）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "混合栽培",
+        "成就说明": "售卖28种农作物各15个（注：详见成就#混合栽培）",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Archer's Cap",
+      "slug": "archers-cap",
+      "name": "射手帽",
+      "originalName": "Archer's Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Archer's_Cap",
+      "sourceRevision": 166958,
+      "sourceSha256": "fcbdee417f70af672a88ea34171735ad4402d290f8dd40b8c11220e038ea210c",
+      "versionEvidence": "1.0: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"4000\">4,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/射手帽",
+      "chineseRevision": 44677,
+      "chineseSha256": "da52e8efb22de5e24f0f5c946d975e0d3bd08e0126bd39320de536105bac1fe3",
+      "image": {
+        "alt": "Archer's Cap.png",
+        "src": "/mediawiki/images/1/18/Archer%27s_Cap.png"
+      },
+      "acquisition": "美食大厨（烹饪每种菜谱）",
+      "shopPrice": "4,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "美食大厨",
+        "成就说明": "烹饪每一种菜谱。",
+        "购买价格": "金币4,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Panda Hat",
+      "slug": "panda-hat",
+      "name": "熊猫帽子",
+      "originalName": "Panda Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Panda_Hat",
+      "sourceRevision": 190976,
+      "sourceSha256": "ccb70c2c7c8b9929add9ff4dc4131dca2425590e1687f3b752048dd1e7218fb9",
+      "versionEvidence": "1.2.26: Introduced. 1.5: Name and description of hat translated for all languages.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/熊猫帽子",
+      "chineseRevision": 45770,
+      "chineseSha256": "48b4fb454a3649d0c404fc965b1ab7bd2880e02e0508fbfcf494d807b0160ec4",
+      "image": {
+        "alt": "Panda Hat.png",
+        "src": "/mediawiki/images/3/3a/Panda_Hat.png"
+      },
+      "acquisition": "WeGame [2] 独家内容，其他平台无法获得",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {}
+    },
+    {
+      "key": "hats:Blue Cowboy Hat",
+      "slug": "blue-cowboy-hat",
+      "name": "蓝色牛仔帽",
+      "originalName": "Blue Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Cowboy_Hat",
+      "sourceRevision": 175978,
+      "sourceSha256": "e45655ad24791c75e7531aa31109fcc2b8bb8869438134964ae89954c3832124",
+      "versionEvidence": "1.3.27: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蓝色牛仔帽",
+      "chineseRevision": 44921,
+      "chineseSha256": "d55976293bb47d7a0dc6d725cdc2d8e46ec4a80cc965de2ea6271484fe90ac10",
+      "image": {
+        "alt": "Blue Cowboy Hat.png",
+        "src": "/mediawiki/images/7/73/Blue_Cowboy_Hat.png"
+      },
+      "acquisition": "在骷髅洞穴中的宝箱层有几率找到。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "骷髅洞穴",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Red Cowboy Hat",
+      "slug": "red-cowboy-hat",
+      "name": "红色牛仔帽",
+      "originalName": "Red Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Red_Cowboy_Hat",
+      "sourceRevision": 175981,
+      "sourceSha256": "194894f5b29338ea04c090a2273bbb55bf8b62df979aa562016aac182b4bbd04",
+      "versionEvidence": "1.3.27: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/红色牛仔帽",
+      "chineseRevision": 44922,
+      "chineseSha256": "e6d6daeb4988475c4dc3f60c707b4c485f6bf69d274c1dca6dcf928c320a64f9",
+      "image": {
+        "alt": "Red Cowboy Hat.png",
+        "src": "/mediawiki/images/f/fc/Red_Cowboy_Hat.png"
+      },
+      "acquisition": "在骷髅洞穴中的宝箱层有几率找到。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "骷髅洞穴",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Cone Hat",
+      "slug": "cone-hat",
+      "name": "锥帽",
+      "originalName": "Cone Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Cone_Hat",
+      "sourceRevision": 166908,
+      "sourceSha256": "fc03d2113e66d767f42ac10b81b5b7d4217f58c411a3203312ef4c2a913716c7",
+      "versionEvidence": "1.3.27: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/锥帽",
+      "chineseRevision": 44685,
+      "chineseSha256": "a0d8396e20a8e7f1179ded5ac2bdf575c8b02384aacdc190e72171e22a8e9d34",
+      "image": {
+        "alt": "Cone Hat.png",
+        "src": "/mediawiki/images/d/d5/Cone_Hat.png"
+      },
+      "acquisition": "可在魔法商船购买获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "夜市",
+        "购买价格": "金币2,500-金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Living Hat",
+      "slug": "living-hat",
+      "name": "活的帽子",
+      "originalName": "Living Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Living_Hat",
+      "sourceRevision": 193414,
+      "sourceSha256": "91e3a8a0de68475212ecfc86a13520f76fb885174be51d6bdfa500872d652181",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be obtained from Iridium Golems.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/活的帽子",
+      "chineseRevision": 44684,
+      "chineseSha256": "f5c75ae561f36d408bcaf77af314c7ef2a0b5d47b46fb69c96162ee03c905487",
+      "image": {
+        "alt": "Living Hat.png",
+        "src": "/mediawiki/images/9/95/Living_Hat.png"
+      },
+      "acquisition": "破坏杂草的时候有0.001%的机会掉落。 荒野石魔有0.01%掉落该物品。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "荒野石魔（0.01%） 铱石魔（0.02%） 杂草（0.001%）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Emily's Magic Hat",
+      "slug": "emilys-magic-hat",
+      "name": "艾米丽的魔法帽",
+      "originalName": "Emily's Magic Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Emily's_Magic_Hat",
+      "sourceRevision": 180462,
+      "sourceSha256": "fb770d1e10cb3cd8fd3d776875dbb189bccea3ab962903569785c17bb2bd64f9",
+      "versionEvidence": "1.4: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/艾米丽的魔法帽",
+      "chineseRevision": 54400,
+      "chineseSha256": "2b220ea323be704095dfe04f90f462c19b2f6459f62259b876f84bc4e068f58f",
+      "image": {
+        "alt": "Emily's Magic Hat.png",
+        "src": "/mediawiki/images/a/a4/Emily%27s_Magic_Hat.png"
+      },
+      "acquisition": "艾米丽的14心爱心事件",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "艾米丽的14心事件",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Mushroom Cap",
+      "slug": "mushroom-cap",
+      "name": "蘑菇帽",
+      "originalName": "Mushroom Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Mushroom_Cap",
+      "sourceRevision": 163320,
+      "sourceSha256": "89bffddef126f258777ab2941e5b8e05efea23b7a9a10770bffbacad53b4c918",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蘑菇帽",
+      "chineseRevision": 44786,
+      "chineseSha256": "f23060797b24a4205943b0092736acfbceb1658f34fcf425ca3c556120333e78",
+      "image": {
+        "alt": "Mushroom Cap.png",
+        "src": "/mediawiki/images/7/71/Mushroom_Cap.png"
+      },
+      "acquisition": "砍倒蘑菇树的时候有1%的几率掉落。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "砍倒蘑菇树（1%）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Dinosaur Hat",
+      "slug": "dinosaur-hat",
+      "name": "恐龙帽",
+      "originalName": "Dinosaur Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Dinosaur_Hat",
+      "sourceRevision": 179995,
+      "sourceSha256": "22ff3f97375bc6205f5297b097928c30f4774993a181ae0f7e196a903cb410fc",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/恐龙帽",
+      "chineseRevision": 54272,
+      "chineseSha256": "65fb213ecb04fc241fd2683950fc46d5973fb0ad55d0f9b50e452f4083331cc2",
+      "image": {
+        "alt": "Dinosaur Hat.png",
+        "src": "/mediawiki/images/2/25/Dinosaur_Hat.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "恐龙蛋（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "恐龙蛋（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Totem Mask",
+      "slug": "totem-mask",
+      "name": "图腾面具",
+      "originalName": "Totem Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Totem_Mask",
+      "sourceRevision": 192686,
+      "sourceSha256": "a72e881161d177904b07d90e988c7ff4625f85376d31f26b0ec8434f7cd8941f",
+      "versionEvidence": "1.4: Introduced. 1.5: Can be made using Warp Totem: Island. 1.6: Can be made using Treasure Totem. Can now be randomly obtained as part of an outfit from the Desert Festival.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/图腾面具",
+      "chineseRevision": 55221,
+      "chineseSha256": "efacbd7836cbe6fd6679d9bcc57669afc0f8c54b9db91fe67dd3dc9a7eebfcf2",
+      "image": {
+        "alt": "Totem Mask.png",
+        "src": "/mediawiki/images/c/cc/Totem_Mask.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "雨水图腾（1） 或 传送图腾：农场（1） 或 传送图腾：山岭（1） 或 传送图腾：海滩（1） 或 传送图腾：沙漠（1） 或 传送图腾：姜岛（1） 或 宝藏图腾（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "雨水图腾（1） 或 传送图腾：农场（1） 或 传送图腾：山岭（1） 或 传送图腾：海滩（1） 或 传送图腾：沙漠（1） 或 传送图腾：姜岛（1） 或 宝藏图腾（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Logo Cap",
+      "slug": "logo-cap",
+      "name": "标志帽",
+      "originalName": "Logo Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Logo_Cap",
+      "sourceRevision": 190202,
+      "sourceSha256": "4a68d13ab10afee0f848aacac78cca1faf383930b6c68d110b777a49c4759fda",
+      "versionEvidence": "1.4: Introduced. 1.6: Fixed description to read \"pink\" instead of \"red\". Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/标志帽",
+      "chineseRevision": 54134,
+      "chineseSha256": "f6aef8852ef67faf1cb9d7a1e798a01e65e5df15fe9603bc8abfabcf66bf8925",
+      "image": {
+        "alt": "Logo Cap.png",
+        "src": "/mediawiki/images/c/ca/Logo_Cap.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "岩浆鳗鱼（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "岩浆鳗鱼（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Wearable Dwarf Helm",
+      "slug": "wearable-dwarf-helm",
+      "name": "可穿戴的矮人头盔",
+      "originalName": "Wearable Dwarf Helm",
+      "sourceUrl": "https://stardewvalleywiki.com/Wearable_Dwarf_Helm",
+      "sourceRevision": 192664,
+      "sourceSha256": "0490214f8d812ed38d8f1898daa89ac95bed3a3ebc5a6c889e8e5eedcb75ddba",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/可穿戴的矮人头盔",
+      "chineseRevision": 48681,
+      "chineseSha256": "1a445c35d0b6312444000c8351b0b1e855346b028fc6b1e576babbd86700e61e",
+      "image": {
+        "alt": "Wearable Dwarf Helm.png",
+        "src": "/mediawiki/images/3/36/Wearable_Dwarf_Helm.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "矮人头盔（1） 或 矮人小工具（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "矮人头盔（1） 或 矮人小工具（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Fashion Hat",
+      "slug": "fashion-hat",
+      "name": "时尚帽",
+      "originalName": "Fashion Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Fashion_Hat",
+      "sourceRevision": 190342,
+      "sourceSha256": "8cf4e5c8e2a97616e8c8c3023cc86b9da1196d1d01ef864aa14972489d3c5195",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/时尚帽",
+      "chineseRevision": 54186,
+      "chineseSha256": "dc83c3f026cdb19edf5f56d603e6db50749cfff65e9c5f0232770a7fee786b9a",
+      "image": {
+        "alt": "Fashion Hat.png",
+        "src": "/mediawiki/images/6/69/Fashion_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "鱼籽酱（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "鱼籽酱（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Pumpkin Mask",
+      "slug": "pumpkin-mask",
+      "name": "南瓜面具",
+      "originalName": "Pumpkin Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Pumpkin_Mask",
+      "sourceRevision": 190456,
+      "sourceSha256": "3c725229e5d6e2e9b1b857b12b1ea3ddd66b7ac5fc4a8960542694b4d915d031",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/南瓜面具",
+      "chineseRevision": 48690,
+      "chineseSha256": "8b1cd8c7d8c1dcecc71f94b634f9d1f6c20503f35c06f60c8765c647c1f7562c",
+      "image": {
+        "alt": "Pumpkin Mask.png",
+        "src": "/mediawiki/images/b/ba/Pumpkin_Mask.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "南瓜灯（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "南瓜灯（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Hair Bone",
+      "slug": "hair-bone",
+      "name": "骨发夹",
+      "originalName": "Hair Bone",
+      "sourceUrl": "https://stardewvalleywiki.com/Hair_Bone",
+      "sourceRevision": 190268,
+      "sourceSha256": "3f910af7cc3c8097c7c1e0ad28f529cdd45711228283f57e17244d6f933bb9b0",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/骨发夹",
+      "chineseRevision": 50200,
+      "chineseSha256": "be6636ad0695318479a9801f83551b596b1926a3eb653a9249834b586d655273",
+      "image": {
+        "alt": "Hair Bone.png",
+        "src": "/mediawiki/images/c/cb/Hair_Bone.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "史前胫骨（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "史前胫骨（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Knight's Helmet",
+      "slug": "knights-helmet",
+      "name": "骑士头盔",
+      "originalName": "Knight's Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Knight's_Helmet",
+      "sourceRevision": 176468,
+      "sourceSha256": "4144a35526d291bee54d1ba386c00ed75cee39be071b784fb7c76a092436d4e6",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/骑士头盔",
+      "chineseRevision": 44717,
+      "chineseSha256": "d30d16bcbbd39e3ae43db9b2beba75d588afdb9e76ce9c010533a0aa97c24506",
+      "image": {
+        "alt": "Knight's Helmet.png",
+        "src": "/mediawiki/images/6/62/Knight%27s_Helmet.png"
+      },
+      "acquisition": "完成消灭50只霸王喷火龙的任务",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "探险家公会",
+        "购买价格": "金币20,000",
+        "售出价格": "无法出售"
+      }
+    },
+    {
+      "key": "hats:Squire's Helmet",
+      "slug": "squires-helmet",
+      "name": "护卫头盔",
+      "originalName": "Squire's Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Squire's_Helmet",
+      "sourceRevision": 163637,
+      "sourceSha256": "da6e2075aee1211c98127bf7687d9f7c2299ec0aed9262ad2d87b5afaf5ef465",
+      "versionEvidence": "1.4: Introduced. 1.5: Now drops from Hot Head and Metal Head (dangerous).",
+      "chineseSource": "https://zh.stardewvalleywiki.com/护卫头盔",
+      "chineseRevision": 44904,
+      "chineseSha256": "f267450773072891a3d57213f8cee3b9ebb48452826baed12a7857d7d15ddd5c",
+      "image": {
+        "alt": "Squire's Helmet.png",
+        "src": "/mediawiki/images/7/70/Squire%27s_Helmet.png"
+      },
+      "acquisition": "金属大头的随机掉落物",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "金属大头 熔岩大头 金属大头（危险）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Spotted Headscarf",
+      "slug": "spotted-headscarf",
+      "name": "斑点头巾",
+      "originalName": "Spotted Headscarf",
+      "sourceUrl": "https://stardewvalleywiki.com/Spotted_Headscarf",
+      "sourceRevision": 190635,
+      "sourceSha256": "de763d27d98d6895561f40f82f80ca87f1fb99b36f48adad35eb6238ebdda3a7",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/斑点头巾",
+      "chineseRevision": 54317,
+      "chineseSha256": "116c6d33b0dfba53ac6d767e54803d87fbde4f9b73952db4a47d4bff360a810e",
+      "image": {
+        "alt": "Spotted Headscarf.png",
+        "src": "/mediawiki/images/a/a7/Spotted_Headscarf.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "红蘑菇（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "红蘑菇（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Beanie",
+      "slug": "beanie",
+      "name": "毛线帽",
+      "originalName": "Beanie",
+      "sourceUrl": "https://stardewvalleywiki.com/Beanie",
+      "sourceRevision": 179841,
+      "sourceSha256": "c45332cdcab6f34a76c615567acfe8d7c739c42e2df68a685248126132c210f6",
+      "versionEvidence": "1.4: Introduced. 1.5: Can now be tailored using a Mahogany Seed. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/毛线帽",
+      "chineseRevision": 54350,
+      "chineseSha256": "b4ffc6659e044a2fbcc4ab93a91f5d4b5b6f0121f798f5035922c709fe685bbf",
+      "image": {
+        "alt": "Beanie.png",
+        "src": "/mediawiki/images/5/51/Beanie.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "橡子（1） 或 桃花心木种子（1） 或 枫树种子（1） 或 松果（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "橡子（1） 或 桃花心木种子（1） 或 枫树种子（1） 或 松果（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Floppy Beanie",
+      "slug": "floppy-beanie",
+      "name": "宽松毛线帽",
+      "originalName": "Floppy Beanie",
+      "sourceUrl": "https://stardewvalleywiki.com/Floppy_Beanie",
+      "sourceRevision": 190340,
+      "sourceSha256": "ecd34236aff866f427d3b351a7a769e5dce3e5195a5dd855302a5382a7be5f94",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/宽松毛线帽",
+      "chineseRevision": 48801,
+      "chineseSha256": "832fbaef20aaa00baccb2173cf20224409898ba6e0ab7c3d54a5cec356fdad82",
+      "image": {
+        "alt": "Floppy Beanie.png",
+        "src": "/mediawiki/images/0/0d/Floppy_Beanie.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "枫糖浆（1） 或 橡树树脂（1） 或 松焦油（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "枫糖浆（1） 或 橡树树脂（1） 或 松焦油（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Fishing Hat",
+      "slug": "fishing-hat",
+      "name": "钓鱼帽",
+      "originalName": "Fishing Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Fishing_Hat",
+      "sourceRevision": 190240,
+      "sourceSha256": "d282e5aa0ec6c55e56e0eb28a16619cf4bf8592032e2fb896cebcfc3abd015be",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/钓鱼帽",
+      "chineseRevision": 44909,
+      "chineseSha256": "f7ddfe6bab182ee3cf99eaf73c54c27d1919e4c87a7e0aabd403ee06d37c169e",
+      "image": {
+        "alt": "Fishing Hat.png",
+        "src": "/mediawiki/images/d/d8/Fishing_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "石鱼（1） 或 冰柱鱼（1） 或 蝎鲤鱼（1） 或 幽灵鱼（1） 或 午夜鱿鱼（1） 或 虚空鲑鱼（1） 或 史莱姆鱼（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "石鱼（1） 或 冰柱鱼（1） 或 蝎鲤鱼（1） 或 幽灵鱼（1） 或 午夜鱿鱼（1） 或 虚空鲑鱼（1） 或 史莱姆鱼（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Blobfish Mask",
+      "slug": "blobfish-mask",
+      "name": "水滴鱼面具",
+      "originalName": "Blobfish Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Blobfish_Mask",
+      "sourceRevision": 176931,
+      "sourceSha256": "e9686b549c4a900782c878289453e9b05bde125a179daf97315e2c1ec2402334",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/水滴鱼面具",
+      "chineseRevision": 54180,
+      "chineseSha256": "759e6335cc78ea0d260e6460b2589ba07668a2b8b1555a7b4a9c9d7c91fe5e63",
+      "image": {
+        "alt": "Blobfish Mask.png",
+        "src": "/mediawiki/images/a/a5/Blobfish_Mask.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "水滴鱼（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "水滴鱼（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Party Hat (red)",
+      "slug": "party-hat-red",
+      "name": "派对帽（红色）",
+      "originalName": "Party Hat (red)",
+      "sourceUrl": "https://stardewvalleywiki.com/Party_Hat_(red)",
+      "sourceRevision": 190483,
+      "sourceSha256": "cb1267e8e9c09af7993d77183000c4e13918c8a560d2df35293d2649249fd459",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be tailored using Fireworks (Red) and randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/派对帽（红色）",
+      "chineseRevision": 54215,
+      "chineseSha256": "3e86bfb5813322ad989db02b93d3460567bc2bcaa104beb3fada4eecc8fcc4e2",
+      "image": {
+        "alt": "Party Hat (red).png",
+        "src": "/mediawiki/images/9/96/Party_Hat_%28red%29.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "披萨（1） 或 烟花（红色）（1）",
+      "fields": {
+        "来源": "缝纫",
+        "配方（布料 +）": "披萨（1） 或 烟花（红色）（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Party Hat (blue)",
+      "slug": "party-hat-blue",
+      "name": "派对帽（蓝色）",
+      "originalName": "Party Hat (blue)",
+      "sourceUrl": "https://stardewvalleywiki.com/Party_Hat_(blue)",
+      "sourceRevision": 190681,
+      "sourceSha256": "8ce1e1183926ae2298f6129d6504fd89aad9458f8d1c9024cd60c8134b73abba",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be tailored using Fireworks (Purple). Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/派对帽（蓝色）",
+      "chineseRevision": 54122,
+      "chineseSha256": "51d56e12cfe3ecdbaafa0c76d3dd76cbcf80dbb01bec02e7fd23744bfe671d60",
+      "image": {
+        "alt": "Party Hat (blue).png",
+        "src": "/mediawiki/images/f/fe/Party_Hat_%28blue%29.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "巧克力蛋糕（1） 或 烟花（紫色）（1）",
+      "fields": {
+        "来源": "缝纫",
+        "配方（布料 +）": "巧克力蛋糕（1） 或 烟花（紫色）（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Party Hat (green)",
+      "slug": "party-hat-green",
+      "name": "派对帽（绿色）",
+      "originalName": "Party Hat (green)",
+      "sourceUrl": "https://stardewvalleywiki.com/Party_Hat_(green)",
+      "sourceRevision": 190654,
+      "sourceSha256": "8ff9f6f557c5891a4278d39022ba7a97f2e7bf09e8cc0a3e3cd96d2ddd7b8d28",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be tailored using Fireworks (Green). Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/派对帽（绿色）",
+      "chineseRevision": 54259,
+      "chineseSha256": "8b6f827e104e0b2c93c5a2591ee009016fdba5a89229cca081585c2ff9fa6b92",
+      "image": {
+        "alt": "Party Hat (green).png",
+        "src": "/mediawiki/images/c/c5/Party_Hat_%28green%29.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "鱼肉卷（1） 或 烟花（绿色）（1）",
+      "fields": {
+        "来源": "缝纫",
+        "配方（布料 +）": "鱼肉卷（1） 或 烟花（绿色）（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Arcane Hat",
+      "slug": "arcane-hat",
+      "name": "神秘帽",
+      "originalName": "Arcane Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Arcane_Hat",
+      "sourceRevision": 182810,
+      "sourceSha256": "91c1a2e99203be7de28355e4e68d06cd98aa138fee18a54fef7f7828f776efe9",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/神秘帽",
+      "chineseRevision": 49663,
+      "chineseSha256": "a180bbf108475a1fa26a573ae8569283ad0e01ca9def82ab5aee0e7c7d3097cd",
+      "image": {
+        "alt": "Arcane Hat.png",
+        "src": "/mediawiki/images/c/c7/Arcane_Hat.png"
+      },
+      "acquisition": "完成消灭100个木乃伊的任务",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "冒险家公会",
+        "购买价格": "金币20,000",
+        "售出价格": "不可出售"
+      }
+    },
+    {
+      "key": "hats:Chef Hat",
+      "slug": "chef-hat",
+      "name": "厨师帽",
+      "originalName": "Chef Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Chef_Hat",
+      "sourceRevision": 166990,
+      "sourceSha256": "90a67dfc127160e2ac88a4c260f78fcdb78136ca954913bacac63586ae17d461",
+      "versionEvidence": "1.4: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"10000\">10,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/厨师帽",
+      "chineseRevision": 44914,
+      "chineseSha256": "750058fdec72cbece0bd12449c83ca1f9d15ef1ed2dd8fe2292d1ff284490930",
+      "image": {
+        "alt": "Chef Hat.png",
+        "src": "/mediawiki/images/3/3b/Chef_Hat.png"
+      },
+      "acquisition": "美食大厨烹饪每种菜谱",
+      "shopPrice": "10,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "美食大厨",
+        "成就说明": "烹饪每个菜品",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Pirate Hat",
+      "slug": "pirate-hat",
+      "name": "海盗帽",
+      "originalName": "Pirate Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Pirate_Hat",
+      "sourceRevision": 190596,
+      "sourceSha256": "14908487e06239e9e72c97dffe483435261caf1be1e1a8d540fb1ad2b8c98f0b",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/海盗帽",
+      "chineseRevision": 54117,
+      "chineseSha256": "276502f4998ee36aeb17330c495ab338822523612e8f6162b9b599f192028388",
+      "image": {
+        "alt": "Pirate Hat.png",
+        "src": "/mediawiki/images/0/04/Pirate_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "财宝箱（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "财宝箱（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Flat Topped Hat",
+      "slug": "flat-topped-hat",
+      "name": "平顶帽",
+      "originalName": "Flat Topped Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Flat_Topped_Hat",
+      "sourceRevision": 190217,
+      "sourceSha256": "d6ef98b774969331861d2802fb1d2446dce6bd33f91225b752817ecc4718ef1b",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/平顶帽",
+      "chineseRevision": 49665,
+      "chineseSha256": "86d410d6d5223d2485206fbb2b4c53d4590311360614a1dad25940e71aa9df9f",
+      "image": {
+        "alt": "Flat Topped Hat.png",
+        "src": "/mediawiki/images/e/e0/Flat_Topped_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "红莓酱（1） 或 塞料面包（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "红莓酱（1） 或 塞料面包（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Elegant Turban",
+      "slug": "elegant-turban",
+      "name": "优雅头巾",
+      "originalName": "Elegant Turban",
+      "sourceUrl": "https://stardewvalleywiki.com/Elegant_Turban",
+      "sourceRevision": 176262,
+      "sourceSha256": "bcbba6a65e231684cd7724a2fbc6b315358298aeb143459d0d120dd6e3d6a970",
+      "versionEvidence": "1.4: Introduced. 1.6: Purchase price increased from data-sort-value=\"1000\">1,000g to data-sort-value=\"50000\">50,000g.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/优雅头巾",
+      "chineseRevision": 44917,
+      "chineseSha256": "b5f18542d5293283594ca88cb27673d969ca2d591dce0a01af0ed9ad8cf50886",
+      "image": {
+        "alt": "Elegant Turban.png",
+        "src": "/mediawiki/images/3/3d/Elegant_Turban.png"
+      },
+      "acquisition": "解锁全部成就。",
+      "shopPrice": "50,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "要求": "取得全部成就",
+        "购买价格": "金币50,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:White Turban",
+      "slug": "white-turban",
+      "name": "白色头巾",
+      "originalName": "White Turban",
+      "sourceUrl": "https://stardewvalleywiki.com/White_Turban",
+      "sourceRevision": 192756,
+      "sourceSha256": "1e103adf96d394270d2e834eefd2507a4a9f1de5056cf0a0c8d57e3e6fccf66c",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/白色头巾",
+      "chineseRevision": 54513,
+      "chineseSha256": "6b279c656121067d16c41bacd1e49629b677da76c63dd1ba4d343b18b26ca61c",
+      "image": {
+        "alt": "White Turban.png",
+        "src": "/mediawiki/images/6/60/White_Turban.png"
+      },
+      "acquisition": "裁缝 在骷髅洞穴中的宝箱层有几率找到。",
+      "shopPrice": "",
+      "recipe": "宝石甜莓（1）",
+      "fields": {
+        "来源": "裁缝骷髅洞穴的宝箱层",
+        "配方（布料 +）": "宝石甜莓（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Garbage Hat",
+      "slug": "garbage-hat",
+      "name": "垃圾帽",
+      "originalName": "Garbage Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Garbage_Hat",
+      "sourceRevision": 165710,
+      "sourceSha256": "973471a477d568eb1f46173dcb34ea2c99cf674a07a601f19926bf6729859177",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/垃圾帽",
+      "chineseRevision": 45034,
+      "chineseSha256": "8195db9d949af7f2cc67394bd49b4e65cef523bb6f503bd78059039a4809ebd5",
+      "image": {
+        "alt": "Garbage Hat.png",
+        "src": "/mediawiki/images/a/a9/Garbage_Hat.png"
+      },
+      "acquisition": "在鹈鹕镇翻找20个垃圾桶之后有0.2%的几率找到。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "垃圾桶",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Golden Mask (hat)",
+      "slug": "golden-mask-hat",
+      "name": "金色面具",
+      "originalName": "Golden Mask (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Mask_(hat)",
+      "sourceRevision": 190255,
+      "sourceSha256": "ac0a3f2f2c0d5c174d7ce5de4790e7fead757582e3651752fd887da3de3703a5",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/金色面具",
+      "chineseRevision": 53409,
+      "chineseSha256": "e4dc58897c45e23fc77bf39fa752268986bb2dcafb021101eab89d5e042bfa3e",
+      "image": {
+        "alt": "Golden Mask (hat).png",
+        "src": "/mediawiki/images/c/c7/Golden_Mask_%28hat%29.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "黄金面具（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "黄金面具（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Propeller Hat",
+      "slug": "propeller-hat",
+      "name": "螺旋桨帽",
+      "originalName": "Propeller Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Propeller_Hat",
+      "sourceRevision": 190542,
+      "sourceSha256": "2db503298d2da9f03019f0b568d18f95b83353418c1ecca28689074bd7357c72",
+      "versionEvidence": "1.4: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/螺旋桨帽",
+      "chineseRevision": 50295,
+      "chineseSha256": "7de534de7331cd1574997a2f1d1a4bda96e69f8949d2d037b7349aef24a52b6f",
+      "image": {
+        "alt": "Propeller Hat.png",
+        "src": "/mediawiki/images/9/96/Propeller_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "矿工特供（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "矿工特供（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Bridal Veil",
+      "slug": "bridal-veil",
+      "name": "新娘面纱",
+      "originalName": "Bridal Veil",
+      "sourceUrl": "https://stardewvalleywiki.com/Bridal_Veil",
+      "sourceRevision": 177117,
+      "sourceSha256": "e6aa3e9d97946fb0d805f29715131be353901733229fe790dbad3a88bd06c880",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/新娘面纱",
+      "chineseRevision": 54243,
+      "chineseSha256": "6a67518f4973058fb70ff463fc49bf86f9fc792579249c1b5db6e63f42a3e7b2",
+      "image": {
+        "alt": "Bridal Veil.png",
+        "src": "/mediawiki/images/0/05/Bridal_Veil.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "珍珠（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "珍珠（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Witch Hat",
+      "slug": "witch-hat",
+      "name": "女巫帽",
+      "originalName": "Witch Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Witch_Hat",
+      "sourceRevision": 192628,
+      "sourceSha256": "28329f6900d49b74248cce66ed92d62ec1af66d91f5ba589009139acc2f92b14",
+      "versionEvidence": "1.4: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/女巫帽",
+      "chineseRevision": 48769,
+      "chineseSha256": "e626366ce99d7cd938214187d1530a7a7012d38886f74f4739c045e765decbd9",
+      "image": {
+        "alt": "Witch Hat.png",
+        "src": "/mediawiki/images/1/18/Witch_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "黄金南瓜（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "黄金南瓜（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Copper Pan (hat)",
+      "slug": "copper-pan-hat",
+      "name": "淘盘（帽子）",
+      "originalName": "Copper Pan (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/Copper_Pan_(hat)",
+      "sourceRevision": 174374,
+      "sourceSha256": "b8cb2494b7ede2e3acf31625589ad8f30ff09ddb9d9e7930b0dccdcb83fa2fde",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/淘盘（帽子）",
+      "chineseRevision": 45791,
+      "chineseSha256": "136adea642f7c6bcbe0425a70fb510d38317ae2e96b61d641d7546c0e6735b66",
+      "image": {
+        "alt": "Copper Pan (hat).png",
+        "src": "/mediawiki/images/f/fc/Copper_Pan_%28hat%29.png"
+      },
+      "acquisition": "把淘盘放在控制界面中放帽子的卡槽中。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "淘盘",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Green Turban",
+      "slug": "green-turban",
+      "name": "绿色头巾",
+      "originalName": "Green Turban",
+      "sourceUrl": "https://stardewvalleywiki.com/Green_Turban",
+      "sourceRevision": 192333,
+      "sourceSha256": "9796d82c629c4971611a26cf9c3e082d8dee537b7cff746f2a36d8914941f302",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/绿色头巾",
+      "chineseRevision": 54546,
+      "chineseSha256": "d0b9002ce84e010999f509f2ec713ab8b748b5774870a06b0df5a7ada31f86cf",
+      "image": {
+        "alt": "Green Turban.png",
+        "src": "/mediawiki/images/d/d0/Green_Turban.png"
+      },
+      "acquisition": "沙漠商人有售",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠商人",
+        "购买价格": "万象晶球（50）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Magic Cowboy Hat",
+      "slug": "magic-cowboy-hat",
+      "name": "魔法牛仔帽",
+      "originalName": "Magic Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Magic_Cowboy_Hat",
+      "sourceRevision": 192328,
+      "sourceSha256": "c41480af76f970c03a7c4ec4de539cf113e16cc76aa36ea101c9fb36b9657b07",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/魔法牛仔帽",
+      "chineseRevision": 43996,
+      "chineseSha256": "de283680ca334444bbb86de360ad889ba18d86bb8092c43ff546b48bfc25b84e",
+      "image": {
+        "alt": "Magic Cowboy Hat.png",
+        "src": "/mediawiki/images/6/60/Magic_Cowboy_Hat.png"
+      },
+      "acquisition": "沙漠商人有售, 仅限奇数日",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠商人",
+        "要求": "日历上的奇数日",
+        "购买价格": "万象晶球（333）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Magic Turban",
+      "slug": "magic-turban",
+      "name": "魔法头巾",
+      "originalName": "Magic Turban",
+      "sourceUrl": "https://stardewvalleywiki.com/Magic_Turban",
+      "sourceRevision": 192327,
+      "sourceSha256": "bf91fb2d37c193f52e9341711a5435ae4d8d3b875a64f2bfc10ad753ca5dd393",
+      "versionEvidence": "1.4: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/魔法头巾",
+      "chineseRevision": 44133,
+      "chineseSha256": "3665c30abfe13048d56a181b94c8d6a7fdb38ae6f7caea12830603b67b699b34",
+      "image": {
+        "alt": "Magic Turban.png",
+        "src": "/mediawiki/images/6/65/Magic_Turban.png"
+      },
+      "acquisition": "沙漠商人有售, 仅限偶数日",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠商人",
+        "要求": "日历上的偶数日",
+        "购买价格": "万象晶球（333）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Golden Helmet",
+      "slug": "golden-helmet",
+      "name": "金色头盔",
+      "originalName": "Golden Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Golden_Helmet",
+      "sourceRevision": 180491,
+      "sourceSha256": "a30671327e5f56411b530516b54ba1c7ba4ee5eaf0a29d6966594675ff87de7a",
+      "versionEvidence": "1.5: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/金色头盔",
+      "chineseRevision": 50486,
+      "chineseSha256": "6ea60200d0820e6b4d4c38ee336805967f82abbeecb58adc5843e2916d873280",
+      "image": {
+        "alt": "Golden Helmet.png",
+        "src": "/mediawiki/images/c/c6/Golden_Helmet.png"
+      },
+      "acquisition": "金色椰子（打开时5%几率获得）",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "金色椰子",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Deluxe Pirate Hat",
+      "slug": "deluxe-pirate-hat",
+      "name": "豪华海盗帽",
+      "originalName": "Deluxe Pirate Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Deluxe_Pirate_Hat",
+      "sourceRevision": 175966,
+      "sourceSha256": "3efd6caf7c20323e718a60c5880924ba5d6dc9bf298a2363dfcacec67e945ed6",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/豪华海盗帽",
+      "chineseRevision": 45041,
+      "chineseSha256": "e2495a00198c991ef3d703e619aef4ec9371041960c2c0ff011ad7631604a612",
+      "image": {
+        "alt": "Deluxe Pirate Hat.png",
+        "src": "/mediawiki/images/c/cb/Deluxe_Pirate_Hat.png"
+      },
+      "acquisition": "火山地牢宝箱",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "火山地牢的稀有宝箱",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Pink Bow",
+      "slug": "pink-bow",
+      "name": "粉色蝴蝶结",
+      "originalName": "Pink Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Pink_Bow",
+      "sourceRevision": 176570,
+      "sourceSha256": "0d638f999c97921f427e57eda5448b8f4350d3f617908bc80604e931b1148233",
+      "versionEvidence": "1.5: Introduced. 1.6: Chance to appear in Dwarf Shop's stock increased from 25% to 100%.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/粉色蝴蝶结",
+      "chineseRevision": 45042,
+      "chineseSha256": "6a53eb197d2827408c76fc49c52f8968956c72c474681f35a3f288c119762409",
+      "image": {
+        "alt": "Pink Bow.png",
+        "src": "/mediawiki/images/4/4e/Pink_Bow.png"
+      },
+      "acquisition": "火山地牢矮人商店有售",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "火山地牢的矮人",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Frog Hat",
+      "slug": "frog-hat",
+      "name": "青蛙帽",
+      "originalName": "Frog Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Frog_Hat",
+      "sourceRevision": 164930,
+      "sourceSha256": "8d8a407c2085084e0eee32f53dbb6a9a76dceb00ad33c81f7f22d4e6f3dd49a1",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/青蛙帽",
+      "chineseRevision": 45765,
+      "chineseSha256": "34345173bbc856a4be80148921e8db9b39d81ef6cbede18c928c690b1fe89967",
+      "image": {
+        "alt": "Frog Hat.png",
+        "src": "/mediawiki/images/d/d1/Frog_Hat.png"
+      },
+      "acquisition": "姜岛饕餮青蛙洞穴钓鱼",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "在姜岛的饕餮青蛙洞穴钓鱼",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Small Cap",
+      "slug": "small-cap",
+      "name": "小帽子",
+      "originalName": "Small Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Small_Cap",
+      "sourceRevision": 192405,
+      "sourceSha256": "1e2467af230a491c9417f9f91702b5a4edd8cfd77ea35b278c508e57f052f1e8",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/小帽子",
+      "chineseRevision": 48806,
+      "chineseSha256": "5709515968eb523807610efe152ea8f0b89964917d285854d6b63bba2d7596d6",
+      "image": {
+        "alt": "Small Cap.png",
+        "src": "/mediawiki/images/1/1a/Small_Cap.png"
+      },
+      "acquisition": "姜岛商人处用30个芋头交换，仅周一",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "姜岛商人",
+        "要求": "仅在星期一可购买",
+        "购买价格": "芋头（30）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Bluebird Mask",
+      "slug": "bluebird-mask",
+      "name": "蓝鸟面具",
+      "originalName": "Bluebird Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Bluebird_Mask",
+      "sourceRevision": 192410,
+      "sourceSha256": "57cf737b5eec1776693945de6d197c2d3f3f531a69d2c0100c39a3fe073b7e69",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蓝鸟面具",
+      "chineseRevision": 54449,
+      "chineseSha256": "944c40924059a4dd4eaa89eff73b05ac2540b1043de2d1272b516de1b0a7ccbf",
+      "image": {
+        "alt": "Bluebird Mask.png",
+        "src": "/mediawiki/images/2/2b/Bluebird_Mask.png"
+      },
+      "acquisition": "姜岛商人处用30个芋头交换，仅周三",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "姜岛商人",
+        "要求": "仅周三可购买",
+        "购买价格": "芋头（30）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Deluxe Cowboy Hat",
+      "slug": "deluxe-cowboy-hat",
+      "name": "豪华牛仔帽",
+      "originalName": "Deluxe Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Deluxe_Cowboy_Hat",
+      "sourceRevision": 192417,
+      "sourceSha256": "505a8d7ca5f5d1900a6250560f505f4a1283737140302a35f696e7fbe887e78d",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/豪华牛仔帽",
+      "chineseRevision": 43977,
+      "chineseSha256": "e76bde3072b10507d021157bdba63c686e45c733f8d54db48dfcb15bee48bcd8",
+      "image": {
+        "alt": "Deluxe Cowboy Hat.png",
+        "src": "/mediawiki/images/b/b9/Deluxe_Cowboy_Hat.png"
+      },
+      "acquisition": "姜岛商人处用30个芋头交换，仅周五",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "姜岛商人",
+        "要求": "仅限周五出售",
+        "购买价格": "芋头（30）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Mr. Qi's Hat",
+      "slug": "mr-qis-hat",
+      "name": "齐先生的帽子",
+      "originalName": "Mr. Qi's Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Mr._Qi's_Hat",
+      "sourceRevision": 176582,
+      "sourceSha256": "f0dcbcbbbbfe768b3a284ac339a4758b5baf759584726545ce63436414388d19",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/齐先生的帽子",
+      "chineseRevision": 29143,
+      "chineseSha256": "eab0a4c069ec9f0623bd755259da303cd4f797de699c139807380d3081924350",
+      "image": {
+        "alt": "Mr. Qi's Hat.png",
+        "src": "/mediawiki/images/e/ed/Mr._Qi%27s_Hat.png"
+      },
+      "acquisition": "齐先生的核桃房处用5个齐钻交换",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "齐先生的核桃房",
+        "购买价格": "齐钻 5",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Dark Cowboy Hat",
+      "slug": "dark-cowboy-hat",
+      "name": "黑色牛仔帽",
+      "originalName": "Dark Cowboy Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Dark_Cowboy_Hat",
+      "sourceRevision": 175968,
+      "sourceSha256": "3b5009418e9ac42addb1a9bf20a1380672d98a24678104c8af668897efd636b1",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/黑色牛仔帽",
+      "chineseRevision": 45192,
+      "chineseSha256": "6640e3d0bba7144f007e0b7d2a9b1a543cac771eed95e678aa9e4cc6b541c48e",
+      "image": {
+        "alt": "Dark Cowboy Hat.png",
+        "src": "/mediawiki/images/d/d5/Dark_Cowboy_Hat.png"
+      },
+      "acquisition": "在骷髅洞穴中的宝箱层有几率找到。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "骷髅洞穴",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Radioactive Goggles",
+      "slug": "radioactive-goggles",
+      "name": "防辐射护目镜",
+      "originalName": "Radioactive Goggles",
+      "sourceUrl": "https://stardewvalleywiki.com/Radioactive_Goggles",
+      "sourceRevision": 190479,
+      "sourceSha256": "95216c4cca5c8bb5f15d882c3249a917c04c18bc50ecf9d50b9819048218a085",
+      "versionEvidence": "1.5: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/防辐射护目镜",
+      "chineseRevision": 45194,
+      "chineseSha256": "03cbb8a0a84a7086db5677a0f33fd0f2ede87c1524a0d1511f2119f441e186fd",
+      "image": {
+        "alt": "Radioactive Goggles.png",
+        "src": "/mediawiki/images/4/4d/Radioactive_Goggles.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "放射性矿锭（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "放射性矿锭（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Swashbuckler Hat",
+      "slug": "swashbuckler-hat",
+      "name": "侠客帽",
+      "originalName": "Swashbuckler Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Swashbuckler_Hat",
+      "sourceRevision": 192602,
+      "sourceSha256": "7dade410c52bbcc535debf32568794baa046bc13f8bdb2cc7bf3f17b33053097",
+      "versionEvidence": "1.5: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/侠客帽",
+      "chineseRevision": 48845,
+      "chineseSha256": "e64b3dd12cb3255aa208aced2ff585f835df4443837a1fffc100873a1c7171d7",
+      "image": {
+        "alt": "Swashbuckler Hat.png",
+        "src": "/mediawiki/images/c/c4/Swashbuckler_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "龙牙（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "龙牙（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Qi Mask",
+      "slug": "qi-mask",
+      "name": "齐氏面具",
+      "originalName": "Qi Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Qi_Mask",
+      "sourceRevision": 190689,
+      "sourceSha256": "d7d4f08f9fa0b3833130708b55f5b2af8c2cd71bfc6b63fbbeff500801c36112",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/齐氏面具",
+      "chineseRevision": 45147,
+      "chineseSha256": "fe91b8af115c7253cb04e7e101f7b68ca64baf8667757265ed5ef128264352b0",
+      "image": {
+        "alt": "Qi Mask.png",
+        "src": "/mediawiki/images/d/dd/Qi_Mask.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "齐瓜",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "齐瓜",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Star Helmet",
+      "slug": "star-helmet",
+      "name": "星星头盔",
+      "originalName": "Star Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Star_Helmet",
+      "sourceRevision": 192733,
+      "sourceSha256": "5b65baa3b22f1f191240f8b310747957356e9e966aca8871312c85c14d497314",
+      "versionEvidence": "1.5: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/星星头盔",
+      "chineseRevision": 54297,
+      "chineseSha256": "c4e0078fe64c0041651567cc40d9cce8e1b11ab93dd4f3c343ec6a000c34c2b8",
+      "image": {
+        "alt": "Star Helmet.png",
+        "src": "/mediawiki/images/2/2a/Star_Helmet.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "蘑菇树种子（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "蘑菇树种子（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Sunglasses",
+      "slug": "sunglasses",
+      "name": "太阳镜",
+      "originalName": "Sunglasses",
+      "sourceUrl": "https://stardewvalleywiki.com/Sunglasses",
+      "sourceRevision": 192636,
+      "sourceSha256": "af87adb35846dcbbba9ab0f1af20e02a9e4260765b845d499477df26ff2e899a",
+      "versionEvidence": "1.5: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/太阳镜",
+      "chineseRevision": 48667,
+      "chineseSha256": "e6087ef4c4ed68538762db8022c97aef9f64634bb7e1c465ea346b007f3d0344",
+      "image": {
+        "alt": "Sunglasses.png",
+        "src": "/mediawiki/images/9/92/Sunglasses.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "火山晶石（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "火山晶石（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Goggles",
+      "slug": "goggles",
+      "name": "护目镜",
+      "originalName": "Goggles",
+      "sourceUrl": "https://stardewvalleywiki.com/Goggles",
+      "sourceRevision": 190345,
+      "sourceSha256": "fdab61b722bc95de6ff33fc9302d785bf56f4fc9d2c3b6ddc286c51e1ead661f",
+      "versionEvidence": "1.5: Introduced. 1.6: Can now be randomly obtained as part of an outfit from the Desert Festival. Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/护目镜",
+      "chineseRevision": 54271,
+      "chineseSha256": "cd3585f7b26c63418f0067f2fc27bc28856e3b7de233d4cc775d584d99585793",
+      "image": {
+        "alt": "Goggles.png",
+        "src": "/mediawiki/images/1/1a/Goggles.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "虫肉块",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "虫肉块",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Forager's Hat",
+      "slug": "foragers-hat",
+      "name": "采集者帽",
+      "originalName": "Forager's Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Forager's_Hat",
+      "sourceRevision": 190258,
+      "sourceSha256": "f831724a51b0b9872039311eb9a1af297e3cd86d0b8a31a274985f359d138363",
+      "versionEvidence": "1.5: Introduced. 1.6: Small chance added to receive from various player actions.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/采集者帽",
+      "chineseRevision": 45199,
+      "chineseSha256": "e2908734371187f2cef4799343c73adc9b88d7e1cf32140066c33119635a004c",
+      "image": {
+        "alt": "Forager's Hat.png",
+        "src": "/mediawiki/images/3/30/Forager%27s_Hat.png"
+      },
+      "acquisition": "裁缝 • 多种玩家活动",
+      "shopPrice": "",
+      "recipe": "姜（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "姜（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Tiger Hat",
+      "slug": "tiger-hat",
+      "name": "老虎帽",
+      "originalName": "Tiger Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Tiger_Hat",
+      "sourceRevision": 163912,
+      "sourceSha256": "3602c0f57f37862318648fa3ba5ebc3e6df1d47f78ada752d6b59ec655be2bf2",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/老虎帽",
+      "chineseRevision": 45200,
+      "chineseSha256": "ddb8c6b25069f8c5194dfebd5a4b4dce2a486daecc31c431c84a953be7ae4a3f",
+      "image": {
+        "alt": "Tiger Hat.png",
+        "src": "/mediawiki/images/e/e2/Tiger_Hat.png"
+      },
+      "acquisition": "老虎史莱姆随机掉落",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "老虎史莱姆有0.1%的概率掉落",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Warrior Helmet",
+      "slug": "warrior-helmet",
+      "name": "战士头盔",
+      "originalName": "Warrior Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Warrior_Helmet",
+      "sourceRevision": 192617,
+      "sourceSha256": "ed9c7b2c35bcd9214dd1832db1983433f672dedc0790efd4ad49579b638dc9fe",
+      "versionEvidence": "1.5: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/战士头盔",
+      "chineseRevision": 54338,
+      "chineseSha256": "807dc022236daa239e2a04350b2d6ea4f4d53ad700d21c5135aa9c0bd62508ca",
+      "image": {
+        "alt": "Warrior Helmet.png",
+        "src": "/mediawiki/images/6/68/Warrior_Helmet.png"
+      },
+      "acquisition": "裁缝",
+      "shopPrice": "",
+      "recipe": "鸵鸟蛋（1）",
+      "fields": {
+        "来源": "裁缝",
+        "配方（布料 +）": "鸵鸟蛋（1）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:??? (hat)",
+      "slug": "perfection-mystery-hat",
+      "name": "???",
+      "originalName": "??? (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/???_(hat)",
+      "sourceRevision": 180496,
+      "sourceSha256": "e122e57d0d9f3463c0f0b2b4cda1e982ecaffd5364047976e75fd10ae791cc94",
+      "versionEvidence": "1.5: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/???（帽子）",
+      "chineseRevision": 53905,
+      "chineseSha256": "0b0f0483a2722e0aedf2895ba0e257752126ca1e33eba9e476f6afa82b4d99d4",
+      "image": {
+        "alt": "ConcernedApe Hat.png",
+        "src": "/mediawiki/images/1/1a/ConcernedApe_Hat.png"
+      },
+      "acquisition": "在你达到100%游戏进度后，与火山口的猴子互动。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "火山口",
+        "要求": "达到100%完美度",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Abigail's Bow",
+      "slug": "abigails-bow",
+      "name": "阿比盖尔的蝴蝶结",
+      "originalName": "Abigail's Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Abigail's_Bow",
+      "sourceRevision": 179821,
+      "sourceSha256": "1b5b96f1655baeb0a17d397f3cd708ca0b41419c172e826e86fcb3b737bff66b",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/阿比盖尔的蝴蝶结",
+      "chineseRevision": 50299,
+      "chineseSha256": "7413200f91004e5d72c56fa05256a8672454a7e49b47955e0624b99a91483539",
+      "image": {
+        "alt": "Abigail's Bow.png",
+        "src": "/mediawiki/images/0/02/Abigail%27s_Bow.png"
+      },
+      "acquisition": "沙漠节在阿比盖尔的商店以 60 卡利科三花蛋购买。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节阿比盖尔的商铺",
+        "购买价格": "卡利科三花蛋 60",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Tricorn Hat",
+      "slug": "tricorn-hat",
+      "name": "三角帽",
+      "originalName": "Tricorn Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Tricorn_Hat",
+      "sourceRevision": 180314,
+      "sourceSha256": "dbadf748bfa9ee3aaac8a5a4315f35ce9f5347554ed8132104f7a28b01ea8bfe",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/三角帽",
+      "chineseRevision": 49883,
+      "chineseSha256": "93b80edfaa787acd7ffd64b285962b75e624539ff161e578b4c70da70aad325a",
+      "image": {
+        "alt": "Tricorn Hat.png",
+        "src": "/mediawiki/images/0/02/Tricorn_Hat.png"
+      },
+      "acquisition": "沙漠节在艾利欧特的商店以 100 卡利科三花蛋购买。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节",
+        "购买价格": "卡利科三花蛋 100",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Joja Cap",
+      "slug": "joja-cap",
+      "name": "Joja棒球帽",
+      "originalName": "Joja Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Joja_Cap",
+      "sourceRevision": 189125,
+      "sourceSha256": "a0c2e4ec823b11bb4c556f35b9911b41ff65455c53e90540e607adb714c79644",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/Joja棒球帽",
+      "chineseRevision": 53132,
+      "chineseSha256": "5573e10f92bf482bcc4e34451cbf85819ab68aa29fa2cdc34f20f18937a3ba22",
+      "image": {
+        "alt": "Joja Cap.png",
+        "src": "/mediawiki/images/5/55/Joja_Cap.png"
+      },
+      "acquisition": "沙漠节中艾米丽的服装服务随机获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "艾米丽的服装服务",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Laurel Wreath Crown",
+      "slug": "laurel-wreath-crown",
+      "name": "月桂花冠",
+      "originalName": "Laurel Wreath Crown",
+      "sourceUrl": "https://stardewvalleywiki.com/Laurel_Wreath_Crown",
+      "sourceRevision": 181883,
+      "sourceSha256": "e579c5816815598edf75d0dd71510e60c9df5dca5713ec784920c4229d7e7052",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/月桂花冠",
+      "chineseRevision": 49944,
+      "chineseSha256": "5acf1daf205f6b3e84b6429ff5721ae776c941363a6117d30cce881da489fec6",
+      "image": {
+        "alt": "Laurel Wreath Crown.png",
+        "src": "/mediawiki/images/1/1f/Laurel_Wreath_Crown.png"
+      },
+      "acquisition": "沙漠节中艾米丽的服装服务随机获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "艾米丽的服装服务",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Gil's Hat",
+      "slug": "gils-hat",
+      "name": "吉尔的帽子",
+      "originalName": "Gil's Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Gil's_Hat",
+      "sourceRevision": 180489,
+      "sourceSha256": "091190a946909d247cde2d718d2814916a1deb56197264b1ae9fcd5421c9ef7c",
+      "versionEvidence": "1.6: Introduced. 1.6.9: If the original is lost, a replacement can be purchased at the Lost Items Shop in the Secret Woods.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/吉尔的帽子",
+      "chineseRevision": 50487,
+      "chineseSha256": "5b7c7a797df1db2662c8d015845dfbfb986d9f327837171e53076177d41f1d3c",
+      "image": {
+        "alt": "Gil's Hat.png",
+        "src": "/mediawiki/images/5/54/Gil%27s_Hat.png"
+      },
+      "acquisition": "沙漠节中骷髅洞穴挑战的奖励。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节中骷髅洞穴挑战",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Blue Bow",
+      "slug": "blue-bow",
+      "name": "蓝色蝴蝶结",
+      "originalName": "Blue Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Bow",
+      "sourceRevision": 179990,
+      "sourceSha256": "8a6f9e841911dabcd189a64f0064873cc7b3f68cb90162ba4092cfbfa6bea578",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蓝色蝴蝶结",
+      "chineseRevision": 50252,
+      "chineseSha256": "c7539509becea4adac6d9e7b7db5c82fb610a7ce9eb478611e0e5156e483644e",
+      "image": {
+        "alt": "Blue Bow.png",
+        "src": "/mediawiki/images/b/bb/Blue_Bow.png"
+      },
+      "acquisition": "沙漠节在卡利科三花蛋商人以 50 卡利科三花蛋购买。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节",
+        "购买价格": "卡利科三花蛋 50",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Dark Velvet Bow",
+      "slug": "dark-velvet-bow",
+      "name": "黑丝绒蝴蝶结",
+      "originalName": "Dark Velvet Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/Dark_Velvet_Bow",
+      "sourceRevision": 179899,
+      "sourceSha256": "088508a2ba48230d51745230c007fe34072273087e103b57887fa5844bb2a33f",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/黑丝绒蝴蝶结",
+      "chineseRevision": 50366,
+      "chineseSha256": "6b30f13672d23a8ff5fe2ee0551b30a5b29edc48c872ef516e489e16a4811f84",
+      "image": {
+        "alt": "Dark Velvet Bow.png",
+        "src": "/mediawiki/images/6/63/Dark_Velvet_Bow.png"
+      },
+      "acquisition": "沙漠节在卡利科三花蛋商人以 75 卡利科三花蛋购买。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节",
+        "购买价格": "卡利科三花蛋 75",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Mummy Mask",
+      "slug": "mummy-mask",
+      "name": "木乃伊头套",
+      "originalName": "Mummy Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Mummy_Mask",
+      "sourceRevision": 180054,
+      "sourceSha256": "3f05e1e968512f87da4500b27cd88199f5daf9d0ab51cfe0660d23f68901f4b7",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/木乃伊头套",
+      "chineseRevision": 49993,
+      "chineseSha256": "74029b6368ee17b8f957a788d1177bf257173c09a9fc9fccd9697d51a48f4f36",
+      "image": {
+        "alt": "Mummy Mask.png",
+        "src": "/mediawiki/images/c/c1/Mummy_Mask.png"
+      },
+      "acquisition": "沙漠节在卡利科三花蛋商人以 120 卡利科三花蛋购买。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "沙漠节",
+        "购买价格": "卡利科三花蛋 120",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Bucket Hat",
+      "slug": "bucket-hat",
+      "name": "渔夫帽",
+      "originalName": "Bucket Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Bucket_Hat",
+      "sourceRevision": 179789,
+      "sourceSha256": "cee89684bbe45bca97de185a4f063d2578789edc394394f4bcec439a434fd0bd",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/渔夫帽",
+      "chineseRevision": 46087,
+      "chineseSha256": "55c85221f7ae5a7534d47d3c803553adcd7b28c8c69fc9e50ea352fa5b2dac04",
+      "image": {
+        "alt": "Bucket Hat.png",
+        "src": "/mediawiki/images/2/2e/Bucket_Hat.png"
+      },
+      "acquisition": "作为鳟鱼大赛的奖励获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "鳟鱼大赛",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Squid Hat",
+      "slug": "squid-hat",
+      "name": "鱿鱼帽",
+      "originalName": "Squid Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Squid_Hat",
+      "sourceRevision": 180243,
+      "sourceSha256": "646e8bc419f127971fc6fa8c19e2b83b350ed68fd637de3d3cc272cf0c179505",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/鱿鱼帽",
+      "chineseRevision": 50375,
+      "chineseSha256": "de6c23ba1cb7bf3cae3202794c0d9af92320816782d86bf46710ce405e6665d6",
+      "image": {
+        "alt": "Squid Hat.png",
+        "src": "/mediawiki/images/0/0d/Squid_Hat.png"
+      },
+      "acquisition": "作为鱿鱼节的奖励获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "鱿鱼节",
+        "要求": "钓到至少 10 条鱿鱼",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Sports Cap",
+      "slug": "sports-cap",
+      "name": "棒球帽",
+      "originalName": "Sports Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Sports_Cap",
+      "sourceRevision": 184959,
+      "sourceSha256": "1bc297ccccfd84d3f3bce36283e8ca4c85432cbf29681be93d3c2f98f5b0ec2e",
+      "versionEvidence": "1.6: Introduced. 1.6.9: Can be purchased from Abandoned House after obtained from Prize Machine.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/棒球帽",
+      "chineseRevision": 52234,
+      "chineseSha256": "1480dd2ba4acf1abc05a0e00d82655c6b1d5641de3a79b49cac2e962a79f150d",
+      "image": {
+        "alt": "Sports Cap.png",
+        "src": "/mediawiki/images/4/4a/Sports_Cap.png"
+      },
+      "acquisition": "镇长的庄园中兑奖机处获得。",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "兑奖机废弃的屋子",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Red Fez",
+      "slug": "red-fez",
+      "name": "红色菲斯帽",
+      "originalName": "Red Fez",
+      "sourceUrl": "https://stardewvalleywiki.com/Red_Fez",
+      "sourceRevision": 180180,
+      "sourceSha256": "10bd17745e61e360f51900160a2876d467db99ca966b8d7a1046b165e90bc049",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/红色菲斯帽",
+      "chineseRevision": 50261,
+      "chineseSha256": "5fbf3d75ce4ab94b345639cae035cc9db5310f3d0fd6fac8f8528054b17843c4",
+      "image": {
+        "alt": "Red Fez.png",
+        "src": "/mediawiki/images/2/26/Red_Fez.png"
+      },
+      "acquisition": "在旅行货车处以8,000购买(有10%的概率出售)",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "旅行货车",
+        "购买价格": "金币8,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Raccoon Hat",
+      "slug": "raccoon-hat",
+      "name": "浣熊帽",
+      "originalName": "Raccoon Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Raccoon_Hat",
+      "sourceRevision": 180061,
+      "sourceSha256": "5ed3b28281f0ad8eaf774599abad353cce0d7b7d7182d9efe383a2bd7d493272",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/浣熊帽",
+      "chineseRevision": 54318,
+      "chineseSha256": "057ec0ac56323cbb70d09f8ebf017afe2deb8a2665e28bef07dd72ecfba86cdb",
+      "image": {
+        "alt": "Raccoon Hat.png",
+        "src": "/mediawiki/images/b/bc/Raccoon_Hat.png"
+      },
+      "acquisition": "完成大树桩的第三个浣熊的请求后获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "浣熊的请求浣熊妻子的商店",
+        "购买价格": "混合种子（10）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Steel Pan (hat)",
+      "slug": "steel-pan-hat",
+      "name": "钢淘盘（帽子）",
+      "originalName": "Steel Pan (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/Steel_Pan_(hat)",
+      "sourceRevision": 181884,
+      "sourceSha256": "95bd67a6bb9e89bbfc9bcbcf2a3dde7aa29d6ea0bb6b2a3edfc25a890cffa24f",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/钢淘盘（帽子）",
+      "chineseRevision": 50310,
+      "chineseSha256": "bd179ab90c13ddaaed4ffd6598b353c276be119793312801384543846127db5f",
+      "image": {
+        "alt": "Steel Pan (hat).png",
+        "src": "/mediawiki/images/4/43/Steel_Pan_%28hat%29.png"
+      },
+      "acquisition": "将钢淘盘放到帽子栏中。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "钢淘盘",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Gold Pan (hat)",
+      "slug": "gold-pan-hat",
+      "name": "金淘盘（帽子）",
+      "originalName": "Gold Pan (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/Gold_Pan_(hat)",
+      "sourceRevision": 181885,
+      "sourceSha256": "7f18f4fd977f3fd10c340d06bbc55c50633729ed23f5464a0ad4692c4d55fc44",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/金淘盘（帽子）",
+      "chineseRevision": 50110,
+      "chineseSha256": "1216035a1c7381837c4a59c5e2adb211b48eaa1357f62e8ffed0f20acec7a0e5",
+      "image": {
+        "alt": "Gold Pan (hat).png",
+        "src": "/mediawiki/images/c/c8/Gold_Pan_%28hat%29.png"
+      },
+      "acquisition": "将金淘盘放到帽子栏中。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "金淘盘",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Iridium Pan (hat)",
+      "slug": "iridium-pan-hat",
+      "name": "铱淘盘（帽子）",
+      "originalName": "Iridium Pan (hat)",
+      "sourceUrl": "https://stardewvalleywiki.com/Iridium_Pan_(hat)",
+      "sourceRevision": 188283,
+      "sourceSha256": "7a6ee8ea56f070328680a42ab081cd39b4e88fa69bff271cc7fb9212d5f287d8",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/铱淘盘（帽子）",
+      "chineseRevision": 50320,
+      "chineseSha256": "af8984078ce3bc70feb3a4e5c6f46d0191e374848aaf779d50126e3e877eae4b",
+      "image": {
+        "alt": "Iridium Pan (hat).png",
+        "src": "/mediawiki/images/a/ac/Iridium_Pan_%28hat%29.png"
+      },
+      "acquisition": "将铱淘盘放到帽子栏中。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "铱淘盘",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Mystery Hat",
+      "slug": "mystery-hat",
+      "name": "盲盒帽",
+      "originalName": "Mystery Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Mystery_Hat",
+      "sourceRevision": 180058,
+      "sourceSha256": "8edbe8c8daf84748fa2cf3f1c0961a83cb2e8cc9cbca95f05a9ab866e51bc416",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/盲盒帽",
+      "chineseRevision": 50085,
+      "chineseSha256": "a11111121d62ae4c884e0aee19913844b03d7fa4f861a27dee52bdf6a2280292",
+      "image": {
+        "alt": "Mystery Hat.png",
+        "src": "/mediawiki/images/e/ea/Mystery_Hat.png"
+      },
+      "acquisition": "打开谜之盒或者金色谜之盒。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "谜之盒 （0.96% 几率） 金色谜之盒（1.87% 几率）",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Dark Ballcap",
+      "slug": "dark-ballcap",
+      "name": "黑色棒球帽",
+      "originalName": "Dark Ballcap",
+      "sourceUrl": "https://stardewvalleywiki.com/Dark_Ballcap",
+      "sourceRevision": 179855,
+      "sourceSha256": "82d6b942f1f014b755892d7fe659c1bea1ce175267628d3ab2ad7bd71454345c",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/黑色棒球帽",
+      "chineseRevision": 50353,
+      "chineseSha256": "fa24c37cd0ea757c0b875403a046d855917720c53547b51e7bcd31d568351cd3",
+      "image": {
+        "alt": "Dark Ballcap.png",
+        "src": "/mediawiki/images/6/64/Dark_Ballcap.png"
+      },
+      "acquisition": "沙漠节中艾米丽的服装服务随机获得。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "艾米丽的服装服务",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Leprechaun Hat",
+      "slug": "leprechaun-hat",
+      "name": "小矮妖帽子",
+      "originalName": "Leprechaun Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Leprechaun_Hat",
+      "sourceRevision": 186090,
+      "sourceSha256": "2ae085deedf341906020a33380e7d901fda6b886da0659d9a96452bd7194ead0",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/小矮妖帽子",
+      "chineseRevision": 50005,
+      "chineseSha256": "34e2caf405b0166d282ecd5a8725d8aa5d096a30714bc20b3e401afe81d5ca01",
+      "image": {
+        "alt": "Leprechaun Hat.png",
+        "src": "/mediawiki/images/4/49/Leprechaun_Hat.png"
+      },
+      "acquisition": "春季17日废弃的屋子旁边的彩虹的金罐中掉落。",
+      "shopPrice": "",
+      "recipe": "",
+      "fields": {
+        "来源": "煤矿森林",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Junimo Hat",
+      "slug": "junimo-hat",
+      "name": "祝尼魔帽子",
+      "originalName": "Junimo Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Junimo_Hat",
+      "sourceRevision": 180183,
+      "sourceSha256": "75bad12a823d544e81e23068946cb38455e5ca70497e7bceb58c7fde399d6c20",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/祝尼魔帽子",
+      "chineseRevision": 50176,
+      "chineseSha256": "e663567391e79a9d045497ee1ca12e888c052a7f79a9d16b4df691e160f1b0bb",
+      "image": {
+        "alt": "Junimo Hat.png",
+        "src": "/mediawiki/images/4/4b/Junimo_Hat.png"
+      },
+      "acquisition": "完美（到达顶峰）",
+      "shopPrice": "25,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "完美",
+        "成就说明": "到达顶峰",
+        "购买价格": "金币25,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Paper Hat",
+      "slug": "paper-hat",
+      "name": "纸帽子",
+      "originalName": "Paper Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Paper_Hat",
+      "sourceRevision": 180043,
+      "sourceSha256": "114a2829f2bc8e039fca28a126f53c9a7c49d0cd14775d364d096a3506c2de5f",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/纸帽子",
+      "chineseRevision": 50166,
+      "chineseSha256": "4c51944000ad993a3f0769b09679404100f8b6905f253b7372716cb5f27f4e36",
+      "image": {
+        "alt": "Paper Hat.png",
+        "src": "/mediawiki/images/5/5f/Paper_Hat.png"
+      },
+      "acquisition": "遥远的海岸（到达姜岛）",
+      "shopPrice": "10,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "遥远的海岸",
+        "成就说明": "到达姜岛",
+        "购买价格": "金币10,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Pageboy Cap",
+      "slug": "pageboy-cap",
+      "name": "报童帽",
+      "originalName": "Pageboy Cap",
+      "sourceUrl": "https://stardewvalleywiki.com/Pageboy_Cap",
+      "sourceRevision": 180094,
+      "sourceSha256": "386c7b03fb1c685de5180c3bae78824657bfa6ecddd09afe06b7d079953b8226",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/报童帽",
+      "chineseRevision": 49893,
+      "chineseSha256": "1a09baf18b874c2aec1095aedafb7b641d33859ab8b1eb3ec24783178d71f04d",
+      "image": {
+        "alt": "Pageboy Cap.png",
+        "src": "/mediawiki/images/4/4b/Pageboy_Cap.png"
+      },
+      "acquisition": "博览群书（阅读每一本书）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "博览群书",
+        "成就说明": "阅读每一本书",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Jester Hat",
+      "slug": "jester-hat",
+      "name": "小丑帽",
+      "originalName": "Jester Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Jester_Hat",
+      "sourceRevision": 180122,
+      "sourceSha256": "0aea0826e83f1512236b739c7471bff06598bad031650cd32d907c0c5ded2400",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/小丑帽",
+      "chineseRevision": 49853,
+      "chineseSha256": "804dc1aad6570b923f88510da94842ccdf544ef729cd4cb07d7a4397627a09a3",
+      "image": {
+        "alt": "Jester Hat.png",
+        "src": "/mediawiki/images/9/9b/Jester_Hat.png"
+      },
+      "acquisition": "意犹未尽（观看一场电影）",
+      "shopPrice": "25,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "意犹未尽",
+        "成就说明": "看一场电影",
+        "购买价格": "金币25,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Blue Ribbon",
+      "slug": "blue-ribbon",
+      "name": "蓝丝带",
+      "originalName": "Blue Ribbon",
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Ribbon",
+      "sourceRevision": 179937,
+      "sourceSha256": "490fd05cc926c63f3f397a1ef1c0bd4e4e7946cd21006a4b063e14ea9714f739",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/蓝丝带",
+      "chineseRevision": 52253,
+      "chineseSha256": "02c8ac844bb7f8cf2a4aeb3c3a06dc1d50bc97fdb899e0383adce1eae70111a8",
+      "image": {
+        "alt": "Blue Ribbon.png",
+        "src": "/mediawiki/images/2/2c/Blue_Ribbon.png"
+      },
+      "acquisition": "冠军（在星露谷展览会中获得第一名）",
+      "shopPrice": "1,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "冠军",
+        "成就说明": "在星露谷展览会中获得第一名",
+        "购买价格": "金币1,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Governor's Hat",
+      "slug": "governors-hat",
+      "name": "州长帽",
+      "originalName": "Governor's Hat",
+      "sourceUrl": "https://stardewvalleywiki.com/Governor's_Hat",
+      "sourceRevision": 179832,
+      "sourceSha256": "9021214584c79f54ce13fd4168ce3bffc2be234d93740c337c21ee574e4ffa0c",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/州长帽",
+      "chineseRevision": 49898,
+      "chineseSha256": "7961cd20c866b3919d99f8bae1d39d2b0bb1ac0b000f3dd1082f6b0ade7d77fe",
+      "image": {
+        "alt": "Governor's Hat.png",
+        "src": "/mediawiki/images/2/2e/Governor%27s_Hat.png"
+      },
+      "acquisition": "难忘的汤（在夏威夷宴会中放置最好的食材）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "难忘的汤",
+        "成就说明": "在夏威夷宴会中放置最好的食材",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:White Bow",
+      "slug": "white-bow",
+      "name": "白色蝴蝶结",
+      "originalName": "White Bow",
+      "sourceUrl": "https://stardewvalleywiki.com/White_Bow",
+      "sourceRevision": 180324,
+      "sourceSha256": "6f0674303dae4523f0ef3a6ee3d6104ab06b232ee331fc2df63eac0a891b42db",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/白色蝴蝶结",
+      "chineseRevision": 52252,
+      "chineseSha256": "c4f81dd89ea3302059ff938a1c01e38fa79aa62c88f5a2222b629fcb52669528",
+      "image": {
+        "alt": "White Bow.png",
+        "src": "/mediawiki/images/3/30/White_Bow.png"
+      },
+      "acquisition": "热心邻居（帮助你森林中的邻居组建它的家庭。）",
+      "shopPrice": "5,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "热心邻居",
+        "成就说明": "帮助你森林中的邻居组建它的家庭",
+        "购买价格": "金币5,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Space Helmet",
+      "slug": "space-helmet",
+      "name": "太空头盔",
+      "originalName": "Space Helmet",
+      "sourceUrl": "https://stardewvalleywiki.com/Space_Helmet",
+      "sourceRevision": 180242,
+      "sourceSha256": "384aaeeb5275c8046d27c6e2567413278e5d5d4783894de00b2a4f426e9765a6",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/太空头盔",
+      "chineseRevision": 50026,
+      "chineseSha256": "b070dc3ecf2e922c6affeab986eea608177a91f57f0158dfda02a56953be042f",
+      "image": {
+        "alt": "Space Helmet.png",
+        "src": "/mediawiki/images/1/1c/Space_Helmet.png"
+      },
+      "acquisition": "深处的危险（到达危险矿井的最底部。）",
+      "shopPrice": "20,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "深处的危险",
+        "成就说明": "到达危险矿井的最底部",
+        "购买价格": "金币20,000",
+        "售出价格": "不能出售"
+      }
+    },
+    {
+      "key": "hats:Infinity Crown",
+      "slug": "infinity-crown",
+      "name": "无限之冠",
+      "originalName": "Infinity Crown",
+      "sourceUrl": "https://stardewvalleywiki.com/Infinity_Crown",
+      "sourceRevision": 180042,
+      "sourceSha256": "92dd0c1745923f979c8e14c4c97f8df0691b9ad3b7b03636a73f303d0358bd6f",
+      "versionEvidence": "1.6: Introduced.",
+      "chineseSource": "https://zh.stardewvalleywiki.com/无限之冠",
+      "chineseRevision": 52255,
+      "chineseSha256": "d23259cc59c2a32a362d7f2044ca808f88d9da8414441c10dcabe95eb764c2db",
+      "image": {
+        "alt": "Infinity Crown.png",
+        "src": "/mediawiki/images/9/91/Infinity_Crown.png"
+      },
+      "acquisition": "无限力量（获取无限之刃。）",
+      "shopPrice": "20,000",
+      "recipe": "",
+      "fields": {
+        "来源": "废弃的屋子",
+        "成就": "无限力量",
+        "成就说明": "获取无限之刃",
+        "购买价格": "金币20,000",
+        "售出价格": "不能出售"
+      }
+    }
+  ]
+}

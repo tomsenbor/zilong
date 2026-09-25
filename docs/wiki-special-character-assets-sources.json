@@ -1,0 +1,109 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/NPC_birdie.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/46/Birdie.png",
+      "source": "https://stardewvalleywiki.com/Birdie",
+      "width": 128,
+      "height": 128,
+      "sha256": "6e328e89b4e1e0f26ecdf6951b1632acfda70d572806fb503cd9c91d68de2766"
+    },
+    {
+      "file": "public/assets/game/NPC_bouncer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f5/Bouncer.png",
+      "source": "https://stardewvalleywiki.com/Bouncer",
+      "width": 128,
+      "height": 128,
+      "sha256": "dcb6e1e863820c79e5512c38179240acd7e217e84d3f93d16cedd659c114c75f"
+    },
+    {
+      "file": "public/assets/game/NPC_fizz.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a3/Fizz_00.png",
+      "source": "https://stardewvalleywiki.com/Fizz",
+      "width": 128,
+      "height": 128,
+      "sha256": "ad059f998f1047a1057562a7af8b74312c08bca5ef9324b66808f2c1a700f191"
+    },
+    {
+      "file": "public/assets/game/NPC_gil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/64/Gil.png",
+      "source": "https://stardewvalleywiki.com/Gil",
+      "width": 128,
+      "height": 128,
+      "sha256": "cec882c9828e09d5ffb485123bac816f6dc0a15153205568ad9eecbe04201bf0"
+    },
+    {
+      "file": "public/assets/game/NPC_governor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/46/Governor.png",
+      "source": "https://stardewvalleywiki.com/Governor",
+      "width": 128,
+      "height": 128,
+      "sha256": "1a2309caf64726f7536829d3a6ccd65a9a22d89ff26783150a9579f31fc9c178"
+    },
+    {
+      "file": "public/assets/game/NPC_grandpa.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/88/Grandpa.png",
+      "source": "https://stardewvalleywiki.com/Grandpa",
+      "width": 128,
+      "height": 128,
+      "sha256": "40b821dca68dca1fa4efabf2ea98d2807e0487d5ca1142065f3fa97384f038c0"
+    },
+    {
+      "file": "public/assets/game/NPC_gunther.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Gunther.png",
+      "source": "https://stardewvalleywiki.com/Gunther",
+      "width": 128,
+      "height": 128,
+      "sha256": "b2bd894b3a7484c5abeb6739925fd96b07b367e0e78482933d12b7ef8f291ffe"
+    },
+    {
+      "file": "public/assets/game/NPC_henchman.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Henchman_Portrait_1.png",
+      "source": "https://stardewvalleywiki.com/Henchman",
+      "width": 128,
+      "height": 128,
+      "sha256": "0448570bfb9de45544c39091bd5e3544b8d69f3f13a506037629ae150ecadaab"
+    },
+    {
+      "file": "public/assets/game/NPC_marlon.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/37/Marlon.png",
+      "source": "https://stardewvalleywiki.com/Marlon",
+      "width": 128,
+      "height": 128,
+      "sha256": "ef4dff911813f0fa698bc890ebe7614c8fb3995ee2bd0f3538fea73c5b4a1737"
+    },
+    {
+      "file": "public/assets/game/NPC_morris.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Morris.png",
+      "source": "https://stardewvalleywiki.com/Morris",
+      "width": 128,
+      "height": 128,
+      "sha256": "f8508bc87fee1ec378f4cef7d6624e7e56add90c2ff80cb166070d4dd39279da"
+    },
+    {
+      "file": "public/assets/game/NPC_mr-qi.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Mr._Qi.png",
+      "source": "https://stardewvalleywiki.com/Mr._Qi",
+      "width": 128,
+      "height": 128,
+      "sha256": "5000bd59aecd4ab07ef4d920477d6ea9a9191f3a0e04ed93c690bca375ad0118"
+    },
+    {
+      "file": "public/assets/game/NPC_professor-snail.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Professor_Snail.png",
+      "source": "https://stardewvalleywiki.com/Professor_Snail",
+      "width": 128,
+      "height": 128,
+      "sha256": "15094d2f29b0cdce4caffb1def235e9656908541810fdba89e28d904a58d346b"
+    },
+    {
+      "file": "public/assets/game/NPC_old-mariner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Old_Mariner.png",
+      "source": "https://stardewvalleywiki.com/Old_Mariner",
+      "width": 48,
+      "height": 93,
+      "sha256": "a85bd6aad45487b1d298bc166ab643e8342e38ae64f86b405a1aa367de0e33d6"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "version": "1.6.15",
+  "id": "locations",
+  "name": "地点",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 85,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/Locations",
+      "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49",
+      "count": 91,
+      "records": [
+        {
+          "nativeId": "Default",
+          "nativeName": "Default"
+        },
+        {
+          "nativeId": "Farm_Standard",
+          "nativeName": "Farm_Standard"
+        },
+        {
+          "nativeId": "Farm_Beach",
+          "nativeName": "Farm_Beach"
+        },
+        {
+          "nativeId": "Farm_Forest",
+          "nativeName": "Farm_Forest"
+        },
+        {
+          "nativeId": "Farm_FourCorners",
+          "nativeName": "Farm_FourCorners"
+        },
+        {
+          "nativeId": "Farm_Hilltop",
+          "nativeName": "Farm_Hilltop"
+        },
+        {
+          "nativeId": "Farm_Riverland",
+          "nativeName": "Farm_Riverland"
+        },
+        {
+          "nativeId": "Farm_Wilderness",
+          "nativeName": "Farm_Wilderness"
+        },
+        {
+          "nativeId": "Farm_MeadowlandsFarm",
+          "nativeName": "Farm_MeadowlandsFarm"
+        },
+        {
+          "nativeId": "FarmHouse",
+          "nativeName": "FarmHouse"
+        },
+        {
+          "nativeId": "FarmCave",
+          "nativeName": "FarmCave"
+        },
+        {
+          "nativeId": "Town",
+          "nativeName": "Town"
+        },
+        {
+          "nativeId": "JoshHouse",
+          "nativeName": "JoshHouse"
+        },
+        {
+          "nativeId": "HaleyHouse",
+          "nativeName": "HaleyHouse"
+        },
+        {
+          "nativeId": "SamHouse",
+          "nativeName": "SamHouse"
+        },
+        {
+          "nativeId": "Blacksmith",
+          "nativeName": "Blacksmith"
+        },
+        {
+          "nativeId": "ManorHouse",
+          "nativeName": "ManorHouse"
+        },
+        {
+          "nativeId": "SeedShop",
+          "nativeName": "SeedShop"
+        },
+        {
+          "nativeId": "Saloon",
+          "nativeName": "Saloon"
+        },
+        {
+          "nativeId": "Trailer",
+          "nativeName": "Trailer"
+        },
+        {
+          "nativeId": "Hospital",
+          "nativeName": "Hospital"
+        },
+        {
+          "nativeId": "HarveyRoom",
+          "nativeName": "HarveyRoom"
+        },
+        {
+          "nativeId": "Beach",
+          "nativeName": "Beach"
+        },
+        {
+          "nativeId": "BeachNightMarket",
+          "nativeName": "BeachNightMarket"
+        },
+        {
+          "nativeId": "ElliottHouse",
+          "nativeName": "ElliottHouse"
+        },
+        {
+          "nativeId": "Mountain",
+          "nativeName": "Mountain"
+        },
+        {
+          "nativeId": "ScienceHouse",
+          "nativeName": "ScienceHouse"
+        },
+        {
+          "nativeId": "SebastianRoom",
+          "nativeName": "SebastianRoom"
+        },
+        {
+          "nativeId": "Tent",
+          "nativeName": "Tent"
+        },
+        {
+          "nativeId": "Forest",
+          "nativeName": "Forest"
+        },
+        {
+          "nativeId": "WizardHouse",
+          "nativeName": "WizardHouse"
+        },
+        {
+          "nativeId": "AnimalShop",
+          "nativeName": "AnimalShop"
+        },
+        {
+          "nativeId": "LeahHouse",
+          "nativeName": "LeahHouse"
+        },
+        {
+          "nativeId": "BusStop",
+          "nativeName": "BusStop"
+        },
+        {
+          "nativeId": "Mine",
+          "nativeName": "Mine"
+        },
+        {
+          "nativeId": "Sewer",
+          "nativeName": "Sewer"
+        },
+        {
+          "nativeId": "BugLand",
+          "nativeName": "BugLand"
+        },
+        {
+          "nativeId": "Desert",
+          "nativeName": "Desert"
+        },
+        {
+          "nativeId": "Club",
+          "nativeName": "Club"
+        },
+        {
+          "nativeId": "SandyHouse",
+          "nativeName": "SandyHouse"
+        },
+        {
+          "nativeId": "ArchaeologyHouse",
+          "nativeName": "ArchaeologyHouse"
+        },
+        {
+          "nativeId": "WizardHouseBasement",
+          "nativeName": "WizardHouseBasement"
+        },
+        {
+          "nativeId": "AdventureGuild",
+          "nativeName": "AdventureGuild"
+        },
+        {
+          "nativeId": "Woods",
+          "nativeName": "Woods"
+        },
+        {
+          "nativeId": "Railroad",
+          "nativeName": "Railroad"
+        },
+        {
+          "nativeId": "WitchSwamp",
+          "nativeName": "WitchSwamp"
+        },
+        {
+          "nativeId": "WitchHut",
+          "nativeName": "WitchHut"
+        },
+        {
+          "nativeId": "WitchWarpCave",
+          "nativeName": "WitchWarpCave"
+        },
+        {
+          "nativeId": "Summit",
+          "nativeName": "Summit"
+        },
+        {
+          "nativeId": "FishShop",
+          "nativeName": "FishShop"
+        },
+        {
+          "nativeId": "BathHouse_Entry",
+          "nativeName": "BathHouse_Entry"
+        },
+        {
+          "nativeId": "BathHouse_MensLocker",
+          "nativeName": "BathHouse_MensLocker"
+        },
+        {
+          "nativeId": "BathHouse_WomensLocker",
+          "nativeName": "BathHouse_WomensLocker"
+        },
+        {
+          "nativeId": "BathHouse_Pool",
+          "nativeName": "BathHouse_Pool"
+        },
+        {
+          "nativeId": "CommunityCenter",
+          "nativeName": "CommunityCenter"
+        },
+        {
+          "nativeId": "JojaMart",
+          "nativeName": "JojaMart"
+        },
+        {
+          "nativeId": "Greenhouse",
+          "nativeName": "Greenhouse"
+        },
+        {
+          "nativeId": "SkullCave",
+          "nativeName": "SkullCave"
+        },
+        {
+          "nativeId": "Backwoods",
+          "nativeName": "Backwoods"
+        },
+        {
+          "nativeId": "Tunnel",
+          "nativeName": "Tunnel"
+        },
+        {
+          "nativeId": "Trailer_Big",
+          "nativeName": "Trailer_Big"
+        },
+        {
+          "nativeId": "Cellar",
+          "nativeName": "Cellar"
+        },
+        {
+          "nativeId": "MermaidHouse",
+          "nativeName": "MermaidHouse"
+        },
+        {
+          "nativeId": "Submarine",
+          "nativeName": "Submarine"
+        },
+        {
+          "nativeId": "AbandonedJojaMart",
+          "nativeName": "AbandonedJojaMart"
+        },
+        {
+          "nativeId": "MovieTheater",
+          "nativeName": "MovieTheater"
+        },
+        {
+          "nativeId": "Sunroom",
+          "nativeName": "Sunroom"
+        },
+        {
+          "nativeId": "BoatTunnel",
+          "nativeName": "BoatTunnel"
+        },
+        {
+          "nativeId": "IslandSouth",
+          "nativeName": "IslandSouth"
+        },
+        {
+          "nativeId": "IslandSouthEast",
+          "nativeName": "IslandSouthEast"
+        },
+        {
+          "nativeId": "IslandSouthEastCave",
+          "nativeName": "IslandSouthEastCave"
+        },
+        {
+          "nativeId": "IslandEast",
+          "nativeName": "IslandEast"
+        },
+        {
+          "nativeId": "IslandWest",
+          "nativeName": "IslandWest"
+        },
+        {
+          "nativeId": "IslandNorth",
+          "nativeName": "IslandNorth"
+        },
+        {
+          "nativeId": "IslandHut",
+          "nativeName": "IslandHut"
+        },
+        {
+          "nativeId": "IslandWestCave1",
+          "nativeName": "IslandWestCave1"
+        },
+        {
+          "nativeId": "IslandNorthCave1",
+          "nativeName": "IslandNorthCave1"
+        },
+        {
+          "nativeId": "IslandFieldOffice",
+          "nativeName": "IslandFieldOffice"
+        },
+        {
+          "nativeId": "IslandFarmHouse",
+          "nativeName": "IslandFarmHouse"
+        },
+        {
+          "nativeId": "CaptainRoom",
+          "nativeName": "CaptainRoom"
+        },
+        {
+          "nativeId": "IslandShrine",
+          "nativeName": "IslandShrine"
+        },
+        {
+          "nativeId": "IslandFarmCave",
+          "nativeName": "IslandFarmCave"
+        },
+        {
+          "nativeId": "Caldera",
+          "nativeName": "Caldera"
+        },
+        {
+          "nativeId": "LeoTreeHouse",
+          "nativeName": "LeoTreeHouse"
+        },
+        {
+          "nativeId": "UndergroundMine",
+          "nativeName": "UndergroundMine"
+        },
+        {
+          "nativeId": "QiNutRoom",
+          "nativeName": "QiNutRoom"
+        },
+        {
+          "nativeId": "MasteryCave",
+          "nativeName": "MasteryCave"
+        },
+        {
+          "nativeId": "DesertFestival",
+          "nativeName": "DesertFestival"
+        },
+        {
+          "nativeId": "fishingGame",
+          "nativeName": "fishingGame"
+        },
+        {
+          "nativeId": "Temp",
+          "nativeName": "Temp"
+        },
+        {
+          "nativeId": "LewisBasement",
+          "nativeName": "LewisBasement"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-world-location-inventory.json",
+    "wiki-shop-location-inventory.json",
+    "wiki-island-region-inventory.json",
+    "wiki-farm-region-inventory.json"
+  ],
+  "remainingReview": "内部地图名、同一地点室内/季节状态和独立可达区域须逐一对照，不把91条内部记录当作91个新地点。"
+}

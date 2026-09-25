@@ -1,0 +1,282 @@
+[
+  {
+    "nativeId": "16",
+    "file": "public/assets/game/Forage_16.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Wild_Horseradish.png",
+    "source": "https://stardewvalleywiki.com/Wild_Horseradish",
+    "revision": 192684,
+    "sha256": "a1bd1db3836b9b361fda213f4e4ad2dab3834c02bacfec25f44262ff9b7fa32a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "18",
+    "file": "public/assets/game/Forage_18.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png",
+    "source": "https://stardewvalleywiki.com/Daffodil",
+    "revision": 185009,
+    "sha256": "030c436840e0319b9738e325cdb91ba5bfcae4d8e91bc8d40cd172b275f2ea78",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "20",
+    "file": "public/assets/game/Forage_20.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/57/Leek.png",
+    "source": "https://stardewvalleywiki.com/Leek",
+    "revision": 192783,
+    "sha256": "ce6ec13f3de13a3eab1845f3c4e28953b9e323dd4270a134d492f0aef81a5192",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "22",
+    "file": "public/assets/game/Forage_22.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Dandelion.png",
+    "source": "https://stardewvalleywiki.com/Dandelion",
+    "revision": 191756,
+    "sha256": "5a705ee4f79ae6e0e4dd59c04649c09a5f5a51b5227a8293a9d1ddd06a52219d",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "92",
+    "file": "public/assets/game/Forage_92.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Sap.png",
+    "source": "https://stardewvalleywiki.com/Sap",
+    "revision": 190490,
+    "sha256": "4f96e07cc1726c1099ce1176cc22d3d811c415297bb868d5cd5eee745262729e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "257",
+    "file": "public/assets/game/Forage_257.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Morel.png",
+    "source": "https://stardewvalleywiki.com/Morel",
+    "revision": 191746,
+    "sha256": "d2cb210598e7e1af984abbc3dffe25ab26511029dddd7964d93ce1f5d26757b5",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "281",
+    "file": "public/assets/game/Forage_281.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Chanterelle.png",
+    "source": "https://stardewvalleywiki.com/Chanterelle",
+    "revision": 191744,
+    "sha256": "97d8a625bf14f93dacc27c81c2ebc65648ef8e3335c385942727fd309388de32",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "283",
+    "file": "public/assets/game/Forage_283.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b8/Holly.png",
+    "source": "https://stardewvalleywiki.com/Holly",
+    "revision": 187384,
+    "sha256": "169ffedb6bdc553a627ab2e92ed2cd814bc1e13438c6343aec5ca1afd9d2e8a9",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "399",
+    "file": "public/assets/game/Forage_399.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png",
+    "source": "https://stardewvalleywiki.com/Spring_Onion",
+    "revision": 193371,
+    "sha256": "016e97ba2c86b1c2a149206530b5a79c65430e3945592d1e2ae20904240f9136",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "404",
+    "file": "public/assets/game/Forage_404.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Common_Mushroom.png",
+    "source": "https://stardewvalleywiki.com/Common_Mushroom",
+    "revision": 191745,
+    "sha256": "f76cc41c0d9d4dd0f2c71915e0678bd8f421b4c69d95f5a40f121b16efd8fedb",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "408",
+    "file": "public/assets/game/Forage_408.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/31/Hazelnut.png",
+    "source": "https://stardewvalleywiki.com/Hazelnut",
+    "revision": 190261,
+    "sha256": "daeae3d1badac930320c5a6999e5bf660acb957b711a2646731d42f526c27503",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "412",
+    "file": "public/assets/game/Forage_412.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/11/Winter_Root.png",
+    "source": "https://stardewvalleywiki.com/Winter_Root",
+    "revision": 192720,
+    "sha256": "1474db3ff2d6b352bfda750f45af5b6562db425d18fbcb7bb9976f11f27bb95c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "416",
+    "file": "public/assets/game/Forage_416.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Snow_Yam.png",
+    "source": "https://stardewvalleywiki.com/Snow_Yam",
+    "revision": 191763,
+    "sha256": "01d083da6e7316c72e85a14f31156c89fa5a06f1a2a73f2af7c5a33e978344e7",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "829",
+    "file": "public/assets/game/Forage_829.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Ginger.png",
+    "source": "https://stardewvalleywiki.com/Ginger",
+    "revision": 190717,
+    "sha256": "b46f84ef63fd8c5d1e4eb5333b92e18249775bd238798737f22886621589866f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "851",
+    "file": "public/assets/game/Forage_851.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/77/Magma_Cap.png",
+    "source": "https://stardewvalleywiki.com/Magma_Cap",
+    "revision": 181848,
+    "sha256": "2dc71c2afa46fd869fca2ddb2ea89a191624fb3e23a39a0cc24ffc2dcde9ad63",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "88",
+    "file": "public/assets/game/Forage_88.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png",
+    "source": "https://stardewvalleywiki.com/Coconut",
+    "revision": 193061,
+    "sha256": "f0716c6dc59c6a3d0d5fbf3fc3fc8a991bdc29f6264150b21620ccc2bb63bb59",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "296",
+    "file": "public/assets/game/Forage_296.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png",
+    "source": "https://stardewvalleywiki.com/Salmonberry",
+    "revision": 192245,
+    "sha256": "770a084c956391ba0b642a86e6b127153c0c234ee54e87e7ad01b8c3df228294",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "396",
+    "file": "public/assets/game/Forage_396.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png",
+    "source": "https://stardewvalleywiki.com/Spice_Berry",
+    "revision": 191741,
+    "sha256": "64338f9441d60c7ec898354486da04ce932b8211f4189c1dbd2449ddf396d2de",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "406",
+    "file": "public/assets/game/Forage_406.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Wild_Plum.png",
+    "source": "https://stardewvalleywiki.com/Wild_Plum",
+    "revision": 192676,
+    "sha256": "6634c5db868ef46a17e4600ace64c322dcfae4fd714bf70dce83eaa14da021c1",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "410",
+    "file": "public/assets/game/Forage_410.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png",
+    "source": "https://stardewvalleywiki.com/Blackberry",
+    "revision": 193839,
+    "sha256": "3d6813ac9f8dac0e40969d2661369a2001931f3b569ba1af7ec6027dac4482aa",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "414",
+    "file": "public/assets/game/Forage_414.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/16/Crystal_Fruit.png",
+    "source": "https://stardewvalleywiki.com/Crystal_Fruit",
+    "revision": 191735,
+    "sha256": "1c6b60dc3b864faa264381da5578c3fa84a712f74370c3b769374068cd4f1c3f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "259",
+    "file": "public/assets/game/Forage_259.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png",
+    "source": "https://stardewvalleywiki.com/Fiddlehead_Fern",
+    "revision": 193127,
+    "sha256": "524c6e53b9821f427f5eaa71ac72e6e8dd224155520bf3552e59ed1dff0fa08a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "402",
+    "file": "public/assets/game/Forage_402.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Sweet_Pea.png",
+    "source": "https://stardewvalleywiki.com/Sweet_Pea",
+    "revision": 192753,
+    "sha256": "bd4bd1f17a0aa19fe75fe7f2fe398aaf478ca4b097068c164335cdacfaf1aaf1",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "418",
+    "file": "public/assets/game/Forage_418.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Crocus.png",
+    "source": "https://stardewvalleywiki.com/Crocus",
+    "revision": 181908,
+    "sha256": "e4718319ffcb8e3379d6f37b83442ec96cd88c5fda803f0fa88ba24f348fca40",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "392",
+    "file": "public/assets/game/Forage_392.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Nautilus_Shell.png",
+    "source": "https://stardewvalleywiki.com/Nautilus_Shell",
+    "revision": 193218,
+    "sha256": "f8c4ee11fd4efaa59c3a0f1e2320198479f33e05572482a60713c52e7a099271",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "393",
+    "file": "public/assets/game/Forage_393.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Coral.png",
+    "source": "https://stardewvalleywiki.com/Coral",
+    "revision": 183615,
+    "sha256": "95b7897a50e5976c09d792c5d2e468be058a25cfa9a8b6629b7d08d46598bb4e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "394",
+    "file": "public/assets/game/Forage_394.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Rainbow_Shell.png",
+    "source": "https://stardewvalleywiki.com/Rainbow_Shell",
+    "revision": 193134,
+    "sha256": "bb167a6fa61fdf873a3423664dac351d382844df7243d5beda933b7ee2dfe179",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "397",
+    "file": "public/assets/game/Forage_397.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Sea_Urchin.png",
+    "source": "https://stardewvalleywiki.com/Sea_Urchin",
+    "revision": 192805,
+    "sha256": "467daaa3558662013d06990d4881863daceb9280f09aad4baeb668bb49cc3fc0",
+    "width": 48,
+    "height": 48
+  }
+]

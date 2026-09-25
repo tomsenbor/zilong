@@ -1,0 +1,218 @@
+[
+  {
+    "file": "public/assets/game/Slime_green-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/7b/Green_Slime.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "7950314384f05b3d4d8607779a87d67cc94ac3f529dd88982c0fb173d1d7469b",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_blue-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Frost_Jelly.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "dbcca650bd5141531b859d3ba55ff7541b17e88e8895140f5451a8332c30fda2",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_red-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Red_Sludge.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "8474fc94083ddd8dd92ddf9b9f44b312f2c8aa9a18ba898cb54ba69bb69b6dbf",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_purple-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/27/Purple_Slime.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "fbd6731061446094cec3ed5a72223af541ee29f3e50c7a4b2e227ef414ef929e",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_yellow-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Yellow_Slime.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "ec34a823acc5d3a049efdbbec1cb7c4dccd5d7d58b9254895b3aa836be687f82",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_black-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Black_Slime.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "4f810097aa09656601d6e87c6a1a9b5370ed519e1bacba9c2155db50fd4b9158",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_copper-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Copper_Slime.png",
+    "width": 64,
+    "height": 64,
+    "sha256": "f6178067636c3908c01eed9647230f1765ec6921d24658429c1c12e2388419df",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_iron-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Iron_Slime.png",
+    "width": 64,
+    "height": 64,
+    "sha256": "41ee7d8daea2f9f2cd6f82137e44949f0106289d1986dbe28f7ab42ceb13c1c6",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_tiger-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/57/Tiger_Slime.png",
+    "width": 65,
+    "height": 67,
+    "sha256": "950bc3879d208357bc994d9e7e9e979eae0c78688c5fa814d143a5948eb7487e",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-green-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/4/43/Special_Green_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "61f2a02bf20dd1e04d14c00668a1bdc8a37a0853b818fbd25da8b2c2e1121b83",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-dark-green-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Special_Yellow_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "9de11a95ffbdf16afcf192ee8723cb955b62b19beab82baddbbd25ed86b7d0b7",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-blue-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Special_Blue_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "446ec76cc93c8ed5c91e1c7ef951adc9cd04b60e44f1331fede39ad33b4cbca7",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-black-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/5f/Special_Black_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "4aec29c6944a26ccce5df321fca9f1d4721d137140e338185311f025276cc2b7",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-red-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Special_Red_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "92febd1aa6e84ffce5bc778f60952f9e5193625c5cee376a38e8b8e5f7120c16",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-purple-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/08/Special_Purple_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "be7747e1ce3d2fe1aff71b578a59842c9c4fc250b08c2b1d48f1be91337aaf04",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-copper-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Special_Copper_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "c102cd5f1f6ea54b8b5c8eef3687c2dcf564458eb77c63003af06f3c137acf6d",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_special-iron-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/68/Special_Iron_Slime.png",
+    "width": 65,
+    "height": 84,
+    "sha256": "d2eeb02ca427769f5b0635bf006d8ce8a63ca460e19c85f71342dafddaa07f6c",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_big-green-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7a/Big_Green_Slime.png/48px-Big_Green_Slime.png",
+    "width": 48,
+    "height": 48,
+    "sha256": "19dd78309ed2b0c6c7e4d9135816eb48b11bcd97147974b6eba381cb36f262df",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_big-blue-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3a/Big_Blue_Slime.png/48px-Big_Blue_Slime.png",
+    "width": 48,
+    "height": 48,
+    "sha256": "8beea210d87bf9891d89149761b9ab21f27f94cfec964e79a2a270b32c051313",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_big-red-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0a/Big_Red_Slime.png/48px-Big_Red_Slime.png",
+    "width": 48,
+    "height": 48,
+    "sha256": "83af70006bd83069e0082278b1b7f1acba88b0e269fd31539206343f7caac34c",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_big-purple-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/95/Big_Purple_Slime.png/48px-Big_Purple_Slime.png",
+    "width": 48,
+    "height": 48,
+    "sha256": "10b1aa44688c966db47e050bb6c28f6ec077ce8e2ce9bcb8f21537a0f4095ecc",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_prismatic-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Prismatic_Slime.gif",
+    "width": 48,
+    "height": 44,
+    "sha256": "ffa98d6d69ba3345d79c6cf810cd97ea9009b71c1576d5594da8816857838075",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_dangerous-green-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Green_Slime_Dangerous.png",
+    "width": 64,
+    "height": 71,
+    "sha256": "89755056ff328ac75bd753a75f44ba5eff986d2730de6de4e36464b76ef37bdd",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_dangerous-blue-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Blue_Slime_Dangerous.png",
+    "width": 64,
+    "height": 71,
+    "sha256": "34c19efcf3e266a34ed98b68f15220411c346dd4ce82f52f42e09937f3b11df9",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_dangerous-red-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/35/Red_Slime_Dangerous.png",
+    "width": 64,
+    "height": 71,
+    "sha256": "8df324f3635726d1f8b9dd83ce9cf8e15e18b303a64b62df669d6ced76f8db68",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_dangerous-purple-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Purple_Slime_Dangerous.png",
+    "width": 64,
+    "height": 71,
+    "sha256": "99d48720d2b2ffa23899fb5aa4ae3906c74a62178f5545f154c802b70a40fcf6",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  },
+  {
+    "file": "public/assets/game/Slime_stacked-slime.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/9/97/Stacked_Slimes.png",
+    "width": 64,
+    "height": 164,
+    "sha256": "d9494181fe6f78b41155fd526aa6c245613db16456cd3ea33434dcba4d6d61fb",
+    "transform": "Source sprite, animated sources first frame as static PNG."
+  }
+]

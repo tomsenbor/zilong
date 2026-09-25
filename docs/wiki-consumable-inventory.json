@@ -1,0 +1,257 @@
+{
+  "version": "1.6.15",
+  "status": "reviewed",
+  "collectionSource": "https://stardewvalleywiki.com/Crafting",
+  "sourceConflicts": [
+    "工作小食的Crafting集合表写18生命值，英文与中文独立单页均写20；采用两份单页一致的20。"
+  ],
+  "records": [
+    {
+      "key": "consumable:Field Snack",
+      "originalName": "Field Snack",
+      "name": "工作小食",
+      "slug": "field-snack",
+      "recipe": "采集1级",
+      "materials": "橡子×1、枫树种子×1、松果×1",
+      "effect": "恢复45能量与20生命值。",
+      "limitation": "这是打造食品，不属于厨房烹饪配方；原料种子也可用于种树，需按木材需求留种。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Field_Snack",
+      "sourceRevision": 190203,
+      "sourceSha256": "378eedc4fbeafa8532a237164ce57be55395afda2dd564b0ecaf29dfd7088df6",
+      "versionEvidence": "1.4: Can now be used in Tailoring. Can be requested in Fish Pond quests. 1.6: Now liked by Alex.",
+      "image": {
+        "src": "/mediawiki/images/1/1b/Field_Snack.png",
+        "alt": "Field Snack.png"
+      }
+    },
+    {
+      "key": "consumable:Bug Steak",
+      "originalName": "Bug Steak",
+      "name": "虫肉块",
+      "slug": "bug-steak",
+      "recipe": "战斗1级",
+      "materials": "虫肉×10",
+      "effect": "恢复45能量与30生命值。",
+      "limitation": "会消耗本可用来制造鱼饵的虫肉；不是用虫肉直接恢复生命，也不是村民通用礼物。",
+      "sell": 50,
+      "sourceUrl": "https://stardewvalleywiki.com/Bug_Steak",
+      "sourceRevision": 189888,
+      "sourceSha256": "3d2e9e5dc347024379068b8109bc013cdd0bb192e7d9c2a62ffa0891ba29cf7b",
+      "versionEvidence": "1.5: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/b/b7/Bug_Steak.png",
+        "alt": "Bug Steak.png"
+      }
+    },
+    {
+      "key": "consumable:Life Elixir",
+      "originalName": "Life Elixir",
+      "name": "生命药水",
+      "slug": "life-elixir",
+      "recipe": "战斗2级",
+      "materials": "红蘑菇×1、紫蘑菇×1、羊肚菌×1、鸡油菌×1",
+      "effect": "生命值恢复至满值，不恢复能量。",
+      "limitation": "1.6.4起不再恢复能量；不要沿用旧版200能量和固定90生命值的说明。矮人处成品售价为2000金，非出售回收价。",
+      "sell": 250,
+      "sourceUrl": "https://stardewvalleywiki.com/Life_Elixir",
+      "sourceRevision": 190204,
+      "sourceSha256": "3d1e8b21540a9a2c578dde4884ad3c937b46e0aaa26f3f08f31a8f2a9eb69a5a",
+      "versionEvidence": "1.4: Can now be used in Tailoring. 1.6: Reduced sell price from data-sort-value=\"500\">500g to data-sort-value=\"250\">250g. Added as possible prize from Mystery Boxes and Golden Mystery Boxes. 1.6.4: No longer restores energy when consuming. The tooltip now shows it restores \"100%\" health instead of 90 health and 200 energy.",
+      "image": {
+        "src": "/mediawiki/images/6/6e/Life_Elixir.png",
+        "alt": "Life Elixir.png"
+      }
+    },
+    {
+      "key": "consumable:Oil of Garlic",
+      "originalName": "Oil of Garlic",
+      "name": "蒜油",
+      "slug": "oil-of-garlic",
+      "recipe": "战斗6级",
+      "materials": "大蒜×10、油×1",
+      "effect": "恢复200能量与89生命值，特殊驱怪效果持续现实时间10分钟。",
+      "limitation": "普通矿井中阻止生成敌人，但不包括地牢层；骷髅洞穴阻止怪物层与怪群，不排除史前层；危险矿井与危险骷髅洞穴无效。",
+      "sell": 1000,
+      "sourceUrl": "https://stardewvalleywiki.com/Oil_of_Garlic",
+      "sourceRevision": 192108,
+      "sourceSha256": "b6519240563dbb3d4285cdecc5ce476f8013463926df19bfb357c1c7e7016b1f",
+      "versionEvidence": "1.4: Can now be used in Tailoring.",
+      "image": {
+        "src": "/mediawiki/images/4/4b/Oil_of_Garlic.png",
+        "alt": "Oil of Garlic.png"
+      }
+    },
+    {
+      "key": "consumable:Monster Musk",
+      "originalName": "Monster Musk",
+      "name": "怪兽香水",
+      "slug": "monster-musk",
+      "recipe": "完成法师特别订单“五彩胶冻”",
+      "materials": "蝙蝠翅膀×30、史莱姆泥×30",
+      "effect": "持续现实时间10分钟；进入矿井或骷髅洞穴的新楼层时，使该层生成的敌人数量翻倍。",
+      "limitation": "不会把当前已出现的每只怪物直接复制；火山、采石场矿洞、突变虫穴的日末重置区域不能照搬同样的入层效果。",
+      "sell": 50,
+      "sourceUrl": "https://stardewvalleywiki.com/Monster_Musk",
+      "sourceRevision": 190631,
+      "sourceSha256": "6ba1c189894cbf87542944a0ff37747bdd675810ebac8deab02d47aefb4a9df2",
+      "versionEvidence": "1.5: Introduced. 1.6: Monster Musk can now be obtained via the Bookseller. Krobus now loves Monster Musk.",
+      "image": {
+        "src": "/mediawiki/images/a/af/Monster_Musk.png",
+        "alt": "Monster Musk.png"
+      }
+    },
+    {
+      "key": "consumable:Fairy Dust",
+      "originalName": "Fairy Dust",
+      "name": "仙尘",
+      "slug": "fairy-dust",
+      "recipe": "完成贝啼“海盗的妻子”任务",
+      "materials": "钻石×1、玫瑰仙子×1",
+      "effect": "使适用机器当前正在进行的加工阶段立即完成；每次使用消耗一份仙尘。",
+      "limitation": "木桶熟成每次只提升到下一个品质，不能从普通直接变铱星；普通、鸵鸟、史莱姆孵化器均不适用。",
+      "sell": 300,
+      "sourceUrl": "https://stardewvalleywiki.com/Fairy_Dust",
+      "sourceRevision": 190276,
+      "sourceSha256": "e19bf488fe89a1e981e7ab0c6b9191c53679750dd0c12a0dd5e6d6c0163cee73",
+      "versionEvidence": "1.5: Introduced. 1.6: Reduced sell price from data-sort-value=\"500\">500g to data-sort-value=\"300\">300g. Can now be obtained from Golden Fishing Treasure Chests as well as traded for with the Bookseller and the Raccoon's wife. Can now be obtained as a prize from the Prize Machine and as a reward from the Raccoon.",
+      "image": {
+        "src": "/mediawiki/images/f/fc/Fairy_Dust.png",
+        "alt": "Fairy Dust.png"
+      }
+    },
+    {
+      "key": "consumable:Warp Totem: Beach",
+      "originalName": "Warp Totem: Beach",
+      "name": "传送图腾：海滩",
+      "slug": "warp-totem-beach",
+      "recipe": "采集6级",
+      "materials": "硬木×1、珊瑚×2、纤维×10",
+      "effect": "一次性传送至海滩的指定落点。",
+      "limitation": "夏威夷宴会或月光水母起舞当天、节日尚未开始前使用，会消耗图腾但无法传送到海滩。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Warp_Totem:_Beach",
+      "sourceRevision": 192643,
+      "sourceSha256": "9ab47b0ddba23f041d86ea6742c6c225e7e867fce941b2b06a48988b96311e90",
+      "versionEvidence": "1.4: Can now be used in Tailoring. Can be produced by Fish Ponds. 1.5: Can replace clay in artifact spots. 1.6: Added as possible prize from Mystery Box.",
+      "image": {
+        "src": "/mediawiki/images/2/2f/Warp_Totem_Beach.png",
+        "alt": "Warp Totem Beach.png"
+      }
+    },
+    {
+      "key": "consumable:Warp Totem: Mountains",
+      "originalName": "Warp Totem: Mountains",
+      "name": "传送图腾：山岭",
+      "slug": "warp-totem-mountains",
+      "recipe": "采集7级",
+      "materials": "硬木×1、铁锭×1、石头×25",
+      "effect": "一次性传送至深山的指定落点。",
+      "limitation": "使用后即消耗，不是永久传送建筑，也不直接把玩家送进矿井任意层数。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Warp_Totem:_Mountains",
+      "sourceRevision": 192688,
+      "sourceSha256": "d7d8c78de3578d42c59e74b3ab20f050b4179da8288943a7f9ca075305629f26",
+      "versionEvidence": "1.4: Can now be used in Tailoring. Can be produced by Fish Ponds. 1.5: Can replace clay in artifact spots. 1.6: Added as possible prize from Mystery Box.",
+      "image": {
+        "src": "/mediawiki/images/d/d8/Warp_Totem_Mountains.png",
+        "alt": "Warp Totem Mountains.png"
+      }
+    },
+    {
+      "key": "consumable:Warp Totem: Farm",
+      "originalName": "Warp Totem: Farm",
+      "name": "传送图腾：农场",
+      "slug": "warp-totem-farm",
+      "recipe": "采集8级",
+      "materials": "硬木×1、蜂蜜×1、纤维×20",
+      "effect": "一次性传送至农场的指定落点。",
+      "limitation": "不要与回程魔杖或姜岛农场图腾柱混淆；赌场1.6价格是1000齐币，不是1000金币。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Warp_Totem:_Farm",
+      "sourceRevision": 192875,
+      "sourceSha256": "dd5498b699a1e03220a9396d85f76624cb201cd8bdc4694fdfa8edf18c787b20",
+      "versionEvidence": "1.4: Can now be obtained from Crane Game in the Movie Theater or in Blobfish Fish Ponds. Can now be used in Tailoring. 1.5: Can now replace clay in artifact spots. 1.6: Changed Casino price from data-sort-value=\"500\">500 to data-sort-value=\"1000\">1,000. Now one of the prizes from Mystery Box, Golden Mystery Box, and the Trout Derby festival.",
+      "image": {
+        "src": "/mediawiki/images/e/e4/Warp_Totem_Farm.png",
+        "alt": "Warp Totem Farm.png"
+      }
+    },
+    {
+      "key": "consumable:Warp Totem: Desert",
+      "originalName": "Warp Totem: Desert",
+      "name": "传送图腾：沙漠",
+      "slug": "warp-totem-desert",
+      "recipe": "沙漠商人处以10铱锭换取配方",
+      "materials": "硬木×2、椰子×1、铱矿石×4",
+      "effect": "一次性传送至沙漠的指定落点。",
+      "limitation": "配方兑换与成品兑换不同：成品可用3万能晶球兑换；传送到沙漠不等于自动获得骷髅洞穴钥匙。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Warp_Totem:_Desert",
+      "sourceRevision": 192696,
+      "sourceSha256": "d6c8677c5749e829a20f0e570af1d713733abc833cce8c384246f38ea79bdc07",
+      "versionEvidence": "1.4: Introduced.",
+      "image": {
+        "src": "/mediawiki/images/8/83/Warp_Totem_Desert.png",
+        "alt": "Warp Totem Desert.png"
+      }
+    },
+    {
+      "key": "consumable:Warp Totem: Island",
+      "originalName": "Warp Totem: Island",
+      "name": "传送图腾：姜岛",
+      "slug": "warp-totem-island",
+      "recipe": "火山矮人处购买配方，10000金",
+      "materials": "硬木×5、龙牙×1、姜×1",
+      "effect": "一次性传送至姜岛的指定落点。",
+      "limitation": "制造一份需要消耗龙牙；不会自动解锁岛上桥梁、农舍等设施，应先规划返程与区域开通。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Warp_Totem:_Island",
+      "sourceRevision": 192601,
+      "sourceSha256": "82b423bf948592304ff75238d8d9fe1fa7219bf9aa88e93e22aa298318a27415",
+      "versionEvidence": "1.5: Introduced. 1.6: One now obtained after repairing the Farm Obelisk on Ginger Island.",
+      "image": {
+        "src": "/mediawiki/images/b/b9/Warp_Totem_Island.png",
+        "alt": "Warp Totem Island.png"
+      }
+    },
+    {
+      "key": "consumable:Rain Totem",
+      "originalName": "Rain Totem",
+      "name": "雨水图腾",
+      "slug": "rain-totem",
+      "recipe": "采集9级",
+      "materials": "硬木×1、松露油×1、松焦油×5",
+      "effect": "将使用地区次日天气设为雨天；消耗一个图腾。",
+      "limitation": "仅影响使用所在地区；无法覆盖鹈鹕镇节日或换季第1天的固定天气。1.6起不能连锁雷暴以持续获取电池组。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Rain_Totem",
+      "sourceRevision": 193739,
+      "sourceSha256": "7bc7423535c6b2dd26a9d5b6895b0fadf224c0b978f74ca2edb27ecd49b81eeb",
+      "versionEvidence": "1.4: Can now be used in Tailoring. 1.6: Fixed a bug where using a Rain Totem on a stormy day would turn the next day's weather to stormy instead of rainy; storms could be chained in this way to obtain large numbers of Battery Packs.",
+      "image": {
+        "src": "/mediawiki/images/f/f7/Rain_Totem.png",
+        "alt": "Rain Totem.png"
+      }
+    },
+    {
+      "key": "consumable:Treasure Totem",
+      "originalName": "Treasure Totem",
+      "name": "宝藏图腾",
+      "slug": "treasure-totem",
+      "recipe": "领取采集精通奖励",
+      "materials": "硬木×5、神秘糖浆×1、苔藓×10",
+      "effect": "在室外可挖掘地面使用，周围最多生成16个远古斑点。",
+      "limitation": "1.6.4起不能在室内使用；有障碍或不可挖掘的格子不会生成斑点，不保证每次都出现16处。",
+      "sell": 20,
+      "sourceUrl": "https://stardewvalleywiki.com/Treasure_Totem",
+      "sourceRevision": 193585,
+      "sourceSha256": "83ed8180e07dd1f8a5ab6c4aa90132152555d444c8103f6477be918e756b61dc",
+      "versionEvidence": "1.6: Introduced. 1.6.4: Can no longer use indoors.",
+      "image": {
+        "src": "/mediawiki/images/0/06/Treasure_Totem.png",
+        "alt": "Treasure Totem.png"
+      }
+    }
+  ]
+}

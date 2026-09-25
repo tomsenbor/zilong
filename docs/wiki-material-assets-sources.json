@@ -1,0 +1,212 @@
+[
+  {
+    "nativeId": "152",
+    "file": "public/assets/game/Material_152.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Seaweed.png",
+    "source": "https://stardewvalleywiki.com/Seaweed",
+    "revision": 194145,
+    "sha256": "d8d3a6253cd37e2e16e19654383b9d9cb08faf166c0522b1eb3a7940ce037115",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "153",
+    "file": "public/assets/game/Material_153.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Green_Algae.png",
+    "source": "https://stardewvalleywiki.com/Green_Algae",
+    "revision": 190440,
+    "sha256": "a2d38aa50dfd55704b747771077f3e4b58c653680f510bb74babb739780fe86a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "157",
+    "file": "public/assets/game/Material_157.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/f/f7/White_Algae.png",
+    "source": "https://stardewvalleywiki.com/White_Algae",
+    "revision": 187398,
+    "sha256": "b0c017ee8c1932bc0fadeb5d709b75294dc32b12ce60f2ef21767b970c416d1a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "178",
+    "file": "public/assets/game/Material_178.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Hay.png",
+    "source": "https://stardewvalleywiki.com/Hay",
+    "revision": 195141,
+    "sha256": "9d8cac257f9c247dcecbe7b59d5fadfd5569478dd8d282aa3a9002e55d610c98",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "245",
+    "file": "public/assets/game/Material_245.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Sugar.png",
+    "source": "https://stardewvalleywiki.com/Sugar",
+    "revision": 192605,
+    "sha256": "232fbf6c4ec0736283898b4a6bd38d8c81d6312f911bd1aee719369094fba639",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "246",
+    "file": "public/assets/game/Material_246.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Wheat_Flour.png",
+    "source": "https://stardewvalleywiki.com/Wheat_Flour",
+    "revision": 192709,
+    "sha256": "89a368b9a2f2a1e21209a02223da903b97c73dd7c232bf6475abad28b4c47860",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "423",
+    "file": "public/assets/game/Material_423.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Rice.png",
+    "source": "https://stardewvalleywiki.com/Rice",
+    "revision": 190668,
+    "sha256": "c9677cb85cf591ddef07f4dc13a19f991cdc86e9f49966bde3496174f02d6d2b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "684",
+    "file": "public/assets/game/Material_684.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Bug_Meat.png",
+    "source": "https://stardewvalleywiki.com/Bug_Meat",
+    "revision": 184791,
+    "sha256": "231b58bce5a017143af710e768caed2272d5358091b9819284c0536f0acd4e79",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "812",
+    "file": "public/assets/game/Material_812.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/5/56/Roe.png",
+    "source": "https://stardewvalleywiki.com/Roe",
+    "revision": 190462,
+    "sha256": "b2c374bf602eeca2bde04255f3ce66e1593e6f5daa750b705f5357a2552c6f64",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "814",
+    "file": "public/assets/game/Material_814.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Squid_Ink.png",
+    "source": "https://stardewvalleywiki.com/Squid_Ink",
+    "revision": 192632,
+    "sha256": "14904386c358550cc6d847374d12fa958bedd70074354bef3e004a398c13ffe2",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "834",
+    "file": "public/assets/game/Material_834.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/3/38/Mango.png",
+    "source": "https://stardewvalleywiki.com/Mango",
+    "revision": 192967,
+    "sha256": "85a02cb532b66a27b901d70f2b3df4cbb87c390e1ab57034d9d09c6323d04c72",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "168",
+    "file": "public/assets/game/Material_168.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Trash_%28item%29.png",
+    "source": "https://stardewvalleywiki.com/Trash_(item)",
+    "revision": 192649,
+    "sha256": "2ec85ada6632b696b9119b4a1159804a28f764e7011496da6eb5ea39fd21486f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "169",
+    "file": "public/assets/game/Material_169.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Driftwood.png",
+    "source": "https://stardewvalleywiki.com/Driftwood",
+    "revision": 184947,
+    "sha256": "d01e0dfa8612eb8e055e0d5de58784e774b95bc0b682124c0f47e066419ecfbd",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "170",
+    "file": "public/assets/game/Material_170.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/b/b5/Broken_Glasses.png",
+    "source": "https://stardewvalleywiki.com/Broken_Glasses",
+    "revision": 188436,
+    "sha256": "a8848a7239bb7ae3b63db88a0b8166d2a839385b77255018dbf6186c7ab7bfd9",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "171",
+    "file": "public/assets/game/Material_171.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Broken_CD.png",
+    "source": "https://stardewvalleywiki.com/Broken_CD",
+    "revision": 177150,
+    "sha256": "6a6349e1633a744f7acf5f1d63b0627f670040b0238f6b1316f72b1dd7e74ac5",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "172",
+    "file": "public/assets/game/Material_172.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/c/c0/Soggy_Newspaper.png",
+    "source": "https://stardewvalleywiki.com/Soggy_Newspaper",
+    "revision": 190587,
+    "sha256": "e8ee740879b043017162db33ed7fa88fc38c2861de98fe89c4c2145e4abc0d0b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "SeaJelly",
+    "file": "public/assets/game/Material_SeaJelly.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Sea_Jelly.png",
+    "source": "https://stardewvalleywiki.com/Sea_Jelly",
+    "revision": 190510,
+    "sha256": "bf7718cc8f70c445f2807956c96d370fee2560cd3e8472ad31e4be9b1273716d",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "CaveJelly",
+    "file": "public/assets/game/Material_CaveJelly.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Cave_Jelly.png",
+    "source": "https://stardewvalleywiki.com/Cave_Jelly",
+    "revision": 180863,
+    "sha256": "2756afdb650bac90a632760574ae78eb05931061f1a71b6de7b8361b2dcfce9c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "RiverJelly",
+    "file": "public/assets/game/Material_RiverJelly.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/8/80/River_Jelly.png",
+    "source": "https://stardewvalleywiki.com/River_Jelly",
+    "revision": 190963,
+    "sha256": "3ca7bebc42b6ee5620a2eadd520f28588001520c4e832fab6a2dfe45113c26dd",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "279",
+    "file": "public/assets/game/Material_279.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+    "source": "https://stardewvalleywiki.com/Magic_Rock_Candy",
+    "revision": 192339,
+    "sha256": "4152aff6c7639e56827974b8c6c63ca4733318de49915ad7977c0cb06ef0266b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "873",
+    "file": "public/assets/game/Material_873.png",
+    "url": "https://stardewvalleywiki.com/mediawiki/images/1/12/Pi%C3%B1a_Colada.png",
+    "source": "https://stardewvalleywiki.com/Piña_Colada",
+    "revision": 178025,
+    "sha256": "095f2d2ef630edfaeb0987fb46a5eefa986b149de4c9905af28f631fe2276b3f",
+    "width": 48,
+    "height": 48
+  }
+]

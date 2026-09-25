@@ -1,0 +1,1968 @@
+{
+  "version": "1.6.15",
+  "scope": "56 independently named pages; bats and slime variants still reviewed separately; not a full creatures completion claim",
+  "records": [
+    {
+      "id": "Bug",
+      "name": "臭虫",
+      "slug": "monster-bug",
+      "location": "矿井",
+      "floors": "1-29",
+      "stats": {
+        "基础生命": "1",
+        "基础伤害": "8",
+        "基础防御": "0",
+        "战斗经验": "1"
+      },
+      "tip": "沿固定直线飞行，从侧面攻击并避开行进路线；危险变体受击后会转向，不能按普通臭虫的方向一直站着。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Bug Anim.gif",
+        "src": "/mediawiki/images/3/32/Bug_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_bug.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Bug",
+      "sourceRevision": 188218,
+      "sourceSha256": "15b7b35ab48e7d9ed08a7ad473e9aaf9b101a3301e54b279ece04b0e4453cf0d",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/臭虫",
+        "revision": 54484,
+        "sha256": "ebca5a62362fca25d36979bfa5aa8d985311cc1029df91e852f900263682e7ee"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Cave Fly",
+      "name": "苍蝇",
+      "slug": "monster-cave-fly",
+      "location": "矿井",
+      "floors": "1-29",
+      "stats": {
+        "基础生命": "22",
+        "基础伤害": "6",
+        "基础防御": "1",
+        "战斗经验": "10"
+      },
+      "tip": "会穿过墙壁高速接近，接触后绕回继续攻击；提前挥击并留出退路，成群出现时不要同时被夹击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Cave Fly.png",
+        "src": "/mediawiki/images/8/8f/Cave_Fly.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_cave-fly.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Cave_Fly",
+      "sourceRevision": 191451,
+      "sourceSha256": "404231668fa25614709f2d264cec8b87ab7e375b9cd28f38e7b963833ce4f09d",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/苍蝇",
+        "revision": 54460,
+        "sha256": "4e4e8fbc46ce11a7db478bdd4e16e2114f494ad6ec8c6427e9356baf60f4ee3a"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Duggy",
+      "name": "掘地虫",
+      "slug": "monster-duggy",
+      "location": "矿井",
+      "floors": "6-29",
+      "stats": {
+        "基础生命": "40",
+        "基础伤害": "6",
+        "基础防御": "0",
+        "战斗经验": "10"
+      },
+      "tip": "会从脚下土地区域钻出，出现时攻击并持续移动；不要把站在土块上等待当作安全的恢复方式。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Duggy.png",
+        "src": "/mediawiki/images/thumb/3/3a/Duggy.png/64px-Duggy.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "63",
+        "srcset": "/mediawiki/images/thumb/3/3a/Duggy.png/96px-Duggy.png 1.5x, /mediawiki/images/3/3a/Duggy.png 2x"
+      },
+      "file": "public/assets/game/Monster_duggy.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Duggy",
+      "sourceRevision": 193043,
+      "sourceSha256": "6c24f9bbb63a4f904de2cd1f91e2920dfa3fc523f7751bbaf02adabccd69343f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/掘地虫",
+        "revision": 54121,
+        "sha256": "1a42822e51aa425a52d47224690f084ccf9f7794c69fec4782fb15079f5afa27"
+      },
+      "history": "History[edit] 1.0: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Grub",
+      "name": "蛆",
+      "slug": "monster-grub",
+      "location": "矿井",
+      "floors": "15-29",
+      "stats": {
+        "基础生命": "20",
+        "基础伤害": "4",
+        "基础防御": "0",
+        "战斗经验": "2"
+      },
+      "tip": "残血会逃跑并化蛹，化蛹阶段免疫伤害，之后变成苍蝇；尽量在化蛹之前集中攻击解决。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Grub Anim.gif",
+        "src": "/mediawiki/images/b/b0/Grub_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_grub.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Grub",
+      "sourceRevision": 190256,
+      "sourceSha256": "5cf1252275c9892aaf8ae9832262a733ce87f90fa61eaa94c2afd4cd691f7140",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/蛆",
+        "revision": 50614,
+        "sha256": "1af204424129e523620f9088f52823ca2bb0573c51bb8c33a7eda032ad35f328"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Added Rice Shoot drop. 1.6: Now drops the Bait And Bobber book. Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Rock Crab",
+      "name": "岩石蟹",
+      "slug": "monster-rock-crab",
+      "location": "矿井",
+      "floors": "1-29",
+      "stats": {
+        "基础生命": "30",
+        "基础伤害": "5",
+        "基础防御": "1",
+        "战斗经验": "4"
+      },
+      "tip": "伪装成石头，缩壳静止时不能用普通攻击造成伤害；可用镐迫使移动，再用武器攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Rock Crab Anim.gif",
+        "src": "/mediawiki/images/3/30/Rock_Crab_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "72"
+      },
+      "file": "public/assets/game/Monster_rock-crab.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Rock_Crab",
+      "sourceRevision": 194172,
+      "sourceSha256": "b3d41e1a9a4bca14713eac9f8da0e4e30e05cea1a274a6f8e4b0a5f576bffa74",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/岩石蟹",
+        "revision": 48708,
+        "sha256": "641309a5a2be0abcdb723a3b5cb448ed7cc00278d0169f79407897f87854277a"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Fixed bug that caused striking an unshelled crab with a pickaxe to produce the same sounds and debris as hitting a rock. Dropped Crabs now always bounce around before being taken into inventory, instead of bouncing only when inventory was full. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Stone Golem",
+      "name": "石魔",
+      "slug": "monster-stone-golem",
+      "location": "矿井",
+      "floors": "30-39",
+      "stats": {
+        "基础生命": "45",
+        "基础伤害": "5",
+        "基础防御": "5",
+        "战斗经验": "5"
+      },
+      "tip": "会缓慢接近并造成接触伤害，暗处不易发现；看清发光眼睛并保持攻击距离，不要贴身停留。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Stone Golem Anim.gif",
+        "src": "/mediawiki/images/8/85/Stone_Golem_Anim.gif",
+        "decoding": "async",
+        "width": "52",
+        "height": "84"
+      },
+      "file": "public/assets/game/Monster_stone-golem.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Golem",
+      "sourceRevision": 192726,
+      "sourceSha256": "3fa08538d3bcf4ed1eae7eb0c3018ea497c658adc8d6911f218cd8258c529a10",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/石魔",
+        "revision": 54559,
+        "sha256": "e99c4c20e29b10acc6b1ded6740bd30549852eb03b76746b0f675a9aa50ebe5b"
+      },
+      "history": "History[edit] 1.0: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Dust Sprite",
+      "name": "灰尘精灵",
+      "slug": "monster-dust-sprite",
+      "location": "矿井",
+      "floors": "40~79",
+      "stats": {
+        "基础生命": "40",
+        "基础伤害": "6",
+        "基础防御": "2",
+        "战斗经验": "2"
+      },
+      "tip": "常成群跳跃接近，有时会打碎挡路石头；利用墙角限制击退，但不要因体型小而忽视接触伤害。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Dust Sprite.png",
+        "src": "/mediawiki/images/9/9a/Dust_Sprite.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_dust-sprite.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Dust_Sprite",
+      "sourceRevision": 185427,
+      "sourceSha256": "5afddab61b5ed481f25449d2d42aebabffa277cfc094b76bb431e08bd2946b42",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/灰尘精灵",
+        "revision": 54290,
+        "sha256": "c3876047892d9498b1cba1e01b4fb3a6cc883faa94ae2904a9d3e3ca513e1439"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.1: Added Coffee Bean to drop table. 1.6: Clint's special order, Slay Monsters quests, and the cutscene at The Summit no longer incorrectly list Dust Sprites as \"dust spirits\". Players no longer earn Mining experience points for rocks broken by Dust Sprites. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Ghost",
+      "name": "幽灵",
+      "slug": "monster-ghost",
+      "location": "矿井",
+      "floors": "51-79",
+      "stats": {
+        "基础生命": "96",
+        "基础伤害": "10",
+        "基础防御": "3",
+        "战斗经验": "15"
+      },
+      "tip": "无视墙壁和障碍慢慢追来，碰到玩家后会传送；提前挥击并注意击退距离，幽灵不是可以垂钓的鬼鱼。",
+      "condition": "灵外质只在“奇特物质”特别订单进行期间才可能掉落；普通时期刷幽灵不能提前囤积该任务物品。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Ghost Anim.gif",
+        "src": "/mediawiki/images/3/31/Ghost_Anim.gif",
+        "decoding": "async",
+        "width": "56",
+        "height": "84"
+      },
+      "file": "public/assets/game/Monster_ghost.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Ghost",
+      "sourceRevision": 190352,
+      "sourceSha256": "ce0b0b4cb98664a8044fa0eb035fcf3d48db586876b066573421e952c45769fa",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/幽灵",
+        "revision": 51446,
+        "sha256": "e963df7c28f6c8684044f44e891079b33286ff65fe7ab5467c684369692de8d6"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.5: Added a 9.5% drop chance for Ectoplasm if the \"A Curious Substance\" quest is active. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Skeleton",
+      "name": "骷髅（怪物）",
+      "slug": "monster-skeleton",
+      "location": "矿井",
+      "floors": "71-79",
+      "stats": {
+        "基础生命": "140",
+        "基础伤害": "10",
+        "基础防御": "1",
+        "战斗经验": "8"
+      },
+      "tip": "会接近玩家并投掷可穿过石块的骨头；及时攻击打断投掷，已飞出的骨头可躲避或用武器击落。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Skeleton Anim.gif",
+        "src": "/mediawiki/images/b/bf/Skeleton_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "128"
+      },
+      "file": "public/assets/game/Monster_skeleton.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Skeleton",
+      "sourceRevision": 190663,
+      "sourceSha256": "f5545685280a0056bd6862f562e60f2ff8891832f98d590ddb507872d208315f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/骷髅",
+        "revision": 47564,
+        "sha256": "7dd2fd61a9fae9d09d6a5d317541d795cc4a05a46dff7dbd381c36626ed3bdc8"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.5: Bone Fragment added. Skeletons now have a 4% chance of dropping Bone Sword. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Lava Crab",
+      "name": "熔岩蟹",
+      "slug": "monster-lava-crab",
+      "location": "矿井",
+      "floors": "80-119",
+      "stats": {
+        "基础生命": "120",
+        "基础伤害": "15",
+        "基础防御": "3",
+        "战斗经验": "12"
+      },
+      "tip": "伪装成岩石，危险版伪装成金矿；缩壳时普通攻击无效，用镐打出移动状态后再攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Lava Crab Anim.gif",
+        "src": "/mediawiki/images/e/ef/Lava_Crab_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "72"
+      },
+      "file": "public/assets/game/Monster_lava-crab.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Lava_Crab",
+      "sourceRevision": 190295,
+      "sourceSha256": "e94abf3341a609102f2de4da7ab1abd2e9a181f445681a10b3669ee4edada4c3",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩蟹",
+        "revision": 54260,
+        "sha256": "930c6e60ad107c92072e01387fdc20e4da058b3f4e7877575a5b05d456a5515a"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Fixed bug that caused striking an unshelled crab with a pickaxe to produce the same sounds and debris as hitting a rock. Dropped Crabs now always bounce around before being taken into inventory, instead of bouncing only when inventory was full. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Metal Head",
+      "name": "金属大头",
+      "slug": "monster-metal-head",
+      "location": "矿井",
+      "floors": "80-119",
+      "stats": {
+        "基础生命": "40",
+        "基础伤害": "15",
+        "基础防御": "8",
+        "战斗经验": "6"
+      },
+      "tip": "防御较高且抗击退，没有特殊远程招式；连续挥击后留意后退距离，不要依赖击退把它永远挡住。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Metal Head Anim.gif",
+        "src": "/mediawiki/images/c/c6/Metal_Head_Anim.gif",
+        "decoding": "async",
+        "width": "60",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_metal-head.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Metal_Head",
+      "sourceRevision": 190640,
+      "sourceSha256": "3b532d0a30fef4062292e43caa24a9d43c5b39186c12c8ae77b1e1792db473c2",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/金属大头",
+        "revision": 47655,
+        "sha256": "b8de26f0a4bd8a68864a33a8cf09a522c3634cec1666b2577bb33220157b58cd"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Added Squire's Helmet to drops. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Shadow Brute",
+      "name": "暗影狂徒",
+      "slug": "monster-shadow-brute",
+      "location": "矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "160",
+        "基础伤害": "18",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "近距离追击且抗击退，危险变体生命与伤害更高；边攻击边后退，避免被顶进角落。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Shadow Brute Anim.gif",
+        "src": "/mediawiki/images/8/85/Shadow_Brute_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "112"
+      },
+      "file": "public/assets/game/Monster_shadow-brute.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Shadow_Brute",
+      "sourceRevision": 190459,
+      "sourceSha256": "87e975d8df4011ce95379a76d803ad82378ccc33f1fa0e47b1bbc4aaa45c0348",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/暗影狂徒",
+        "revision": 54206,
+        "sha256": "65242c169d123d5e838467be00b2edf860cd7039d1293be0234dd7afb6fd5b3e"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.5: Added Shadow Brute (dangerous) and Shadow Sniper as stronger counterparts. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Shadow Shaman",
+      "name": "暗影萨满",
+      "slug": "monster-shadow-shaman",
+      "location": "矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "80",
+        "基础伤害": "17",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "会治疗附近敌人并发射削弱防御的法术；优先处理治疗者，躲开远程法术后再接近攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Shadow Shaman Anim.gif",
+        "src": "/mediawiki/images/b/ba/Shadow_Shaman_Anim.gif",
+        "decoding": "async",
+        "width": "56",
+        "height": "92"
+      },
+      "file": "public/assets/game/Monster_shadow-shaman.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Shadow_Shaman",
+      "sourceRevision": 193013,
+      "sourceSha256": "2f0d2d6db5cf25429e22ce58d526541fdca60b660eaf11c8e03093af47f2149e",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/暗影萨满",
+        "revision": 54195,
+        "sha256": "d781089ddfa2e5d8fd23714de5c8f823c3f8df08ed068ae9fd13a57f27d0a400"
+      },
+      "history": "History[edit] 1.0: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Squid Kid",
+      "name": "鱿鱼娃",
+      "slug": "monster-squid-kid",
+      "location": "矿井",
+      "floors": "91-119 [1]",
+      "stats": {
+        "基础生命": "1",
+        "基础伤害": "18",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "会发射碰墙反弹的火球；普通版生命很低，可尽快近身解决，危险版不能按普通版一击即倒处理。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Squid Kid Anim.gif",
+        "src": "/mediawiki/images/8/83/Squid_Kid_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_squid-kid.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Squid_Kid",
+      "sourceRevision": 192734,
+      "sourceSha256": "7a518719f608619aab703c30f9a5e2cc9c9e7d6b5c577a190cfe34ea140359ac",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/鱿鱼娃",
+        "revision": 43221,
+        "sha256": "b19e90391f4a9eda78421ac9d87a71ab9d4c3cbc385336700c6ed73ff27577a3"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Added Squid Ink to drop pool. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Armored Bug",
+      "name": "甲虫",
+      "slug": "monster-armored-bug",
+      "location": "骷髅洞穴",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "1",
+        "基础伤害": "8",
+        "基础防御": "0",
+        "战斗经验": "1"
+      },
+      "tip": "只有带“除虫”附魔的武器才能杀死；没有对应附魔时绕行，不要持续用普通攻击消耗时间。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Armored Bug Anim.gif",
+        "src": "/mediawiki/images/a/aa/Armored_Bug_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_armored-bug.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Armored_Bug",
+      "sourceRevision": 193819,
+      "sourceSha256": "590ab46dfaf187789eba844787965ca849deeccc21be4cd57181bd373734138a",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/甲虫",
+        "revision": 54571,
+        "sha256": "c7768777912ae324f83b99cc9261063c2ee50040e3c0040eff42901cffc706ca"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Can no longer be stopped by blocking with sword. 1.5: Can be killed with enchanted weapons. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Carbon Ghost",
+      "name": "石碳幽灵",
+      "slug": "monster-carbon-ghost",
+      "location": "骷髅洞穴",
+      "floors": "木乃伊层",
+      "stats": {
+        "基础生命": "190",
+        "基础伤害": "25",
+        "基础防御": "3",
+        "战斗经验": "20"
+      },
+      "tip": "可穿墙追击，命中玩家后传送；提前攻击并注意击退，出现于骷髅洞穴木乃伊层及危险矿井相应楼层。",
+      "condition": "灵外质只在“奇特物质”特别订单进行期间才可能掉落；普通时期刷幽灵不能提前囤积该任务物品。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Carbon Ghost Anim.gif",
+        "src": "/mediawiki/images/1/13/Carbon_Ghost_Anim.gif",
+        "decoding": "async",
+        "width": "56",
+        "height": "84"
+      },
+      "file": "public/assets/game/Monster_carbon-ghost.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Carbon_Ghost",
+      "sourceRevision": 181888,
+      "sourceSha256": "1298f9aee0e22b169adaf1f3f061b7ac59d3b3e1200f3e9e8dc2692adce1394f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/石碳幽灵",
+        "revision": 54478,
+        "sha256": "d44478f09a33dc60739e4ef1252dde5dba25ef8eb9059e14bdd3d4cd3d9f91f6"
+      },
+      "history": "History[edit] 1.3.27: Introduced. 1.5: Added a 9.5% drop chance for Ectoplasm if the \"A Curious Substance\" quest is active. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Iridium Crab",
+      "name": "铱蟹",
+      "slug": "monster-iridium-crab",
+      "location": "骷髅洞穴",
+      "floors": "26+",
+      "stats": {
+        "基础生命": "240",
+        "基础伤害": "15",
+        "基础防御": "3",
+        "战斗经验": "20"
+      },
+      "tip": "伪装成铱矿，靠近后可能快速追击；先辨别是否为蟹，缩壳时用镐迫使移动后再攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Iridium Crab Anim.gif",
+        "src": "/mediawiki/images/0/02/Iridium_Crab_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "76"
+      },
+      "file": "public/assets/game/Monster_iridium-crab.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Iridium_Crab",
+      "sourceRevision": 193008,
+      "sourceSha256": "e5d775d6337898ba61e38b3a44abcdec14f5a87db5efebd704806354446b55ee",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/铱蟹",
+        "revision": 49055,
+        "sha256": "54e33395f9c2e576828b088329c4cb0fff0eaa1675c8d1fd7f319d8c53a0eaca"
+      },
+      "history": "History[edit] 1.3.27: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Mummy",
+      "name": "木乃伊",
+      "slug": "monster-mummy",
+      "location": "骷髅洞穴",
+      "floors": "任意层数",
+      "stats": {
+        "基础生命": "260",
+        "基础伤害": "30",
+        "基础防御": "0",
+        "战斗经验": "20"
+      },
+      "tip": "击倒后约10秒会复活；倒地时用爆炸收尾，或使用“十字军”附魔武器直接击杀，不能只击倒就离开。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Mummy Anim.gif",
+        "src": "/mediawiki/images/7/76/Mummy_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "128"
+      },
+      "file": "public/assets/game/Monster_mummy.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mummy",
+      "sourceRevision": 193376,
+      "sourceSha256": "5475e53bfab3c684fc8b3d65c1be1a452de5ffd1d00f32822a1f40b6764763cf",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/木乃伊",
+        "revision": 54347,
+        "sha256": "aaa8b13be45a0419acf7d41c73cfd8954d3b7b23032a027e2fb0b827e8f39a65"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.4: Added extra 20% drop chance for Cloth. 1.5: Added Red Cabbage Seeds and Curiosity Lure to drops. Can now be killed without using explosives by using a weapon with the Crusader enhancement. 1.6: Added Desert Festival slayer quest. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Pepper Rex",
+      "name": "霸王喷火龙",
+      "slug": "monster-pepper-rex",
+      "location": "骷髅洞穴",
+      "floors": "史前层（多数）",
+      "stats": {
+        "基础生命": "300",
+        "基础伤害": "15",
+        "基础防御": "5",
+        "战斗经验": "7"
+      },
+      "tip": "喷火时会停下来朝固定方向连续喷射；绕开火焰方向到侧后方攻击，不要正面承受整段火焰。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Pepper Rex.gif",
+        "src": "/mediawiki/images/1/1a/Pepper_Rex.gif",
+        "decoding": "async",
+        "width": "96",
+        "height": "78"
+      },
+      "file": "public/assets/game/Monster_pepper-rex.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Pepper_Rex",
+      "sourceRevision": 190502,
+      "sourceSha256": "78746d894fb817891f3dc69e81447bbdcf48b98bd33c4189d609b4c4cc5ae5ef",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/霸王喷火龙",
+        "revision": 52186,
+        "sha256": "19b2d08db7e5f1b676252f9918f79261f5eddb030a7fc935adee2ad18a99b486"
+      },
+      "history": "History[edit] 1.4: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Serpent",
+      "name": "飞蛇",
+      "slug": "monster-serpent",
+      "location": "骷髅洞穴",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "150",
+        "基础伤害": "23",
+        "基础防御": "0",
+        "战斗经验": "20"
+      },
+      "tip": "高速飞来且可能成群出现，命中范围比外观更大；提前挥击并避免一边采矿一边忽视来袭飞蛇。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Serpent Anim.gif",
+        "src": "/mediawiki/images/c/cf/Serpent_Anim.gif",
+        "decoding": "async",
+        "width": "96",
+        "height": "96"
+      },
+      "file": "public/assets/game/Monster_serpent.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Serpent",
+      "sourceRevision": 190493,
+      "sourceSha256": "7994b008727faab9d9d8bcdffcffce2abbc06c343a011ee3b49ec3ec26392b98",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/飞蛇",
+        "revision": 50315,
+        "sha256": "d492cd5251961daf497ba25463647148d83377bbd45089414c99f076aa550d2e"
+      },
+      "history": "History[edit] 1.0: Introduced. 1.5: Added a 0.2% drop chance for Red Cabbage Seeds. 1.6: Added Desert Festival slayer quest. When killed on the Farm, they now yield 1/3 of their normal XP instead of 0 XP. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Haunted Skull",
+      "name": "幽灵头骨",
+      "slug": "monster-haunted-skull",
+      "location": "采石场矿井矿井地牢层（随机出现）",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "160",
+        "基础伤害": "15",
+        "基础防御": "1",
+        "战斗经验": "15"
+      },
+      "tip": "会高速飞来并改变攻击方向；留出空间迎击，采石场矿井与普通矿井的特殊楼层都需注意。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Haunted Skull Anim.gif",
+        "src": "/mediawiki/images/d/d5/Haunted_Skull_Anim.gif",
+        "decoding": "async",
+        "width": "52",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_haunted-skull.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Haunted_Skull",
+      "sourceRevision": 190414,
+      "sourceSha256": "c80f1c38afc7582d3e84333a2ff6d3a74d49d24682baa05c06e23a9469b0d8b7",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/幽灵头骨",
+        "revision": 48796,
+        "sha256": "901cb167f6f49f93ff2d1da27afd779973ba05b7386831243d6e9d9425171490"
+      },
+      "history": "History[edit] 1.4: Introduced. 1.6: Added Cursed Mannequins to drop pool. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Mutant Fly",
+      "name": "突变苍蝇",
+      "slug": "monster-mutant-fly",
+      "location": "突变虫穴",
+      "floors": "N/A",
+      "stats": {
+        "基础生命": "66",
+        "基础伤害": "12",
+        "基础防御": "1",
+        "战斗经验": "10"
+      },
+      "tip": "穿墙高速扑向玩家并回旋再次攻击；保持攻击时机和退路，不要让多只同时贴身。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Mutant Fly.png",
+        "src": "/mediawiki/images/6/69/Mutant_Fly.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_mutant-fly.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mutant_Fly",
+      "sourceRevision": 190672,
+      "sourceSha256": "edaf77a519a1969bcbc8fd07d641398f42c56a0653f78ac47d7371751a85b260",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/突变苍蝇",
+        "revision": 54508,
+        "sha256": "5e34c74aaf79092f58323b6cb55b941fb192703179e5c025b180746e5e4f5d0a"
+      },
+      "history": "History[edit] 1.1: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Mutant Grub",
+      "name": "突变蛆",
+      "slug": "monster-mutant-grub",
+      "location": "突变虫穴",
+      "floors": "N/A",
+      "stats": {
+        "基础生命": "100",
+        "基础伤害": "12",
+        "基础防御": "0",
+        "战斗经验": "6"
+      },
+      "tip": "残血后会逃跑化蛹，化蛹阶段无法伤害，之后变成突变苍蝇；优先在化蛹之前解决。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Mutant Grub Anim.gif",
+        "src": "/mediawiki/images/d/da/Mutant_Grub_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_mutant-grub.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mutant_Grub",
+      "sourceRevision": 190454,
+      "sourceSha256": "9ff67e9903a41b90a3a26aa5e7be95051114877fc9bbdf4c0369256e5b8177a4",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/突变蛆",
+        "revision": 54381,
+        "sha256": "4cd1753f5438c099664414d64432bb933acafacddbd988b233bd4a30b852b56d"
+      },
+      "history": "History[edit] 1.1: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Dwarvish Sentry",
+      "name": "矮人哨兵",
+      "slug": "monster-dwarvish-sentry",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "300",
+        "基础伤害": "18",
+        "基础防御": "5",
+        "战斗经验": "15"
+      },
+      "tip": "移动缓慢但免疫击退；保持距离持续攻击，不要误以为挥击后它会被推开而站在原地。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Dwarvish Sentry.png",
+        "src": "/mediawiki/images/2/27/Dwarvish_Sentry.png",
+        "decoding": "async",
+        "width": "56",
+        "height": "92"
+      },
+      "file": "public/assets/game/Monster_dwarvish-sentry.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Dwarvish_Sentry",
+      "sourceRevision": 184231,
+      "sourceSha256": "96b09bb35db7f376320956f5e145393a681896e0999e751891ca3135f3764572",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/矮人哨兵",
+        "revision": 54388,
+        "sha256": "59f8bbf18e1c37b9aec85b39d6d5d30911f32006ff1485d235309b9d4b43a8a3"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "False Magma Cap",
+      "name": "假熔岩菇",
+      "slug": "monster-false-magma-cap",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "290",
+        "基础伤害": "15",
+        "基础防御": "3",
+        "战斗经验": "14"
+      },
+      "tip": "伪装成熔岩菇，靠近后移动攻击；不同于缩壳的岩石蟹，静止伪装时也能受到伤害。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "False Magma Cap Anim.gif",
+        "src": "/mediawiki/images/7/7a/False_Magma_Cap_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "96"
+      },
+      "file": "public/assets/game/Monster_false-magma-cap.png",
+      "sourceUrl": "https://stardewvalleywiki.com/False_Magma_Cap",
+      "sourceRevision": 190375,
+      "sourceSha256": "33ef2d9507d3e1f07c8b797fee3b6ed19c7effec8fe6a79554e6d4266bb0428f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/假熔岩菇",
+        "revision": 48675,
+        "sha256": "e9e986dc449fd69bb3ca3842d4dcc87cebbf44e3f18d47050e32301466a23fa7"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Hot Head",
+      "name": "熔岩大头",
+      "slug": "monster-hot-head",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础伤害": "18",
+        "基础防御": "8",
+        "战斗经验": "16",
+        "基础生命": "250"
+      },
+      "tip": "生命较低时会加速追击并爆炸，死亡后也会延迟爆炸；击倒后及时远离，不要立刻站到尸体旁拾取。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "原版1.6.15基础生命为250：Data/Monsters经Monster.parseMonsterInfo读取，HotHead构造仅改变滑动参数。Wiki的215与原版不符，未采用；额外难度仍可能改变实战值。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Hot Head Anim.gif",
+        "src": "/mediawiki/images/8/8d/Hot_Head_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_hot-head.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Hot_Head",
+      "sourceRevision": 190213,
+      "sourceSha256": "53ae5f1c1c51f79220502007c4e4a3b995f100d76afe133f242079ebb5df8414",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩大头",
+        "revision": 54312,
+        "sha256": "f333ebcd2fb9e2334c33efbc5ff8b3fec71fd71042f393c5b1154a26dcaeabc2"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 data and constructor chain confirm base HP250; wiki215 rejected."
+    },
+    {
+      "id": "Lava Lurk",
+      "name": "熔岩潜伏怪",
+      "slug": "monster-lava-lurk",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "220",
+        "基础伤害": "15",
+        "基础防御": "5",
+        "战斗经验": "12"
+      },
+      "tip": "潜在岩浆中时无法攻击，探头后发射火球；在露头时攻击，火球可以用武器击落。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Lava Lurk Anim.gif",
+        "src": "/mediawiki/images/5/50/Lava_Lurk_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_lava-lurk.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Lava_Lurk",
+      "sourceRevision": 190380,
+      "sourceSha256": "7f98e9f9395390afd365eb3311f9a216c0c0b982c6dd81ed33e5d04f12a75a85",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩潜伏怪",
+        "revision": 54181,
+        "sha256": "1e0315070e3905b6c396cbcaf418e4b54dc8353bf72d70b481685f741bab7358"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Magma Sprite",
+      "name": "熔岩精灵",
+      "slug": "monster-magma-sprite",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "220",
+        "基础伤害": "15",
+        "基础防御": "8",
+        "战斗经验": "15"
+      },
+      "tip": "可穿墙高速追击，常与其他熔岩敌人一起围攻；过岩浆或采矿前先观察飞行敌人的接近方向。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Magma Sprite Anim.gif",
+        "src": "/mediawiki/images/a/a5/Magma_Sprite_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_magma-sprite.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Magma_Sprite",
+      "sourceRevision": 193044,
+      "sourceSha256": "a3bfdb51df8f2668084b6d90eb0d6042308c9540f859fd54927d831069553771",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩精灵",
+        "revision": 55201,
+        "sha256": "d788bad6511ded09d910a6a50821946b904be1cf651440127735fd237e48ee89"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Magma Sparker",
+      "name": "熔岩火球",
+      "slug": "monster-magma-sparker",
+      "location": "火山地牢",
+      "floors": "6-9 层",
+      "stats": {
+        "基础生命": "310",
+        "基础伤害": "15",
+        "基础防御": "8",
+        "战斗经验": "17"
+      },
+      "tip": "会穿墙追击并冲刺，命中可造成灼伤状态；提前横向躲避冲刺，别在狭窄位置同时承受多只攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Magma Sparker Anim.gif",
+        "src": "/mediawiki/images/9/91/Magma_Sparker_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_magma-sparker.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Magma_Sparker",
+      "sourceRevision": 191014,
+      "sourceSha256": "a3e3ae714fa4041f38fd2be15e24d74bbd73cdc9c18445eb27369d125d258baf",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩火球",
+        "revision": 54353,
+        "sha256": "3323d2ceab136ce6c27671121a20d659040ad5299a8454c57a9b174a31f4dee5"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Magma Duggy",
+      "name": "熔岩掘地虫",
+      "slug": "monster-magma-duggy",
+      "location": "火山地牢",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "380",
+        "基础伤害": "16",
+        "基础防御": "0",
+        "战斗经验": "18"
+      },
+      "tip": "从火山地牢的土地区域钻出袭击，行为类似掘地虫；钻出时攻击后移动，避免反复站在同一土块。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Magma Duggy.png",
+        "src": "/mediawiki/images/thumb/4/41/Magma_Duggy.png/64px-Magma_Duggy.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64",
+        "srcset": "/mediawiki/images/thumb/4/41/Magma_Duggy.png/96px-Magma_Duggy.png 1.5x, /mediawiki/images/4/41/Magma_Duggy.png 2x"
+      },
+      "file": "public/assets/game/Monster_magma-duggy.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Magma_Duggy",
+      "sourceRevision": 190407,
+      "sourceSha256": "dac909240a40c1021b045ad8b252a226734729b7cc63c8fe9dfa6ce5a2784634",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩掘地虫",
+        "revision": 54254,
+        "sha256": "52da49abb86f7e7f695d8fdeea433f689fd1e2ecc3ed62c6592df3c22b0f5d79"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Truffle Crab",
+      "name": "松露蟹",
+      "slug": "monster-truffle-crab",
+      "location": "农场",
+      "floors": "本条来源未限定固定楼层",
+      "stats": {
+        "基础生命": "30",
+        "基础伤害": "5",
+        "基础防御": "1",
+        "战斗经验": "4"
+      },
+      "tip": "伪装成松露，玩家靠近会逃跑；静止时普通攻击无效，不能把每个看似松露的对象都当作安全拾取物。",
+      "condition": "猪找到的松露有极小概率实际为松露蟹；不是只有开启农场夜间刷怪才能出现。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Truffle Crab Anim.gif",
+        "src": "/mediawiki/images/4/4b/Truffle_Crab_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "80"
+      },
+      "file": "public/assets/game/Monster_truffle-crab.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Truffle_Crab",
+      "sourceRevision": 192653,
+      "sourceSha256": "b68c66730d85eae963c90366d852d075d9ae660eb6be065226a0ed3302c5ac35",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/松露蟹",
+        "revision": 54234,
+        "sha256": "3b0ed644b62ef9b36346fe738c6215f03843e234b2b3921742eb942c7d6520c3"
+      },
+      "history": "History[edit] 1.6: Introduced. 1.6.4: Frogs will no longer try to eat Truffle Crabs. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Wilderness Golem",
+      "name": "荒野石魔",
+      "slug": "monster-wilderness-golem",
+      "location": "农场",
+      "floors": "本条来源未限定固定楼层",
+      "stats": {
+        "基础生命": "30",
+        "基础伤害": "5",
+        "基础防御": "1",
+        "战斗经验": "5 [1]"
+      },
+      "tip": "从地面出现并缓慢接近，碰撞造成伤害；开启农场夜间刷怪时留意返家路线和夜间作业安全。",
+      "condition": "荒野农场或开启农场怪物生成的农场夜间可遇到，能力随玩家战斗等级变化。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Wilderness Golem Anim.gif",
+        "src": "/mediawiki/images/c/c5/Wilderness_Golem_Anim.gif",
+        "decoding": "async",
+        "width": "52",
+        "height": "92"
+      },
+      "file": "public/assets/game/Monster_wilderness-golem.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Wilderness_Golem",
+      "sourceRevision": 192658,
+      "sourceSha256": "1fef8236f795f404b3f306ffb89cb93e61113bd5ea4d028b56019412fc8b31ae",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/荒野石魔",
+        "revision": 54451,
+        "sha256": "c46451105c2c91824b3829c93ec1091642aad82d009fd62c2672187fe6349809"
+      },
+      "history": "History[edit] 1.1: Introduced. 1.4: Added Living Hat and Rice Shoot to drop pool. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Iridium Golem",
+      "name": "铱石魔",
+      "slug": "monster-iridium-golem",
+      "location": "荒野农场",
+      "floors": "不适用",
+      "stats": {
+        "基础生命": "430",
+        "基础伤害": "15",
+        "基础防御": "1",
+        "战斗经验": "15"
+      },
+      "tip": "在荒野农场高战斗等级下出现，不能把原始共用的石魔数据当成最终实战属性；保持距离迎击。",
+      "condition": "荒野农场且战斗等级9级或以上的夜间怪物；不能把其他农场开启刷怪直接等同此生成条件。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Iridium Golem Anim.gif",
+        "src": "/mediawiki/images/a/af/Iridium_Golem_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "96"
+      },
+      "file": "public/assets/game/Monster_iridium-golem.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Iridium_Golem",
+      "sourceRevision": 190303,
+      "sourceSha256": "438db0624ce10e29a08329ca3a64ca736875c8300a78ebb6ca965329208bc36a",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/铱石魔",
+        "revision": 52476,
+        "sha256": "12c5ec33562cad8f0f0e54f92784a48fbb60a5b6d98b914af9e305b9bb108439"
+      },
+      "history": "History[edit] 1.6: Introduced. 1.6.4: Chance to drop Iridium Ore increased from 10% to 20%. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Haunted Skull (dangerous)",
+      "name": "幽灵头骨（危险）",
+      "slug": "monster-haunted-skull-dangerous",
+      "location": "危险矿井",
+      "floors": "71-79 和地牢层",
+      "stats": {
+        "基础生命": "310",
+        "基础伤害": "19-26",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "会高速飞来并改变攻击方向；留出空间迎击，采石场矿井与普通矿井的特殊楼层都需注意。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Haunted Skull Dangerous Anim.gif",
+        "src": "/mediawiki/images/1/1d/Haunted_Skull_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "52",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_haunted-skull-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Haunted_Skull_(dangerous)",
+      "sourceRevision": 191278,
+      "sourceSha256": "b8b4b7037cf415cc0a6996e901e9caa83e85a2b2e357c4a3b4df6e41ee5764fe",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/幽灵头骨（危险）",
+        "revision": 54843,
+        "sha256": "fe0ce70240a3f67dd6998cf18a859450a5d06ec11233723a8f19b89959a19e69"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Can spawn in Skull Cavern during Desert Festival. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Blue Squid",
+      "name": "蓝鱿鱼",
+      "slug": "monster-blue-squid",
+      "location": "危险矿井（接受任务或激活挑战之神庙）",
+      "floors": "11-29[1]",
+      "stats": {
+        "基础生命": "310",
+        "基础伤害": "18",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "会穿墙间歇接近或停留，多只同时出现容易包围；先清理接近路线，不要把它误当成钓鱼图鉴里的鱿鱼。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Blue Squid Anim.gif",
+        "src": "/mediawiki/images/e/ed/Blue_Squid_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "79"
+      },
+      "file": "public/assets/game/Monster_blue-squid.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Blue_Squid",
+      "sourceRevision": 177009,
+      "sourceSha256": "5f44fe5ad3e37a73e97a4ee661758115127bb4a8b2990ba13614c763e1b9fdc6",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/蓝鱿鱼",
+        "revision": 54397,
+        "sha256": "c8a5b99d37e2bda8ebe5628c8514613faf5f8d1a71639e297e87c84a313bce13"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Bug (dangerous)",
+      "name": "臭虫（危险）",
+      "slug": "monster-bug-dangerous",
+      "location": "危险矿井",
+      "floors": "1-39",
+      "stats": {
+        "基础生命": "250",
+        "基础伤害": "15-16",
+        "基础防御": "0",
+        "战斗经验": "1"
+      },
+      "tip": "沿固定直线飞行，从侧面攻击并避开行进路线；危险变体受击后会转向，不能按普通臭虫的方向一直站着。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Bug Dangerous Anim.gif",
+        "src": "/mediawiki/images/1/17/Bug_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_bug-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Bug_(dangerous)",
+      "sourceRevision": 177124,
+      "sourceSha256": "90ebbdb9550d26e50a917226abac6cbea677b34f088423b2f653a60219a7074b",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/臭虫（危险）",
+        "revision": 54446,
+        "sha256": "d8e7c58739712ecbae9b15ca4f8ab54d4321fa147eb12c8ab7069cccbbce72f7"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Duggy (dangerous)",
+      "name": "掘地虫（危险）",
+      "slug": "monster-duggy-dangerous",
+      "location": "危险矿井",
+      "floors": "1-29",
+      "stats": {
+        "基础生命": "280",
+        "基础伤害": "8",
+        "基础防御": "0",
+        "战斗经验": "10"
+      },
+      "tip": "会从脚下土地区域钻出，出现时攻击并持续移动；不要把站在土块上等待当作安全的恢复方式。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Duggy Dangerous Anim.gif",
+        "src": "/mediawiki/images/e/ea/Duggy_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "60",
+        "height": "60"
+      },
+      "file": "public/assets/game/Monster_duggy-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Duggy_(dangerous)",
+      "sourceRevision": 186857,
+      "sourceSha256": "be870a5680f05a5e8d9f30258f0c99478191d3a91ce85add105425352cf5d385",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/掘地虫（危险）",
+        "revision": 54137,
+        "sha256": "25eb2d83acdf75e86c6e7b90720f6f0715d4b2eb56acdc907128f962a123efbd"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Rock Crab (dangerous)",
+      "name": "岩石蟹（危险）",
+      "slug": "monster-rock-crab-dangerous",
+      "location": "危险矿井",
+      "floors": "1-29",
+      "stats": {
+        "基础生命": "272",
+        "基础伤害": "13",
+        "基础防御": "2",
+        "战斗经验": "4"
+      },
+      "tip": "伪装成石头，缩壳静止时不能用普通攻击造成伤害；可用镐迫使移动，再用武器攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Rock Crab Dangerous Anim.gif",
+        "src": "/mediawiki/images/a/a8/Rock_Crab_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "80"
+      },
+      "file": "public/assets/game/Monster_rock-crab-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Rock_Crab_(dangerous)",
+      "sourceRevision": 190504,
+      "sourceSha256": "a40df570856ffee4d8dff2de7a75dcbf30c8b1722dc272a3e6859cd3c1299515",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/岩石蟹（危险）",
+        "revision": 48816,
+        "sha256": "426928407909a8112349b0f16e4259bfb1f1408b41d64bf82a94ccc2a80df677"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Stone Golem (dangerous)",
+      "name": "石魔（危险）",
+      "slug": "monster-stone-golem-dangerous",
+      "location": "危险矿井",
+      "floors": "31-39",
+      "stats": {
+        "基础生命": "283",
+        "基础伤害": "13",
+        "基础防御": "28",
+        "战斗经验": "5"
+      },
+      "tip": "会缓慢接近并造成接触伤害，暗处不易发现；看清发光眼睛并保持攻击距离，不要贴身停留。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Stone Golem Dangerous Anim.gif",
+        "src": "/mediawiki/images/3/30/Stone_Golem_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "88"
+      },
+      "file": "public/assets/game/Monster_stone-golem-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Stone_Golem_(dangerous)",
+      "sourceRevision": 192715,
+      "sourceSha256": "332399661c90a83a67d9e7d7812d7adb1b7273471adb964a94c73162ea8b7ea7",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/石魔（危险）",
+        "revision": 54581,
+        "sha256": "d110257465b116fa4cbda6f1e1b3fd766aa3b0b0472a873d9670f62971485c6b"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Grub (dangerous)",
+      "name": "蛆（危险）",
+      "slug": "monster-grub-dangerous",
+      "location": "危险矿井",
+      "floors": "41-69",
+      "stats": {
+        "基础生命": "265",
+        "基础伤害": "12-13",
+        "基础防御": "0",
+        "战斗经验": "2"
+      },
+      "tip": "残血会逃跑并化蛹，化蛹阶段免疫伤害，之后变成苍蝇；尽量在化蛹之前集中攻击解决。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Grub Dangerous Anim.gif",
+        "src": "/mediawiki/images/3/36/Grub_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "48",
+        "height": "68"
+      },
+      "file": "public/assets/game/Monster_grub-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Grub_(dangerous)",
+      "sourceRevision": 194349,
+      "sourceSha256": "ec8b81192c1f9e49e6f29cb1e424d469185f2922725b98124e891e2f1df2c087",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/蛆（危险）",
+        "revision": 48335,
+        "sha256": "0c1b0b2ad981bc5de55a1b1bc5fb4fe548f1c4fe5e8abf3e612aef4d5a7ecd13"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Cave Fly (dangerous)",
+      "name": "苍蝇（危险）",
+      "slug": "monster-cave-fly-dangerous",
+      "location": "危险矿井",
+      "floors": "41-69",
+      "stats": {
+        "基础生命": "266",
+        "基础伤害": "13-15",
+        "基础防御": "2",
+        "战斗经验": "10"
+      },
+      "tip": "会穿过墙壁高速接近，接触后绕回继续攻击；提前挥击并留出退路，成群出现时不要同时被夹击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Cave Fly Dangerous.png",
+        "src": "/mediawiki/images/d/dc/Cave_Fly_Dangerous.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_cave-fly-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Cave_Fly_(dangerous)",
+      "sourceRevision": 177032,
+      "sourceSha256": "a6db54158ed589f0b0720e2ef215daf945f5beabaf1b4e3f0067dd278a35236f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/苍蝇（危险）",
+        "revision": 54535,
+        "sha256": "e030122d2654492310713b03c9f1299d77090c401657eb9083118935ad360f0d"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Dust Sprite (dangerous)",
+      "name": "灰尘精灵（危险）",
+      "slug": "monster-dust-sprite-dangerous",
+      "location": "危险矿井",
+      "floors": "40-79",
+      "stats": {
+        "基础生命": "280",
+        "基础伤害": "13-15",
+        "基础防御": "6",
+        "战斗经验": "2"
+      },
+      "tip": "常成群跳跃接近，有时会打碎挡路石头；利用墙角限制击退，但不要因体型小而忽视接触伤害。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Dust Sprite Dangerous Anim.gif",
+        "src": "/mediawiki/images/6/66/Dust_Sprite_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "72"
+      },
+      "file": "public/assets/game/Monster_dust-sprite-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Dust_Sprite_(dangerous)",
+      "sourceRevision": 179507,
+      "sourceSha256": "b12b5d5d92a7c163716fd073d84bf50040adffd40d937edf72630692b2fb5c1f",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/灰尘精灵（危险）",
+        "revision": 54339,
+        "sha256": "b4a39ca48558710c04be679637c129c169fe0b0ab56e223d05efab7e73310324"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Players no longer earn Mining experience points for rocks broken by Dust Sprites. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Putrid Ghost",
+      "name": "腐臭幽灵",
+      "slug": "monster-putrid-ghost",
+      "location": "危险矿井（挑战之神庙激活）",
+      "floors": "51-79",
+      "stats": {
+        "基础生命": "500",
+        "基础伤害": "25",
+        "基础防御": "3",
+        "战斗经验": "25"
+      },
+      "tip": "会穿墙接近并冲刺，施加“恶心”后限制进食治疗；提前准备应对状态的物品并避免被连续命中。",
+      "condition": "灵外质只在“奇特物质”特别订单进行期间才可能掉落；普通时期刷幽灵不能提前囤积该任务物品。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Putrid Ghost.png",
+        "src": "/mediawiki/images/4/42/Putrid_Ghost.png",
+        "decoding": "async",
+        "width": "52",
+        "height": "80"
+      },
+      "file": "public/assets/game/Monster_putrid-ghost.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Putrid_Ghost",
+      "sourceRevision": 194174,
+      "sourceSha256": "6c14d2d1398f152734f6d0cbe75b0314960e1ce6133c06a1407b088984a6b4e7",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/腐臭幽灵",
+        "revision": 55334,
+        "sha256": "caf0b24aee71a90703a9a7b53cf356eef7f888d43da421d65bf1101a8a4c60d7"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Spider",
+      "name": "蜘蛛",
+      "slug": "monster-spider",
+      "location": "危险矿井（挑战之神庙激活）",
+      "floors": "50-69",
+      "stats": {
+        "基础生命": "200",
+        "基础伤害": "15",
+        "基础防御": "2",
+        "战斗经验": "15"
+      },
+      "tip": "跳跃接近玩家，跳跃期间免疫伤害，常成群出现；等落地再攻击，并为下一次跳跃留下躲避空间。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Spider.png",
+        "src": "/mediawiki/images/8/84/Spider.png",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_spider.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Spider",
+      "sourceRevision": 190683,
+      "sourceSha256": "935f96fabd1d72e2816b2abcb8b2b936d2637ffa65283c846c4db62585cb08c7",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/蜘蛛",
+        "revision": 51885,
+        "sha256": "4885960ab44f97bd5c17e4ec9b3c4ccdd7343abc52855ff67f47a441adfb1cc9"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Stick Bug",
+      "name": "竹节虫",
+      "slug": "monster-stick-bug",
+      "location": "危险矿井",
+      "floors": "41-79",
+      "stats": {
+        "基础生命": "700",
+        "基础伤害": "20",
+        "基础防御": "2",
+        "战斗经验": "4"
+      },
+      "tip": "伪装成木块，生命较高；攻击前辨别对象并准备持续输出，装备魔法箭筒时自动射击可暴露伪装。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Stick Bug Animated.gif",
+        "src": "/mediawiki/images/1/17/Stick_Bug_Animated.gif",
+        "decoding": "async",
+        "width": "48",
+        "height": "57"
+      },
+      "file": "public/assets/game/Monster_stick-bug.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Stick_Bug",
+      "sourceRevision": 194171,
+      "sourceSha256": "ee336de3b5912092a36453818849c2422f372aeb9a80bd1e2e11836e1ef321a8",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/竹节虫",
+        "revision": 54550,
+        "sha256": "d3d11d750dc050da83ace2651f48d9c24c57f76836afcec8c569870e0874b9ba"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Skeleton (dangerous)",
+      "name": "骷髅（危险）",
+      "slug": "monster-skeleton-dangerous",
+      "location": "危险矿井采石场矿井",
+      "floors": "71-79",
+      "stats": {
+        "基础生命": "655",
+        "基础伤害": "16-18",
+        "基础防御": "2",
+        "战斗经验": "8"
+      },
+      "tip": "会接近玩家并投掷可穿过石块的骨头；及时攻击打断投掷，已飞出的骨头可躲避或用武器击落。",
+      "condition": "危险矿井71—79层及采石场矿井可遇到；采石场矿井不是普通矿井的第71—79层。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Skeleton Dangerous Anim.gif",
+        "src": "/mediawiki/images/0/05/Skeleton_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "112"
+      },
+      "file": "public/assets/game/Monster_skeleton-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Skeleton_(dangerous)",
+      "sourceRevision": 190547,
+      "sourceSha256": "b4009b5d31918d43669c7f5fb4110e56e62e501e46745d5e622fe1c7722fca5c",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/骷髅（危险）",
+        "revision": 47565,
+        "sha256": "d64570ca4d5ecd3797cb06a9e38bc19b862321f34a545d9620a8714117506535"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Can be found in Quarry Mine. Can spawn in Skull Cavern during Desert Festival. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Skeleton Mage",
+      "name": "骷髅法师",
+      "slug": "monster-skeleton-mage",
+      "location": "危险的矿井采石场矿井",
+      "floors": "71-79",
+      "stats": {
+        "基础生命": "355",
+        "基础伤害": "20-25",
+        "基础防御": "2",
+        "战斗经验": "8"
+      },
+      "tip": "远程施放伤害法术与冻结法术；注意弹道并及时躲避，不要按普通骷髅只防投掷骨头。",
+      "condition": "危险矿井71—79层及采石场矿井可遇到；采石场矿井不是普通矿井的第71—79层。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "独立怪物",
+      "image": {
+        "alt": "Skeleton Mage Dangerous Anim.gif",
+        "src": "/mediawiki/images/0/02/Skeleton_Mage_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "60",
+        "height": "124"
+      },
+      "file": "public/assets/game/Monster_skeleton-mage.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Skeleton_Mage",
+      "sourceRevision": 190465,
+      "sourceSha256": "dce3e008e7c131df452c5c92dbd57f949da287c5260b75c7640adb4544b47847",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/骷髅法师",
+        "revision": 53560,
+        "sha256": "fe8eb22ba289f64bb3ad0371ed8ad5b1eacb743065be1e0625b2b852c7f00df4"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Can be found in Quarry Mine. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Lava Crab (dangerous)",
+      "name": "熔岩蟹（危险）",
+      "slug": "monster-lava-crab-dangerous",
+      "location": "危险矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "340",
+        "基础伤害": "19-26",
+        "基础防御": "8",
+        "战斗经验": "12"
+      },
+      "tip": "伪装成岩石，危险版伪装成金矿；缩壳时普通攻击无效，用镐打出移动状态后再攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Lava Crab Dangerous Anim.gif",
+        "src": "/mediawiki/images/e/e3/Lava_Crab_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "72"
+      },
+      "file": "public/assets/game/Monster_lava-crab-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Lava_Crab_(dangerous)",
+      "sourceRevision": 190274,
+      "sourceSha256": "dfc5928ed60dd3826c85d02196a7a0fa8011172105df06cd224f1f6f375b781e",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/熔岩蟹（危险）",
+        "revision": 54265,
+        "sha256": "b73be964f27387fd4a3e98aff5913fc6170ccdbefd29da049edfc55235f51f51"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Metal Head (dangerous)",
+      "name": "金属大头（危险）",
+      "slug": "monster-metal-head-dangerous",
+      "location": "危险矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "280",
+        "基础伤害": "19-26",
+        "基础防御": "24",
+        "战斗经验": "6"
+      },
+      "tip": "防御较高且抗击退，没有特殊远程招式；连续挥击后留意后退距离，不要依赖击退把它永远挡住。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Metal Head Dangerous Anim.gif",
+        "src": "/mediawiki/images/d/de/Metal_Head_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "60",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_metal-head-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Metal_Head_(dangerous)",
+      "sourceRevision": 190503,
+      "sourceSha256": "250d6389e9674b4b01cb859201499ef945a52d19649f3be1bff7774bc1d79057",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/金属大头（危险）",
+        "revision": 44137,
+        "sha256": "ab870bdada5c09dee7e50f1aab55a10759c396b3fb96b2c4a97e32ca671351f3"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Shadow Brute (dangerous)",
+      "name": "暗影狂徒（危险）",
+      "slug": "monster-shadow-brute-dangerous",
+      "location": "危险矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "370",
+        "基础伤害": "22-32",
+        "基础防御": "6",
+        "战斗经验": "15"
+      },
+      "tip": "近距离追击且抗击退，危险变体生命与伤害更高；边攻击边后退，避免被顶进角落。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Shadow Brute Dangerous Anim.gif",
+        "src": "/mediawiki/images/1/1f/Shadow_Brute_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "124"
+      },
+      "file": "public/assets/game/Monster_shadow-brute-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Shadow_Brute_(dangerous)",
+      "sourceRevision": 190473,
+      "sourceSha256": "3fac134eb890231eefb340e0440d234994a79808162c336b038297cd63c398f8",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/暗影狂徒（危险）",
+        "revision": 54211,
+        "sha256": "748c325813896b73815de5260d88964a84f3c5e0866186e4104c04fc7ce261c3"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Shadow Shaman (dangerous)",
+      "name": "暗影萨满（危险）",
+      "slug": "monster-shadow-shaman-dangerous",
+      "location": "危险矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "310",
+        "基础伤害": "21-30",
+        "基础防御": "6",
+        "战斗经验": "15"
+      },
+      "tip": "会治疗附近敌人并发射削弱防御的法术；优先处理治疗者，躲开远程法术后再接近攻击。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Shadow Shaman Dangerous Anim.gif",
+        "src": "/mediawiki/images/b/bf/Shadow_Shaman_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "96"
+      },
+      "file": "public/assets/game/Monster_shadow-shaman-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Shadow_Shaman_(dangerous)",
+      "sourceRevision": 190477,
+      "sourceSha256": "e23ccb88b5b6150a5afb4e0fe4e53514cf511e0e2ed210dd16b877cc17a611eb",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/暗影萨满（危险）",
+        "revision": 54162,
+        "sha256": "3dc75a17b208f3a1e36d3f7e4e7ab7ff90f89aea89b3b595138a8201b8c18989"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Shadow Sniper",
+      "name": "暗影狙击手",
+      "slug": "monster-shadow-sniper",
+      "location": "危险矿井",
+      "floors": "81-119",
+      "stats": {
+        "基础生命": "300",
+        "基础伤害": "18",
+        "基础防御": "2",
+        "战斗经验": "20"
+      },
+      "tip": "沿直线远程射击，命中可造成黑暗状态；从斜向接近，避免沿同一直线走向它。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Shadow Sniper Anim.gif",
+        "src": "/mediawiki/images/2/26/Shadow_Sniper_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "112"
+      },
+      "file": "public/assets/game/Monster_shadow-sniper.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Shadow_Sniper",
+      "sourceRevision": 190515,
+      "sourceSha256": "ad6da06b4433e097f12c23192667ab614b39fb1d9ac8b8bcdafb67cc6212143e",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/暗影狙击手",
+        "revision": 54292,
+        "sha256": "4b4a6d4b4fad9e53c6dc0d1e41929f661a20670d6a12c46917dac092657e4739"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Squid Kid (dangerous)",
+      "name": "鱿鱼娃（危险）",
+      "slug": "monster-squid-kid-dangerous",
+      "location": "危险矿井、骷髅洞穴",
+      "floors": "91-119 [1]",
+      "stats": {
+        "基础生命": "250",
+        "基础伤害": "22-32",
+        "基础防御": "6",
+        "战斗经验": "15"
+      },
+      "tip": "会发射碰墙反弹的火球；普通版生命很低，可尽快近身解决，危险版不能按普通版一击即倒处理。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Squid Kid Dangerous.png",
+        "src": "/mediawiki/images/d/d4/Squid_Kid_Dangerous.png",
+        "decoding": "async",
+        "width": "56",
+        "height": "56"
+      },
+      "file": "public/assets/game/Monster_squid-kid-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Squid_Kid_(dangerous)",
+      "sourceRevision": 192735,
+      "sourceSha256": "0a92c17eaec5e55d2c9121b37df8528adb199bfb9ba6a68e1080d3198b29dc12",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/鱿鱼娃（危险）",
+        "revision": 47661,
+        "sha256": "6326473b75c3ca5926699009eaab2e2b595994b961afd8c9e5de76a1a5d54412"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Armored Bug (dangerous)",
+      "name": "甲虫（危险）",
+      "slug": "monster-armored-bug-dangerous",
+      "location": "危险的骷髅洞穴",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "250",
+        "基础伤害": "20-27",
+        "基础防御": "0",
+        "战斗经验": "1"
+      },
+      "tip": "只有带“除虫”附魔的武器才能杀死；没有对应附魔时绕行，不要持续用普通攻击消耗时间。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Armored Bug Dangerous Anim.gif",
+        "src": "/mediawiki/images/0/0e/Armored_Bug_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "64",
+        "height": "64"
+      },
+      "file": "public/assets/game/Monster_armored-bug-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Armored_Bug_(dangerous)",
+      "sourceRevision": 185578,
+      "sourceSha256": "58cc4b68d864c875c5f19f9db9327762c092a0a43f895e85d298f4f48d5adbed",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/甲虫（危险）",
+        "revision": 54464,
+        "sha256": "6946f55fb45827d1487e1ee497d1db97d36f56cda0034b87a1df86c8050b942e"
+      },
+      "history": "History[edit] 1.5: Introduced. 1.6: Changed Monster Eradication Goal for cave insects from 125 to 80. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Mummy (dangerous)",
+      "name": "木乃伊（危险）",
+      "slug": "monster-mummy-dangerous",
+      "location": "危险的骷髅洞穴",
+      "floors": "任意层数",
+      "stats": {
+        "基础生命": "445",
+        "基础伤害": "38-55",
+        "基础防御": "0",
+        "战斗经验": "20"
+      },
+      "tip": "击倒后约10秒会复活；倒地时用爆炸收尾，或使用“十字军”附魔武器直接击杀，不能只击倒就离开。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险变体",
+      "image": {
+        "alt": "Mummy Dangerous Anim.gif",
+        "src": "/mediawiki/images/3/36/Mummy_Dangerous_Anim.gif",
+        "decoding": "async",
+        "width": "56",
+        "height": "108"
+      },
+      "file": "public/assets/game/Monster_mummy-dangerous.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Mummy_(dangerous)",
+      "sourceRevision": 192969,
+      "sourceSha256": "0c22e36443d3c3a3ca5602ff1e6da44d3e32e0d1504096af55acc85974b2552c",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/木乃伊（危险）",
+        "revision": 54253,
+        "sha256": "9167cf488654deb6eb732a27f580bcd182d6b9f22a2ffdeada8bb7336a22f1c0"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    },
+    {
+      "id": "Royal Serpent",
+      "name": "皇家飞蛇",
+      "slug": "monster-royal-serpent",
+      "location": "危险骷髅洞穴",
+      "floors": "所有",
+      "stats": {
+        "基础生命": "150 + 50 × 尾节数",
+        "基础伤害": "32-48",
+        "基础防御": "0",
+        "战斗经验": "20"
+      },
+      "tip": "身体任何部位碰到玩家都会造成伤害，也可攻击其身体；生命随尾节数量增长，不是所有个体固定同一生命值。",
+      "condition": "按所列地点和楼层寻找；出现与掉落受生成及随机条件影响，不保证每次进入都遇到。",
+      "discrepancy": "基础参考值；危险等级、个体或生成条件可能改变实战数值，不等于玩家最终受到的伤害。",
+      "variant": "危险区域怪物",
+      "image": {
+        "alt": "Royal Serpent.png",
+        "src": "/mediawiki/images/2/28/Royal_Serpent.png",
+        "decoding": "async",
+        "width": "54",
+        "height": "72"
+      },
+      "file": "public/assets/game/Monster_royal-serpent.png",
+      "sourceUrl": "https://stardewvalleywiki.com/Royal_Serpent",
+      "sourceRevision": 190673,
+      "sourceSha256": "808fb1dc01e3938030586ba8d7b551b2582fb3c6aba9bfef2583356cb63f9416",
+      "zhSource": {
+        "url": "https://zh.stardewvalleywiki.com/皇家飞蛇",
+        "revision": 54462,
+        "sha256": "1f6ebc15f0bc2296c97f8601005cf5a48cc78b74ffb374b5a9a3a26caa5b5323"
+      },
+      "history": "History[edit] 1.5: Introduced. ",
+      "versionEvidence": "Original1.6.15 Monsters data and independent EN/ZH creature page histories reviewed; normal and dangerous identities remain separate. Hot Head HP source conflict is explicitly unresolved, not silently overwritten."
+    }
+  ]
+}

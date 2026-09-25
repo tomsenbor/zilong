@@ -90,8 +90,8 @@ describe("v3 tool UI contracts", () => {
   test("fish UI formats game times and serializes only active boolean filters", () => {
     expect(formatGameTime(600)).toBe("06:00");
     expect(formatGameTime(1800)).toBe("18:00");
-    expect(formatGameTime(2400)).toBe("00:00");
-    expect(formatGameTime(2600)).toBe("02:00");
+    expect(formatGameTime(2400)).toBe("次日00:00");
+    expect(formatGameTime(2600)).toBe("次日02:00");
 
     const query = buildFishQuery(new URLSearchParams([
       ["bundleOnly", "true"],

@@ -1,0 +1,86 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T14:53:23.815Z",
+  "images": [
+    {
+      "file": "public/assets/game/Basic_Fertilizer.png",
+      "source": "https://stardewvalleywiki.com/File:Basic_Fertilizer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Basic_Fertilizer.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "2a7374e3188cf23b1e16f0a4fd2125e9a8dae98c339813434350eb54228b866b"
+    },
+    {
+      "file": "public/assets/game/Quality_Fertilizer.png",
+      "source": "https://stardewvalleywiki.com/File:Quality_Fertilizer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Quality_Fertilizer.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "70f6f97008b47b09dab3e3895c837b792c0700c2bbf3dec683e3721082b1eaa1"
+    },
+    {
+      "file": "public/assets/game/Deluxe_Fertilizer.png",
+      "source": "https://stardewvalleywiki.com/File:Deluxe_Fertilizer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Deluxe_Fertilizer.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "3fa495e777d4bef6b3f3ee4bf15dfea6d79704fbf1591b7dad05bc8e94297096"
+    },
+    {
+      "file": "public/assets/game/Basic_Retaining_Soil.png",
+      "source": "https://stardewvalleywiki.com/File:Basic_Retaining_Soil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Basic_Retaining_Soil.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "2aa9d06db3aca342a24adeb92acd192b534374f4610da3eff3a2f0d7bbabb129"
+    },
+    {
+      "file": "public/assets/game/Quality_Retaining_Soil.png",
+      "source": "https://stardewvalleywiki.com/File:Quality_Retaining_Soil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Quality_Retaining_Soil.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "5098079859370a8d801d00d1688d3ed8922d8966ab0a41846da727e15ad68a7b"
+    },
+    {
+      "file": "public/assets/game/Deluxe_Retaining_Soil.png",
+      "source": "https://stardewvalleywiki.com/File:Deluxe_Retaining_Soil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Deluxe_Retaining_Soil.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "8591ce8214a0139a90c100885d3b7af22426a4473d69b32f9ca3fea9f432457b"
+    },
+    {
+      "file": "public/assets/game/Speed-Gro.png",
+      "source": "https://stardewvalleywiki.com/File:Speed-Gro.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Speed-Gro.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "659d504a35b35dcdb2ca9ce7a45478515a5de026ec3050aa956d945fc2e6c48e"
+    },
+    {
+      "file": "public/assets/game/Deluxe_Speed-Gro.png",
+      "source": "https://stardewvalleywiki.com/File:Deluxe_Speed-Gro.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Deluxe_Speed-Gro.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "18ba9cdb1a5c235206b352c1d54103c0d72d7b1604b885bddbf81ec090d6e6b4"
+    },
+    {
+      "file": "public/assets/game/Hyper_Speed-Gro.png",
+      "source": "https://stardewvalleywiki.com/File:Hyper_Speed-Gro.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/53/Hyper_Speed-Gro.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "176ed1f7a4ffa378e7a62a95f7610787d94a29a128e0372444c8ca8fa39297cf"
+    },
+    {
+      "file": "public/assets/game/Tree_Fertilizer.png",
+      "source": "https://stardewvalleywiki.com/File:Tree_Fertilizer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Tree_Fertilizer.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "4581980ae0a0f07bcbb22f2db8a8989ac66f4f561c12f1b5a9edbc7c8b9e9bad"
+    }
+  ]
+}

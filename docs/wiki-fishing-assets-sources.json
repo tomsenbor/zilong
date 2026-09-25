@@ -1,0 +1,142 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T13:59:32.029Z",
+  "images": [
+    {
+      "file": "public/assets/game/Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/ff/Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "b561f17ace1145ab78b06dde6db5dc2988ce375b5b14f15c3460c25677c1a54d"
+    },
+    {
+      "file": "public/assets/game/Magnet.png",
+      "source": "https://stardewvalleywiki.com/File:Magnet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8c/Magnet.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "58ca7b69d0534cefcda207d5f98a95ddda43c74fd51b43ef4c8ad146d53ae424"
+    },
+    {
+      "file": "public/assets/game/Wild_Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Wild_Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Wild_Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "727bc9a1088be784413f99f86f3d99600ce76ed315dc8c30294986a4a005e4d5"
+    },
+    {
+      "file": "public/assets/game/Magic_Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Magic_Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/58/Magic_Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "ecb652be171836dd09eeb60f0d9415ff5fb7e9144d801822b6d138741bffe1f9"
+    },
+    {
+      "file": "public/assets/game/Deluxe_Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Deluxe_Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/43/Deluxe_Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "43c92ec6a6f3d9bec67b5eaf82f02a4ff9c1aeb3477b53299333ada43a0d03cf"
+    },
+    {
+      "file": "public/assets/game/Challenge_Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Challenge_Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/96/Challenge_Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "222cc4a67e091457c5702a0bce2c14de78cf5652839a4d5a6041c1a77067ac94"
+    },
+    {
+      "file": "public/assets/game/Pink_Bait.png",
+      "source": "https://stardewvalleywiki.com/File:Pink_Bait.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Pink_Bait.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "83e62499fb9fa6a63c9b352c85312df76b5a598ab2215a255ab14afb183985a4"
+    },
+    {
+      "file": "public/assets/game/Spinner.png",
+      "source": "https://stardewvalleywiki.com/File:Spinner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7b/Spinner.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "e247bd5838609d6e5d023c1ed7581f2e708ca6a44655915f5201f7f598c0b364"
+    },
+    {
+      "file": "public/assets/game/Dressed_Spinner.png",
+      "source": "https://stardewvalleywiki.com/File:Dressed_Spinner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e8/Dressed_Spinner.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "d85f2ffd257355b42a61f018c2fda12ce417c9454d3d9d45c23925808084da45"
+    },
+    {
+      "file": "public/assets/game/Trap_Bobber.png",
+      "source": "https://stardewvalleywiki.com/File:Trap_Bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Trap_Bobber.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "f5df2aae0440e71a5ec6c360bf43263448d4d530e13479b77399f4a3c55eba73"
+    },
+    {
+      "file": "public/assets/game/Cork_Bobber.png",
+      "source": "https://stardewvalleywiki.com/File:Cork_Bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Cork_Bobber.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "088942d924cd9c472de1bf274ce867a3d2c0f419b7ac6bd4fa1bb004980fc96f"
+    },
+    {
+      "file": "public/assets/game/Lead_Bobber.png",
+      "source": "https://stardewvalleywiki.com/File:Lead_Bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cb/Lead_Bobber.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "10aab65cbe89701ae3b07e1d57c62c7baaba41c6d1040ce6689880f755e403f1"
+    },
+    {
+      "file": "public/assets/game/Treasure_Hunter.png",
+      "source": "https://stardewvalleywiki.com/File:Treasure_Hunter.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Treasure_Hunter.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "fd121b9a95a1a6864068ced2232c6d2c93077bc1d4a52968fefc15d90dd3340e"
+    },
+    {
+      "file": "public/assets/game/Barbed_Hook.png",
+      "source": "https://stardewvalleywiki.com/File:Barbed_Hook.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4f/Barbed_Hook.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "af7332783b74e8010d0efb0c8860aab42f33192600d54ea90e2763411efca9dd"
+    },
+    {
+      "file": "public/assets/game/Curiosity_Lure.png",
+      "source": "https://stardewvalleywiki.com/File:Curiosity_Lure.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Curiosity_Lure.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "5574573f2511d28e57e097b62932fcac799ea5d67a6e2e09e955fe8a7407ff61"
+    },
+    {
+      "file": "public/assets/game/Quality_Bobber.png",
+      "source": "https://stardewvalleywiki.com/File:Quality_Bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/01/Quality_Bobber.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "11e5b536dfa17404d9e80a61d3f661571c3817f19783297c924fbadc9bcfec8e"
+    },
+    {
+      "file": "public/assets/game/Sonar_Bobber.png",
+      "source": "https://stardewvalleywiki.com/File:Sonar_Bobber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/33/Sonar_Bobber.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "ee7e65f93b168f8c857aab2211b3ff9d0cc2626df190b920dc30dfac549afa87"
+    }
+  ]
+}

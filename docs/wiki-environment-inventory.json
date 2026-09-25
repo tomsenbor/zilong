@@ -1,0 +1,59 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "893",
+      "name": "烟花（红色）",
+      "slug": "environment-893",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fireworks_(Red)",
+        "revision": 190378,
+        "sha256": "8702260c7e7dd6fefd385b8c925c04a75d3766d4aa300d336804b7241a0ea62a"
+      }
+    },
+    {
+      "nativeId": "894",
+      "name": "烟花（紫色）",
+      "slug": "environment-894",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fireworks_(Purple)",
+        "revision": 190215,
+        "sha256": "46aaaf8e93fb421c4ad6e53440cfb1223857efd74846c1f4af095847a895f809"
+      }
+    },
+    {
+      "nativeId": "895",
+      "name": "烟花（绿色）",
+      "slug": "environment-895",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fireworks_(Green)",
+        "revision": 190330,
+        "sha256": "8a0480f0b24c991882680876ec18f9f1e78df42c84c6f6449cf3ee44faa8c2da"
+      }
+    },
+    {
+      "nativeId": "590",
+      "name": "远古斑点",
+      "slug": "environment-590",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Artifact_Spot",
+        "revision": 192876,
+        "sha256": "ee1b2b77b418cad3ca63ad81b0261e17183b13479f5f4806a0fd4f6edfc547d5"
+      }
+    },
+    {
+      "nativeId": "SeedSpot",
+      "name": "绿色斑点",
+      "slug": "environment-seedspot",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Seed_Spot",
+        "revision": 191406,
+        "sha256": "ffaf11ad546db0565e57e6497950e8dcf3ba207fb45dfa234910135e34f373d3"
+      }
+    }
+  ]
+}

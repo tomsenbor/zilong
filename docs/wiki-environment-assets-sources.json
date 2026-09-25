@@ -1,0 +1,77 @@
+[
+  {
+    "nativeId": "893",
+    "file": "public/assets/game/Environment_893.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "14ae44389b8c8287b3d357c2248ff4363509910f0752b6fd7216dadaeddede32",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "894",
+    "file": "public/assets/game/Environment_894.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 96,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "842bbdc3f5f5df082ad6789997800a451d85a68e34987ce0e67d1794fce6e759",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "895",
+    "file": "public/assets/game/Environment_895.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 112,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "cf194d2206120f0cc84b7669aaa8ba499fc1c85a6120f1a4ede277da62257dc6",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "590",
+    "file": "public/assets/game/Environment_590.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 224,
+      "top": 384,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "be043cb8bff2b9940a3ee0080a675dbe9500cf8492545fefdfaabe70cba8ac61",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "SeedSpot",
+    "file": "public/assets/game/Environment_SeedSpot.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 0,
+      "top": 176,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "c1c0f8373df0f9d2f3cff9717967b1b4e7a1939feefbc5b40134424d3e02b689",
+    "width": 48,
+    "height": 48
+  }
+]

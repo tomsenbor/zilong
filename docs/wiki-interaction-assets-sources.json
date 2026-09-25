@@ -1,0 +1,62 @@
+[
+  {
+    "nativeId": "803",
+    "file": "public/assets/game/Interaction_803.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 176,
+      "top": 528,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "ce2e3d6a294030b62402a583f89e908ee9e6b998a30ed0659028f37b0f7687bd",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "880",
+    "file": "public/assets/game/Interaction_880.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 256,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "742fa93f414744dc36eb059845289f05e78835d2a18835facb1c36fae6f77d8e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "GoldCoin",
+    "file": "public/assets/game/Interaction_GoldCoin.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 96,
+      "top": 128,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "2fe01233da195c164a338f0ce1bfbe11c98a6c80e88f121fc94ec367eb6e03e7",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "PetLicense",
+    "file": "public/assets/game/Interaction_PetLicense.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 32,
+      "top": 272,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "466a20fa2bccb6ddce2c776bf4f3422b1d6ebf316d41683b6fb218f95163678a",
+    "width": 48,
+    "height": 48
+  }
+]

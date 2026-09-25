@@ -1,0 +1,337 @@
+{
+  "version": "1.6.15",
+  "nativeMachineRoster": [
+    {
+      "id": "(BC)90",
+      "originalName": "Bone Mill",
+      "dataset": "items",
+      "slug": "bone-mill",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)163",
+      "originalName": "Cask",
+      "dataset": "items",
+      "slug": "cask",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)114",
+      "originalName": "Charcoal Kiln",
+      "dataset": "items",
+      "slug": "charcoal-kiln",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)17",
+      "originalName": "Loom",
+      "dataset": "items",
+      "slug": "loom",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)13",
+      "originalName": "Furnace",
+      "dataset": "items",
+      "slug": "furnace",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)265",
+      "originalName": "Deconstructor",
+      "dataset": "items",
+      "slug": "deconstructor",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)12",
+      "originalName": "Keg",
+      "dataset": "items",
+      "slug": "keg",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)15",
+      "originalName": "Preserves Jar",
+      "dataset": "items",
+      "slug": "preserves-jar",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)16",
+      "originalName": "Cheese Press",
+      "dataset": "items",
+      "slug": "cheese-press",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)20",
+      "originalName": "Recycling Machine",
+      "dataset": "items",
+      "slug": "recycling-machine",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)24",
+      "originalName": "Mayonnaise Machine",
+      "dataset": "items",
+      "slug": "mayonnaise-machine",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)19",
+      "originalName": "Oil Maker",
+      "dataset": "items",
+      "slug": "oil-maker",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)101",
+      "originalName": "Incubator",
+      "dataset": "items",
+      "slug": "incubator",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)254",
+      "originalName": "Ostrich Incubator",
+      "dataset": "items",
+      "slug": "ostrich-incubator",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)156",
+      "originalName": "Slime Incubator",
+      "dataset": "items",
+      "slug": "slime-incubator",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)158",
+      "originalName": "Slime Egg-Press",
+      "dataset": "items",
+      "slug": "slime-egg-press",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)21",
+      "originalName": "Crystalarium",
+      "dataset": "items",
+      "slug": "crystalarium",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)25",
+      "originalName": "Seed Maker",
+      "dataset": "items",
+      "slug": "seed-maker",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)182",
+      "originalName": "Geode Crusher",
+      "dataset": "items",
+      "slug": "geode-crusher",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)211",
+      "originalName": "Wood Chipper",
+      "dataset": "items",
+      "slug": "wood-chipper",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)10",
+      "originalName": "Bee House",
+      "dataset": "items",
+      "slug": "bee-house",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)154",
+      "originalName": "Worm Bin",
+      "dataset": "items",
+      "slug": "worm-bin",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)117",
+      "originalName": "Soda Machine",
+      "dataset": "items",
+      "slug": "soda-machine",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)246",
+      "originalName": "Coffee Maker",
+      "dataset": "items",
+      "slug": "coffee-maker",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)231",
+      "originalName": "Solar Panel",
+      "dataset": "items",
+      "slug": "solar-panel",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)9",
+      "originalName": "Lightning Rod",
+      "dataset": "items",
+      "slug": "lightning-rod",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)105",
+      "originalName": "Tapper",
+      "dataset": "items",
+      "slug": "tapper",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)264",
+      "originalName": "Heavy Tapper",
+      "dataset": "items",
+      "slug": "heavy-tapper",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)280",
+      "originalName": "Statue Of True Perfection",
+      "dataset": "items",
+      "slug": "statue-of-true-perfection",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)127",
+      "originalName": "Statue Of Endless Fortune",
+      "dataset": "items",
+      "slug": "statue-of-endless-fortune",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)160",
+      "originalName": "Statue Of Perfection",
+      "dataset": "items",
+      "slug": "statue-of-perfection",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)128",
+      "originalName": "Mushroom Box",
+      "dataset": "locations",
+      "slug": "farmhouse",
+      "coverage": "merged-cave-conditions"
+    },
+    {
+      "id": "(BC)MushroomLog",
+      "originalName": "Mushroom Log",
+      "dataset": "items",
+      "slug": "mushroom-log",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)BaitMaker",
+      "originalName": "Bait Maker",
+      "dataset": "items",
+      "slug": "bait-maker",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)Dehydrator",
+      "originalName": "Dehydrator",
+      "dataset": "items",
+      "slug": "dehydrator",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)HeavyFurnace",
+      "originalName": "Heavy Furnace",
+      "dataset": "items",
+      "slug": "heavy-furnace",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)Anvil",
+      "originalName": "Anvil",
+      "dataset": "items",
+      "slug": "anvil",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)FishSmoker",
+      "originalName": "Fish Smoker",
+      "dataset": "items",
+      "slug": "fish-smoker",
+      "coverage": "dedicated-entry"
+    },
+    {
+      "id": "(BC)DeluxeWormBin",
+      "originalName": "Deluxe Worm Bin",
+      "dataset": "items",
+      "slug": "deluxe-worm-bin",
+      "coverage": "dedicated-entry"
+    }
+  ],
+  "checkedOn": "2026-09-24",
+  "mergedCave": {
+    "nativeId": "(BC)128",
+    "path": "/wiki/locations/farmhouse",
+    "sourceUrl": "https://stardewvalleywiki.com/The_Cave",
+    "sourceRevision": 193773,
+    "sourceSha256": "339c17d9b0c4795a69f443280ebfd59f2256b1daa8f3ca4acca8a6e97cb37e30",
+    "checkedFacts": ["25000g total earnings unlock", "permanent choice", "six fixed mushroom boxes", "every second day in 1.6", "free dehydrator in 1.6", "normal quality mushrooms", "fruit bat output not guaranteed daily"]
+  },
+  "native": {
+    "source": "Data/Machines.xnb",
+    "sha256": "D77E939EC715634FE2F77506D55E8C21F701EF7FF6447F9048C677929EBC84E4"
+  },
+  "notes": [
+    "Keg has eight output rules. Rice input423 produces two Vinegar419 after600 minutes; preserve this native count rather than assume one output.",
+    "PreservesJar accepts category_greens with positive edibility, including edible mushrooms. Keg forage rule separately excludes edible_mushroom.",
+    "The native39-machine table is not the complete collection of buildings, crafting facilities or placement interactions."
+  ],
+  "rewardMachines": [
+    {
+      "id": "(BC)117",
+      "slug": "soda-machine",
+      "title": "Soda Machine",
+      "sourceUrl": "https://stardewvalleywiki.com/Soda_Machine",
+      "sourceRevision": 189796,
+      "sourceSha256": "2915028923c9a32e4e77d2519f6189f77de222bfbeb59b3a03000bd661269fd1",
+      "image": {
+        "url": "https://stardewvalleywiki.com/mediawiki/images/2/22/Soda_Machine.png",
+        "file": "public/assets/game/soda-machine.png",
+        "sha256": "433ddf73c91629c4779167f2f044d0db65607e5c319aa25931c3e1946deac340"
+      }
+    },
+    {
+      "id": "(BC)160",
+      "slug": "statue-of-perfection",
+      "title": "Statue Of Perfection",
+      "sourceUrl": "https://stardewvalleywiki.com/Statue_Of_Perfection",
+      "sourceRevision": 186368,
+      "sourceSha256": "bd1818f9b61b9cfe1e20332abd5bc10653a2a5b735f80969030938193f1af173",
+      "image": {
+        "url": "https://stardewvalleywiki.com/mediawiki/images/b/b2/Statue_Of_Perfection.png",
+        "file": "public/assets/game/statue-of-perfection.png",
+        "sha256": "663c4169651979392435534810fc44b070755af2b7c24eb5aec7dd1f4a93a887"
+      }
+    },
+    {
+      "id": "(BC)280",
+      "slug": "statue-of-true-perfection",
+      "title": "Statue Of True Perfection",
+      "sourceUrl": "https://stardewvalleywiki.com/Statue_Of_True_Perfection",
+      "sourceRevision": 182682,
+      "sourceSha256": "40e84a670b2b7bb43fe3473b688913ca4eb75c3799eb8089c240b4bd5a13a4ab",
+      "image": {
+        "url": "https://stardewvalleywiki.com/mediawiki/images/d/db/Statue_Of_True_Perfection.png",
+        "file": "public/assets/game/statue-of-true-perfection.png",
+        "sha256": "babc20617dd3e89e1365d801789a4498aa8718c34c943894dcd13d6821f5887c"
+      }
+    }
+  ]
+}

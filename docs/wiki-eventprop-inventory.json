@@ -1,0 +1,19 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "742",
+      "name": "海莉遗失的手镯",
+      "slug": "eventprop-742",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Haley",
+        "revision": 194257,
+        "sha256": "8fad128721459c0bc1e38c34827e1c7497d8a74e0a0955dacae2764b1e0fc5db"
+      }
+    }
+  ]
+}

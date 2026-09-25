@@ -1,0 +1,310 @@
+{
+  "version": "1.6.15",
+  "id": "creatures",
+  "name": "动物与怪物",
+  "reviewStatus": "pending",
+  "registeredIdentityCount": 130,
+  "independentExpectedCount": null,
+  "nativeSources": [
+    {
+      "asset": "Data/FarmAnimals",
+      "sha256": "84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+      "count": 14,
+      "records": [
+        {
+          "nativeId": "White Chicken",
+          "nativeName": "White Chicken"
+        },
+        {
+          "nativeId": "Brown Chicken",
+          "nativeName": "Brown Chicken"
+        },
+        {
+          "nativeId": "Blue Chicken",
+          "nativeName": "Blue Chicken"
+        },
+        {
+          "nativeId": "Void Chicken",
+          "nativeName": "Void Chicken"
+        },
+        {
+          "nativeId": "Golden Chicken",
+          "nativeName": "Golden Chicken"
+        },
+        {
+          "nativeId": "Duck",
+          "nativeName": "Duck"
+        },
+        {
+          "nativeId": "Rabbit",
+          "nativeName": "Rabbit"
+        },
+        {
+          "nativeId": "Dinosaur",
+          "nativeName": "Dinosaur"
+        },
+        {
+          "nativeId": "White Cow",
+          "nativeName": "White Cow"
+        },
+        {
+          "nativeId": "Brown Cow",
+          "nativeName": "Brown Cow"
+        },
+        {
+          "nativeId": "Goat",
+          "nativeName": "Goat"
+        },
+        {
+          "nativeId": "Sheep",
+          "nativeName": "Sheep"
+        },
+        {
+          "nativeId": "Pig",
+          "nativeName": "Pig"
+        },
+        {
+          "nativeId": "Ostrich",
+          "nativeName": "Ostrich"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Pets",
+      "sha256": "BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F",
+      "count": 3,
+      "records": [
+        {
+          "nativeId": "Cat",
+          "nativeName": "Cat"
+        },
+        {
+          "nativeId": "Dog",
+          "nativeName": "Dog"
+        },
+        {
+          "nativeId": "Turtle",
+          "nativeName": "Turtle"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Monsters",
+      "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB",
+      "count": 51,
+      "records": [
+        {
+          "nativeId": "Green Slime",
+          "nativeName": "Green Slime"
+        },
+        {
+          "nativeId": "Dust Spirit",
+          "nativeName": "Dust Spirit"
+        },
+        {
+          "nativeId": "Bat",
+          "nativeName": "Bat"
+        },
+        {
+          "nativeId": "Frost Bat",
+          "nativeName": "Frost Bat"
+        },
+        {
+          "nativeId": "Lava Bat",
+          "nativeName": "Lava Bat"
+        },
+        {
+          "nativeId": "Iridium Bat",
+          "nativeName": "Iridium Bat"
+        },
+        {
+          "nativeId": "Stone Golem",
+          "nativeName": "Stone Golem"
+        },
+        {
+          "nativeId": "Wilderness Golem",
+          "nativeName": "Wilderness Golem"
+        },
+        {
+          "nativeId": "Iridium Golem",
+          "nativeName": "Iridium Golem"
+        },
+        {
+          "nativeId": "Grub",
+          "nativeName": "Grub"
+        },
+        {
+          "nativeId": "Fly",
+          "nativeName": "Fly"
+        },
+        {
+          "nativeId": "Frost Jelly",
+          "nativeName": "Frost Jelly"
+        },
+        {
+          "nativeId": "Sludge",
+          "nativeName": "Sludge"
+        },
+        {
+          "nativeId": "Shadow Guy",
+          "nativeName": "Shadow Guy"
+        },
+        {
+          "nativeId": "Ghost",
+          "nativeName": "Ghost"
+        },
+        {
+          "nativeId": "Carbon Ghost",
+          "nativeName": "Carbon Ghost"
+        },
+        {
+          "nativeId": "Duggy",
+          "nativeName": "Duggy"
+        },
+        {
+          "nativeId": "Rock Crab",
+          "nativeName": "Rock Crab"
+        },
+        {
+          "nativeId": "Truffle Crab",
+          "nativeName": "Truffle Crab"
+        },
+        {
+          "nativeId": "Lava Crab",
+          "nativeName": "Lava Crab"
+        },
+        {
+          "nativeId": "Iridium Crab",
+          "nativeName": "Iridium Crab"
+        },
+        {
+          "nativeId": "Fireball",
+          "nativeName": "Fireball"
+        },
+        {
+          "nativeId": "Squid Kid",
+          "nativeName": "Squid Kid"
+        },
+        {
+          "nativeId": "Skeleton Warrior",
+          "nativeName": "Skeleton Warrior"
+        },
+        {
+          "nativeId": "Crow",
+          "nativeName": "Crow"
+        },
+        {
+          "nativeId": "Frog",
+          "nativeName": "Frog"
+        },
+        {
+          "nativeId": "Cat",
+          "nativeName": "Cat"
+        },
+        {
+          "nativeId": "Shadow Brute",
+          "nativeName": "Shadow Brute"
+        },
+        {
+          "nativeId": "Shadow Shaman",
+          "nativeName": "Shadow Shaman"
+        },
+        {
+          "nativeId": "Skeleton",
+          "nativeName": "Skeleton"
+        },
+        {
+          "nativeId": "Skeleton Mage",
+          "nativeName": "Skeleton Mage"
+        },
+        {
+          "nativeId": "Metal Head",
+          "nativeName": "Metal Head"
+        },
+        {
+          "nativeId": "Spiker",
+          "nativeName": "Spiker"
+        },
+        {
+          "nativeId": "Bug",
+          "nativeName": "Bug"
+        },
+        {
+          "nativeId": "Mummy",
+          "nativeName": "Mummy"
+        },
+        {
+          "nativeId": "Big Slime",
+          "nativeName": "Big Slime"
+        },
+        {
+          "nativeId": "Serpent",
+          "nativeName": "Serpent"
+        },
+        {
+          "nativeId": "Pepper Rex",
+          "nativeName": "Pepper Rex"
+        },
+        {
+          "nativeId": "Tiger Slime",
+          "nativeName": "Tiger Slime"
+        },
+        {
+          "nativeId": "Lava Lurk",
+          "nativeName": "Lava Lurk"
+        },
+        {
+          "nativeId": "Hot Head",
+          "nativeName": "Hot Head"
+        },
+        {
+          "nativeId": "Magma Sprite",
+          "nativeName": "Magma Sprite"
+        },
+        {
+          "nativeId": "Magma Duggy",
+          "nativeName": "Magma Duggy"
+        },
+        {
+          "nativeId": "Magma Sparker",
+          "nativeName": "Magma Sparker"
+        },
+        {
+          "nativeId": "False Magma Cap",
+          "nativeName": "False Magma Cap"
+        },
+        {
+          "nativeId": "Dwarvish Sentry",
+          "nativeName": "Dwarvish Sentry"
+        },
+        {
+          "nativeId": "Putrid Ghost",
+          "nativeName": "Putrid Ghost"
+        },
+        {
+          "nativeId": "Shadow Sniper",
+          "nativeName": "Shadow Sniper"
+        },
+        {
+          "nativeId": "Spider",
+          "nativeName": "Spider"
+        },
+        {
+          "nativeId": "Royal Serpent",
+          "nativeName": "Royal Serpent"
+        },
+        {
+          "nativeId": "Blue Squid",
+          "nativeName": "Blue Squid"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-farm-animal-inventory.json",
+    "wiki-pet-inventory.json",
+    "wiki-monster-inventory.json",
+    "wiki-wildlife-inventory.json"
+  ],
+  "remainingReview": "原版基础怪物表不是全部变体；宠物需展开品种，剧情、危险矿井和固定野生生物另核对。"
+}

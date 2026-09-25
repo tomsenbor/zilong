@@ -1,0 +1,365 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Craft_rustic-plank-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Rustic_Plank_Floor.png",
+      "source": "https://stardewvalleywiki.com/Rustic_Plank_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "8c5d4d1f86785c62ce0e34862624662b6748bf1f2c8e09222baa6c487686690f"
+    },
+    {
+      "file": "public/assets/game/Craft_straw-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Straw_Floor.png",
+      "source": "https://stardewvalleywiki.com/Straw_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "7864e4c96eabae5d34cc92891dd5de68e1824484fe00f7994d4e57f33fa73215"
+    },
+    {
+      "file": "public/assets/game/Craft_wood-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/58/Wood_Floor.png",
+      "source": "https://stardewvalleywiki.com/Wood_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "ec9df7decebde3320ddf23d762a88b5ba3c0ce69c27a8c51d3867bce2b6f83b2"
+    },
+    {
+      "file": "public/assets/game/Craft_weathered-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2a/Weathered_Floor.png",
+      "source": "https://stardewvalleywiki.com/Weathered_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "a1453382f34b1d8b8693868c8b399a58f4fbb06cd218dbe91ac154f825ebf82e"
+    },
+    {
+      "file": "public/assets/game/Craft_crystal-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Crystal_Floor.png",
+      "source": "https://stardewvalleywiki.com/Crystal_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "fc8eaf1b8ab3153d873faa567eefa1823c3ec2ff7d0ae6e6fe3b85817f44e2c4"
+    },
+    {
+      "file": "public/assets/game/Craft_stone-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Stone_Floor.png",
+      "source": "https://stardewvalleywiki.com/Stone_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "639ca0e46644ab539b1f7fd90d5d39d991ea15a341c66904b0c0cb64716a44f8"
+    },
+    {
+      "file": "public/assets/game/Craft_stone-walkway-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Stone_Walkway_Floor.png",
+      "source": "https://stardewvalleywiki.com/Stone_Walkway_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "fc8ca0dbd3b06adacdb99edc4698d9dc0f71ca58ee4ba45fbf7a88d7a1a81b57"
+    },
+    {
+      "file": "public/assets/game/Craft_wood-path.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Wood_Path.png",
+      "source": "https://stardewvalleywiki.com/Wood_Path",
+      "width": 48,
+      "height": 48,
+      "sha256": "e8f2f149b8bc894979ba39485faf535eceffdacde6d5308ccec22204dbf8efb3"
+    },
+    {
+      "file": "public/assets/game/Craft_brick-floor.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/29/Brick_Floor.png",
+      "source": "https://stardewvalleywiki.com/Brick_Floor",
+      "width": 48,
+      "height": 48,
+      "sha256": "9f5caefd309e459ea4c4aea259ee05f248c0f09e58f053444f3300945895d86c"
+    },
+    {
+      "file": "public/assets/game/Craft_cobblestone-path.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/90/Cobblestone_Path.png",
+      "source": "https://stardewvalleywiki.com/Cobblestone_Path",
+      "width": 48,
+      "height": 48,
+      "sha256": "132508fc8a2d6db39e90f0ed80485374eecbba5ceb74461e5374baa480f3f604"
+    },
+    {
+      "file": "public/assets/game/Craft_gravel-path.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/15/Gravel_Path.png",
+      "source": "https://stardewvalleywiki.com/Gravel_Path",
+      "width": 48,
+      "height": 48,
+      "sha256": "e36cd99349dcce95177d21a056a45eb55eaab63210ef46c243a2901f16915c7e"
+    },
+    {
+      "file": "public/assets/game/Craft_stepping-stone-path.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Stepping_Stone_Path.png",
+      "source": "https://stardewvalleywiki.com/Stepping_Stone_Path",
+      "width": 48,
+      "height": 48,
+      "sha256": "404e4d958b8401ace6f2e56bcb562cf31344e7d7da4e322b9cfe209cc9b88a9a"
+    },
+    {
+      "file": "public/assets/game/Craft_crystal-path.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Crystal_Path.png",
+      "source": "https://stardewvalleywiki.com/Crystal_Path",
+      "width": 48,
+      "height": 48,
+      "sha256": "f6f3178541a61cef7cf76a6d422f1f357b0cb95e8a168d3f6773a20a76f944d9"
+    },
+    {
+      "file": "public/assets/game/Craft_torch.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b2/Torch.png",
+      "source": "https://stardewvalleywiki.com/Torch",
+      "width": 48,
+      "height": 48,
+      "sha256": "bb0b22192935a5673a2dc150a75503169727dee8294112d2de748583c96cb60a"
+    },
+    {
+      "file": "public/assets/game/Craft_campfire.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/01/Campfire.png",
+      "source": "https://stardewvalleywiki.com/Campfire",
+      "width": 48,
+      "height": 51,
+      "sha256": "ed24ce86dfcd83a9858ce51fe737f9caf6ce494a7ba60e93ae36df8f590634b5"
+    },
+    {
+      "file": "public/assets/game/Craft_wooden-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/34/Wooden_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Wooden_Brazier",
+      "width": 48,
+      "height": 96,
+      "sha256": "b2c20b21ac7f25db6652c2d126d49c9123d5fd94e680e34e7b39a16e808373cb"
+    },
+    {
+      "file": "public/assets/game/Craft_stone-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Stone_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Stone_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "9f12dffe2f9bd0df5e3ea82755ae0872cff35844f95073b1486c7672c3266d68"
+    },
+    {
+      "file": "public/assets/game/Craft_gold-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Gold_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Gold_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "3531ee3f3e0cbb9e4be6d39815a74e55bad2133a8b6205d9a722ad6a51d9c657"
+    },
+    {
+      "file": "public/assets/game/Craft_carved-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3c/Carved_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Carved_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "7b3aa57caeac6cd01c72abc37a3b566438ff2f93bbeaf48987bfac40cd33f369"
+    },
+    {
+      "file": "public/assets/game/Craft_skull-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Skull_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Skull_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "f00feff9fe22e6b2ff49e3c97bf4f52a7e69bda0c092b67aa9db485fed2bc013"
+    },
+    {
+      "file": "public/assets/game/Craft_stump-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Stump_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Stump_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "de1ed9dc952a6abd629c5f76ef362486d95541dbb72cec90d3aa3c22f882d08d"
+    },
+    {
+      "file": "public/assets/game/Craft_wood-lamp-post.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Wood_Lamp-post.png",
+      "source": "https://stardewvalleywiki.com/Wood_Lamp-post",
+      "width": 48,
+      "height": 96,
+      "sha256": "d90343c306b9d1af942ea7eb290de37a59c5626eda0981cba92774618c97ec13"
+    },
+    {
+      "file": "public/assets/game/Craft_marble-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Marble_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Marble_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "c65d36e6ffab50b18f3d34e37e1c5ef6c641f7c802f810b38d785b5001e99a91"
+    },
+    {
+      "file": "public/assets/game/Craft_barrel-brazier.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/78/Barrel_Brazier.png",
+      "source": "https://stardewvalleywiki.com/Barrel_Brazier",
+      "width": 48,
+      "height": 75,
+      "sha256": "adbf07d57f5260944d6906262cacc4b0bb2614e58880580ea5f487a9d42a3d47"
+    },
+    {
+      "file": "public/assets/game/Craft_jack-o-lantern.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Jack-O-Lantern.png",
+      "source": "https://stardewvalleywiki.com/Jack-O-Lantern",
+      "width": 48,
+      "height": 48,
+      "sha256": "abc7672f4da15272b3a2351745ee8e4c74ab2308b177cdd85ee7cc5e9a9e4c9e"
+    },
+    {
+      "file": "public/assets/game/Craft_tub-o-flowers.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Tub_o%27_Flowers.png",
+      "source": "https://stardewvalleywiki.com/Tub_o'_Flowers",
+      "width": 48,
+      "height": 96,
+      "sha256": "5f29fab459e8c2ee3bd2b4727d7b4bb966ab9a39a174bb37b15d147fbd45cd3b"
+    },
+    {
+      "file": "public/assets/game/Craft_wicked-statue.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4a/Wicked_Statue.png",
+      "source": "https://stardewvalleywiki.com/Wicked_Statue",
+      "width": 48,
+      "height": 96,
+      "sha256": "5d919b1df7c441ad28eef0079a72a49732384fcc453aed5ab4d99f003d5cd442"
+    },
+    {
+      "file": "public/assets/game/Craft_flute-block.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/31/Flute_Block.png",
+      "source": "https://stardewvalleywiki.com/Flute_Block",
+      "width": 48,
+      "height": 48,
+      "sha256": "8dadd6ee6d15603bde77255ef71d6b497adec0e9fef21e425c12318b6a5e1680"
+    },
+    {
+      "file": "public/assets/game/Craft_iron-lamp-post.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b0/Iron_Lamp-post.png",
+      "source": "https://stardewvalleywiki.com/Iron_Lamp-post",
+      "width": 48,
+      "height": 96,
+      "sha256": "c2452a098421dec6385a54db8c9938bc95e659681ffa3d081b509b09dffa065e"
+    },
+    {
+      "file": "public/assets/game/Craft_drum-block.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Drum_Block.png",
+      "source": "https://stardewvalleywiki.com/Drum_Block",
+      "width": 48,
+      "height": 48,
+      "sha256": "317a2abbb39dba44283dd0048ec41f55244e5a3f07444fdc28502876793a82c9"
+    },
+    {
+      "file": "public/assets/game/Craft_stone-sign.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Stone_Sign.png",
+      "source": "https://stardewvalleywiki.com/Stone_Sign",
+      "width": 48,
+      "height": 96,
+      "sha256": "6cf1f3fefb927045ffcf02de8a33d33ff2340b18080e6a8b10d17c7ba203122d"
+    },
+    {
+      "file": "public/assets/game/Craft_wood-sign.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ce/Wood_Sign.png",
+      "source": "https://stardewvalleywiki.com/Wood_Sign",
+      "width": 48,
+      "height": 96,
+      "sha256": "11da6445846cb99dd2702f1b7121463a6c4cf2484be12bc481a41fd8bb8ac67d"
+    },
+    {
+      "file": "public/assets/game/Craft_dark-sign.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Dark_Sign.png",
+      "source": "https://stardewvalleywiki.com/Dark_Sign",
+      "width": 48,
+      "height": 96,
+      "sha256": "556a5ec5b86763ec654c0b5b060082da5f00d4b418f8cf660afb65a0053e21c9"
+    },
+    {
+      "file": "public/assets/game/Craft_text-sign.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/93/Text_Sign.png",
+      "source": "https://stardewvalleywiki.com/Text_Sign",
+      "width": 48,
+      "height": 96,
+      "sha256": "a955296ac8ae8cc21d3aa3034463b6ec89529851e5acc5cae00cea604680da31"
+    },
+    {
+      "file": "public/assets/game/Craft_staircase.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8c/Staircase.png",
+      "source": "https://stardewvalleywiki.com/Staircase",
+      "width": 48,
+      "height": 48,
+      "sha256": "47acfa7dcd82f82480fffe603a966a31f2a2f73d0627e4acc7d2123986f7c513"
+    },
+    {
+      "file": "public/assets/game/Craft_explosive-ammo.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Explosive_Ammo.png",
+      "source": "https://stardewvalleywiki.com/Explosive_Ammo",
+      "width": 48,
+      "height": 48,
+      "sha256": "bd27422faff1052d177ea3b9b52874cc48c61cc65b47f2325651d7983245d47a"
+    },
+    {
+      "file": "public/assets/game/Craft_mini-obelisk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c9/Mini-Obelisk.png",
+      "source": "https://stardewvalleywiki.com/Mini-Obelisk",
+      "width": 48,
+      "height": 96,
+      "sha256": "a7a9f798a0634c480eb9975888cf2d89a0f6e2fa484b2357f265cf314aba3553"
+    },
+    {
+      "file": "public/assets/game/Craft_mini-jukebox.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Mini-Jukebox.png",
+      "source": "https://stardewvalleywiki.com/Mini-Jukebox",
+      "width": 48,
+      "height": 96,
+      "sha256": "874eba940e111eb5eccbde5678ca880b5e5e593c62f6c54748d098c8737cec33"
+    },
+    {
+      "file": "public/assets/game/Craft_cookout-kit.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Cookout_Kit.png",
+      "source": "https://stardewvalleywiki.com/Cookout_Kit",
+      "width": 48,
+      "height": 48,
+      "sha256": "0b3fff6c744444ccdd10be545a7d61a00e09ca0e6373e9d3b5b5b982caf09031"
+    },
+    {
+      "file": "public/assets/game/Craft_tent-kit.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Tent_Kit.png",
+      "source": "https://stardewvalleywiki.com/Tent_Kit",
+      "width": 48,
+      "height": 48,
+      "sha256": "f9f66fe2a01fdac922ec83d508a490e717ed349d92556ebd9da0b46e30d5f601"
+    },
+    {
+      "file": "public/assets/game/Craft_hopper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/81/Hopper.png",
+      "source": "https://stardewvalleywiki.com/Hopper",
+      "width": 48,
+      "height": 96,
+      "sha256": "0784492117c5a62f786c22510a715ad45e6106cf324500fb9c702df2e5c10bc3"
+    },
+    {
+      "file": "public/assets/game/Craft_farm-computer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Farm_Computer.png",
+      "source": "https://stardewvalleywiki.com/Farm_Computer",
+      "width": 48,
+      "height": 96,
+      "sha256": "b221c23d5d58b2a45232da46411b3e514be908851364fdbca001a46c3a5e111f"
+    },
+    {
+      "file": "public/assets/game/Craft_statue-of-the-dwarf-king.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Statue_Of_The_Dwarf_King.png",
+      "source": "https://stardewvalleywiki.com/Statue_Of_The_Dwarf_King",
+      "width": 48,
+      "height": 96,
+      "sha256": "e7e4cace1d9596426c9fd9c75e12afabed87c914b706cdc7d61222bc8066ea40"
+    },
+    {
+      "file": "public/assets/game/Craft_anvil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Anvil.png",
+      "source": "https://stardewvalleywiki.com/Anvil",
+      "width": 48,
+      "height": 96,
+      "sha256": "85bcb22e558d411cf9a0902b73fb58d229244dd5ea8f28e9eab785ce10ddaf02"
+    },
+    {
+      "file": "public/assets/game/Craft_mini-forge.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6c/Mini-Forge.png",
+      "source": "https://stardewvalleywiki.com/Mini-Forge",
+      "width": 48,
+      "height": 96,
+      "sha256": "079b76c2055fda8a62a4c7e106509448f89cd127594a4b6b3a9c559eb7533796"
+    }
+  ]
+}

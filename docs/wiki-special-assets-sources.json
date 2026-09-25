@@ -1,0 +1,527 @@
+[
+  {
+    "nativeId": "79",
+    "file": "public/assets/game/Special_79.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 112,
+      "top": 48,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "12cc29fd63c376b433d6b1600491b3dada3fc5a9bd99d2d545740ae05cd6cd1b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "102",
+    "file": "public/assets/game/Special_102.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 96,
+      "top": 64,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "0bd2bbe9caaf154dde0650aa6c9b7a17edd4bb3de7d6041c2823c5991b46d807",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "842",
+    "file": "public/assets/game/Special_842.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 32,
+      "top": 560,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "cd42b3894101735aeef29d68bc0377a49cdfa2b8ce4205e9122e4ef999bfdf27",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "458",
+    "file": "public/assets/game/Special_458.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 32,
+      "top": 304,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "b2a0fb935bf7723cda21f17bf765ac7495536ae46a8334d3d6dd53575dffb46f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "277",
+    "file": "public/assets/game/Special_277.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 208,
+      "top": 176,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "52808c582ba5dcabcf60b70592ce518b6027d7873f1cfa96d5d8577a5e741d4f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "460",
+    "file": "public/assets/game/Special_460.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 64,
+      "top": 304,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "1948bce23e7569c5146f49947e7490a800bad09338b3d097979f97d61a5efe03",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "808",
+    "file": "public/assets/game/Special_808.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 256,
+      "top": 528,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "69d2b2c640248b757cec4ec76d8bbce8492e6dc23921e10147111746d27b1be1",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "809",
+    "file": "public/assets/game/Special_809.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 272,
+      "top": 528,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "3f4054742ac7d53a6d5a2972c88543f1acde8f744078d4bc6d044e79f4d1ae8c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "896",
+    "file": "public/assets/game/Special_896.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 128,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "a431ea15cc16a9a125dd488eaf2bc3cd41c8cdae6745958625428cb50197825e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "897",
+    "file": "public/assets/game/Special_897.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 144,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "7d03b0183a21ca007e3bfcb9dd7bd4fd4cc421985581b17ab209ed7ad1546d8d",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "911",
+    "file": "public/assets/game/Special_911.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 368,
+      "top": 592,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "ede5af7800740326db572e06ed1b5fba77770d8c0f8078090c301a81b5230a4a",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "913",
+    "file": "public/assets/game/Special_913.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 16,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "8f2b1c30873744471cf0ed8708118bd8a6a95a5041f1d8d7fd4a21d19ba92d53",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "915",
+    "file": "public/assets/game/Special_915.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 48,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "556afbd577e6c3a26864907ed8feb435ca1dd400b6df9eeed3564b7b5724477b",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "917",
+    "file": "public/assets/game/Special_917.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "72d21663f702ade52e8dd2487cf9c5a53c7b7f5b5b7b5fab861d4ce3c4bab13d",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "349",
+    "file": "public/assets/game/Special_349.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 208,
+      "top": 224,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "72a674bbb53cc83385223dd3e174facb56a9ea8c75ffbffd565300848bbd22d9",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "351",
+    "file": "public/assets/game/Special_351.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 240,
+      "top": 224,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "0e028e189a04be991ec39c5e553deb0497583496e18f1513bcf58aedfbbd06a6",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "434",
+    "file": "public/assets/game/Special_434.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 32,
+      "top": 288,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "3920b214955aba20eb0a18dea29164dc8c397db38dc5ebe16bbf97e2cfdfb722",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "680",
+    "file": "public/assets/game/Special_680.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 128,
+      "top": 448,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "776e82e50e7b18670ca62e5e6e09ac907ab79f12a170e7bdf4d8a8e814d4a033",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "413",
+    "file": "public/assets/game/Special_413.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 272,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "44f1f42f1eab572cfccad00c921d6c54e3e3174cab2324d0bfe2e5c29b4528ba",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "437",
+    "file": "public/assets/game/Special_437.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 288,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "a187eaf2af3fa99aabf1b03cb2c6f2a81ba9add27e072ea1685ede66c99549bf",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "439",
+    "file": "public/assets/game/Special_439.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 112,
+      "top": 288,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "178b9045a751929a51183ac78eabe32983d1791204ca85f6f5a97691f56058b8",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "857",
+    "file": "public/assets/game/Special_857.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 272,
+      "top": 560,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "a3fe617e251230ffd2cc61233fffcf341538703b8810e0e5b802877b20731587",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "865",
+    "file": "public/assets/game/Special_865.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 16,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "bb2133bf74039252118adfd0733565d9f4a3c9f24894eb531d642d11e12b6f92",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "866",
+    "file": "public/assets/game/Special_866.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 32,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "1852f5051dc77a7c274e489b54b93776dd7e30fad57a75aa09ebdd1f610feb5e",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "867",
+    "file": "public/assets/game/Special_867.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 48,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "90730c54b32c57e38da993fab9e7936d22df74d1959506ec480fd837748ccd3f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "868",
+    "file": "public/assets/game/Special_868.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 64,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "ec0882bdd7cb6f13263a0c9f44f6ef6c4e8ebc6c6292b2a8ee86519e7ca75fbd",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "869",
+    "file": "public/assets/game/Special_869.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 80,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "4d458227bf0395f832c9c9bc7653df74a7484eb001dee3d61a3ac9a0092fdc46",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "870",
+    "file": "public/assets/game/Special_870.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 96,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "e3ebe6a0a9072ce5e02bfecd260b0a2c4572f9c06c98e6f9627747163a19e132",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "875",
+    "file": "public/assets/game/Special_875.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 176,
+      "top": 576,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "87347d937292976dc75a34600dbaa1e50efcb394d4ab2ffa957d3578cf4ccb6f",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "MysteryBox",
+    "file": "public/assets/game/Special_MysteryBox.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 80,
+      "top": 64,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "1f7c429a0f84e9d2091db7b857deae5edd4253ecf57cacf38d63b99148de74d7",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "GoldenMysteryBox",
+    "file": "public/assets/game/Special_GoldenMysteryBox.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 32,
+      "top": 240,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "319d8e30d9addb351c96c1f1571597b99b3615f53f5975228dd97c4cd4b69cb9",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "StardropTea",
+    "file": "public/assets/game/Special_StardropTea.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 64,
+      "top": 128,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "c63e8a04f7ce8556ccb9d60c2f99358b3d06e5ec2b7d230cfa8b5fba982dbca8",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "PrizeTicket",
+    "file": "public/assets/game/Special_PrizeTicket.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 80,
+      "top": 128,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "1ced6322558efb457670c436f49b515d1f0a1f929359e6dd8f0a3c63128c38a2",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "GoldenAnimalCracker",
+    "file": "public/assets/game/Special_GoldenAnimalCracker.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 16,
+      "top": 240,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "bda9ed51601a16620033b4d79a4a5facfd37075da503ca4e006291064722077c",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "ButterflyPowder",
+    "file": "public/assets/game/Special_ButterflyPowder.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/TileSheets/Objects_2.xnb",
+    "sourceSha256": "779886a3f0629a353dab9e6d193220458af60990a910b769ead93a2162a320dc",
+    "rectangle": {
+      "left": 96,
+      "top": 272,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "45183aaeaa7ccd633ccf4cf46df94243696c3ee1b5026aff61b08eab422106a0",
+    "width": 48,
+    "height": 48
+  }
+]

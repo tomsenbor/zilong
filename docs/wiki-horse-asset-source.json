@@ -1,0 +1,12 @@
+{
+  "version": "1.6.15",
+  "file": "public/assets/game/Animal_Horse.png",
+  "url": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Horse.png",
+  "width": 81,
+  "height": 78,
+  "sha256": "6c66b06a07634ecc52a445ed8fb400be7d9be27dee5006a6d25146e7d461f69e",
+  "source": "https://stardewvalleywiki.com/Animals",
+  "revision": 194356,
+  "sourceSha256": "22af720325a034410cd4acd40485dd2794af0f1ff410fdb7bd33de4f4b610fd2",
+  "transform": "None; original source sprite."
+}

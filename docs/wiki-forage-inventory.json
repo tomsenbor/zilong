@@ -1,0 +1,289 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "16",
+      "name": "野山葵",
+      "slug": "forage-16",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wild_Horseradish",
+        "revision": 192684,
+        "sha256": "5f4afb1184ab55db7b72198a6e093448ca1249963b247e9adb3689d327122ed1"
+      }
+    },
+    {
+      "nativeId": "18",
+      "name": "黄水仙",
+      "slug": "forage-18",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Daffodil",
+        "revision": 185009,
+        "sha256": "4fcfbdc737c22f19e8e205022a675fc2247eadc8b4589add3cf989775bfb6bb4"
+      }
+    },
+    {
+      "nativeId": "20",
+      "name": "韭葱",
+      "slug": "forage-20",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Leek",
+        "revision": 192783,
+        "sha256": "d59f782e294031351087b5808aac12ede4fc75fbb8655deeb0d806988c59af98"
+      }
+    },
+    {
+      "nativeId": "22",
+      "name": "蒲公英",
+      "slug": "forage-22",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Dandelion",
+        "revision": 191756,
+        "sha256": "4d757a2621a1fb6de3a399852ab3c153fdbd5af83919ec4ef42df71524814a9c"
+      }
+    },
+    {
+      "nativeId": "92",
+      "name": "树液",
+      "slug": "forage-92",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sap",
+        "revision": 190490,
+        "sha256": "b960e4a41d4c06303d75ae221b4b8e6865fce6576a2093ff39b67607a3002f59"
+      }
+    },
+    {
+      "nativeId": "257",
+      "name": "羊肚菌",
+      "slug": "forage-257",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Morel",
+        "revision": 191746,
+        "sha256": "9207835ca33e32653348ba644c4c22bbbb4e6be9c25684a5eb6499ff900dfac1"
+      }
+    },
+    {
+      "nativeId": "281",
+      "name": "鸡油菌",
+      "slug": "forage-281",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Chanterelle",
+        "revision": 191744,
+        "sha256": "dbb49a775c411a0acc1c5410e2fe8f174c8b2dd9240a7512679df6054f723008"
+      }
+    },
+    {
+      "nativeId": "283",
+      "name": "冬青树",
+      "slug": "forage-283",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Holly",
+        "revision": 187384,
+        "sha256": "83153f178ac565b06b7776e6c0ccd08c59f4e2eea3c37ddb2877042fc15432d0"
+      }
+    },
+    {
+      "nativeId": "399",
+      "name": "大葱",
+      "slug": "forage-399",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Spring_Onion",
+        "revision": 193371,
+        "sha256": "4c86d8e35c6541065f437915318d508ec552fde96b84eb0956ace47b35ca8641"
+      }
+    },
+    {
+      "nativeId": "404",
+      "name": "普通蘑菇",
+      "slug": "forage-404",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Common_Mushroom",
+        "revision": 191745,
+        "sha256": "1767f13b34c3a0b5c9094104cb2b6a6967e73c5c4b7c6c97a61e6b6b0ec27356"
+      }
+    },
+    {
+      "nativeId": "408",
+      "name": "榛子",
+      "slug": "forage-408",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Hazelnut",
+        "revision": 190261,
+        "sha256": "47ecce64a03a8ddd4b0ac0144a5711bea7cc9c6e1817f7c32a58f45ca8a13f21"
+      }
+    },
+    {
+      "nativeId": "412",
+      "name": "冬根",
+      "slug": "forage-412",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Winter_Root",
+        "revision": 192720,
+        "sha256": "fb449135482e00963b57897de04fa7f4db3815685cdea0a660348eecbc413698"
+      }
+    },
+    {
+      "nativeId": "416",
+      "name": "雪山药",
+      "slug": "forage-416",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Snow_Yam",
+        "revision": 191763,
+        "sha256": "baccc262301195cc46c54187f962878fcd6ea5e85d91dc581df52465728e0dae"
+      }
+    },
+    {
+      "nativeId": "829",
+      "name": "姜",
+      "slug": "forage-829",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger",
+        "revision": 190717,
+        "sha256": "f4ff3f1e122e5dcb80dd2f0dfdd610601227801f897611509849ab4c566368e3"
+      }
+    },
+    {
+      "nativeId": "851",
+      "name": "熔岩菇",
+      "slug": "forage-851",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Magma_Cap",
+        "revision": 181848,
+        "sha256": "906f9c6f5566fc229500a60f11eef34938220d19d747756bc225ef913bac6bb0"
+      }
+    },
+    {
+      "nativeId": "88",
+      "name": "椰子",
+      "slug": "forage-88",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Coconut",
+        "revision": 193061,
+        "sha256": "d410c477dcb398c734a9cb242681e8cb6729df1fbd0e430c42b6fe1f4930de6e"
+      }
+    },
+    {
+      "nativeId": "296",
+      "name": "美洲大树莓",
+      "slug": "forage-296",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Salmonberry",
+        "revision": 192245,
+        "sha256": "be291b786774d7083983e283fe98799ba3ac1a4620eae11100245124f8702f57"
+      }
+    },
+    {
+      "nativeId": "396",
+      "name": "香味浆果",
+      "slug": "forage-396",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Spice_Berry",
+        "revision": 191741,
+        "sha256": "ed2f667a5082a4be8be88068b0611a2141e1bece6287d10d0f128789bf03d434"
+      }
+    },
+    {
+      "nativeId": "406",
+      "name": "野梅",
+      "slug": "forage-406",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wild_Plum",
+        "revision": 192676,
+        "sha256": "772a0db467c71701c1dd072ebf57f39535fb79944c445b346ee6d7652865d7ed"
+      }
+    },
+    {
+      "nativeId": "410",
+      "name": "黑莓",
+      "slug": "forage-410",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Blackberry",
+        "revision": 193839,
+        "sha256": "6a933583ad00917cf1c651fa0a1568a009c0dde2ddc007828e8a1558de119c06"
+      }
+    },
+    {
+      "nativeId": "414",
+      "name": "水晶果",
+      "slug": "forage-414",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Crystal_Fruit",
+        "revision": 191735,
+        "sha256": "e243232036f96eb8c0bddc5b665efef1038e5933472a79015e6b7b8e47e66de6"
+      }
+    },
+    {
+      "nativeId": "259",
+      "name": "蕨菜",
+      "slug": "forage-259",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Fiddlehead_Fern",
+        "revision": 193127,
+        "sha256": "28bd49ba9acfeb9c75bb9b3e2b3c73b644f5f005e18be5c6646ff8a70d17e44c"
+      }
+    },
+    {
+      "nativeId": "402",
+      "name": "甜豌豆",
+      "slug": "forage-402",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sweet_Pea",
+        "revision": 192753,
+        "sha256": "d88361270542996551fb7732fff11a2558dbf394451bc9313f891642cc85645c"
+      }
+    },
+    {
+      "nativeId": "418",
+      "name": "番红花",
+      "slug": "forage-418",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Crocus",
+        "revision": 181908,
+        "sha256": "28bd178f011f04c49f42d8634fafb493b33989b13738606a2aa36988f1758f4b"
+      }
+    },
+    {
+      "nativeId": "392",
+      "name": "鹦鹉螺",
+      "slug": "forage-392",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Nautilus_Shell",
+        "revision": 193218,
+        "sha256": "fc199ef175b68153112ad892aa5970c94edcdf14566f160d557d875692614537"
+      }
+    },
+    {
+      "nativeId": "393",
+      "name": "珊瑚",
+      "slug": "forage-393",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Coral",
+        "revision": 183615,
+        "sha256": "5542f203966d60f7eacd05256191355aaec9daa8155a35bf3ac0ee291bd4a762"
+      }
+    },
+    {
+      "nativeId": "394",
+      "name": "彩虹贝壳",
+      "slug": "forage-394",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rainbow_Shell",
+        "revision": 193134,
+        "sha256": "3f3324e500b60cb07a15d094c1f21f9c86b4cec56bbf25d4ee7208506f26a003"
+      }
+    },
+    {
+      "nativeId": "397",
+      "name": "海胆",
+      "slug": "forage-397",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Sea_Urchin",
+        "revision": 192805,
+        "sha256": "c44533f9e9ffa64588079b302b5afbf843c66a579457e667ea982dd617208d4d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "747",
+      "name": "腐烂的植物（款式747）",
+      "slug": "decay-747",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rotten_Plant",
+        "revision": 181810,
+        "sha256": "8f4372a0d5a262a51976eecad32b5bc14bfbb974e8c924710b8e7e6c1e2d5011"
+      }
+    },
+    {
+      "nativeId": "748",
+      "name": "腐烂的植物（款式748）",
+      "slug": "decay-748",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Rotten_Plant",
+        "revision": 181810,
+        "sha256": "8f4372a0d5a262a51976eecad32b5bc14bfbb974e8c924710b8e7e6c1e2d5011"
+      }
+    }
+  ]
+}

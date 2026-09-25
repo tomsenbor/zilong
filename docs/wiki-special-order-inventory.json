@@ -1,0 +1,1115 @@
+{
+  "version": "1.6.15.24356",
+  "nativeSources": [
+    {
+      "source": "Data/SpecialOrders",
+      "sha256": "F024A27F714D960D3DEDD965258ACE69B23DF2875F6653D2394527E50C96726E"
+    },
+    {
+      "source": "Strings/SpecialOrderStrings.zh-CN",
+      "sha256": "A44060AB75B015EA6DEAA1FDBB94B54103B90B56DC3AF34AA6213EED95E38223"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://stardewvalleywiki.com/Quests",
+      "revision": 194192,
+      "sha256": "ab05b5f44bbe386fdd35634b677077c5c6bc514f28bd69d409af0cf5a73d9d01"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/Desert_Festival",
+      "revision": 191598,
+      "sha256": "f948bcc4cf4bd36f9e0add8815b511688ba11a12be67386e7c7499ce2cc100b8"
+    }
+  ],
+  "sourceCount": 33,
+  "playableCount": 31,
+  "excludedCount": 2,
+  "existingCount": 3,
+  "newCount": 28,
+  "notes": [
+    "Robin collect AND donate80 confirmed from native objectives even where wiki requirement omits donation.",
+    "Randomized target alternatives are fields of one task, not arbitrarily expanded task identities.",
+    "Base maximum durations are not a promise of full time when accepted late.",
+    "Existing three pages retained unchanged; their prose detail review is still pending."
+  ],
+  "records": [
+    {
+      "id": "Willy",
+      "name": "需要多汁的虫子！",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-willy",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "100",
+          "tags": "item_bug_meat"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "item_bug_meat",
+          "dropBox": "WillyBarrel"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "3000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "willyBugWadCutscene"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Pam",
+      "name": "烈酒",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-pam",
+      "requiredTags": "season_spring",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "12",
+          "tags": "juice_item, preserve_sheet_index_192"
+        },
+        {
+          "type": "Donate",
+          "count": "12",
+          "tags": "juice_item, preserve_sheet_index_192",
+          "dropBox": "PamKitchen"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "3000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "pamPotatoJuice"
+          }
+        },
+        {
+          "Type": "Friendship",
+          "Data": {}
+        }
+      ]
+    },
+    {
+      "id": "Pierre",
+      "name": "皮埃尔优选",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-pierre",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "25",
+          "tags": "!forage_item, category_vegetable, quality_gold"
+        },
+        {
+          "type": "Donate",
+          "count": "25",
+          "tags": "!forage_item, category_vegetable, quality_gold",
+          "dropBox": "PierreBox"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "pierreQualityCrops"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Robin",
+      "name": "罗宾的项目",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-robin",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "80",
+          "tags": "item_hardwood"
+        },
+        {
+          "type": "Donate",
+          "count": "80",
+          "tags": "item_hardwood",
+          "dropBox": "RobinWood"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "robinDeluxeBed"
+          }
+        },
+        {
+          "Type": "Friendship",
+          "Data": {}
+        }
+      ]
+    },
+    {
+      "id": "Emily",
+      "name": "宝石能量",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-emily",
+      "requiredTags": "event_992559",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_ruby"
+        },
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_topaz"
+        },
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_emerald"
+        },
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_jade"
+        },
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_amethyst"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "1000"
+          }
+        },
+        {
+          "Type": "Friendship",
+          "Data": {}
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "emilyStones",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Demetrius",
+      "name": "水生物泛滥",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-demetrius",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Fish",
+          "count": "10",
+          "tags": "{FishType:Tags}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "{FishType:Price}",
+            "Multiplier": "10"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "DemetriusReward",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Demetrius2",
+      "name": "生态平衡",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-demetrius2",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Fish",
+          "count": "20",
+          "tags": "{FishType:Tags}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "1500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "DemetriusReward",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Gus",
+      "name": "格斯的著名煎蛋卷",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-gus",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "24",
+          "tags": "egg_item"
+        },
+        {
+          "type": "Donate",
+          "count": "24",
+          "tags": "egg_item",
+          "dropBox": "GusFridge"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "3000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "gusGiantOmelet",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Lewis",
+      "name": "农作物订单",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-lewis",
+      "requiredTags": "!season_winter",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "100",
+          "tags": "{Crop:Tags}"
+        },
+        {
+          "type": "Ship",
+          "count": "100",
+          "tags": "{Crop:Tags}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "{Crop:Price}",
+            "Multiplier": "50"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "MSB_Lewis",
+            "Host": "true",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Wizard",
+      "name": "奇特物质",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-wizard",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_ectoplasm"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "WizardReward2",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Clint",
+      "name": "洞穴巡查",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-clint",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Slay",
+          "count": "50"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "6000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "ClintReward",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Linus",
+      "name": "社区清理",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-linus",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "20",
+          "tags": "trash_item"
+        },
+        {
+          "type": "Donate",
+          "count": "20",
+          "tags": "trash_item",
+          "dropBox": "Dumpster"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "linusTrashCleanup",
+            "NoLetter": "false"
+          }
+        },
+        {
+          "Type": "Friendship",
+          "Data": {}
+        }
+      ]
+    },
+    {
+      "id": "Evelyn",
+      "name": "给乔治的礼物",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-evelyn",
+      "requiredTags": "season_spring",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "12",
+          "tags": "item_leek"
+        },
+        {
+          "type": "Donate",
+          "count": "12",
+          "tags": "item_leek",
+          "dropBox": "EvelynKitchen"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "georgeGifts",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Wizard2",
+      "name": "五彩胶冻",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-wizard2",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Slay",
+          "count": "1"
+        },
+        {
+          "type": "Deliver",
+          "count": "1",
+          "tags": "item_prismatic_jelly"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "5000"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "WizardReward",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Robin2",
+      "name": "罗宾的资源活动",
+      "disposition": "include",
+      "reason": "Existing public task reused; no duplicate page.",
+      "slug": "robin-icon",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "1000",
+          "tags": "{Resource:Tags}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "robinResource",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Gunther",
+      "name": "历史的碎片",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-gunther",
+      "requiredTags": "",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "100",
+          "tags": "bone_item"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "bone_item",
+          "dropBox": "GuntherBox"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "3500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "guntherBones",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Caroline",
+      "name": "岛屿食材",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-caroline",
+      "requiredTags": "island",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "100",
+          "tags": "{Crop:Tags}"
+        },
+        {
+          "type": "Ship",
+          "count": "100",
+          "tags": "{Crop:Tags}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "{Crop:Price}",
+            "Multiplier": "50"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "carolineSO",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Willy2",
+      "name": "热带鱼",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-willy2",
+      "requiredTags": "island, mail_Island_Resort",
+      "repeatable": false,
+      "objectives": [
+        {
+          "type": "Fish",
+          "count": "5",
+          "tags": "item_lionfish"
+        },
+        {
+          "type": "Fish",
+          "count": "5",
+          "tags": "item_blue_discus"
+        },
+        {
+          "type": "Fish",
+          "count": "5",
+          "tags": "item_stingray"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Money",
+          "Data": {
+            "Amount": "2500"
+          }
+        },
+        {
+          "Type": "Mail",
+          "Data": {
+            "MailReceived": "WillyTropicalFish",
+            "NoLetter": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge",
+      "name": "五灾",
+      "disposition": "exclude",
+      "reason": "Original RequiredTags contains NOT_IMPLEMENTED; not a normally offered task.",
+      "requiredTags": "NOT_IMPLEMENTED, !rule_QI_BEANS",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Ship",
+          "count": "500",
+          "tags": "item_qi_fruit"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "50"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge2",
+      "name": "齐先生的作物",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge2",
+      "requiredTags": "!rule_QI_BEANS",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Ship",
+          "count": "500",
+          "tags": "item_qi_fruit"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "100"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge3",
+      "name": "来玩游戏吧",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge3",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "JKScore",
+          "count": "50000",
+          "tags": "placeholder"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge4",
+      "name": "四颗宝石",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge4",
+      "requiredTags": "!dropbox_QiChallengeBox",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "{Treasure:Count}",
+          "tags": "{Treasure:Target}"
+        },
+        {
+          "type": "Donate",
+          "count": "4",
+          "tags": "item_prismatic_shard",
+          "dropBox": "QiChallengeBox"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "40"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge5",
+      "name": "齐先生的饥饿挑战",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge5",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "ReachMineFloor",
+          "count": "100"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "25"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge6",
+      "name": "齐先生的菜肴",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge6",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Ship",
+          "count": "100000",
+          "tags": "quality_qi"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "25"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge7",
+      "name": "齐先生的善意",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge7",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Gift",
+          "count": "50"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "40"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge8",
+      "name": "大家族",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge8",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Fish",
+          "count": "1",
+          "tags": "item_ms._angler"
+        },
+        {
+          "type": "Fish",
+          "count": "1",
+          "tags": "item_glacierfish_jr."
+        },
+        {
+          "type": "Fish",
+          "count": "1",
+          "tags": "item_son_of_crimsonfish"
+        },
+        {
+          "type": "Fish",
+          "count": "1",
+          "tags": "item_radioactive_carp"
+        },
+        {
+          "type": "Fish",
+          "count": "1",
+          "tags": "item_legend_ii"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge9",
+      "name": "深处的危险",
+      "disposition": "include",
+      "reason": "Existing public task reused; no duplicate page.",
+      "slug": "danger-in-the-deep",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "ReachMineFloor",
+          "count": "120"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "50"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge10",
+      "name": "骷髅洞穴入侵",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-qichallenge10",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "ReachMineFloor",
+          "count": "100"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "40"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge11",
+      "name": "找到齐先生的分身",
+      "disposition": "exclude",
+      "reason": "Original RequiredTags contains NOT_IMPLEMENTED; not a normally offered task.",
+      "requiredTags": "NOT_IMPLEMENTED",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Custom",
+          "count": "120",
+          "tags": "placeholder"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QiChallenge12",
+      "name": "齐先生的五彩农场",
+      "disposition": "include",
+      "reason": "Existing public task reused; no duplicate page.",
+      "slug": "qi-gem",
+      "requiredTags": "!dropbox_QiChallengeBox",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_red/color_dark_red",
+          "dropBox": "QiChallengeBox"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_orange/color_copper/color_dark_orange",
+          "dropBox": "QiChallengeBox"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_yellow/color_dark_yellow/color_gold",
+          "dropBox": "QiChallengeBox"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_green/color_dark_green/color_lime/color_yellow_green/color_jade",
+          "dropBox": "QiChallengeBox"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_blue/color_dark_blue/color_dark_cyan/color_light_cyan/color_cyan/color_aquamarine",
+          "dropBox": "QiChallengeBox"
+        },
+        {
+          "type": "Donate",
+          "count": "100",
+          "tags": "color_purple/color_dark_purple/color_dark_pink/color_pale_violet_red/color_poppyseed/color_iridium",
+          "dropBox": "QiChallengeBox"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Gems",
+          "Data": {
+            "Amount": "35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DesertFestivalMarlon1",
+      "name": "怪物狩猎",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-desertfestivalmarlon1",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Slay",
+          "count": "10"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Object",
+          "Data": {
+            "Item": "CalicoEgg",
+            "Amount": "35"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DesertFestivalMarlon2",
+      "name": "深层探险",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-desertfestivalmarlon2",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "ReachMineFloor",
+          "count": "30"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Object",
+          "Data": {
+            "Item": "CalicoEgg",
+            "Amount": "50"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DesertFestivalMarlon3",
+      "name": "寻宝",
+      "disposition": "include",
+      "reason": "Playable town, Qi or festival order with native identity.",
+      "slug": "special-order-desertfestivalmarlon3",
+      "requiredTags": "",
+      "repeatable": true,
+      "objectives": [
+        {
+          "type": "Collect",
+          "count": "{Treasure:Count}",
+          "tags": "{Treasure:Target}"
+        }
+      ],
+      "rewards": [
+        {
+          "Type": "Object",
+          "Data": {
+            "Item": "CalicoEgg",
+            "Amount": "40"
+          }
+        }
+      ]
+    }
+  ]
+}

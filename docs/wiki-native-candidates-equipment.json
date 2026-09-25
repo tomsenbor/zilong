@@ -1,0 +1,693 @@
+{
+  "version": "1.6.15",
+  "id": "equipment",
+  "name": "工具与装备",
+  "reviewStatus": "identity-roster-closed",
+  "registeredIdentityCount": 159,
+  "independentExpectedCount": 159,
+  "nativeSources": [
+    {
+      "asset": "Data/Tools",
+      "sha256": "86A85235A08D9056D53FD7622AE871CE0F56FBC465415C99364E0932F7A14C97",
+      "count": 37,
+      "records": [
+        {
+          "nativeId": "Axe",
+          "nativeName": "Axe"
+        },
+        {
+          "nativeId": "CopperAxe",
+          "nativeName": "Copper Axe"
+        },
+        {
+          "nativeId": "SteelAxe",
+          "nativeName": "Steel Axe"
+        },
+        {
+          "nativeId": "GoldAxe",
+          "nativeName": "Gold Axe"
+        },
+        {
+          "nativeId": "IridiumAxe",
+          "nativeName": "Iridium Axe"
+        },
+        {
+          "nativeId": "BambooPole",
+          "nativeName": "Bamboo Pole"
+        },
+        {
+          "nativeId": "TrainingRod",
+          "nativeName": "Training Rod"
+        },
+        {
+          "nativeId": "FiberglassRod",
+          "nativeName": "Fiberglass Rod"
+        },
+        {
+          "nativeId": "IridiumRod",
+          "nativeName": "Iridium Rod"
+        },
+        {
+          "nativeId": "AdvancedIridiumRod",
+          "nativeName": "Advanced Iridium Rod"
+        },
+        {
+          "nativeId": "Hoe",
+          "nativeName": "Hoe"
+        },
+        {
+          "nativeId": "CopperHoe",
+          "nativeName": "Copper Hoe"
+        },
+        {
+          "nativeId": "SteelHoe",
+          "nativeName": "Steel Hoe"
+        },
+        {
+          "nativeId": "GoldHoe",
+          "nativeName": "Gold Hoe"
+        },
+        {
+          "nativeId": "IridiumHoe",
+          "nativeName": "Iridium Hoe"
+        },
+        {
+          "nativeId": "Lantern",
+          "nativeName": "Lantern"
+        },
+        {
+          "nativeId": "MilkPail",
+          "nativeName": "Milk Pail"
+        },
+        {
+          "nativeId": "Pan",
+          "nativeName": "Pan"
+        },
+        {
+          "nativeId": "SteelPan",
+          "nativeName": "Steel Pan"
+        },
+        {
+          "nativeId": "GoldPan",
+          "nativeName": "Gold Pan"
+        },
+        {
+          "nativeId": "IridiumPan",
+          "nativeName": "Iridium Pan"
+        },
+        {
+          "nativeId": "Pickaxe",
+          "nativeName": "Pickaxe"
+        },
+        {
+          "nativeId": "CopperPickaxe",
+          "nativeName": "Copper Pickaxe"
+        },
+        {
+          "nativeId": "SteelPickaxe",
+          "nativeName": "Steel Pickaxe"
+        },
+        {
+          "nativeId": "GoldPickaxe",
+          "nativeName": "Gold Pickaxe"
+        },
+        {
+          "nativeId": "IridiumPickaxe",
+          "nativeName": "Iridium Pickaxe"
+        },
+        {
+          "nativeId": "ReturnScepter",
+          "nativeName": "Return Scepter"
+        },
+        {
+          "nativeId": "Shears",
+          "nativeName": "Shears"
+        },
+        {
+          "nativeId": "WateringCan",
+          "nativeName": "Watering Can"
+        },
+        {
+          "nativeId": "CopperWateringCan",
+          "nativeName": "Copper Watering Can"
+        },
+        {
+          "nativeId": "SteelWateringCan",
+          "nativeName": "Steel Watering Can"
+        },
+        {
+          "nativeId": "GoldWateringCan",
+          "nativeName": "Gold Watering Can"
+        },
+        {
+          "nativeId": "IridiumWateringCan",
+          "nativeName": "Iridium Watering Can"
+        },
+        {
+          "nativeId": "CopperTrashCan",
+          "nativeName": "Copper Trash Can"
+        },
+        {
+          "nativeId": "SteelTrashCan",
+          "nativeName": "Steel Trash Can"
+        },
+        {
+          "nativeId": "GoldTrashCan",
+          "nativeName": "Gold Trash Can"
+        },
+        {
+          "nativeId": "IridiumTrashCan",
+          "nativeName": "Iridium Trash Can"
+        }
+      ]
+    },
+    {
+      "asset": "Data/weapons",
+      "sha256": "1D7F1C2CE413BB92B28D7282C0F288DEC351B05D317EFAF778F30E30E671579E",
+      "count": 67,
+      "records": [
+        {
+          "nativeId": "0",
+          "nativeName": "Rusty Sword"
+        },
+        {
+          "nativeId": "1",
+          "nativeName": "Silver Saber"
+        },
+        {
+          "nativeId": "2",
+          "nativeName": "Dark Sword"
+        },
+        {
+          "nativeId": "3",
+          "nativeName": "Holy Blade"
+        },
+        {
+          "nativeId": "4",
+          "nativeName": "Galaxy Sword"
+        },
+        {
+          "nativeId": "5",
+          "nativeName": "Bone Sword"
+        },
+        {
+          "nativeId": "6",
+          "nativeName": "Iron Edge"
+        },
+        {
+          "nativeId": "7",
+          "nativeName": "Templar's Blade"
+        },
+        {
+          "nativeId": "8",
+          "nativeName": "Obsidian Edge"
+        },
+        {
+          "nativeId": "9",
+          "nativeName": "Lava Katana"
+        },
+        {
+          "nativeId": "10",
+          "nativeName": "Claymore"
+        },
+        {
+          "nativeId": "11",
+          "nativeName": "Steel Smallsword"
+        },
+        {
+          "nativeId": "12",
+          "nativeName": "Wooden Blade"
+        },
+        {
+          "nativeId": "13",
+          "nativeName": "Insect Head"
+        },
+        {
+          "nativeId": "14",
+          "nativeName": "Neptune's Glaive"
+        },
+        {
+          "nativeId": "15",
+          "nativeName": "Forest Sword"
+        },
+        {
+          "nativeId": "16",
+          "nativeName": "Carving Knife"
+        },
+        {
+          "nativeId": "17",
+          "nativeName": "Iron Dirk"
+        },
+        {
+          "nativeId": "18",
+          "nativeName": "Burglar's Shank"
+        },
+        {
+          "nativeId": "19",
+          "nativeName": "Shadow Dagger"
+        },
+        {
+          "nativeId": "20",
+          "nativeName": "Elf Blade"
+        },
+        {
+          "nativeId": "21",
+          "nativeName": "Crystal Dagger"
+        },
+        {
+          "nativeId": "22",
+          "nativeName": "Wind Spire"
+        },
+        {
+          "nativeId": "23",
+          "nativeName": "Galaxy Dagger"
+        },
+        {
+          "nativeId": "24",
+          "nativeName": "Wood Club"
+        },
+        {
+          "nativeId": "25",
+          "nativeName": "Alex's Bat"
+        },
+        {
+          "nativeId": "26",
+          "nativeName": "Lead Rod"
+        },
+        {
+          "nativeId": "27",
+          "nativeName": "Wood Mallet"
+        },
+        {
+          "nativeId": "28",
+          "nativeName": "The Slammer"
+        },
+        {
+          "nativeId": "29",
+          "nativeName": "Galaxy Hammer"
+        },
+        {
+          "nativeId": "30",
+          "nativeName": "Sam's Old Guitar"
+        },
+        {
+          "nativeId": "31",
+          "nativeName": "Femur"
+        },
+        {
+          "nativeId": "32",
+          "nativeName": "Slingshot"
+        },
+        {
+          "nativeId": "33",
+          "nativeName": "Master Slingshot"
+        },
+        {
+          "nativeId": "34",
+          "nativeName": "Galaxy Slingshot"
+        },
+        {
+          "nativeId": "35",
+          "nativeName": "Elliott's Pencil"
+        },
+        {
+          "nativeId": "36",
+          "nativeName": "Maru's Wrench"
+        },
+        {
+          "nativeId": "37",
+          "nativeName": "Harvey's Mallet"
+        },
+        {
+          "nativeId": "38",
+          "nativeName": "Penny's Fryer"
+        },
+        {
+          "nativeId": "39",
+          "nativeName": "Leah's Whittler"
+        },
+        {
+          "nativeId": "40",
+          "nativeName": "Abby's Planchette"
+        },
+        {
+          "nativeId": "41",
+          "nativeName": "Seb's Lost Mace"
+        },
+        {
+          "nativeId": "42",
+          "nativeName": "Haley's Iron"
+        },
+        {
+          "nativeId": "43",
+          "nativeName": "Pirate's Sword"
+        },
+        {
+          "nativeId": "44",
+          "nativeName": "Cutlass"
+        },
+        {
+          "nativeId": "45",
+          "nativeName": "Wicked Kris"
+        },
+        {
+          "nativeId": "46",
+          "nativeName": "Kudgel"
+        },
+        {
+          "nativeId": "47",
+          "nativeName": "Scythe"
+        },
+        {
+          "nativeId": "48",
+          "nativeName": "Yeti Tooth"
+        },
+        {
+          "nativeId": "49",
+          "nativeName": "Rapier"
+        },
+        {
+          "nativeId": "50",
+          "nativeName": "Steel Falchion"
+        },
+        {
+          "nativeId": "51",
+          "nativeName": "Broken Trident"
+        },
+        {
+          "nativeId": "52",
+          "nativeName": "Tempered Broadsword"
+        },
+        {
+          "nativeId": "53",
+          "nativeName": "Golden Scythe"
+        },
+        {
+          "nativeId": "54",
+          "nativeName": "Dwarf Sword"
+        },
+        {
+          "nativeId": "55",
+          "nativeName": "Dwarf Hammer"
+        },
+        {
+          "nativeId": "56",
+          "nativeName": "Dwarf Dagger"
+        },
+        {
+          "nativeId": "57",
+          "nativeName": "Dragontooth Cutlass"
+        },
+        {
+          "nativeId": "58",
+          "nativeName": "Dragontooth Club"
+        },
+        {
+          "nativeId": "59",
+          "nativeName": "Dragontooth Shiv"
+        },
+        {
+          "nativeId": "60",
+          "nativeName": "Ossified Blade"
+        },
+        {
+          "nativeId": "61",
+          "nativeName": "Iridium Needle"
+        },
+        {
+          "nativeId": "62",
+          "nativeName": "Infinity Blade"
+        },
+        {
+          "nativeId": "63",
+          "nativeName": "Infinity Gavel"
+        },
+        {
+          "nativeId": "64",
+          "nativeName": "Infinity Dagger"
+        },
+        {
+          "nativeId": "65",
+          "nativeName": "Meowmere"
+        },
+        {
+          "nativeId": "66",
+          "nativeName": "Iridium Scythe"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Boots",
+      "sha256": "F6880FB49CF5CCBDDD0F30487FF2D278AC02688BF557838F04C4D2E0B958F52F",
+      "count": 18,
+      "records": [
+        {
+          "nativeId": "504",
+          "nativeName": "Sneakers"
+        },
+        {
+          "nativeId": "505",
+          "nativeName": "Rubber Boots"
+        },
+        {
+          "nativeId": "506",
+          "nativeName": "Leather Boots"
+        },
+        {
+          "nativeId": "507",
+          "nativeName": "Work Boots"
+        },
+        {
+          "nativeId": "508",
+          "nativeName": "Combat Boots"
+        },
+        {
+          "nativeId": "509",
+          "nativeName": "Tundra Boots"
+        },
+        {
+          "nativeId": "510",
+          "nativeName": "Thermal Boots"
+        },
+        {
+          "nativeId": "511",
+          "nativeName": "Dark Boots"
+        },
+        {
+          "nativeId": "512",
+          "nativeName": "Firewalker Boots"
+        },
+        {
+          "nativeId": "513",
+          "nativeName": "Genie Shoes"
+        },
+        {
+          "nativeId": "514",
+          "nativeName": "Space Boots"
+        },
+        {
+          "nativeId": "515",
+          "nativeName": "Cowboy Boots"
+        },
+        {
+          "nativeId": "804",
+          "nativeName": "Emily's Magic Boots"
+        },
+        {
+          "nativeId": "806",
+          "nativeName": "Leprechaun Shoes"
+        },
+        {
+          "nativeId": "853",
+          "nativeName": "Cinderclown Shoes"
+        },
+        {
+          "nativeId": "854",
+          "nativeName": "Mermaid Boots"
+        },
+        {
+          "nativeId": "855",
+          "nativeName": "Dragonscale Boots"
+        },
+        {
+          "nativeId": "878",
+          "nativeName": "Crystal Shoes"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Trinkets",
+      "sha256": "D231C496F3A7480898900A0EBC87C09929D5208286959DA5D3BDC8BE77BFA39D",
+      "count": 8,
+      "records": [
+        {
+          "nativeId": "MagicHairDye",
+          "nativeName": "MagicHairDye"
+        },
+        {
+          "nativeId": "FrogEgg",
+          "nativeName": "FrogEgg"
+        },
+        {
+          "nativeId": "MagicQuiver",
+          "nativeName": "MagicQuiver"
+        },
+        {
+          "nativeId": "FairyBox",
+          "nativeName": "FairyBox"
+        },
+        {
+          "nativeId": "ParrotEgg",
+          "nativeName": "ParrotEgg"
+        },
+        {
+          "nativeId": "IceRod",
+          "nativeName": "IceRod"
+        },
+        {
+          "nativeId": "IridiumSpur",
+          "nativeName": "IridiumSpur"
+        },
+        {
+          "nativeId": "BasiliskPaw",
+          "nativeName": "BasiliskPaw"
+        }
+      ]
+    },
+    {
+      "asset": "Data/Objects",
+      "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+      "count": 31,
+      "records": [
+        {
+          "nativeId": "516",
+          "nativeName": "Small Glow Ring"
+        },
+        {
+          "nativeId": "517",
+          "nativeName": "Glow Ring"
+        },
+        {
+          "nativeId": "518",
+          "nativeName": "Small Magnet Ring"
+        },
+        {
+          "nativeId": "519",
+          "nativeName": "Magnet Ring"
+        },
+        {
+          "nativeId": "520",
+          "nativeName": "Slime Charmer Ring"
+        },
+        {
+          "nativeId": "521",
+          "nativeName": "Warrior Ring"
+        },
+        {
+          "nativeId": "522",
+          "nativeName": "Vampire Ring"
+        },
+        {
+          "nativeId": "523",
+          "nativeName": "Savage Ring"
+        },
+        {
+          "nativeId": "524",
+          "nativeName": "Ring of Yoba"
+        },
+        {
+          "nativeId": "525",
+          "nativeName": "Sturdy Ring"
+        },
+        {
+          "nativeId": "526",
+          "nativeName": "Burglar's Ring"
+        },
+        {
+          "nativeId": "527",
+          "nativeName": "Iridium Band"
+        },
+        {
+          "nativeId": "528",
+          "nativeName": "Jukebox Ring"
+        },
+        {
+          "nativeId": "529",
+          "nativeName": "Amethyst Ring"
+        },
+        {
+          "nativeId": "530",
+          "nativeName": "Topaz Ring"
+        },
+        {
+          "nativeId": "531",
+          "nativeName": "Aquamarine Ring"
+        },
+        {
+          "nativeId": "532",
+          "nativeName": "Jade Ring"
+        },
+        {
+          "nativeId": "533",
+          "nativeName": "Emerald Ring"
+        },
+        {
+          "nativeId": "534",
+          "nativeName": "Ruby Ring"
+        },
+        {
+          "nativeId": "801",
+          "nativeName": "Wedding Ring"
+        },
+        {
+          "nativeId": "810",
+          "nativeName": "Crabshell Ring"
+        },
+        {
+          "nativeId": "811",
+          "nativeName": "Napalm Ring"
+        },
+        {
+          "nativeId": "839",
+          "nativeName": "Thorns Ring"
+        },
+        {
+          "nativeId": "859",
+          "nativeName": "Lucky Ring"
+        },
+        {
+          "nativeId": "860",
+          "nativeName": "Hot Java Ring"
+        },
+        {
+          "nativeId": "861",
+          "nativeName": "Protection Ring"
+        },
+        {
+          "nativeId": "862",
+          "nativeName": "Soul Sapper Ring"
+        },
+        {
+          "nativeId": "863",
+          "nativeName": "Phoenix Ring"
+        },
+        {
+          "nativeId": "880",
+          "nativeName": "Combined Ring"
+        },
+        {
+          "nativeId": "887",
+          "nativeName": "Immunity Band"
+        },
+        {
+          "nativeId": "888",
+          "nativeName": "Glowstone Ring"
+        }
+      ]
+    }
+  ],
+  "reviewDocuments": [
+    "wiki-equipment-closure.json"
+  ],
+  "remainingReview": "已闭合基础身份集合；随机数值、附魔和组合戒指配对不重复新增基础条目。"
+}

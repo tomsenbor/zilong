@@ -1,0 +1,995 @@
+{
+  "version": "1.6.15",
+  "sources": [
+    {
+      "url": "https://stardewvalleywiki.com/Slimes",
+      "revision": 190458,
+      "sha256": "2dad80c3d07ef66531112515cab2a0c8eac714e014614bcb3063f210e8ba182d"
+    },
+    {
+      "url": "https://zh.stardewvalleywiki.com/史莱姆（怪物）",
+      "revision": 53569,
+      "sha256": "8fd6524b1fc82ca82dd55961a3d4603848ca21bf7a565c7d6b14d7387c30b182"
+    }
+  ],
+  "pending": [
+    "Gold Slime distinct native sprite; do not use Yellow Slime art as a fake identity.",
+    "Arbitrary RGB colors and male modifiers are rules, not separately enumerated unlimited identities.",
+    "Complete per-form drops and native runtime cross-check still pending."
+  ],
+  "records": [
+    {
+      "id": "green-slime",
+      "name": "绿色史莱姆",
+      "slug": "monster-green-slime",
+      "file": "public/assets/game/Slime_green-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/7/7b/Green_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "绿色史莱姆",
+        "slug": "monster-green-slime",
+        "image": "/assets/game/Slime_green-slime.png",
+        "summary": "绿色史莱姆：矿井1—29层、秘密森林；开启农场怪物且战斗等级0—3时的农场的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "24",
+          "基础伤害": "5",
+          "基础防御": "1",
+          "移动速度": "2",
+          "战斗经验": "3",
+          "出现地点": "矿井1—29层、秘密森林；开启农场怪物且战斗等级0—3时的农场",
+          "条件说明": "怪物和掉落材料“史莱姆泥”不是同一条目；建成史莱姆屋后才有相应史莱姆蛋掉落机会。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井1—29层、秘密森林；开启农场怪物且战斗等级0—3时的农场遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blue-slime",
+      "name": "蓝色史莱姆（冰冻史莱姆）",
+      "slug": "monster-blue-slime",
+      "file": "public/assets/game/Slime_blue-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Frost_Jelly.png",
+      "entry": {
+        "dataset": "items",
+        "name": "蓝色史莱姆（冰冻史莱姆）",
+        "slug": "monster-blue-slime",
+        "image": "/assets/game/Slime_blue-slime.png",
+        "summary": "蓝色史莱姆（冰冻史莱姆）：矿井通常41—79层、秘密森林；开启农场怪物且战斗等级4—7时的农场的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "106",
+          "基础伤害": "7",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "6",
+          "出现地点": "矿井通常41—79层、秘密森林；开启农场怪物且战斗等级4—7时的农场",
+          "条件说明": "受击可能发光并加速；不能把冰冻区域敌人当作只换了颜色的绿色史莱姆。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井通常41—79层、秘密森林；开启农场怪物且战斗等级4—7时的农场遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "red-slime",
+      "name": "红色史莱姆",
+      "slug": "monster-red-slime",
+      "file": "public/assets/game/Slime_red-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Red_Sludge.png",
+      "entry": {
+        "dataset": "items",
+        "name": "红色史莱姆",
+        "slug": "monster-red-slime",
+        "image": "/assets/game/Slime_red-slime.png",
+        "summary": "红色史莱姆：矿井81—119层；开启农场怪物且战斗等级8—9时的农场的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "205",
+          "基础伤害": "16",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "10",
+          "出现地点": "矿井81—119层；开启农场怪物且战斗等级8—9时的农场",
+          "条件说明": "能力明显高于绿色史莱姆；可能掉落煤、钻石等物品，但掉落不是每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井81—119层；开启农场怪物且战斗等级8—9时的农场遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "purple-slime",
+      "name": "紫色史莱姆",
+      "slug": "monster-purple-slime",
+      "file": "public/assets/game/Slime_purple-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/2/27/Purple_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "紫色史莱姆",
+        "slug": "monster-purple-slime",
+        "image": "/assets/game/Slime_purple-slime.png",
+        "summary": "紫色史莱姆：骷髅洞穴；开启农场怪物且战斗等级10时的农场的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "410",
+          "基础伤害": "16",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "10",
+          "出现地点": "骷髅洞穴；开启农场怪物且战斗等级10时的农场",
+          "条件说明": "可能掉落铱矿石、铱锭，部分掉落与繁殖代数和颜色相关；不能把一只的结果当作固定产量。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在骷髅洞穴；开启农场怪物且战斗等级10时的农场遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "yellow-slime",
+      "name": "黄色史莱姆",
+      "slug": "monster-yellow-slime",
+      "file": "public/assets/game/Slime_yellow-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Yellow_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "黄色史莱姆",
+        "slug": "monster-yellow-slime",
+        "image": "/assets/game/Slime_yellow-slime.png",
+        "summary": "黄色史莱姆：矿井、骷髅洞穴中的罕见变色个体的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "原个体生命×3",
+          "基础伤害": "原个体伤害×2",
+          "基础防御": "随原个体变化",
+          "移动速度": "2",
+          "战斗经验": "随原个体变化",
+          "出现地点": "矿井、骷髅洞穴中的罕见变色个体",
+          "条件说明": "罕见黄色变色会保留原个体其他性质，生命×3、伤害×2；不要与1.6加入的金币史莱姆混为一谈。金币史莱姆的250金硬币规则不适用于所有黄色个体。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井、骷髅洞穴中的罕见变色个体遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "black-slime",
+      "name": "黑色史莱姆",
+      "slug": "monster-black-slime",
+      "file": "public/assets/game/Slime_black-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Black_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "黑色史莱姆",
+        "slug": "monster-black-slime",
+        "image": "/assets/game/Slime_black-slime.png",
+        "summary": "黑色史莱姆：女巫随机事件改变史莱姆屋中的史莱姆颜色的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "保留原个体数值",
+          "基础伤害": "随原个体变化",
+          "基础防御": "随原个体变化",
+          "移动速度": "2",
+          "战斗经验": "随原个体变化",
+          "出现地点": "女巫随机事件改变史莱姆屋中的史莱姆颜色",
+          "条件说明": "女巫可将屋内个体变黑，但保留其原来的属性和特殊性质；不能按颜色给出统一生命值。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在女巫随机事件改变史莱姆屋中的史莱姆颜色遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "copper-slime",
+      "name": "铜史莱姆",
+      "slug": "monster-copper-slime",
+      "file": "public/assets/game/Slime_copper-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/a/af/Copper_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "铜史莱姆",
+        "slug": "monster-copper-slime",
+        "image": "/assets/game/Slime_copper-slime.png",
+        "summary": "铜史莱姆：采石场矿井及普通矿井中的随机地牢层的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "102",
+          "基础伤害": "16",
+          "基础防御": "0",
+          "移动速度": "4",
+          "战斗经验": "10",
+          "出现地点": "采石场矿井及普通矿井中的随机地牢层",
+          "条件说明": "移动速度4，比普通史莱姆更快；铜矿石的重复掉落判定不能解释为必定大量产铜。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在采石场矿井及普通矿井中的随机地牢层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iron-slime",
+      "name": "铁史莱姆",
+      "slug": "monster-iron-slime",
+      "file": "public/assets/game/Slime_iron-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Iron_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "铁史莱姆",
+        "slug": "monster-iron-slime",
+        "image": "/assets/game/Slime_iron-slime.png",
+        "summary": "铁史莱姆：采石场矿井及普通矿井中的随机地牢层的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "205",
+          "基础伤害": "16",
+          "基础防御": "0",
+          "移动速度": "1",
+          "战斗经验": "10",
+          "出现地点": "采石场矿井及普通矿井中的随机地牢层",
+          "条件说明": "移动速度1，可能重复判定铁矿石掉落；矿井中必须是相应随机地牢层，不是任意普通层都会出现。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在采石场矿井及普通矿井中的随机地牢层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tiger-slime",
+      "name": "老虎史莱姆",
+      "slug": "monster-tiger-slime",
+      "file": "public/assets/game/Slime_tiger-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/5/57/Tiger_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "老虎史莱姆",
+        "slug": "monster-tiger-slime",
+        "image": "/assets/game/Slime_tiger-slime.png",
+        "summary": "老虎史莱姆：姜岛老虎史莱姆树林、火山地牢的颜色变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "颜色变体",
+          "基础生命": "415",
+          "基础伤害": "23",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "20",
+          "出现地点": "姜岛老虎史莱姆树林、火山地牢",
+          "条件说明": "可能掉落菠萝种子、芋头块茎、芒果树苗和老虎帽等；建成史莱姆屋后才可能掉老虎史莱姆蛋。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在姜岛老虎史莱姆树林、火山地牢遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-green-slime",
+      "name": "特殊绿色史莱姆",
+      "slug": "monster-special-green-slime",
+      "file": "public/assets/game/Slime_special-green-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/4/43/Special_Green_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊绿色史莱姆",
+        "slug": "monster-special-green-slime",
+        "image": "/assets/game/Slime_special-green-slime.png",
+        "summary": "特殊绿色史莱姆：矿井1—39层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "72",
+          "基础伤害": "10",
+          "基础防御": "1",
+          "移动速度": "2",
+          "战斗经验": "3",
+          "出现地点": "矿井1—39层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井1—39层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-dark-green-slime",
+      "name": "特殊深绿史莱姆",
+      "slug": "monster-special-dark-green-slime",
+      "file": "public/assets/game/Slime_special-dark-green-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Special_Yellow_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊深绿史莱姆",
+        "slug": "monster-special-dark-green-slime",
+        "image": "/assets/game/Slime_special-dark-green-slime.png",
+        "summary": "特殊深绿史莱姆：矿井2—39层，排除末位为0、1、5、6的楼层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "72",
+          "基础伤害": "10",
+          "基础防御": "1",
+          "移动速度": "2",
+          "战斗经验": "3",
+          "出现地点": "矿井2—39层，排除末位为0、1、5、6的楼层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井2—39层，排除末位为0、1、5、6的楼层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-blue-slime",
+      "name": "特殊蓝色史莱姆",
+      "slug": "monster-special-blue-slime",
+      "file": "public/assets/game/Slime_special-blue-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Special_Blue_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊蓝色史莱姆",
+        "slug": "monster-special-blue-slime",
+        "image": "/assets/game/Slime_special-blue-slime.png",
+        "summary": "特殊蓝色史莱姆：矿井40—79层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "318",
+          "基础伤害": "14",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "6",
+          "出现地点": "矿井40—79层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井40—79层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-black-slime",
+      "name": "特殊黑色史莱姆",
+      "slug": "monster-special-black-slime",
+      "file": "public/assets/game/Slime_special-black-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/5/5f/Special_Black_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊黑色史莱姆",
+        "slug": "monster-special-black-slime",
+        "image": "/assets/game/Slime_special-black-slime.png",
+        "summary": "特殊黑色史莱姆：矿井42—79层，排除末位为0、1、5、6的楼层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "随原个体变化",
+          "基础伤害": "随原个体变化",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "随原个体变化",
+          "出现地点": "矿井42—79层，排除末位为0、1、5、6的楼层",
+          "条件说明": "黑色或透明的特殊个体；42—59层、69层及79层的特殊物品规则需单独判断，不能认为所有所在层都掉同一奖励。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井42—79层，排除末位为0、1、5、6的楼层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-red-slime",
+      "name": "特殊红色史莱姆",
+      "slug": "monster-special-red-slime",
+      "file": "public/assets/game/Slime_special-red-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/6/66/Special_Red_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊红色史莱姆",
+        "slug": "monster-special-red-slime",
+        "image": "/assets/game/Slime_special-red-slime.png",
+        "summary": "特殊红色史莱姆：矿井80—120层的生成区间的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "615",
+          "基础伤害": "32",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "10",
+          "出现地点": "矿井80—120层的生成区间",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井80—120层的生成区间遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-purple-slime",
+      "name": "特殊紫色史莱姆",
+      "slug": "monster-special-purple-slime",
+      "file": "public/assets/game/Slime_special-purple-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/0/08/Special_Purple_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊紫色史莱姆",
+        "slug": "monster-special-purple-slime",
+        "image": "/assets/game/Slime_special-purple-slime.png",
+        "summary": "特殊紫色史莱姆：矿井82—119层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "1230",
+          "基础伤害": "32",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "10",
+          "出现地点": "矿井82—119层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井82—119层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-copper-slime",
+      "name": "特殊铜史莱姆",
+      "slug": "monster-special-copper-slime",
+      "file": "public/assets/game/Slime_special-copper-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/7/73/Special_Copper_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊铜史莱姆",
+        "slug": "monster-special-copper-slime",
+        "image": "/assets/game/Slime_special-copper-slime.png",
+        "summary": "特殊铜史莱姆：采石场矿井和随机地牢层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "306",
+          "基础伤害": "32",
+          "基础防御": "0",
+          "移动速度": "4",
+          "战斗经验": "10",
+          "出现地点": "采石场矿井和随机地牢层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在采石场矿井和随机地牢层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "special-iron-slime",
+      "name": "特殊铁史莱姆",
+      "slug": "monster-special-iron-slime",
+      "file": "public/assets/game/Slime_special-iron-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/6/68/Special_Iron_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "特殊铁史莱姆",
+        "slug": "monster-special-iron-slime",
+        "image": "/assets/game/Slime_special-iron-slime.png",
+        "summary": "特殊铁史莱姆：采石场矿井和随机地牢层的特殊变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "特殊变体",
+          "基础生命": "615",
+          "基础伤害": "32",
+          "基础防御": "0",
+          "移动速度": "1",
+          "战斗经验": "10",
+          "出现地点": "采石场矿井和随机地牢层",
+          "条件说明": "带黄色星形触角的特殊个体，通常为原形态3倍生命、2倍伤害；稀有替换不是固定楼层必刷，特殊掉落也不能当作每次保证。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在采石场矿井和随机地牢层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "big-green-slime",
+      "name": "大绿色史莱姆",
+      "slug": "monster-big-green-slime",
+      "file": "public/assets/game/Slime_big-green-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7a/Big_Green_Slime.png/48px-Big_Green_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "大绿色史莱姆",
+        "slug": "monster-big-green-slime",
+        "image": "/assets/game/Slime_big-green-slime.png",
+        "summary": "大绿色史莱姆：矿井相应颜色区域的史莱姆感染层的大型变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "大型变体",
+          "基础生命": "60",
+          "基础伤害": "5",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "7",
+          "出现地点": "矿井相应颜色区域的史莱姆感染层",
+          "条件说明": "可出现在危险状态，危险版生命和攻击为对应基础形态的2倍；紫色大型个体在特定齐先生任务中可能携带额外奖励。",
+          "公会目标": "大史莱姆本体不计入1000只目标；击杀后分裂出的小史莱姆计入。",
+          "应对方法": "死亡时有75%概率分裂出2—4只小史莱姆；不要在击倒大型个体后立刻放松，需留出应对新敌人的空间。",
+          "获取方式": "在矿井相应颜色区域的史莱姆感染层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ],
+          "数值复核": "原版1.6.15大型绿色史莱姆基础伤害为5；Data/Monsters和BigSlime构造均已核对，Wiki表格的6未采用。"
+        }
+      }
+    },
+    {
+      "id": "big-blue-slime",
+      "name": "大蓝色史莱姆",
+      "slug": "monster-big-blue-slime",
+      "file": "public/assets/game/Slime_big-blue-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3a/Big_Blue_Slime.png/48px-Big_Blue_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "大蓝色史莱姆",
+        "slug": "monster-big-blue-slime",
+        "image": "/assets/game/Slime_big-blue-slime.png",
+        "summary": "大蓝色史莱姆：矿井相应颜色区域的史莱姆感染层的大型变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "大型变体",
+          "基础生命": "120",
+          "基础伤害": "5",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "14",
+          "出现地点": "矿井相应颜色区域的史莱姆感染层",
+          "条件说明": "可出现在危险状态，危险版生命和攻击为对应基础形态的2倍；紫色大型个体在特定齐先生任务中可能携带额外奖励。",
+          "公会目标": "大史莱姆本体不计入1000只目标；击杀后分裂出的小史莱姆计入。",
+          "应对方法": "死亡时有75%概率分裂出2—4只小史莱姆；不要在击倒大型个体后立刻放松，需留出应对新敌人的空间。",
+          "获取方式": "在矿井相应颜色区域的史莱姆感染层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "big-red-slime",
+      "name": "大红色史莱姆",
+      "slug": "monster-big-red-slime",
+      "file": "public/assets/game/Slime_big-red-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0a/Big_Red_Slime.png/48px-Big_Red_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "大红色史莱姆",
+        "slug": "monster-big-red-slime",
+        "image": "/assets/game/Slime_big-red-slime.png",
+        "summary": "大红色史莱姆：矿井相应颜色区域的史莱姆感染层的大型变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "大型变体",
+          "基础生命": "180",
+          "基础伤害": "10",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "21",
+          "出现地点": "矿井相应颜色区域的史莱姆感染层",
+          "条件说明": "可出现在危险状态，危险版生命和攻击为对应基础形态的2倍；紫色大型个体在特定齐先生任务中可能携带额外奖励。",
+          "公会目标": "大史莱姆本体不计入1000只目标；击杀后分裂出的小史莱姆计入。",
+          "应对方法": "死亡时有75%概率分裂出2—4只小史莱姆；不要在击倒大型个体后立刻放松，需留出应对新敌人的空间。",
+          "获取方式": "在矿井相应颜色区域的史莱姆感染层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "big-purple-slime",
+      "name": "大紫色史莱姆",
+      "slug": "monster-big-purple-slime",
+      "file": "public/assets/game/Slime_big-purple-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/95/Big_Purple_Slime.png/48px-Big_Purple_Slime.png",
+      "entry": {
+        "dataset": "items",
+        "name": "大紫色史莱姆",
+        "slug": "monster-big-purple-slime",
+        "image": "/assets/game/Slime_big-purple-slime.png",
+        "summary": "大紫色史莱姆：骷髅洞穴各层的大型变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "大型变体",
+          "基础生命": "240",
+          "基础伤害": "15",
+          "基础防御": "0",
+          "移动速度": "2",
+          "战斗经验": "21",
+          "出现地点": "骷髅洞穴各层",
+          "条件说明": "可出现在危险状态，危险版生命和攻击为对应基础形态的2倍；紫色大型个体在特定齐先生任务中可能携带额外奖励。",
+          "公会目标": "大史莱姆本体不计入1000只目标；击杀后分裂出的小史莱姆计入。",
+          "应对方法": "死亡时有75%概率分裂出2—4只小史莱姆；不要在击倒大型个体后立刻放松，需留出应对新敌人的空间。",
+          "获取方式": "在骷髅洞穴各层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "prismatic-slime",
+      "name": "五彩史莱姆",
+      "slug": "monster-prismatic-slime",
+      "file": "public/assets/game/Slime_prismatic-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Prismatic_Slime.gif",
+      "entry": {
+        "dataset": "items",
+        "name": "五彩史莱姆",
+        "slug": "monster-prismatic-slime",
+        "image": "/assets/game/Slime_prismatic-slime.png",
+        "summary": "五彩史莱姆：矿井、采石场矿井或骷髅洞穴任意层的任务变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "任务变体",
+          "基础生命": "1000",
+          "基础伤害": "35",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "矿井、采石场矿井或骷髅洞穴任意层",
+          "条件说明": "必须接受巫师“五彩胶冻”特别订单且任务仍在进行；普通或危险矿井均可出现，击杀掉落任务所需五彩胶冻，不可在未接任务时提前寻找。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在矿井、采石场矿井或骷髅洞穴任意层遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dangerous-green-slime",
+      "name": "绿色史莱姆（危险）",
+      "slug": "monster-dangerous-green-slime",
+      "file": "public/assets/game/Slime_dangerous-green-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Green_Slime_Dangerous.png",
+      "entry": {
+        "dataset": "items",
+        "name": "绿色史莱姆（危险）",
+        "slug": "monster-dangerous-green-slime",
+        "image": "/assets/game/Slime_dangerous-green-slime.png",
+        "summary": "绿色史莱姆（危险）：危险矿井或任务期间的危险骷髅洞穴的危险变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "危险变体",
+          "基础生命": "对应普通个体生命×2",
+          "基础伤害": "对应普通个体伤害×2",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "危险矿井或任务期间的危险骷髅洞穴",
+          "条件说明": "危险矿井由“深处的危险”或挑战之神庙启用；骷髅洞穴的危险状态需对应齐先生特别订单，不是永久替换所有普通史莱姆。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在危险矿井或任务期间的危险骷髅洞穴遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dangerous-blue-slime",
+      "name": "蓝色史莱姆（危险）",
+      "slug": "monster-dangerous-blue-slime",
+      "file": "public/assets/game/Slime_dangerous-blue-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Blue_Slime_Dangerous.png",
+      "entry": {
+        "dataset": "items",
+        "name": "蓝色史莱姆（危险）",
+        "slug": "monster-dangerous-blue-slime",
+        "image": "/assets/game/Slime_dangerous-blue-slime.png",
+        "summary": "蓝色史莱姆（危险）：危险矿井或任务期间的危险骷髅洞穴的危险变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "危险变体",
+          "基础生命": "对应普通个体生命×2",
+          "基础伤害": "对应普通个体伤害×2",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "危险矿井或任务期间的危险骷髅洞穴",
+          "条件说明": "危险矿井由“深处的危险”或挑战之神庙启用；骷髅洞穴的危险状态需对应齐先生特别订单，不是永久替换所有普通史莱姆。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在危险矿井或任务期间的危险骷髅洞穴遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dangerous-red-slime",
+      "name": "红色史莱姆（危险）",
+      "slug": "monster-dangerous-red-slime",
+      "file": "public/assets/game/Slime_dangerous-red-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/3/35/Red_Slime_Dangerous.png",
+      "entry": {
+        "dataset": "items",
+        "name": "红色史莱姆（危险）",
+        "slug": "monster-dangerous-red-slime",
+        "image": "/assets/game/Slime_dangerous-red-slime.png",
+        "summary": "红色史莱姆（危险）：危险矿井或任务期间的危险骷髅洞穴的危险变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "危险变体",
+          "基础生命": "对应普通个体生命×2",
+          "基础伤害": "对应普通个体伤害×2",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "危险矿井或任务期间的危险骷髅洞穴",
+          "条件说明": "危险矿井由“深处的危险”或挑战之神庙启用；骷髅洞穴的危险状态需对应齐先生特别订单，不是永久替换所有普通史莱姆。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在危险矿井或任务期间的危险骷髅洞穴遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dangerous-purple-slime",
+      "name": "紫色史莱姆（危险）",
+      "slug": "monster-dangerous-purple-slime",
+      "file": "public/assets/game/Slime_dangerous-purple-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Purple_Slime_Dangerous.png",
+      "entry": {
+        "dataset": "items",
+        "name": "紫色史莱姆（危险）",
+        "slug": "monster-dangerous-purple-slime",
+        "image": "/assets/game/Slime_dangerous-purple-slime.png",
+        "summary": "紫色史莱姆（危险）：危险矿井或任务期间的危险骷髅洞穴的危险变体，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "危险变体",
+          "基础生命": "对应普通个体生命×2",
+          "基础伤害": "对应普通个体伤害×2",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "危险矿井或任务期间的危险骷髅洞穴",
+          "条件说明": "危险矿井由“深处的危险”或挑战之神庙启用；骷髅洞穴的危险状态需对应齐先生特别订单，不是永久替换所有普通史莱姆。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "观察压扁蓄力动作，及时移动或格挡；将其限制在墙角持续攻击，避免被跳跃冲撞连续命中。史莱姆克星戒指可防普通接触伤害，但叠堆飞射另有例外。",
+          "获取方式": "在危险矿井或任务期间的危险骷髅洞穴遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stacked-slime",
+      "name": "叠堆史莱姆",
+      "slug": "monster-stacked-slime",
+      "file": "public/assets/game/Slime_stacked-slime.png",
+      "imageSource": "https://stardewvalleywiki.com/mediawiki/images/9/97/Stacked_Slimes.png",
+      "entry": {
+        "dataset": "items",
+        "name": "叠堆史莱姆",
+        "slug": "monster-stacked-slime",
+        "image": "/assets/game/Slime_stacked-slime.png",
+        "summary": "叠堆史莱姆：危险矿井或任务期间的危险骷髅洞穴的叠堆形态，按生成条件、个体状态和战斗机制辨认。",
+        "attributes": {
+          "type": "怪物",
+          "怪物类别": "史莱姆",
+          "形态": "叠堆形态",
+          "基础生命": "按叠堆中各个体计算",
+          "基础伤害": "普通碰撞与飞射分开",
+          "基础防御": "随个体状态",
+          "移动速度": "随个体状态",
+          "战斗经验": "随个体状态",
+          "出现地点": "危险矿井或任务期间的危险骷髅洞穴",
+          "条件说明": "危险史莱姆有时叠在一起；上层飞射与普通接触攻击不能混同，本页图片为绿色叠堆示例。",
+          "公会目标": "野外敌对史莱姆计入1000只公会目标；史莱姆屋饲养或繁殖的史莱姆不计入，不要靠养殖刷此目标。",
+          "应对方法": "击中后上层史莱姆会像弹丸一样飞出；史莱姆克星戒指不能免疫这种飞射攻击。全部上层被击落后，底层按普通史莱姆方式行动。",
+          "获取方式": "在危险矿井或任务期间的危险骷髅洞穴遇到；出现条件与概率不代表每次进入都能找到，不属于商店出售的材料。",
+          "主要用途": "辨认不同史莱姆，规划矿洞探索、公会目标或特定任务；材料、史莱姆蛋与生物身份分开记录。",
+          "新手建议": "表内为基础参考值，雄性、危险状态和特殊个体可能继续改变属性；农场击杀仅获正常战斗经验的三分之一。",
+          "资料来源": "https://stardewvalleywiki.com/Slimes",
+          "links": [
+            "/wiki/items",
+            "/guides/mines-floor-120-resource-monster-route"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "803",
+      "name": "铱奶",
+      "slug": "interaction-803",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Skull_Cavern",
+        "revision": 193731,
+        "sha256": "9fc6bce46ea28bf415b915e5b936fc5ba841540f40f0dba0b9dbcd26dadbe7e9"
+      }
+    },
+    {
+      "nativeId": "880",
+      "name": "组合戒指",
+      "slug": "interaction-880",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Forge",
+        "revision": 193900,
+        "sha256": "8dd552c95461267c6ed863d467b32aea414c27407d405c3609f17361867cda4c"
+      }
+    },
+    {
+      "nativeId": "GoldCoin",
+      "name": "金币",
+      "slug": "interaction-goldcoin",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Parrot_Egg",
+        "revision": 192171,
+        "sha256": "89bc68d0fffdfd7d8b4a2fb6a5842e04dd689c9393082605a9cbfbc95917eb0f"
+      }
+    },
+    {
+      "nativeId": "PetLicense",
+      "name": "宠物饲养证",
+      "slug": "interaction-petlicense",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Marnie's_Ranch",
+        "revision": 194223,
+        "sha256": "1eab8d017e3db985aab204a5eb5e534b4e9f0846d019ff543d0729753cf13903"
+      }
+    }
+  ]
+}

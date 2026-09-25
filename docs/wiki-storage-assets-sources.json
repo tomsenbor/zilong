@@ -1,0 +1,54 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-23T11:30:09.209Z",
+  "images": [
+    {
+      "file": "public/assets/game/Chest.png",
+      "source": "https://stardewvalleywiki.com/File:Chest.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Chest.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "71b5a6726de498c79bf67d0e5352939c7ce90261838e60c584fafe91fc727416"
+    },
+    {
+      "file": "public/assets/game/Stone_Chest.png",
+      "source": "https://stardewvalleywiki.com/File:Stone_Chest.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Stone_Chest.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "d0e1346f1ec0f4046706e979263407f414d8cbf33cf6da80e3c7312aeb3a36c1"
+    },
+    {
+      "file": "public/assets/game/Big_Chest.png",
+      "source": "https://stardewvalleywiki.com/File:Big_Chest.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/89/Big_Chest.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "7aafe59019f08a67678d158f63bfbea781a1a77af2d373c8c25b0976f8d864a2"
+    },
+    {
+      "file": "public/assets/game/Big_Stone_Chest.png",
+      "source": "https://stardewvalleywiki.com/File:Big_Stone_Chest.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a6/Big_Stone_Chest.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "69a908573cc6feef84aa38adb48bbc1af580acb55e4d05f40d4ba9dbbfec3932"
+    },
+    {
+      "file": "public/assets/game/Junimo_Chest.png",
+      "source": "https://stardewvalleywiki.com/File:Junimo_Chest.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bc/Junimo_Chest.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "652b1f59f15a77ffc3da0aceefdc64a67f5fd5616c544218f8e60b5b969ae6d9"
+    },
+    {
+      "file": "public/assets/game/Mini-Fridge.png",
+      "source": "https://stardewvalleywiki.com/File:Mini-Fridge.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Mini-Fridge.png",
+      "width": 48,
+      "height": 96,
+      "sha256": "f967ff7d36ae2219c08a75ff0eeaa019c86fe38f0e8dd4aa44fb2acd05ab681c"
+    }
+  ]
+}

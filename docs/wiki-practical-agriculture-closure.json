@@ -1,0 +1,282 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-24",
+  "scope": "种子、作物、树木、肥料、巨型作物与已列农田设施；正常牧草和季节野生种子以准确已有页承载。机器与建筑在各自实用类别交叉验收。",
+  "nativeRoster": "wiki-agriculture-native-roster.json",
+  "agricultureIdentities": 164,
+  "nativeHarvestSource": {
+    "source": "Data/Crops",
+    "sha256": "F8A4479265A9218BADF47D3324BFE6F2BE3F0EDE453CB06DB278CF77721AA4C8",
+    "objectsSha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+    "records": [
+      {
+        "seedId": "273",
+        "harvestId": "271",
+        "harvestName": "Unmilled Rice"
+      },
+      {
+        "seedId": "299",
+        "harvestId": "300",
+        "harvestName": "Amaranth"
+      },
+      {
+        "seedId": "301",
+        "harvestId": "398",
+        "harvestName": "Grape"
+      },
+      {
+        "seedId": "302",
+        "harvestId": "304",
+        "harvestName": "Hops"
+      },
+      {
+        "seedId": "347",
+        "harvestId": "417",
+        "harvestName": "Sweet Gem Berry"
+      },
+      {
+        "seedId": "425",
+        "harvestId": "595",
+        "harvestName": "Fairy Rose"
+      },
+      {
+        "seedId": "427",
+        "harvestId": "591",
+        "harvestName": "Tulip"
+      },
+      {
+        "seedId": "429",
+        "harvestId": "597",
+        "harvestName": "Blue Jazz"
+      },
+      {
+        "seedId": "431",
+        "harvestId": "421",
+        "harvestName": "Sunflower"
+      },
+      {
+        "seedId": "433",
+        "harvestId": "433",
+        "harvestName": "Coffee Bean"
+      },
+      {
+        "seedId": "453",
+        "harvestId": "376",
+        "harvestName": "Poppy"
+      },
+      {
+        "seedId": "455",
+        "harvestId": "593",
+        "harvestName": "Summer Spangle"
+      },
+      {
+        "seedId": "472",
+        "harvestId": "24",
+        "harvestName": "Parsnip"
+      },
+      {
+        "seedId": "473",
+        "harvestId": "188",
+        "harvestName": "Green Bean"
+      },
+      {
+        "seedId": "474",
+        "harvestId": "190",
+        "harvestName": "Cauliflower"
+      },
+      {
+        "seedId": "475",
+        "harvestId": "192",
+        "harvestName": "Potato"
+      },
+      {
+        "seedId": "476",
+        "harvestId": "248",
+        "harvestName": "Garlic"
+      },
+      {
+        "seedId": "477",
+        "harvestId": "250",
+        "harvestName": "Kale"
+      },
+      {
+        "seedId": "478",
+        "harvestId": "252",
+        "harvestName": "Rhubarb"
+      },
+      {
+        "seedId": "479",
+        "harvestId": "254",
+        "harvestName": "Melon"
+      },
+      {
+        "seedId": "480",
+        "harvestId": "256",
+        "harvestName": "Tomato"
+      },
+      {
+        "seedId": "481",
+        "harvestId": "258",
+        "harvestName": "Blueberry"
+      },
+      {
+        "seedId": "482",
+        "harvestId": "260",
+        "harvestName": "Hot Pepper"
+      },
+      {
+        "seedId": "483",
+        "harvestId": "262",
+        "harvestName": "Wheat"
+      },
+      {
+        "seedId": "484",
+        "harvestId": "264",
+        "harvestName": "Radish"
+      },
+      {
+        "seedId": "485",
+        "harvestId": "266",
+        "harvestName": "Red Cabbage"
+      },
+      {
+        "seedId": "486",
+        "harvestId": "268",
+        "harvestName": "Starfruit"
+      },
+      {
+        "seedId": "487",
+        "harvestId": "270",
+        "harvestName": "Corn"
+      },
+      {
+        "seedId": "488",
+        "harvestId": "272",
+        "harvestName": "Eggplant"
+      },
+      {
+        "seedId": "489",
+        "harvestId": "274",
+        "harvestName": "Artichoke"
+      },
+      {
+        "seedId": "490",
+        "harvestId": "276",
+        "harvestName": "Pumpkin"
+      },
+      {
+        "seedId": "491",
+        "harvestId": "278",
+        "harvestName": "Bok Choy"
+      },
+      {
+        "seedId": "492",
+        "harvestId": "280",
+        "harvestName": "Yam"
+      },
+      {
+        "seedId": "493",
+        "harvestId": "282",
+        "harvestName": "Cranberries"
+      },
+      {
+        "seedId": "494",
+        "harvestId": "284",
+        "harvestName": "Beet"
+      },
+      {
+        "seedId": "495",
+        "harvestId": "16",
+        "harvestName": "Wild Horseradish"
+      },
+      {
+        "seedId": "496",
+        "harvestId": "396",
+        "harvestName": "Spice Berry"
+      },
+      {
+        "seedId": "497",
+        "harvestId": "404",
+        "harvestName": "Common Mushroom"
+      },
+      {
+        "seedId": "498",
+        "harvestId": "412",
+        "harvestName": "Winter Root"
+      },
+      {
+        "seedId": "499",
+        "harvestId": "454",
+        "harvestName": "Ancient Fruit"
+      },
+      {
+        "seedId": "745",
+        "harvestId": "400",
+        "harvestName": "Strawberry"
+      },
+      {
+        "seedId": "802",
+        "harvestId": "90",
+        "harvestName": "Cactus Fruit"
+      },
+      {
+        "seedId": "831",
+        "harvestId": "830",
+        "harvestName": "Taro Root"
+      },
+      {
+        "seedId": "833",
+        "harvestId": "832",
+        "harvestName": "Pineapple"
+      },
+      {
+        "seedId": "885",
+        "harvestId": "771",
+        "harvestName": "Fiber"
+      },
+      {
+        "seedId": "890",
+        "harvestId": "889",
+        "harvestName": "Qi Fruit"
+      },
+      {
+        "seedId": "CarrotSeeds",
+        "harvestId": "Carrot",
+        "harvestName": "Carrot"
+      },
+      {
+        "seedId": "SummerSquashSeeds",
+        "harvestId": "SummerSquash",
+        "harvestName": "Summer Squash"
+      },
+      {
+        "seedId": "BroccoliSeeds",
+        "harvestId": "Broccoli",
+        "harvestName": "Broccoli"
+      },
+      {
+        "seedId": "PowdermelonSeeds",
+        "harvestId": "Powdermelon",
+        "harvestName": "Powdermelon"
+      }
+    ]
+  },
+  "wildHarvests": [
+    {"seedKey":"seed:495","harvestKeys":["forage:16","forage:18","forage:20","forage:22"],"sourceUrl":"https://stardewvalleywiki.com/Spring_Seeds"},
+    {"seedKey":"seed:496","harvestKeys":["legacy-primary:Crops:Grape","forage:396","forage:402"],"sourceUrl":"https://stardewvalleywiki.com/Summer_Seeds"},
+    {"seedKey":"seed:497","harvestKeys":["forage:410","forage:404","forage:408","forage:406"],"sourceUrl":"https://stardewvalleywiki.com/Fall_Seeds"},
+    {"seedKey":"seed:498","harvestKeys":["forage:418","forage:414","forage:416","forage:412"],"sourceUrl":"https://stardewvalleywiki.com/Winter_Seeds"}
+  ],
+  "mergedTerrain": [
+    {"identity":"mature-green-grass","manifestKey":"agriculture:grass-starter","requiredFields":["收割与储存","扩散限制"],"reason":"草籽页已明确种下成为牧草、成熟后扩散与收割；不重复建立相同玩法页面。"},
+    {"identity":"mature-blue-grass","manifestKey":"agriculture:blue-grass-starter","requiredFields":["收割与储存","扩散限制","蓝草区别"],"reason":"蓝草籽页已明确蓝草饲喂与收割差异，不当作普通牧草混写。"}
+  ],
+  "evidence": [
+    {"sourceUrl":"https://stardewvalleywiki.com/Grass","revision":194353,"versionEvidence":"History记录1.6加入蓝草及冬季休眠，1.6.9蓝草扩散速度调整，均不晚于1.6.15。"},
+    {"sourceUrl":"https://stardewvalleywiki.com/Spring_Seeds","section":"Crops Harvested","note":"2026-09-24在线重新核对四种产物；版本与单项修订沿用种子及采集物来源记录。"},
+    {"sourceUrl":"https://stardewvalleywiki.com/Summer_Seeds","section":"Crops Harvested","note":"三种产物；葡萄复用已有crops/grape，不再建立第二个物品身份。"},
+    {"sourceUrl":"https://stardewvalleywiki.com/Fall_Seeds","section":"Crops Harvested","note":"四种产物；与已有季节种子专项断言交叉核对。"},
+    {"sourceUrl":"https://stardewvalleywiki.com/Winter_Seeds","section":"Crops Harvested","note":"四种产物；不把冬青纳入种子产出。"}
+  ],
+  "limitations": "此文件关闭农业实用名册的牧草及野生种子身份对应缺口，不宣称每个旧字段已重新核实，也不替代全量和真实浏览器验收。旧内部全量清单保持原样。"
+}

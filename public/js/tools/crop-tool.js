@@ -17,10 +17,13 @@ const metric = (label, value, note) =>
 
 const scenarioLabels = { sell: "直接出售", jar: "罐头瓶", keg: "小桶" };
 
-function scenarioCards(item) {
+export function scenarioCards(item) {
   return `<div class="crop-result-grid">${["sell", "jar", "keg"].map((method) => {
     const scenario = item.scenarios[method];
-    const detail = scenario.supported
+    const detail = method === "sell" ? "全部按原料出售"
+      : scenario.supported && scenario.processedInputQuantity === 0
+      ? "规划期内未完成加工，全部按原料出售；请核对设备数量和剩余天数。"
+      : scenario.supported
       ? `完成加工 ${scenario.processedInputQuantity.toFixed(1)}，剩余原料 ${scenario.remainingRawQuantity.toFixed(1)}`
       : "该作物不支持此加工方式";
     return metric(scenarioLabels[method], formatGold(scenario.profit), detail);
@@ -103,6 +106,8 @@ export async function renderCropTool(app, params = new URLSearchParams()) {
           <div class="field"><label for="crop-plots">地块数量</label><input class="${uiClass("input")}" id="crop-plots" name="plots" type="number" min="1" max="9999" value="${escapeHtml(params.get("plots") || "100")}"></div>
           <div class="field"><label for="crop-budget">可用预算</label><input class="${uiClass("input")}" id="crop-budget" name="budget" type="number" min="0" value="${escapeHtml(params.get("budget") || "10000")}"></div>
           <div class="field"><label for="crop-method">出售方式</label><select class="${uiClass("select")}" id="crop-method" name="method"><option value="sell">直接出售</option><option value="jar">罐头瓶</option><option value="keg">小桶</option></select></div>
+          <div class="field crop-machine-field" data-machine-field="jar" hidden><label for="crop-jar-count">罐头瓶数量</label><input class="${uiClass("input")}" id="crop-jar-count" name="jarCount" type="number" min="0" max="9999" value="0"></div>
+          <div class="field crop-machine-field" data-machine-field="keg" hidden><label for="crop-keg-count">小桶数量</label><input class="${uiClass("input")}" id="crop-keg-count" name="kegCount" type="number" min="0" max="9999" value="0"></div>
         </div>
       </section>
       <details id="crop-advanced-conditions" class="crop-advanced-conditions">
@@ -114,8 +119,6 @@ export async function renderCropTool(app, params = new URLSearchParams()) {
           <div class="field"><label for="crop-owned-fertilizer">已有肥料数量</label><input class="${uiClass("input")}" id="crop-owned-fertilizer" name="ownedFertilizerCount" type="number" min="0" max="9999" value="0"></div>
           <label class="check-field"><input name="agriculturist" type="checkbox"> 农业学家（生长速度 +10%）</label>
           <label class="check-field"><input name="tiller" type="checkbox"> 农耕人（原作物售价 +10%）</label>
-          <div class="field crop-machine-field" data-machine-field="jar" hidden><label for="crop-jar-count">罐头瓶数量</label><input class="${uiClass("input")}" id="crop-jar-count" name="jarCount" type="number" min="0" max="9999" value="0"></div>
-          <div class="field crop-machine-field" data-machine-field="keg" hidden><label for="crop-keg-count">小桶数量</label><input class="${uiClass("input")}" id="crop-keg-count" name="kegCount" type="number" min="0" max="9999" value="0"></div>
           <label class="check-field"><input name="desertUnlocked" type="checkbox"> 已解锁沙漠</label>
           <label class="check-field"><input name="greenhouseUnlocked" type="checkbox"> 已解锁温室</label>
           <label class="check-field"><input name="islandUnlocked" type="checkbox"> 已解锁姜岛</label>

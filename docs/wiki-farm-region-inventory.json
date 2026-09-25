@@ -1,0 +1,130 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Locations",
+    "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+  },
+  "status": "reviewed subset; full world inventory pending",
+  "records": [
+    {
+      "title": "Standard Farm",
+      "nativeId": "Farm_Standard",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-standard",
+      "name": "标准农场"
+    },
+    {
+      "title": "Riverland Farm",
+      "nativeId": "Farm_Riverland",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-riverland",
+      "name": "河边农场"
+    },
+    {
+      "title": "Forest Farm",
+      "nativeId": "Farm_Forest",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-forest",
+      "name": "森林农场"
+    },
+    {
+      "title": "Hill-top Farm",
+      "nativeId": "Farm_Hilltop",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-hilltop",
+      "name": "山顶农场"
+    },
+    {
+      "title": "Wilderness Farm",
+      "nativeId": "Farm_Wilderness",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-wilderness",
+      "name": "荒野农场"
+    },
+    {
+      "title": "Four Corners Farm",
+      "nativeId": "Farm_FourCorners",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-four-corners",
+      "name": "四角农场"
+    },
+    {
+      "title": "Beach Farm",
+      "nativeId": "Farm_Beach",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-beach",
+      "name": "海滩农场"
+    },
+    {
+      "title": "Meadowlands Farm",
+      "nativeId": "Farm_MeadowlandsFarm",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Farm_Maps",
+        "revision": 191362,
+        "sha256": "8bee515673d0948effe8379cfc494d695d8829a452851600775dee0e98bd81c4"
+      },
+      "dataset": "locations",
+      "slug": "farm-meadowlands",
+      "name": "草原农场"
+    },
+    {
+      "title": "Cindersap Forest",
+      "nativeId": "Forest",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Cindersap_Forest",
+        "revision": 194137,
+        "sha256": "84cd10764d6bfe3eb5beb3440c5fe0377a2e58d6a14b56a444749e8fa9bee39c"
+      },
+      "dataset": "locations",
+      "slug": "cindersap-forest",
+      "name": "煤矿森林"
+    },
+    {
+      "title": "Community Center",
+      "nativeId": "CommunityCenter",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Community_Center",
+        "revision": 193096,
+        "sha256": "7cb9fb11af73cf96fc3e608d51bb80f4c9eb7f36630c8d69c4b468165c76776e"
+      },
+      "dataset": "locations",
+      "slug": "community-center-building",
+      "name": "社区中心（建筑）"
+    }
+  ]
+}

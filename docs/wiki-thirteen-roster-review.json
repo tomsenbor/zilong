@@ -1,0 +1,358 @@
+{
+  "version": "1.6.15",
+  "reviewedOn": "2026-09-24",
+  "scope": "The thirteen groups pending at the start of this continuation. Original native IDs enumerate source candidates independently from current website entries. Candidate counts are NOT confirmed obtainable item counts or missing-page counts.",
+  "status": "incomplete",
+  "groups": [
+    {
+      "id": "agriculture",
+      "name": "农业与种植",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 164,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 78
+        },
+        {
+          "asset": "Data/Crops",
+          "sha256": "F8A4479265A9218BADF47D3324BFE6F2BE3F0EDE453CB06DB278CF77721AA4C8",
+          "count": 50
+        },
+        {
+          "asset": "Data/WildTrees",
+          "sha256": "11A3317BF6A5E3C5D301EC45A5C26812060F46F655C423DBF39861A73B6588D2",
+          "count": 11
+        },
+        {
+          "asset": "Data/FruitTrees",
+          "sha256": "E9D8EB03613068FD244067539ACAC74546EC1DDD7461F922416B331444744F73",
+          "count": 8
+        },
+        {
+          "asset": "Data/GiantCrops",
+          "sha256": "BB84916D88BA438AC7917E28BA0C2930441540EDC5BAC1A934DD1CC9C1996D72",
+          "count": 5
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-agriculture-native-roster.json"
+      ],
+      "remainingReview": "成熟牧草地形、野生种子完整产物及跨类边界仍需核对。",
+      "candidateFile": "wiki-native-candidates-agriculture.json"
+    },
+    {
+      "id": "characters",
+      "name": "人物",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 53,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Characters",
+          "sha256": "3B9519BF4887B557FB73C68834871C16755616A7EF26D84DC0BDBD95447F64A8",
+          "count": 48
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-additional-character-inventory.json",
+        "wiki-special-character-inventory.json"
+      ],
+      "remainingReview": "原版48条角色记录之外还存在地图内商人和剧情角色；???不能直接当作科罗布斯。",
+      "candidateFile": "wiki-native-candidates-characters.json"
+    },
+    {
+      "id": "creatures",
+      "name": "动物与怪物",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 130,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/FarmAnimals",
+          "sha256": "84FBCB80E492B6C2C6E09F16A1D4D92BBB1081FEE917EBFD6297BE3C4815BE65",
+          "count": 14
+        },
+        {
+          "asset": "Data/Pets",
+          "sha256": "BE3DF20CAA54FC05A445C8881CDF051AF6D5DE0C90318422AEE66D8AB2F1949F",
+          "count": 3
+        },
+        {
+          "asset": "Data/Monsters",
+          "sha256": "0DC0AFA9C7AF584291EF2FD1F81D49997BA7F5DAAAC2FE97DF4F2D0F154A7AFB",
+          "count": 51
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-farm-animal-inventory.json",
+        "wiki-pet-inventory.json",
+        "wiki-monster-inventory.json",
+        "wiki-wildlife-inventory.json"
+      ],
+      "remainingReview": "原版基础怪物表不是全部变体；宠物需展开品种，剧情、危险矿井和固定野生生物另核对。",
+      "candidateFile": "wiki-native-candidates-creatures.json"
+    },
+    {
+      "id": "food",
+      "name": "料理、采集与加工品",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 172,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 202
+        },
+        {
+          "asset": "Data/CookingRecipes",
+          "sha256": "1773C16E1E23AB752F8E0A6EE991EF44156B2E13D477DF74C057AC0D3BCB05A4",
+          "count": 81
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-food-native-roster.json"
+      ],
+      "remainingReview": "原版Lumber编号30有可食用字段，但正常玩法来源尚未查明；不能直接判为料理或无依据排除。",
+      "candidateFile": "wiki-native-candidates-food.json"
+    },
+    {
+      "id": "resources",
+      "name": "资源、矿物与古物",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 154,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 124
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-legacy-collection-inventory.json",
+        "wiki-material-inventory.json",
+        "wiki-environment-inventory.json"
+      ],
+      "remainingReview": "矿物与古物集合已对齐，固定资源节点、杂草/石头等原版地形形态仍需完整枚举。",
+      "candidateFile": "wiki-native-candidates-resources.json"
+    },
+    {
+      "id": "machines",
+      "name": "机器与建筑",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 107,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/BigCraftables",
+          "sha256": "E0E23B6427474A57AB331D00A6C9E8F3B97453930FF75B1EB31EB14453C42889",
+          "count": 182
+        },
+        {
+          "asset": "Data/Buildings",
+          "sha256": "1917DE8574CFAB091C3E40DBB6CF8243F09066A53CC41B08BD1E67F7F4ED3290",
+          "count": 25
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-building-inventory.json",
+        "wiki-craft-facility-inventory.json"
+      ],
+      "remainingReview": "182条大件数据并不全是机器；须按原版身份区分农业、装饰和功能设施，不能按数量补同名页。",
+      "candidateFile": "wiki-native-candidates-machines.json"
+    },
+    {
+      "id": "equipment",
+      "name": "工具与装备",
+      "reviewStatus": "identity-roster-closed",
+      "registeredIdentityCount": 159,
+      "independentExpectedCount": 159,
+      "nativeSources": [
+        {
+          "asset": "Data/Tools",
+          "sha256": "86A85235A08D9056D53FD7622AE871CE0F56FBC465415C99364E0932F7A14C97",
+          "count": 37
+        },
+        {
+          "asset": "Data/weapons",
+          "sha256": "1D7F1C2CE413BB92B28D7282C0F288DEC351B05D317EFAF778F30E30E671579E",
+          "count": 67
+        },
+        {
+          "asset": "Data/Boots",
+          "sha256": "F6880FB49CF5CCBDDD0F30487FF2D278AC02688BF557838F04C4D2E0B958F52F",
+          "count": 18
+        },
+        {
+          "asset": "Data/Trinkets",
+          "sha256": "D231C496F3A7480898900A0EBC87C09929D5208286959DA5D3BDC8BE77BFA39D",
+          "count": 8
+        },
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 31
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-equipment-closure.json"
+      ],
+      "remainingReview": "已闭合基础身份集合；随机数值、附魔和组合戒指配对不重复新增基础条目。",
+      "candidateFile": "wiki-native-candidates-equipment.json"
+    },
+    {
+      "id": "clothing",
+      "name": "帽子与服装",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 442,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/hats",
+          "sha256": "FCBD1E5C35358333D73D27FAB746484B96EE900359963045B037A398B7B6F3D9",
+          "count": 122
+        },
+        {
+          "asset": "Data/Shirts",
+          "sha256": "F7853B9CB4612ACCEA8B0AA6585A88FB6FA0853643EC81748A88B51964A9D08E",
+          "count": 303
+        },
+        {
+          "asset": "Data/Pants",
+          "sha256": "62FEB36593E7238C06CB83616DFE235B8F5E99EA8B15A5FB97D82BE000E43804",
+          "count": 18
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-hat-inventory.json",
+        "wiki-clothing-inventory.json"
+      ],
+      "remainingReview": "裤装14号Polka Dot Shorts仍缺正常获取或明确排除依据；同名派对帽须按原版ID区分。",
+      "candidateFile": "wiki-native-candidates-clothing.json"
+    },
+    {
+      "id": "furniture",
+      "name": "家具",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 643,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Furniture",
+          "sha256": "00BC6A6058947CCA29579B441A2BEE328EF91D8CE64782069A36553327C1583F",
+          "count": 645
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-furniture-inventory.json"
+      ],
+      "remainingReview": "FoodPetBowl和WaterPetBowl两条家具来源未决，不与宠物碗建筑合并。",
+      "candidateFile": "wiki-native-candidates-furniture.json"
+    },
+    {
+      "id": "decoration",
+      "name": "壁纸、地板与装饰",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 261,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/AdditionalWallpaperFlooring",
+          "sha256": "FD6159E48C67203C847F0A9D3E1B769A16B252A092826503124080D9C9BEBC66",
+          "count": 2
+        },
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 17
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-flooring-inventory.json",
+        "wiki-wallpaper-inventory.json"
+      ],
+      "remainingReview": "附加墙纸/地板记录是材质集合，须展开Count；还需复核原版基础材质、固定场景及围栏路径。",
+      "candidateFile": "wiki-native-candidates-decoration.json"
+    },
+    {
+      "id": "special",
+      "name": "特殊物品与能力",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 98,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Objects",
+          "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30",
+          "count": 309
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-special-inventory.json",
+        "wiki-wallet-inventory.json",
+        "wiki-book-inventory.json",
+        "wiki-questitem-inventory.json"
+      ],
+      "remainingReview": "此处是待分类候选池而非已纳入物品。特殊任务、钱包能力、书籍和疑似废弃对象须逐项归类，不虚构获得方法。",
+      "candidateFile": "wiki-native-candidates-special.json"
+    },
+    {
+      "id": "quests-events",
+      "name": "任务与活动",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 114,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Quests",
+          "sha256": "164A9E4E0003C4EFC8D13B6E82E4CAB1C1AFA334C4772C61A4FD333588E5824F",
+          "count": 66
+        },
+        {
+          "asset": "Data/SpecialOrders",
+          "sha256": "F024A27F714D960D3DEDD965258ACE69B23DF2875F6653D2394527E50C96726E",
+          "count": 33
+        },
+        {
+          "asset": "Data/PassiveFestivals",
+          "sha256": "84F960728E3CEED666C2AA0A5FD173FA0483F69D76052BF2DA45485C946229AE",
+          "count": 4
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-quest-identity-inventory.json",
+        "wiki-story-quest-inventory.json",
+        "wiki-special-order-inventory.json"
+      ],
+      "remainingReview": "随机求助模板、节日、事件任务与内部重复任务编号须交叉映射，原版基础任务表不能独自证明全量。",
+      "candidateFile": "wiki-native-candidates-quests-events.json"
+    },
+    {
+      "id": "locations",
+      "name": "地点",
+      "reviewStatus": "pending",
+      "registeredIdentityCount": 85,
+      "independentExpectedCount": null,
+      "nativeSources": [
+        {
+          "asset": "Data/Locations",
+          "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49",
+          "count": 91
+        }
+      ],
+      "reviewDocuments": [
+        "wiki-world-location-inventory.json",
+        "wiki-shop-location-inventory.json",
+        "wiki-island-region-inventory.json",
+        "wiki-farm-region-inventory.json"
+      ],
+      "remainingReview": "内部地图名、同一地点室内/季节状态和独立可达区域须逐一对照，不把91条内部记录当作91个新地点。",
+      "candidateFile": "wiki-native-candidates-locations.json"
+    }
+  ],
+  "completionRule": "Do not change pending to complete until normally obtainable identities, cross-category references and every exclusion have evidence. Existing fishing and skills closures are outside these thirteen. Equipment closes during this continuation; twelve still pending."
+}

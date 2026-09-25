@@ -1,0 +1,981 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Hat_abigails-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Abigail%27s_Bow.png",
+      "source": "https://stardewvalleywiki.com/Abigail's_Bow",
+      "width": 48,
+      "height": 48,
+      "sha256": "933dc962f7aaa4e984b4548dc2635b72c5f882611ab419e926674c1703a71d5a"
+    },
+    {
+      "file": "public/assets/game/Hat_arcane-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Arcane_Hat.png",
+      "source": "https://stardewvalleywiki.com/Arcane_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "e29fa3af7b739e6145e5d867b52ef961597258534f55a35af0767765253ac05a"
+    },
+    {
+      "file": "public/assets/game/Hat_archers-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Archer%27s_Cap.png",
+      "source": "https://stardewvalleywiki.com/Archer's_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "94aebfcc040f5bd7dee2b71af5085f746a67c5ca221ef0c0bee439ac72082e44"
+    },
+    {
+      "file": "public/assets/game/Hat_beanie.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Beanie.png",
+      "source": "https://stardewvalleywiki.com/Beanie",
+      "width": 54,
+      "height": 54,
+      "sha256": "8afc1086e90a702456bc72389cdc4ac11497348c86fdfd20b4f1b8527c98e0b6"
+    },
+    {
+      "file": "public/assets/game/Hat_blobfish-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Blobfish_Mask.png",
+      "source": "https://stardewvalleywiki.com/Blobfish_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "a45dfe4a489582db62943540868fcf9429a35e0e01fea9982047c7dd18ffd2ed"
+    },
+    {
+      "file": "public/assets/game/Hat_blue-bonnet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Blue_Bonnet.png",
+      "source": "https://stardewvalleywiki.com/Blue_Bonnet",
+      "width": 54,
+      "height": 54,
+      "sha256": "ad44c5fa8a0800cb4d232e0a5399a3a94527f900873dcaf8177e57d4c17ef777"
+    },
+    {
+      "file": "public/assets/game/Hat_blue-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Blue_Bow.png",
+      "source": "https://stardewvalleywiki.com/Blue_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "95125ccbd15b029946c7a4f2fa630d65b5de651f63859abe083b19b35402c23d"
+    },
+    {
+      "file": "public/assets/game/Hat_blue-cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Blue_Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Blue_Cowboy_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "6b682ae531972ea6ccdf4b1ad8fd65f5cb6d508bad8a1074d170bfb1ad3fd977"
+    },
+    {
+      "file": "public/assets/game/Hat_blue-ribbon.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Blue_Ribbon.png",
+      "source": "https://stardewvalleywiki.com/Blue_Ribbon",
+      "width": 48,
+      "height": 48,
+      "sha256": "2172ab1463361649ed36b9000ac3143fc50cd4da73c9cd0b9bd26f97a889e324"
+    },
+    {
+      "file": "public/assets/game/Hat_bluebird-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Bluebird_Mask.png",
+      "source": "https://stardewvalleywiki.com/Bluebird_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "a26b3ac829c099973ee1906a4fe7c9b81cc0e55f7b3aa71fa358cb32c2f92ff7"
+    },
+    {
+      "file": "public/assets/game/Hat_bowler-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Bowler_Hat.png",
+      "source": "https://stardewvalleywiki.com/Bowler_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "440dc3691c299b7989341e4b3664b10dd3846a3dce6dbecb1ae265b6ec937bf8"
+    },
+    {
+      "file": "public/assets/game/Hat_bridal-veil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Bridal_Veil.png",
+      "source": "https://stardewvalleywiki.com/Bridal_Veil",
+      "width": 54,
+      "height": 54,
+      "sha256": "fd8984779c327f11178be3756f4ffab48469af734c5b28cd198d88ca1316d134"
+    },
+    {
+      "file": "public/assets/game/Hat_bucket-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Bucket_Hat.png",
+      "source": "https://stardewvalleywiki.com/Bucket_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "aff775709ba62d9bc3a188159f1880848083d29ac928c6b4eee796e47cb63789"
+    },
+    {
+      "file": "public/assets/game/Hat_butterfly-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/01/Butterfly_Bow.png",
+      "source": "https://stardewvalleywiki.com/Butterfly_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "ad645741d179cfc14a398368223f658610330392fb71b330791f73f5b3ae0694"
+    },
+    {
+      "file": "public/assets/game/Hat_cat-ears.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Cat_Ears.png",
+      "source": "https://stardewvalleywiki.com/Cat_Ears",
+      "width": 54,
+      "height": 54,
+      "sha256": "eadbf1f19f6df35b643af7db4fd11e4d5bea5d0f3054d5675426f7573c49935f"
+    },
+    {
+      "file": "public/assets/game/Hat_chef-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Chef_Hat.png",
+      "source": "https://stardewvalleywiki.com/Chef_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "4d53f6926fd1b6cf82891d658e7bd61c6d8738891ed624aca2360606a1ff7bd1"
+    },
+    {
+      "file": "public/assets/game/Hat_chicken-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Chicken_Mask.png",
+      "source": "https://stardewvalleywiki.com/Chicken_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "25bd68b29c104f8241d16dac0aaa2d46f79146dfe5ffd65c3720b7503bb71e0c"
+    },
+    {
+      "file": "public/assets/game/Hat_cone-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Cone_Hat.png",
+      "source": "https://stardewvalleywiki.com/Cone_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "556fb6261688faef2eaca729a60cfcb1e31070753f6b5e50e72fcc88fbd3ae0f"
+    },
+    {
+      "file": "public/assets/game/Hat_cool-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Cool_Cap.png",
+      "source": "https://stardewvalleywiki.com/Cool_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "43a3a01f043399a045c8ab02012cb7704cab32732f97c190ff0b83841dd9f125"
+    },
+    {
+      "file": "public/assets/game/Hat_copper-pan-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Copper_Pan_%28hat%29.png",
+      "source": "https://stardewvalleywiki.com/Copper_Pan_(hat)",
+      "width": 54,
+      "height": 54,
+      "sha256": "3c5394f315d2cf78f175a3d0375ffdd87414ae3a9d4df32d0b4eee22fe7c2f8f"
+    },
+    {
+      "file": "public/assets/game/Hat_cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Cowboy_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "a327194866191f20cee4d251188d515d46544083d0e7ff0921686c8a354600c9"
+    },
+    {
+      "file": "public/assets/game/Hat_cowgal-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Cowgal_Hat.png",
+      "source": "https://stardewvalleywiki.com/Cowgal_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "045f72641073ff3962760bcdecfc495b60446c9185cde833701f3b55c11d0d71"
+    },
+    {
+      "file": "public/assets/game/Hat_cowpoke-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Cowpoke_Hat.png",
+      "source": "https://stardewvalleywiki.com/Cowpoke_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "8bd9c2fc8f983b713304305c9c4b9f89f62924a5b52a8fde1411550487aeb1e0"
+    },
+    {
+      "file": "public/assets/game/Hat_daisy.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c1/Daisy.png",
+      "source": "https://stardewvalleywiki.com/Daisy",
+      "width": 54,
+      "height": 54,
+      "sha256": "2824b349c708c44a48f161424b3a86151687c587341af75b1aa1fd054cc76e44"
+    },
+    {
+      "file": "public/assets/game/Hat_dark-ballcap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/64/Dark_Ballcap.png",
+      "source": "https://stardewvalleywiki.com/Dark_Ballcap",
+      "width": 48,
+      "height": 48,
+      "sha256": "55775554c9aff1d91bfc9b51ffe934ed5f09070fc5bb03ec1f2e5b427533579c"
+    },
+    {
+      "file": "public/assets/game/Hat_dark-cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Dark_Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Dark_Cowboy_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "7e56db07738656886e84b1aa5897ff001021edbbc9b7607e3a866550aeed242e"
+    },
+    {
+      "file": "public/assets/game/Hat_dark-velvet-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Dark_Velvet_Bow.png",
+      "source": "https://stardewvalleywiki.com/Dark_Velvet_Bow",
+      "width": 58,
+      "height": 58,
+      "sha256": "956b46a14d6fba5298c081f47e6df78ee1db61e928d822640eda1020f9b759a2"
+    },
+    {
+      "file": "public/assets/game/Hat_delicate-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/38/Delicate_Bow.png",
+      "source": "https://stardewvalleywiki.com/Delicate_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "e4a6cd7edde8e712a5e5713346607308f5de9e03abd017ef1565e53c044c827c"
+    },
+    {
+      "file": "public/assets/game/Hat_deluxe-cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Deluxe_Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Deluxe_Cowboy_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "4ee0c65ad657126de508e336f75cba5a90da0158df22756fa900521325a98eb8"
+    },
+    {
+      "file": "public/assets/game/Hat_deluxe-pirate-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cb/Deluxe_Pirate_Hat.png",
+      "source": "https://stardewvalleywiki.com/Deluxe_Pirate_Hat",
+      "width": 60,
+      "height": 54,
+      "sha256": "3f1c773d7cb0ac5cb6b015e36a4665d9ce0b1605a6a16b9203b6e27cbd3b7f2a"
+    },
+    {
+      "file": "public/assets/game/Hat_dinosaur-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/25/Dinosaur_Hat.png",
+      "source": "https://stardewvalleywiki.com/Dinosaur_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "96539dc18a5cca4326b58445d7908929040d1ee4ab9f4360c897ca35e0149238"
+    },
+    {
+      "file": "public/assets/game/Hat_earmuffs.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Earmuffs.png",
+      "source": "https://stardewvalleywiki.com/Earmuffs",
+      "width": 54,
+      "height": 54,
+      "sha256": "33d43fa3fe20378edd64e2dd3fbf86891e57b6b5103c8518188a05e435df0dbb"
+    },
+    {
+      "file": "public/assets/game/Hat_elegant-turban.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Elegant_Turban.png",
+      "source": "https://stardewvalleywiki.com/Elegant_Turban",
+      "width": 54,
+      "height": 54,
+      "sha256": "1c537cc787e5eec354ffe0dcd045b863baa7df5de53464ba21798694ddca335e"
+    },
+    {
+      "file": "public/assets/game/Hat_emilys-magic-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Emily%27s_Magic_Hat.png",
+      "source": "https://stardewvalleywiki.com/Emily's_Magic_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "c582a6d3f0985288fe4190b7afc5fa11848548b0ffa6e6f24e7cfd472c2ecb18"
+    },
+    {
+      "file": "public/assets/game/Hat_eye-patch.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Eye_Patch.png",
+      "source": "https://stardewvalleywiki.com/Eye_Patch",
+      "width": 54,
+      "height": 54,
+      "sha256": "352f725f6ce85d40cc1572bebb3e690098d3179cd248cb89bac8824608e81c3c"
+    },
+    {
+      "file": "public/assets/game/Hat_fashion-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Fashion_Hat.png",
+      "source": "https://stardewvalleywiki.com/Fashion_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "0357214332506a0a3f92aa4adeda0a893fa9aa301db9fe6a84a29cdac27ac5ac"
+    },
+    {
+      "file": "public/assets/game/Hat_fedora.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5e/Fedora.png",
+      "source": "https://stardewvalleywiki.com/Fedora",
+      "width": 54,
+      "height": 54,
+      "sha256": "699cea44923fd57be964a81e857f4c0358ad65137658e910fab6b5f5671b6e61"
+    },
+    {
+      "file": "public/assets/game/Hat_fishing-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d8/Fishing_Hat.png",
+      "source": "https://stardewvalleywiki.com/Fishing_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "b45942b73f4e90eb125bddd42f262e2e1b76e6f90dd4384731dba53bb030fefd"
+    },
+    {
+      "file": "public/assets/game/Hat_flat-topped-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Flat_Topped_Hat.png",
+      "source": "https://stardewvalleywiki.com/Flat_Topped_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "071dc62f39e854c331903c674057a3c661dc0178608db186f57c2128a86aa926"
+    },
+    {
+      "file": "public/assets/game/Hat_floppy-beanie.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0d/Floppy_Beanie.png",
+      "source": "https://stardewvalleywiki.com/Floppy_Beanie",
+      "width": 54,
+      "height": 54,
+      "sha256": "bebf296f90f36a9f58b2227ef2ae853423d8ad1ddc98304423a9c3d11fa4259a"
+    },
+    {
+      "file": "public/assets/game/Hat_foragers-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Forager%27s_Hat.png",
+      "source": "https://stardewvalleywiki.com/Forager's_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "52a95f41ed8a0db2f0cae2beb60863c3f1af3f8618daed329e5f361f9d125a83"
+    },
+    {
+      "file": "public/assets/game/Hat_frog-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Frog_Hat.png",
+      "source": "https://stardewvalleywiki.com/Frog_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "002a34a25f078915945e299a02989248064844bc6bfc119a3af6002976fd133d"
+    },
+    {
+      "file": "public/assets/game/Hat_garbage-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Garbage_Hat.png",
+      "source": "https://stardewvalleywiki.com/Garbage_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "423c28aadede6a4fea992ae23c311417befa75906c6d99c341310f84fcb2ed6d"
+    },
+    {
+      "file": "public/assets/game/Hat_gils-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/54/Gil%27s_Hat.png",
+      "source": "https://stardewvalleywiki.com/Gil's_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "a7b39d64a957611c7020fb2399b5eb381509c4125b21007f037a76adca9940a4"
+    },
+    {
+      "file": "public/assets/game/Hat_gnomes-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Gnome%27s_Cap.png",
+      "source": "https://stardewvalleywiki.com/Gnome's_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "f30729c160e57aa64378b04ffdd5fcb8470003f10ae8505d89c7cb519b993be6"
+    },
+    {
+      "file": "public/assets/game/Hat_goblin-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Goblin_Mask.png",
+      "source": "https://stardewvalleywiki.com/Goblin_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "b7eabc174bec25e528d70025c54103ba01fe1da81b53bf708327c8d72cdb1674"
+    },
+    {
+      "file": "public/assets/game/Hat_goggles.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Goggles.png",
+      "source": "https://stardewvalleywiki.com/Goggles",
+      "width": 54,
+      "height": 54,
+      "sha256": "55c35b7c99afd3d3c11831c082a3b37acf0edbc87ee990f8ea5934fd24aaa01a"
+    },
+    {
+      "file": "public/assets/game/Hat_gold-pan-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Gold_Pan_%28hat%29.png",
+      "source": "https://stardewvalleywiki.com/Gold_Pan_(hat)",
+      "width": 48,
+      "height": 48,
+      "sha256": "b921c01a8c7ad34e7ec6ab81078bb27aa9ce65bfcdff3e6c99ad764b2a8cf308"
+    },
+    {
+      "file": "public/assets/game/Hat_golden-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Golden_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Golden_Helmet",
+      "width": 54,
+      "height": 54,
+      "sha256": "69026b29d8b3ec2a82beca1f902b6461912d877284d3f1e6d929cc9368f3e61c"
+    },
+    {
+      "file": "public/assets/game/Hat_golden-mask-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Golden_Mask_%28hat%29.png",
+      "source": "https://stardewvalleywiki.com/Golden_Mask_(hat)",
+      "width": 54,
+      "height": 54,
+      "sha256": "7c6cd9da8dab199ac83b81645bb593a524e25c4c2620695a83d2b844ea84640d"
+    },
+    {
+      "file": "public/assets/game/Hat_good-ol-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Good_Ol%27_Cap.png",
+      "source": "https://stardewvalleywiki.com/Good_Ol'_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "c83a84766003c6413858d36fe5474d167d044766a7fd07cf0ff4c61c90cceec1"
+    },
+    {
+      "file": "public/assets/game/Hat_governors-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Governor%27s_Hat.png",
+      "source": "https://stardewvalleywiki.com/Governor's_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "61747e08bbfcdbe10b6acefa678af67c0fe214baea4ddcd4eb5fd1dd22b72985"
+    },
+    {
+      "file": "public/assets/game/Hat_green-turban.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d0/Green_Turban.png",
+      "source": "https://stardewvalleywiki.com/Green_Turban",
+      "width": 54,
+      "height": 54,
+      "sha256": "81c24fa906a450d316a52067df249b7c56066a7d60011b14f3cc8c4b9a1ef0d0"
+    },
+    {
+      "file": "public/assets/game/Hat_hair-bone.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cb/Hair_Bone.png",
+      "source": "https://stardewvalleywiki.com/Hair_Bone",
+      "width": 54,
+      "height": 54,
+      "sha256": "7abd0fac63f3b2de9aaccbc831d91db3292bb8c49970efdd945744c1df004739"
+    },
+    {
+      "file": "public/assets/game/Hat_hard-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/08/Hard_Hat.png",
+      "source": "https://stardewvalleywiki.com/Hard_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "11116ec73f895f413eeccc57cbbfce9febb658dd9d309fd22edd8e7c2db86cc4"
+    },
+    {
+      "file": "public/assets/game/Hat_hunters-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c9/Hunter%27s_Cap.png",
+      "source": "https://stardewvalleywiki.com/Hunter's_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "832c8afa6c2578a7c23b5ec83c3cf3ae8738eeee50e0433c85411a03f779a383"
+    },
+    {
+      "file": "public/assets/game/Hat_infinity-crown.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Infinity_Crown.png",
+      "source": "https://stardewvalleywiki.com/Infinity_Crown",
+      "width": 54,
+      "height": 48,
+      "sha256": "2e53218e097817b8ca969fbbdcf0cf9ae479bc9b054a70b595ced3b4c5ca3752"
+    },
+    {
+      "file": "public/assets/game/Hat_iridium-pan-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Iridium_Pan_%28hat%29.png",
+      "source": "https://stardewvalleywiki.com/Iridium_Pan_(hat)",
+      "width": 48,
+      "height": 48,
+      "sha256": "d72d131d5f07862edf483f24af6831d082338a2136129ac20a93c5222bf0e896"
+    },
+    {
+      "file": "public/assets/game/Hat_jester-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Jester_Hat.png",
+      "source": "https://stardewvalleywiki.com/Jester_Hat",
+      "width": 64,
+      "height": 48,
+      "sha256": "4c7655a5cd8c43deb43e6ab9eeb1bce6faf5a932cf0da8d449b28172c78dc34c"
+    },
+    {
+      "file": "public/assets/game/Hat_joja-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/55/Joja_Cap.png",
+      "source": "https://stardewvalleywiki.com/Joja_Cap",
+      "width": 48,
+      "height": 48,
+      "sha256": "c9382fca4b796d282bf5127d6f4cc5813f06b39170bfec77234bb19b3b3d1a08"
+    },
+    {
+      "file": "public/assets/game/Hat_junimo-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Junimo_Hat.png",
+      "source": "https://stardewvalleywiki.com/Junimo_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "680e8e8f77027b4716046f1489086d06420905b050b2b5976387106a90a7096b"
+    },
+    {
+      "file": "public/assets/game/Hat_knights-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/62/Knight%27s_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Knight's_Helmet",
+      "width": 54,
+      "height": 54,
+      "sha256": "525f82e82df4952361ea36d3409ccacc236d399684d125e28e2aba73b1623163"
+    },
+    {
+      "file": "public/assets/game/Hat_laurel-wreath-crown.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Laurel_Wreath_Crown.png",
+      "source": "https://stardewvalleywiki.com/Laurel_Wreath_Crown",
+      "width": 48,
+      "height": 48,
+      "sha256": "359492ec8e3522d128b9f9b9da6400e937567fb68574b347f58b4202ad3db0a9"
+    },
+    {
+      "file": "public/assets/game/Hat_leprechaun-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Leprechaun_Hat.png",
+      "source": "https://stardewvalleywiki.com/Leprechaun_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "65acafd92126bf5f8a498ad0545713d17da228a0faae2500d1e64dcd56b81ac8"
+    },
+    {
+      "file": "public/assets/game/Hat_living-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/95/Living_Hat.png",
+      "source": "https://stardewvalleywiki.com/Living_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "0744324664cec4938872717cebec60aad60388a8ffda82d22b74ad607a05b6ba"
+    },
+    {
+      "file": "public/assets/game/Hat_logo-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Logo_Cap.png",
+      "source": "https://stardewvalleywiki.com/Logo_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "1f59a722fa61f73707d888f21dac35a52cd0c5c28bddc56e22f06566d09e1260"
+    },
+    {
+      "file": "public/assets/game/Hat_lucky-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/71/Lucky_Bow.png",
+      "source": "https://stardewvalleywiki.com/Lucky_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "d77bdafa8ad0c8e06bd6fee8b0f44bef408211e66cb1f604dae9bc364e58f880"
+    },
+    {
+      "file": "public/assets/game/Hat_magic-cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/60/Magic_Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Magic_Cowboy_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "391cffba6b9a46b1b8bc1656f1fbd47b5f6cd1eb6e17d29a028faaaa7737ab94"
+    },
+    {
+      "file": "public/assets/game/Hat_magic-turban.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/65/Magic_Turban.png",
+      "source": "https://stardewvalleywiki.com/Magic_Turban",
+      "width": 54,
+      "height": 54,
+      "sha256": "a2b6b7eb31435fbfea59b07a5de97aa5ac06949bb5fc40c7253f12ad67588d73"
+    },
+    {
+      "file": "public/assets/game/Hat_mouse-ears.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Mouse_Ears.png",
+      "source": "https://stardewvalleywiki.com/Mouse_Ears",
+      "width": 54,
+      "height": 54,
+      "sha256": "a37fc46b5d568d9ba87ac8fce940d64981c61f355197054df1c7ec02a8c336d8"
+    },
+    {
+      "file": "public/assets/game/Hat_mr-qis-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Mr._Qi%27s_Hat.png",
+      "source": "https://stardewvalleywiki.com/Mr._Qi's_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "e38639c365ab691739d0a37704e22d98119523be969859cf216e3a3899e1b008"
+    },
+    {
+      "file": "public/assets/game/Hat_mummy-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c1/Mummy_Mask.png",
+      "source": "https://stardewvalleywiki.com/Mummy_Mask",
+      "width": 48,
+      "height": 48,
+      "sha256": "62dbb1ee26964f087f2aaf6d9d0ef1bad375a6baa08b680da0c3e37e0a9c0782"
+    },
+    {
+      "file": "public/assets/game/Hat_mushroom-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/71/Mushroom_Cap.png",
+      "source": "https://stardewvalleywiki.com/Mushroom_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "1ec234290951fc7626b7216070e6cc0cedc62a3c795484880a4f5f6294a747bb"
+    },
+    {
+      "file": "public/assets/game/Hat_mystery-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Mystery_Hat.png",
+      "source": "https://stardewvalleywiki.com/Mystery_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "b9629a60422e30dcb408f3ac304f6bd82d67012c0f3dd76c2c163892ded6ae7e"
+    },
+    {
+      "file": "public/assets/game/Hat_official-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Official_Cap.png",
+      "source": "https://stardewvalleywiki.com/Official_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "14697b89f3020cf093cafb6994e46613c2573692f81d7c6a4642fb43c2702448"
+    },
+    {
+      "file": "public/assets/game/Hat_pageboy-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Pageboy_Cap.png",
+      "source": "https://stardewvalleywiki.com/Pageboy_Cap",
+      "width": 48,
+      "height": 48,
+      "sha256": "44080f44c1681cdc44372a997dcb6516b285f4a00bbc7c928bb479976ea7d43f"
+    },
+    {
+      "file": "public/assets/game/Hat_panda-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3a/Panda_Hat.png",
+      "source": "https://stardewvalleywiki.com/Panda_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "c8f2aee612d6665e5d88d36f43295ec6a2b931ee2755e68c400f18145312c603"
+    },
+    {
+      "file": "public/assets/game/Hat_paper-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5f/Paper_Hat.png",
+      "source": "https://stardewvalleywiki.com/Paper_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "ad656039d9b6cc3e8d1fd6ae710919a2c0f5934148b21704cd0bfe54c4e3b23a"
+    },
+    {
+      "file": "public/assets/game/Hat_party-hat-blue.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fe/Party_Hat_%28blue%29.png",
+      "source": "https://stardewvalleywiki.com/Party_Hat_(blue)",
+      "width": 54,
+      "height": 54,
+      "sha256": "2d10d8fe71e5a09361f7ed7d656ceeb5092a2ddc70e6b14e7d47ef755556e809"
+    },
+    {
+      "file": "public/assets/game/Hat_party-hat-green.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Party_Hat_%28green%29.png",
+      "source": "https://stardewvalleywiki.com/Party_Hat_(green)",
+      "width": 54,
+      "height": 54,
+      "sha256": "a13e2a5431928725459d7bbd8b99777411c13bf57808886a285edb38e9c66430"
+    },
+    {
+      "file": "public/assets/game/Hat_party-hat-red.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/96/Party_Hat_%28red%29.png",
+      "source": "https://stardewvalleywiki.com/Party_Hat_(red)",
+      "width": 54,
+      "height": 54,
+      "sha256": "928ed8414af5e68dca782d82a78d94d2a7817b1c7c6c1a909d4040fe7b353e91"
+    },
+    {
+      "file": "public/assets/game/Hat_perfection-mystery-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/ConcernedApe_Hat.png",
+      "source": "https://stardewvalleywiki.com/???_(hat)",
+      "width": 57,
+      "height": 57,
+      "sha256": "66cd3a66d8aa8595502326645b1f8dcb2df8cb3ece84e7645fd85ba43b220810"
+    },
+    {
+      "file": "public/assets/game/Hat_pink-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Pink_Bow.png",
+      "source": "https://stardewvalleywiki.com/Pink_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "1ebd0be2623606bb4fd084ce682350bfddab23755ad00405060c7e063a1af49d"
+    },
+    {
+      "file": "public/assets/game/Hat_pirate-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/04/Pirate_Hat.png",
+      "source": "https://stardewvalleywiki.com/Pirate_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "b1c09d83d7dec202682f28522f74a85b78200e45452f9c281013c3da1f94fad0"
+    },
+    {
+      "file": "public/assets/game/Hat_plum-chapeau.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Plum_Chapeau.png",
+      "source": "https://stardewvalleywiki.com/Plum_Chapeau",
+      "width": 54,
+      "height": 54,
+      "sha256": "d1766f8471089cf71e3c9a61542186ec6e507344c19f724422536f4dabe35514"
+    },
+    {
+      "file": "public/assets/game/Hat_polka-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Polka_Bow.png",
+      "source": "https://stardewvalleywiki.com/Polka_Bow",
+      "width": 54,
+      "height": 54,
+      "sha256": "e132885fb005b3a28395ee46ce38b012f8a21c2c26f4d9b16e297e7dab16a3e7"
+    },
+    {
+      "file": "public/assets/game/Hat_propeller-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/96/Propeller_Hat.png",
+      "source": "https://stardewvalleywiki.com/Propeller_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "387901285808feedeb960fbd8da1a972d1735f8dac45b119754a7df86ff5b414"
+    },
+    {
+      "file": "public/assets/game/Hat_pumpkin-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pumpkin_Mask.png",
+      "source": "https://stardewvalleywiki.com/Pumpkin_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "c2ce30a4aa6b2d09339ee736d29e39a3b69130919e124f688cc40e75f24f8d55"
+    },
+    {
+      "file": "public/assets/game/Hat_qi-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Qi_Mask.png",
+      "source": "https://stardewvalleywiki.com/Qi_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "49da30c490052f62acd6ef0c4e81479e95f025ac7610473b733d715f0d064279"
+    },
+    {
+      "file": "public/assets/game/Hat_raccoon-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bc/Raccoon_Hat.png",
+      "source": "https://stardewvalleywiki.com/Raccoon_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "b7356c9321320fa072652dbcb931c5f4d5212bc47cc8914cf25ab93aaa3b0b2e"
+    },
+    {
+      "file": "public/assets/game/Hat_radioactive-goggles.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Radioactive_Goggles.png",
+      "source": "https://stardewvalleywiki.com/Radioactive_Goggles",
+      "width": 54,
+      "height": 54,
+      "sha256": "015ab2948f535c8a181ca2a7b9bc27280c15bae9473c51bcb53bb88ff2834949"
+    },
+    {
+      "file": "public/assets/game/Hat_red-cowboy-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fc/Red_Cowboy_Hat.png",
+      "source": "https://stardewvalleywiki.com/Red_Cowboy_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "974b20be211bdc1716038989086a0f43473a0aea1de4197e7523c3c019ea56a6"
+    },
+    {
+      "file": "public/assets/game/Hat_red-fez.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Red_Fez.png",
+      "source": "https://stardewvalleywiki.com/Red_Fez",
+      "width": 48,
+      "height": 48,
+      "sha256": "037993fb268f3e8757256ca70422a11bf3eb73444e74f9e051ce32786bca99a8"
+    },
+    {
+      "file": "public/assets/game/Hat_sailors-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/45/Sailor%27s_Cap.png",
+      "source": "https://stardewvalleywiki.com/Sailor's_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "6e8480fc8332b2320170bd641be4c730419292dabaca2c81a455978734c4d67d"
+    },
+    {
+      "file": "public/assets/game/Hat_santa-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Santa_Hat.png",
+      "source": "https://stardewvalleywiki.com/Santa_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "4e050f0fdc02cfb4c85a8f5bc291bc437b90252c2a8fab5803a7e0f9bd9723fc"
+    },
+    {
+      "file": "public/assets/game/Hat_skeleton-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/12/Skeleton_Mask.png",
+      "source": "https://stardewvalleywiki.com/Skeleton_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "8e78d7633934efb16e392463835b5798216bd72590e96115683cb47eb1e418fe"
+    },
+    {
+      "file": "public/assets/game/Hat_small-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Small_Cap.png",
+      "source": "https://stardewvalleywiki.com/Small_Cap",
+      "width": 54,
+      "height": 54,
+      "sha256": "20974cff22a355a8817f6fcb29a6e5dbcacad93990d27d0a8269f29e7a3bcd04"
+    },
+    {
+      "file": "public/assets/game/Hat_sombrero.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Sombrero.png",
+      "source": "https://stardewvalleywiki.com/Sombrero",
+      "width": 60,
+      "height": 48,
+      "sha256": "55a1ca51c88776dd221a715c0a651b3a280e1ac6954ecf872d726e5dcaebb9ec"
+    },
+    {
+      "file": "public/assets/game/Hat_souwester.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f0/Sou%27wester.png",
+      "source": "https://stardewvalleywiki.com/Sou'wester",
+      "width": 54,
+      "height": 54,
+      "sha256": "57e0505f7424f9b1d3aa9ab330883ffd98621a48d3ee557c2234cb3e7d5ef27f"
+    },
+    {
+      "file": "public/assets/game/Hat_space-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1c/Space_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Space_Helmet",
+      "width": 48,
+      "height": 48,
+      "sha256": "2ef5c0bb4823899cadab51c10098e66ceea8177e738533acb5cfd4efa8f8e610"
+    },
+    {
+      "file": "public/assets/game/Hat_sports-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4a/Sports_Cap.png",
+      "source": "https://stardewvalleywiki.com/Sports_Cap",
+      "width": 48,
+      "height": 48,
+      "sha256": "e2e885e78a4f63e88e65f88d4d75a02eacbc6b53b173b7ac9c03f72fde33b47f"
+    },
+    {
+      "file": "public/assets/game/Hat_spotted-headscarf.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Spotted_Headscarf.png",
+      "source": "https://stardewvalleywiki.com/Spotted_Headscarf",
+      "width": 54,
+      "height": 54,
+      "sha256": "4b2011d17a100d72574dc500ecbb59a975df5132e49328ad8fc9ba14afb7c100"
+    },
+    {
+      "file": "public/assets/game/Hat_squid-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0d/Squid_Hat.png",
+      "source": "https://stardewvalleywiki.com/Squid_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "83a180b8b2b945bc0847552612f8794d0563d47a56c885632d937575ba529dde"
+    },
+    {
+      "file": "public/assets/game/Hat_squires-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/70/Squire%27s_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Squire's_Helmet",
+      "width": 54,
+      "height": 54,
+      "sha256": "aa0f24fe760b4295d08470e4b90fd4ab4b2435fdda8760e55a264d2b10e00d16"
+    },
+    {
+      "file": "public/assets/game/Hat_star-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2a/Star_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Star_Helmet",
+      "width": 54,
+      "height": 54,
+      "sha256": "4b3e89e5482dda256d8cc4e66bb0ee45960292075a0ad1c0e5d47f57a9d03e9e"
+    },
+    {
+      "file": "public/assets/game/Hat_steel-pan-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/43/Steel_Pan_%28hat%29.png",
+      "source": "https://stardewvalleywiki.com/Steel_Pan_(hat)",
+      "width": 48,
+      "height": 48,
+      "sha256": "638f8b9f24225265e5bf1400cbd9585b61bfb3b65efce5dc06f98cb1e56a8c0d"
+    },
+    {
+      "file": "public/assets/game/Hat_straw-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b2/Straw_Hat.png",
+      "source": "https://stardewvalleywiki.com/Straw_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "d296bec11a267cefd7e4cd1d49bb11abb9e2aea57b9600190b035bac5b629ebc"
+    },
+    {
+      "file": "public/assets/game/Hat_sunglasses.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/92/Sunglasses.png",
+      "source": "https://stardewvalleywiki.com/Sunglasses",
+      "width": 54,
+      "height": 54,
+      "sha256": "e115642960cd67a3649847363365c54f53e1d19938be511ab455a1a832ce8e0f"
+    },
+    {
+      "file": "public/assets/game/Hat_swashbuckler-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Swashbuckler_Hat.png",
+      "source": "https://stardewvalleywiki.com/Swashbuckler_Hat",
+      "width": 60,
+      "height": 54,
+      "sha256": "fd26b17fc93febbe454ecf2280b479941cfa15764d1f7125859a35b6b5e7a622"
+    },
+    {
+      "file": "public/assets/game/Hat_tiara.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6c/Tiara.png",
+      "source": "https://stardewvalleywiki.com/Tiara",
+      "width": 54,
+      "height": 54,
+      "sha256": "77f129f75a7191781767cc8d1ed9eb77ac56bca765d362f357a5f80c331196a5"
+    },
+    {
+      "file": "public/assets/game/Hat_tiger-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Tiger_Hat.png",
+      "source": "https://stardewvalleywiki.com/Tiger_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "d4566544b9109c9cf3f0be097e294f54efad4fde9e27018cbc27c7166acc38a6"
+    },
+    {
+      "file": "public/assets/game/Hat_top-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Top_Hat.png",
+      "source": "https://stardewvalleywiki.com/Top_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "e1f63a32ca0ccc5771d14572acebe94e0505ae6c1cb3d72207b253c6af7c9f70"
+    },
+    {
+      "file": "public/assets/game/Hat_totem-mask.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Totem_Mask.png",
+      "source": "https://stardewvalleywiki.com/Totem_Mask",
+      "width": 54,
+      "height": 54,
+      "sha256": "9756dfa25144d100f63f96d98381f38a94896a6e13110526135523f6f0c62a7b"
+    },
+    {
+      "file": "public/assets/game/Hat_tricorn-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Tricorn_Hat.png",
+      "source": "https://stardewvalleywiki.com/Tricorn_Hat",
+      "width": 48,
+      "height": 48,
+      "sha256": "9d4bead25e9d377f650281e56e49ff11fbd886c1bbef4c633692ea428921ead8"
+    },
+    {
+      "file": "public/assets/game/Hat_tropiclip.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Tropiclip.png",
+      "source": "https://stardewvalleywiki.com/Tropiclip",
+      "width": 54,
+      "height": 54,
+      "sha256": "b88b48060045f1cc829c6d79f0335f3709b880247f8be31b5dc998da5c705713"
+    },
+    {
+      "file": "public/assets/game/Hat_trucker-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Trucker_Hat.png",
+      "source": "https://stardewvalleywiki.com/Trucker_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "8bdef872f6f55add02ee78d01804f27d174fa7d6554dee2369c0fff2eecc65df"
+    },
+    {
+      "file": "public/assets/game/Hat_warrior-helmet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/68/Warrior_Helmet.png",
+      "source": "https://stardewvalleywiki.com/Warrior_Helmet",
+      "width": 54,
+      "height": 54,
+      "sha256": "c61d577a387acd0e1c2bef80d198dae6eac5a8e4a2d5f32f77614dcadace5569"
+    },
+    {
+      "file": "public/assets/game/Hat_watermelon-band.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Watermelon_Band.png",
+      "source": "https://stardewvalleywiki.com/Watermelon_Band",
+      "width": 54,
+      "height": 54,
+      "sha256": "11aa670f15926cc0fc6657248384885adb6a7431fe045a8954060e695a73768e"
+    },
+    {
+      "file": "public/assets/game/Hat_wearable-dwarf-helm.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Wearable_Dwarf_Helm.png",
+      "source": "https://stardewvalleywiki.com/Wearable_Dwarf_Helm",
+      "width": 54,
+      "height": 54,
+      "sha256": "72a37d7d08e61c8a81a1748207202e0d6cf01a8814c46ecbf3f63766c4433757"
+    },
+    {
+      "file": "public/assets/game/Hat_white-bow.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/White_Bow.png",
+      "source": "https://stardewvalleywiki.com/White_Bow",
+      "width": 54,
+      "height": 48,
+      "sha256": "36e25fedeb97f0084f0f9fe1ba4c94488e52afde133de0633ac38f6065927037"
+    },
+    {
+      "file": "public/assets/game/Hat_white-turban.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/60/White_Turban.png",
+      "source": "https://stardewvalleywiki.com/White_Turban",
+      "width": 54,
+      "height": 54,
+      "sha256": "08d4efe49daed8f9734620e93ff1fe8a90c0f8dc968eaae4b26534050f4bffd5"
+    },
+    {
+      "file": "public/assets/game/Hat_witch-hat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Witch_Hat.png",
+      "source": "https://stardewvalleywiki.com/Witch_Hat",
+      "width": 54,
+      "height": 54,
+      "sha256": "12809082c1ac36fd12f7f3ee17212c2a8e192ede4d828548ca9d330cf02dbfb6"
+    }
+  ]
+}

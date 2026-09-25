@@ -1,0 +1,596 @@
+[
+  {
+    "slug": "practical-bc-32",
+    "index": 32,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-32.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 128,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "b8ea8510227b1e839728075535b1798047409e3e83a0d0601c482cc93d9c3c9c"
+  },
+  {
+    "slug": "practical-bc-33",
+    "index": 33,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-33.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 16,
+      "top": 128,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "75c4889b2c19f4568d1e8392dd9541e3eac22f69a22fb354ef8449ad5d3c6e6d"
+  },
+  {
+    "slug": "practical-bc-34",
+    "index": 34,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-34.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 32,
+      "top": 128,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "aeca22c330e97beca5aed9f5208586b08665b4f0e6dbbefbeb1f5357d4775c6e"
+  },
+  {
+    "slug": "practical-bc-35",
+    "index": 35,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-35.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 48,
+      "top": 128,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "b374d9c679c8c4c672f774e5c05a6b26c478687df240fa9d0bdb370f00c9340e"
+  },
+  {
+    "slug": "practical-bc-36",
+    "index": 36,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-36.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 128,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "359726db2642f52d6b982e2c011a8f134dba3e06fa23d3557b11371090bb606b"
+  },
+  {
+    "slug": "practical-bc-40",
+    "index": 40,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-40.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "037a9b2445195eb0c7d47ce3d82e41b35a5a7d190d1e140ac92d59ec060cb2d3"
+  },
+  {
+    "slug": "practical-bc-41",
+    "index": 41,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-41.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 16,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "51d7b0f676a69d572845de10536657d56d2cd6c2804c8edea5fbfcaa6e5c5757"
+  },
+  {
+    "slug": "practical-bc-42",
+    "index": 42,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-42.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 32,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "72c689fe1a9c142ca013e30567e969d2aa9028bcf2ff7a63b0acd6a060443e55"
+  },
+  {
+    "slug": "practical-bc-43",
+    "index": 43,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-43.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 48,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "5498cb83521b29af2f455dc3c74f79b208c04bb46f4da6be6b51bae680a96ef7"
+  },
+  {
+    "slug": "practical-bc-44",
+    "index": 44,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-44.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "7037a780b18f817cc57104fb259882c38bc2517d0c9c578fe55a5dd43d7143f7"
+  },
+  {
+    "slug": "practical-bc-45",
+    "index": 45,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-45.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 80,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "c9e114cbc0d28b134303cfdea81f0ca6bb8748351ff24a1ba880b7559f1837c3"
+  },
+  {
+    "slug": "practical-bc-46",
+    "index": 46,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-46.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 96,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "36c5ef8b3d2033677d1cf842f3c167caa4f58f36d31d0eefe076cd5d8364c0b7"
+  },
+  {
+    "slug": "practical-bc-47",
+    "index": 47,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-47.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 112,
+      "top": 160,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "78a7e2cfd5855bed355f3bb144882646a0e8cefdc2b69a4e1d6992e2e10af07d"
+  },
+  {
+    "slug": "practical-bc-48",
+    "index": 48,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-48.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 192,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "d4a0767c90c2eb572f4dbaba522132696a161b8a65c13b21b92dac253f5268b1"
+  },
+  {
+    "slug": "practical-bc-52",
+    "index": 52,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-52.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 192,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "b9d44d2a1a42551d7ca95de1786dcb92a38cb644f83d61ca08d30f45ccda9ec9"
+  },
+  {
+    "slug": "practical-bc-53",
+    "index": 53,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-53.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 80,
+      "top": 192,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "3af2a4f395904caa72c8183160c01bfaf770436b93ed7e943d2c0072feae85ab"
+  },
+  {
+    "slug": "practical-bc-54",
+    "index": 54,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-54.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 96,
+      "top": 192,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "00fb2b4ac0a38fd3b45d584bc788da9580a285070b39f14449259b38d6c5cc8b"
+  },
+  {
+    "slug": "practical-bc-95",
+    "index": 95,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-95.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 112,
+      "top": 352,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "e40ed67067873ed89d9b73089c1ce126a9d5f86a559bd5a1126bb618d336d2b2"
+  },
+  {
+    "slug": "practical-bc-96",
+    "index": 96,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-96.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 384,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "05986f862ef192eaff116b1f01fa2f04e0974fedd95e47ad3a99608592ec2660"
+  },
+  {
+    "slug": "practical-bc-98",
+    "index": 98,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-98.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 32,
+      "top": 384,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "a9f72eb71d40faa90c86044919c342fdc0e4ba51401c8578b4a95914e84c4920"
+  },
+  {
+    "slug": "practical-bc-107",
+    "index": 107,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-107.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 48,
+      "top": 416,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "64c6aad3ca645babbd0814c7b092b1794466dfb45d2ea8963a130ae1b646ad87"
+  },
+  {
+    "slug": "practical-bc-141",
+    "index": 141,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-141.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 80,
+      "top": 544,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "0dee394ecd70d877d7f9ae399d535f857581e787836c66b0f35cf7a088441d89"
+  },
+  {
+    "slug": "practical-bc-159",
+    "index": 159,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-159.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 112,
+      "top": 608,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "c0d9a2973cda7492c2278b005d5eb1c6f1689a6bf070b6343f54589a131496a7"
+  },
+  {
+    "slug": "practical-bc-184",
+    "index": 184,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-184.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 736,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "fbcd9d24f5f2c2a99e2b2ef5ab8ec336cc6494164d5d1ab9d90ad0bd68f6d735"
+  },
+  {
+    "slug": "practical-bc-188",
+    "index": 188,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-188.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 736,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "eb0db97f3cc670bda52e7efcb23ae91bf54fb379afe12c69f7d2aee7d2b2502e"
+  },
+  {
+    "slug": "practical-bc-192",
+    "index": 192,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-192.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 768,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "8695fc6d1997aed4626f1ac47465e5f19465d419d8288cc1b5e82959ecc97e27"
+  },
+  {
+    "slug": "practical-bc-196",
+    "index": 196,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-196.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 768,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "941b88e623b123d2b43ae3b6496c7ab9d89707bd6815807964009058a22b2da7"
+  },
+  {
+    "slug": "practical-bc-200",
+    "index": 200,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-200.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 0,
+      "top": 800,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "8487a1d7bd7bd8bc70dac5ba6bc7e0d8f7d40421f5beebb34afb9c96ed0a7420"
+  },
+  {
+    "slug": "practical-bc-204",
+    "index": 204,
+    "texture": "TileSheets/Craftables",
+    "tileHeight": 32,
+    "file": "public/assets/game/practical-bc-204.png",
+    "width": 48,
+    "height": 96,
+    "crop": {
+      "left": 64,
+      "top": 800,
+      "width": 16,
+      "height": 32
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "AA694FCFAAF990B6F3E947CB7EFC759F4F3C84A1798175A07566619AFF7D851D",
+    "sha256": "01ab42639fe45f64fc83c4a3e32e8effb71bcdafe7621201ee84f219f82c6ba8"
+  },
+  {
+    "slug": "practical-object-373",
+    "index": 373,
+    "texture": "Maps/springobjects",
+    "tileHeight": 16,
+    "file": "public/assets/game/practical-object-373.png",
+    "width": 48,
+    "height": 48,
+    "crop": {
+      "left": 208,
+      "top": 240,
+      "width": 16,
+      "height": 16
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "DCC32FF89CEA391EEFCD0D927E0BFFEC20EC0F8EC51E3B1D315831AA8F2EDC2A",
+    "sha256": "946156666c5ad73a352e8349dc06a37c811f27eb3cb476c9e6ff0ee182bf714f"
+  },
+  {
+    "slug": "practical-object-797",
+    "index": 797,
+    "texture": "Maps/springobjects",
+    "tileHeight": 16,
+    "file": "public/assets/game/practical-object-797.png",
+    "width": 48,
+    "height": 48,
+    "crop": {
+      "left": 80,
+      "top": 528,
+      "width": 16,
+      "height": 16
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "DCC32FF89CEA391EEFCD0D927E0BFFEC20EC0F8EC51E3B1D315831AA8F2EDC2A",
+    "sha256": "da1d7b2f4487efd56e5ad2046bc4ad36ca1b332ae245c8551ba4c0ecfdecd6db"
+  },
+  {
+    "slug": "practical-object-858",
+    "index": 858,
+    "texture": "Maps/springobjects",
+    "tileHeight": 16,
+    "file": "public/assets/game/practical-object-858.png",
+    "width": 48,
+    "height": 48,
+    "crop": {
+      "left": 288,
+      "top": 560,
+      "width": 16,
+      "height": 16
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "DCC32FF89CEA391EEFCD0D927E0BFFEC20EC0F8EC51E3B1D315831AA8F2EDC2A",
+    "sha256": "6163b823976ff974a30f2a969fc111f85fcd52e643ef39d5157f09307a7d488a"
+  },
+  {
+    "slug": "practical-object-calicoegg",
+    "index": 7,
+    "texture": "TileSheets/Objects_2",
+    "tileHeight": 16,
+    "file": "public/assets/game/practical-object-calicoegg.png",
+    "width": 48,
+    "height": 48,
+    "crop": {
+      "left": 112,
+      "top": 0,
+      "width": 16,
+      "height": 16
+    },
+    "sourceVersion": "1.6.15.24356",
+    "sourceXnbSha256": "779886A3F0629A353DAB9E6D193220458AF60990A910B769EAD93A2162A320DC",
+    "sha256": "d7f7371ad32c9f90f83c3fa3974a8def4a1c934a9f146ee1cbed924162484861"
+  }
+]

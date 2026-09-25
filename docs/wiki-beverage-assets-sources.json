@@ -1,0 +1,17 @@
+[
+  {
+    "nativeId": "167",
+    "file": "public/assets/game/Beverage_167.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 368,
+      "top": 96,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "1e4419bd17eff156f082090c14dd81349c54d59c2d768839b09c049a812b924c",
+    "width": 48,
+    "height": 48
+  }
+]

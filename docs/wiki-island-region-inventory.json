@@ -1,0 +1,142 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Locations",
+    "sha256": "ADB0E19DE4C88A03543454D7ED10EF281A1EE27C1EE76C657EEE8008CCD8BE49"
+  },
+  "status": "reviewed subset; full world inventory pending",
+  "records": [
+    {
+      "title": "Island South",
+      "nativeId": "IslandSouth",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-south",
+      "name": "姜岛南部"
+    },
+    {
+      "title": "Island East",
+      "nativeId": "IslandEast",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-east",
+      "name": "姜岛东部"
+    },
+    {
+      "title": "Island North",
+      "nativeId": "IslandNorth",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-north",
+      "name": "姜岛北部"
+    },
+    {
+      "title": "Island West",
+      "nativeId": "IslandWest",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-west",
+      "name": "姜岛西部"
+    },
+    {
+      "title": "Island Southeast",
+      "nativeId": "IslandSouthEast",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-southeast",
+      "name": "姜岛东南部"
+    },
+    {
+      "title": "Beach Resort",
+      "nativeId": null,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-beach-resort",
+      "name": "姜岛海滩度假村"
+    },
+    {
+      "title": "Pirate Cove",
+      "nativeId": "IslandSouthEastCave",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "pirate-cove",
+      "name": "海盗湾"
+    },
+    {
+      "title": "Dig Site",
+      "nativeId": null,
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-dig-site",
+      "name": "姜岛挖掘场"
+    },
+    {
+      "title": "Gem Birds Shrine",
+      "nativeId": "IslandShrine",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-gem-shrine",
+      "name": "姜岛宝石鸟祭坛"
+    },
+    {
+      "title": "Colored Crystals Cave",
+      "nativeId": "IslandWestCave1",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ginger_Island",
+        "revision": 194212,
+        "sha256": "833796b3695c16750ffb8a23a20fec408edc52f02c3c969679b42e8f9edc8a81"
+      },
+      "dataset": "locations",
+      "slug": "island-crystal-cave",
+      "name": "姜岛五彩水晶洞穴"
+    },
+    {
+      "title": "Volcano Caldera",
+      "nativeId": "Caldera",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Volcano_Dungeon",
+        "revision": 192615,
+        "sha256": "99dffd847683fefe002f8e3ada261921985055f8d281edce9f836abfd43c4980"
+      },
+      "dataset": "locations",
+      "slug": "volcano-caldera",
+      "name": "火山锻造层"
+    }
+  ]
+}

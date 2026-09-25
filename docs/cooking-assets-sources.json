@@ -1,0 +1,206 @@
+{
+  "source": "https://stardewvalleywiki.com/Cooking",
+  "processing": "Original game icons resized to fit 36x36 using nearest-neighbor; existing assets not overwritten.",
+  "assets": [
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png",
+      "file": "public/assets/game/36px-Omelet.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Salad.png",
+      "file": "public/assets/game/36px-Salad.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Cheese_Cauliflower.png",
+      "file": "public/assets/game/36px-Cheese_Cauliflower.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png",
+      "file": "public/assets/game/36px-Parsnip_Soup.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png",
+      "file": "public/assets/game/36px-Vegetable_Medley.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png",
+      "file": "public/assets/game/36px-Complete_Breakfast.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4a/Fried_Mushroom.png",
+      "file": "public/assets/game/36px-Fried_Mushroom.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png",
+      "file": "public/assets/game/36px-Pizza.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/24/Bean_Hotpot.png",
+      "file": "public/assets/game/36px-Bean_Hotpot.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png",
+      "file": "public/assets/game/36px-Glazed_Yams.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Hashbrowns.png",
+      "file": "public/assets/game/36px-Hashbrowns.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png",
+      "file": "public/assets/game/36px-Pancakes.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png",
+      "file": "public/assets/game/36px-Pepper_Poppers.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png",
+      "file": "public/assets/game/36px-Bread.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png",
+      "file": "public/assets/game/36px-Chocolate_Cake.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Rhubarb_Pie.png",
+      "file": "public/assets/game/36px-Rhubarb_Pie.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/70/Cookie.png",
+      "file": "public/assets/game/36px-Cookie.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/08/Spaghetti.png",
+      "file": "public/assets/game/36px-Spaghetti.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png",
+      "file": "public/assets/game/36px-Tortilla.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/45/Red_Plate.png",
+      "file": "public/assets/game/36px-Red_Plate.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Eggplant_Parmesan.png",
+      "file": "public/assets/game/36px-Eggplant_Parmesan.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png",
+      "file": "public/assets/game/36px-Rice_Pudding.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png",
+      "file": "public/assets/game/36px-Ice_Cream.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Blueberry_Tart.png",
+      "file": "public/assets/game/36px-Blueberry_Tart.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Autumn%27s_Bounty.png",
+      "file": "public/assets/game/36px-Autumn's_Bounty.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Super_Meal.png",
+      "file": "public/assets/game/36px-Super_Meal.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Cranberry_Sauce.png",
+      "file": "public/assets/game/36px-Cranberry_Sauce.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Stuffing.png",
+      "file": "public/assets/game/36px-Stuffing.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png",
+      "file": "public/assets/game/36px-Farmer's_Lunch.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Survival_Burger.png",
+      "file": "public/assets/game/36px-Survival_Burger.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Roots_Platter.png",
+      "file": "public/assets/game/36px-Roots_Platter.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Plum_Pudding.png",
+      "file": "public/assets/game/36px-Plum_Pudding.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/77/Artichoke_Dip.png",
+      "file": "public/assets/game/36px-Artichoke_Dip.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Stir_Fry.png",
+      "file": "public/assets/game/36px-Stir_Fry.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Roasted_Hazelnuts.png",
+      "file": "public/assets/game/36px-Roasted_Hazelnuts.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Pumpkin_Pie.png",
+      "file": "public/assets/game/36px-Pumpkin_Pie.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Radish_Salad.png",
+      "file": "public/assets/game/36px-Radish_Salad.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/70/Blackberry_Cobbler.png",
+      "file": "public/assets/game/36px-Blackberry_Cobbler.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Cranberry_Candy.png",
+      "file": "public/assets/game/36px-Cranberry_Candy.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Bruschetta.png",
+      "file": "public/assets/game/36px-Bruschetta.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Coleslaw.png",
+      "file": "public/assets/game/36px-Coleslaw.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Fiddlehead_Risotto.png",
+      "file": "public/assets/game/36px-Fiddlehead_Risotto.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Poppyseed_Muffin.png",
+      "file": "public/assets/game/36px-Poppyseed_Muffin.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Maple_Bar.png",
+      "file": "public/assets/game/36px-Maple_Bar.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/40/Banana_Pudding.png",
+      "file": "public/assets/game/36px-Banana_Pudding.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
+      "file": "public/assets/game/36px-Mango_Sticky_Rice.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Poi.png",
+      "file": "public/assets/game/36px-Poi.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/32/Tropical_Curry.png",
+      "file": "public/assets/game/36px-Tropical_Curry.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/86/Squid_Ink_Ravioli.png",
+      "file": "public/assets/game/36px-Squid_Ink_Ravioli.png"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/df/Moss_Soup.png",
+      "file": "public/assets/game/36px-Moss_Soup.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "922",
+      "name": "补给箱（原版款式922）",
+      "slug": "supply-922",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Supply_Crate",
+        "revision": 183926,
+        "sha256": "de562d02aa7c6518e9d57257cd7550f09438d198a3d3965246f3fd07bab0f364"
+      }
+    },
+    {
+      "nativeId": "923",
+      "name": "补给箱（原版款式923）",
+      "slug": "supply-923",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Supply_Crate",
+        "revision": 183926,
+        "sha256": "de562d02aa7c6518e9d57257cd7550f09438d198a3d3965246f3fd07bab0f364"
+      }
+    },
+    {
+      "nativeId": "924",
+      "name": "补给箱（原版款式924）",
+      "slug": "supply-924",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Supply_Crate",
+        "revision": 183926,
+        "sha256": "de562d02aa7c6518e9d57257cd7550f09438d198a3d3965246f3fd07bab0f364"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "source": "Data/GiantCrops",
+    "sha256": "BB84916D88BA438AC7917E28BA0C2930441540EDC5BAC1A934DD1CC9C1996D72"
+  },
+  "source": {
+    "url": "https://stardewvalleywiki.com/Crops",
+    "revision": 193979,
+    "sha256": "4bee9a5108f205f4ea92332d8cc0ffeca61b5a17480831a89a12eddaa3c723b7"
+  },
+  "sourceConflict": "Crops overview says15–21 generally. Original1.6.15 QiFruit HarvestItems hasMinStack20,MaxStack26; use20–26 forQiFruit,15–21 forotherfour. No change to crop calculator.",
+  "records": [
+    {
+      "id": "Cauliflower",
+      "name": "巨型花椰菜",
+      "slug": "giant-crop-cauliflower",
+      "harvest": [
+        {
+          "Chance": 1,
+          "ForShavingEnchantment": null,
+          "ScaledMinStackWhenShaving": 2,
+          "ScaledMaxStackWhenShaving": 2,
+          "Condition": null,
+          "Id": "(O)190",
+          "ItemId": "(O)190",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": 15,
+          "MaxStack": 21,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ObjectColor": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": 0,
+          "QualityModifiers": null,
+          "QualityModifierMode": 0,
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      ],
+      "tileSize": {
+        "X": 3,
+        "Y": 3
+      }
+    },
+    {
+      "id": "Melon",
+      "name": "巨型甜瓜",
+      "slug": "giant-crop-melon",
+      "harvest": [
+        {
+          "Chance": 1,
+          "ForShavingEnchantment": null,
+          "ScaledMinStackWhenShaving": 2,
+          "ScaledMaxStackWhenShaving": 2,
+          "Condition": null,
+          "Id": "(O)254",
+          "ItemId": "(O)254",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": 15,
+          "MaxStack": 21,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ObjectColor": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": 0,
+          "QualityModifiers": null,
+          "QualityModifierMode": 0,
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      ],
+      "tileSize": {
+        "X": 3,
+        "Y": 3
+      }
+    },
+    {
+      "id": "Pumpkin",
+      "name": "巨型南瓜",
+      "slug": "giant-crop-pumpkin",
+      "harvest": [
+        {
+          "Chance": 1,
+          "ForShavingEnchantment": null,
+          "ScaledMinStackWhenShaving": 2,
+          "ScaledMaxStackWhenShaving": 2,
+          "Condition": null,
+          "Id": "(O)276",
+          "ItemId": "(O)276",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": 15,
+          "MaxStack": 21,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ObjectColor": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": 0,
+          "QualityModifiers": null,
+          "QualityModifierMode": 0,
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      ],
+      "tileSize": {
+        "X": 3,
+        "Y": 3
+      }
+    },
+    {
+      "id": "Powdermelon",
+      "name": "巨型霜瓜",
+      "slug": "giant-crop-powdermelon",
+      "harvest": [
+        {
+          "Chance": 1,
+          "ForShavingEnchantment": null,
+          "ScaledMinStackWhenShaving": 2,
+          "ScaledMaxStackWhenShaving": 2,
+          "Condition": null,
+          "Id": "(O)Powdermelon",
+          "ItemId": "(O)Powdermelon",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": 15,
+          "MaxStack": 21,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ObjectColor": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": 0,
+          "QualityModifiers": null,
+          "QualityModifierMode": 0,
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      ],
+      "tileSize": {
+        "X": 3,
+        "Y": 3
+      }
+    },
+    {
+      "id": "QiFruit",
+      "name": "巨型齐瓜",
+      "slug": "giant-crop-qifruit",
+      "harvest": [
+        {
+          "Chance": 1,
+          "ForShavingEnchantment": null,
+          "ScaledMinStackWhenShaving": 2,
+          "ScaledMaxStackWhenShaving": 2,
+          "Condition": null,
+          "Id": "(O)889",
+          "ItemId": "(O)889",
+          "RandomItemId": null,
+          "MaxItems": null,
+          "MinStack": 20,
+          "MaxStack": 26,
+          "Quality": -1,
+          "ObjectInternalName": null,
+          "ObjectDisplayName": null,
+          "ObjectColor": null,
+          "ToolUpgradeLevel": -1,
+          "IsRecipe": false,
+          "StackModifiers": null,
+          "StackModifierMode": 0,
+          "QualityModifiers": null,
+          "QualityModifierMode": 0,
+          "ModData": null,
+          "PerItemCondition": null
+        }
+      ],
+      "tileSize": {
+        "X": 3,
+        "Y": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Monster_bug.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/32/Bug_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Bug",
+      "width": 64,
+      "height": 64,
+      "sha256": "9c5a0c994c59dbc47a21905882b81dcc114742fd1c198dd0cb648ec6c54e97a3",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_cave-fly.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Cave_Fly.png",
+      "source": "https://stardewvalleywiki.com/Cave_Fly",
+      "width": 64,
+      "height": 64,
+      "sha256": "e61cd9f2d6fafabe034341de6aa57ab012e4f2910e04a0d9b1948273bdf2a949",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_duggy.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3a/Duggy.png/64px-Duggy.png",
+      "source": "https://stardewvalleywiki.com/Duggy",
+      "width": 64,
+      "height": 63,
+      "sha256": "450260558e47239a398310d78e8d90bca600030423588766ce2b37406fdf9a72",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_grub.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b0/Grub_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Grub",
+      "width": 64,
+      "height": 64,
+      "sha256": "a831788966bd0bd89b8766bc4bdf8c7d397dd9ccfb45a714f7b323650c802700",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_rock-crab.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Rock_Crab_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Rock_Crab",
+      "width": 64,
+      "height": 72,
+      "sha256": "6c8e7931f5b76f4760db00e1ed2af98fafc8c738d0f44676a964b7a7833d4ba1",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_stone-golem.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Stone_Golem_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Stone_Golem",
+      "width": 52,
+      "height": 84,
+      "sha256": "c2f95104cc65e8480d781604b20002fc9495fdb0ba03c4164d8fb24d47ff7bf2",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_dust-sprite.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Dust_Sprite.png",
+      "source": "https://stardewvalleywiki.com/Dust_Sprite",
+      "width": 64,
+      "height": 64,
+      "sha256": "3b74936ae3325f15f72cbbcac5a29a88901977a1584a83a8ef18f49bcca5f0b9",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_ghost.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/31/Ghost_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Ghost",
+      "width": 56,
+      "height": 84,
+      "sha256": "f16f65bb0bfaac9045fae69ab65d28592045f087b3b7aa611795762cae770356",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_skeleton.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bf/Skeleton_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Skeleton",
+      "width": 64,
+      "height": 128,
+      "sha256": "eafa10851ecc86c6c121bcb31175b1364efc3a73543d60c46975e9a5a45b3287",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_lava-crab.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ef/Lava_Crab_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Lava_Crab",
+      "width": 64,
+      "height": 72,
+      "sha256": "176064a926f0c1a27340ea14888450d848f1566d501b2286b5f4d07648ab3d56",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_metal-head.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Metal_Head_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Metal_Head",
+      "width": 60,
+      "height": 64,
+      "sha256": "c0615ebaaedd5187f078b1d84f3ef23bf6431da012ded90cb951f71e2bfa5b98",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_shadow-brute.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/85/Shadow_Brute_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shadow_Brute",
+      "width": 64,
+      "height": 112,
+      "sha256": "d31e01355084dce027e3b733f5f39c66ee0f3d66390110b94ccd86a6914b853d",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_shadow-shaman.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Shadow_Shaman_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shadow_Shaman",
+      "width": 56,
+      "height": 92,
+      "sha256": "6b9afe7cac64b6285396028e4fbc642944bdd723c328c198a4d1fec3945cb8fe",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_squid-kid.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/83/Squid_Kid_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Squid_Kid",
+      "width": 64,
+      "height": 64,
+      "sha256": "0b5b33ffa27093b93902fe8669906f0889e6048671f339ec4be90b2b84841dc5",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_armored-bug.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Armored_Bug_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Armored_Bug",
+      "width": 64,
+      "height": 64,
+      "sha256": "3e1c2407024eb895cdc339515e477f362116ef090bd37764ec0c8ae774d9f43f",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_carbon-ghost.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/13/Carbon_Ghost_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Carbon_Ghost",
+      "width": 56,
+      "height": 84,
+      "sha256": "3f151f73fc705a1e666604ff39bf36fd00355753c41e4500a209e4bad6f952e2",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_iridium-crab.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Iridium_Crab_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Iridium_Crab",
+      "width": 64,
+      "height": 76,
+      "sha256": "d6732354aa55118be494d97d39aa68fde56fb84ba5f1b1ccce52513edb294bf9",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_mummy.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/76/Mummy_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Mummy",
+      "width": 64,
+      "height": 128,
+      "sha256": "d272b6dfd91804878a812f2bc74a6b2d37806d86b323126d8718b1d12bd0cddf",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_pepper-rex.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Pepper_Rex.gif",
+      "source": "https://stardewvalleywiki.com/Pepper_Rex",
+      "width": 96,
+      "height": 78,
+      "sha256": "3d915f68698fc61a77430fde0aca8debafff277786412a5152f9260e9a40bd35",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_serpent.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Serpent_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Serpent",
+      "width": 96,
+      "height": 96,
+      "sha256": "4090f819b369e6474a97314f1631d45783ce343a58fd74bb8adc324a0280e1c8",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_haunted-skull.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Haunted_Skull_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Haunted_Skull",
+      "width": 52,
+      "height": 64,
+      "sha256": "45290e7b71a5706837e8ac55cc99ff1e9dfd48ff8498d4d956f6b5e97b2b4ef3",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_mutant-fly.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Mutant_Fly.png",
+      "source": "https://stardewvalleywiki.com/Mutant_Fly",
+      "width": 64,
+      "height": 64,
+      "sha256": "c9f4c63f76cff677336f83d640f1f29d69a4de2ce00cbc8ee41b8afcd29e0262",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_mutant-grub.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Mutant_Grub_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Mutant_Grub",
+      "width": 64,
+      "height": 64,
+      "sha256": "2ca4088f566ad8568e6d13c50f4df9b0e63a4c8d4a7b959a8f829ba0b241a62e",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_dwarvish-sentry.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/27/Dwarvish_Sentry.png",
+      "source": "https://stardewvalleywiki.com/Dwarvish_Sentry",
+      "width": 56,
+      "height": 92,
+      "sha256": "36a72be501160c93d5f1de0fcdc5bccc1de36ce3f469cb5d8cf67b001fde5310",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_false-magma-cap.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7a/False_Magma_Cap_Anim.gif",
+      "source": "https://stardewvalleywiki.com/False_Magma_Cap",
+      "width": 64,
+      "height": 96,
+      "sha256": "96183f6b1f1c50cfda259705f9b521593642725fc0baed8c744813fde9645d72",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_hot-head.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8d/Hot_Head_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Hot_Head",
+      "width": 64,
+      "height": 64,
+      "sha256": "ecd080cd484fc44ddfc042f896066376b4ec80bb907a258466bfaad532b20e8a",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_lava-lurk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/50/Lava_Lurk_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Lava_Lurk",
+      "width": 64,
+      "height": 64,
+      "sha256": "7e05e92406f0d747f610c93ae7947cef8d263a6b1a528a9533502a498f216ad1",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_magma-sprite.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Magma_Sprite_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Magma_Sprite",
+      "width": 64,
+      "height": 64,
+      "sha256": "cab00cfa88096fe8d146dc22884404d468875990e67c21b09e5c0d41fa15639b",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_magma-sparker.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/91/Magma_Sparker_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Magma_Sparker",
+      "width": 64,
+      "height": 64,
+      "sha256": "cfb121f83303b5f1087f03b3ab3bed1adb748c991447c30517f79cabcec5d516",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_magma-duggy.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/41/Magma_Duggy.png/64px-Magma_Duggy.png",
+      "source": "https://stardewvalleywiki.com/Magma_Duggy",
+      "width": 64,
+      "height": 64,
+      "sha256": "5030fd3d371dddb25d7a3a9e6a642039ab252a27fe4869ec9217b2cc1f83428b",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_truffle-crab.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Truffle_Crab_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Truffle_Crab",
+      "width": 64,
+      "height": 80,
+      "sha256": "c336627ca08a0b6d774b7948c8571644e41aca24f7b0e76277a673fc48501c84",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_wilderness-golem.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Wilderness_Golem_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Wilderness_Golem",
+      "width": 52,
+      "height": 92,
+      "sha256": "d112e7e1cab0e3160c0d8825d1c92b08e25836ed7a1089637b2f8bf62b57f7d0",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_iridium-golem.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/af/Iridium_Golem_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Iridium_Golem",
+      "width": 64,
+      "height": 96,
+      "sha256": "ba57ce4fdc829cb403f06b7a0c22df35aff26c80d92d4ac695013a804ea4dfd9",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_haunted-skull-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Haunted_Skull_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Haunted_Skull_(dangerous)",
+      "width": 52,
+      "height": 64,
+      "sha256": "7d11d4f79d4615b8fa3d4336bd8fd8449ad1bc10d3ba291d67b7b217601d4f31",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_blue-squid.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Blue_Squid_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Blue_Squid",
+      "width": 64,
+      "height": 79,
+      "sha256": "290307e5b93743bea1ddc8daeae26a3ecc4bff5cb7205db0cd44f1dc7c1feb80",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_bug-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Bug_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Bug_(dangerous)",
+      "width": 64,
+      "height": 64,
+      "sha256": "3930cb4e841506c4e608e21d1823d0270d320093fee6117eae5f4dd5b317a01d",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_duggy-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Duggy_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Duggy_(dangerous)",
+      "width": 60,
+      "height": 60,
+      "sha256": "06147b74bbc83ef86a339dc7a527d0e0a86f2d8ff97c87cfc24c93a9e919b2f3",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_rock-crab-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Rock_Crab_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Rock_Crab_(dangerous)",
+      "width": 64,
+      "height": 80,
+      "sha256": "813157e18490ba17bde114e83526594fb331e62facb204c57445f57f85c94e23",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_stone-golem-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Stone_Golem_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Stone_Golem_(dangerous)",
+      "width": 64,
+      "height": 88,
+      "sha256": "cee94c9099ee54a2439b97ef9d3d365a6305645389e3e2d7c3e2838010c37dec",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_grub-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Grub_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Grub_(dangerous)",
+      "width": 48,
+      "height": 68,
+      "sha256": "d7a6f266e73348f2eb3dcc5beff8a096da3627ee6d8ae2d5d64f9a9c032aabe4",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_cave-fly-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Cave_Fly_Dangerous.png",
+      "source": "https://stardewvalleywiki.com/Cave_Fly_(dangerous)",
+      "width": 64,
+      "height": 64,
+      "sha256": "bf381a37a21149a072ddd76d5c4e4321f805310346df3a4d60dbb434ff4d1293",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_dust-sprite-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Dust_Sprite_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Dust_Sprite_(dangerous)",
+      "width": 64,
+      "height": 72,
+      "sha256": "61062c6e870fbfe1b1bf4f010dd19da8cab444aff6eebc8d6f3dd3d2170140ea",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_putrid-ghost.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/42/Putrid_Ghost.png",
+      "source": "https://stardewvalleywiki.com/Putrid_Ghost",
+      "width": 52,
+      "height": 80,
+      "sha256": "51ffba053e710cadafd42a8492e773437a88e3c8fd027ac7c07630d8d1b93458",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_spider.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/84/Spider.png",
+      "source": "https://stardewvalleywiki.com/Spider",
+      "width": 64,
+      "height": 64,
+      "sha256": "f30fa8b4287ae2de00e933f47cdfda2530a4039c9fd6bbbb18e29f431835e381",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_stick-bug.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Stick_Bug_Animated.gif",
+      "source": "https://stardewvalleywiki.com/Stick_Bug",
+      "width": 48,
+      "height": 57,
+      "sha256": "f1f5a1564528b063f150e29f813e7b71db7490c99745df2da36b74102c1ca78d",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_skeleton-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/05/Skeleton_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Skeleton_(dangerous)",
+      "width": 64,
+      "height": 112,
+      "sha256": "be1b2e7973e1b94f5ed426e508bcd238a866a15d36eadf814612446231dc6dd0",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_skeleton-mage.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Skeleton_Mage_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Skeleton_Mage",
+      "width": 60,
+      "height": 124,
+      "sha256": "33bb9a66263f906c6ebd0cfc114ced459d0511ae5cee62a37491506a49a13184",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_lava-crab-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Lava_Crab_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Lava_Crab_(dangerous)",
+      "width": 64,
+      "height": 72,
+      "sha256": "bbcfed1f3c3075915563af886a8bbc1529a2e48dc836262d119ca8902cd84865",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_metal-head-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/de/Metal_Head_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Metal_Head_(dangerous)",
+      "width": 60,
+      "height": 64,
+      "sha256": "e5360ecd24356cdfc975480c827ebe8c915445fdbb60d524799fc6d1b5221d89",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_shadow-brute-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Shadow_Brute_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shadow_Brute_(dangerous)",
+      "width": 64,
+      "height": 124,
+      "sha256": "fdbc5d344b7f5467b159285924c70e171e718835f1b02c6dec316868545838bd",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_shadow-shaman-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bf/Shadow_Shaman_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shadow_Shaman_(dangerous)",
+      "width": 64,
+      "height": 96,
+      "sha256": "34a1c150dfac94a3efc9d0611df854518e12de126ea48d1fea4bb33143f9be02",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_shadow-sniper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Shadow_Sniper_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Shadow_Sniper",
+      "width": 64,
+      "height": 112,
+      "sha256": "ec40f48c523fb632f50bdb228a4ca89908e0dcf160196c718ee54106bfa05233",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_squid-kid-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Squid_Kid_Dangerous.png",
+      "source": "https://stardewvalleywiki.com/Squid_Kid_(dangerous)",
+      "width": 56,
+      "height": 56,
+      "sha256": "480e0d926e75abedd599984b42087fb0940396f29a93bd22e5bb4fb9ee1bb346",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_armored-bug-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0e/Armored_Bug_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Armored_Bug_(dangerous)",
+      "width": 64,
+      "height": 64,
+      "sha256": "b19b4f20076a37d25b73164fd2d6a41126db87c3c2dc2053ac56f7beea7581bc",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_mummy-dangerous.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Mummy_Dangerous_Anim.gif",
+      "source": "https://stardewvalleywiki.com/Mummy_(dangerous)",
+      "width": 56,
+      "height": 108,
+      "sha256": "acff3588052b88ed4808316f7d0ff970e3c8cb374bd98c37340a1cdc023bb846",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    },
+    {
+      "file": "public/assets/game/Monster_royal-serpent.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/28/Royal_Serpent.png",
+      "source": "https://stardewvalleywiki.com/Royal_Serpent",
+      "width": 54,
+      "height": 72,
+      "sha256": "c989d39ca056bebb697e38f0711e5253d1ea9cfcfa8dc474e394b10c8ca764f7",
+      "transform": "Original infobox sprite; animated sources use first frame as static PNG."
+    }
+  ]
+}

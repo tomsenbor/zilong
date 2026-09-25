@@ -1,0 +1,261 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Tool_hoe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Hoe.png",
+      "source": "https://stardewvalleywiki.com/Hoes",
+      "width": 48,
+      "height": 48,
+      "sha256": "154a11ee882ad5e0bfa30b0421f5081397272467deb8011e91109ccc32ba1de3"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-hoe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Copper_Hoe.png",
+      "source": "https://stardewvalleywiki.com/Hoes",
+      "width": 48,
+      "height": 48,
+      "sha256": "c18d8ba4b46b3451451316dac9f247f2abbc05616070b3d7bd303d9c09328d04"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-hoe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f5/Steel_Hoe.png",
+      "source": "https://stardewvalleywiki.com/Hoes",
+      "width": 48,
+      "height": 48,
+      "sha256": "473a430f849212155222c1ca0640b497039c3f196e297a6657d07dfd7261a971"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-hoe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Gold_Hoe.png",
+      "source": "https://stardewvalleywiki.com/Hoes",
+      "width": 48,
+      "height": 48,
+      "sha256": "163066e98ee93c5ddad6f242c057c5651ccb825265b73325e9c3826573fc765c"
+    },
+    {
+      "file": "public/assets/game/Tool_pickaxe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b7/Pickaxe.png",
+      "source": "https://stardewvalleywiki.com/Pickaxes",
+      "width": 48,
+      "height": 48,
+      "sha256": "c1958e86dc52ce963bc17aec59cc42f4e797608d2ee7cd66e21a3243ae1a5788"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-hoe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5f/Iridium_Hoe.png",
+      "source": "https://stardewvalleywiki.com/Hoes",
+      "width": 48,
+      "height": 48,
+      "sha256": "9193d89175ea4e23379df32cbb1a90575543b259b375b05fce2b6154f6cbec01"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-pickaxe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d7/Copper_Pickaxe.png",
+      "source": "https://stardewvalleywiki.com/Pickaxes",
+      "width": 48,
+      "height": 48,
+      "sha256": "79c0cf53d97ee7ae25407d002c99d63f851ffc402047388f5e74859e719fc338"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-pickaxe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Steel_Pickaxe.png",
+      "source": "https://stardewvalleywiki.com/Pickaxes",
+      "width": 48,
+      "height": 48,
+      "sha256": "cd7db0cc51a43d8b26d3271ffa8df1138bac4dff16f653603f3958a035538b7c"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-pickaxe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Gold_Pickaxe.png",
+      "source": "https://stardewvalleywiki.com/Pickaxes",
+      "width": 48,
+      "height": 48,
+      "sha256": "24d5dbaae7d0fa6269a967d35a50930e82f8b0a9ba3abf02cad2c4af0eb0b219"
+    },
+    {
+      "file": "public/assets/game/Tool_axe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/fb/Axe.png",
+      "source": "https://stardewvalleywiki.com/Axes",
+      "width": 48,
+      "height": 48,
+      "sha256": "2bf67560e82b77e6fe0cf1eaa5cc714eb2dbf5b5188bdb9ee4d0774ce24a7385"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-pickaxe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Iridium_Pickaxe.png",
+      "source": "https://stardewvalleywiki.com/Pickaxes",
+      "width": 48,
+      "height": 48,
+      "sha256": "d0644158af6bf15a524fee00c70bf8e38b381b3950bacae762b9dcb908c5a0ee"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-axe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/21/Copper_Axe.png",
+      "source": "https://stardewvalleywiki.com/Axes",
+      "width": 48,
+      "height": 48,
+      "sha256": "e7d852124bdd58d6fa2ac183fe1e85537f72824221cbe5736e06d7150d17cbef"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-axe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/29/Gold_Axe.png",
+      "source": "https://stardewvalleywiki.com/Axes",
+      "width": 48,
+      "height": 48,
+      "sha256": "3f60d1d0dcba904c71328a6f1a68355f672f73e182e61deecdb3c8da259a1853"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-axe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Iridium_Axe.png",
+      "source": "https://stardewvalleywiki.com/Axes",
+      "width": 48,
+      "height": 48,
+      "sha256": "85ec416d7efd9ad055a6704c9e7c88cc93b12089d67047832866dc7a1514fb09"
+    },
+    {
+      "file": "public/assets/game/Tool_watering-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Watering_Can.png",
+      "source": "https://stardewvalleywiki.com/Watering_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "8103f47b5f8c530e6d56b1aff555e7ad36f8fb60dddc1ab63cfcbe60c024ea2e"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-watering-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0d/Copper_Watering_Can.png",
+      "source": "https://stardewvalleywiki.com/Watering_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "8aff2bbc3b5b595c9e28e91a4553b11a99a05b123cd48a96cd7f288c19bc9e54"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-watering-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Steel_Watering_Can.png",
+      "source": "https://stardewvalleywiki.com/Watering_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "5c01ea445fee4980030adc8f142f954e67fca6e15027668cf2653802ab9612e6"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-axe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/ce/Steel_Axe.png",
+      "source": "https://stardewvalleywiki.com/Axes",
+      "width": 48,
+      "height": 48,
+      "sha256": "1c41eb54506041e08f7ff0f3e4e3d57f1096de1ba81e44f5afb43575418ee409"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-watering-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/5e/Iridium_Watering_Can.png",
+      "source": "https://stardewvalleywiki.com/Watering_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "522fc14e3592105f0123b26d38dd7cfb0d36efc6b1b9b08b497ab5cd4b7e2334"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-watering-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/74/Gold_Watering_Can.png",
+      "source": "https://stardewvalleywiki.com/Watering_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "c5bbd1b2043e4c6d88c469203c5aad8075df767242ba51bea70055c839cd36e8"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-trash-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Trash_Can_Copper.png",
+      "source": "https://stardewvalleywiki.com/Trash_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "5a993dae88de01b5fbb67d2f3be2fecde1ae1e04673f55fcb882c341ee6924dd"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-trash-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Trash_Can_Gold.png",
+      "source": "https://stardewvalleywiki.com/Trash_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "677e37e0a04fa33404a5f043479f621be67ccfef4dc2b1e4f3f0a522f17777f3"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-trash-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Trash_Can_Steel.png",
+      "source": "https://stardewvalleywiki.com/Trash_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "33288931feb775c3034c682d2bda7e2636b6bd5d169cd67383d691b0950bd415"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-trash-can.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Trash_Can_Iridium.png",
+      "source": "https://stardewvalleywiki.com/Trash_Cans",
+      "width": 48,
+      "height": 48,
+      "sha256": "a93b5b1a520df671b75f9b4d7730e4eac21397c81f6d8010ebb1a2cbc16b2015"
+    },
+    {
+      "file": "public/assets/game/Tool_copper-pan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/71/Copper_Pan.png",
+      "source": "https://stardewvalleywiki.com/Pans",
+      "width": 48,
+      "height": 48,
+      "sha256": "1cc58da55aabebdd669a65115e20607bd992a659397f0329a9a874f0777f493d"
+    },
+    {
+      "file": "public/assets/game/Tool_steel-pan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/49/Steel_Pan.png",
+      "source": "https://stardewvalleywiki.com/Pans",
+      "width": 48,
+      "height": 48,
+      "sha256": "5bb06fa4f5ea053c39255881962e9c1f187b0b23d3c8caee80bc91485370fc7a"
+    },
+    {
+      "file": "public/assets/game/Tool_gold-pan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Gold_Pan.png",
+      "source": "https://stardewvalleywiki.com/Pans",
+      "width": 48,
+      "height": 48,
+      "sha256": "b794f40069586636e1e702cc9d515b493fab72266f48b9d39292a81e069ce174"
+    },
+    {
+      "file": "public/assets/game/Tool_iridium-pan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Iridium_Pan.png",
+      "source": "https://stardewvalleywiki.com/Pans",
+      "width": 48,
+      "height": 48,
+      "sha256": "bd87646035261aafa6d070d635473bf1d8641fdc413afd929430303d62928a2b"
+    },
+    {
+      "file": "public/assets/game/Tool_large-pack.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Backpack.png",
+      "source": "https://stardewvalleywiki.com/Inventory",
+      "width": 48,
+      "height": 48,
+      "sha256": "b19d20a3bef9ecd61bf2fce1231e41fea60a992a71e5c7df21ca7c6928124dc8"
+    },
+    {
+      "file": "public/assets/game/Tool_deluxe-pack.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/36_Backpack.png",
+      "source": "https://stardewvalleywiki.com/Inventory",
+      "width": 48,
+      "height": 48,
+      "sha256": "0b80fcf9960f6e9c70024b6461d493478fa7a40bdc716e9f505d54986a398951"
+    },
+    {
+      "file": "public/assets/game/Tool_scythe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/cd/Scythe.png",
+      "source": "https://stardewvalleywiki.com/Scythe",
+      "width": 48,
+      "height": 48,
+      "sha256": "2bca625121980258a3536fb10a3df15689093a9690e2560dc7b1e14fa98a0019"
+    },
+    {
+      "file": "public/assets/game/Tool_golden-scythe.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/33/Golden_Scythe.png",
+      "source": "https://stardewvalleywiki.com/Golden_Scythe",
+      "width": 48,
+      "height": 48,
+      "sha256": "110ce667b4403b2801c8e48c6539dadaef57e672d10d79234c51e45a4291787c"
+    }
+  ]
+}

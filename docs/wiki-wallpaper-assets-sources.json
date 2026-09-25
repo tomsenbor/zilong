@@ -1,0 +1,2317 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "key": "(WP)0",
+      "file": "public/assets/game/Wallpaper_0.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "bc434941da21473d7d1366f5187452313f26171d1c2c3cc52c19afb149bf0aa9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)1",
+      "file": "public/assets/game/Wallpaper_1.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "97408fb453e65f0211a04113fa12ce18fc6a690e6149561ea5d87b6c74603c80",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)2",
+      "file": "public/assets/game/Wallpaper_2.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "91255bb28e319b8e1c4267eac8c5789cb310e33cd733a5865807f54958cad84f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)3",
+      "file": "public/assets/game/Wallpaper_3.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b3f5ba24d9feabd5114ba3af877cf46643912989cd1bd1f04863fcc00e0be6f2",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)4",
+      "file": "public/assets/game/Wallpaper_4.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6e4c9b40da90d96311c646ea5d8501019f940ca0aa3e65bd016bf45cffdaeca3",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)5",
+      "file": "public/assets/game/Wallpaper_5.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f76b8000954bd0cd7041e00aab69e4ee3634c9a777a3ae21dde1123fb7b6af73",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)6",
+      "file": "public/assets/game/Wallpaper_6.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b9a254438f8d4a8e1d4b06146cbf5a488de89b13a3e512bcc8fec87b64725bac",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)7",
+      "file": "public/assets/game/Wallpaper_7.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "31eddaa6125a378741b74da597cc9e9cee535645f595a111aeed80a5afea12b9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)8",
+      "file": "public/assets/game/Wallpaper_8.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "69f7268f6d304dbab794b6dac0e52246d99d0d617db1d95c6795481a483e9adc",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)9",
+      "file": "public/assets/game/Wallpaper_9.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "18e69fd0e1c319bb14145d654bdad810d5f5dc9f94b1603ba939fae77a894416",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)10",
+      "file": "public/assets/game/Wallpaper_10.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0846b072c200f6671ccdeb612a80993963ceb7bb0861d6ebab5a393564e6faa6",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)11",
+      "file": "public/assets/game/Wallpaper_11.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c6d7825567af1264e419e7476357e36c99402e78c03652034a1cbdf5a2917846",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)12",
+      "file": "public/assets/game/Wallpaper_12.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "af7dbd82f9f7c1fa25bb28d51a746b21deb1b37b53cf99b339546b04fa1b2586",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)13",
+      "file": "public/assets/game/Wallpaper_13.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "816eed363f36e8cfc5af4cf21b013b9e181c2dfd7bf36707fee019235bb0785f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)14",
+      "file": "public/assets/game/Wallpaper_14.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f1e852627f0973d2d61ecf04789a3616a7ac596f632ac6f9fb09bdc076a6fe56",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)15",
+      "file": "public/assets/game/Wallpaper_15.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "345086c192c4954c86231510912e7f051346c8b56a89d8360824db2e5c76a914",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)16",
+      "file": "public/assets/game/Wallpaper_16.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "dc5af10feae752d373742ed35997148c7f533ef931b6bd3ba987c17d12f533f6",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)17",
+      "file": "public/assets/game/Wallpaper_17.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e52e9fe31a8f89f933be23be5bf51ed2d72675befff52cfb75259a1e88c57d58",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)18",
+      "file": "public/assets/game/Wallpaper_18.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "59fdc573b07ed4c90615eaff0ecdf75ae4250b4b6bf54f5ae91bac347090fc54",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)19",
+      "file": "public/assets/game/Wallpaper_19.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2944e77e2ae4ed208acb6c2662a8b5c895317c48a07ce92eab2f5b2cd2d95676",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)20",
+      "file": "public/assets/game/Wallpaper_20.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9f53e21115760d271b3f9286c925203f823f52f3a86db320c648dfd82eaf4759",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)21",
+      "file": "public/assets/game/Wallpaper_21.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "696e4ccfab99e24707fabba82b9f7d31d4772f49fb88778843b442ab39ec45cd",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)22",
+      "file": "public/assets/game/Wallpaper_22.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "ca50ab5dd80a41b5e9522b4afbe0fcb6a13bd19bbc86d38e85c7a4848a4e446e",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)23",
+      "file": "public/assets/game/Wallpaper_23.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "73eb8783494fd1ba1142de750d74da5dcb59da87674e10a79dabc9945c6ecb9b",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)24",
+      "file": "public/assets/game/Wallpaper_24.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "19476ecdf2b1c08645c24c18619111410051a182f6d1adf06b56bd5e43a0bf56",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)25",
+      "file": "public/assets/game/Wallpaper_25.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "70ff975c262719d84efcc864d95345994898a2873eebd4bfae7d4d01c248a219",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)26",
+      "file": "public/assets/game/Wallpaper_26.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a0438025ad54949c4df21bbc985780147abad7f8e51633732ec45f01c42400e8",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)27",
+      "file": "public/assets/game/Wallpaper_27.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "8f37f116820b5259d93f7a57ce31ee7b6c9d22935d518d52c4777552c46483bf",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)28",
+      "file": "public/assets/game/Wallpaper_28.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b50bc358099928365d5a5db31ed0702270eec8fef1cfc60221344880a425a09e",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)29",
+      "file": "public/assets/game/Wallpaper_29.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "fa5511ae916cab75a4eee1a0026ff1d19f56341da13d38c83a195734cb148671",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)30",
+      "file": "public/assets/game/Wallpaper_30.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "72b2089ccdab1aab38fa32cb094368148666d2359d375523d49e43ea40c933bb",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)31",
+      "file": "public/assets/game/Wallpaper_31.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0de56636bb1b9b30dff98eeb173438688c7307909927f5121c1787c0804c5bea",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)32",
+      "file": "public/assets/game/Wallpaper_32.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "57cbaabe58b8143dd59c5627df93c2b545f90dcc3e9583751ce483eca6db45d5",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)33",
+      "file": "public/assets/game/Wallpaper_33.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b36e3e2e5098c0cb08be95953d256fa7f2125a790994db19166bd4936eec3621",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)34",
+      "file": "public/assets/game/Wallpaper_34.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "4a1c703b73563ae90d0145f4c2dfc32280ac31c2a83cc8ab53a0ce7b37984bc6",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)35",
+      "file": "public/assets/game/Wallpaper_35.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9879cba63c31f16e885bf59335e7e433acee39e3b3f4e92b13ae78a9212f60d7",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)36",
+      "file": "public/assets/game/Wallpaper_36.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0ed87a90dafe306bc1670934a0bedce5ae79467997a78f9e25e3f2db80aee896",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)37",
+      "file": "public/assets/game/Wallpaper_37.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "39a985eee96e17d85b1e3c1a5e4bf360a0d3f574cac2afa28ea161adeb353fa1",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)38",
+      "file": "public/assets/game/Wallpaper_38.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e91de7c937c89e971273decdfbcc71f33d9338f497e34ee6dab035674bdc0a81",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)39",
+      "file": "public/assets/game/Wallpaper_39.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "4041d1e472819ef826634f4a2af2773d1cd11653ad42bee3a134dc15e3f02387",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)40",
+      "file": "public/assets/game/Wallpaper_40.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "dc193fe57f9cff017657643c44c178f7301a86ebbf384dd8ba6d7ce7f56dbe5f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)41",
+      "file": "public/assets/game/Wallpaper_41.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e5fa247fdabecb45d538bed5242c209a0c48b0b6e8e03b1fc75357b7d709a12f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)42",
+      "file": "public/assets/game/Wallpaper_42.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b7896607475e8a98b31e99dfac59b63ebd6d592b3a066728698ae07ed0c749ab",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)43",
+      "file": "public/assets/game/Wallpaper_43.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "01da4408b9068687722be64ddada7402acea5fb3316755a757a8f12898c7ef30",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)44",
+      "file": "public/assets/game/Wallpaper_44.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a92de10aa14a974ad6a32fc3c6b56e2c315966461109a1d2b537e4cfa431a6ce",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)45",
+      "file": "public/assets/game/Wallpaper_45.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "37fece72a7429391ff17429f0d7a8fa4f26ee4e1f1f4080fa2bc625e5623c1d9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)46",
+      "file": "public/assets/game/Wallpaper_46.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e782aa12f4e230b18b3d78c20b6b5dec5342320abc96d248acaf1a6f3a744cf9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)47",
+      "file": "public/assets/game/Wallpaper_47.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "5901bea5d0198ea6f6435905efa81eb8fe0004eb21e150c79703fe0d7b91b59b",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)48",
+      "file": "public/assets/game/Wallpaper_48.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "eeb2ef5ddded32ee7612dc30c12ae8e97f0776c416eb6e8c5e50e92d1d82dc3f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)49",
+      "file": "public/assets/game/Wallpaper_49.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9da840aff9994ccff55e90699a84bdb0862f953363ac3adc8d57ceb365b18673",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)50",
+      "file": "public/assets/game/Wallpaper_50.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "ba387d87098dc2a42f800b85573e296c1acff56fd8ac47e59dbc00e5f1b06835",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)51",
+      "file": "public/assets/game/Wallpaper_51.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2406175ee8806a1cf0719e89b6f698ecf1b7687600b2c5b134185d616d4444fa",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)52",
+      "file": "public/assets/game/Wallpaper_52.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "90715d1edc008bb51b7feee6e765bacee1f1c875b6f2f891cd0b4c88fa6a28f9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)53",
+      "file": "public/assets/game/Wallpaper_53.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "198093a58f4ad3ba02ff472b2f9fbac5dbe8e50755d607101c90fbdf62bcf83d",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)54",
+      "file": "public/assets/game/Wallpaper_54.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "75c6403c1a3d6e26bf3b9c6c277bd9d0abba45100defd07efa5ffb4e8cd59a69",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)55",
+      "file": "public/assets/game/Wallpaper_55.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2bc24df03e91311e154379e28b85a8f9abb055eee72e723ba6fab22a45bd39ff",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)56",
+      "file": "public/assets/game/Wallpaper_56.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "edaeff8b2b90fef9c25161c5dca6c8838e2a41931d4555473a3df9e8ceb34376",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)57",
+      "file": "public/assets/game/Wallpaper_57.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1e1c3bc8c816fa04bbc92373a186e8e2b116bc4a0489dc4b38bc66b0c66bfeb6",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)58",
+      "file": "public/assets/game/Wallpaper_58.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "143f8656b1804ffd53dcda07fd0d6258a80dcc2cbc8df2bcfac34b869525fa52",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)59",
+      "file": "public/assets/game/Wallpaper_59.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f014d12485dada29741b1963da3a0e5a067c191cf10bae95f76ca2296a7ea48d",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)60",
+      "file": "public/assets/game/Wallpaper_60.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "0c67e3808069a87c67273614e03e4adcb5baa730c812e31728a8c917d202654c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)61",
+      "file": "public/assets/game/Wallpaper_61.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9d253b12fe6b68e88e90a7b6f54f55b1e3c4b006cd698354cae82d3e08bea063",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)62",
+      "file": "public/assets/game/Wallpaper_62.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1653ac2a975e799ff2734ebda34fc0e85e506a9f2dea5d71f61ed975d4c73fe5",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)63",
+      "file": "public/assets/game/Wallpaper_63.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e6998ebd117bbaf392e639f68a99fbd9072d221e6245956b70c99a12c856fedc",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)64",
+      "file": "public/assets/game/Wallpaper_64.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2d86c0c9741a9cd3fc1586a0ce769f35395d94b1ae59fb6092007bdbfb4d036a",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)65",
+      "file": "public/assets/game/Wallpaper_65.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "f0962b0819940c0da8fe51feef891b2c4dd9d49f1c6e1632cbf39a24ec8f5230",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)66",
+      "file": "public/assets/game/Wallpaper_66.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1909a3a56a536338674cc6992f025f350129eb3185b2622f8e94b7e0ff4f0516",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)67",
+      "file": "public/assets/game/Wallpaper_67.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b6d4dd4c6f2f58fa168ae5ea98db810a28f49dbb22497e194b460306ff11c75e",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)68",
+      "file": "public/assets/game/Wallpaper_68.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "56c18cfdf5c87c432ce021fce8a16ef56998ba40e65ea4dd03a2dc2c608f0f40",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)69",
+      "file": "public/assets/game/Wallpaper_69.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "29ee16b226525450414ff677e853f5c03cf8c6fd027e7918953a5b9b44b89a6e",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)70",
+      "file": "public/assets/game/Wallpaper_70.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "d44b94058c2a717c911b62d115af282889d03724ad52b2cb61895ba89827fc83",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)71",
+      "file": "public/assets/game/Wallpaper_71.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "13fcfba8e79e587f8a0d274b7c92f3fb0d794f667ad6bec44429c5db91447ea1",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)72",
+      "file": "public/assets/game/Wallpaper_72.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "acee32fd022733239d8a4650a829c71868510ab4529435780ecb3d8b028f8e04",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)73",
+      "file": "public/assets/game/Wallpaper_73.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "67aa3538ac8870188c51067583e400a383b88cbea867e3a066c59ed2578717c4",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)74",
+      "file": "public/assets/game/Wallpaper_74.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "26cfa8c239f85a66505389385364993379cc216122eec54a33b0aae47f951e67",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)75",
+      "file": "public/assets/game/Wallpaper_75.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a3a04888f9a42a8513d232f0d496423dc5faee645099c58ef29bbfc010bcee32",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)76",
+      "file": "public/assets/game/Wallpaper_76.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "320b6aa55c0ea121e460d736fdfc15a314aaa6a1949e720a2ed5a9f2eed20aaf",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)77",
+      "file": "public/assets/game/Wallpaper_77.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "639374f1877fd29b7695113ffea0816cbacf1c2a4eddf93fd86042e081a86ffa",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)78",
+      "file": "public/assets/game/Wallpaper_78.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "666735ffccaf19ae660eb88c5a592269173b5e0b577dd2353918c0c1531c9afd",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)79",
+      "file": "public/assets/game/Wallpaper_79.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c178ba610999e600032073215c1c030ea6dd5c61b35bbd45fae9885ff873d810",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)80",
+      "file": "public/assets/game/Wallpaper_80.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "2122b21c3acf16ffa8a46cda2829f7ff907ab6e47cd7fe278724d8331540549c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)81",
+      "file": "public/assets/game/Wallpaper_81.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "02c1a8076018a6d5c516705c379e4c9cd0bed8919d32a64ff6735c5d41274532",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)82",
+      "file": "public/assets/game/Wallpaper_82.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c83ae25a1a9acada299a937f064772282f8c6771036cfade4345bc444c2fabb9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)83",
+      "file": "public/assets/game/Wallpaper_83.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b298650fa82e9236267350c5f413705462dd0b5dc9b1342f33b828fe8ac6a33f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)84",
+      "file": "public/assets/game/Wallpaper_84.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e7d4a43640363f81a5b92709e1060c9ac88b442aa5b5444e835abb7a54497793",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)85",
+      "file": "public/assets/game/Wallpaper_85.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "9274901bc8dbf1ebd9f035b0dfb34d0b10f8db50e7260a097b83a46d587028a2",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)86",
+      "file": "public/assets/game/Wallpaper_86.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "461cf1e1708b5f3243816f4b41d8e3c8df4fda35bc27c7ecd925f866e37e28b4",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)87",
+      "file": "public/assets/game/Wallpaper_87.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "1f61be9feebe64cb025d85c99832581a4fc3560ee1e4c9baa176efcb349542c1",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)88",
+      "file": "public/assets/game/Wallpaper_88.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "fbd781ab8883f7269b67293bbfcfada8471cf663da74ec4c0a8594dcceef2795",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)89",
+      "file": "public/assets/game/Wallpaper_89.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "7f2a4c9e4b08e842b1512528cea21d67f1ba7bb6b8607cce897af4ded7a08cd9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)90",
+      "file": "public/assets/game/Wallpaper_90.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "79450e0a1797c96bc96d7d4cb23bfbbaa6682cdb1addc79e4f0f8225852a16e3",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)91",
+      "file": "public/assets/game/Wallpaper_91.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "7aabe95dd141158b5922a7b6fae5aa6209ae0f1fe6127a661073eac5151db17a",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)92",
+      "file": "public/assets/game/Wallpaper_92.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a4353d8d8262371bd2ec7f6f7f2857361acfb957d6cbef33c35f1e11d3ee0532",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)93",
+      "file": "public/assets/game/Wallpaper_93.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6ed2827a07bffcd625dbbb8a0ff76f138905068c9727bcdef2efe3a2cb80af74",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)94",
+      "file": "public/assets/game/Wallpaper_94.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "288deea30eb11d26ee87857bba04515c03c37ad85265fc887db7a1d33eac7f7b",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)95",
+      "file": "public/assets/game/Wallpaper_95.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c9da110fb61854f0444a9e2fe434e038b37fc7b359b61bd7acd2eb9be0d5d44f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)96",
+      "file": "public/assets/game/Wallpaper_96.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "63ec2c969d547bd24c8e80dc4a37516c5304b0138ac03c616a9c57c74b249e04",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)97",
+      "file": "public/assets/game/Wallpaper_97.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "48b999b05a919e8e2e7722e7b0087d4983ec6b24d74bbb3680b9ca5f81b0f299",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)98",
+      "file": "public/assets/game/Wallpaper_98.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "56f104306374a5d7c45a793285f5b690cf5188331a9a08e0ccb96f39eb274db0",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)99",
+      "file": "public/assets/game/Wallpaper_99.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "197e259bcaf1ff47bbff90a623063c6de9991055a71fd134e68ee4a95ddd1667",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)100",
+      "file": "public/assets/game/Wallpaper_100.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "a5550e99777296c89d3909cc210e36758aa24d938e4d17fcb2f81c1bbbd8ce81",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)101",
+      "file": "public/assets/game/Wallpaper_101.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "6111c6509ba845af2137db5e59ce0608b3fee97a93e8b42294802c8f97015802",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)102",
+      "file": "public/assets/game/Wallpaper_102.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "11456147b9c447faedac0e9b19ae86b090947a768bc18d216518d5f4d988af2c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)103",
+      "file": "public/assets/game/Wallpaper_103.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "b6cc5212f0f4fb1fb044a60f9800e1d7c1ca520adf5a4d174c2d457e161f9393",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)104",
+      "file": "public/assets/game/Wallpaper_104.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "5a31043e18a5f7bad5418b3ac9d6c3af3b1bc8d0be2b11e5a85ad12ac1c2f929",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)105",
+      "file": "public/assets/game/Wallpaper_105.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "93e11562fe10746874f05dd2367f117103e39c7580dc62b6216879249c44c26a",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)106",
+      "file": "public/assets/game/Wallpaper_106.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "c8a5a38164a8584bde4d3e1b97e7e1c096a47612c5f97987b688f90c89ab6fcd",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)107",
+      "file": "public/assets/game/Wallpaper_107.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "08821905726c809129e4371a5578605ee5a1a38be1cfa5457702c4adc2c3289d",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)108",
+      "file": "public/assets/game/Wallpaper_108.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e0c3b3dfa6447557d52d42281a0d35dd5385d93b8e4c52563cf8979a5f16419d",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)109",
+      "file": "public/assets/game/Wallpaper_109.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "20a2cbd3edb6b7df315f48e024927096dd0153928b877631673481177fbbf46c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)110",
+      "file": "public/assets/game/Wallpaper_110.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "e22285fb6c55fe6c5c8a82cae0d45e9e0003392ce16dba7ba62a84c4ca7d502c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)111",
+      "file": "public/assets/game/Wallpaper_111.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "A53405BDA6E4372DB59A415077B25EB3D95597A12B55332F8307A0858839544F",
+      "sha256": "22c4cf619ae3e177eb6ebbcf294a1e811304afa457cf6ddc0a86e395eca612fb",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:0",
+      "file": "public/assets/game/Wallpaper_MoreWalls_0.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "b123389a22431165eb37c23bfc9c3a16f447020d0e7194a2e4b81f4719ce88d1",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:1",
+      "file": "public/assets/game/Wallpaper_MoreWalls_1.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 16,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "7991d41fb6d47dccf8b560949146f337e301d56a17ec88155c2203614ed6a3ea",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:2",
+      "file": "public/assets/game/Wallpaper_MoreWalls_2.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "27bd07324035d8627801f2436ea03ac1c94d580474524985629e133dc7d8a8ff",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:3",
+      "file": "public/assets/game/Wallpaper_MoreWalls_3.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 48,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "fbe0b236c948a5403f301e4ece6dfdafea623e4f95515fd30a8c630131a2de7e",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:4",
+      "file": "public/assets/game/Wallpaper_MoreWalls_4.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "293fe2da220b07e4896bb05910380e8854801359a1cdd3dc9cfb93ea96cf3d5c",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:5",
+      "file": "public/assets/game/Wallpaper_MoreWalls_5.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 80,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "0586b61b40b72dd940eb7f8c4287f2fbb60c8871034c397a15800db355e80dbd",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:6",
+      "file": "public/assets/game/Wallpaper_MoreWalls_6.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "e7319af92fd111eb2dc1b31c2657cbf0401b807787a47939ff31f26cb656a490",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:9",
+      "file": "public/assets/game/Wallpaper_MoreWalls_9.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 144,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "fffb7e493db19fbbfcd73af2e6f7b531bcabb28f95cd5ba0c55bf458ec5ba010",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:10",
+      "file": "public/assets/game/Wallpaper_MoreWalls_10.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "64c15856b11df8bbd24c8985008be293c7458f300bc7d78467ab585f8ec30ab9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:11",
+      "file": "public/assets/game/Wallpaper_MoreWalls_11.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 176,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "f38823235cc190abf362a8c42f793068fd4f321fb9466df97025e29e1602dd69",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:12",
+      "file": "public/assets/game/Wallpaper_MoreWalls_12.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "fc8617d611c8cb752d34cede13cba20ddd98f7ece94556aa9f8903538cca9843",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:13",
+      "file": "public/assets/game/Wallpaper_MoreWalls_13.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 208,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "48913bca8e5f3fa6b3280532d5fe044a886aa0f15e19218dfc30a75848ab6376",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:14",
+      "file": "public/assets/game/Wallpaper_MoreWalls_14.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "42e946bd147d58625a5985e2c9346496b24f6b1698050d6cab2ac315d612f957",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:15",
+      "file": "public/assets/game/Wallpaper_MoreWalls_15.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 240,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "43b0fe343ce53d09cc01f0573009d7279e994b1ec212277f058f62302d2ad5ee",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:16",
+      "file": "public/assets/game/Wallpaper_MoreWalls_16.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 0,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "fdea73b2b13d49997c67da2a8b2856a29beabac8d6aab6e70d5e4cbe1917ecff",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:17",
+      "file": "public/assets/game/Wallpaper_MoreWalls_17.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 16,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "efd9888db6c197c7b3154aca9a28d0990a5e3414e324f1387888e6ee03d73c08",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:18",
+      "file": "public/assets/game/Wallpaper_MoreWalls_18.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 32,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "6c38b18b2319636dec08d371c2d7cd913fbb89643055dbe0e5c5e1a577bfae1b",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:19",
+      "file": "public/assets/game/Wallpaper_MoreWalls_19.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 48,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "0ce89924747177205b16b3fe02cdd55706ed35d3f3b4bfc862202f2a92c58397",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:20",
+      "file": "public/assets/game/Wallpaper_MoreWalls_20.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 64,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "88d338a92a0ae2537d0b52e18f17a9ac8d25c083de61e364e4daa310a0dd44e9",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:21",
+      "file": "public/assets/game/Wallpaper_MoreWalls_21.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 80,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "f7602cd7a644dca909f7d8cbac6e3cc960624437f6e87a9a01eac9b318d690d0",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:22",
+      "file": "public/assets/game/Wallpaper_MoreWalls_22.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 96,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "a2a7223f599d55a2ee74fa4ece3b5e19cc98604bf78b40e775f38bc20c21645d",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:23",
+      "file": "public/assets/game/Wallpaper_MoreWalls_23.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 112,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "26f3ef76aa720d382dd58acecea3311b078279a60df3441e9bf87d921e75ac7f",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:24",
+      "file": "public/assets/game/Wallpaper_MoreWalls_24.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 128,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "04f73168497043014099eec59be69975118b7eba513d5c67013a669986e6d204",
+      "width": 16,
+      "height": 48
+    },
+    {
+      "key": "(WP)MoreWalls:25",
+      "file": "public/assets/game/Wallpaper_MoreWalls_25.png",
+      "source": "https://stardewvalleywiki.com/Wallpaper",
+      "gameVersion": "1.6.15.24356",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 144,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "sourceSha256": "C60064603AA81B7011BFC9E5A1151A11CDA6C52E1338654425E5F9BAED66ECF5",
+      "sha256": "00b7b27894b80593e54c472f559cc8d917c84ce7d3f7ad11049dbe071e2f2884",
+      "width": 16,
+      "height": 48
+    }
+  ]
+}

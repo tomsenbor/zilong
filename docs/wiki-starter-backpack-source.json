@@ -1,0 +1,23 @@
+{
+  "version": "1.6.15",
+  "record": {
+    "key": "roster-gap:starter-backpack",
+    "group": "equipment",
+    "originalName": "Backpack (12 slots)",
+    "sourceUrl": "https://stardewvalleywiki.com/Inventory",
+    "sourceRevision": 171695,
+    "versionEvidence": "Original inventory starts with one row of twelve slots; source History predates 1.6.15. Tools lists this starter identity separately from two upgrades.",
+    "disposition": "include",
+    "reason": "Starter inventory capacity distinct from purchased upgrades, represented by the real inventory tab rather than invented backpack art.",
+    "dataset": "items",
+    "slug": "starter-backpack",
+    "displayName": "初始12格背包"
+  },
+  "asset": {
+    "file": "public/assets/game/Inventory_Tab.png",
+    "source": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Inventory_Tab.png",
+    "width": 64,
+    "height": 68,
+    "sha256": "93ef09204240badec9842bb60d92dcb6eded5bc2d3248aa9e85950969b1ae15a"
+  }
+}

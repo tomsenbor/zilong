@@ -1,0 +1,163 @@
+{
+  "version": "1.6.15",
+  "nativeSource": {
+    "file": "Data/Objects",
+    "sha256": "F29FCD49BC979537645EA0DD8735C53ACB39E3B8299D9EE8258AD33C4822FF30"
+  },
+  "records": [
+    {
+      "nativeId": "176",
+      "title": "Egg",
+      "name": "鸡蛋（白）",
+      "slug": "animal-product-176",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Egg",
+        "revision": 182342,
+        "sha256": "475ad7b2a43e23b4e2c4a95157764cf30b0ad9fa722115785a267e8ccb8d59a6"
+      }
+    },
+    {
+      "nativeId": "180",
+      "title": "Brown Egg",
+      "name": "鸡蛋（棕）",
+      "slug": "animal-product-180",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Egg",
+        "revision": 182342,
+        "sha256": "475ad7b2a43e23b4e2c4a95157764cf30b0ad9fa722115785a267e8ccb8d59a6"
+      }
+    },
+    {
+      "nativeId": "174",
+      "title": "Large Egg",
+      "name": "大鸡蛋（白）",
+      "slug": "animal-product-174",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Large_Egg",
+        "revision": 190366,
+        "sha256": "82e38bff0d5ff11a22320572e67bc9542538d7219754ca4b79f19bfe0aa76260"
+      }
+    },
+    {
+      "nativeId": "182",
+      "title": "Large Brown Egg",
+      "name": "大鸡蛋（棕）",
+      "slug": "animal-product-182",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Large_Egg",
+        "revision": 190366,
+        "sha256": "82e38bff0d5ff11a22320572e67bc9542538d7219754ca4b79f19bfe0aa76260"
+      }
+    },
+    {
+      "nativeId": "184",
+      "title": "Milk",
+      "name": "牛奶",
+      "slug": "animal-product-184",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Milk",
+        "revision": 190620,
+        "sha256": "190fab96254c608de0c5a6ceed28db865f418096e418d8ab5f24e08adff9cc97"
+      }
+    },
+    {
+      "nativeId": "186",
+      "title": "Large Milk",
+      "name": "大壶牛奶",
+      "slug": "animal-product-186",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Large_Milk",
+        "revision": 193186,
+        "sha256": "39baeb6f1daa94c26dde5dcc3f812f09be78e7e1f814810360b899dafcfa7347"
+      }
+    },
+    {
+      "nativeId": "436",
+      "title": "Goat Milk",
+      "name": "羊奶",
+      "slug": "animal-product-436",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Goat_Milk",
+        "revision": 190400,
+        "sha256": "28a8d7b79e3f939eadc193a3ddc415be9833ee3758b273f94914e26ec3e2536e"
+      }
+    },
+    {
+      "nativeId": "438",
+      "title": "Large Goat Milk",
+      "name": "大瓶羊奶",
+      "slug": "animal-product-438",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Large_Goat_Milk",
+        "revision": 193191,
+        "sha256": "7ec9b11d4ca90ecf6f4aa59b51e49fc301c04323860f67f0069fd4c09acbbe2e"
+      }
+    },
+    {
+      "nativeId": "289",
+      "title": "Ostrich Egg",
+      "name": "鸵鸟蛋",
+      "slug": "animal-product-289",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Ostrich_Egg",
+        "revision": 190643,
+        "sha256": "510ef01565d82a8d871cc246fcb2efc2aca2adbfbbe2173732ceebe24bdb7630"
+      }
+    },
+    {
+      "nativeId": "305",
+      "title": "Void Egg",
+      "name": "虚空蛋",
+      "slug": "animal-product-305",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Void_Egg",
+        "revision": 192608,
+        "sha256": "720ef717fccb38f78a41beca4172bcad2268013a1998775624135ecc2a68f864"
+      }
+    },
+    {
+      "nativeId": "928",
+      "title": "Golden Egg",
+      "name": "金蛋",
+      "slug": "animal-product-928",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Golden_Egg",
+        "revision": 191965,
+        "sha256": "dbab84bc78187b46781b1bafe654a6d25b1f2c6ef476ffdd020f48b37a1dbf20"
+      }
+    },
+    {
+      "nativeId": "440",
+      "title": "Wool",
+      "name": "动物毛",
+      "slug": "animal-product-440",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Wool",
+        "revision": 182268,
+        "sha256": "859762c24431d58ca22fa71559702912f4ceb8d1fb42b06bab15e129e1be42b0"
+      }
+    },
+    {
+      "nativeId": "442",
+      "title": "Duck Egg",
+      "name": "鸭蛋",
+      "slug": "animal-product-442",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Duck_Egg",
+        "revision": 193152,
+        "sha256": "cb4107e492a6155a588605cf149231f60bef3bf50f492ab076809c30fe0bcece"
+      }
+    },
+    {
+      "nativeId": "444",
+      "title": "Duck Feather",
+      "name": "鸭毛",
+      "slug": "animal-product-444",
+      "source": {
+        "url": "https://stardewvalleywiki.com/Duck_Feather",
+        "revision": 194419,
+        "sha256": "60f6badb9c806bc4a2bb85d4192608c314bed1768467fd40da7bc5b5ca6e5cdf"
+      }
+    }
+  ]
+}

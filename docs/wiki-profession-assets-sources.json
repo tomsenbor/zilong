@@ -1,0 +1,245 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Profession_Rancher.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3c/Rancher.png/24px-Rancher.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "454f686a59b704de3351ff789c5f8d0c649378a252f75dd5cadd4da3812fb754"
+    },
+    {
+      "file": "public/assets/game/Profession_Tiller.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b2/Tiller.png/24px-Tiller.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "192f1496a4f61ffb604357a52bcdec38a303bf752869f55c530107296bc697d6"
+    },
+    {
+      "file": "public/assets/game/Profession_Coopmaster.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/26/Coopmaster.png/24px-Coopmaster.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "6c07ba9bcf2dfbe36eb8259fc5b271ffea4bc48387bb527ef10e6e9ab8014d9c"
+    },
+    {
+      "file": "public/assets/game/Profession_Shepherd.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/80/Shepherd.png/24px-Shepherd.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "1e4bbdac68501eca3efcd84001d0c485a80e8ceeb084390b6194bf95909993c5"
+    },
+    {
+      "file": "public/assets/game/Profession_Artisan.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/46/Artisan.png/24px-Artisan.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "052ce4e2a05d34c7871798b77d9c328db09cacd3259e9fdf8a75ce7420765a18"
+    },
+    {
+      "file": "public/assets/game/Profession_Agriculturist.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/78/Agriculturist.png/24px-Agriculturist.png",
+      "source": "https://stardewvalleywiki.com/Farming",
+      "width": 24,
+      "height": 24,
+      "sha256": "1b0542089cf190a35be369c063c5dec611191c3a4810929af27f17af1043681d"
+    },
+    {
+      "file": "public/assets/game/Profession_Miner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4a/Miner.png/24px-Miner.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "6bfdfd94316507fcf8a4812953feb744e2d0640e054908705e29a0e5fce2a699"
+    },
+    {
+      "file": "public/assets/game/Profession_Geologist.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/88/Geologist.png/24px-Geologist.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "d713f20d77f93af275db0e8d9b1be99597c18d7f05fa88948b1cf83b9c80eb87"
+    },
+    {
+      "file": "public/assets/game/Profession_Blacksmith.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ea/Blacksmith_Icon.png/24px-Blacksmith_Icon.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "7583837bc25474728c81e6e5ac1efea10785cd2efd9f5e4efc411fd937f06f27"
+    },
+    {
+      "file": "public/assets/game/Profession_Prospector.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ae/Prospector.png/24px-Prospector.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "fdf085c3c7e3376dda05c01de8bb92de930d2b852ec4dfc53ac411bc8d25af2b"
+    },
+    {
+      "file": "public/assets/game/Profession_Excavator.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/53/Excavator.png/24px-Excavator.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "7e636741977b85f71a3d8489cff7311fcc973a4615a37956aec2efd73b3427fa"
+    },
+    {
+      "file": "public/assets/game/Profession_Gemologist.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3c/Gemologist.png/24px-Gemologist.png",
+      "source": "https://stardewvalleywiki.com/Mining",
+      "width": 24,
+      "height": 24,
+      "sha256": "fc39c65695a6db810c5ce20f5fb41e502d0fefb0dddd4e13e25fc0a03f64c2a8"
+    },
+    {
+      "file": "public/assets/game/Profession_Forester.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0b/Forester.png/24px-Forester.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "084eb1785a6a39d2437d350ca70d8135e8b8e927185e8a3605116e798ba6e7d1"
+    },
+    {
+      "file": "public/assets/game/Profession_Gatherer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a6/Gatherer.png/24px-Gatherer.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "90547ab74a6b7f9d236da5dc23cc889a112d62580a0ef282419bd9d7e31608d2"
+    },
+    {
+      "file": "public/assets/game/Profession_Lumberjack.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cc/Lumberjack.png/24px-Lumberjack.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "f6cf4d73dfdf87c868341552059115b6de4f9ab8d2decbee5f398b11c425caf8"
+    },
+    {
+      "file": "public/assets/game/Profession_Tapper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a4/Tapper_Icon.png/24px-Tapper_Icon.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "cb6b9d562446fc626af5025642ddddf7cf3c53210625a85e1387040713d76b69"
+    },
+    {
+      "file": "public/assets/game/Profession_Botanist.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/86/Botanist.png/24px-Botanist.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "c251a67d9e09ade06382569ca4c3c30c26aee31026f370367bf6229bbd62e639"
+    },
+    {
+      "file": "public/assets/game/Profession_Tracker.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Tracker.png/24px-Tracker.png",
+      "source": "https://stardewvalleywiki.com/Foraging",
+      "width": 24,
+      "height": 24,
+      "sha256": "d36f18188061736365ccb76b1363155cd82c293f3c5efb13d5686f03bdb938bc"
+    },
+    {
+      "file": "public/assets/game/Profession_Fisher.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/44/Fisher.png/24px-Fisher.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "4bac1e1acf4e28da50afd5ad203829f3036fcf452f28001d334da3c761e4bb94"
+    },
+    {
+      "file": "public/assets/game/Profession_Trapper.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b8/Trapper.png/24px-Trapper.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "833ec277074002bae6f23fd6be8b9eb4334e426d712eba629e3e70d9d17fb54e"
+    },
+    {
+      "file": "public/assets/game/Profession_Angler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/22/Angler_Icon.png/24px-Angler_Icon.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "c16d99c7aa99d509a11e8e4a8d3793a93d465f771eef80e9899e97cbc7f6d065"
+    },
+    {
+      "file": "public/assets/game/Profession_Pirate.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Pirate.png/24px-Pirate.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "fbf1ca875620ffcebb9cee081ea8600c35316845ef47d348bdc465f5077c5d66"
+    },
+    {
+      "file": "public/assets/game/Profession_Mariner.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/03/Mariner.png/24px-Mariner.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "19b07676614e0ce8ec9acbbe5f24d711683f48d02092440542df34480ba4c073"
+    },
+    {
+      "file": "public/assets/game/Profession_Luremaster.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/29/Luremaster.png/24px-Luremaster.png",
+      "source": "https://stardewvalleywiki.com/Fishing",
+      "width": 24,
+      "height": 24,
+      "sha256": "e4a5d4fb258fe48fce739a298fa7c890cc7973fb414d94aaff437d76e32a7456"
+    },
+    {
+      "file": "public/assets/game/Profession_Fighter.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e6/Fighter.png/24px-Fighter.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "f84cea0f05646d590a5da8a7cc72f9c187e303586fb6b8dc6dd3e5245cd6c5f6"
+    },
+    {
+      "file": "public/assets/game/Profession_Scout.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Scout.png/24px-Scout.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "7a3b475a7ce6d7bca9dbd1b9c8ca6bbd1a05ff4d407f20dfb2481f2fc764e82e"
+    },
+    {
+      "file": "public/assets/game/Profession_Brute.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Brute.png/24px-Brute.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "9d66e96a23b9988ac387f2ee56756150fbb14248a3561ed06be3eb196d3fd9b9"
+    },
+    {
+      "file": "public/assets/game/Profession_Defender.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0d/Defender.png/24px-Defender.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "ce67afdc0a63bdb27bd2da720bd6cdbf6e9e60e2280a4d72b6fa1889adc58dfd"
+    },
+    {
+      "file": "public/assets/game/Profession_Acrobat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8f/Acrobat.png/24px-Acrobat.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "eb86f8a7bc2bf58b6fe2e95969b049fa57704dd7fac5bc7b55bf7036164477ee"
+    },
+    {
+      "file": "public/assets/game/Profession_Desperado.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/57/Desperado.png/24px-Desperado.png",
+      "source": "https://stardewvalleywiki.com/Combat",
+      "width": 24,
+      "height": 24,
+      "sha256": "74df5c5fc668310df65ab1d6f93fafbc3cf5bc5c3bd89ec9f590131ac6f79b8d"
+    }
+  ]
+}

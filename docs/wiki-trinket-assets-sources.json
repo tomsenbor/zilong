@@ -1,0 +1,70 @@
+{
+  "version": "1.6.15",
+  "fetchedAt": "2026-09-22T13:40:46.337Z",
+  "images": [
+    {
+      "file": "public/assets/game/Basilisk_Paw.png",
+      "source": "https://stardewvalleywiki.com/File:Basilisk_Paw.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/02/Basilisk_Paw.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "2c853d1564cbcac4c5013f433a82490acb2addadd8aa5aeba0633c5d60040115"
+    },
+    {
+      "file": "public/assets/game/Fairy_Box.png",
+      "source": "https://stardewvalleywiki.com/File:Fairy_Box.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Fairy_Box.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "70abb92d0210b7c91f7b44b3cecbe17ea6dc3cf9a2ee92d9cd4eee1a0da19ab0"
+    },
+    {
+      "file": "public/assets/game/Frog_Egg.png",
+      "source": "https://stardewvalleywiki.com/File:Green_Frog_Egg.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/23/Green_Frog_Egg.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "462ef75120a6b1d378054778f574844ce76e5117b6caf26bf24cf6693aaad312"
+    },
+    {
+      "file": "public/assets/game/Golden_Spur.png",
+      "source": "https://stardewvalleywiki.com/File:Golden_Spur.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Golden_Spur.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "c6b58a4c0f9301188a203379b94abd64e5b37413d9c9d8e950aa5a64cbab9fbc"
+    },
+    {
+      "file": "public/assets/game/Ice_Rod.png",
+      "source": "https://stardewvalleywiki.com/File:Ice_Rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Ice_Rod.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "b044ebcd4319d0e55fd10727e3f2aafed513fdaba3c9d018cd60ff767fe9d2b8"
+    },
+    {
+      "file": "public/assets/game/Magic_Hair_Gel.png",
+      "source": "https://stardewvalleywiki.com/File:Magic_Hair_Gel.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Magic_Hair_Gel.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "f06af90791d007da65f71128380d3db280a7926ffa1c1eaa05adbb196c2c11b2"
+    },
+    {
+      "file": "public/assets/game/Magic_Quiver.png",
+      "source": "https://stardewvalleywiki.com/File:Magic_Quiver.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b8/Magic_Quiver.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "b7a8cc77458ffd9a5e477e65e7cadfd55cf63ce12d37785ff6531ee242b691b7"
+    },
+    {
+      "file": "public/assets/game/Parrot_Egg.png",
+      "source": "https://stardewvalleywiki.com/File:Parrot_Egg.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Parrot_Egg.png",
+      "width": 48,
+      "height": 48,
+      "sha256": "4e4140fb9cb1184cb97e99bbf18521a12b80ee7d6182159012378f8a26c9858c"
+    }
+  ]
+}

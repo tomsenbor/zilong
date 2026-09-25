@@ -1,0 +1,47 @@
+[
+  {
+    "nativeId": "922",
+    "file": "public/assets/game/Supply_922.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 160,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "3e87ef09d4d3ff2a57388044a9c64546d2d6bf5dcc15f3c01dd2b019aeb1f327",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "923",
+    "file": "public/assets/game/Supply_923.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 176,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "9e29c7a51752c4d6ed243506bc4fdf85d472e8e3de0ee040a73764e541162d63",
+    "width": 48,
+    "height": 48
+  },
+  {
+    "nativeId": "924",
+    "file": "public/assets/game/Supply_924.png",
+    "source": "E:/Program Files (x86)/Steam/steamapps/common/Stardew Valley/Content/Maps/springobjects.xnb",
+    "sourceSha256": "dcc32ff89cea391eefcd0d927e0bffec20ec0f8ec51e3b1d315831aa8f2edc2a",
+    "rectangle": {
+      "left": 192,
+      "top": 608,
+      "width": 16,
+      "height": 16
+    },
+    "sha256": "87d97145e494d7399433362ca8115c6d7fb391ff906d6c88d6bfb0f7f0847d6a",
+    "width": 48,
+    "height": 48
+  }
+]

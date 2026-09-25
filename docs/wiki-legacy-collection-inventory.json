@@ -1,0 +1,3711 @@
+{
+  "version": "1.6.15",
+  "scope": "Four original named collection tables; identity mapping only, not all resources, food or fishing activities.",
+  "records": [
+    {
+      "collection": "Minerals",
+      "title": "Quartz",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "quartz",
+      "name": "石英",
+      "existingKey": "legacy:Minerals:Quartz",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 0,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Earth Crystal",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "earth-crystal",
+      "name": "地晶",
+      "existingKey": "legacy:Minerals:Earth Crystal",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 0,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Frozen Tear",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "frozen-tear",
+      "name": "泪晶",
+      "existingKey": "legacy:Minerals:Frozen Tear",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 0,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Fire Quartz",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "fire-quartz",
+      "name": "火水晶",
+      "existingKey": "legacy:Minerals:Fire Quartz",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 0,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Emerald",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "emerald",
+      "name": "绿宝石",
+      "existingKey": "legacy:Minerals:Emerald",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Aquamarine",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "aquamarine",
+      "name": "海蓝宝石",
+      "existingKey": "legacy:Minerals:Aquamarine",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Ruby",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ruby",
+      "name": "红宝石",
+      "existingKey": "legacy:Minerals:Ruby",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Amethyst",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "amethyst",
+      "name": "紫水晶",
+      "existingKey": "legacy:Minerals:Amethyst",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Topaz",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "topaz",
+      "name": "黄水晶",
+      "existingKey": "legacy:Minerals:Topaz",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Jade",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "jade",
+      "name": "翡翠",
+      "existingKey": "legacy:Minerals:Jade",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Diamond",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "diamond",
+      "name": "钻石",
+      "existingKey": "legacy:Minerals:Diamond",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Prismatic Shard",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prismatic-shard",
+      "name": "五彩碎片",
+      "existingKey": "legacy:Minerals:Prismatic Shard",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 1,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Tigerseye",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "tigerseye",
+      "name": "虎眼石",
+      "existingKey": "legacy:Minerals:Tigerseye",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Opal",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "opal",
+      "name": "猫眼石",
+      "existingKey": "legacy:Minerals:Opal",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Fire Opal",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "fire-opal",
+      "name": "赤红猫眼石",
+      "existingKey": "legacy:Minerals:Fire Opal",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Alamite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "alamite",
+      "name": "透闪石",
+      "existingKey": "legacy:Minerals:Alamite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Bixite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "bixite",
+      "name": "黑方石",
+      "existingKey": "legacy:Minerals:Bixite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Baryte",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "baryte",
+      "name": "重晶石",
+      "existingKey": "legacy:Minerals:Baryte",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Aerinite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "aerinite",
+      "name": "青泥石",
+      "existingKey": "legacy:Minerals:Aerinite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Calcite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "calcite",
+      "name": "方解石",
+      "existingKey": "legacy:Minerals:Calcite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Dolomite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dolomite",
+      "name": "白云石",
+      "existingKey": "legacy:Minerals:Dolomite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 9
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Esperite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "esperite",
+      "name": "硅钙石",
+      "existingKey": "legacy:Minerals:Esperite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 10
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Fluorapatite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "fluorapatite",
+      "name": "氟磷灰石",
+      "existingKey": "legacy:Minerals:Fluorapatite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 11
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Geminite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "geminite",
+      "name": "杰明石",
+      "existingKey": "legacy:Minerals:Geminite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 12
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Helvite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "helvite",
+      "name": "日光榴石",
+      "existingKey": "legacy:Minerals:Helvite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 13
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Jamborite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "jamborite",
+      "name": "绿水镍矿",
+      "existingKey": "legacy:Minerals:Jamborite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 14
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Jagoite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "jagoite",
+      "name": "铁铅矿",
+      "existingKey": "legacy:Minerals:Jagoite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 15
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Kyanite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "kyanite",
+      "name": "蓝晶石",
+      "existingKey": "legacy:Minerals:Kyanite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 16
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Lunarite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "lunarite",
+      "name": "酸性月岩",
+      "existingKey": "legacy:Minerals:Lunarite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 17
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Malachite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "malachite",
+      "name": "孔雀石",
+      "existingKey": "legacy:Minerals:Malachite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 18
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Neptunite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "neptunite",
+      "name": "柱星叶石",
+      "existingKey": "legacy:Minerals:Neptunite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 19
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Lemon Stone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "lemon-stone",
+      "name": "柠檬石",
+      "existingKey": "legacy:Minerals:Lemon Stone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 20
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Nekoite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "nekoite",
+      "name": "新硅钙石",
+      "existingKey": "legacy:Minerals:Nekoite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 21
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Orpiment",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "orpiment",
+      "name": "雌黄",
+      "existingKey": "legacy:Minerals:Orpiment",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 22
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Petrified Slime",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "petrified-slime",
+      "name": "石化史莱姆",
+      "existingKey": "legacy:Minerals:Petrified Slime",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 23
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Thunder Egg",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "thunder-egg",
+      "name": "雷公蛋",
+      "existingKey": "legacy:Minerals:Thunder Egg",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 24
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Pyrite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "pyrite",
+      "name": "黄铁矿",
+      "existingKey": "legacy:Minerals:Pyrite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 25
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Ocean Stone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ocean-stone",
+      "name": "海洋石",
+      "existingKey": "legacy:Minerals:Ocean Stone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 26
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Ghost Crystal",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ghost-crystal",
+      "name": "幽灵水晶",
+      "existingKey": "legacy:Minerals:Ghost Crystal",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 27
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Jasper",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "jasper",
+      "name": "碧玉",
+      "existingKey": "legacy:Minerals:Jasper",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 28
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Celestine",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "celestine",
+      "name": "天青石",
+      "existingKey": "legacy:Minerals:Celestine",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 29
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Marble",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "marble",
+      "name": "大理石",
+      "existingKey": "legacy:Minerals:Marble",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 30
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Sandstone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "sandstone",
+      "name": "沙岩",
+      "existingKey": "legacy:Minerals:Sandstone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 31
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Granite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "granite",
+      "name": "花岗岩",
+      "existingKey": "legacy:Minerals:Granite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 32
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Basalt",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "basalt",
+      "name": "玄武岩",
+      "existingKey": "legacy:Minerals:Basalt",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 33
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Limestone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "limestone",
+      "name": "石灰石",
+      "existingKey": "legacy:Minerals:Limestone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 34
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Soapstone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "soapstone",
+      "name": "皂石",
+      "existingKey": "legacy:Minerals:Soapstone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 35
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Hematite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "hematite",
+      "name": "赤铁矿",
+      "existingKey": "legacy:Minerals:Hematite",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 36
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Mudstone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "mudstone",
+      "name": "泥石",
+      "existingKey": "legacy:Minerals:Mudstone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 37
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Obsidian",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "obsidian",
+      "name": "黑曜石",
+      "existingKey": "legacy:Minerals:Obsidian",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 38
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Slate",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "slate",
+      "name": "板岩",
+      "existingKey": "legacy:Minerals:Slate",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 39
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Fairy Stone",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "fairy-stone",
+      "name": "精灵石",
+      "existingKey": "legacy:Minerals:Fairy Stone",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 40
+      }
+    },
+    {
+      "collection": "Minerals",
+      "title": "Star Shards",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "star-shards",
+      "name": "陶瓷碎片",
+      "existingKey": "legacy:Minerals:Star Shards",
+      "sourceUrl": "https://stardewvalleywiki.com/Minerals",
+      "sourceRevision": 194031,
+      "sourceRow": {
+        "table": 2,
+        "row": 41
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarf Scroll I",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarf-scroll-i",
+      "name": "矮人卷轴 I",
+      "existingKey": "legacy:Artifacts:Dwarf Scroll I",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarf Scroll II",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarf-scroll-ii",
+      "name": "矮人卷轴 II",
+      "existingKey": "legacy:Artifacts:Dwarf Scroll II",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarf Scroll III",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarf-scroll-iii",
+      "name": "矮人卷轴 III",
+      "existingKey": "legacy:Artifacts:Dwarf Scroll III",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarf Scroll IV",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarf-scroll-iv",
+      "name": "矮人卷轴 IV",
+      "existingKey": "legacy:Artifacts:Dwarf Scroll IV",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Chipped Amphora",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "chipped-amphora",
+      "name": "有缺口的土罐",
+      "existingKey": "legacy:Artifacts:Chipped Amphora",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Arrowhead",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "arrowhead",
+      "name": "箭头",
+      "existingKey": "legacy:Artifacts:Arrowhead",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Ancient Doll",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ancient-doll",
+      "name": "古代玩偶",
+      "existingKey": "legacy:Artifacts:Ancient Doll",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Elvish Jewelry",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "elvish-jewelry",
+      "name": "精灵珠宝",
+      "existingKey": "legacy:Artifacts:Elvish Jewelry",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Chewing Stick",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "chewing-stick",
+      "name": "咀嚼洁齿棒",
+      "existingKey": "legacy:Artifacts:Chewing Stick",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 9
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Ornamental Fan",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ornamental-fan",
+      "name": "装饰用扇子",
+      "existingKey": "legacy:Artifacts:Ornamental Fan",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 10
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dinosaur Egg",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dinosaur-egg",
+      "name": "恐龙蛋",
+      "existingKey": "legacy:Artifacts:Dinosaur Egg",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 11
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Rare Disc",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "rare-disc",
+      "name": "稀有圆盘",
+      "existingKey": "legacy:Artifacts:Rare Disc",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 12
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Ancient Sword",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ancient-sword",
+      "name": "古剑",
+      "existingKey": "legacy:Artifacts:Ancient Sword",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 13
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Rusty Spoon",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "rusty-spoon",
+      "name": "生锈的汤匙",
+      "existingKey": "legacy:Artifacts:Rusty Spoon",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 14
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Rusty Spur",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "rusty-spur",
+      "name": "生锈的靴刺",
+      "existingKey": "legacy:Artifacts:Rusty Spur",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 15
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Rusty Cog",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "rusty-cog",
+      "name": "生锈的齿轮",
+      "existingKey": "legacy:Artifacts:Rusty Cog",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 16
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Chicken Statue",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "chicken-statue",
+      "name": "鸡雕像",
+      "existingKey": "legacy:Artifacts:Chicken Statue",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 17
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Ancient Seed",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ancient-seed",
+      "name": "古代种子",
+      "existingKey": "legacy:Artifacts:Ancient Seed",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 18
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Tool",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-tool",
+      "name": "史前工具",
+      "existingKey": "legacy:Artifacts:Prehistoric Tool",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 19
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dried Starfish",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dried-starfish",
+      "name": "干海星",
+      "existingKey": "legacy:Artifacts:Dried Starfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 20
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Anchor",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "anchor",
+      "name": "锚",
+      "existingKey": "legacy:Artifacts:Anchor",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 21
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Glass Shards",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "glass-shards",
+      "name": "玻璃碎片",
+      "existingKey": "legacy:Artifacts:Glass Shards",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 22
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Bone Flute",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "bone-flute",
+      "name": "骨笛",
+      "existingKey": "legacy:Artifacts:Bone Flute",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 23
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Handaxe",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-handaxe",
+      "name": "史前手斧",
+      "existingKey": "legacy:Artifacts:Prehistoric Handaxe",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 24
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarvish Helm",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarvish-helm",
+      "name": "矮人头盔",
+      "existingKey": "legacy:Artifacts:Dwarvish Helm",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 25
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Dwarf Gadget",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "dwarf-gadget",
+      "name": "矮人小工具",
+      "existingKey": "legacy:Artifacts:Dwarf Gadget",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 26
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Ancient Drum",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "ancient-drum",
+      "name": "古代鼓",
+      "existingKey": "legacy:Artifacts:Ancient Drum",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 27
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Golden Mask",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "golden-mask",
+      "name": "黄金面具",
+      "existingKey": "legacy:Artifacts:Golden Mask",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 28
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Golden Relic",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "golden-relic",
+      "name": "黄金遗物",
+      "existingKey": "legacy:Artifacts:Golden Relic",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 29
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Strange Doll (green)",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "strange-doll-green",
+      "name": "诡异玩偶（绿）",
+      "existingKey": "legacy:Artifacts:Strange Doll (green)",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 30
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Strange Doll (yellow)",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "strange-doll-yellow",
+      "name": "诡异玩偶（黄）",
+      "existingKey": "legacy:Artifacts:Strange Doll (yellow)",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 31
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Scapula",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-scapula",
+      "name": "史前肩胛骨",
+      "existingKey": "legacy:Artifacts:Prehistoric Scapula",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 32
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Tibia",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-tibia",
+      "name": "史前胫骨",
+      "existingKey": "legacy:Artifacts:Prehistoric Tibia",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 33
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Skull",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-skull",
+      "name": "史前头骨",
+      "existingKey": "legacy:Artifacts:Prehistoric Skull",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 34
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Skeletal Hand",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "skeletal-hand",
+      "name": "手部骨骼",
+      "existingKey": "legacy:Artifacts:Skeletal Hand",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 35
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Rib",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-rib",
+      "name": "史前肋骨",
+      "existingKey": "legacy:Artifacts:Prehistoric Rib",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 36
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Prehistoric Vertebra",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "prehistoric-vertebra",
+      "name": "史前脊骨",
+      "existingKey": "legacy:Artifacts:Prehistoric Vertebra",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 37
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Skeletal Tail",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "skeletal-tail",
+      "name": "尾部骨骼",
+      "existingKey": "legacy:Artifacts:Skeletal Tail",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 38
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Nautilus Fossil",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "nautilus-fossil",
+      "name": "鹦鹉螺化石",
+      "existingKey": "legacy:Artifacts:Nautilus Fossil",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 39
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Amphibian Fossil",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "amphibian-fossil",
+      "name": "两栖动物化石",
+      "existingKey": "legacy:Artifacts:Amphibian Fossil",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 40
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Palm Fossil",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "palm-fossil",
+      "name": "棕榈化石",
+      "existingKey": "legacy:Artifacts:Palm Fossil",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 41
+      }
+    },
+    {
+      "collection": "Artifacts",
+      "title": "Trilobite",
+      "group": "resources",
+      "dataset": "items",
+      "slug": "trilobite",
+      "name": "三叶虫",
+      "existingKey": "legacy:Artifacts:Trilobite",
+      "sourceUrl": "https://stardewvalleywiki.com/Artifacts",
+      "sourceRevision": 186104,
+      "sourceRow": {
+        "table": 0,
+        "row": 42
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Pufferfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "pufferfish",
+      "name": "河豚",
+      "existingKey": "legacy:Fish:Pufferfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Anchovy",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "anchovy",
+      "name": "鳀鱼",
+      "existingKey": "legacy:Fish:Anchovy",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Tuna",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "tuna",
+      "name": "金枪鱼",
+      "existingKey": "legacy:Fish:Tuna",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Sardine",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "sardine",
+      "name": "沙丁鱼",
+      "existingKey": "legacy:Fish:Sardine",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Bream",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "bream",
+      "name": "鲷鱼",
+      "existingKey": "legacy:Fish:Bream",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Largemouth Bass",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "largemouth-bass",
+      "name": "大嘴鲈鱼",
+      "existingKey": "legacy:Fish:Largemouth Bass",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Smallmouth Bass",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "smallmouth-bass",
+      "name": "小嘴鲈鱼",
+      "existingKey": "legacy:Fish:Smallmouth Bass",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Rainbow Trout",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "rainbow-trout",
+      "name": "虹鳟鱼",
+      "existingKey": "legacy:Fish:Rainbow Trout",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Salmon",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "salmon",
+      "name": "鲑鱼",
+      "existingKey": "legacy:Fish:Salmon",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 9
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Walleye",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "walleye",
+      "name": "大眼鱼",
+      "existingKey": "legacy:Fish:Walleye",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 10
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Perch",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "perch",
+      "name": "河鲈",
+      "existingKey": "legacy:Fish:Perch",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 11
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Carp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "carp",
+      "name": "鲤鱼",
+      "existingKey": "legacy:Fish:Carp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 12
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Catfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "catfish",
+      "name": "鲶鱼",
+      "existingKey": "legacy:Fish:Catfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 13
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Pike",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "pike",
+      "name": "狗鱼",
+      "existingKey": "legacy:Fish:Pike",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 14
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Sunfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "sunfish",
+      "name": "太阳鱼",
+      "existingKey": "legacy:Fish:Sunfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 15
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Red Mullet",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "red-mullet",
+      "name": "红鲻鱼",
+      "existingKey": "legacy:Fish:Red Mullet",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 16
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Herring",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "herring",
+      "name": "鲱鱼",
+      "existingKey": "legacy:Fish:Herring",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 17
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Eel",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "eel",
+      "name": "鳗鱼",
+      "existingKey": "legacy:Fish:Eel",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 18
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Octopus",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "octopus",
+      "name": "章鱼",
+      "existingKey": "legacy:Fish:Octopus",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 19
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Red Snapper",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "red-snapper",
+      "name": "红鲷鱼",
+      "existingKey": "legacy:Fish:Red Snapper",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 20
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Squid",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "squid",
+      "name": "鱿鱼",
+      "existingKey": "legacy:Fish:Squid",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 21
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Sea Cucumber",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "sea-cucumber",
+      "name": "海参",
+      "existingKey": "legacy:Fish:Sea Cucumber",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 22
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Super Cucumber",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "super-cucumber",
+      "name": "大海参",
+      "existingKey": "legacy:Fish:Super Cucumber",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 23
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Ghostfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "ghostfish",
+      "name": "鬼鱼",
+      "existingKey": "legacy:Fish:Ghostfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 24
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Stonefish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "stonefish",
+      "name": "石鱼",
+      "existingKey": "legacy:Fish:Stonefish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 25
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Ice Pip",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "ice-pip",
+      "name": "冰柱鱼",
+      "existingKey": "legacy:Fish:Ice Pip",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 26
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Lava Eel",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "lava-eel",
+      "name": "岩浆鳗鱼",
+      "existingKey": "legacy:Fish:Lava Eel",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 27
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Sandfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "sandfish",
+      "name": "沙鱼",
+      "existingKey": "legacy:Fish:Sandfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 28
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Scorpion Carp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "scorpion-carp",
+      "name": "蝎鲤鱼",
+      "existingKey": "legacy:Fish:Scorpion Carp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 29
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Flounder",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "flounder",
+      "name": "比目鱼",
+      "existingKey": "legacy:Fish:Flounder",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 30
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Midnight Carp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "midnight-carp",
+      "name": "午夜鲤鱼",
+      "existingKey": "legacy:Fish:Midnight Carp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 31
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Sturgeon",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "sturgeon",
+      "name": "鲟鱼",
+      "existingKey": "legacy:Fish:Sturgeon",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 32
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Tiger Trout",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "tiger-trout",
+      "name": "虎纹鳟鱼",
+      "existingKey": "legacy:Fish:Tiger Trout",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 33
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Bullhead",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "bullhead",
+      "name": "大头鱼",
+      "existingKey": "legacy:Fish:Bullhead",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 34
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Tilapia",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "tilapia",
+      "name": "罗非鱼",
+      "existingKey": "legacy:Fish:Tilapia",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 35
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Chub",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "chub",
+      "name": "鲢鱼",
+      "existingKey": "legacy:Fish:Chub",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 36
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Dorado",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "dorado",
+      "name": "麻哈脂鲤",
+      "existingKey": "legacy:Fish:Dorado",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 37
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Albacore",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "albacore",
+      "name": "青花鱼",
+      "existingKey": "legacy:Fish:Albacore",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 38
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Shad",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "shad",
+      "name": "西鲱",
+      "existingKey": "legacy:Fish:Shad",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 39
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Lingcod",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "lingcod",
+      "name": "蛇齿单线鱼",
+      "existingKey": "legacy:Fish:Lingcod",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 40
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Halibut",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "halibut",
+      "name": "大比目鱼",
+      "existingKey": "legacy:Fish:Halibut",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 41
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Woodskip",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "woodskip",
+      "name": "木跃鱼",
+      "existingKey": "legacy:Fish:Woodskip",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 42
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Void Salmon",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "void-salmon",
+      "name": "虚空鲑鱼",
+      "existingKey": "legacy:Fish:Void Salmon",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 43
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Slimejack",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "slimejack",
+      "name": "史莱姆鱼",
+      "existingKey": "legacy:Fish:Slimejack",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 44
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Stingray",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "stingray",
+      "name": "黄貂鱼",
+      "existingKey": "legacy:Fish:Stingray",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 45
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Lionfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "lionfish",
+      "name": "狮子鱼",
+      "existingKey": "legacy:Fish:Lionfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 46
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Blue Discus",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "blue-discus",
+      "name": "蓝铁饼鱼",
+      "existingKey": "legacy:Fish:Blue Discus",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 47
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Goby",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "goby",
+      "name": "虾虎鱼",
+      "existingKey": "legacy:Fish:Goby",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 0,
+        "row": 48
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Midnight Squid",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "midnight-squid",
+      "name": "午夜鱿鱼",
+      "existingKey": "legacy:Fish:Midnight Squid",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 1,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Spook Fish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "spook-fish",
+      "name": "幽灵鱼",
+      "existingKey": "legacy:Fish:Spook Fish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 1,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Blobfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "blobfish",
+      "name": "水滴鱼",
+      "existingKey": "legacy:Fish:Blobfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 1,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Crimsonfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "crimsonfish",
+      "name": "绯红鱼",
+      "existingKey": "legacy:Fish:Crimsonfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 2,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Angler",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "angler",
+      "name": "鮟鱇鱼",
+      "existingKey": "legacy:Fish:Angler",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 2,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Legend",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "legend",
+      "name": "传说之鱼",
+      "existingKey": "legacy:Fish:Legend",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 2,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Glacierfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "glacierfish",
+      "name": "冰川鱼",
+      "existingKey": "legacy:Fish:Glacierfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 2,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Mutant Carp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "mutant-carp",
+      "name": "变种鲤鱼",
+      "existingKey": "legacy:Fish:Mutant Carp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 2,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Son of Crimsonfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "son-of-crimsonfish",
+      "name": "绯红鱼之子",
+      "existingKey": "legacy:Fish:Son of Crimsonfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 3,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Ms. Angler",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "ms-angler",
+      "name": "雌鮟鱇鱼",
+      "existingKey": "legacy:Fish:Ms. Angler",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 3,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Legend II",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "legend-ii",
+      "name": "传说之鱼二代",
+      "existingKey": "legacy:Fish:Legend II",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 3,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Glacierfish Jr.",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "glacierfish-jr",
+      "name": "小冰川鱼",
+      "existingKey": "legacy:Fish:Glacierfish Jr.",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 3,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Radioactive Carp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "radioactive-carp",
+      "name": "放射性鲤鱼",
+      "existingKey": "legacy:Fish:Radioactive Carp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 3,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Clam",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "clam",
+      "name": "蛤",
+      "existingKey": "legacy:Fish:Clam",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Lobster",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "lobster",
+      "name": "龙虾",
+      "existingKey": "legacy:Fish:Lobster",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Crayfish",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "crayfish",
+      "name": "小龙虾",
+      "existingKey": "legacy:Fish:Crayfish",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Crab",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "crab",
+      "name": "螃蟹",
+      "existingKey": "legacy:Fish:Crab",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Cockle",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "cockle",
+      "name": "鸟蛤",
+      "existingKey": "legacy:Fish:Cockle",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Mussel",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "mussel",
+      "name": "蚌",
+      "existingKey": "legacy:Fish:Mussel",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Shrimp",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "shrimp",
+      "name": "虾",
+      "existingKey": "legacy:Fish:Shrimp",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Snail",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "snail",
+      "name": "蜗牛",
+      "existingKey": "legacy:Fish:Snail",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 9
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Periwinkle",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "periwinkle",
+      "name": "玉黍螺",
+      "existingKey": "legacy:Fish:Periwinkle",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 10
+      }
+    },
+    {
+      "collection": "Fish",
+      "title": "Oyster",
+      "group": "fishing",
+      "dataset": "fish",
+      "slug": "oyster",
+      "name": "牡蛎",
+      "existingKey": "legacy:Fish:Oyster",
+      "sourceUrl": "https://stardewvalleywiki.com/Fish",
+      "sourceRevision": 194048,
+      "sourceRow": {
+        "table": 4,
+        "row": 11
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fried Egg",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fried-egg",
+      "name": "煎蛋",
+      "existingKey": "legacy:Cooking:Fried Egg",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 1
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Omelet",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "omelet",
+      "name": "煎蛋卷",
+      "existingKey": "legacy:Cooking:Omelet",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 2
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Salad",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "salad",
+      "name": "沙拉",
+      "existingKey": "legacy:Cooking:Salad",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 3
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Cheese Cauliflower",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "cheese-cauliflower",
+      "name": "乳酪花椰菜",
+      "existingKey": "legacy:Cooking:Cheese Cauliflower",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 4
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Baked Fish",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "baked-fish",
+      "name": "烤鱼",
+      "existingKey": "legacy:Cooking:Baked Fish",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 5
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Parsnip Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "parsnip-soup",
+      "name": "防风草汤",
+      "existingKey": "legacy:Cooking:Parsnip Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 6
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Vegetable Medley",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "vegetable-medley",
+      "name": "蔬菜杂烩",
+      "existingKey": "legacy:Cooking:Vegetable Medley",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 7
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Complete Breakfast",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "complete-breakfast",
+      "name": "完美早餐",
+      "existingKey": "legacy:Cooking:Complete Breakfast",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 8
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fried Calamari",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fried-calamari",
+      "name": "炸鱿鱼",
+      "existingKey": "legacy:Cooking:Fried Calamari",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 9
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Strange Bun",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "strange-bun",
+      "name": "奇怪的小面包",
+      "existingKey": "legacy:Cooking:Strange Bun",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 10
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Lucky Lunch",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "lucky-lunch",
+      "name": "幸运午餐",
+      "existingKey": "legacy:Cooking:Lucky Lunch",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 11
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fried Mushroom",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fried-mushroom",
+      "name": "炒蘑菇",
+      "existingKey": "legacy:Cooking:Fried Mushroom",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 12
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pizza",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pizza",
+      "name": "披萨",
+      "existingKey": "legacy:Cooking:Pizza",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 13
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Bean Hotpot",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "bean-hotpot",
+      "name": "豆类火锅",
+      "existingKey": "legacy:Cooking:Bean Hotpot",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 14
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Glazed Yams",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "glazed-yams",
+      "name": "琉璃山药",
+      "existingKey": "legacy:Cooking:Glazed Yams",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 15
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Carp Surprise",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "carp-surprise",
+      "name": "惊喜鲤鱼",
+      "existingKey": "legacy:Cooking:Carp Surprise",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 16
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Hashbrowns",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "hashbrowns",
+      "name": "薯饼",
+      "existingKey": "legacy:Cooking:Hashbrowns",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 17
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pancakes",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pancakes",
+      "name": "薄煎饼",
+      "existingKey": "legacy:Cooking:Pancakes",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 18
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Salmon Dinner",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "salmon-dinner",
+      "name": "鲑鱼晚餐",
+      "existingKey": "legacy:Cooking:Salmon Dinner",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 19
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fish Taco",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fish-taco",
+      "name": "鱼肉卷",
+      "existingKey": "legacy:Cooking:Fish Taco",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 20
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Crispy Bass",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "crispy-bass",
+      "name": "香酥鲈鱼",
+      "existingKey": "legacy:Cooking:Crispy Bass",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 21
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pepper Poppers",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pepper-poppers",
+      "name": "爆炒青椒",
+      "existingKey": "legacy:Cooking:Pepper Poppers",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 22
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Bread",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "bread",
+      "name": "面包",
+      "existingKey": "legacy:Cooking:Bread",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 23
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Tom Kha Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "tom-kha-soup",
+      "name": "椰汁汤",
+      "existingKey": "legacy:Cooking:Tom Kha Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 24
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Trout Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "trout-soup",
+      "name": "鳟鱼汤",
+      "existingKey": "legacy:Cooking:Trout Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 25
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Chocolate Cake",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "chocolate-cake",
+      "name": "巧克力蛋糕",
+      "existingKey": "legacy:Cooking:Chocolate Cake",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 26
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pink Cake",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pink-cake",
+      "name": "粉红蛋糕",
+      "existingKey": "legacy:Cooking:Pink Cake",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 27
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Rhubarb Pie",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "rhubarb-pie",
+      "name": "大黄派",
+      "existingKey": "legacy:Cooking:Rhubarb Pie",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 28
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Cookie",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "cookie",
+      "name": "饼干",
+      "existingKey": "legacy:Cooking:Cookie",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 29
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Spaghetti",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "spaghetti",
+      "name": "意大利面",
+      "existingKey": "legacy:Cooking:Spaghetti",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 30
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fried Eel",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fried-eel",
+      "name": "炒鳗鱼",
+      "existingKey": "legacy:Cooking:Fried Eel",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 31
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Spicy Eel",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "spicy-eel",
+      "name": "香辣鳗鱼",
+      "existingKey": "legacy:Cooking:Spicy Eel",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 32
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Sashimi",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "sashimi",
+      "name": "生鱼片",
+      "existingKey": "legacy:Cooking:Sashimi",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 33
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Maki Roll",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "maki-roll",
+      "name": "寿司卷",
+      "existingKey": "legacy:Cooking:Maki Roll",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 34
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Tortilla",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "tortilla",
+      "name": "墨西哥薄饼",
+      "existingKey": "legacy:Cooking:Tortilla",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 35
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Red Plate",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "red-plate",
+      "name": "红之盛宴",
+      "existingKey": "legacy:Cooking:Red Plate",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 36
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Eggplant Parmesan",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "eggplant-parmesan",
+      "name": "帕尔玛奶酪茄子",
+      "existingKey": "legacy:Cooking:Eggplant Parmesan",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 37
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Rice Pudding",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "rice-pudding",
+      "name": "大米布丁",
+      "existingKey": "legacy:Cooking:Rice Pudding",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 38
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Ice Cream",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "ice-cream",
+      "name": "冰淇淋",
+      "existingKey": "legacy:Cooking:Ice Cream",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 39
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Blueberry Tart",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "blueberry-tart",
+      "name": "蓝莓千层酥",
+      "existingKey": "legacy:Cooking:Blueberry Tart",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 40
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Autumn's Bounty",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "autumn-s-bounty",
+      "name": "秋日恩赐",
+      "existingKey": "legacy:Cooking:Autumn's Bounty",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 41
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pumpkin Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pumpkin-soup",
+      "name": "南瓜汤",
+      "existingKey": "legacy:Cooking:Pumpkin Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 42
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Super Meal",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "super-meal",
+      "name": "巨无霸餐",
+      "existingKey": "legacy:Cooking:Super Meal",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 43
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Cranberry Sauce",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "cranberry-sauce",
+      "name": "红莓酱",
+      "existingKey": "legacy:Cooking:Cranberry Sauce",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 44
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Stuffing",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "stuffing",
+      "name": "塞料面包",
+      "existingKey": "legacy:Cooking:Stuffing",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 45
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Farmer's Lunch",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "farmer-s-lunch",
+      "name": "农夫午餐",
+      "existingKey": "legacy:Cooking:Farmer's Lunch",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 46
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Survival Burger",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "survival-burger",
+      "name": "救生汉堡",
+      "existingKey": "legacy:Cooking:Survival Burger",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 47
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Dish O' The Sea",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "dish-o-the-sea",
+      "name": "海之菜肴",
+      "existingKey": "legacy:Cooking:Dish O' The Sea",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 48
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Miner's Treat",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "miner-s-treat",
+      "name": "矿工特供",
+      "existingKey": "legacy:Cooking:Miner's Treat",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 49
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Roots Platter",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "roots-platter",
+      "name": "块茎拼盘",
+      "existingKey": "legacy:Cooking:Roots Platter",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 50
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Triple Shot Espresso",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "triple-shot-espresso",
+      "name": "三倍浓缩咖啡",
+      "existingKey": "legacy:Cooking:Triple Shot Espresso",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 51
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Seafoam Pudding",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "seafoam-pudding",
+      "name": "海泡布丁",
+      "existingKey": "legacy:Cooking:Seafoam Pudding",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 52
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Algae Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "algae-soup",
+      "name": "海藻汤",
+      "existingKey": "legacy:Cooking:Algae Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 53
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pale Broth",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pale-broth",
+      "name": "清汤",
+      "existingKey": "legacy:Cooking:Pale Broth",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 54
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Plum Pudding",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "plum-pudding",
+      "name": "葡萄干布丁",
+      "existingKey": "legacy:Cooking:Plum Pudding",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 55
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Artichoke Dip",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "artichoke-dip",
+      "name": "水煮洋蓟",
+      "existingKey": "legacy:Cooking:Artichoke Dip",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 56
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Stir Fry",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "stir-fry",
+      "name": "蔬菜什锦盖饭",
+      "existingKey": "legacy:Cooking:Stir Fry",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 57
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Roasted Hazelnuts",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "roasted-hazelnuts",
+      "name": "烤榛子",
+      "existingKey": "legacy:Cooking:Roasted Hazelnuts",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 58
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Pumpkin Pie",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "pumpkin-pie",
+      "name": "南瓜派",
+      "existingKey": "legacy:Cooking:Pumpkin Pie",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 59
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Radish Salad",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "radish-salad",
+      "name": "萝卜沙拉",
+      "existingKey": "legacy:Cooking:Radish Salad",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 60
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fruit Salad",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fruit-salad",
+      "name": "水果沙拉",
+      "existingKey": "legacy:Cooking:Fruit Salad",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 61
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Blackberry Cobbler",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "blackberry-cobbler",
+      "name": "黑莓脆皮饼",
+      "existingKey": "legacy:Cooking:Blackberry Cobbler",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 62
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Cranberry Candy",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "cranberry-candy",
+      "name": "蔓越莓糖果",
+      "existingKey": "legacy:Cooking:Cranberry Candy",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 63
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Bruschetta",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "bruschetta",
+      "name": "意式烤面包",
+      "existingKey": "legacy:Cooking:Bruschetta",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 64
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Coleslaw",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "coleslaw",
+      "name": "卷心菜沙拉",
+      "existingKey": "legacy:Cooking:Coleslaw",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 65
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fiddlehead Risotto",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fiddlehead-risotto",
+      "name": "意式蕨菜炖饭",
+      "existingKey": "legacy:Cooking:Fiddlehead Risotto",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 66
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Poppyseed Muffin",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "poppyseed-muffin",
+      "name": "虞美人籽松糕",
+      "existingKey": "legacy:Cooking:Poppyseed Muffin",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 67
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Chowder",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "chowder",
+      "name": "海鲜杂烩汤",
+      "existingKey": "legacy:Cooking:Chowder",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 68
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Fish Stew",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "fish-stew",
+      "name": "烩鱼汤",
+      "existingKey": "legacy:Cooking:Fish Stew",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 69
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Escargot",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "escargot",
+      "name": "法式田螺",
+      "existingKey": "legacy:Cooking:Escargot",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 70
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Lobster Bisque",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "lobster-bisque",
+      "name": "龙虾浓汤",
+      "existingKey": "legacy:Cooking:Lobster Bisque",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 71
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Maple Bar",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "maple-bar",
+      "name": "枫糖棒",
+      "existingKey": "legacy:Cooking:Maple Bar",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 72
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Crab Cakes",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "crab-cakes",
+      "name": "蟹黄糕",
+      "existingKey": "legacy:Cooking:Crab Cakes",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 73
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Shrimp Cocktail",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "shrimp-cocktail",
+      "name": "虾鸡尾酒",
+      "existingKey": "legacy:Cooking:Shrimp Cocktail",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 74
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Ginger Ale",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "ginger-ale",
+      "name": "姜汁汽水",
+      "existingKey": "legacy:Cooking:Ginger Ale",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 75
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Banana Pudding",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "banana-pudding",
+      "name": "香蕉布丁",
+      "existingKey": "legacy:Cooking:Banana Pudding",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 76
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Mango Sticky Rice",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "mango-sticky-rice",
+      "name": "芒果糯米饭",
+      "existingKey": "legacy:Cooking:Mango Sticky Rice",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 77
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Poi",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "poi",
+      "name": "夏威夷芋泥",
+      "existingKey": "legacy:Cooking:Poi",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 78
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Tropical Curry",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "tropical-curry",
+      "name": "热带咖喱",
+      "existingKey": "legacy:Cooking:Tropical Curry",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 79
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Squid Ink Ravioli",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "squid-ink-ravioli",
+      "name": "墨汁意大利饺",
+      "existingKey": "legacy:Cooking:Squid Ink Ravioli",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 80
+      }
+    },
+    {
+      "collection": "Cooking",
+      "title": "Moss Soup",
+      "group": "food",
+      "dataset": "cooking",
+      "slug": "moss-soup",
+      "name": "苔藓汤",
+      "existingKey": "legacy:Cooking:Moss Soup",
+      "sourceUrl": "https://stardewvalleywiki.com/Cooking",
+      "sourceRevision": 193813,
+      "sourceRow": {
+        "table": 0,
+        "row": 81
+      }
+    }
+  ]
+}

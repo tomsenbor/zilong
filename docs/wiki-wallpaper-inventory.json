@@ -1,0 +1,2337 @@
+{
+  "version": "1.6.15",
+  "collection": "wallpaper",
+  "status": "reviewed",
+  "nativeBaseCount": 112,
+  "nativeAdditionalCount": 26,
+  "source": {
+    "url": "https://stardewvalleywiki.com/Wallpaper",
+    "revision": 193801,
+    "sha256": "6cd2e3436b4f9930176ee4e229eb44d17379bf9ad3e99d151e63eb10ffa6e5df"
+  },
+  "nativeSourceSha256": "FD6159E48C67203C847F0A9D3E1B769A16B252A092826503124080D9C9BEBC66",
+  "records": [
+    {
+      "id": "0",
+      "index": 0,
+      "extra": false,
+      "key": "(WP)0",
+      "slug": "wallpaper-0",
+      "name": "壁纸（款式0）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_0.png"
+    },
+    {
+      "id": "1",
+      "index": 1,
+      "extra": false,
+      "key": "(WP)1",
+      "slug": "wallpaper-1",
+      "name": "壁纸（款式1）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_1.png"
+    },
+    {
+      "id": "2",
+      "index": 2,
+      "extra": false,
+      "key": "(WP)2",
+      "slug": "wallpaper-2",
+      "name": "壁纸（款式2）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_2.png"
+    },
+    {
+      "id": "3",
+      "index": 3,
+      "extra": false,
+      "key": "(WP)3",
+      "slug": "wallpaper-3",
+      "name": "壁纸（款式3）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_3.png"
+    },
+    {
+      "id": "4",
+      "index": 4,
+      "extra": false,
+      "key": "(WP)4",
+      "slug": "wallpaper-4",
+      "name": "壁纸（款式4）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_4.png"
+    },
+    {
+      "id": "5",
+      "index": 5,
+      "extra": false,
+      "key": "(WP)5",
+      "slug": "wallpaper-5",
+      "name": "壁纸（款式5）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_5.png"
+    },
+    {
+      "id": "6",
+      "index": 6,
+      "extra": false,
+      "key": "(WP)6",
+      "slug": "wallpaper-6",
+      "name": "壁纸（款式6）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_6.png"
+    },
+    {
+      "id": "7",
+      "index": 7,
+      "extra": false,
+      "key": "(WP)7",
+      "slug": "wallpaper-7",
+      "name": "壁纸（款式7）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_7.png"
+    },
+    {
+      "id": "8",
+      "index": 8,
+      "extra": false,
+      "key": "(WP)8",
+      "slug": "wallpaper-8",
+      "name": "壁纸（款式8）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_8.png"
+    },
+    {
+      "id": "9",
+      "index": 9,
+      "extra": false,
+      "key": "(WP)9",
+      "slug": "wallpaper-9",
+      "name": "壁纸（款式9）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_9.png"
+    },
+    {
+      "id": "10",
+      "index": 10,
+      "extra": false,
+      "key": "(WP)10",
+      "slug": "wallpaper-10",
+      "name": "壁纸（款式10）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_10.png"
+    },
+    {
+      "id": "11",
+      "index": 11,
+      "extra": false,
+      "key": "(WP)11",
+      "slug": "wallpaper-11",
+      "name": "壁纸（款式11）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_11.png"
+    },
+    {
+      "id": "12",
+      "index": 12,
+      "extra": false,
+      "key": "(WP)12",
+      "slug": "wallpaper-12",
+      "name": "壁纸（款式12）",
+      "acquisition": "已核实获取途径：皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售；法师目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_12.png"
+    },
+    {
+      "id": "13",
+      "index": 13,
+      "extra": false,
+      "key": "(WP)13",
+      "slug": "wallpaper-13",
+      "name": "壁纸（款式13）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_13.png"
+    },
+    {
+      "id": "14",
+      "index": 14,
+      "extra": false,
+      "key": "(WP)14",
+      "slug": "wallpaper-14",
+      "name": "壁纸（款式14）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_14.png"
+    },
+    {
+      "id": "15",
+      "index": 15,
+      "extra": false,
+      "key": "(WP)15",
+      "slug": "wallpaper-15",
+      "name": "壁纸（款式15）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_15.png"
+    },
+    {
+      "id": "16",
+      "index": 16,
+      "extra": false,
+      "key": "(WP)16",
+      "slug": "wallpaper-16",
+      "name": "壁纸（款式16）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_16.png"
+    },
+    {
+      "id": "17",
+      "index": 17,
+      "extra": false,
+      "key": "(WP)17",
+      "slug": "wallpaper-17",
+      "name": "壁纸（款式17）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_17.png"
+    },
+    {
+      "id": "18",
+      "index": 18,
+      "extra": false,
+      "key": "(WP)18",
+      "slug": "wallpaper-18",
+      "name": "壁纸（款式18）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_18.png"
+    },
+    {
+      "id": "19",
+      "index": 19,
+      "extra": false,
+      "key": "(WP)19",
+      "slug": "wallpaper-19",
+      "name": "壁纸（款式19）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_19.png"
+    },
+    {
+      "id": "20",
+      "index": 20,
+      "extra": false,
+      "key": "(WP)20",
+      "slug": "wallpaper-20",
+      "name": "壁纸（款式20）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_20.png"
+    },
+    {
+      "id": "21",
+      "index": 21,
+      "extra": false,
+      "key": "(WP)21",
+      "slug": "wallpaper-21",
+      "name": "壁纸（款式21）",
+      "acquisition": "已核实获取途径：Joja超市：20金，独立于随机壁纸库存；Joja家具目录：已拥有后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_21.png"
+    },
+    {
+      "id": "22",
+      "index": 22,
+      "extra": false,
+      "key": "(WP)22",
+      "slug": "wallpaper-22",
+      "name": "壁纸（款式22）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_22.png"
+    },
+    {
+      "id": "23",
+      "index": 23,
+      "extra": false,
+      "key": "(WP)23",
+      "slug": "wallpaper-23",
+      "name": "壁纸（款式23）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_23.png"
+    },
+    {
+      "id": "24",
+      "index": 24,
+      "extra": false,
+      "key": "(WP)24",
+      "slug": "wallpaper-24",
+      "name": "壁纸（款式24）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_24.png"
+    },
+    {
+      "id": "25",
+      "index": 25,
+      "extra": false,
+      "key": "(WP)25",
+      "slug": "wallpaper-25",
+      "name": "壁纸（款式25）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_25.png"
+    },
+    {
+      "id": "26",
+      "index": 26,
+      "extra": false,
+      "key": "(WP)26",
+      "slug": "wallpaper-26",
+      "name": "壁纸（款式26）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_26.png"
+    },
+    {
+      "id": "27",
+      "index": 27,
+      "extra": false,
+      "key": "(WP)27",
+      "slug": "wallpaper-27",
+      "name": "壁纸（款式27）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_27.png"
+    },
+    {
+      "id": "28",
+      "index": 28,
+      "extra": false,
+      "key": "(WP)28",
+      "slug": "wallpaper-28",
+      "name": "壁纸（款式28）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_28.png"
+    },
+    {
+      "id": "29",
+      "index": 29,
+      "extra": false,
+      "key": "(WP)29",
+      "slug": "wallpaper-29",
+      "name": "壁纸（款式29）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_29.png"
+    },
+    {
+      "id": "30",
+      "index": 30,
+      "extra": false,
+      "key": "(WP)30",
+      "slug": "wallpaper-30",
+      "name": "壁纸（款式30）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_30.png"
+    },
+    {
+      "id": "31",
+      "index": 31,
+      "extra": false,
+      "key": "(WP)31",
+      "slug": "wallpaper-31",
+      "name": "壁纸（款式31）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_31.png"
+    },
+    {
+      "id": "32",
+      "index": 32,
+      "extra": false,
+      "key": "(WP)32",
+      "slug": "wallpaper-32",
+      "name": "壁纸（款式32）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_32.png"
+    },
+    {
+      "id": "33",
+      "index": 33,
+      "extra": false,
+      "key": "(WP)33",
+      "slug": "wallpaper-33",
+      "name": "壁纸（款式33）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_33.png"
+    },
+    {
+      "id": "34",
+      "index": 34,
+      "extra": false,
+      "key": "(WP)34",
+      "slug": "wallpaper-34",
+      "name": "壁纸（款式34）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_34.png"
+    },
+    {
+      "id": "35",
+      "index": 35,
+      "extra": false,
+      "key": "(WP)35",
+      "slug": "wallpaper-35",
+      "name": "壁纸（款式35）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_35.png"
+    },
+    {
+      "id": "36",
+      "index": 36,
+      "extra": false,
+      "key": "(WP)36",
+      "slug": "wallpaper-36",
+      "name": "壁纸（款式36）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_36.png"
+    },
+    {
+      "id": "37",
+      "index": 37,
+      "extra": false,
+      "key": "(WP)37",
+      "slug": "wallpaper-37",
+      "name": "壁纸（款式37）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_37.png"
+    },
+    {
+      "id": "38",
+      "index": 38,
+      "extra": false,
+      "key": "(WP)38",
+      "slug": "wallpaper-38",
+      "name": "壁纸（款式38）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_38.png"
+    },
+    {
+      "id": "39",
+      "index": 39,
+      "extra": false,
+      "key": "(WP)39",
+      "slug": "wallpaper-39",
+      "name": "壁纸（款式39）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_39.png"
+    },
+    {
+      "id": "40",
+      "index": 40,
+      "extra": false,
+      "key": "(WP)40",
+      "slug": "wallpaper-40",
+      "name": "壁纸（款式40）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_40.png"
+    },
+    {
+      "id": "41",
+      "index": 41,
+      "extra": false,
+      "key": "(WP)41",
+      "slug": "wallpaper-41",
+      "name": "壁纸（款式41）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_41.png"
+    },
+    {
+      "id": "42",
+      "index": 42,
+      "extra": false,
+      "key": "(WP)42",
+      "slug": "wallpaper-42",
+      "name": "壁纸（款式42）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_42.png"
+    },
+    {
+      "id": "43",
+      "index": 43,
+      "extra": false,
+      "key": "(WP)43",
+      "slug": "wallpaper-43",
+      "name": "壁纸（款式43）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_43.png"
+    },
+    {
+      "id": "44",
+      "index": 44,
+      "extra": false,
+      "key": "(WP)44",
+      "slug": "wallpaper-44",
+      "name": "壁纸（款式44）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_44.png"
+    },
+    {
+      "id": "45",
+      "index": 45,
+      "extra": false,
+      "key": "(WP)45",
+      "slug": "wallpaper-45",
+      "name": "壁纸（款式45）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_45.png"
+    },
+    {
+      "id": "46",
+      "index": 46,
+      "extra": false,
+      "key": "(WP)46",
+      "slug": "wallpaper-46",
+      "name": "壁纸（款式46）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_46.png"
+    },
+    {
+      "id": "47",
+      "index": 47,
+      "extra": false,
+      "key": "(WP)47",
+      "slug": "wallpaper-47",
+      "name": "壁纸（款式47）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 96,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_47.png"
+    },
+    {
+      "id": "48",
+      "index": 48,
+      "extra": false,
+      "key": "(WP)48",
+      "slug": "wallpaper-48",
+      "name": "壁纸（款式48）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_48.png"
+    },
+    {
+      "id": "49",
+      "index": 49,
+      "extra": false,
+      "key": "(WP)49",
+      "slug": "wallpaper-49",
+      "name": "壁纸（款式49）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_49.png"
+    },
+    {
+      "id": "50",
+      "index": 50,
+      "extra": false,
+      "key": "(WP)50",
+      "slug": "wallpaper-50",
+      "name": "壁纸（款式50）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_50.png"
+    },
+    {
+      "id": "51",
+      "index": 51,
+      "extra": false,
+      "key": "(WP)51",
+      "slug": "wallpaper-51",
+      "name": "壁纸（款式51）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_51.png"
+    },
+    {
+      "id": "52",
+      "index": 52,
+      "extra": false,
+      "key": "(WP)52",
+      "slug": "wallpaper-52",
+      "name": "壁纸（款式52）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_52.png"
+    },
+    {
+      "id": "53",
+      "index": 53,
+      "extra": false,
+      "key": "(WP)53",
+      "slug": "wallpaper-53",
+      "name": "壁纸（款式53）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_53.png"
+    },
+    {
+      "id": "54",
+      "index": 54,
+      "extra": false,
+      "key": "(WP)54",
+      "slug": "wallpaper-54",
+      "name": "壁纸（款式54）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_54.png"
+    },
+    {
+      "id": "55",
+      "index": 55,
+      "extra": false,
+      "key": "(WP)55",
+      "slug": "wallpaper-55",
+      "name": "壁纸（款式55）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_55.png"
+    },
+    {
+      "id": "56",
+      "index": 56,
+      "extra": false,
+      "key": "(WP)56",
+      "slug": "wallpaper-56",
+      "name": "壁纸（款式56）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_56.png"
+    },
+    {
+      "id": "57",
+      "index": 57,
+      "extra": false,
+      "key": "(WP)57",
+      "slug": "wallpaper-57",
+      "name": "壁纸（款式57）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_57.png"
+    },
+    {
+      "id": "58",
+      "index": 58,
+      "extra": false,
+      "key": "(WP)58",
+      "slug": "wallpaper-58",
+      "name": "壁纸（款式58）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_58.png"
+    },
+    {
+      "id": "59",
+      "index": 59,
+      "extra": false,
+      "key": "(WP)59",
+      "slug": "wallpaper-59",
+      "name": "壁纸（款式59）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_59.png"
+    },
+    {
+      "id": "60",
+      "index": 60,
+      "extra": false,
+      "key": "(WP)60",
+      "slug": "wallpaper-60",
+      "name": "壁纸（款式60）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_60.png"
+    },
+    {
+      "id": "61",
+      "index": 61,
+      "extra": false,
+      "key": "(WP)61",
+      "slug": "wallpaper-61",
+      "name": "壁纸（款式61）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_61.png"
+    },
+    {
+      "id": "62",
+      "index": 62,
+      "extra": false,
+      "key": "(WP)62",
+      "slug": "wallpaper-62",
+      "name": "壁纸（款式62）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_62.png"
+    },
+    {
+      "id": "63",
+      "index": 63,
+      "extra": false,
+      "key": "(WP)63",
+      "slug": "wallpaper-63",
+      "name": "壁纸（款式63）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 144,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_63.png"
+    },
+    {
+      "id": "64",
+      "index": 64,
+      "extra": false,
+      "key": "(WP)64",
+      "slug": "wallpaper-64",
+      "name": "壁纸（款式64）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_64.png"
+    },
+    {
+      "id": "65",
+      "index": 65,
+      "extra": false,
+      "key": "(WP)65",
+      "slug": "wallpaper-65",
+      "name": "壁纸（款式65）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_65.png"
+    },
+    {
+      "id": "66",
+      "index": 66,
+      "extra": false,
+      "key": "(WP)66",
+      "slug": "wallpaper-66",
+      "name": "壁纸（款式66）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_66.png"
+    },
+    {
+      "id": "67",
+      "index": 67,
+      "extra": false,
+      "key": "(WP)67",
+      "slug": "wallpaper-67",
+      "name": "壁纸（款式67）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_67.png"
+    },
+    {
+      "id": "68",
+      "index": 68,
+      "extra": false,
+      "key": "(WP)68",
+      "slug": "wallpaper-68",
+      "name": "壁纸（款式68）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_68.png"
+    },
+    {
+      "id": "69",
+      "index": 69,
+      "extra": false,
+      "key": "(WP)69",
+      "slug": "wallpaper-69",
+      "name": "壁纸（款式69）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_69.png"
+    },
+    {
+      "id": "70",
+      "index": 70,
+      "extra": false,
+      "key": "(WP)70",
+      "slug": "wallpaper-70",
+      "name": "壁纸（款式70）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_70.png"
+    },
+    {
+      "id": "71",
+      "index": 71,
+      "extra": false,
+      "key": "(WP)71",
+      "slug": "wallpaper-71",
+      "name": "壁纸（款式71）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_71.png"
+    },
+    {
+      "id": "72",
+      "index": 72,
+      "extra": false,
+      "key": "(WP)72",
+      "slug": "wallpaper-72",
+      "name": "壁纸（款式72）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_72.png"
+    },
+    {
+      "id": "73",
+      "index": 73,
+      "extra": false,
+      "key": "(WP)73",
+      "slug": "wallpaper-73",
+      "name": "壁纸（款式73）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_73.png"
+    },
+    {
+      "id": "74",
+      "index": 74,
+      "extra": false,
+      "key": "(WP)74",
+      "slug": "wallpaper-74",
+      "name": "壁纸（款式74）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_74.png"
+    },
+    {
+      "id": "75",
+      "index": 75,
+      "extra": false,
+      "key": "(WP)75",
+      "slug": "wallpaper-75",
+      "name": "壁纸（款式75）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_75.png"
+    },
+    {
+      "id": "76",
+      "index": 76,
+      "extra": false,
+      "key": "(WP)76",
+      "slug": "wallpaper-76",
+      "name": "壁纸（款式76）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_76.png"
+    },
+    {
+      "id": "77",
+      "index": 77,
+      "extra": false,
+      "key": "(WP)77",
+      "slug": "wallpaper-77",
+      "name": "壁纸（款式77）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_77.png"
+    },
+    {
+      "id": "78",
+      "index": 78,
+      "extra": false,
+      "key": "(WP)78",
+      "slug": "wallpaper-78",
+      "name": "壁纸（款式78）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_78.png"
+    },
+    {
+      "id": "79",
+      "index": 79,
+      "extra": false,
+      "key": "(WP)79",
+      "slug": "wallpaper-79",
+      "name": "壁纸（款式79）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 192,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_79.png"
+    },
+    {
+      "id": "80",
+      "index": 80,
+      "extra": false,
+      "key": "(WP)80",
+      "slug": "wallpaper-80",
+      "name": "壁纸（款式80）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_80.png"
+    },
+    {
+      "id": "81",
+      "index": 81,
+      "extra": false,
+      "key": "(WP)81",
+      "slug": "wallpaper-81",
+      "name": "壁纸（款式81）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_81.png"
+    },
+    {
+      "id": "82",
+      "index": 82,
+      "extra": false,
+      "key": "(WP)82",
+      "slug": "wallpaper-82",
+      "name": "壁纸（款式82）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_82.png"
+    },
+    {
+      "id": "83",
+      "index": 83,
+      "extra": false,
+      "key": "(WP)83",
+      "slug": "wallpaper-83",
+      "name": "壁纸（款式83）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_83.png"
+    },
+    {
+      "id": "84",
+      "index": 84,
+      "extra": false,
+      "key": "(WP)84",
+      "slug": "wallpaper-84",
+      "name": "壁纸（款式84）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_84.png"
+    },
+    {
+      "id": "85",
+      "index": 85,
+      "extra": false,
+      "key": "(WP)85",
+      "slug": "wallpaper-85",
+      "name": "壁纸（款式85）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_85.png"
+    },
+    {
+      "id": "86",
+      "index": 86,
+      "extra": false,
+      "key": "(WP)86",
+      "slug": "wallpaper-86",
+      "name": "壁纸（款式86）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_86.png"
+    },
+    {
+      "id": "87",
+      "index": 87,
+      "extra": false,
+      "key": "(WP)87",
+      "slug": "wallpaper-87",
+      "name": "壁纸（款式87）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_87.png"
+    },
+    {
+      "id": "88",
+      "index": 88,
+      "extra": false,
+      "key": "(WP)88",
+      "slug": "wallpaper-88",
+      "name": "壁纸（款式88）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_88.png"
+    },
+    {
+      "id": "89",
+      "index": 89,
+      "extra": false,
+      "key": "(WP)89",
+      "slug": "wallpaper-89",
+      "name": "壁纸（款式89）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_89.png"
+    },
+    {
+      "id": "90",
+      "index": 90,
+      "extra": false,
+      "key": "(WP)90",
+      "slug": "wallpaper-90",
+      "name": "壁纸（款式90）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_90.png"
+    },
+    {
+      "id": "91",
+      "index": 91,
+      "extra": false,
+      "key": "(WP)91",
+      "slug": "wallpaper-91",
+      "name": "壁纸（款式91）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_91.png"
+    },
+    {
+      "id": "92",
+      "index": 92,
+      "extra": false,
+      "key": "(WP)92",
+      "slug": "wallpaper-92",
+      "name": "壁纸（款式92）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_92.png"
+    },
+    {
+      "id": "93",
+      "index": 93,
+      "extra": false,
+      "key": "(WP)93",
+      "slug": "wallpaper-93",
+      "name": "壁纸（款式93）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_93.png"
+    },
+    {
+      "id": "94",
+      "index": 94,
+      "extra": false,
+      "key": "(WP)94",
+      "slug": "wallpaper-94",
+      "name": "壁纸（款式94）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_94.png"
+    },
+    {
+      "id": "95",
+      "index": 95,
+      "extra": false,
+      "key": "(WP)95",
+      "slug": "wallpaper-95",
+      "name": "壁纸（款式95）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 240,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_95.png"
+    },
+    {
+      "id": "96",
+      "index": 96,
+      "extra": false,
+      "key": "(WP)96",
+      "slug": "wallpaper-96",
+      "name": "壁纸（款式96）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 0,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_96.png"
+    },
+    {
+      "id": "97",
+      "index": 97,
+      "extra": false,
+      "key": "(WP)97",
+      "slug": "wallpaper-97",
+      "name": "壁纸（款式97）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 16,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_97.png"
+    },
+    {
+      "id": "98",
+      "index": 98,
+      "extra": false,
+      "key": "(WP)98",
+      "slug": "wallpaper-98",
+      "name": "壁纸（款式98）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 32,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_98.png"
+    },
+    {
+      "id": "99",
+      "index": 99,
+      "extra": false,
+      "key": "(WP)99",
+      "slug": "wallpaper-99",
+      "name": "壁纸（款式99）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 48,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_99.png"
+    },
+    {
+      "id": "100",
+      "index": 100,
+      "extra": false,
+      "key": "(WP)100",
+      "slug": "wallpaper-100",
+      "name": "壁纸（款式100）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 64,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_100.png"
+    },
+    {
+      "id": "101",
+      "index": 101,
+      "extra": false,
+      "key": "(WP)101",
+      "slug": "wallpaper-101",
+      "name": "壁纸（款式101）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 80,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_101.png"
+    },
+    {
+      "id": "102",
+      "index": 102,
+      "extra": false,
+      "key": "(WP)102",
+      "slug": "wallpaper-102",
+      "name": "壁纸（款式102）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 96,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_102.png"
+    },
+    {
+      "id": "103",
+      "index": 103,
+      "extra": false,
+      "key": "(WP)103",
+      "slug": "wallpaper-103",
+      "name": "壁纸（款式103）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 112,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_103.png"
+    },
+    {
+      "id": "104",
+      "index": 104,
+      "extra": false,
+      "key": "(WP)104",
+      "slug": "wallpaper-104",
+      "name": "壁纸（款式104）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 128,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_104.png"
+    },
+    {
+      "id": "105",
+      "index": 105,
+      "extra": false,
+      "key": "(WP)105",
+      "slug": "wallpaper-105",
+      "name": "壁纸（款式105）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 144,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_105.png"
+    },
+    {
+      "id": "106",
+      "index": 106,
+      "extra": false,
+      "key": "(WP)106",
+      "slug": "wallpaper-106",
+      "name": "壁纸（款式106）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 160,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_106.png"
+    },
+    {
+      "id": "107",
+      "index": 107,
+      "extra": false,
+      "key": "(WP)107",
+      "slug": "wallpaper-107",
+      "name": "壁纸（款式107）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 176,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_107.png"
+    },
+    {
+      "id": "108",
+      "index": 108,
+      "extra": false,
+      "key": "(WP)108",
+      "slug": "wallpaper-108",
+      "name": "壁纸（款式108）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 192,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_108.png"
+    },
+    {
+      "id": "109",
+      "index": 109,
+      "extra": false,
+      "key": "(WP)109",
+      "slug": "wallpaper-109",
+      "name": "壁纸（款式109）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 208,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_109.png"
+    },
+    {
+      "id": "110",
+      "index": 110,
+      "extra": false,
+      "key": "(WP)110",
+      "slug": "wallpaper-110",
+      "name": "壁纸（款式110）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 224,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_110.png"
+    },
+    {
+      "id": "111",
+      "index": 111,
+      "extra": false,
+      "key": "(WP)111",
+      "slug": "wallpaper-111",
+      "name": "壁纸（款式111）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金；皮埃尔杂货店：200金；Joja超市：250金，仅当天随机选中该款式时出售。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/walls_and_floors",
+      "rectangle": {
+        "left": 240,
+        "top": 288,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_111.png"
+    },
+    {
+      "id": "MoreWalls:0",
+      "index": 0,
+      "extra": true,
+      "key": "(WP)MoreWalls:0",
+      "slug": "wallpaper-morewalls-0",
+      "name": "壁纸（款式MoreWalls:0）",
+      "acquisition": "已核实获取途径：沙漠节贾斯摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 0,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_0.png"
+    },
+    {
+      "id": "MoreWalls:1",
+      "index": 1,
+      "extra": true,
+      "key": "(WP)MoreWalls:1",
+      "slug": "wallpaper-morewalls-1",
+      "name": "壁纸（款式MoreWalls:1）",
+      "acquisition": "已核实获取途径：沙漠节肯特摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 16,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_1.png"
+    },
+    {
+      "id": "MoreWalls:2",
+      "index": 2,
+      "extra": true,
+      "key": "(WP)MoreWalls:2",
+      "slug": "wallpaper-morewalls-2",
+      "name": "壁纸（款式MoreWalls:2）",
+      "acquisition": "已核实获取途径：沙漠节玛妮摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 32,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_2.png"
+    },
+    {
+      "id": "MoreWalls:3",
+      "index": 3,
+      "extra": true,
+      "key": "(WP)MoreWalls:3",
+      "slug": "wallpaper-morewalls-3",
+      "name": "壁纸（款式MoreWalls:3）",
+      "acquisition": "已核实获取途径：沙漠节艾芙琳摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 48,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_3.png"
+    },
+    {
+      "id": "MoreWalls:4",
+      "index": 4,
+      "extra": true,
+      "key": "(WP)MoreWalls:4",
+      "slug": "wallpaper-morewalls-4",
+      "name": "壁纸（款式MoreWalls:4）",
+      "acquisition": "已核实获取途径：沙漠节乔迪摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 64,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_4.png"
+    },
+    {
+      "id": "MoreWalls:5",
+      "index": 5,
+      "extra": true,
+      "key": "(WP)MoreWalls:5",
+      "slug": "wallpaper-morewalls-5",
+      "name": "壁纸（款式MoreWalls:5）",
+      "acquisition": "已核实获取途径：沙漠节罗宾摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 80,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_5.png"
+    },
+    {
+      "id": "MoreWalls:6",
+      "index": 6,
+      "extra": true,
+      "key": "(WP)MoreWalls:6",
+      "slug": "wallpaper-morewalls-6",
+      "name": "壁纸（款式MoreWalls:6）",
+      "acquisition": "已核实获取途径：沙漠节雷欧摊位：卡利科三花蛋×20，需要当天该村民在节日摆摊。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 96,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_6.png"
+    },
+    {
+      "id": "MoreWalls:9",
+      "index": 9,
+      "extra": true,
+      "key": "(WP)MoreWalls:9",
+      "slug": "wallpaper-morewalls-9",
+      "name": "壁纸（款式MoreWalls:9）",
+      "acquisition": "已核实获取途径：法师目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 144,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_9.png"
+    },
+    {
+      "id": "MoreWalls:10",
+      "index": 10,
+      "extra": true,
+      "key": "(WP)MoreWalls:10",
+      "slug": "wallpaper-morewalls-10",
+      "name": "壁纸（款式MoreWalls:10）",
+      "acquisition": "已核实获取途径：法师目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 160,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_10.png"
+    },
+    {
+      "id": "MoreWalls:11",
+      "index": 11,
+      "extra": true,
+      "key": "(WP)MoreWalls:11",
+      "slug": "wallpaper-morewalls-11",
+      "name": "壁纸（款式MoreWalls:11）",
+      "acquisition": "已核实获取途径：谜之盒：开启时随机获得，并非每个盒子必出。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 176,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_11.png"
+    },
+    {
+      "id": "MoreWalls:12",
+      "index": 12,
+      "extra": true,
+      "key": "(WP)MoreWalls:12",
+      "slug": "wallpaper-morewalls-12",
+      "name": "壁纸（款式MoreWalls:12）",
+      "acquisition": "已核实获取途径：祝尼魔目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 192,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_12.png"
+    },
+    {
+      "id": "MoreWalls:13",
+      "index": 13,
+      "extra": true,
+      "key": "(WP)MoreWalls:13",
+      "slug": "wallpaper-morewalls-13",
+      "name": "壁纸（款式MoreWalls:13）",
+      "acquisition": "已核实获取途径：祝尼魔目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 208,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_13.png"
+    },
+    {
+      "id": "MoreWalls:14",
+      "index": 14,
+      "extra": true,
+      "key": "(WP)MoreWalls:14",
+      "slug": "wallpaper-morewalls-14",
+      "name": "壁纸（款式MoreWalls:14）",
+      "acquisition": "已核实获取途径：祝尼魔目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 224,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_14.png"
+    },
+    {
+      "id": "MoreWalls:15",
+      "index": 15,
+      "extra": true,
+      "key": "(WP)MoreWalls:15",
+      "slug": "wallpaper-morewalls-15",
+      "name": "壁纸（款式MoreWalls:15）",
+      "acquisition": "已核实获取途径：环境样式：农舍阁楼装修自动采用的墙面，不能收入背包，也不在目录或商店中领取。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 240,
+        "top": 0,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_15.png"
+    },
+    {
+      "id": "MoreWalls:16",
+      "index": 16,
+      "extra": true,
+      "key": "(WP)MoreWalls:16",
+      "slug": "wallpaper-morewalls-16",
+      "name": "壁纸（款式MoreWalls:16）",
+      "acquisition": "已核实获取途径：复古目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 0,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_16.png"
+    },
+    {
+      "id": "MoreWalls:17",
+      "index": 17,
+      "extra": true,
+      "key": "(WP)MoreWalls:17",
+      "slug": "wallpaper-morewalls-17",
+      "name": "壁纸（款式MoreWalls:17）",
+      "acquisition": "已核实获取途径：复古目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 16,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_17.png"
+    },
+    {
+      "id": "MoreWalls:18",
+      "index": 18,
+      "extra": true,
+      "key": "(WP)MoreWalls:18",
+      "slug": "wallpaper-morewalls-18",
+      "name": "壁纸（款式MoreWalls:18）",
+      "acquisition": "已核实获取途径：复古目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 32,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_18.png"
+    },
+    {
+      "id": "MoreWalls:19",
+      "index": 19,
+      "extra": true,
+      "key": "(WP)MoreWalls:19",
+      "slug": "wallpaper-morewalls-19",
+      "name": "壁纸（款式MoreWalls:19）",
+      "acquisition": "已核实获取途径：冬日星盛宴皮埃尔摊位或冰雪节旅行商人：500金。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 48,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_19.png"
+    },
+    {
+      "id": "MoreWalls:20",
+      "index": 20,
+      "extra": true,
+      "key": "(WP)MoreWalls:20",
+      "slug": "wallpaper-morewalls-20",
+      "name": "壁纸（款式MoreWalls:20）",
+      "acquisition": "已核实获取途径：壁纸地板目录：已拥有目录后可0金取用；目录本身在皮埃尔杂货店售价30,000金。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 64,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_20.png"
+    },
+    {
+      "id": "MoreWalls:21",
+      "index": 21,
+      "extra": true,
+      "key": "(WP)MoreWalls:21",
+      "slug": "wallpaper-morewalls-21",
+      "name": "壁纸（款式MoreWalls:21）",
+      "acquisition": "已核实获取途径：环境样式：诅咒假人有极低概率自动改变附近墙面，不能收入背包，不是玩家可领取的壁纸物品。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 80,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_21.png"
+    },
+    {
+      "id": "MoreWalls:22",
+      "index": 22,
+      "extra": true,
+      "key": "(WP)MoreWalls:22",
+      "slug": "wallpaper-morewalls-22",
+      "name": "壁纸（款式MoreWalls:22）",
+      "acquisition": "已核实获取途径：垃圾目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 96,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_22.png"
+    },
+    {
+      "id": "MoreWalls:23",
+      "index": 23,
+      "extra": true,
+      "key": "(WP)MoreWalls:23",
+      "slug": "wallpaper-morewalls-23",
+      "name": "壁纸（款式MoreWalls:23）",
+      "acquisition": "已核实获取途径：垃圾目录：已拥有目录后可0金取用。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 112,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_23.png"
+    },
+    {
+      "id": "MoreWalls:24",
+      "index": 24,
+      "extra": true,
+      "key": "(WP)MoreWalls:24",
+      "slug": "wallpaper-morewalls-24",
+      "name": "壁纸（款式MoreWalls:24）",
+      "acquisition": "已核实获取途径：赌场：齐币×10,000，不是金币；需先获得赌场通行资格。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 128,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_24.png"
+    },
+    {
+      "id": "MoreWalls:25",
+      "index": 25,
+      "extra": true,
+      "key": "(WP)MoreWalls:25",
+      "slug": "wallpaper-morewalls-25",
+      "name": "壁纸（款式MoreWalls:25）",
+      "acquisition": "已核实获取途径：赌场：齐币×100,000，不是金币；需先获得赌场通行资格。领取前请按图案确认款式，目录本身的购买或解锁条件仍须满足。",
+      "texture": "Maps/wallpapers_2",
+      "rectangle": {
+        "left": 144,
+        "top": 48,
+        "width": 16,
+        "height": 48
+      },
+      "localPath": "public/assets/game/Wallpaper_MoreWalls_25.png"
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "MoreWalls:7",
+      "reason": "Wiki标为正常游戏无法获取，无可领取物品来源。"
+    },
+    {
+      "id": "MoreWalls:8",
+      "reason": "Wiki标为正常游戏无法获取，无可领取物品来源。"
+    }
+  ]
+}

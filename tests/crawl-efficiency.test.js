@@ -116,5 +116,5 @@ describe("crawl efficiency", () => {
       expect(response.text, absoluteUrl).not.toMatch(/<meta name="robots" content="[^"]*noindex/i);
       expect(response.text, absoluteUrl).toContain(`rel="canonical" href="${absoluteUrl}"`);
     }
-  });
+  }, 180000); // Crawl every canonical URL; retain all response/SEO assertions.
 });

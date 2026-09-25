@@ -1,0 +1,493 @@
+{
+  "version": "1.6.15",
+  "images": [
+    {
+      "file": "public/assets/game/Weapon_abbys-planchette.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/72/Abby%27s_Planchette.png",
+      "source": "https://stardewvalleywiki.com/Abby's_Planchette",
+      "width": 48,
+      "height": 48,
+      "sha256": "6a89d599e94c9c817f930c9a357e9c86e65adcba8bb254a3a7d086fc085f7fdb"
+    },
+    {
+      "file": "public/assets/game/Weapon_alexs-bat.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Alex%27s_Bat.png",
+      "source": "https://stardewvalleywiki.com/Alex's_Bat",
+      "width": 48,
+      "height": 48,
+      "sha256": "ef4371873b9cde639d347fcb981051b767d7dd9ba171208c45fae92ba6c763d3"
+    },
+    {
+      "file": "public/assets/game/Weapon_bone-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/29/Bone_Sword.png",
+      "source": "https://stardewvalleywiki.com/Bone_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "7691b8afa58443c1a5d520951455012617083514a8134d7f7bdfef4933a89587"
+    },
+    {
+      "file": "public/assets/game/Weapon_broken-trident.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Broken_Trident.png",
+      "source": "https://stardewvalleywiki.com/Broken_Trident",
+      "width": 48,
+      "height": 48,
+      "sha256": "f42ae4b48bb77d11c379f261f2876b6d16cfee1583d416ad683be25766f617d6"
+    },
+    {
+      "file": "public/assets/game/Weapon_burglars-shank.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/7c/Burglar%27s_Shank.png",
+      "source": "https://stardewvalleywiki.com/Burglar's_Shank",
+      "width": 48,
+      "height": 48,
+      "sha256": "74b3d5b9778f485caf7e5cc6543e9106b94d2d178b871d672fada15ddd3927f8"
+    },
+    {
+      "file": "public/assets/game/Weapon_carving-knife.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Carving_Knife.png",
+      "source": "https://stardewvalleywiki.com/Carving_Knife",
+      "width": 48,
+      "height": 48,
+      "sha256": "ce52a9c50b84500bf24d4e63bec51610e3f5f249f1f2286d3fe21f19ea9ab65c"
+    },
+    {
+      "file": "public/assets/game/Weapon_claymore.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Claymore.png",
+      "source": "https://stardewvalleywiki.com/Claymore",
+      "width": 48,
+      "height": 48,
+      "sha256": "d64b0b0b4f5e116059b0646867ec4b7aabf34174d8be19f31d883d5b8f87e42e"
+    },
+    {
+      "file": "public/assets/game/Weapon_crystal-dagger.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Crystal_Dagger.png",
+      "source": "https://stardewvalleywiki.com/Crystal_Dagger",
+      "width": 48,
+      "height": 48,
+      "sha256": "e7715f5324c11fc5cdfb456ba9fa1fa598e86281fc01d09f103a0ab167b2c183"
+    },
+    {
+      "file": "public/assets/game/Weapon_cutlass.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/1e/Cutlass.png",
+      "source": "https://stardewvalleywiki.com/Cutlass",
+      "width": 48,
+      "height": 48,
+      "sha256": "16bf919fbc9e557cf5be41dd84cb6ce468a4a9ead6fc978813077cab2b88c41e"
+    },
+    {
+      "file": "public/assets/game/Weapon_dark-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Dark_Sword.png",
+      "source": "https://stardewvalleywiki.com/Dark_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "f9306f185fac3e5684a78b1d8619c447a3661e95eb7615b20014d6787f35e8e3"
+    },
+    {
+      "file": "public/assets/game/Weapon_dragontooth-club.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/18/Dragontooth_Club.png",
+      "source": "https://stardewvalleywiki.com/Dragontooth_Club",
+      "width": 48,
+      "height": 48,
+      "sha256": "2f4ae75c8446df43f44323262ce9ba9b1f529acb3174096493579f3904fce7d6"
+    },
+    {
+      "file": "public/assets/game/Weapon_dragontooth-cutlass.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e8/Dragontooth_Cutlass.png",
+      "source": "https://stardewvalleywiki.com/Dragontooth_Cutlass",
+      "width": 48,
+      "height": 48,
+      "sha256": "c6d51cc2fff9b1d3267cc01537541d01e660c4fa82607161172399eaeb44ab36"
+    },
+    {
+      "file": "public/assets/game/Weapon_dragontooth-shiv.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/95/Dragontooth_Shiv.png",
+      "source": "https://stardewvalleywiki.com/Dragontooth_Shiv",
+      "width": 48,
+      "height": 48,
+      "sha256": "863d069dd0cef0ca80b51c20d507939a000ae0c32cf1eac4c41c76d8a5be49ce"
+    },
+    {
+      "file": "public/assets/game/Weapon_dwarf-dagger.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/99/Dwarf_Dagger.png",
+      "source": "https://stardewvalleywiki.com/Dwarf_Dagger",
+      "width": 48,
+      "height": 48,
+      "sha256": "71418bc0f76c92305ced80bf541c60b378e49f0ba4b7049db53e9788002e312c"
+    },
+    {
+      "file": "public/assets/game/Weapon_dwarf-hammer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Dwarf_Hammer.png",
+      "source": "https://stardewvalleywiki.com/Dwarf_Hammer",
+      "width": 48,
+      "height": 48,
+      "sha256": "89f7f615a48045717ed3cf7df39c8e9fd15c680616ff1dc7ffc072222be208d6"
+    },
+    {
+      "file": "public/assets/game/Weapon_dwarf-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/38/Dwarf_Sword.png",
+      "source": "https://stardewvalleywiki.com/Dwarf_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "639755c65bd66721808ebc0aac17a11beb70a2b0b2223edc90f14d6910c5e70e"
+    },
+    {
+      "file": "public/assets/game/Weapon_elf-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Elf_Blade.png",
+      "source": "https://stardewvalleywiki.com/Elf_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "0635edfcb4dc8f82c8b8a1ac1f51bd403e80a98fcdd15f0cbf618e9d14be16bd"
+    },
+    {
+      "file": "public/assets/game/Weapon_elliotts-pencil.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/70/Elliott%27s_Pencil.png",
+      "source": "https://stardewvalleywiki.com/Elliott's_Pencil",
+      "width": 48,
+      "height": 48,
+      "sha256": "7342bfb204cf716033bf68cd32adfe6f1993ee430f0f0af777512f01f5aafaef"
+    },
+    {
+      "file": "public/assets/game/Weapon_femur.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Femur.png",
+      "source": "https://stardewvalleywiki.com/Femur",
+      "width": 48,
+      "height": 48,
+      "sha256": "e0558cfda1614fffc637f0bd07da86e2e1acdd7a183e247eaea491e04fc1d568"
+    },
+    {
+      "file": "public/assets/game/Weapon_forest-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/17/Forest_Sword.png",
+      "source": "https://stardewvalleywiki.com/Forest_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "61c24bd113b63dee4978b3a8b7509f9da1ff5ed7488a9bfbd551b00f849e6387"
+    },
+    {
+      "file": "public/assets/game/Weapon_galaxy-dagger.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/68/Galaxy_Dagger.png",
+      "source": "https://stardewvalleywiki.com/Galaxy_Dagger",
+      "width": 48,
+      "height": 48,
+      "sha256": "d293b4f76e4e970e58509b6f8562be3cd984578ed1231063fefe50ec1f531d61"
+    },
+    {
+      "file": "public/assets/game/Weapon_galaxy-hammer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/8a/Galaxy_Hammer.png",
+      "source": "https://stardewvalleywiki.com/Galaxy_Hammer",
+      "width": 48,
+      "height": 48,
+      "sha256": "895cf11addb9bf1d394f9ace161859aa81bf88b364c9e56c969733143f9b4e00"
+    },
+    {
+      "file": "public/assets/game/Weapon_haleys-iron.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/66/Haley%27s_Iron.png",
+      "source": "https://stardewvalleywiki.com/Haley's_Iron",
+      "width": 48,
+      "height": 48,
+      "sha256": "2276a0554ecfafb33d292d5e7816274431849f3be5f9a8cfe9b20d26bfd08ae9"
+    },
+    {
+      "file": "public/assets/game/Weapon_harveys-mallet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/09/Harvey%27s_Mallet.png",
+      "source": "https://stardewvalleywiki.com/Harvey's_Mallet",
+      "width": 48,
+      "height": 48,
+      "sha256": "e2551787b7ae8a015d7991cefdda7ffac390ef020350772e08bb466e8d0bafd4"
+    },
+    {
+      "file": "public/assets/game/Weapon_holy-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Holy_Blade.png",
+      "source": "https://stardewvalleywiki.com/Holy_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "afeb12c35818e36734c294038a892e5768bf948005bbe4fe9456ea1a032a302b"
+    },
+    {
+      "file": "public/assets/game/Weapon_infinity-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/40/Infinity_Blade.png",
+      "source": "https://stardewvalleywiki.com/Infinity_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "37c745e1febb70318f25465a7bd988a7e7d5170db005e2420a0387bc93b27ed3"
+    },
+    {
+      "file": "public/assets/game/Weapon_infinity-dagger.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d6/Infinity_Dagger.png",
+      "source": "https://stardewvalleywiki.com/Infinity_Dagger",
+      "width": 48,
+      "height": 48,
+      "sha256": "d4a46a34cfc7bf8062ae08aecc04206465fb217118128344ac9a9d7d01af3626"
+    },
+    {
+      "file": "public/assets/game/Weapon_infinity-gavel.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/8/87/Infinity_Gavel.png",
+      "source": "https://stardewvalleywiki.com/Infinity_Gavel",
+      "width": 48,
+      "height": 48,
+      "sha256": "21f4a46ee8a4496f823845ab9929c76fc450f0d87fc3072f9b7ed4b315340d60"
+    },
+    {
+      "file": "public/assets/game/Weapon_insect-head.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/35/Insect_Head.png",
+      "source": "https://stardewvalleywiki.com/Insect_Head",
+      "width": 48,
+      "height": 48,
+      "sha256": "71a18e4d606825acd0e439eaa8bc25340d990472cf5312439aeffc325d551311"
+    },
+    {
+      "file": "public/assets/game/Weapon_iridium-needle.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/62/Iridium_Needle.png",
+      "source": "https://stardewvalleywiki.com/Iridium_Needle",
+      "width": 48,
+      "height": 48,
+      "sha256": "36289772fb0554fd81c41d722c21a7a4d172cad3de03b1dd04bb2e816bd3842b"
+    },
+    {
+      "file": "public/assets/game/Weapon_iron-dirk.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Iron_Dirk.png",
+      "source": "https://stardewvalleywiki.com/Iron_Dirk",
+      "width": 48,
+      "height": 48,
+      "sha256": "f45b3d7b8504e7752113ed5b6d638c2ab26295cb85c597f6ce2360c5837125b1"
+    },
+    {
+      "file": "public/assets/game/Weapon_iron-edge.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3c/Iron_Edge.png",
+      "source": "https://stardewvalleywiki.com/Iron_Edge",
+      "width": 48,
+      "height": 48,
+      "sha256": "e3126a118132b6da6d161ef696f70670cc5b7327dcac6f9a5b19c34627d29608"
+    },
+    {
+      "file": "public/assets/game/Weapon_kudgel.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Kudgel.png",
+      "source": "https://stardewvalleywiki.com/Kudgel",
+      "width": 48,
+      "height": 48,
+      "sha256": "112b3651287c4f77c61a26e104866f806d80d8b3575de3a404929a9a12fe666b"
+    },
+    {
+      "file": "public/assets/game/Weapon_lava-katana.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Lava_Katana.png",
+      "source": "https://stardewvalleywiki.com/Lava_Katana",
+      "width": 48,
+      "height": 48,
+      "sha256": "f43f7bfce021b31c9ef00816fb35082a3db6ffdbc9d0293e8d0ce5e0c84cc7cf"
+    },
+    {
+      "file": "public/assets/game/Weapon_lead-rod.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/36/Lead_Rod.png",
+      "source": "https://stardewvalleywiki.com/Lead_Rod",
+      "width": 48,
+      "height": 48,
+      "sha256": "93bd3843547e6d3790bb6697564527086cded2bf7f47dea3f73add69998649f1"
+    },
+    {
+      "file": "public/assets/game/Weapon_leahs-whittler.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/69/Leah%27s_Whittler.png",
+      "source": "https://stardewvalleywiki.com/Leah's_Whittler",
+      "width": 48,
+      "height": 48,
+      "sha256": "49c6de9b0992f92f275af424f870ff07124890bb32b11aae43e4e0195e2c60a4"
+    },
+    {
+      "file": "public/assets/game/Weapon_marus-wrench.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Maru%27s_Wrench.png",
+      "source": "https://stardewvalleywiki.com/Maru's_Wrench",
+      "width": 48,
+      "height": 48,
+      "sha256": "bfda07165a4b6443b91d75670ff50a8df44fbe0e83dc42edc66b4c54f4506869"
+    },
+    {
+      "file": "public/assets/game/Weapon_master-slingshot.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Master_Slingshot.png",
+      "source": "https://stardewvalleywiki.com/Master_Slingshot",
+      "width": 48,
+      "height": 48,
+      "sha256": "e0854124f6151d7ad5a4e521904a92090fa53ed7f7b5dade4e6d3031fcee5b30"
+    },
+    {
+      "file": "public/assets/game/Weapon_meowmere.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/6/63/Meowmere.png",
+      "source": "https://stardewvalleywiki.com/Meowmere",
+      "width": 48,
+      "height": 48,
+      "sha256": "0fc0059a4ac3b40a530ebf780b4f438d6b5e79defb81c3656f7fd15098ae8f91"
+    },
+    {
+      "file": "public/assets/game/Weapon_neptunes-glaive.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/2/26/Neptune%27s_Glaive.png",
+      "source": "https://stardewvalleywiki.com/Neptune's_Glaive",
+      "width": 48,
+      "height": 48,
+      "sha256": "1118e2584efc981b6f9315fc047227a8f2960ae07f7bfa22e8821e438bd388f6"
+    },
+    {
+      "file": "public/assets/game/Weapon_obsidian-edge.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/7/73/Obsidian_Edge.png",
+      "source": "https://stardewvalleywiki.com/Obsidian_Edge",
+      "width": 48,
+      "height": 48,
+      "sha256": "3a6ff734b2c6b670c84f0f8960230c5841874b7c0058f5010db260e0173236c6"
+    },
+    {
+      "file": "public/assets/game/Weapon_ossified-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/30/Ossified_Blade.png",
+      "source": "https://stardewvalleywiki.com/Ossified_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "dc7261c194be0e145d5ff5dbf8fdc6cf7d7d939af4eb4e93436538799cd6ddca"
+    },
+    {
+      "file": "public/assets/game/Weapon_pennys-fryer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/9c/Penny%27s_Fryer.png",
+      "source": "https://stardewvalleywiki.com/Penny's_Fryer",
+      "width": 48,
+      "height": 48,
+      "sha256": "c36feaf9b10318fb95c68de4c958160200f2a6449173907f27c2b009ffbd3467"
+    },
+    {
+      "file": "public/assets/game/Weapon_pirates-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/1/19/Pirate%27s_Sword.png",
+      "source": "https://stardewvalleywiki.com/Pirate's_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "847bc1b8807c53cc7ad4494a7d982c534b2e77abf5a41861049203050125cb5b"
+    },
+    {
+      "file": "public/assets/game/Weapon_rusty-sword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/d7/Rusty_Sword.png",
+      "source": "https://stardewvalleywiki.com/Rusty_Sword",
+      "width": 48,
+      "height": 48,
+      "sha256": "77cb61f5fe38addc074f0b603900f66a079393eb7d3f13d17a191d2962013aaa"
+    },
+    {
+      "file": "public/assets/game/Weapon_sams-old-guitar.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/dc/Sam%27s_Old_Guitar.png",
+      "source": "https://stardewvalleywiki.com/Sam's_Old_Guitar",
+      "width": 48,
+      "height": 48,
+      "sha256": "4bf6e258b720e828f357887b82d72449066a00f91c986f5fc58abff5e5524387"
+    },
+    {
+      "file": "public/assets/game/Weapon_sebs-lost-mace.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/37/Seb%27s_Lost_Mace.png",
+      "source": "https://stardewvalleywiki.com/Seb's_Lost_Mace",
+      "width": 48,
+      "height": 48,
+      "sha256": "7155840ad7f28df0700a33cacf189d1d587c2bfd05ab3738cbb94b2fd135a4b0"
+    },
+    {
+      "file": "public/assets/game/Weapon_shadow-dagger.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/47/Shadow_Dagger.png",
+      "source": "https://stardewvalleywiki.com/Shadow_Dagger",
+      "width": 48,
+      "height": 48,
+      "sha256": "12d1d77f53ba5d895dae0e44813a833802d8d587abea4d7e2c8df03e41b68405"
+    },
+    {
+      "file": "public/assets/game/Weapon_silver-saber.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/b/b0/Silver_Saber.png",
+      "source": "https://stardewvalleywiki.com/Silver_Saber",
+      "width": 48,
+      "height": 48,
+      "sha256": "a40519a4c8328e4ec7f2f0947eaf7f5500d1c08a164d4c8054223de2f30fd65f"
+    },
+    {
+      "file": "public/assets/game/Weapon_slingshot.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Slingshot.png",
+      "source": "https://stardewvalleywiki.com/Slingshot",
+      "width": 48,
+      "height": 48,
+      "sha256": "16dba05c861d068b5172169313e5ae835e7c52057686b2a9e4c54ae92f2c43a2"
+    },
+    {
+      "file": "public/assets/game/Weapon_steel-falchion.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/ee/Steel_Falchion.png",
+      "source": "https://stardewvalleywiki.com/Steel_Falchion",
+      "width": 48,
+      "height": 48,
+      "sha256": "3462180e424f6fad9ccd6ab33860e35645dc5f2a3d4927cc89b29880c789db5a"
+    },
+    {
+      "file": "public/assets/game/Weapon_steel-smallsword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/d/da/Steel_Smallsword.png",
+      "source": "https://stardewvalleywiki.com/Steel_Smallsword",
+      "width": 48,
+      "height": 48,
+      "sha256": "8a574369ee8da7452dccf301a85090a4f6942a0b54c10ea8f1dec233c6f5a0ba"
+    },
+    {
+      "file": "public/assets/game/Weapon_tempered-broadsword.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Tempered_Broadsword.png",
+      "source": "https://stardewvalleywiki.com/Tempered_Broadsword",
+      "width": 48,
+      "height": 48,
+      "sha256": "7236e0da631794bcce86eaacc80483a3212f7ea997926507144c2f3ba3d2fe46"
+    },
+    {
+      "file": "public/assets/game/Weapon_templars-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/e/e4/Templar%27s_Blade.png",
+      "source": "https://stardewvalleywiki.com/Templar's_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "56a8a07e84f48e5fb44c9b2181f7efb6b2c49d2fa431871a160cdb3fef0b0294"
+    },
+    {
+      "file": "public/assets/game/Weapon_the-slammer.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/c/c7/The_Slammer.png",
+      "source": "https://stardewvalleywiki.com/The_Slammer",
+      "width": 48,
+      "height": 48,
+      "sha256": "2e71daef364b193ae2244e7500aa6629747691ea0ed438968143520e55602ea0"
+    },
+    {
+      "file": "public/assets/game/Weapon_wicked-kris.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/9/94/Wicked_Kris.png",
+      "source": "https://stardewvalleywiki.com/Wicked_Kris",
+      "width": 48,
+      "height": 48,
+      "sha256": "fbe4c56f3957757d3de38ce8e823a60455192f3f78fcb8341e706bd9aac9702a"
+    },
+    {
+      "file": "public/assets/game/Weapon_wind-spire.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/00/Wind_Spire.png",
+      "source": "https://stardewvalleywiki.com/Wind_Spire",
+      "width": 48,
+      "height": 48,
+      "sha256": "35e8679d826094144fe6d544875697031459945b4ff43ad3e9e4d146da8a5518"
+    },
+    {
+      "file": "public/assets/game/Weapon_wood-club.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/5/51/Wood_Club.png",
+      "source": "https://stardewvalleywiki.com/Wood_Club",
+      "width": 48,
+      "height": 48,
+      "sha256": "b1362c671a2d6315842efddd591d5e93ec1d6dcd96609f866f6ea74eb1496288"
+    },
+    {
+      "file": "public/assets/game/Weapon_wood-mallet.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Wood_Mallet.png",
+      "source": "https://stardewvalleywiki.com/Wood_Mallet",
+      "width": 48,
+      "height": 48,
+      "sha256": "001f43fde55bf78770fbcc5b8f432ed682b2d6753cd2c227587f42d96bf79e99"
+    },
+    {
+      "file": "public/assets/game/Weapon_wooden-blade.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/0/06/Wooden_Blade.png",
+      "source": "https://stardewvalleywiki.com/Wooden_Blade",
+      "width": 48,
+      "height": 48,
+      "sha256": "1af065009e12c8cb437a4f1fec7d86e2d928d4d3b5f832ef1ef4aae27d000de8"
+    },
+    {
+      "file": "public/assets/game/Weapon_yeti-tooth.png",
+      "url": "https://stardewvalleywiki.com/mediawiki/images/4/4d/Yeti_Tooth.png",
+      "source": "https://stardewvalleywiki.com/Yeti_Tooth",
+      "width": 48,
+      "height": 48,
+      "sha256": "5a06d066be2bc6a9a21f675c8d53c4ffd85968a91111d96ed69ea80d4e88957b"
+    }
+  ]
+}

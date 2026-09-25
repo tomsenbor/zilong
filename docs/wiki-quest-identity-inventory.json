@@ -1,0 +1,675 @@
+{
+  "version": "1.6.15.24356",
+  "nativeSource": {
+    "source": "Data/Quests",
+    "sha256": "164A9E4E0003C4EFC8D13B6E82E4CAB1C1AFA334C4772C61A4FD333588E5824F"
+  },
+  "scope": "All66 native quest records mapped.64 playable native records include stages/variants; two unused excluded. Not a declaration that every quest/event detail is complete.",
+  "notes": [
+    "Pre-existing quest pages preserved byte-for-byte; chain steps and variable rewards in legacy pages still need a separate content-completeness review.",
+    "Playable festival fishing has event identity rather than unused quest131.",
+    "Native ItemDeliveryQuest fixed delivery255 friendship; LostItemQuest250; daily item delivery150."
+  ],
+  "records": [
+    {
+      "id": "1",
+      "nativeTitle": "Meet The Wizard",
+      "type": "Location",
+      "key": "quest:1",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-1",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "2",
+      "nativeTitle": "The Mysterious Qi",
+      "type": "Basic",
+      "key": "quest:2-3-4-5",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "mr-qi-icon",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "3",
+      "nativeTitle": "The Mysterious Qi",
+      "type": "Basic",
+      "key": "quest:2-3-4-5",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "mr-qi-icon",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "4",
+      "nativeTitle": "The Mysterious Qi",
+      "type": "Basic",
+      "key": "quest:2-3-4-5",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "mr-qi-icon",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "5",
+      "nativeTitle": "The Mysterious Qi",
+      "type": "Basic",
+      "key": "quest:2-3-4-5",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "mr-qi-icon",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "6",
+      "nativeTitle": "Getting Started",
+      "type": "ItemHarvest",
+      "key": "quest:6-132",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "getting-started",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "7",
+      "nativeTitle": "Raising Animals",
+      "type": "Building",
+      "key": "quest:7",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-7",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "8",
+      "nativeTitle": "Advancement",
+      "type": "Crafting",
+      "key": "quest:8",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "advancement",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "9",
+      "nativeTitle": "Introductions",
+      "type": "Social",
+      "key": "quest:9",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "introductions",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "10",
+      "nativeTitle": "Copper Ore",
+      "type": "Basic",
+      "key": "quest:10",
+      "disposition": "exclude",
+      "dataset": null,
+      "slug": null,
+      "reason": "Unused native quest template, not an obtainable normal-play objective. Do not conflate131 with playable festival fishing."
+    },
+    {
+      "id": "11",
+      "nativeTitle": "Forging Ahead",
+      "type": "Crafting",
+      "key": "quest:11",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-11",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "12",
+      "nativeTitle": "Smelting",
+      "type": "ItemHarvest",
+      "key": "quest:12",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-12",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "13",
+      "nativeTitle": "To The Beach",
+      "type": "Basic",
+      "key": "quest:13",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-13",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "14",
+      "nativeTitle": "Explore The Mine",
+      "type": "Basic",
+      "key": "quest:14",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "explore-the-mine",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "15",
+      "nativeTitle": "Initiation",
+      "type": "Monster",
+      "key": "quest:15-16",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "initiation",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "16",
+      "nativeTitle": "Initiation",
+      "type": "Location",
+      "key": "quest:15-16",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "initiation",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "17",
+      "nativeTitle": "Deeper In The Mine",
+      "type": "Basic",
+      "key": "quest:17",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "deeper-in-the-mine",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "18",
+      "nativeTitle": "To The Bottom?",
+      "type": "Basic",
+      "key": "quest:18",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-18",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "19",
+      "nativeTitle": "The Skull Key",
+      "type": "Basic",
+      "key": "quest:19",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "skull-key",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "20",
+      "nativeTitle": "Qi's Challenge",
+      "type": "Basic",
+      "key": "quest:20",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-20",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "21",
+      "nativeTitle": "Marnie's Request",
+      "type": "Basic",
+      "key": "quest:21",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-21",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "22",
+      "nativeTitle": "Fish Casserole",
+      "type": "Basic",
+      "key": "quest:22",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-22",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "23",
+      "nativeTitle": "Archaeology",
+      "type": "Location",
+      "key": "quest:23-24",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "archaeology",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "24",
+      "nativeTitle": "Archaeology",
+      "type": "Basic",
+      "key": "quest:23-24",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "archaeology",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "25",
+      "nativeTitle": "How To Win Friends",
+      "type": "Basic",
+      "key": "quest:25",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "how-to-win-friends",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "26",
+      "nativeTitle": "\"Rat Problem\"",
+      "type": "Basic",
+      "key": "quest:26",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-26",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "27",
+      "nativeTitle": "Goblin Problem",
+      "type": "Basic",
+      "key": "quest:27",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "void-mayonnaise",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "28",
+      "nativeTitle": "Dark Talisman",
+      "type": "Basic",
+      "key": "quest:28",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "dark-talisman",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "29",
+      "nativeTitle": "Strange Note",
+      "type": "Basic",
+      "key": "quest:29",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-29",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "30",
+      "nativeTitle": "Cryptic Note",
+      "type": "Basic",
+      "key": "quest:30",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-30",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "31",
+      "nativeTitle": "A Winter Mystery",
+      "type": "Basic",
+      "key": "quest:31",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-31",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "100",
+      "nativeTitle": "Robin's Lost Axe",
+      "type": "LostItem",
+      "key": "quest:100",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-100",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "101",
+      "nativeTitle": "Jodi's Request",
+      "type": "ItemDelivery",
+      "key": "quest:101",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-101",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "102",
+      "nativeTitle": "Mayor's \"Shorts\"",
+      "type": "LostItem",
+      "key": "quest:102",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-102",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "103",
+      "nativeTitle": "Pam Is Thirsty",
+      "type": "ItemDelivery",
+      "key": "quest:103",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-103",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "104",
+      "nativeTitle": "Crop Research",
+      "type": "ItemDelivery",
+      "key": "quest:104",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-104",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "105",
+      "nativeTitle": "Knee Therapy",
+      "type": "ItemDelivery",
+      "key": "quest:105",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-105",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "106",
+      "nativeTitle": "Cow's Delight",
+      "type": "ItemDelivery",
+      "key": "quest:106",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-106",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "107",
+      "nativeTitle": "Blackberry Basket",
+      "type": "LostItem",
+      "key": "quest:107",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-107",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "108",
+      "nativeTitle": "Carving Pumpkins",
+      "type": "ItemDelivery",
+      "key": "quest:108",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-108",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "109",
+      "nativeTitle": "Catch A Squid",
+      "type": "ItemDelivery",
+      "key": "quest:109",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-109",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "110",
+      "nativeTitle": "Clint's Attempt",
+      "type": "ItemDelivery",
+      "key": "quest:110",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-110",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "111",
+      "nativeTitle": "A Dark Reagent",
+      "type": "ItemDelivery",
+      "key": "quest:111",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-111",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "112",
+      "nativeTitle": "A Favor For Clint",
+      "type": "ItemDelivery",
+      "key": "quest:112",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-112",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "113",
+      "nativeTitle": "Robin's Request",
+      "type": "ItemDelivery",
+      "key": "quest:113",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-113",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "114",
+      "nativeTitle": "Fish Stew",
+      "type": "ItemDelivery",
+      "key": "quest:114",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-114",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "115",
+      "nativeTitle": "Fresh Fruit",
+      "type": "ItemDelivery",
+      "key": "quest:115",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-115",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "116",
+      "nativeTitle": "Granny's Gift",
+      "type": "ItemDelivery",
+      "key": "quest:116",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-116",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "117",
+      "nativeTitle": "Pierre's Notice",
+      "type": "ItemDelivery",
+      "key": "quest:117",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-117",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "118",
+      "nativeTitle": "Aquatic Research",
+      "type": "ItemDelivery",
+      "key": "quest:118",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-118",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "119",
+      "nativeTitle": "A Soldier's Star",
+      "type": "ItemDelivery",
+      "key": "quest:119",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-119",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "120",
+      "nativeTitle": "Mayor's Need",
+      "type": "ItemDelivery",
+      "key": "quest:120",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-120",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "121",
+      "nativeTitle": "Wanted: Lobster",
+      "type": "ItemDelivery",
+      "key": "quest:121",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-121",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "122",
+      "nativeTitle": "Pam Needs Juice",
+      "type": "ItemDelivery",
+      "key": "quest:122",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-122",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "123",
+      "nativeTitle": "Staff Of Power",
+      "type": "ItemDelivery",
+      "key": "quest:123",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-123",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "124",
+      "nativeTitle": "Catch a Lingcod",
+      "type": "ItemDelivery",
+      "key": "quest:124",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-124",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "125",
+      "nativeTitle": "Exotic Spirits",
+      "type": "ItemDelivery",
+      "key": "quest:125",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-letter-125",
+      "reason": "Fixed original letter quest, distinct from randomized help-wanted objectives."
+    },
+    {
+      "id": "126",
+      "nativeTitle": "Errand for your Wife",
+      "type": "ItemDelivery",
+      "key": "quest:126",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "event-emily-errand",
+      "reason": "Fixed spouse quest with prerequisites and later event steps."
+    },
+    {
+      "id": "127",
+      "nativeTitle": "Haley's Cake-Walk",
+      "type": "Basic",
+      "key": "quest:127",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "event-haley-cakewalk",
+      "reason": "Fixed spouse quest with prerequisites and later event steps."
+    },
+    {
+      "id": "128",
+      "nativeTitle": "...",
+      "type": "SecretLostItem",
+      "key": "quest:128-129",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "event-ornate-necklace",
+      "reason": "One lost necklace with two exclusive recipients, not two independent obtainable items."
+    },
+    {
+      "id": "129",
+      "nativeTitle": "...",
+      "type": "SecretLostItem",
+      "key": "quest:128-129",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "event-ornate-necklace",
+      "reason": "One lost necklace with two exclusive recipients, not two independent obtainable items."
+    },
+    {
+      "id": "130",
+      "nativeTitle": "The Pirate's Wife",
+      "type": "Basic",
+      "key": "quest:130",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "war-memento",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "131",
+      "nativeTitle": "Willy's Challenge",
+      "type": "Fishing",
+      "key": "quest:131",
+      "disposition": "exclude",
+      "dataset": null,
+      "slug": null,
+      "reason": "Unused native quest template, not an obtainable normal-play objective. Do not conflate131 with playable festival fishing."
+    },
+    {
+      "id": "132",
+      "nativeTitle": "Getting Started",
+      "type": "ItemHarvest",
+      "key": "quest:6-132",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "getting-started",
+      "reason": "Preserved pre-existing quest identity; stages or farm variants are not separate item identities."
+    },
+    {
+      "id": "133",
+      "nativeTitle": "Feeding Animals",
+      "type": "Building",
+      "key": "quest:133",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-133",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    },
+    {
+      "id": "134",
+      "nativeTitle": "The Giant Stump",
+      "type": "Basic",
+      "key": "quest:134",
+      "disposition": "include",
+      "dataset": "quests",
+      "slug": "story-quest-134",
+      "reason": "Missing fixed story objective, no duplicate of existing story chains."
+    }
+  ]
+}
