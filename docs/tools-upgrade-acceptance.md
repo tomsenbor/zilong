@@ -18,6 +18,8 @@
 
 ## 自动化证据
 
+- 用户豁免后发布前再次完整执行相同命令：130文件、720项通过，459.62秒；发布结果与公网检查见 `tools-upgrade-release.md`。
+
 - `npm.cmd test -- --reporter=dot --maxWorkers=1`：130 个文件、720 项测试全部通过，605.39 秒。
 - 最终日志：本地 `.superpowers/sdd/2026-09-25-tools-practical-upgrade/full-test-final.log`。
 - 请求竞态、重试和过期社区中心响应均先复现失败，再通过最小修复变绿。
