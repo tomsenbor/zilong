@@ -6,6 +6,8 @@ import { makeEntrySlug } from "../../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../../utils/article-markdown.js";
 import { searchToolResults } from "../../utils/tool-search.js";
 import { formatCropDays } from "../../../public/js/wiki-days.js";
+import { collectLibraryFilterOptions } from "../../../public/js/wiki-filter-options.js";
+import { resolveEntryLinks } from "../tools/entry-links.js";
 
 const integer = (value, fallback, max = 100) => Math.min(Math.max(Number.parseInt(value, 10) || fallback, 1), max);
 const parse = (value, fallback) => {
@@ -113,6 +115,14 @@ export function createContentRouter({ db }) {
     res.json({ items });
   });
 
+  router.get("/datasets/:slug/filter-options", (req, res, next) => {
+    const dataset = db.prepare("SELECT slug, id, fields_json FROM datasets WHERE slug = ?").get(req.params.slug);
+    if (!dataset) return next(new AppError(404, "DATASET_NOT_FOUND", "资料分类不存在"));
+    const attributes = db.prepare("SELECT attributes_json FROM dataset_entries WHERE dataset_id = ? AND published = 1")
+      .all(dataset.id).map(row => parse(row.attributes_json, {}));
+    res.json({ options: collectLibraryFilterOptions(parse(dataset.fields_json, []), attributes, dataset.slug) });
+  });
+
   router.get("/datasets/:slug/entries", (req, res, next) => {
     const dataset = db.prepare("SELECT * FROM datasets WHERE slug = ?").get(req.params.slug);
     if (!dataset) return next(new AppError(404, "DATASET_NOT_FOUND", "资料分类不存在"));
@@ -150,7 +160,7 @@ export function createContentRouter({ db }) {
         `%${req.params.entrySlug}%`
       );
     if (!item) return next(new AppError(404, "ENTRY_NOT_FOUND", "资料条目不存在"));
-    res.json({ item: { ...mapEntry(item), fields: parse(item.fields_json, []) } });
+    res.json({ item: { ...mapEntry(item), fields: parse(item.fields_json, []), toolLinks: resolveEntryLinks(item) } });
   });
 
   router.get("/search", (req, res) => {

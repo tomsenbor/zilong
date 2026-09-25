@@ -137,6 +137,7 @@ export async function renderCropTool(app, params = new URLSearchParams()) {
   const advancedConditions = app.querySelector("#crop-advanced-conditions");
   const focusCrop = params.get("crop");
   let latestData = null;
+  let calculationRequest = 0;
   let resetTimer = null;
   let decisionState = getResetDecisionState();
 
@@ -201,6 +202,7 @@ export async function renderCropTool(app, params = new URLSearchParams()) {
   };
 
   async function calculate() {
+    const request = ++calculationRequest;
     const values = Object.fromEntries(new FormData(form));
     const payload = {
       ...values,
@@ -226,14 +228,16 @@ export async function renderCropTool(app, params = new URLSearchParams()) {
     results.innerHTML = loading("正在比较可种植作物…");
     try {
       const data = await api("/api/tools/crops/calculate", { method: "POST", body: JSON.stringify(payload) });
+      if (request !== calculationRequest) return;
       latestData = data;
       initializeDecisionState(data.items);
       renderData(data);
     } catch (error) {
+      if (request !== calculationRequest) return;
       latestData = null;
       results.innerHTML = errorBox(error.message);
     } finally {
-      results.setAttribute("aria-busy", "false");
+      if (request === calculationRequest) results.setAttribute("aria-busy", "false");
     }
   }
 

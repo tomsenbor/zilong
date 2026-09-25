@@ -322,6 +322,7 @@ function buildToolGuidanceSections(tool) {
     `<a href="${routePath("wikiDataset", { datasetSlug: "fish" })}">鱼类图鉴</a>`
   ];
   const sections = {
+    gifts: '<section><h2>使用说明</h2><p>按村民查看生日和已核实最爱礼物，或按具体物品反查村民。生日按春夏秋冬和游戏日期排序。仅展示已核实并收录的最爱礼物，不是完整喜恶表；未查到不代表不喜欢。</p></section>',
     "crop-profit": `<section><h2>使用说明</h2><p>作物收益不能只看售价，还要同时考虑种子成本、生长天数、重复收获次数、季节剩余天数、洒水器覆盖和加工设备容量。这个工具适合在播种前比较候选作物，尤其是春季草莓、夏季蓝莓、秋季蔓越莓、温室远古水果这类投入差异较大的路线。新手可以先输入当前季节、剩余天数和可种地块，再用结果决定是否扩大农田，避免把体力和本金都压在来不及成熟的作物上。常见误区是只看单次售价，忽略晚播导致少收一次，或忽略小桶不足造成作物堆仓。建议先读 ${cropLinks[0]}，再结合 ${cropLinks[1]} 和 ${cropLinks[2]} 核对成熟时间。</p></section>`,
     fish: `<section><h2>使用说明</h2><p>鱼类条件受季节、天气、时间、地点和钓鱼等级共同影响，很多鱼错过窗口后要等到下一个季节。这个工具适合查社区中心鱼缸、雨天限定鱼、夜间鱼、矿井鱼和姜岛鱼。新手使用时先选季节，再按天气和时间缩小范围；如果为了献祭，建议优先筛出当前季节能钓到的鱼，背包里先保留普通品质，不要把第一条直接卖掉。常见误区是忽略雨天和跨午夜时间，例如鳗鱼只在雨夜出现，鲶鱼需要雨天河流。钓鱼练级路线可参考 ${fishLinks[0]}，具体条目可查 ${fishLinks[1]}，献祭优先级可配合 ${fishLinks[2]}。</p></section>`,
     "community-center": `<section><h2>使用说明</h2><p>社区中心进度清单适合按房间、季节和当前可获取物品安排献祭，核心原则是不要乱卖季节限定物品。新手建议先记录春季采集、春季作物、雨天鱼和锅炉房矿物，再按当前季节筛选能立刻补齐的项目。常见误区是只盯着一个收集包，结果错过鱼缸天气窗口或把金星防风草、鲶鱼、鳗鱼、鲟鱼等关键物品卖掉。推荐在每个季节第一天打开清单，标记当季缺口；雨天先配合 ${communityLinks[1]} 查鱼，播种前用 ${communityLinks[2]} 核对作物，鱼缸项目可对照 ${communityLinks[3]}。完整路线可参考 ${communityLinks[0]}。</p></section>`
@@ -674,7 +675,8 @@ function buildToolsPage() {
         listSection("工具入口", [
           `<a href="${routePath("tool", { tool: "fish" })}">鱼类条件查询器</a>：按季节、天气、时间和地点查询可捕获鱼类。`,
           `<a href="${routePath("tool", { tool: "crop-profit" })}">作物收益计算器</a>：比较作物种植、肥料和加工收益。`,
-          `<a href="${routePath("tool", { tool: "community-center" })}">社区中心进度清单</a>：跟踪收集包进度和季节待办。`
+          `<a href="${routePath("tool", { tool: "community-center" })}">社区中心进度清单</a>：跟踪收集包进度和季节待办。`,
+          '<a href="/tools/gifts">生日与最爱礼物查询</a>：按村民和具体物品查询已核实最爱。'
         ])
       ]
     })
@@ -683,6 +685,11 @@ function buildToolsPage() {
 
 function buildToolDetailPage(tool) {
   const pages = {
+    gifts: {
+      title: '生日与最爱礼物查询 - 星露谷实用工具',
+      h1: '生日与最爱礼物查询',
+      description: '按村民、具体物品和生日季节查询已核实最爱礼物，不是完整喜恶表。'
+    },
     fish: {
       title: "鱼类条件查询器 - 星露谷实用工具",
       h1: "鱼类条件查询器",

@@ -15,21 +15,23 @@ import {
   getCommunityScopeSummary,
   resolveCommunityView
 } from "./community-center-view-state.js";
-import { errorBox, loading, toolHero, toolImage } from "./tool-shell.js";
+import { retryErrorBox, loading, toolHero, toolImage } from "./tool-shell.js";
 
 const seasonNames = { "春季": "春季", "夏季": "夏季", "秋季": "秋季", "冬季": "冬季" };
 let activeStorageListener;
 
 function crossLink(item) {
+  const detail = item.wikiHref && /^\/(wiki\/|search\?q=)/.test(item.wikiHref)
+    ? `<a class="community-cross-link" href="${escapeHtml(item.wikiHref)}">查看资料</a> ` : "";
   if (item.fishId) {
     const search = new URLSearchParams({ q: item.name, category: item.fishCategory });
-    return `<a class="community-cross-link" href="${routePath("tool", { tool: "fish", search })}">查询捕获条件</a>`;
+    return detail + `<a class="community-cross-link" href="${routePath("tool", { tool: "fish", search })}">查询捕获条件</a>`;
   }
   if (item.cropId) {
     const search = new URLSearchParams({ crop: item.cropId, season: item.seasons[0] || "春季" });
-    return `<a class="community-cross-link" href="${routePath("tool", { tool: "crops", search })}">计算作物收益</a>`;
+    return detail + `<a class="community-cross-link" href="${routePath("tool", { tool: "crops", search })}">计算作物收益</a>`;
   }
-  return "";
+  return detail;
 }
 
 export async function renderCommunityCenterTool(app, params = new URLSearchParams()) {
@@ -83,6 +85,7 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
   const content = app.querySelector("#community-content");
   try {
     const data = await api("/api/tools/community-center");
+    if (!content.isConnected) return;
     const knownIds = new Set(data.knownSlotIds);
     const knownBundleIds = new Set(data.rooms.flatMap((room) => room.bundles.map((bundle) => bundle.id)));
     let progress = loadProgress(localStorage, knownIds);
@@ -259,6 +262,7 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
     });
     if (activeStorageListener) window.removeEventListener("storage", activeStorageListener);
     activeStorageListener = (event) => {
+      if (!content.isConnected) return;
       if (event.key !== STORAGE_KEY) return;
       progress = loadProgress(localStorage, knownIds);
       render();
@@ -266,6 +270,8 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
     window.addEventListener("storage", activeStorageListener);
     render();
   } catch (error) {
-    content.innerHTML = errorBox(error.message);
+    if (!content.isConnected) return;
+    content.innerHTML = retryErrorBox(error.message);
+    content.querySelector("[data-tool-retry]").addEventListener("click", () => renderCommunityCenterTool(app, params));
   }
 }

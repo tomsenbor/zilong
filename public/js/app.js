@@ -3,6 +3,7 @@ import { createArticleOutline, estimateReadingMinutes, formatArticleSectionLabel
 import { renderFishTool } from "./tools/fish-tool.js";
 import { renderCropTool } from "./tools/crop-tool.js";
 import { renderCommunityCenterTool } from "./tools/community-center-tool.js";
+import { renderGiftTool } from "./tools/gift-tool.js";
 import { PageHeader, PageHero, SiteFooter, SiteHeader } from "./components/site-components.js";
 import { t } from "./i18n.js";
 import {
@@ -285,9 +286,11 @@ async function library(params, options = {}) {
   state.filters = Object.fromEntries([...params.entries()].filter(([key]) => !["dataset", "page", "pageSize"].includes(key)));
   if (state.dataset === "crops" && state.filters.days) state.filters.days = formatCropDays(state.filters.days);
   const query = new URLSearchParams({ page: state.page, pageSize: state.pageSize, ...state.filters });
-  const data = await api(`/api/datasets/${state.dataset}/entries?${query}`);
+  const [data, filterOptions] = await Promise.all([
+    api(`/api/datasets/${state.dataset}/entries?${query}`),
+    loadLibraryFilterOptions(api, state.dataset)
+  ]);
   const fields = data.dataset.fields;
-  const filterOptions = await loadLibraryFilterOptions(api, state.dataset);
 
   app.innerHTML = `${PageHeader({
     eyebrow: "图鉴大全",
@@ -469,7 +472,12 @@ async function entryDetail(datasetSlug, entrySlug) {
     navigateTo(routePath("wikiEntry", { datasetSlug: dataset.slug, entrySlug: item.slug }), { replace: true });
     return;
   }
-  await library(new URLSearchParams(), { datasetSlug: dataset.slug, modalItem: item });
+  if (app.querySelector(`[data-library-dataset="${dataset.slug}"]`) && !app.querySelector("[data-dialog-backdrop]")) {
+    app.insertAdjacentHTML("beforeend", renderItemDialog(item));
+    bindItemDialog(dataset.slug);
+  } else {
+    await library(new URLSearchParams(), { datasetSlug: dataset.slug, modalItem: item });
+  }
 }
 
 function bindItemDialog(datasetSlug) {
@@ -565,10 +573,11 @@ async function toolsPage() {
       { label: "社区中心清单", href: routePath("tool", { tool: "community-center" }), variant: "secondary" }
     ]
   })}
-    <section class="section"><div class="shell tools-grid">
+    <section class="section"><div class="shell tools-grid tools-grid-four">
       <a class="${uiClass("card tool-entry-card")}" href="${routePath("tool", { tool: "fish" })}">${img("/assets/game/36px-Fishing_Skill_Icon.png", "鱼类条件查询器")}<div><h2>鱼类条件查询器</h2><p>按季节、天气、时间、地点与获取方式筛选鱼类，避免空跑。</p><span>开始查询 →</span></div></a>
       <a class="${uiClass("card tool-entry-card")}" href="${routePath("tool", { tool: "crops" })}">${img("/assets/game/36px-Farming_Skill_Icon.png", "作物收益计算器")}<div><h2>作物收益计算器</h2><p>比较地块、预算、肥料、职业与加工方式下的真实净利润。</p><span>开始计算 →</span></div></a>
       <a class="${uiClass("card tool-entry-card")}" href="${routePath("tool", { tool: "community-center" })}">${img("/assets/game/36px-Bundle_Green.png", "社区中心进度清单")}<div><h2>社区中心进度清单</h2><p>按房间跟踪收集包，筛选季节待办，并在本地持续保存。</p><span>管理进度 →</span></div></a>
+      <a class="${uiClass("card tool-entry-card")}" href="${routePath("tool", { tool: "gifts" })}">${img("/assets/game/32px-HeartIconLarge.png", "生日与最爱礼物查询")}<div><h2>生日与最爱礼物查询</h2><p>按村民、物品与生日季节查询已核实最爱，并查看获取资料。</p><span>查询礼物 →</span></div></a>
     </div></section>`;
 }
 
@@ -597,6 +606,7 @@ async function route() {
     else if (currentRoute.name === "tool" && currentRoute.params.tool === "fish") await renderFishTool(app, params);
     else if (currentRoute.name === "tool" && (currentRoute.params.tool === "crops" || currentRoute.params.tool === "crop-profit")) await renderCropTool(app, params);
     else if (currentRoute.name === "tool" && currentRoute.params.tool === "community-center") await renderCommunityCenterTool(app, params);
+    else if (currentRoute.name === "tool" && currentRoute.params.tool === "gifts") await renderGiftTool(app, params);
     else if (currentRoute.name === "tools") await toolsPage();
     else notFoundView(undefined, currentRoute.locale);
   } catch(error) {

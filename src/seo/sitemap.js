@@ -131,7 +131,7 @@ export function renderSitemapXml({ req, context }) {
   }
 
   addUrl(items, seen, routePath("tools"), req, context, { changefreq: "weekly", priority: "0.8" });
-  for (const tool of ["fish", "crop-profit", "community-center"]) {
+  for (const tool of ["fish", "crop-profit", "community-center", "gifts"]) {
     addUrl(items, seen, routePath("tool", { tool }), req, context, {
       changefreq: "weekly",
       priority: "0.7"

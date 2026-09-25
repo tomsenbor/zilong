@@ -1,7 +1,8 @@
 import { test, expect } from "vitest";
 import fs from "node:fs";
 import vm from "node:vm";
-import { renderHomeView, renderItemCard, loadLibraryFilterOptions } from "../public/js/site-view.js";
+import { renderHomeView, renderItemCard } from "../public/js/site-view.js";
+import { collectLibraryFilterOptions } from "../public/js/wiki-filter-options.js";
 
 test("homepage query entrances do not pretend to be counts", () => {
   const html = renderHomeView({ stats: {}, datasets: [], articles: [] });
@@ -18,10 +19,8 @@ test("crop maturity cards supply days without duplicating units", () => {
 });
 
 test("equivalent crop maturity options merge but special conditions survive", async () => {
-  const options = await loadLibraryFilterOptions(async () => ({
-    dataset: { fields: ["days"] }, pagination: { pages: 1 },
-    items: [4, "4天", "14天", "20天后每季最后一周"].map(days => ({ attributes: { days } }))
-  }), "crops");
+  const options = collectLibraryFilterOptions(["days"],
+    [4, "4天", "14天", "20天后每季最后一周"].map(days => ({ days })), "crops");
   expect(options.days).toEqual(["14 天", "20天后每季最后一周", "4 天"]);
 });
 

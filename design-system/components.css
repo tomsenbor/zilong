@@ -1089,6 +1089,22 @@ textarea {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.tools-grid.tools-grid-four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gift-filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; padding: 18px; }
+.gift-filters label { display: grid; gap: 6px; flex: 1 1 180px; min-width: 0; }
+.gift-filters select { width: 100%; min-width: 0; min-height: 44px; }
+.gift-filters button, .gift-filters > a { min-height: 44px; }
+.gift-coverage, .gift-result { padding: 18px; }
+.gift-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.gift-result { min-width: 0; overflow-wrap: anywhere; }
+.gift-list { display: flex; flex-wrap: wrap; gap: 4px 12px; list-style: none; padding: 0; }
+.gift-list a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; }
+.gift-result h2 a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 640px) {
+  .tools-grid.tools-grid-four, .gift-results { grid-template-columns: minmax(0, 1fr); }
+  .gift-filters label { flex-basis: 100%; }
+}
+
 .tool-entry-card {
   display: flex;
   align-items: flex-start;
@@ -1971,7 +1987,7 @@ textarea {
 }
 
 .community-tool-page .bundle-item {
-  grid-template-columns: auto minmax(120px, 1.1fr) minmax(120px, 1.2fr) auto;
+  grid-template-columns: auto minmax(0, 1.1fr) minmax(0, 1.2fr);
   gap: 8px;
   border: 0;
   border-bottom: 1px solid var(--border-light);
@@ -2025,11 +2041,16 @@ textarea {
 }
 
 .community-tool-page .community-item-link {
-  text-align: right;
+  grid-column: 2 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 12px;
+  text-align: left;
 }
 
 .community-tool-page .community-cross-link {
   display: inline-flex;
+  white-space: nowrap;
   min-height: 44px;
   align-items: center;
   color: var(--color-primary);

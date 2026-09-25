@@ -33,3 +33,5 @@ export function toolHero(title, description, icon, links = []) {
 export const loading = (text) => `<div class="${uiClass("tool-status card")}" role="status">${escapeHtml(text)}</div>`;
 export const errorBox = (text) =>
   `<div class="${uiClass("tool-status card error")}" role="alert">${escapeHtml(text || "加载失败，请稍后重试。")}</div>`;
+
+export const retryErrorBox = (text) => `${errorBox(text)}<button type="button" class="${uiClass("btn secondary")}" data-tool-retry>重试</button>`;

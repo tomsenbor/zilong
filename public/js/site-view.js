@@ -273,9 +273,10 @@ function renderItemRelatedLinks(item) {
     ? item.attributes.links
     : String(item.attributes?.links || "").split("|");
   const links = [...new Set(rawLinks.map((href) => String(href).trim()).filter((href) => href.startsWith("/")))].slice(0, 5);
-  if (!links.length) return "";
+  if (!links.length && !item.toolLinks?.length) return "";
 
   return `<div class="item-related-links">
+    ${renderToolLinks(item)}
     ${links.map((href) => `<a href="${escapeHtml(href)}">${escapeHtml(wikiLinkLabels.get(href) || relatedLinkLabels.get(href) || "查看相关资料")}</a>`).join("")}
   </div>`;
 }
@@ -417,26 +418,23 @@ export function renderLibrarySidebar(datasets, activeSlug) {
   </aside>`;
 }
 
+const libraryFilterCache = new WeakMap();
 export async function loadLibraryFilterOptions(fetchPage, datasetSlug) {
-  const options = {};
-  let page = 1;
-  let pages = 1;
-  do {
-    const data = await fetchPage(`/api/datasets/${encodeURIComponent(datasetSlug)}/entries?page=${page}&pageSize=100`);
-    for (const field of data.dataset.fields.slice(0, 4)) {
-      options[field] ||= new Set();
-      for (const item of data.items) {
-        const raw = item.attributes[field];
-        for (const value of Array.isArray(raw) ? raw : [raw]) {
-          if (value !== undefined && value !== null && value !== "") options[field].add(datasetSlug === "crops" && field === "days" ? formatCropDays(value) : String(value));
-        }
-      }
-    }
-    pages = data.pagination.pages;
-    page++;
-  } while (page <= pages);
-  return Object.fromEntries(Object.entries(options).map(([field, values]) =>
-    [field, [...values].sort((a, b) => a < b ? -1 : a > b ? 1 : 0)]));
+  let cache = libraryFilterCache.get(fetchPage);
+  if (!cache) { cache = new Map(); libraryFilterCache.set(fetchPage, cache); }
+  const cached = cache.get(datasetSlug);
+  if (cached && cached.expires > Date.now()) return cached.promise;
+  const entry = { expires: Date.now() + 300000 };
+  entry.promise = Promise.resolve().then(() => fetchPage(`/api/datasets/${encodeURIComponent(datasetSlug)}/filter-options`))
+    .then(data => data.options)
+    .catch(error => { if (cache.get(datasetSlug) === entry) cache.delete(datasetSlug); throw error; });
+  cache.set(datasetSlug, entry);
+  return entry.promise;
+}
+
+function renderToolLinks(item) {
+  return (item.toolLinks || []).filter(link=>/^\/tools\/[a-z-]+(?:\?|$)/.test(link.href))
+    .map(link=>`<a class="${uiClass("btn secondary")}" href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`).join(" ");
 }
 
 export function renderItemDialog(item) {

@@ -11,7 +11,7 @@ import {
   nextVisibleFishCount,
   selectVisibleFish
 } from "./fish-view-state.js";
-import { errorBox, loading, toolHero, toolImage } from "./tool-shell.js";
+import { retryErrorBox, loading, toolHero, toolImage } from "./tool-shell.js";
 
 export { buildFishQuery, formatGameTime } from "./fish-view-state.js";
 
@@ -56,7 +56,7 @@ function fishCard(item) {
       <div><dt>难度</dt><dd>${escapeHtml(String(item.difficulty || "不适用"))}</dd></div>
     </dl>
     ${ruleDetails(item)}
-    <div class="tool-card-footer"><strong>基础售价 ${escapeHtml(String(item.basePrice))}g</strong>${item.bundleIds.length ? `<a href="${routePath("tool", { tool: "community-center", search: new URLSearchParams({ focus: item.bundleIds[0] }) })}">查看收集包</a>` : ""}</div>
+    <div class="tool-card-footer"><strong>基础售价 ${escapeHtml(String(item.basePrice))}g</strong>${item.wikiHref?`<a href="${escapeHtml(item.wikiHref)}">查看资料</a>`:''}${item.bundleIds.length ? `<a href="${routePath("tool", { tool: "community-center", search: new URLSearchParams({ focus: item.bundleIds[0] }) })}">查看收集包</a>` : ""}</div>
   </article>`;
 }
 
@@ -168,6 +168,7 @@ export async function renderFishTool(app, params = new URLSearchParams()) {
 
   try {
     const data = await api(`/api/tools/fish?${params}`);
+    if (!results.isConnected) return;
     form.elements.location.innerHTML = options(data.filters.locations, params.get("location"), "全部地点");
     form.elements.sourceType.innerHTML = options(data.filters.sourceTypes, params.get("sourceType"), "全部方式");
     form.elements.category.innerHTML = options(data.filters.categories, params.get("category"), "全部分类");
@@ -176,8 +177,10 @@ export async function renderFishTool(app, params = new URLSearchParams()) {
     gameVersion = data.gameVersion;
     renderData();
   } catch (error) {
+    if (!results.isConnected) return;
     resultSummary.innerHTML = "<strong>鱼类结果加载失败</strong>";
-    results.innerHTML = errorBox(error.message);
+    results.innerHTML = retryErrorBox(error.message);
+    results.querySelector("[data-tool-retry]").addEventListener("click", () => renderFishTool(app, params));
   }
 
   form.addEventListener("submit", (event) => {

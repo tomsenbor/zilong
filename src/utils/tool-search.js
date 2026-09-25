@@ -1,5 +1,10 @@
 const toolSearchCatalog = [
   {
+    slug: 'gifts', href: '/tools/gifts', title: '生日与最爱礼物查询',
+    snippet: '按村民、具体物品和生日季节查询已核实最爱；不是完整喜恶表。',
+    keywords: ['送礼', '礼物', '生日', '最爱', '村民']
+  },
+  {
     slug: "crops",
     href: "/tools/crops",
     title: "作物收益计算器",

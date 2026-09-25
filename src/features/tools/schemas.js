@@ -13,6 +13,12 @@ import { isValidGameTime } from "./fish.js";
 const optionalText = z.string().trim().max(100).optional();
 const optionalEnum = (values) => z.enum(values).optional();
 
+export const giftQuerySchema = z.object({
+  villager: z.string().trim().max(100).regex(/^[a-z0-9-]*$/).optional(),
+  item: z.string().trim().max(100).regex(/^[A-Za-z0-9_-]*$/).optional(),
+  season: optionalEnum(seasons)
+}).strict();
+
 export const fishQuerySchema = z.object({
   q: optionalText,
   season: optionalEnum(seasons),
