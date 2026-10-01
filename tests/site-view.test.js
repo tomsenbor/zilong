@@ -528,7 +528,7 @@ describe("UI Kit v4 refinement public views", () => {
 
     expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-tool-page \.crop-basic-grid[\s\S]*grid-template-columns:\s*1fr/);
     expect(components).toMatch(/@media \(max-width:\s*720px\)[\s\S]*\.crop-tool-page \.tool-actions \.btn[\s\S]*min-height:\s*44px/);
-    expect(components).toContain(".crop-tool-page .crop-ranking-row {\n    grid-template-columns: repeat(2, minmax(0, 1fr));");
+    expect(components.replace(/\r\n/g, "\n")).toContain(".crop-tool-page .crop-ranking-row {\n    grid-template-columns: repeat(2, minmax(0, 1fr));");
     expect(components).toMatch(/\.crop-tool-page \.crop-comparison-select[\s\S]*min-width:\s*0/);
     expect(components).toMatch(/\.crop-tool-page \.field\[hidden\]\s*\{[\s\S]*display:\s*none\s*!important/);
     expect(components).toMatch(/\.crop-tool-page \.crop-advanced-conditions:not\(\[open\]\)\s*>\s*:not\(summary\)\s*\{[\s\S]*display:\s*none\s*!important/);

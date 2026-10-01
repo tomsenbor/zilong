@@ -5,7 +5,7 @@ import { AppError } from "../../middleware/errors.js";
 import { makeEntrySlug } from "../../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../../utils/article-markdown.js";
 import { searchToolResults } from "../../utils/tool-search.js";
-import { formatCropDays } from "../../../public/js/wiki-days.js";
+import { selectEntries } from "./entry-query.js";
 import { collectLibraryFilterOptions } from "../../../public/js/wiki-filter-options.js";
 import { resolveEntryLinks } from "../tools/entry-links.js";
 
@@ -128,20 +128,7 @@ export function createContentRouter({ db }) {
     if (!dataset) return next(new AppError(404, "DATASET_NOT_FOUND", "资料分类不存在"));
     const page = integer(req.query.page, 1, 100000);
     const pageSize = integer(req.query.pageSize, 12, 100);
-    const query = String(req.query.q || "").trim().toLowerCase();
-    let items = db.prepare("SELECT * FROM dataset_entries WHERE dataset_id = ? AND published = 1").all(dataset.id).map(mapEntry);
-    items = items.filter((item) => {
-      if (query && !`${item.name} ${item.aliases} ${item.summary}`.toLowerCase().includes(query)) return false;
-      return Object.entries(req.query).every(([key, value]) => {
-        if (["q", "page", "pageSize", "sort", "order"].includes(key) || !value) return true;
-        const actual = item.attributes[key];
-        if (dataset.slug === "crops" && key === "days") return formatCropDays(actual) === formatCropDays(value);
-        return Array.isArray(actual) ? actual.includes(value) : String(actual || "").includes(String(value));
-      });
-    });
-    const sort = String(req.query.sort || "name");
-    const direction = req.query.order === "desc" ? -1 : 1;
-    items.sort((a, b) => String(a[sort] ?? a.attributes[sort] ?? "").localeCompare(String(b[sort] ?? b.attributes[sort] ?? ""), "zh-CN", { numeric: true }) * direction);
+    const items = selectEntries(db.prepare("SELECT * FROM dataset_entries WHERE dataset_id = ? AND published = 1").all(dataset.id).map(mapEntry), dataset.slug, req.query);
     const total = items.length;
     const paged = items.slice((page - 1) * pageSize, page * pageSize);
     res.json({ ...pageResult(paged, page, pageSize, total), dataset: mapDataset(dataset) });

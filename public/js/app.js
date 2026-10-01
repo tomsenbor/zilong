@@ -1,4 +1,5 @@
 import { api, escapeHtml, imageFallback } from "./api.js";
+import { datasetMetadata } from "./dataset-metadata.js";
 import { createArticleOutline, estimateReadingMinutes, formatArticleSectionLabel } from "./article-layout.js";
 import { renderFishTool } from "./tools/fish-tool.js";
 import { renderCropTool } from "./tools/crop-tool.js";
@@ -176,6 +177,7 @@ function bindInternalNavigation() {
     if (url.pathname.startsWith("/admin") || url.pathname.startsWith("/api/") || url.pathname.startsWith("/assets/") || url.pathname.startsWith("/uploads/")) return;
     event.preventDefault();
     navigateTo(`${url.pathname}${url.search}`);
+    if (anchor.closest('.pagination')) window.scrollTo(0, 0);
   });
 }
 
@@ -291,6 +293,9 @@ async function library(params, options = {}) {
     loadLibraryFilterOptions(api, state.dataset)
   ]);
   const fields = data.dataset.fields;
+  const metadata = datasetMetadata(data.dataset, state.page, data.pagination.total);
+  document.title = metadata.title;
+  document.querySelector('meta[name="description"]')?.setAttribute('content', metadata.description);
 
   app.innerHTML = `${PageHeader({
     eyebrow: "图鉴大全",
@@ -347,11 +352,6 @@ async function library(params, options = {}) {
     state.view = state.view === "table" ? "card" : "table";
     library(params, options);
   });
-  document.querySelectorAll("[data-page]").forEach((button) => button.addEventListener("click", () => {
-    const query = queryFromObject({ ...state.filters, page: button.dataset.page });
-    navigateTo(routePath("wikiDataset", { datasetSlug: state.dataset, search: query }));
-    window.scrollTo(0, 0);
-  }));
   if (options.modalItem) bindItemDialog(state.dataset);
 }
 
@@ -366,7 +366,14 @@ function tableView(items, fields) {
 function cardView(items) {
   return `<div class="item-grid">${items.map((item) => renderItemCard(item, state.dataset)).join("")}</div>`;
 }
-function pagination(info) { if(info.pages<=1)return""; return `<div class="pagination">${Array.from({length:info.pages},(_,i)=>i+1).slice(Math.max(0,info.page-3),info.page+2).map((page)=>`<button data-page="${page}" class="${uiClass("btn ghost small", { active: page===info.page })}">${page}</button>`).join("")}</div>`; }
+function pagination(info) {
+  if (info.pages <= 1) return "";
+  return `<nav class="pagination" aria-label="图鉴分页">${Array.from({ length: info.pages }, (_, i) => i + 1)
+    .slice(Math.max(0, info.page - 3), info.page + 2).map(page => {
+      const href = routePath("wikiDataset", { datasetSlug: state.dataset, search: queryFromObject({ ...state.filters, page: page > 1 ? page : undefined }) });
+      return `<a href="${escapeHtml(href)}" class="${uiClass("btn ghost small", { active: page === info.page })}" ${page === info.page ? 'aria-current="page"' : ''}>${page}</a>`;
+    }).join("")}</nav>`;
+}
 
 async function articlesPage() {
   const data = await api("/api/articles?pageSize=50");

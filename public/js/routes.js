@@ -120,7 +120,12 @@ function pathForRoute(route, locale = DEFAULT_LOCALE) {
     case "wiki":
       return routePath("wiki", {}, locale);
     case "wikiDataset":
-      return routePath("wikiDataset", { datasetSlug: route.params.datasetSlug }, locale);
+      return routePath("wikiDataset", {
+        datasetSlug: route.params.datasetSlug,
+        search: /^[1-9]\d*$/.test(query.get("page") || "") && Number(query.get("page")) > 1
+          && [...query.keys()].every(key => key === "page")
+          ? { page: query.get("page") } : undefined
+      }, locale);
     case "wikiEntry":
       return routePath("wikiEntry", route.params, locale);
     case "search":

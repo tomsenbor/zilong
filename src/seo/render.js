@@ -10,12 +10,45 @@ import { SiteFooter } from "../../public/js/components/site-components.js";
 import { makeEntrySlug } from "../utils/entry-slug.js";
 import { stripDuplicateArticleTitleHeading } from "../utils/article-markdown.js";
 import { searchToolResults } from "../utils/tool-search.js";
+import { selectEntries } from "../features/content/entry-query.js";
+import { giftData } from "../features/tools/data/gifts.js";
+import { queryGifts } from "../features/tools/gifts.js";
+import { datasetMetadata, datasetTopics } from "../../public/js/dataset-metadata.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
 const homeTitle = "星露谷物语中文资料库｜作物、鱼类、村民、任务与新手攻略";
 const homeDescription = "星露谷物语 1.6.15 中文资料库，提供作物收益计算、鱼类季节与天气查询、村民生日和送礼、任务、社区中心、矿洞资源、料理配方、技能职业及新手发展攻略，帮助玩家快速查找资料并规划第一年农场、钓鱼、下矿与献祭进度。";
 const authorName = "星露谷物语中文资料库";
+const metadataLabels = {
+  season: "季节", days: "生长天数", sellPrice: "售价", source: "来源",
+  location: "地点", weather: "天气", time: "时间", birthday: "生日",
+  address: "住址", loves: "最爱礼物", ingredients: "材料", energy: "能量",
+  type: "类型", skill: "技能", level: "等级", effect: "效果", reward: "奖励",
+  date: "日期", area: "区域", open: "开放", features: "特色"
+};
+
+function entryDescription(entry, attributes) {
+  const summary = stripMarkdown(entry.summary || "");
+  const parts = [summary.includes(entry.name) ? summary : `${entry.name}：${summary || entry.dataset_name}`];
+  for (const [key, value] of Object.entries(attributes)) {
+    const label = metadataLabels[key] || (/^[\u3400-\u9fff]/.test(key) ? key : null);
+    if (!label || value === null || value === undefined || value === '' || typeof value === 'object' && !Array.isArray(value)) continue;
+    parts.push(`${label}：${Array.isArray(value) ? value.join('、') : stripMarkdown(String(value))}`);
+    if (parts.join('；').length >= 140) break;
+  }
+  return truncate(parts.join('；'), 160);
+}
+
+function buildGiftContent(db, searchParams) {
+  const slugs = new Set(db.prepare(`SELECT e.slug FROM dataset_entries e JOIN datasets d ON d.id=e.dataset_id
+    WHERE d.slug='villagers' AND e.published=1`).all().map(row => row.slug));
+  const data = queryGifts({ ...giftData, villagers: giftData.villagers.filter(v => slugs.has(v.entrySlug)) }, Object.fromEntries(searchParams));
+  const gifts = new Map(data.gifts.map(gift => [gift.id, gift.name]));
+  return `<section><h2>生日与已核实最爱礼物</h2><p>找到${data.total}位村民。仅展示已核实最爱，不是完整喜恶表；未查到不代表不喜欢。</p>${data.villagers.map(v =>
+    `<article><h3><a href="${routePath('wikiEntry', { datasetSlug: 'villagers', entrySlug: v.entrySlug })}">${escapeHtml(v.name)}</a></h3><p>生日：${escapeHtml(v.birthday ? `${v.birthday.season}${v.birthday.day}日` : '未收录')}；住址：${escapeHtml(v.address || '未收录')}</p><p>已核实最爱：${v.giftIds.map(id => gifts.get(id)).filter(Boolean).map(escapeHtml).join('、')}</p></article>`
+  ).join('')}</section>`;
+}
 const markdownOptions = {
   allowedTags: [...sanitizeHtml.defaults.allowedTags, "img"],
   allowedAttributes: {
@@ -378,15 +411,6 @@ function findDataset(db, slug) {
   return db.prepare("SELECT * FROM datasets WHERE slug = ?").get(slug);
 }
 
-function getDatasetEntries(db, datasetId, limit = 60) {
-  return db.prepare(`
-    SELECT * FROM dataset_entries
-    WHERE dataset_id = ? AND published = 1
-    ORDER BY name
-    LIMIT ?
-  `).all(datasetId, limit);
-}
-
 function getRelatedEntries(db, datasetId, currentEntryId, limit = 8) {
   return db.prepare(`
     SELECT * FROM dataset_entries
@@ -482,7 +506,10 @@ function buildGuidePage(db, slug, req, context) {
       html: ""
     };
   }
-  const description = truncate(article.summary || article.body || defaultDescription);
+  const summary = stripMarkdown(article.summary || '');
+  const headings = [...String(article.body || '').matchAll(/^#{2,3}\s+(.+)$/gm)].map(match => stripMarkdown(match[1]));
+  const description = truncate(summary.length >= 70 || !headings.length ? (summary || article.body || defaultDescription)
+    : `${summary} 本文包括：${headings.join('、')}。`, 160);
   const canonicalPath = articleLink(article);
   const canonical = absoluteUrl(canonicalPath, req, context);
   const relatedArticles = selectRelatedGuides(article, getArticles(db, 50), 4);
@@ -521,8 +548,8 @@ function buildGuidePage(db, slug, req, context) {
 function buildWikiPage(db) {
   const datasets = getDatasets(db);
   return {
-    title: "攻略资料分类 - 星露谷物语中文资料库",
-    description: "按作物、鱼类、村民、料理、物品、技能、任务、节日和地点浏览星露谷资料。",
+    title: "星露谷物语图鉴分类：作物、鱼类、村民与物品资料",
+    description: "按作物、鱼类、村民、料理、物品、技能、任务、节日和地点浏览星露谷物语资料。通过分类列表查找具体条目，进入详情核对季节、获取方式、配方材料与用途，并结合鱼类查询、作物收益和生日礼物工具规划游玩。",
     canonicalPath: routePath("wiki"),
     h1: "攻略资料分类",
     html: pageShell({
@@ -537,14 +564,32 @@ function buildWikiPage(db) {
   };
 }
 
-function buildDatasetPage(db, datasetSlug) {
+function buildDatasetPage(db, datasetSlug, searchParams) {
   const dataset = findDataset(db, datasetSlug);
   if (!dataset) return buildNotFoundPage("资料分类不存在", routePath("wiki"));
-  const entries = getDatasetEntries(db, dataset.id, 80);
+  const basePath = routePath("wikiDataset", { datasetSlug });
+  const pageValue = searchParams.get("page") || "1";
+  if (!/^[1-9]\d*$/.test(pageValue)) return buildNotFoundPage("资料分页不存在", basePath);
+  const page = Number(pageValue);
+  const rows = db.prepare("SELECT * FROM dataset_entries WHERE dataset_id = ? AND published = 1").all(dataset.id)
+    .map(row => ({ ...row, attributes: parseJson(row.attributes_json, {}) }));
+  const items = selectEntries(rows, datasetSlug, Object.fromEntries(searchParams));
+  const pages = Math.max(1, Math.ceil(items.length / 20));
+  if (page > pages) return buildNotFoundPage("资料分页不存在", basePath);
+  const entries = items.slice((page - 1) * 20, page * 20);
+  const pageHref = number => {
+    const search = new URLSearchParams(searchParams);
+    search.delete("pageSize");
+    if (number > 1) search.set("page", number); else search.delete("page");
+    return routePath("wikiDataset", { datasetSlug, search });
+  };
+  const pagination = pages > 1 ? `<nav aria-label="图鉴分页"><p>第${page}页，共${pages}页</p>${[
+    page > 1 ? `<a href="${escapeHtml(pageHref(page - 1))}" rel="prev">上一页</a>` : '',
+    page < pages ? `<a href="${escapeHtml(pageHref(page + 1))}" rel="next">下一页</a>` : ''
+  ].join(' · ')}</nav>` : '';
   return {
-    title: `${dataset.name} - 星露谷资料库`,
-    description: dataset.description || `查看${dataset.name}相关资料、条目和基础信息。`,
-    canonicalPath: routePath("wikiDataset", { datasetSlug: dataset.slug }),
+    ...datasetMetadata(dataset, page, items.length),
+    canonicalPath: canonicalPathForRoute({ name: "wikiDataset", params: { datasetSlug }, searchParams }),
     h1: dataset.name,
     html: pageShell({
       h1: dataset.name,
@@ -552,7 +597,8 @@ function buildDatasetPage(db, datasetSlug) {
       sections: [
         listSection("条目列表", entries.map((entry) => (
           `<a href="${entryLink(dataset.slug, entry)}">${escapeHtml(entry.name)}</a>：${escapeHtml(entry.summary || "")}`
-        )))
+        ))),
+        pagination
       ]
     })
   };
@@ -592,8 +638,8 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
     ]
   }];
   return {
-    title: `${entry.name} - ${entry.dataset_name} - 星露谷资料库`,
-    description: entry.summary || `${entry.name}属于${entry.dataset_name}，查看基础信息、获取方式和用途。`,
+    title: `${entry.name}：${datasetTopics[datasetSlug] || entry.dataset_name} - 星露谷资料库`,
+    description: entryDescription(entry, attributes),
     canonicalPath,
     noindex: isCatalogDetail,
     robotsContent: isCatalogDetail ? "noindex,follow" : undefined,
@@ -665,7 +711,7 @@ function searchContent(db, q) {
 function buildToolsPage() {
   return {
     title: "星露谷实用工具 - 星露谷物语中文资料库",
-    description: "使用鱼类条件查询器、作物收益计算器和社区中心进度清单，提高农场规划效率。",
+    description: "星露谷物语实用工具：按季节、天气和地点查询鱼类，结合预算、肥料与加工方式计算作物收益，保存和导入导出社区中心进度，并按村民、物品及生日季节查询已核实最爱礼物。礼物工具不是完整喜恶表。",
     canonicalPath: routePath("tools"),
     h1: "星露谷实用工具",
     html: pageShell({
@@ -683,7 +729,7 @@ function buildToolsPage() {
   };
 }
 
-function buildToolDetailPage(tool) {
+function buildToolDetailPage(tool, db, searchParams) {
   const pages = {
     gifts: {
       title: '生日与最爱礼物查询 - 星露谷实用工具',
@@ -719,7 +765,7 @@ function buildToolDetailPage(tool) {
     html: pageShell({
       h1: page.h1,
       lead: page.description,
-      sections: buildToolGuidanceSections(tool)
+      sections: [...buildToolGuidanceSections(tool), ...(tool === "gifts" ? [buildGiftContent(db, searchParams)] : [])]
     })
   };
 }
@@ -752,7 +798,7 @@ function buildPage(req, context) {
     case "wiki":
       return buildWikiPage(context.db);
     case "wikiDataset":
-      return buildDatasetPage(context.db, route.params.datasetSlug);
+      return buildDatasetPage(context.db, route.params.datasetSlug, route.searchParams);
     case "wikiEntry":
       return buildEntryPage(context.db, route.params.datasetSlug, route.params.entrySlug);
     case "search":
@@ -760,7 +806,7 @@ function buildPage(req, context) {
     case "tools":
       return buildToolsPage();
     case "tool":
-      return buildToolDetailPage(route.params.tool);
+      return buildToolDetailPage(route.params.tool, context.db, route.searchParams);
     default:
       return buildNotFoundPage("页面不存在", routePath("home"));
   }
