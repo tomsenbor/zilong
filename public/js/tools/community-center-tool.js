@@ -54,9 +54,8 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
       <div class="community-dashboard-section community-filter-section">
         <span class="community-dashboard-label">筛选</span>
         <div class="community-filter-group">
-          <label><input type="radio" name="community-filter" value="all" checked> 全部</label>
-          <label><input type="radio" name="community-filter" value="incomplete"> 未完成</label>
-          <label><input type="radio" name="community-filter" value="season"> 当前季节</label>
+          <label><input type="checkbox" name="community-filter" value="incomplete"> 仅未完成</label>
+          <label><input type="checkbox" name="community-filter" value="season"> 限定季节</label>
         </div>
         <div class="community-season-group" hidden>
           <label for="community-season">季节</label>
@@ -134,9 +133,9 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
       app.querySelectorAll("[data-community-scope]").forEach((button) => {
         button.setAttribute("aria-pressed", String(button.dataset.communityScope === activeScope));
       });
-      const activeFilterInput = app.querySelector(`input[name="community-filter"][value="${activeFilter}"]`);
-      if (activeFilterInput) activeFilterInput.checked = true;
-      const seasonEnabled = activeFilter === "season";
+      app.querySelector('input[name="community-filter"][value="incomplete"]').checked = activeFilter.includes("incomplete");
+      app.querySelector('input[name="community-filter"][value="season"]').checked = activeFilter.includes("season");
+      const seasonEnabled = activeFilter.includes("season");
       seasonGroup.hidden = !seasonEnabled;
       seasonSelect.disabled = !seasonEnabled;
 
@@ -202,7 +201,9 @@ export async function renderCommunityCenterTool(app, params = new URLSearchParam
       render();
     }));
     app.querySelectorAll('input[name="community-filter"]').forEach((input) => input.addEventListener("change", () => {
-      activeFilter = input.value;
+      const incomplete = app.querySelector('input[name="community-filter"][value="incomplete"]').checked;
+      const seasonal = app.querySelector('input[name="community-filter"][value="season"]').checked;
+      activeFilter = seasonal ? (incomplete ? "season-incomplete" : "season") : (incomplete ? "incomplete" : "all");
       render();
     }));
     seasonSelect.addEventListener("change", () => render());

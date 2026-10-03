@@ -18,6 +18,23 @@ export { buildFishQuery, formatGameTime } from "./fish-view-state.js";
 const seasons = ["春季", "夏季", "秋季", "冬季"];
 const weathers = ["晴天", "雨天"];
 
+export function fishTimeControls(params) {
+  const value = params.get("time");
+  const numeric = Number(value);
+  const hour = value ? Math.floor(numeric / 100) + (numeric <= 200 ? 24 : 0) : null;
+  const minute = value ? numeric % 100 : 0;
+  const hours = Array.from({length:21}, (_,i) => i+6).map(h => `<option value="${h}"${h === hour ? " selected" : ""}>${h >= 24 ? "次日" : ""}${String(h % 24).padStart(2,"0")}时</option>`).join("");
+  const minuteValues = [...new Set([0,10,20,30,40,50,minute])].sort((a,b) => a-b);
+  const minutes = minuteValues.map(m => `<option value="${m}"${m === minute ? " selected" : ""}>${String(m).padStart(2,"0")}分</option>`).join("");
+  return `<div class="field fish-time-field"><label for="fish-time-hour">游戏时间（时）</label><div class="fish-time-controls"><select class="${uiClass("select")}" id="fish-time-hour" name="timeHour" aria-describedby="fish-time-help"><option value="">不限时间</option>${hours}</select><select class="${uiClass("select")}" name="timeMinute" aria-label="游戏时间（分）"${hour === null || hour === 26 ? " disabled" : ""}>${minutes}</select></div><small id="fish-time-help">午夜后请选择“次日00时”至“次日02时”；最晚次日02:00。</small></div>`;
+}
+
+export function emptyFishResults(params) {
+  const filters = getActiveFishFilters(params).filter(f => f.key !== "magicBait");
+  const buttons = filters.map(f => `<button class="${uiClass("btn secondary")}" type="button" data-relax-filter="${f.key}">清除${escapeHtml(f.label)}</button>`).join(" ");
+  return `<div class="${uiClass("empty card")}"><h2>当前条件没有匹配结果</h2><p>${params.get("q") ? "请检查鱼名，或清除关键词后再查。" : filters.length ? "可逐项放宽下面已启用的条件。" : "当前没有可展示的鱼类，请稍后重试。"}</p><div class="fish-empty-actions">${buttons}</div></div>`;
+}
+
 const options = (values, current, empty) =>
   `<option value="">${empty}</option>${values.map((value) => `<option${value === current ? " selected" : ""}>${escapeHtml(value)}</option>`).join("")}`;
 
@@ -93,7 +110,7 @@ export async function renderFishTool(app, params = new URLSearchParams()) {
           <summary>${advancedFilterSummary}</summary>
           <div class="fish-advanced-filter-grid">
             <div class="field"><label for="fish-weather">天气</label><select class="${uiClass("select")}" id="fish-weather" name="weather">${options(weathers, params.get("weather"), "全部天气")}</select></div>
-            <div class="field"><label for="fish-time">游戏时间</label><input class="${uiClass("input")}" id="fish-time" name="time" type="number" min="0" max="2600" step="10" value="${escapeHtml(params.get("time") || "")}" placeholder="例如 1830"></div>
+            ${fishTimeControls(params)}
             <div class="field"><label for="fish-source">获取方式</label><select class="${uiClass("select")}" id="fish-source" name="sourceType"><option value="">全部方式</option></select></div>
             <div class="field"><label for="fish-category">鱼类分类</label><select class="${uiClass("select")}" id="fish-category" name="category"><option value="">全部分类</option></select></div>
             <label class="check-field" for="fish-bundle-only"><input id="fish-bundle-only" name="bundleOnly" type="checkbox" value="true"${params.get("bundleOnly") === "true" ? " checked" : ""}>仅看社区中心收集包</label>
@@ -129,7 +146,7 @@ export async function renderFishTool(app, params = new URLSearchParams()) {
     resultSummary.innerHTML = `<strong>找到 ${resultTotal} 种鱼类 · 当前显示 ${visibleItems.length} 种</strong><span>适用游戏版本 ${escapeHtml(gameVersion)}</span>`;
 
     if (!cachedItems.length) {
-      results.innerHTML = `<div class="${uiClass("empty card")}"><h2>当前条件没有匹配结果</h2><p>尝试放宽天气或地点条件。</p><button class="${uiClass("btn secondary")}" type="button" data-relax-filter="weather">不限天气</button> <button class="${uiClass("btn secondary")}" type="button" data-relax-filter="location">不限地点</button></div>`;
+      results.innerHTML = emptyFishResults(params);
       return;
     }
 
@@ -183,6 +200,11 @@ export async function renderFishTool(app, params = new URLSearchParams()) {
     results.querySelector("[data-tool-retry]").addEventListener("click", () => renderFishTool(app, params));
   }
 
+  form.elements.timeHour.addEventListener("change", () => {
+    const hour = form.elements.timeHour.value;
+    form.elements.timeMinute.disabled = hour === "" || hour === "26";
+    if (hour === "26") form.elements.timeMinute.value = "0";
+  });
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const query = buildFishQuery(new FormData(form));

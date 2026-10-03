@@ -27,7 +27,7 @@ const articleHtmlOptions = {
   exclusiveFilter(frame) {
     if (frame.tag !== "img") return false;
     const src = frame.attribs.src || "";
-    return !(src.startsWith("/uploads/") || src.startsWith("/assets/game/"));
+    return !(src.startsWith("/uploads/") || src.startsWith("/assets/game/") || src.startsWith("/assets/guides/"));
   }
 };
 

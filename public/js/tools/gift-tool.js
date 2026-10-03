@@ -10,8 +10,17 @@ export function giftQuery(mode,value,season) {
   if(season) query.set('season',season);
   return query;
 }
-export function giftResults(data) {
-  if(!data.villagers.length) return '<p role="status">未查到已核实的匹配关系，请调整条件。未查到不代表不喜欢。</p>';
+export function giftResults(data,params=new URLSearchParams(),withoutSeason=null) {
+  if(!data.villagers.length) {
+    const query=new URLSearchParams(params);
+    query.delete('season');
+    if(params.get('season') && withoutSeason?.villagers.length) {
+      const known=withoutSeason.villagers;
+      const details=params.get('villager') && known[0].birthday ? `${known[0].name}的生日是${known[0].birthday.season} ${known[0].birthday.day} 日。` : '';
+      return `<div class="gift-empty" role="status"><p>${esc(details)}匹配村民的生日不在所选的${esc(params.get('season'))}，不是没有最爱礼物。</p><a class="${uiClass('btn secondary')}" href="/tools/gifts${query.size?'?'+esc(query.toString()):''}">不限生日季节</a></div>`;
+    }
+    return '<p role="status">未查到已核实的匹配关系，请调整条件。未查到不代表不喜欢。</p>';
+  }
   const gifts=new Map(data.gifts.map(g=>[g.id,g]));
   return data.villagers.map(v=>`<article class="${uiClass('card')} gift-result">
     <div class="fish-card-heading">${v.image?toolImage(v.image,v.name):''}<h2><a href="/wiki/villagers/${encodeURIComponent(v.entrySlug)}">${esc(v.name)}</a></h2></div>
@@ -21,18 +30,23 @@ export function giftResults(data) {
       const g=gifts.get(id);if(!g)return '';
       const safe=/^\/(?:wiki\/|search\?)/.test(g.wikiHref||'');
       const tools=(g.toolLinks||[]).filter(link=>/^\/tools\/(?:fish|crops)\?/.test(link.href)).map(link=>`<a href="${esc(link.href)}" aria-label="${esc(g.name+'：'+link.label)}">${esc(link.label)}</a>`).join(' ');
-      return `<li>${safe?`<a href="${esc(g.wikiHref)}">${esc(g.name)}</a>`:esc(g.name)} ${tools}</li>`;
+      return `<li><div class="gift-name">${safe?`<a href="${esc(g.wikiHref)}">${esc(g.name)}</a>`:esc(g.name)}</div>${tools?`<div class="gift-actions">${tools}</div>`:''}</li>`;
     }).join('')}</ul></article>`).join('');
 }
 const options=(items,current)=>items.map(x=>`<option value="${esc(x.id)}"${x.id===current?' selected':''}>${esc(x.name)}</option>`).join('');
 
 export async function renderGiftTool(app,params=new URLSearchParams()) {
-  app.innerHTML=`${toolHero('生日与最爱礼物查询','按村民或具体物品查询，按游戏季节查看生日。',null,[{href:'/tools',label:'全部工具'}])}
-    <section class="section"><div class="shell gift-tool"><p class="${uiClass('card')} gift-coverage">${giftCoverage}</p><div data-gift-content>${loading('正在加载已核实的礼物资料…')}</div></div></section>`;
+  app.innerHTML=`<div class="shell tool-page gift-tool-page">${toolHero('生日与最爱礼物查询','按村民或具体物品查询，按游戏季节查看生日。',null,[{href:'/tools',label:'全部工具'}])}
+    <section class="gift-tool"><p class="${uiClass('card')} gift-coverage">${giftCoverage}</p><div data-gift-content>${loading('正在加载已核实的礼物资料…')}</div></section></div>`;
   // Capture this render's node: an obsolete request must not overwrite a later route.
   const content=app.querySelector('[data-gift-content]');
   try {
     const data=await api(`/api/tools/gifts?${params.toString()}`);
+    let withoutSeason=null;
+    if(!data.villagers.length && params.get('season')) {
+      const query=new URLSearchParams(params); query.delete('season');
+      try { withoutSeason=await api(`/api/tools/gifts?${query.toString()}`); } catch { /* Keep the original result if the optional explanation cannot load. */ }
+    }
     if(!content.isConnected)return;
     const mode=params.has('item')?'item':'villager';
     const current=params.get(mode)||'';
@@ -42,7 +56,7 @@ export async function renderGiftTool(app,params=new URLSearchParams()) {
       <label data-choice-label>${mode==='item'?'具体物品':'村民'}<select name="choice"><option value="">全部</option>${unknown?`<option selected value="${esc(current)}">未收录：${esc(current)}</option>`:''}${options(mode==='item'?data.gifts:data.options,current)}</select></label>
       <label>生日季节<select name="season"><option value="">全部季节</option>${options(['春季','夏季','秋季','冬季'].map(x=>({id:x,name:x})),params.get('season'))}</select></label>
       <button class="${uiClass('btn')}" type="submit">查询</button><a class="${uiClass('btn secondary')}" href="/tools/gifts">清空条件</a>
-    </form><p role="status">找到 ${Number(data.total)} 位村民 · 生日按游戏季节排序 · ${esc(data.gameVersion)}</p><div class="gift-results">${giftResults(data)}</div>`;
+    </form><p role="status">找到 ${Number(data.total)} 位村民 · 生日按游戏季节排序 · ${esc(data.gameVersion)}</p><div class="gift-results">${giftResults(data,params,withoutSeason)}</div>`;
     const form=content.querySelector('form');
     form.elements.mode.addEventListener('change',()=>{
       const next=form.elements.mode.value;

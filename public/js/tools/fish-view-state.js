@@ -30,6 +30,13 @@ export function formatGameTime(value) {
 
 export function buildFishQuery(formData) {
   const query = new URLSearchParams(formData);
+  if (query.has("timeHour")) {
+    const hour = query.get("timeHour");
+    query.delete("time");
+    if (hour !== "") query.set("time", String(Number(hour) * 100 + (Number(hour) === 26 ? 0 : Number(query.get("timeMinute") || 0))));
+    query.delete("timeHour");
+    query.delete("timeMinute");
+  }
   [...query].forEach(([key, value]) => {
     if (!value || value === "false") query.delete(key);
   });

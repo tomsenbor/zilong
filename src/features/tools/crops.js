@@ -586,6 +586,10 @@ export function calculateCropProfit(crop, rawInput = {}) {
     scenarios,
     unitPrice: selected.unitPrice ?? rawUnitPrice(crop, input),
     cost: selected.cost,
+    initialInvestment: planting.plantingBatches.length === 0 ? 0 : planting.fertilizerCost + (
+      input.includeSeedCost ? planting.plantingBatches[0].purchasedQuantity *
+        (seedUnitPriceOnDay(crop, planting.plantingBatches[0].day, input) ?? 0) : 0
+    ),
     revenue: selected.revenue,
     profit: selected.profit,
     profitPerTile: planting.plantedTiles > 0 ? selected.profit / planting.plantedTiles : 0,

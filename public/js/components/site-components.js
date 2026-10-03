@@ -104,6 +104,7 @@ export function SiteFooter() {
         <a href="${routePath("tool", { tool: "crops" })}">作物收益计算器</a>
         <a href="${routePath("tool", { tool: "fish" })}">鱼类查询器</a>
         <a href="${routePath("tool", { tool: "community-center" })}">社区中心清单</a>
+        <a href="${routePath("tool", { tool: "gifts" })}">生日与最爱礼物查询</a>
       </section>
     </div>
   </footer>`;

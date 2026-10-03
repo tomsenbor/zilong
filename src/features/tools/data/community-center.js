@@ -212,7 +212,7 @@ const communityCenterData = [
       ]),
       bundle("lake-fish-bundle", "湖鱼收集包", "1 个精装旋式鱼饵", [
         item("largemouth-bass", "大嘴鲈鱼", { image: asset("Largemouth_Bass"), seasons: ["春季", "夏季", "秋季", "冬季"], source: "山区湖泊06:00-19:00" }),
-        item("carp", "鲤鱼", { image: asset("Carp"), seasons: ["春季", "夏季", "秋季", "冬季"], source: "山区湖泊" }),
+        item("carp", "鲤鱼", { image: asset("Carp"), seasons: ["春季", "夏季", "秋季", "冬季"], source: "山区湖泊（春夏秋）；秘密森林、下水道全年，须先解锁" }),
         item("bullhead", "大头鱼", { image: asset("Bullhead"), seasons: ["春季", "夏季", "秋季", "冬季"], source: "山区湖泊" }),
         item("sturgeon", "鲟鱼", { image: asset("Sturgeon"), seasons: ["夏季", "冬季"], source: "山区湖泊06:00-19:00" })
       ]),
@@ -241,7 +241,7 @@ const communityCenterData = [
       ], 5),
       bundle("specialty-fish-bundle", "特色鱼类收集包", "5 份海之菜肴", [
         item("pufferfish", "河豚", { image: asset("Pufferfish"), seasons: ["夏季"], source: "海洋，晴天12:00-16:00" }),
-        item("ghostfish", "幽灵鱼", { image: asset("Ghostfish"), source: "矿井20层或60层" }),
+        item("ghostfish", "鬼鱼", { image: asset("Ghostfish"), source: "矿井20层或60层；不是夜市潜水艇的幽灵鱼" }),
         item("sandfish", "沙鱼", { image: asset("Sandfish"), source: "沙漠池塘06:00-20:00" }),
         item("woodskip", "木跃鱼", { image: asset("Woodskip"), source: "秘密森林池塘" })
       ])

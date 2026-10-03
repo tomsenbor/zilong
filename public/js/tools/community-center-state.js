@@ -139,16 +139,17 @@ export function filterCommunityRooms(
   season = "春季"
 ) {
   const completed = new Set(Array.isArray(completedItemIds) ? completedItemIds : []);
-
+  const incomplete = filter === "incomplete" || filter === "season-incomplete";
+  const seasonal = filter === "season" || filter === "season-incomplete";
   return rooms.flatMap((room) => {
-    if (filter === "incomplete" && progress.roomProgress[room.id]?.isComplete) return [];
+    if (incomplete && progress.roomProgress[room.id]?.isComplete) return [];
 
     const bundles = room.bundles.flatMap((bundle) => {
-      if (filter === "incomplete" && progress.bundleProgress[bundle.id]?.isComplete) return [];
+      if (incomplete && progress.bundleProgress[bundle.id]?.isComplete) return [];
 
       const items = bundle.items.filter((item) => {
-        if (filter === "incomplete") return !completed.has(`${bundle.id}:${item.id}`);
-        if (filter === "season") return item.seasons.length === 0 || item.seasons.includes(season);
+        if (incomplete && completed.has(`${bundle.id}:${item.id}`)) return false;
+        if (seasonal) return item.seasons.length === 0 || item.seasons.includes(season);
         return true;
       });
 

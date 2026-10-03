@@ -45,6 +45,7 @@ function crop({
   name,
   image = id,
   seasons,
+  seedSeasons = seasons,
   seedPrice,
   seedSource,
   growthStages,
@@ -71,7 +72,7 @@ function crop({
   sourceRefs = null
 }) {
   const offerConditions = {
-    seasons,
+    seasons: seedSeasons,
     startDay: 1,
     endDay: 28,
     minimumYear,
@@ -157,7 +158,7 @@ export const crops = [
   crop({ id: "poppy", name: "虞美人", image: "Poppy", seasons: ["夏季"], seedPrice: 100, seedSource: "皮埃尔杂货店", growthStages: [1, 2, 2, 2], baseSellPrice: 140, kind: "flower", processing: {} }),
   crop({ id: "radish", name: "萝卜", image: "Radish", seasons: ["夏季"], seedPrice: 40, seedSource: "皮埃尔杂货店", growthStages: [2, 1, 2, 1], baseSellPrice: 90, kind: "vegetable" }),
   crop({ id: "red-cabbage", name: "红叶卷心菜", image: "Red_Cabbage", seasons: ["夏季"], seedPrice: 100, seedSource: "皮埃尔杂货店", growthStages: [2, 1, 2, 2, 2], baseSellPrice: 260, kind: "vegetable", minimumYear: 2 }),
-  crop({ id: "starfruit", name: "杨桃", image: "Starfruit", seasons: ["夏季"], seedPrice: 400, seedSource: "绿洲", growthStages: [2, 3, 2, 3, 3], baseSellPrice: 750, kind: "fruit", requiredUnlocks: ["desertUnlocked"] }),
+  crop({ id: "starfruit", name: "杨桃", image: "Starfruit", seasons: ["夏季"], seedSeasons: seasonsAll, seedPrice: 400, seedSource: "绿洲", growthStages: [2, 3, 2, 3, 3], baseSellPrice: 750, kind: "fruit", requiredUnlocks: ["desertUnlocked"] }),
   crop({ id: "summer-spangle", name: "夏季亮片", image: "Summer_Spangle", seasons: ["夏季"], seedPrice: 50, seedSource: "皮埃尔杂货店", growthStages: [1, 2, 3, 2], baseSellPrice: 90, kind: "flower", processing: {} }),
   crop({ id: "sunflower", name: "向日葵", image: "Sunflower", seasons: ["夏季", "秋季"], seedPrice: 200, seedSource: "皮埃尔杂货店", growthStages: [1, 2, 3, 2], baseSellPrice: 80, kind: "flower", processing: {}, restrictions: ["收获时的种子返还会影响复种成本，当前不进入排名"], calculationSupported: false, unsupportedReason: "尚未建模收获时随机返还种子", carriesAcrossSeason: true }),
   crop({ id: "tomato", name: "西红柿", image: "Tomato", seasons: ["夏季"], seedPrice: 50, seedSource: "皮埃尔杂货店", growthStages: [2, 2, 2, 2, 3], regrowDays: 4, extraYieldChance: 0.05, baseSellPrice: 60, kind: "vegetable" }),

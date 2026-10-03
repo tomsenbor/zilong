@@ -1,7 +1,7 @@
 import { calculateCommunityState, filterCommunityRooms } from "./community-center-state.js";
 
 const VALID_SCOPES = new Set(["standard", "missing"]);
-const VALID_FILTERS = new Set(["all", "incomplete", "season"]);
+const VALID_FILTERS = new Set(["all", "incomplete", "season", "season-incomplete"]);
 
 function normalizeScope(scope) {
   return VALID_SCOPES.has(scope) ? scope : "standard";

@@ -14,6 +14,7 @@ test.each([["fish", renderFishTool, "#fish-results"], ["community", renderCommun
       return nodes.get(key);
     };
     const app = { innerHTML: "", querySelector: node };
+    node("#fish-filter-form").elements = { timeHour: node("#fish-time-hour"), timeMinute: node("#fish-time-minute") };
     const urls = [];
     globalThis.fetch = async url => { urls.push(url); return {ok:false,status:503,json:async()=>({})}; };
     try {
@@ -29,14 +30,15 @@ test.each([["fish", renderFishTool, "#fish-results"], ["community", renderCommun
 test("late crop calculation cannot replace the latest result or clear its busy state", async () => {
   const source = fs.readFileSync("public/js/tools/crop-tool.js", "utf8");
   const fn = source.slice(source.indexOf("  async function calculate()"), source.indexOf("  const updateLocationFields"));
-  const pending = [], displayed = [], busy = [];
+  const pending = [], displayed = [], busy = [], payloads = [];
   const sandbox = {
-    calculationRequest: 0, latestData: null,
-    FormData: class { *[Symbol.iterator]() { yield ["startDay", "1"]; yield ["plots", "10"]; } },
+    calculationRequest: 0, latestData: null, resultInput: null,
+    FormData: class { *[Symbol.iterator]() { yield ["startDay", "1"]; yield ["plots", "10"]; yield ["crop", "pumpkin"]; } },
     form: { elements: new Proxy({}, {get: () => ({checked:false})}) },
     parseOwnedSeeds: () => ({}), loading: () => "loading", errorBox: text => text,
     results: { setAttribute: (key, value) => busy.push(value), innerHTML:"" },
-    api: () => new Promise((resolve, reject) => pending.push({resolve, reject})),
+    comparisons: { innerHTML: "previous comparison" },
+    api: (url, options) => { payloads.push(JSON.parse(options.body)); return new Promise((resolve, reject) => pending.push({resolve, reject})); },
     initializeDecisionState: () => {}, renderData: data => displayed.push(data.id)
   };
   vm.runInNewContext(fn, sandbox);
@@ -45,6 +47,10 @@ test("late crop calculation cannot replace the latest result or clear its busy s
   pending[0].resolve({id:"old",items:[]}); await first;
   expect(displayed).toEqual(["new"]);
   expect(busy).toEqual(["true", "true", "false"]);
+  expect(sandbox.comparisons.innerHTML).toBe("");
+  expect(sandbox.resultInput.plots).toBe(10);
+  expect(sandbox.resultInput.crop).toBe("pumpkin");
+  expect(payloads.every(payload => !Object.hasOwn(payload, "crop"))).toBe(true);
 });
 
 test("community export roundtrip keeps progress and invalid imports do not mutate it", () => {
