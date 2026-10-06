@@ -13,32 +13,13 @@ import { searchToolResults } from "../utils/tool-search.js";
 import { selectEntries } from "../features/content/entry-query.js";
 import { giftData } from "../features/tools/data/gifts.js";
 import { queryGifts } from "../features/tools/gifts.js";
-import { datasetMetadata, datasetTopics } from "../../public/js/dataset-metadata.js";
+import { datasetMetadata, entryMetadata } from "../../public/js/dataset-metadata.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
 const homeTitle = "星露谷物语中文资料库｜作物、鱼类、村民、任务与新手攻略";
 const homeDescription = "星露谷物语 1.6.15 中文资料库，提供作物收益计算、鱼类季节与天气查询、村民生日和送礼、任务、社区中心、矿洞资源、料理配方、技能职业及新手发展攻略，帮助玩家快速查找资料并规划第一年农场、钓鱼、下矿与献祭进度。";
 const authorName = "星露谷物语中文资料库";
-const metadataLabels = {
-  season: "季节", days: "生长天数", sellPrice: "售价", source: "来源",
-  location: "地点", weather: "天气", time: "时间", birthday: "生日",
-  address: "住址", loves: "最爱礼物", ingredients: "材料", energy: "能量",
-  type: "类型", skill: "技能", level: "等级", effect: "效果", reward: "奖励",
-  date: "日期", area: "区域", open: "开放", features: "特色"
-};
-
-function entryDescription(entry, attributes) {
-  const summary = stripMarkdown(entry.summary || "");
-  const parts = [summary.includes(entry.name) ? summary : `${entry.name}：${summary || entry.dataset_name}`];
-  for (const [key, value] of Object.entries(attributes)) {
-    const label = metadataLabels[key] || (/^[\u3400-\u9fff]/.test(key) ? key : null);
-    if (!label || value === null || value === undefined || value === '' || typeof value === 'object' && !Array.isArray(value)) continue;
-    parts.push(`${label}：${Array.isArray(value) ? value.join('、') : stripMarkdown(String(value))}`);
-    if (parts.join('；').length >= 140) break;
-  }
-  return truncate(parts.join('；'), 160);
-}
 
 function buildGiftContent(db, searchParams) {
   const slugs = new Set(db.prepare(`SELECT e.slug FROM dataset_entries e JOIN datasets d ON d.id=e.dataset_id
@@ -638,8 +619,7 @@ function buildEntryPage(db, datasetSlug, entrySlug) {
     ]
   }];
   return {
-    title: `${entry.name}：${datasetTopics[datasetSlug] || entry.dataset_name} - 星露谷资料库`,
-    description: entryDescription(entry, attributes),
+    ...entryMetadata({ ...entry, attributes }, datasetSlug),
     canonicalPath,
     noindex: isCatalogDetail,
     robotsContent: isCatalogDetail ? "noindex,follow" : undefined,

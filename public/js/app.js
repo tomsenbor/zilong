@@ -1,5 +1,5 @@
 import { api, escapeHtml, imageFallback } from "./api.js";
-import { datasetMetadata } from "./dataset-metadata.js";
+import { datasetMetadata, entryMetadata } from "./dataset-metadata.js";
 import { createArticleOutline, estimateReadingMinutes, formatArticleSectionLabel } from "./article-layout.js";
 import { renderFishTool } from "./tools/fish-tool.js";
 import { renderCropTool } from "./tools/crop-tool.js";
@@ -293,14 +293,16 @@ async function library(params, options = {}) {
     loadLibraryFilterOptions(api, state.dataset)
   ]);
   const fields = data.dataset.fields;
-  const metadata = datasetMetadata(data.dataset, state.page, data.pagination.total);
+  const metadata = options.modalItem
+    ? entryMetadata(options.modalItem, data.dataset.slug)
+    : datasetMetadata(data.dataset, state.page, data.pagination.total);
   document.title = metadata.title;
   document.querySelector('meta[name="description"]')?.setAttribute('content', metadata.description);
 
   app.innerHTML = `${PageHeader({
     eyebrow: "图鉴大全",
-    title: data.dataset.name,
-    description: data.dataset.description || "组合筛选、排序并查看每一条游戏数据。"
+    title: options.modalItem?.name || data.dataset.name,
+    description: options.modalItem?.summary || data.dataset.description || "组合筛选、排序并查看每一条游戏数据。"
   })}
     <div class="shell library-layout" data-library-dataset="${escapeHtml(state.dataset)}">
       ${renderLibrarySidebar(state.datasets, state.dataset)}
@@ -485,6 +487,13 @@ async function entryDetail(datasetSlug, entrySlug) {
   } else {
     await library(new URLSearchParams(), { datasetSlug: dataset.slug, modalItem: item });
   }
+  const metadata = entryMetadata(item, dataset.slug);
+  document.title = metadata.title;
+  document.querySelector('meta[name="description"]')?.setAttribute('content', metadata.description);
+  const heading = app.querySelector(".page-header h1");
+  const lead = app.querySelector(".page-header__copy > p");
+  if (heading) heading.textContent = item.name;
+  if (lead) lead.textContent = item.summary || `${item.name}属于${dataset.name}。`;
 }
 
 function bindItemDialog(datasetSlug) {

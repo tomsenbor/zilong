@@ -6,6 +6,7 @@ import { createTestContext } from "./helpers/context.js";
 import { initialize } from "../src/db/initialize.js";
 import { createApp } from "../src/app.js";
 import { loadLibraryFilterOptions } from "../public/js/site-view.js";
+import { entryMetadata } from "../public/js/dataset-metadata.js";
 
 let context, app;
 beforeAll(async () => { context = createTestContext(); await initialize(context); app = createApp(context); });
@@ -65,6 +66,7 @@ test("opening a detail from its existing list fetches only the detail and preser
   const fn = source.slice(source.indexOf("async function entryDetail("), source.indexOf("\nfunction bindItemDialog("));
   const urls = [], inserted = [];
   const sandbox = {
+    entryMetadata, document: { querySelector: () => null },
     loadDatasets: async () => {}, state: {datasets:[{slug:"items"}]},
     api: async url => { urls.push(url); return {item:{slug:"furniture-1846",name:"《1000 年后》"}}; },
     app: {querySelector: selector => selector.includes("data-library-dataset") ? {} : null, insertAdjacentHTML: (where, html) => inserted.push(html)},

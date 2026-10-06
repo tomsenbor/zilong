@@ -12,3 +12,37 @@ export function datasetMetadata(dataset, page, total) {
     description: `${dataset.description || dataset.name}。按名称查找${topics}，浏览条目并进入详情核对具体条件。当前第${page}页，共${total}条已发布资料。`
   };
 }
+
+const metadataLabels = {
+  season: "季节", days: "生长天数", sellPrice: "售价", source: "来源",
+  location: "地点", weather: "天气", time: "时间", birthday: "生日",
+  address: "住址", loves: "最爱礼物", ingredients: "材料", energy: "能量",
+  type: "类型", skill: "技能", level: "等级", effect: "效果", reward: "奖励",
+  date: "日期", area: "区域", open: "开放", features: "特色"
+};
+
+function stripMarkdown(value = "") {
+  return String(value)
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/!\[[^\]]*]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)]\([^)]*\)/g, "$1")
+    .replace(/[#>*_`~-]/g, " ")
+    .replace(/\s+/g, " ").trim();
+}
+
+// Shared by SSR and client rendering so opening a dialog keeps entry semantics.
+export function entryMetadata(entry, datasetSlug) {
+  const summary = stripMarkdown(entry.summary || "");
+  const parts = [summary.includes(entry.name) ? summary : `${entry.name}：${summary || entry.dataset_name}`];
+  for (const [key, value] of Object.entries(entry.attributes || {})) {
+    const label = metadataLabels[key] || (/^[\u3400-\u9fff]/.test(key) ? key : null);
+    if (!label || value === null || value === undefined || value === '' || typeof value === 'object' && !Array.isArray(value)) continue;
+    parts.push(`${label}：${Array.isArray(value) ? value.join('、') : stripMarkdown(String(value))}`);
+    if (parts.join('；').length >= 140) break;
+  }
+  const description = stripMarkdown(parts.join('；'));
+  return {
+    title: `${entry.name}：${datasetTopics[datasetSlug] || entry.dataset_name} - 星露谷资料库`,
+    description: description.length > 160 ? `${description.slice(0, 159)}…` : description
+  };
+}
