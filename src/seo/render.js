@@ -13,7 +13,7 @@ import { searchToolResults } from "../utils/tool-search.js";
 import { selectEntries } from "../features/content/entry-query.js";
 import { giftData } from "../features/tools/data/gifts.js";
 import { queryGifts } from "../features/tools/gifts.js";
-import { datasetMetadata, entryMetadata } from "../../public/js/dataset-metadata.js";
+import { datasetMetadata, entryMetadata, articleMetadata } from "../../public/js/dataset-metadata.js";
 
 const siteName = "星露谷物语中文资料库";
 const defaultDescription = "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。";
@@ -487,10 +487,7 @@ function buildGuidePage(db, slug, req, context) {
       html: ""
     };
   }
-  const summary = stripMarkdown(article.summary || '');
-  const headings = [...String(article.body || '').matchAll(/^#{2,3}\s+(.+)$/gm)].map(match => stripMarkdown(match[1]));
-  const description = truncate(summary.length >= 70 || !headings.length ? (summary || article.body || defaultDescription)
-    : `${summary} 本文包括：${headings.join('、')}。`, 160);
+  const { title, description } = articleMetadata(article);
   const canonicalPath = articleLink(article);
   const canonical = absoluteUrl(canonicalPath, req, context);
   const relatedArticles = selectRelatedGuides(article, getArticles(db, 50), 4);
@@ -507,7 +504,7 @@ function buildGuidePage(db, slug, req, context) {
     mainEntityOfPage: canonical
   }];
   return {
-    title: `${article.title} - 星露谷攻略`,
+    title,
     description,
     canonicalPath,
     ogType: "article",

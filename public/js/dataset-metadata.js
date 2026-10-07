@@ -30,6 +30,20 @@ function stripMarkdown(value = "") {
     .replace(/\s+/g, " ").trim();
 }
 
+// Keep the existing SSR guide description rule identical on every client navigation.
+export function articleMetadata(article) {
+  const summary = stripMarkdown(article.summary || "");
+  const headings = [...String(article.body || "").matchAll(/^#{2,3}\s+(.+)$/gm)]
+    .map(match => stripMarkdown(match[1]));
+  const text = stripMarkdown(summary.length >= 70 || !headings.length
+    ? (summary || article.body || "作物 / 鱼类 / NPC / 任务 / 社区中心一站查询，覆盖星露谷物语 1.6.15 的中文资料与攻略。")
+    : `${summary} 本文包括：${headings.join("、")}。`);
+  return {
+    title: `${article.title} - 星露谷攻略`,
+    description: text.length > 160 ? `${text.slice(0, 159)}…` : text
+  };
+}
+
 // Shared by SSR and client rendering so opening a dialog keeps entry semantics.
 export function entryMetadata(entry, datasetSlug) {
   const summary = stripMarkdown(entry.summary || "");

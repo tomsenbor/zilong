@@ -1,5 +1,5 @@
 import { api, escapeHtml, imageFallback } from "./api.js";
-import { datasetMetadata, entryMetadata } from "./dataset-metadata.js";
+import { datasetMetadata, entryMetadata, articleMetadata } from "./dataset-metadata.js";
 import { createArticleOutline, estimateReadingMinutes, formatArticleSectionLabel } from "./article-layout.js";
 import { renderFishTool } from "./tools/fish-tool.js";
 import { renderCropTool } from "./tools/crop-tool.js";
@@ -398,6 +398,9 @@ async function articleDetail(slug) {
     api(`/api/articles/${encodeURIComponent(slug)}`),
     api("/api/articles?pageSize=50")
   ]);
+  const metadata = articleMetadata(item);
+  document.title = metadata.title;
+  document.querySelector('meta[name="description"]')?.setAttribute('content', metadata.description);
   const categories = item.categories?.map((category) => category.name).join(" · ") || "深度攻略";
   app.innerHTML=`
     <section class="guide-detail-shell">
